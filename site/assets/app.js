@@ -1,14 +1,14 @@
 "use strict";
 
 const RACE_LABELS = {
-  "race-aliance": "Альянс",
-  "race-belatto": "Беллато",
-  "race-dominion": "Доминион",
   "race-imperia": "Империя",
-  "race-legion": "Легион",
+  "race-aliance": "Альянс",
+  "race-dominion": "Доминион",
   "race-orda": "Орда",
-  "race-pirats": "Пираты",
   "race-union": "Союз",
+  "race-legion": "Легион",
+  "race-belatto": "Беллато",
+  "race-pirats": "Пираты",
 };
 
 const BRANCH_LABELS = {
@@ -77,51 +77,90 @@ function renderCatalog() {
   app.replaceChildren(cloneTemplate("#catalog-template"));
 
   const search = document.querySelector("#profession-search");
-  const filter = document.querySelector("#class-filter");
-  const classes = [...new Set(archiveIndex.professions.flatMap((item) => item.classes))]
+  const factionFilter = document.querySelector("#faction-filter");
+  const factions = [...new Set(archiveIndex.professions.flatMap((item) => item.classes))]
     .sort((a, b) => raceName([a]).localeCompare(raceName([b]), "ru"));
-  for (const className of classes) {
-    const option = el("option", "", raceName([className]));
-    option.value = className;
-    filter.append(option);
+  for (const faction of factions) {
+    const option = el("option", "", raceName([faction]));
+    option.value = faction;
+    factionFilter.append(option);
   }
 
+  const selectedCategories = new Set();
   const refresh = () => {
     const query = normalize(search.value.trim());
-    const selectedClass = filter.value;
+    const selectedFaction = factionFilter.value;
     const matches = archiveIndex.professions.filter((item) => {
-      const haystack = normalize(item.title + " " + raceName(item.classes) + " " + item.description);
+      const categories = item.categories ?? [];
+      const haystack = normalize([item.title, raceName(item.classes), ...categories, item.description].join(" "));
       return (!query || haystack.includes(query))
-        && (!selectedClass || item.classes.includes(selectedClass));
+        && (!selectedFaction || item.classes.includes(selectedFaction))
+        && (!selectedCategories.size || categories.some((category) => selectedCategories.has(category)));
     });
-    renderProfessionCards(matches);
+    renderProfessionGroups(matches, selectedFaction);
   };
+  renderClassFilters(archiveIndex.categories ?? [], selectedCategories, refresh);
   search.addEventListener("input", refresh);
-  filter.addEventListener("change", refresh);
+  factionFilter.addEventListener("change", refresh);
   refresh();
   app.focus({ preventScroll: true });
 }
 
-function renderProfessionCards(items) {
-  const grid = document.querySelector("#profession-grid");
+function renderClassFilters(categories, selectedCategories, refresh) {
+  if (!categories.length) return;
+  const options = document.querySelector("#class-options");
+  const buttons = new Map();
+  for (const category of ["", ...categories]) {
+    const button = el("button", "class-option", category || "Все классы");
+    button.type = "button";
+    button.setAttribute("aria-pressed", String(!category));
+    button.addEventListener("click", () => {
+      if (!category) selectedCategories.clear();
+      else if (!selectedCategories.delete(category)) selectedCategories.add(category);
+      for (const [label, option] of buttons) {
+        option.setAttribute("aria-pressed", String(label ? selectedCategories.has(label) : !selectedCategories.size));
+      }
+      refresh();
+    });
+    buttons.set(category, button);
+    options.append(button);
+  }
+  document.querySelector("#class-filters").hidden = false;
+}
+
+function renderProfessionGroups(items, selectedFaction) {
+  const grid = document.querySelector("#profession-groups");
   const empty = document.querySelector("#empty-catalog");
   grid.replaceChildren();
   document.querySelector("#result-count").textContent =
     "Показано: " + items.length + " из " + archiveIndex.profession_count;
   empty.hidden = items.length > 0;
 
+  const groups = new Map(Object.keys(RACE_LABELS).map((faction) => [faction, []]));
   for (const item of items) {
-    const card = el("a", "profession-card");
-    card.href = "#/profession/" + encodeURIComponent(item.slug);
-    const avatar = el("span", "card-avatar", item.title.slice(0, 1).toLocaleUpperCase("ru-RU"));
-    const body = el("span", "card-body");
-    body.append(
-      el("span", "card-race", raceName(item.classes)),
-      el("strong", "card-title", item.title),
-      el("span", "card-description", item.description || "Описание отсутствует"),
-    );
-    card.append(avatar, body, el("span", "card-arrow", "→"));
-    grid.append(card);
+    const factions = selectedFaction ? [selectedFaction] : item.classes.length ? item.classes : [""];
+    for (const faction of new Set(factions)) {
+      if (!groups.has(faction)) groups.set(faction, []);
+      groups.get(faction).push(item);
+    }
+  }
+  for (const [faction, professions] of groups) {
+    if (!professions.length) continue;
+    const group = el("section", "profession-group");
+    const list = el("ul", "profession-list");
+    for (const item of professions) {
+      const entry = el("li");
+      const link = el("a", "profession-link");
+      link.href = "#/profession/" + encodeURIComponent(item.slug);
+      link.append(el("span", "profession-link-title", item.title));
+      if (item.categories?.length) {
+        link.append(el("small", "profession-link-class", item.categories.join(", ")));
+      }
+      entry.append(link);
+      list.append(entry);
+    }
+    group.append(el("h2", "faction-heading", raceName(faction ? [faction] : [])), list);
+    grid.append(group);
   }
 }
 

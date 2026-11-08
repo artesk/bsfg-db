@@ -19,6 +19,18 @@ DEFAULT_OUTPUT = ROOT / "site" / "data"
 SLUG_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 KNOWN_BRANCHES = {"base", "one", "two", "three"}
 CLIENT_RELEASE_PATTERN = re.compile(r"\d{4}\.\d{2}\.\d{2}\.\d{6}")
+CLASS_SKILL_LABELS = {
+    "класс чародеев": "Чародеи",
+    "класс тяжелых воинов": "Тяжёлые воины",
+    "класс легких воинов": "Лёгкие воины",
+    "класс магов": "Маги",
+    "класс мастеров войны": "Мастера войны",
+    "класс рыцарей": "Рыцари",
+    "класс убийц": "Убийцы",
+    "класс стрелков": "Стрелки",
+    "класс лекарей": "Лекари",
+    "класс менталистов": "Менталисты",
+}
 
 
 class ContentError(ValueError):
@@ -236,6 +248,7 @@ def write_json(path: Path, value: object) -> None:
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
     catalog: list[dict[str, Any]] = []
+    catalog_categories: set[str] = set()
     total_records = 0
     expected_files: set[str] = set()
 
@@ -247,6 +260,13 @@ def build(content: Path, output: Path) -> tuple[int, int]:
             len({row["name"] for row in section["entries"]})
             for section in profession["sections"]
         )
+        skill_names = {
+            row["name"].casefold().replace("ё", "е")
+            for section in profession["sections"]
+            for row in section["entries"]
+        }
+        categories = [label for name, label in CLASS_SKILL_LABELS.items() if name in skill_names]
+        catalog_categories.update(categories)
         total_records += record_count
         filename = f"{slug}.json"
         expected_files.add(filename)
@@ -265,6 +285,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
             "slug": slug,
             "title": profession["title"],
             "classes": profession["title_classes"],
+            "categories": categories,
             "description": profession["descriptions"][0],
             "photo": profession["photo"],
             "skill_count": skill_count,
@@ -283,6 +304,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
         "source_list": metadata["source_list"],
         "profession_count": len(catalog),
         "record_count": total_records,
+        "categories": [label for label in CLASS_SKILL_LABELS.values() if label in catalog_categories],
         "professions": catalog,
     })
     return len(catalog), total_records

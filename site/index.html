@@ -36,12 +36,16 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
           <input id="profession-search" type="search" placeholder="Найти профессию…" autocomplete="off">
         </label>
-        <label class="filter-box"><span>Фракция</span><select id="class-filter"><option value="">Все</option></select></label>
-        <p id="result-count" class="result-count"></p>
+        <label class="filter-box"><span>Фракция</span><select id="faction-filter"><option value="">Все</option></select></label>
+        <p id="result-count" class="result-count" role="status"></p>
       </div>
-      <div id="profession-grid" class="profession-grid"></div>
+      <fieldset id="class-filters" class="class-filters" hidden>
+        <legend>Классы</legend>
+        <div id="class-options" class="class-options"></div>
+      </fieldset>
+      <div id="profession-groups" class="profession-groups"></div>
       <div id="empty-catalog" class="empty-state" hidden>
-        <h2>Ничего не найдено</h2><p>Попробуйте изменить запрос или выбрать другую фракцию.</p>
+        <h2>Ничего не найдено</h2><p>Попробуйте изменить запрос или фильтры.</p>
       </div>
     </section>
   </template>

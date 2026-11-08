@@ -578,28 +578,16 @@ function renderEquipment(path, catalog, category, data) {
   const search = document.querySelector("#equipment-search");
   const results = document.querySelector("#equipment-results");
   const counter = document.querySelector("#equipment-count");
-  const more = document.querySelector("#equipment-more");
-  const pageSize = 24;
-  let matches = [];
-  let shown = 0;
-  const next = () => {
-    results.append(...matches.slice(shown, shown + pageSize).map(renderEquipmentEntry));
-    shown = Math.min(matches.length, shown + pageSize);
-    counter.textContent = matches.length ? "Показано " + shown + " из " + matches.length : "Совпадений нет.";
-    more.hidden = shown === matches.length;
-  };
   const refresh = () => {
     const query = normalize(search.value.trim());
-    matches = entries.filter(entry => (rank.value === "all" || entry.items[0].rank === rank.value)
+    const matches = entries.filter(entry => (rank.value === "all" || entry.items[0].rank === rank.value)
       && entry.items.some(item => normalize(item.name + " " + (item.label || "")).includes(query)
         || String(item.id) === query));
-    shown = 0;
-    results.replaceChildren();
-    next();
+    results.replaceChildren(...matches.map(renderEquipmentEntry));
+    counter.textContent = matches.length ? "Показано " + matches.length : "Совпадений нет.";
   };
   search.addEventListener("input", refresh);
   rank.addEventListener("change", refresh);
-  more.addEventListener("click", next);
   refresh();
 }
 
@@ -628,16 +616,18 @@ function renderEquipmentItem(item) {
     stats.append(el("dt", "", EQUIPMENT_STATS[key]), el("dd", "", value.toLocaleString("ru-RU", {maximumFractionDigits: 4})));
   }
   if (stats.childElementCount) card.append(stats);
-  const hasEffects = item.effects || item.enchant_effect;
-  if (hasEffects || item.recipes) {
-    const details = el("details", "equipment-details");
-    const summary = hasEffects && item.recipes ? "Эффекты и рецепты" : hasEffects ? "Эффекты" : "Рецепты";
-    details.append(el("summary", "", summary));
-    for (const effect of item.effects || []) details.append(el("p", "progression-effect", effect));
+  if (item.effects?.length || item.enchant_effect) {
+    const effects = el("div", "equipment-effects");
+    for (const effect of item.effects || []) effects.append(el("p", "progression-effect", effect));
     if (item.enchant_effect) {
-      details.append(el("p", "progression-effect", "Эффект заточки · " + item.enchant_effect));
+      effects.append(el("p", "progression-effect", "Эффект заточки · " + item.enchant_effect));
     }
-    for (const recipe of item.recipes || []) {
+    card.append(effects);
+  }
+  if (item.recipes?.length) {
+    const details = el("details", "equipment-details");
+    details.append(el("summary", "", "Рецепты"));
+    for (const recipe of item.recipes) {
       details.append(el("p", "", "Рецепт " + recipe.id + " · уровень " + recipe.level
         + " · результат ×" + recipe.quantity + " · шанс " + recipe.success + "%"
         + (recipe.mana === undefined ? "" : " · мана " + recipe.mana.toLocaleString("ru-RU"))));

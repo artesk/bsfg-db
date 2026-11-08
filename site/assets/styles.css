@@ -128,10 +128,11 @@ h1 {
 .equipment-item h4 { margin: 0; }
 .equipment-item .icon-fallback:has(+ img) { visibility: hidden; }
 .equipment-stats { padding: 0 14px 12px; }
-.equipment-details { border-top: 1px solid var(--line); padding: 10px 14px; font-size: 14px; }
+.equipment-details, .equipment-effects { border-top: 1px solid var(--line); padding: 10px 14px; font-size: 14px; }
 .equipment-details summary { cursor: pointer; color: var(--accent-2); }
 .equipment-details p, .equipment-details ul { margin: 8px 0 0; }
-#equipment-more { margin-top: 16px; }
+.equipment-effects p { margin: 0; }
+.equipment-effects p + p { margin-top: 8px; }
 .military-calculator { max-width: 800px; margin-bottom: 36px; padding: clamp(12px, 3vw, 22px); }
 #military-award-icon { align-self: end; }
 .progression-card .icon-fallback:has(+ img),

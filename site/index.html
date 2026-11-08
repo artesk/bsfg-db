@@ -101,21 +101,18 @@
           <div id="jewelry-ranks" class="class-options"></div>
         </fieldset>
         <fieldset id="jewelry-variant-filter" class="class-filters" hidden>
-          <legend>Вариант MA</legend>
-          <div class="class-options">
-            <button class="class-option" type="button" value="normal" aria-pressed="true">Обычная</button>
-            <button class="class-option" type="button" value="epic" aria-pressed="false">Эпик</button>
-          </div>
+          <legend>Качество</legend>
+          <div class="class-options"></div>
         </fieldset>
         <label class="search-box">
           <span class="visually-hidden">Найти босса или украшение</span>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
-          <input id="jewelry-search" type="search" placeholder="Найти босса или украшение…" autocomplete="off">
+          <input id="jewelry-search" type="search" placeholder="Имя босса, название или ID предмета…" autocomplete="off">
         </label>
       </div>
       <div id="jewelry-results" class="jewelry-results"></div>
       <div id="empty-jewelry" class="empty-state" hidden><p>Боссы и украшения по этому запросу не найдены.</p></div>
-      <p class="enchant-source"><a id="jewelry-source" target="_blank" rel="noreferrer">Архивная таблица BSFG ↗</a></p>
+      <p class="enchant-source">Данные клиента BSFG <span id="jewelry-client-release"></span> · <a id="jewelry-source" target="_blank" rel="noreferrer">Архивная таблица BSFG ↗</a></p>
     </article>
   </template>
 

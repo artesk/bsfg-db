@@ -87,7 +87,7 @@ ranks:
     items:
     - item_id: 24591
       name: Ожерелье ангела мести
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.vengeance_angel_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -95,7 +95,7 @@ ranks:
       - Пауза между использованием физических умений -5%
     - item_id: 24679
       name: Ожерелье ангела мести
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.vengeance_angel_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -105,7 +105,7 @@ ranks:
       - Пауза между использованием физических умений -5%
     - item_id: 24733
       name: Ожерелье ангела мести
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.vengeance_angel_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -115,7 +115,7 @@ ranks:
       - Пауза между использованием физических умений -5%
     - item_id: 24627
       name: Серьга ангела мести
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.vengeance_angel_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -123,7 +123,7 @@ ranks:
       - Шанс критической магии +3%
     - item_id: 24715
       name: Серьга ангела мести
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.vengeance_angel_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -133,7 +133,7 @@ ranks:
       - Шанс критической магии +3%
     - item_id: 24769
       name: Серьга ангела мести
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.vengeance_angel_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -143,7 +143,7 @@ ranks:
       - Шанс критической магии +3%
     - item_id: 24609
       name: Кольцо ангела мести
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.vengeance_angel_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -151,7 +151,7 @@ ranks:
       - Сила критической магии +3%
     - item_id: 24697
       name: Кольцо ангела мести
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.vengeance_angel_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -161,7 +161,7 @@ ranks:
       - Сила критической магии +3%
     - item_id: 24751
       name: Кольцо ангела мести
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.vengeance_angel_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -173,7 +173,7 @@ ranks:
     items:
     - item_id: 25392
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: normal
       magic_defense: 95
       effects:
@@ -181,21 +181,21 @@ ranks:
       - Сила критической атаки магией +4%
     - item_id: 25393
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: normal
       magic_defense: 95
       effects:
       - Сила критической атаки +7%
     - item_id: 25394
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: normal
       magic_defense: 95
       effects:
       - Физическая атака +7%
     - item_id: 25395
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: normal
       magic_defense: 95
       effects:
@@ -203,7 +203,7 @@ ranks:
       - Сила восстановления боевого духа +11%
     - item_id: 25396
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: epic
       magic_defense: 106
       effects:
@@ -213,7 +213,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 25397
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: epic
       magic_defense: 106
       effects:
@@ -222,7 +222,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 25398
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: epic
       magic_defense: 106
       effects:
@@ -231,7 +231,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 25399
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: epic
       magic_defense: 106
       effects:
@@ -241,7 +241,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 25400
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: relic
       magic_defense: 150
       effects:
@@ -251,7 +251,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 25401
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: relic
       magic_defense: 150
       effects:
@@ -260,7 +260,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 25402
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: relic
       magic_defense: 150
       effects:
@@ -269,7 +269,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 25403
       name: Ожерелье Атарокса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: relic
       magic_defense: 150
       effects:
@@ -358,7 +358,7 @@ ranks:
     items:
     - item_id: 25015
       name: Серьга интенсивности бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: normal
       magic_defense: 86
       effects:
@@ -366,7 +366,7 @@ ranks:
       - Сила критической атаки магией +3.5%
     - item_id: 25016
       name: Серьга благословления бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: normal
       magic_defense: 86
       effects:
@@ -374,21 +374,21 @@ ranks:
       - Сила восстановления боевого духа +9%
     - item_id: 25017
       name: Серьга боли бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: normal
       magic_defense: 86
       effects:
       - Сила критической атаки +6%
     - item_id: 25018
       name: Серьга силы бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: normal
       magic_defense: 86
       effects:
       - Физическая атака +6%
     - item_id: 25019
       name: Серьга интенсивности бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: epic
       magic_defense: 90
       effects:
@@ -398,7 +398,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 25020
       name: Серьга благословления бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: epic
       magic_defense: 90
       effects:
@@ -408,7 +408,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 25021
       name: Серьга боли бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: epic
       magic_defense: 90
       effects:
@@ -417,7 +417,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 25022
       name: Серьга силы бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: epic
       magic_defense: 90
       effects:
@@ -426,7 +426,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 25023
       name: Серьга интенсивности бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: relic
       magic_defense: 96
       effects:
@@ -436,7 +436,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 25024
       name: Серьга благословления бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: relic
       magic_defense: 96
       effects:
@@ -446,7 +446,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 25025
       name: Серьга боли бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: relic
       magic_defense: 96
       effects:
@@ -455,7 +455,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 25026
       name: Серьга силы бастиона
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: relic
       magic_defense: 96
       effects:
@@ -466,14 +466,14 @@ ranks:
     items:
     - item_id: 24604
       name: Ожерелье Бурекрылой
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.stormwing_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
       - Сила магических умений +6.5%
     - item_id: 24692
       name: Ожерелье Бурекрылой
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.stormwing_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -482,7 +482,7 @@ ranks:
       - Сила магических умений +6.5%
     - item_id: 24746
       name: Ожерелье Бурекрылой
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.stormwing_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -491,7 +491,7 @@ ranks:
       - Сила магических умений +6.5%
     - item_id: 24640
       name: Серьга Бурекрылой
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.stormwing_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -499,7 +499,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24728
       name: Серьга Бурекрылой
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.stormwing_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -509,7 +509,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24782
       name: Серьга Бурекрылой
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.stormwing_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -519,7 +519,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24622
       name: Кольцо Бурекрылой
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_friendship_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -527,7 +527,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24710
       name: Кольцо Бурекрылой
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_friendship_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -537,7 +537,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24764
       name: Кольцо Бурекрылой
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_friendship_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -549,7 +549,7 @@ ranks:
     items:
     - item_id: 24603
       name: Ожерелье Глаза бога
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.dragon_accessary_necklace.png
       variant: normal
       magic_defense: 102
       effects:
@@ -557,7 +557,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24691
       name: Ожерелье Глаза бога
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.dragon_accessary_necklace.png
       variant: epic
       magic_defense: 108
       effects:
@@ -567,7 +567,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24745
       name: Ожерелье Глаза бога
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.dragon_accessary_necklace.png
       variant: relic
       magic_defense: 114
       effects:
@@ -577,14 +577,14 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24639
       name: Серьга Глаза бога
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.dragon_accessary_earring.png
       variant: normal
       magic_defense: 86
       effects:
       - Сила умений класса Убийц +7.5%
     - item_id: 24727
       name: Серьга Глаза бога
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.dragon_accessary_earring.png
       variant: epic
       magic_defense: 90
       effects:
@@ -593,7 +593,7 @@ ranks:
       - Сила умений класса Убийц +7.5%
     - item_id: 24781
       name: Серьга Глаза бога
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.dragon_accessary_earring.png
       variant: relic
       magic_defense: 96
       effects:
@@ -602,7 +602,7 @@ ranks:
       - Сила умений класса Убийц +7.5%
     - item_id: 24621
       name: Кольцо Глаза бога
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.dragon_accessary_ring.png
       variant: normal
       magic_defense: 55
       effects:
@@ -610,7 +610,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24709
       name: Кольцо Глаза бога
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.dragon_accessary_ring.png
       variant: epic
       magic_defense: 60
       effects:
@@ -620,7 +620,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24763
       name: Кольцо Глаза бога
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.dragon_accessary_ring.png
       variant: relic
       magic_defense: 66
       effects:
@@ -632,7 +632,7 @@ ranks:
     items:
     - item_id: 24607
       name: Ожерелье Гнилозуба
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.rottooth_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -640,7 +640,7 @@ ranks:
       - Сила критической магии +3%
     - item_id: 24695
       name: Ожерелье Гнилозуба
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.rottooth_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -650,7 +650,7 @@ ranks:
       - Сила критической магии +3%
     - item_id: 24749
       name: Ожерелье Гнилозуба
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.rottooth_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -660,7 +660,7 @@ ranks:
       - Сила критической магии +3%
     - item_id: 24643
       name: Серьга Гнилозуба
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.rottooth_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -668,7 +668,7 @@ ranks:
       - Сила критических атак +3%
     - item_id: 24731
       name: Серьга Гнилозуба
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.rottooth_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -678,7 +678,7 @@ ranks:
       - Сила критических атак +3%
     - item_id: 24785
       name: Серьга Гнилозуба
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.rottooth_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -688,7 +688,7 @@ ranks:
       - Сила критических атак +3%
     - item_id: 24625
       name: Кольцо Гнилозуба
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.rottooth_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -696,7 +696,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24713
       name: Кольцо Гнилозуба
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.rottooth_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -706,7 +706,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24767
       name: Кольцо Гнилозуба
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.rottooth_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -976,7 +976,7 @@ ranks:
     items:
     - item_id: 24595
       name: Ожерелье древнего инженера
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.accessory_necklace_of_perion_i01.png
       variant: normal
       magic_defense: 102
       effects:
@@ -984,7 +984,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24683
       name: Ожерелье древнего инженера
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.accessory_necklace_of_perion_i01.png
       variant: epic
       magic_defense: 108
       effects:
@@ -994,7 +994,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24737
       name: Ожерелье древнего инженера
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.accessory_necklace_of_perion_i01.png
       variant: relic
       magic_defense: 114
       effects:
@@ -1004,7 +1004,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24631
       name: Серьга древнего инженера
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.engneer_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -1012,7 +1012,7 @@ ranks:
       - Скорость бега +1
     - item_id: 24719
       name: Серьга древнего инженера
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.engneer_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -1022,7 +1022,7 @@ ranks:
       - Скорость бега +1
     - item_id: 24773
       name: Серьга древнего инженера
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.engneer_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -1032,7 +1032,7 @@ ranks:
       - Скорость бега +1
     - item_id: 24613
       name: Кольцо древнего инженера
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.engneer_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -1040,7 +1040,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24701
       name: Кольцо древнего инженера
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.engneer_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1050,7 +1050,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24755
       name: Кольцо древнего инженера
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.engneer_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1062,7 +1062,7 @@ ranks:
     items:
     - item_id: 24602
       name: Ожерелье Древоборода
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.elemental_necklace_earth_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -1070,7 +1070,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24690
       name: Ожерелье Древоборода
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.elemental_necklace_earth_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -1080,7 +1080,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24744
       name: Ожерелье Древоборода
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.elemental_necklace_earth_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -1090,7 +1090,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24638
       name: Серьга Древоборода
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.treebeard_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -1098,7 +1098,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24726
       name: Серьга Древоборода
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.treebeard_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -1108,7 +1108,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24780
       name: Серьга Древоборода
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.treebeard_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -1118,7 +1118,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24620
       name: Кольцо Древоборода
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.ring_of_sylph_00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -1126,7 +1126,7 @@ ranks:
       - Сила магических умений +3%
     - item_id: 24708
       name: Кольцо Древоборода
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.ring_of_sylph_00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1136,7 +1136,7 @@ ranks:
       - Сила магических умений +3%
     - item_id: 24762
       name: Кольцо Древоборода
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.ring_of_sylph_00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1204,14 +1204,14 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19874
       name: Кольцо Жабы
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r95_earring_piece.png
       variant: normal
       magic_defense: 55
       effects:
       - Магическая атака +9.5%
     - item_id: 21703
       name: Кольцо Жабы
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r95_earring_piece.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1220,7 +1220,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21757
       name: Кольцо Жабы
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r95_earring_piece.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1231,7 +1231,7 @@ ranks:
     items:
     - item_id: 24592
       name: Ожерелье Живодера
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r1_necklace_i01.png
       variant: normal
       magic_defense: 102
       effects:
@@ -1239,7 +1239,7 @@ ranks:
       - Скорость бега +1
     - item_id: 24680
       name: Ожерелье Живодера
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r1_necklace_i01.png
       variant: epic
       magic_defense: 108
       effects:
@@ -1249,7 +1249,7 @@ ranks:
       - Скорость бега +1
     - item_id: 24734
       name: Ожерелье Живодера
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r1_necklace_i01.png
       variant: relic
       magic_defense: 114
       effects:
@@ -1259,7 +1259,7 @@ ranks:
       - Скорость бега +1
     - item_id: 24628
       name: Серьга Живодера
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.flayer_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -1267,7 +1267,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24716
       name: Серьга Живодера
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.flayer_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -1277,7 +1277,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24770
       name: Серьга Живодера
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.flayer_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -1287,7 +1287,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24610
       name: Кольцо Живодера
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.new_ring_of_hero.png
       variant: normal
       magic_defense: 55
       effects:
@@ -1295,7 +1295,7 @@ ranks:
       - Сила критического удара умением +4%
     - item_id: 24698
       name: Кольцо Живодера
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.new_ring_of_hero.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1305,7 +1305,7 @@ ranks:
       - Сила критического удара умением +4%
     - item_id: 24752
       name: Кольцо Живодера
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.new_ring_of_hero.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1317,7 +1317,7 @@ ranks:
     items:
     - item_id: 24599
       name: Ожерелье Забытого короля
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.tree_king_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -1325,7 +1325,7 @@ ranks:
       - Сила критического удара умением +4%
     - item_id: 24687
       name: Ожерелье Забытого короля
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.tree_king_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -1335,7 +1335,7 @@ ranks:
       - Сила критического удара умением +4%
     - item_id: 24741
       name: Ожерелье Забытого короля
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.tree_king_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -1373,7 +1373,7 @@ ranks:
       - Сила магических умений +3%
     - item_id: 24617
       name: Кольцо Забытого короля
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_helios_enchant_red.png
       variant: normal
       magic_defense: 55
       effects:
@@ -1381,7 +1381,7 @@ ranks:
       - Пауза между использованием физических умений -5%
     - item_id: 24705
       name: Кольцо Забытого короля
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_helios_enchant_red.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1391,7 +1391,7 @@ ranks:
       - Пауза между использованием физических умений -5%
     - item_id: 24759
       name: Кольцо Забытого короля
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_helios_enchant_red.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1403,14 +1403,14 @@ ranks:
     items:
     - item_id: 24977
       name: Ожерелье Зефира
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace02.png
       variant: normal
       magic_defense: 108
       effects:
       - Сила критической атаки +6%
     - item_id: 24985
       name: Ожерелье Зефира
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace02.png
       variant: epic
       magic_defense: 114
       effects:
@@ -1419,7 +1419,7 @@ ranks:
       - Сила критической атаки +6%
     - item_id: 24993
       name: Ожерелье Зефира
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace02.png
       variant: relic
       magic_defense: 127
       effects:
@@ -1430,7 +1430,7 @@ ranks:
     items:
     - item_id: 19901
       name: Ожерелье Инко
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r2_necklace_i01.png
       variant: normal
       magic_defense: 102
       effects:
@@ -1438,7 +1438,7 @@ ranks:
       - Шанс критической атаки +15%
     - item_id: 21730
       name: Ожерелье Инко
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r2_necklace_i01.png
       variant: epic
       magic_defense: 108
       effects:
@@ -1448,7 +1448,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21784
       name: Ожерелье Инко
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r2_necklace_i01.png
       variant: relic
       magic_defense: 114
       effects:
@@ -1486,7 +1486,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19875
       name: Кольцо Инко
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r2_ring_i01.png
       variant: normal
       magic_defense: 55
       effects:
@@ -1494,7 +1494,7 @@ ranks:
       - Сила критической атаки +3%
     - item_id: 21704
       name: Кольцо Инко
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r2_ring_i01.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1504,7 +1504,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21758
       name: Кольцо Инко
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r2_ring_i01.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1541,14 +1541,14 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19887
       name: Серьга Корня зла
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.bm_r95_necklace_i00.png
       variant: normal
       magic_defense: 86
       effects:
       - Скорость +2
     - item_id: 21716
       name: Серьга Корня зла
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.bm_r95_necklace_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -1557,7 +1557,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21770
       name: Серьга Корня зла
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.bm_r95_necklace_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -1566,7 +1566,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19876
       name: Кольцо Корня зла
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r95_necklace_piece.png
       variant: normal
       magic_defense: 55
       effects:
@@ -1574,7 +1574,7 @@ ranks:
       - Физическая атака +3%
     - item_id: 21705
       name: Кольцо Корня зла
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r95_necklace_piece.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1584,7 +1584,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21759
       name: Кольцо Корня зла
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r95_necklace_piece.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1596,7 +1596,7 @@ ranks:
     items:
     - item_id: 24979
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: normal
       magic_defense: 60
       effects:
@@ -1604,7 +1604,7 @@ ranks:
       - Сила критической атаки магией +3.5%
     - item_id: 24980
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: normal
       magic_defense: 60
       effects:
@@ -1612,21 +1612,21 @@ ranks:
       - Сила восстановления боевого духа +9%
     - item_id: 24981
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: normal
       magic_defense: 60
       effects:
       - Сила критической атаки +6%
     - item_id: 24982
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: normal
       magic_defense: 60
       effects:
       - Физическая атака +6%
     - item_id: 24987
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: epic
       magic_defense: 66
       effects:
@@ -1636,7 +1636,7 @@ ranks:
       - Сила критической атаки магией +3.5%
     - item_id: 24988
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: epic
       magic_defense: 66
       effects:
@@ -1646,7 +1646,7 @@ ranks:
       - Сила восстановления боевого духа +9%
     - item_id: 24989
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: epic
       magic_defense: 66
       effects:
@@ -1655,7 +1655,7 @@ ranks:
       - Сила критической атаки +6%
     - item_id: 24990
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: epic
       magic_defense: 66
       effects:
@@ -1664,7 +1664,7 @@ ranks:
       - Физическая атака +6%
     - item_id: 24995
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: relic
       magic_defense: 78
       effects:
@@ -1674,7 +1674,7 @@ ranks:
       - Сила критической атаки магией +3.5%
     - item_id: 24996
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: relic
       magic_defense: 78
       effects:
@@ -1684,7 +1684,7 @@ ranks:
       - Сила восстановления боевого духа +9%
     - item_id: 24997
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: relic
       magic_defense: 78
       effects:
@@ -1693,7 +1693,7 @@ ranks:
       - Сила критической атаки +6%
     - item_id: 24998
       name: Кольцо Королевы муравьев
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: relic
       magic_defense: 78
       effects:
@@ -1704,7 +1704,7 @@ ranks:
     items:
     - item_id: 24594
       name: Ожерелье королевы насекомых
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.insect_queen_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -1712,7 +1712,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24682
       name: Ожерелье королевы насекомых
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.insect_queen_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -1722,7 +1722,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24736
       name: Ожерелье королевы насекомых
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.insect_queen_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -1732,7 +1732,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24630
       name: Серьга королевы насекомых
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.insect_queen_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -1740,7 +1740,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24718
       name: Серьга королевы насекомых
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.insect_queen_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -1750,7 +1750,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24772
       name: Серьга королевы насекомых
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.insect_queen_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -1760,7 +1760,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24612
       name: Кольцо королевы насекомых
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_gourd_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -1768,7 +1768,7 @@ ranks:
       - Шанс критической магии +3%
     - item_id: 24700
       name: Кольцо королевы насекомых
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_gourd_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1778,7 +1778,7 @@ ranks:
       - Шанс критической магии +3%
     - item_id: 24754
       name: Кольцо королевы насекомых
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessory_ring_of_gourd_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1790,7 +1790,7 @@ ranks:
     items:
     - item_id: 24601
       name: Ожерелье Королевы ужаса
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessary_dragon_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -1798,7 +1798,7 @@ ranks:
       - Сила магических умений +4%
     - item_id: 24689
       name: Ожерелье Королевы ужаса
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessary_dragon_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -1808,7 +1808,7 @@ ranks:
       - Сила магических умений +4%
     - item_id: 24743
       name: Ожерелье Королевы ужаса
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessary_dragon_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -1818,7 +1818,7 @@ ranks:
       - Сила магических умений +4%
     - item_id: 24637
       name: Серьга Королевы ужаса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.queen_of_horror_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -1826,7 +1826,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24725
       name: Серьга Королевы ужаса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.queen_of_horror_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -1836,7 +1836,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24779
       name: Серьга Королевы ужаса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.queen_of_horror_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -1846,7 +1846,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24619
       name: Кольцо Королевы ужаса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.queen_of_horror_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -1855,7 +1855,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24707
       name: Кольцо Королевы ужаса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.queen_of_horror_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1866,7 +1866,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24761
       name: Кольцо Королевы ужаса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.queen_of_horror_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1879,7 +1879,7 @@ ranks:
     items:
     - item_id: 19902
       name: Ожерелье Крока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r95_necklace_i01.png
       variant: normal
       magic_defense: 102
       effects:
@@ -1887,7 +1887,7 @@ ranks:
       - Сила критической атаки магией +3%
     - item_id: 21731
       name: Ожерелье Крока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r95_necklace_i01.png
       variant: epic
       magic_defense: 108
       effects:
@@ -1897,7 +1897,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21785
       name: Ожерелье Крока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r95_necklace_i01.png
       variant: relic
       magic_defense: 114
       effects:
@@ -1932,7 +1932,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19877
       name: Кольцо Крока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r95_ring_i01.png
       variant: normal
       magic_defense: 55
       effects:
@@ -1940,7 +1940,7 @@ ranks:
       - Сила восстановления боевого духа +7%
     - item_id: 21706
       name: Кольцо Крока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r95_ring_i01.png
       variant: epic
       magic_defense: 60
       effects:
@@ -1950,7 +1950,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21760
       name: Кольцо Крока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r95_ring_i01.png
       variant: relic
       magic_defense: 66
       effects:
@@ -1962,7 +1962,7 @@ ranks:
     items:
     - item_id: 24598
       name: Ожерелье Минотавра
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.minotaurus_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -1970,7 +1970,7 @@ ranks:
       - Сила критических атак +3%
     - item_id: 24686
       name: Ожерелье Минотавра
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.minotaurus_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -1980,7 +1980,7 @@ ranks:
       - Сила критических атак +3%
     - item_id: 24740
       name: Ожерелье Минотавра
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.minotaurus_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -2018,7 +2018,7 @@ ranks:
       - Пауза между использованием физических умений -5%
     - item_id: 24616
       name: Кольцо Минотавра
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.minotaurus_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -2026,7 +2026,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24704
       name: Кольцо Минотавра
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.minotaurus_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -2036,7 +2036,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24758
       name: Кольцо Минотавра
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.minotaurus_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -2048,7 +2048,7 @@ ranks:
     items:
     - item_id: 24976
       name: Ожерелье Моа
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace04.png
       variant: normal
       magic_defense: 108
       effects:
@@ -2056,7 +2056,7 @@ ranks:
       - Сила восстановления боевого духа +9%
     - item_id: 24984
       name: Ожерелье Моа
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace04.png
       variant: epic
       magic_defense: 114
       effects:
@@ -2066,7 +2066,7 @@ ranks:
       - Сила восстановления боевого духа +9%
     - item_id: 24992
       name: Ожерелье Моа
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace04.png
       variant: relic
       magic_defense: 127
       effects:
@@ -2106,7 +2106,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19888
       name: Серьга Наги
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r991_ring_piece.png
       variant: normal
       magic_defense: 86
       effects:
@@ -2115,7 +2115,7 @@ ranks:
       - Скорость +1
     - item_id: 21717
       name: Серьга Наги
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r991_ring_piece.png
       variant: epic
       magic_defense: 90
       effects:
@@ -2126,7 +2126,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21771
       name: Серьга Наги
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r991_ring_piece.png
       variant: relic
       magic_defense: 96
       effects:
@@ -2137,14 +2137,14 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19878
       name: Кольцо Наги
-      icon: ''
+      icon: /icon/pit-jewelry/icon.ring_earthworm_heart.png
       variant: normal
       magic_defense: 55
       effects:
       - Скорость +2
     - item_id: 21707
       name: Кольцо Наги
-      icon: ''
+      icon: /icon/pit-jewelry/icon.ring_earthworm_heart.png
       variant: epic
       magic_defense: 60
       effects:
@@ -2153,7 +2153,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21761
       name: Кольцо Наги
-      icon: ''
+      icon: /icon/pit-jewelry/icon.ring_earthworm_heart.png
       variant: relic
       magic_defense: 66
       effects:
@@ -2164,7 +2164,7 @@ ranks:
     items:
     - item_id: 24975
       name: Ожерелье Никши
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace01.png
       variant: normal
       magic_defense: 108
       effects:
@@ -2172,7 +2172,7 @@ ranks:
       - Сила критической атаки магией +3.5%
     - item_id: 24983
       name: Ожерелье Никши
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace01.png
       variant: epic
       magic_defense: 114
       effects:
@@ -2182,7 +2182,7 @@ ranks:
       - Сила критической атаки магией +3.5%
     - item_id: 24991
       name: Ожерелье Никши
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace01.png
       variant: relic
       magic_defense: 127
       effects:
@@ -2194,7 +2194,7 @@ ranks:
     items:
     - item_id: 24597
       name: Ожерелье Носферату
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.nosferatu_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -2202,7 +2202,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24685
       name: Ожерелье Носферату
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.nosferatu_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -2212,7 +2212,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24739
       name: Ожерелье Носферату
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.nosferatu_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -2222,14 +2222,14 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24633
       name: Серьга Носферату
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.nosferatu_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
       - Сила магических умений +6.5%
     - item_id: 24721
       name: Серьга Носферату
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.nosferatu_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -2238,7 +2238,7 @@ ranks:
       - Сила магических умений +6.5%
     - item_id: 24775
       name: Серьга Носферату
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.nosferatu_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -2247,7 +2247,7 @@ ranks:
       - Сила магических умений +6.5%
     - item_id: 24615
       name: Кольцо Носферату
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.nosferatu_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -2255,7 +2255,7 @@ ranks:
       - Сила магических умений +4%
     - item_id: 24703
       name: Кольцо Носферату
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.nosferatu_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -2265,7 +2265,7 @@ ranks:
       - Сила магических умений +4%
     - item_id: 24757
       name: Кольцо Носферату
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.nosferatu_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -2305,14 +2305,14 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19889
       name: Серьга Ока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_earring_i00.png
       variant: normal
       magic_defense: 86
       effects:
       - Магическая атака +9.5%
     - item_id: 21718
       name: Серьга Ока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_earring_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -2321,7 +2321,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21772
       name: Серьга Ока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_earring_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -2330,7 +2330,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19879
       name: Кольцо Ока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -2339,7 +2339,7 @@ ranks:
       - Скорость чтения заклинаний +1.5%
     - item_id: 21708
       name: Кольцо Ока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -2350,7 +2350,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21762
       name: Кольцо Ока
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -2363,7 +2363,7 @@ ranks:
     items:
     - item_id: 19903
       name: Ожерелье Падальщика
-      icon: ''
+      icon: /icon/pit-jewelry/icon.istina_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -2371,7 +2371,7 @@ ranks:
       - Физическая атака +3%
     - item_id: 21732
       name: Ожерелье Падальщика
-      icon: ''
+      icon: /icon/pit-jewelry/icon.istina_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -2381,7 +2381,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21786
       name: Ожерелье Падальщика
-      icon: ''
+      icon: /icon/pit-jewelry/icon.istina_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -2419,14 +2419,14 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19880
       name: Кольцо Падальщика
-      icon: ''
+      icon: /icon/pit-jewelry/icon.istina_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
       - Сила критической атаки +5%
     - item_id: 21709
       name: Кольцо Падальщика
-      icon: ''
+      icon: /icon/pit-jewelry/icon.istina_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -2435,7 +2435,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21763
       name: Кольцо Падальщика
-      icon: ''
+      icon: /icon/pit-jewelry/icon.istina_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -2446,14 +2446,14 @@ ranks:
     items:
     - item_id: 24590
       name: Ожерелье посланника тьмы
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.darkness_messenger_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
       - Сила умений класса Убийц +7.5%
     - item_id: 24678
       name: Ожерелье посланника тьмы
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.darkness_messenger_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -2462,7 +2462,7 @@ ranks:
       - Сила умений класса Убийц +7.5%
     - item_id: 24732
       name: Ожерелье посланника тьмы
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.darkness_messenger_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -2496,7 +2496,7 @@ ranks:
       - Сила физических умений +6.5%
     - item_id: 24608
       name: Кольцо посланника тьмы
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.ring_of_deathknight_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -2504,7 +2504,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24696
       name: Кольцо посланника тьмы
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.ring_of_deathknight_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -2514,7 +2514,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24750
       name: Кольцо посланника тьмы
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.ring_of_deathknight_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -2526,7 +2526,7 @@ ranks:
     items:
     - item_id: 19904
       name: Ожерелье Провидца
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.bm_ring_earthworm_heart.png
       variant: normal
       magic_defense: 102
       effects:
@@ -2534,7 +2534,7 @@ ranks:
       - Скорость атаки +1.5%
     - item_id: 21733
       name: Ожерелье Провидца
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.bm_ring_earthworm_heart.png
       variant: epic
       magic_defense: 108
       effects:
@@ -2544,7 +2544,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21787
       name: Ожерелье Провидца
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.bm_ring_earthworm_heart.png
       variant: relic
       magic_defense: 114
       effects:
@@ -2554,7 +2554,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19890
       name: Серьга Провидца
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r991_earring_piece.png
       variant: normal
       magic_defense: 86
       effects:
@@ -2562,7 +2562,7 @@ ranks:
       - Шанс критической атаки +15%
     - item_id: 21719
       name: Серьга Провидца
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r991_earring_piece.png
       variant: epic
       magic_defense: 90
       effects:
@@ -2572,7 +2572,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21773
       name: Серьга Провидца
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r991_earring_piece.png
       variant: relic
       magic_defense: 96
       effects:
@@ -2612,7 +2612,7 @@ ranks:
     items:
     - item_id: 24606
       name: Ожерелье Рафаила
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessary_dynasty_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -2621,7 +2621,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24694
       name: Ожерелье Рафаила
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessary_dynasty_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -2632,7 +2632,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24748
       name: Ожерелье Рафаила
-      icon: ''
+      icon: /icon/pit-jewelry/icon.accessary_dynasty_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -2643,7 +2643,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24642
       name: Серьга Рафаила
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.raphael_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -2651,7 +2651,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24730
       name: Серьга Рафаила
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.raphael_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -2661,7 +2661,7 @@ ranks:
       - Задержка между выстрелами -2%
     - item_id: 24784
       name: Серьга Рафаила
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.raphael_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -2723,7 +2723,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19891
       name: Серьга Рыцаря смерти
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r2_earring_i01.png
       variant: normal
       magic_defense: 86
       effects:
@@ -2731,7 +2731,7 @@ ranks:
       - Сила восстановления боевого духа +7%
     - item_id: 21720
       name: Серьга Рыцаря смерти
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r2_earring_i01.png
       variant: epic
       magic_defense: 90
       effects:
@@ -2741,7 +2741,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21774
       name: Серьга Рыцаря смерти
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r2_earring_i01.png
       variant: relic
       magic_defense: 96
       effects:
@@ -2751,7 +2751,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19881
       name: Кольцо Рыцаря смерти
-      icon: ''
+      icon: /icon/pit-jewelry/icon.ring_of_oman.png
       variant: normal
       magic_defense: 55
       effects:
@@ -2759,7 +2759,7 @@ ranks:
       - Сила критической атаки +3%
     - item_id: 21710
       name: Кольцо Рыцаря смерти
-      icon: ''
+      icon: /icon/pit-jewelry/icon.ring_of_oman.png
       variant: epic
       magic_defense: 60
       effects:
@@ -2769,7 +2769,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21764
       name: Кольцо Рыцаря смерти
-      icon: ''
+      icon: /icon/pit-jewelry/icon.ring_of_oman.png
       variant: relic
       magic_defense: 66
       effects:
@@ -2809,7 +2809,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19892
       name: Серьга Скелета
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.bm_r95_earring_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -2817,7 +2817,7 @@ ranks:
       - Сила критической атаки +3%
     - item_id: 21721
       name: Серьга Скелета
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.bm_r95_earring_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -2827,7 +2827,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21775
       name: Серьга Скелета
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.bm_r95_earring_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -2867,7 +2867,7 @@ ranks:
     items:
     - item_id: 24596
       name: Ожерелье Смерти
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.death_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -2875,7 +2875,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24684
       name: Ожерелье Смерти
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.death_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -2885,7 +2885,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24738
       name: Ожерелье Смерти
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.death_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -2895,7 +2895,7 @@ ranks:
       - Шанс нанести критический удар умением +2%
     - item_id: 24632
       name: Серьга Смерти
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.accessory_earring_of_tantaar_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -2903,7 +2903,7 @@ ranks:
       - Сила критического удара умением +4%
     - item_id: 24720
       name: Серьга Смерти
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.accessory_earring_of_tantaar_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -2913,7 +2913,7 @@ ranks:
       - Сила критического удара умением +4%
     - item_id: 24774
       name: Серьга Смерти
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.accessory_earring_of_tantaar_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -2923,7 +2923,7 @@ ranks:
       - Сила критического удара умением +4%
     - item_id: 24614
       name: Кольцо Смерти
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.death_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
@@ -2931,7 +2931,7 @@ ranks:
       - Скорость бега +1
     - item_id: 24702
       name: Кольцо Смерти
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.death_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -2941,7 +2941,7 @@ ranks:
       - Скорость бега +1
     - item_id: 24756
       name: Кольцо Смерти
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.death_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -2953,14 +2953,14 @@ ranks:
     items:
     - item_id: 24593
       name: Ожерелье Сокрушителя
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.elemental_necklace_fire_i00.png
       variant: normal
       magic_defense: 102
       effects:
       - Сила физических умений +6.5%
     - item_id: 24681
       name: Ожерелье Сокрушителя
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.elemental_necklace_fire_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -2969,7 +2969,7 @@ ranks:
       - Сила физических умений +6.5%
     - item_id: 24735
       name: Ожерелье Сокрушителя
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.elemental_necklace_fire_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -2978,7 +2978,7 @@ ranks:
       - Сила физических умений +6.5%
     - item_id: 24629
       name: Серьга Сокрушителя
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.destroyer_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -2986,7 +2986,7 @@ ranks:
       - Сила магических умений +4%
     - item_id: 24717
       name: Серьга Сокрушителя
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.destroyer_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -2996,7 +2996,7 @@ ranks:
       - Сила магических умений +4%
     - item_id: 24771
       name: Серьга Сокрушителя
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.destroyer_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -3006,14 +3006,14 @@ ranks:
       - Сила магических умений +4%
     - item_id: 24611
       name: Кольцо Сокрушителя
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.destroyer_ring_i00.png
       variant: normal
       magic_defense: 55
       effects:
       - Сила умений класса Убийц +7.5%
     - item_id: 24699
       name: Кольцо Сокрушителя
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.destroyer_ring_i00.png
       variant: epic
       magic_defense: 60
       effects:
@@ -3022,7 +3022,7 @@ ranks:
       - Сила умений класса Убийц +7.5%
     - item_id: 24753
       name: Кольцо Сокрушителя
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.destroyer_ring_i00.png
       variant: relic
       magic_defense: 66
       effects:
@@ -3064,7 +3064,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19893
       name: Серьга Сораса
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r1_earring_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -3072,7 +3072,7 @@ ranks:
       - Скорость атаки +1.5%
     - item_id: 21722
       name: Серьга Сораса
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r1_earring_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -3082,7 +3082,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21776
       name: Серьга Сораса
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r1_earring_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -3092,7 +3092,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19882
       name: Кольцо Сораса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r2_earring_piece.png
       variant: normal
       magic_defense: 55
       effects:
@@ -3100,7 +3100,7 @@ ranks:
       - Сила критической атаки +4%
     - item_id: 21711
       name: Кольцо Сораса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r2_earring_piece.png
       variant: epic
       magic_defense: 60
       effects:
@@ -3110,7 +3110,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21765
       name: Кольцо Сораса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.repaint.etc_r2_earring_piece.png
       variant: relic
       magic_defense: 66
       effects:
@@ -3122,7 +3122,7 @@ ranks:
     items:
     - item_id: 19906
       name: Ожерелье Тавра
-      icon: ''
+      icon: /icon/pit-jewelry/icon.ev_11th_rare_acc_necklace.png
       variant: normal
       magic_defense: 102
       effects:
@@ -3130,7 +3130,7 @@ ranks:
       - Сила критической атаки магией +3%
     - item_id: 21735
       name: Ожерелье Тавра
-      icon: ''
+      icon: /icon/pit-jewelry/icon.ev_11th_rare_acc_necklace.png
       variant: epic
       magic_defense: 108
       effects:
@@ -3140,7 +3140,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21789
       name: Ожерелье Тавра
-      icon: ''
+      icon: /icon/pit-jewelry/icon.ev_11th_rare_acc_necklace.png
       variant: relic
       magic_defense: 114
       effects:
@@ -3181,7 +3181,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19883
       name: Кольцо Тавра
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_ring_i01.png
       variant: normal
       magic_defense: 55
       effects:
@@ -3189,7 +3189,7 @@ ranks:
       - Сила критической атаки +3%
     - item_id: 21712
       name: Кольцо Тавра
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_ring_i01.png
       variant: epic
       magic_defense: 60
       effects:
@@ -3199,7 +3199,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21766
       name: Кольцо Тавра
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_ring_i01.png
       variant: relic
       magic_defense: 66
       effects:
@@ -3211,7 +3211,7 @@ ranks:
     items:
     - item_id: 24605
       name: Ожерелье Твердыни
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.necklace_of_elemental.png
       variant: normal
       magic_defense: 102
       effects:
@@ -3219,7 +3219,7 @@ ranks:
       - Шанс критической магии +3%
     - item_id: 24693
       name: Ожерелье Твердыни
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.necklace_of_elemental.png
       variant: epic
       magic_defense: 108
       effects:
@@ -3229,7 +3229,7 @@ ranks:
       - Шанс критической магии +3%
     - item_id: 24747
       name: Ожерелье Твердыни
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.necklace_of_elemental.png
       variant: relic
       magic_defense: 114
       effects:
@@ -3239,7 +3239,7 @@ ranks:
       - Шанс критической магии +3%
     - item_id: 24641
       name: Серьга Твердыни
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.stronghold_earing_i00.png
       variant: normal
       magic_defense: 86
       effects:
@@ -3247,7 +3247,7 @@ ranks:
       - Сила критической магии +3%
     - item_id: 24729
       name: Серьга Твердыни
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.stronghold_earing_i00.png
       variant: epic
       magic_defense: 90
       effects:
@@ -3257,7 +3257,7 @@ ranks:
       - Сила критической магии +3%
     - item_id: 24783
       name: Серьга Твердыни
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.item.stronghold_earing_i00.png
       variant: relic
       magic_defense: 96
       effects:
@@ -3267,14 +3267,14 @@ ranks:
       - Сила критической магии +3%
     - item_id: 24623
       name: Кольцо Твердыни
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.ring_of_sylph_01.png
       variant: normal
       magic_defense: 55
       effects:
       - Сила физических умений +6.5%
     - item_id: 24711
       name: Кольцо Твердыни
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.ring_of_sylph_01.png
       variant: epic
       magic_defense: 60
       effects:
@@ -3283,7 +3283,7 @@ ranks:
       - Сила физических умений +6.5%
     - item_id: 24765
       name: Кольцо Твердыни
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.ring_of_sylph_01.png
       variant: relic
       magic_defense: 66
       effects:
@@ -3294,14 +3294,14 @@ ranks:
     items:
     - item_id: 24978
       name: Ожерелье Тэроса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace03.png
       variant: normal
       magic_defense: 108
       effects:
       - Физическая атака +6%
     - item_id: 24986
       name: Ожерелье Тэроса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace03.png
       variant: epic
       magic_defense: 114
       effects:
@@ -3310,7 +3310,7 @@ ranks:
       - Физическая атака +6%
     - item_id: 24994
       name: Ожерелье Тэроса
-      icon: ''
+      icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace03.png
       variant: relic
       magic_defense: 127
       effects:
@@ -3321,7 +3321,7 @@ ranks:
     items:
     - item_id: 19907
       name: Ожерелье Черной пантеры
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_necklace_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -3329,7 +3329,7 @@ ranks:
       - Сила критической атаки +3%
     - item_id: 21736
       name: Ожерелье Черной пантеры
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_necklace_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -3339,7 +3339,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21790
       name: Ожерелье Черной пантеры
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_necklace_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -3349,7 +3349,7 @@ ranks:
       - Магическая защита +1.75%
     - item_id: 19894
       name: Серьга Черной пантеры
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_earring_i01.png
       variant: normal
       magic_defense: 86
       effects:
@@ -3357,7 +3357,7 @@ ranks:
       - Сила критической атаки +4%
     - item_id: 21723
       name: Серьга Черной пантеры
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_earring_i01.png
       variant: epic
       magic_defense: 90
       effects:
@@ -3367,7 +3367,7 @@ ranks:
       - Магическая защита +0.85%
     - item_id: 21777
       name: Серьга Черной пантеры
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r991_earring_i01.png
       variant: relic
       magic_defense: 96
       effects:
@@ -3407,7 +3407,7 @@ ranks:
     items:
     - item_id: 24600
       name: Ожерелье Шторма
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.elemental_necklace_wind_i00.png
       variant: normal
       magic_defense: 102
       effects:
@@ -3415,7 +3415,7 @@ ranks:
       - Сила магических умений +3%
     - item_id: 24688
       name: Ожерелье Шторма
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.elemental_necklace_wind_i00.png
       variant: epic
       magic_defense: 108
       effects:
@@ -3425,7 +3425,7 @@ ranks:
       - Сила магических умений +3%
     - item_id: 24742
       name: Ожерелье Шторма
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.elemental_necklace_wind_i00.png
       variant: relic
       magic_defense: 114
       effects:
@@ -3435,7 +3435,7 @@ ranks:
       - Сила магических умений +3%
     - item_id: 24636
       name: Серьга Шторма
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r1_earring_i01.png
       variant: normal
       magic_defense: 86
       effects:
@@ -3444,7 +3444,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24724
       name: Серьга Шторма
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r1_earring_i01.png
       variant: epic
       magic_defense: 90
       effects:
@@ -3455,7 +3455,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24778
       name: Серьга Шторма
-      icon: ''
+      icon: /icon/pit-jewelry/icon.r1_earring_i01.png
       variant: relic
       magic_defense: 96
       effects:
@@ -3466,7 +3466,7 @@ ranks:
       - Дальность магических умений +20
     - item_id: 24618
       name: Кольцо Шторма
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.bless_new_ring_of_hero.png
       variant: normal
       magic_defense: 55
       effects:
@@ -3474,7 +3474,7 @@ ranks:
       - Сила критических атак +3%
     - item_id: 24706
       name: Кольцо Шторма
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.bless_new_ring_of_hero.png
       variant: epic
       magic_defense: 60
       effects:
@@ -3484,7 +3484,7 @@ ranks:
       - Сила критических атак +3%
     - item_id: 24760
       name: Кольцо Шторма
-      icon: ''
+      icon: /icon/pit-jewelry/icon4.l2icon.bless_new_ring_of_hero.png
       variant: relic
       magic_defense: 66
       effects:

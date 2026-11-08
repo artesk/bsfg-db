@@ -94,6 +94,43 @@ h1 {
   overflow-wrap: anywhere;
 }
 .enchant-source { margin: 24px 0 48px; color: var(--muted); font-size: 13px; }
+.progression-toolbar { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+.progression-field { display: grid; gap: 6px; max-width: 100%; color: var(--muted); font-size: 14px; }
+.progression-field select, .progression-field input, .military-points {
+  width: 100%; min-width: 0; padding: 8px 10px; color: var(--text);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 5px;
+}
+.progression-card { max-width: 900px; }
+.progression-card-heading { display: flex; align-items: center; gap: 10px; padding: 14px; }
+.progression-card-heading h3 { margin: 0; font-size: 18px; }
+.progression-effect { white-space: pre-line; overflow-wrap: anywhere; }
+.progression-id { width: 1%; color: var(--muted); font-variant-numeric: tabular-nums; }
+.military-calculator { max-width: 800px; margin-bottom: 36px; padding: clamp(12px, 3vw, 22px); }
+#military-award-icon { align-self: end; }
+.progression-card .icon-fallback:has(+ img),
+.military-calculator .icon-fallback:has(+ img) { visibility: hidden; }
+#military-rank { width: 7ch; }
+#military-budget { margin: 0 0 6px; font-variant-numeric: tabular-nums; }
+#military-progress { display: block; width: 100%; accent-color: #72aa58; }
+.military-slots { margin: 12px 0 16px; padding: 0; list-style: none; }
+.military-row {
+  display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; align-items: center;
+  gap: 7px 12px; padding: 10px 0; border-bottom: 1px solid var(--line);
+}
+.military-row h3 { margin: 0; font-size: 15px; }
+.military-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; }
+.military-controls .class-option { min-width: 34px; padding: 6px; text-align: center; }
+.military-controls .class-option:disabled { opacity: .45; cursor: default; }
+.military-points { width: 4.5em; }
+.military-next { min-width: 3em; text-align: center; color: var(--accent-2); font-variant-numeric: tabular-nums; }
+.military-effect, .military-note { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.military-effect { grid-column: 2 / -1; white-space: pre-line; }
+.military-note { margin-top: 12px; }
+@media (max-width: 660px) {
+  .military-row { grid-template-columns: 36px minmax(0, 1fr); }
+  .military-controls { grid-column: 1 / -1; }
+  .military-effect { grid-column: 1 / -1; }
+}
 .jewelry-toolbar {
   display: flex; flex-wrap: wrap; align-items: end; gap: 12px 16px; margin-bottom: 28px;
 }

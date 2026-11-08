@@ -1,0 +1,3944 @@
+client_release: 2026.11.06.171000
+groups:
+- name: Авангард
+  levels:
+  - level: 1
+    effect_id: 121
+    effect: PvP защита +0.09%
+  - level: 2
+    effect_id: 122
+    effect: PvP защита +0.18%
+  - level: 3
+    effect_id: 123
+    effect: PvP защита +0.27%
+  - level: 4
+    effect_id: 124
+    effect: PvP защита +0.36%
+  - level: 5
+    effect_id: 125
+    effect: PvP защита +0.45%
+  - level: 6
+    effect_id: 126
+    effect: PvP защита +0.54%
+  - level: 7
+    effect_id: 127
+    effect: PvP защита +0.63%
+  - level: 8
+    effect_id: 128
+    effect: PvP защита +0.72%
+  - level: 9
+    effect_id: 129
+    effect: PvP защита +0.81%
+  - level: 10
+    effect_id: 130
+    effect: PvP защита +0.9%
+  - level: 11
+    effect_id: 131
+    effect: PvP защита +0.99%
+  - level: 12
+    effect_id: 132
+    effect: PvP защита +1.08%
+  - level: 13
+    effect_id: 133
+    effect: PvP защита +1.17%
+  - level: 14
+    effect_id: 134
+    effect: PvP защита +1.26%
+  - level: 15
+    effect_id: 135
+    effect: PvP защита +1.35%
+  - level: 16
+    effect_id: 136
+    effect: PvP защита +1.44%
+  - level: 17
+    effect_id: 137
+    effect: PvP защита +1.53%
+  - level: 18
+    effect_id: 138
+    effect: PvP защита +1.62%
+  - level: 19
+    effect_id: 139
+    effect: PvP защита +1.71%
+  - level: 20
+    effect_id: 140
+    effect: PvP защита +1.8%
+  - level: 21
+    effect_id: 141
+    effect: PvP защита +1.89%
+  - level: 22
+    effect_id: 142
+    effect: PvP защита +1.98%
+  - level: 23
+    effect_id: 143
+    effect: PvP защита +2.07%
+  - level: 24
+    effect_id: 144
+    effect: PvP защита +2.16%
+  - level: 25
+    effect_id: 145
+    effect: PvP защита +2.25%
+  - level: 26
+    effect_id: 146
+    effect: PvP защита +2.34%
+  - level: 27
+    effect_id: 147
+    effect: PvP защита +2.43%
+  - level: 28
+    effect_id: 148
+    effect: PvP защита +2.52%
+  - level: 29
+    effect_id: 149
+    effect: PvP защита +2.61%
+  - level: 30
+    effect_id: 150
+    effect: PvP защита +2.7%
+  - level: 31
+    effect_id: 151
+    effect: PvP защита +2.79%
+  - level: 32
+    effect_id: 152
+    effect: PvP защита +2.88%
+  - level: 33
+    effect_id: 153
+    effect: PvP защита +2.97%
+  - level: 34
+    effect_id: 154
+    effect: PvP защита +3.06%
+  - level: 35
+    effect_id: 155
+    effect: PvP защита +3.15%
+  - level: 36
+    effect_id: 156
+    effect: PvP защита +3.24%
+  - level: 37
+    effect_id: 157
+    effect: PvP защита +3.33%
+  - level: 38
+    effect_id: 158
+    effect: PvP защита +3.42%
+  - level: 39
+    effect_id: 159
+    effect: PvP защита +3.51%
+  - level: 40
+    effect_id: 160
+    effect: PvP защита +3.6%
+- name: Богач
+  levels:
+  - level: 1
+    effect_id: 961
+    effect: Опыт при использовании чернил и перьев +1%
+  - level: 2
+    effect_id: 962
+    effect: Опыт при использовании чернил и перьев +1%
+  - level: 3
+    effect_id: 963
+    effect: Опыт при использовании чернил и перьев +1%
+  - level: 4
+    effect_id: 964
+    effect: Опыт при использовании чернил и перьев +2%
+  - level: 5
+    effect_id: 965
+    effect: Опыт при использовании чернил и перьев +2%
+  - level: 6
+    effect_id: 966
+    effect: Опыт при использовании чернил и перьев +2%
+  - level: 7
+    effect_id: 967
+    effect: Опыт при использовании чернил и перьев +3%
+  - level: 8
+    effect_id: 968
+    effect: Опыт при использовании чернил и перьев +3%
+  - level: 9
+    effect_id: 969
+    effect: Опыт при использовании чернил и перьев +4%
+  - level: 10
+    effect_id: 970
+    effect: Опыт при использовании чернил и перьев +4%
+  - level: 11
+    effect_id: 971
+    effect: Опыт при использовании чернил и перьев +4%
+  - level: 12
+    effect_id: 972
+    effect: Опыт при использовании чернил и перьев +5%
+  - level: 13
+    effect_id: 973
+    effect: Опыт при использовании чернил и перьев +5%
+  - level: 14
+    effect_id: 974
+    effect: Опыт при использовании чернил и перьев +6%
+  - level: 15
+    effect_id: 975
+    effect: Опыт при использовании чернил и перьев +6%
+  - level: 16
+    effect_id: 976
+    effect: Опыт при использовании чернил и перьев +6%
+  - level: 17
+    effect_id: 977
+    effect: Опыт при использовании чернил и перьев +7%
+  - level: 18
+    effect_id: 978
+    effect: Опыт при использовании чернил и перьев +7%
+  - level: 19
+    effect_id: 979
+    effect: Опыт при использовании чернил и перьев +8%
+  - level: 20
+    effect_id: 980
+    effect: Опыт при использовании чернил и перьев +8%
+  - level: 21
+    effect_id: 981
+    effect: Опыт при использовании чернил и перьев +8%
+  - level: 22
+    effect_id: 982
+    effect: Опыт при использовании чернил и перьев +9%
+  - level: 23
+    effect_id: 983
+    effect: Опыт при использовании чернил и перьев +9%
+  - level: 24
+    effect_id: 984
+    effect: Опыт при использовании чернил и перьев +10%
+  - level: 25
+    effect_id: 985
+    effect: Опыт при использовании чернил и перьев +10%
+  - level: 26
+    effect_id: 986
+    effect: Опыт при использовании чернил и перьев +10%
+  - level: 27
+    effect_id: 987
+    effect: Опыт при использовании чернил и перьев +11%
+  - level: 28
+    effect_id: 988
+    effect: Опыт при использовании чернил и перьев +11%
+  - level: 29
+    effect_id: 989
+    effect: Опыт при использовании чернил и перьев +12%
+  - level: 30
+    effect_id: 990
+    effect: Опыт при использовании чернил и перьев +12%
+  - level: 31
+    effect_id: 991
+    effect: Опыт при использовании чернил и перьев +12%
+  - level: 32
+    effect_id: 992
+    effect: Опыт при использовании чернил и перьев +13%
+  - level: 33
+    effect_id: 993
+    effect: Опыт при использовании чернил и перьев +13%
+  - level: 34
+    effect_id: 994
+    effect: Опыт при использовании чернил и перьев +14%
+  - level: 35
+    effect_id: 995
+    effect: Опыт при использовании чернил и перьев +14%
+  - level: 36
+    effect_id: 996
+    effect: Опыт при использовании чернил и перьев +14%
+  - level: 37
+    effect_id: 997
+    effect: Опыт при использовании чернил и перьев +15%
+  - level: 38
+    effect_id: 998
+    effect: Опыт при использовании чернил и перьев +15%
+  - level: 39
+    effect_id: 999
+    effect: Опыт при использовании чернил и перьев +16%
+  - level: 40
+    effect_id: 1000
+    effect: Опыт при использовании чернил и перьев +17%
+- name: Боец
+  levels:
+  - level: 1
+    effect_id: 841
+    effect: Опыт при обмене маны +1%
+  - level: 2
+    effect_id: 842
+    effect: Опыт при обмене маны +2%
+  - level: 3
+    effect_id: 843
+    effect: Опыт при обмене маны +3%
+  - level: 4
+    effect_id: 844
+    effect: Опыт при обмене маны +4%
+  - level: 5
+    effect_id: 845
+    effect: Опыт при обмене маны +5%
+  - level: 6
+    effect_id: 846
+    effect: Опыт при обмене маны +6%
+  - level: 7
+    effect_id: 847
+    effect: Опыт при обмене маны +7%
+  - level: 8
+    effect_id: 848
+    effect: Опыт при обмене маны +8%
+  - level: 9
+    effect_id: 849
+    effect: Опыт при обмене маны +9%
+  - level: 10
+    effect_id: 850
+    effect: Опыт при обмене маны +10%
+  - level: 11
+    effect_id: 851
+    effect: Опыт при обмене маны +11%
+  - level: 12
+    effect_id: 852
+    effect: Опыт при обмене маны +12%
+  - level: 13
+    effect_id: 853
+    effect: Опыт при обмене маны +13%
+  - level: 14
+    effect_id: 854
+    effect: Опыт при обмене маны +14%
+  - level: 15
+    effect_id: 855
+    effect: Опыт при обмене маны +15%
+  - level: 16
+    effect_id: 856
+    effect: Опыт при обмене маны +16%
+  - level: 17
+    effect_id: 857
+    effect: Опыт при обмене маны +17%
+  - level: 18
+    effect_id: 858
+    effect: Опыт при обмене маны +18%
+  - level: 19
+    effect_id: 859
+    effect: Опыт при обмене маны +19%
+  - level: 20
+    effect_id: 860
+    effect: Опыт при обмене маны +20%
+  - level: 21
+    effect_id: 861
+    effect: Опыт при обмене маны +21%
+  - level: 22
+    effect_id: 862
+    effect: Опыт при обмене маны +22%
+  - level: 23
+    effect_id: 863
+    effect: Опыт при обмене маны +23%
+  - level: 24
+    effect_id: 864
+    effect: Опыт при обмене маны +24%
+  - level: 25
+    effect_id: 865
+    effect: Опыт при обмене маны +25%
+  - level: 26
+    effect_id: 866
+    effect: Опыт при обмене маны +26%
+  - level: 27
+    effect_id: 867
+    effect: Опыт при обмене маны +27%
+  - level: 28
+    effect_id: 868
+    effect: Опыт при обмене маны +28%
+  - level: 29
+    effect_id: 869
+    effect: Опыт при обмене маны +29%
+  - level: 30
+    effect_id: 870
+    effect: Опыт при обмене маны +30%
+  - level: 31
+    effect_id: 871
+    effect: Опыт при обмене маны +31%
+  - level: 32
+    effect_id: 872
+    effect: Опыт при обмене маны +32%
+  - level: 33
+    effect_id: 873
+    effect: Опыт при обмене маны +33%
+  - level: 34
+    effect_id: 874
+    effect: Опыт при обмене маны +34%
+  - level: 35
+    effect_id: 875
+    effect: Опыт при обмене маны +35%
+  - level: 36
+    effect_id: 876
+    effect: Опыт при обмене маны +36%
+  - level: 37
+    effect_id: 877
+    effect: Опыт при обмене маны +37%
+  - level: 38
+    effect_id: 878
+    effect: Опыт при обмене маны +38%
+  - level: 39
+    effect_id: 879
+    effect: Опыт при обмене маны +39%
+  - level: 40
+    effect_id: 880
+    effect: Опыт при обмене маны +40%
+- name: Вампир
+  levels:
+  - level: 1
+    effect_id: 1081
+    effect: Вампиризм от любых атак +0.08%
+  - level: 2
+    effect_id: 1082
+    effect: Вампиризм от любых атак +0.15%
+  - level: 3
+    effect_id: 1083
+    effect: Вампиризм от любых атак +0.23%
+  - level: 4
+    effect_id: 1084
+    effect: Вампиризм от любых атак +0.3%
+  - level: 5
+    effect_id: 1085
+    effect: Вампиризм от любых атак +0.38%
+  - level: 6
+    effect_id: 1086
+    effect: Вампиризм от любых атак +0.45%
+  - level: 7
+    effect_id: 1087
+    effect: Вампиризм от любых атак +0.53%
+  - level: 8
+    effect_id: 1088
+    effect: Вампиризм от любых атак +0.6%
+  - level: 9
+    effect_id: 1089
+    effect: Вампиризм от любых атак +0.68%
+  - level: 10
+    effect_id: 1090
+    effect: Вампиризм от любых атак +0.75%
+  - level: 11
+    effect_id: 1091
+    effect: Вампиризм от любых атак +0.83%
+  - level: 12
+    effect_id: 1092
+    effect: Вампиризм от любых атак +0.9%
+  - level: 13
+    effect_id: 1093
+    effect: Вампиризм от любых атак +0.98%
+  - level: 14
+    effect_id: 1094
+    effect: Вампиризм от любых атак +1.05%
+  - level: 15
+    effect_id: 1095
+    effect: Вампиризм от любых атак +1.13%
+  - level: 16
+    effect_id: 1096
+    effect: Вампиризм от любых атак +1.2%
+  - level: 17
+    effect_id: 1097
+    effect: Вампиризм от любых атак +1.28%
+  - level: 18
+    effect_id: 1098
+    effect: Вампиризм от любых атак +1.35%
+  - level: 19
+    effect_id: 1099
+    effect: Вампиризм от любых атак +1.43%
+  - level: 20
+    effect_id: 1100
+    effect: Вампиризм от любых атак +1.5%
+  - level: 21
+    effect_id: 1101
+    effect: Вампиризм от любых атак +1.58%
+  - level: 22
+    effect_id: 1102
+    effect: Вампиризм от любых атак +1.65%
+  - level: 23
+    effect_id: 1103
+    effect: Вампиризм от любых атак +1.73%
+  - level: 24
+    effect_id: 1104
+    effect: Вампиризм от любых атак +1.8%
+  - level: 25
+    effect_id: 1105
+    effect: Вампиризм от любых атак +1.88%
+  - level: 26
+    effect_id: 1106
+    effect: Вампиризм от любых атак +1.95%
+  - level: 27
+    effect_id: 1107
+    effect: Вампиризм от любых атак +2.03%
+  - level: 28
+    effect_id: 1108
+    effect: Вампиризм от любых атак +2.1%
+  - level: 29
+    effect_id: 1109
+    effect: Вампиризм от любых атак +2.18%
+  - level: 30
+    effect_id: 1110
+    effect: Вампиризм от любых атак +2.25%
+  - level: 31
+    effect_id: 1111
+    effect: Вампиризм от любых атак +2.33%
+  - level: 32
+    effect_id: 1112
+    effect: Вампиризм от любых атак +2.4%
+  - level: 33
+    effect_id: 1113
+    effect: Вампиризм от любых атак +2.48%
+  - level: 34
+    effect_id: 1114
+    effect: Вампиризм от любых атак +2.55%
+  - level: 35
+    effect_id: 1115
+    effect: Вампиризм от любых атак +2.63%
+  - level: 36
+    effect_id: 1116
+    effect: Вампиризм от любых атак +2.7%
+  - level: 37
+    effect_id: 1117
+    effect: Вампиризм от любых атак +2.78%
+  - level: 38
+    effect_id: 1118
+    effect: Вампиризм от любых атак +2.85%
+  - level: 39
+    effect_id: 1119
+    effect: Вампиризм от любых атак +2.93%
+  - level: 40
+    effect_id: 1120
+    effect: Вампиризм от любых атак +3%
+- name: Везение
+  levels:
+  - level: 1
+    effect_id: 321
+    effect: Шанс добыть предмет +1%
+  - level: 2
+    effect_id: 322
+    effect: Шанс добыть предмет +1%
+  - level: 3
+    effect_id: 323
+    effect: Шанс добыть предмет +1%
+  - level: 4
+    effect_id: 324
+    effect: Шанс добыть предмет +1%
+  - level: 5
+    effect_id: 325
+    effect: Шанс добыть предмет +1%
+  - level: 6
+    effect_id: 326
+    effect: Шанс добыть предмет +1%
+  - level: 7
+    effect_id: 327
+    effect: Шанс добыть предмет +1%
+  - level: 8
+    effect_id: 328
+    effect: Шанс добыть предмет +1%
+  - level: 9
+    effect_id: 329
+    effect: Шанс добыть предмет +1%
+  - level: 10
+    effect_id: 330
+    effect: Шанс добыть предмет +2%
+  - level: 11
+    effect_id: 331
+    effect: Шанс добыть предмет +2%
+  - level: 12
+    effect_id: 332
+    effect: Шанс добыть предмет +2%
+  - level: 13
+    effect_id: 333
+    effect: Шанс добыть предмет +2%
+  - level: 14
+    effect_id: 334
+    effect: Шанс добыть предмет +2%
+  - level: 15
+    effect_id: 335
+    effect: Шанс добыть предмет +3%
+  - level: 16
+    effect_id: 336
+    effect: Шанс добыть предмет +3%
+  - level: 17
+    effect_id: 337
+    effect: Шанс добыть предмет +3%
+  - level: 18
+    effect_id: 338
+    effect: Шанс добыть предмет +3%
+  - level: 19
+    effect_id: 339
+    effect: Шанс добыть предмет +3%
+  - level: 20
+    effect_id: 340
+    effect: Шанс добыть предмет +4%
+  - level: 21
+    effect_id: 341
+    effect: Шанс добыть предмет +4%
+  - level: 22
+    effect_id: 342
+    effect: Шанс добыть предмет +4%
+  - level: 23
+    effect_id: 343
+    effect: Шанс добыть предмет +4%
+  - level: 24
+    effect_id: 344
+    effect: Шанс добыть предмет +4%
+  - level: 25
+    effect_id: 345
+    effect: Шанс добыть предмет +5%
+  - level: 26
+    effect_id: 346
+    effect: Шанс добыть предмет +5%
+  - level: 27
+    effect_id: 347
+    effect: Шанс добыть предмет +5%
+  - level: 28
+    effect_id: 348
+    effect: Шанс добыть предмет +5%
+  - level: 29
+    effect_id: 349
+    effect: Шанс добыть предмет +5%
+  - level: 30
+    effect_id: 350
+    effect: Шанс добыть предмет +6%
+  - level: 31
+    effect_id: 351
+    effect: Шанс добыть предмет +6%
+  - level: 32
+    effect_id: 352
+    effect: Шанс добыть предмет +6%
+  - level: 33
+    effect_id: 353
+    effect: Шанс добыть предмет +6%
+  - level: 34
+    effect_id: 354
+    effect: Шанс добыть предмет +6%
+  - level: 35
+    effect_id: 355
+    effect: Шанс добыть предмет +7%
+  - level: 36
+    effect_id: 356
+    effect: Шанс добыть предмет +7%
+  - level: 37
+    effect_id: 357
+    effect: Шанс добыть предмет +7%
+  - level: 38
+    effect_id: 358
+    effect: Шанс добыть предмет +7%
+  - level: 39
+    effect_id: 359
+    effect: Шанс добыть предмет +7%
+  - level: 40
+    effect_id: 360
+    effect: Шанс добыть предмет +8%
+- name: Вихрь
+  levels:
+  - level: 1
+    effect_id: 1201
+    effect: Максимальное значение скорости атаки и чтения заклинаний +2
+  - level: 2
+    effect_id: 1202
+    effect: Максимальное значение скорости атаки и чтения заклинаний +4
+  - level: 3
+    effect_id: 1203
+    effect: Максимальное значение скорости атаки и чтения заклинаний +6
+  - level: 4
+    effect_id: 1204
+    effect: Максимальное значение скорости атаки и чтения заклинаний +8
+  - level: 5
+    effect_id: 1205
+    effect: Максимальное значение скорости атаки и чтения заклинаний +10
+  - level: 6
+    effect_id: 1206
+    effect: Максимальное значение скорости атаки и чтения заклинаний +12
+  - level: 7
+    effect_id: 1207
+    effect: Максимальное значение скорости атаки и чтения заклинаний +14
+  - level: 8
+    effect_id: 1208
+    effect: Максимальное значение скорости атаки и чтения заклинаний +16
+  - level: 9
+    effect_id: 1209
+    effect: Максимальное значение скорости атаки и чтения заклинаний +18
+  - level: 10
+    effect_id: 1210
+    effect: Максимальное значение скорости атаки и чтения заклинаний +20
+  - level: 11
+    effect_id: 1211
+    effect: Максимальное значение скорости атаки и чтения заклинаний +22
+  - level: 12
+    effect_id: 1212
+    effect: Максимальное значение скорости атаки и чтения заклинаний +24
+  - level: 13
+    effect_id: 1213
+    effect: Максимальное значение скорости атаки и чтения заклинаний +26
+  - level: 14
+    effect_id: 1214
+    effect: Максимальное значение скорости атаки и чтения заклинаний +28
+  - level: 15
+    effect_id: 1215
+    effect: Максимальное значение скорости атаки и чтения заклинаний +30
+  - level: 16
+    effect_id: 1216
+    effect: Максимальное значение скорости атаки и чтения заклинаний +32
+  - level: 17
+    effect_id: 1217
+    effect: Максимальное значение скорости атаки и чтения заклинаний +34
+  - level: 18
+    effect_id: 1218
+    effect: Максимальное значение скорости атаки и чтения заклинаний +36
+  - level: 19
+    effect_id: 1219
+    effect: Максимальное значение скорости атаки и чтения заклинаний +38
+  - level: 20
+    effect_id: 1220
+    effect: Максимальное значение скорости атаки и чтения заклинаний +40
+  - level: 21
+    effect_id: 1221
+    effect: Максимальное значение скорости атаки и чтения заклинаний +42
+  - level: 22
+    effect_id: 1222
+    effect: Максимальное значение скорости атаки и чтения заклинаний +44
+  - level: 23
+    effect_id: 1223
+    effect: Максимальное значение скорости атаки и чтения заклинаний +46
+  - level: 24
+    effect_id: 1224
+    effect: Максимальное значение скорости атаки и чтения заклинаний +48
+  - level: 25
+    effect_id: 1225
+    effect: Максимальное значение скорости атаки и чтения заклинаний +50
+  - level: 26
+    effect_id: 1226
+    effect: Максимальное значение скорости атаки и чтения заклинаний +52
+  - level: 27
+    effect_id: 1227
+    effect: Максимальное значение скорости атаки и чтения заклинаний +54
+  - level: 28
+    effect_id: 1228
+    effect: Максимальное значение скорости атаки и чтения заклинаний +56
+  - level: 29
+    effect_id: 1229
+    effect: Максимальное значение скорости атаки и чтения заклинаний +58
+  - level: 30
+    effect_id: 1230
+    effect: Максимальное значение скорости атаки и чтения заклинаний +60
+  - level: 31
+    effect_id: 1231
+    effect: Максимальное значение скорости атаки и чтения заклинаний +62
+  - level: 32
+    effect_id: 1232
+    effect: Максимальное значение скорости атаки и чтения заклинаний +64
+  - level: 33
+    effect_id: 1233
+    effect: Максимальное значение скорости атаки и чтения заклинаний +66
+  - level: 34
+    effect_id: 1234
+    effect: Максимальное значение скорости атаки и чтения заклинаний +68
+  - level: 35
+    effect_id: 1235
+    effect: Максимальное значение скорости атаки и чтения заклинаний +70
+  - level: 36
+    effect_id: 1236
+    effect: Максимальное значение скорости атаки и чтения заклинаний +72
+  - level: 37
+    effect_id: 1237
+    effect: Максимальное значение скорости атаки и чтения заклинаний +74
+  - level: 38
+    effect_id: 1238
+    effect: Максимальное значение скорости атаки и чтения заклинаний +76
+  - level: 39
+    effect_id: 1239
+    effect: Максимальное значение скорости атаки и чтения заклинаний +78
+  - level: 40
+    effect_id: 1240
+    effect: Максимальное значение скорости атаки и чтения заклинаний +80
+- name: Восстановление
+  levels:
+  - level: 1
+    effect_id: 1121
+    effect: Регенерация жизненных сил +50
+  - level: 2
+    effect_id: 1122
+    effect: Регенерация жизненных сил +100
+  - level: 3
+    effect_id: 1123
+    effect: Регенерация жизненных сил +150
+  - level: 4
+    effect_id: 1124
+    effect: Регенерация жизненных сил +200
+  - level: 5
+    effect_id: 1125
+    effect: Регенерация жизненных сил +250
+  - level: 6
+    effect_id: 1126
+    effect: Регенерация жизненных сил +300
+  - level: 7
+    effect_id: 1127
+    effect: Регенерация жизненных сил +350
+  - level: 8
+    effect_id: 1128
+    effect: Регенерация жизненных сил +400
+  - level: 9
+    effect_id: 1129
+    effect: Регенерация жизненных сил +450
+  - level: 10
+    effect_id: 1130
+    effect: Регенерация жизненных сил +500
+  - level: 11
+    effect_id: 1131
+    effect: Регенерация жизненных сил +550
+  - level: 12
+    effect_id: 1132
+    effect: Регенерация жизненных сил +600
+  - level: 13
+    effect_id: 1133
+    effect: Регенерация жизненных сил +650
+  - level: 14
+    effect_id: 1134
+    effect: Регенерация жизненных сил +700
+  - level: 15
+    effect_id: 1135
+    effect: Регенерация жизненных сил +750
+  - level: 16
+    effect_id: 1136
+    effect: Регенерация жизненных сил +800
+  - level: 17
+    effect_id: 1137
+    effect: Регенерация жизненных сил +850
+  - level: 18
+    effect_id: 1138
+    effect: Регенерация жизненных сил +900
+  - level: 19
+    effect_id: 1139
+    effect: Регенерация жизненных сил +950
+  - level: 20
+    effect_id: 1140
+    effect: Регенерация жизненных сил +1000
+  - level: 21
+    effect_id: 1141
+    effect: Регенерация жизненных сил +1050
+  - level: 22
+    effect_id: 1142
+    effect: Регенерация жизненных сил +1100
+  - level: 23
+    effect_id: 1143
+    effect: Регенерация жизненных сил +1150
+  - level: 24
+    effect_id: 1144
+    effect: Регенерация жизненных сил +1200
+  - level: 25
+    effect_id: 1145
+    effect: Регенерация жизненных сил +1250
+  - level: 26
+    effect_id: 1146
+    effect: Регенерация жизненных сил +1300
+  - level: 27
+    effect_id: 1147
+    effect: Регенерация жизненных сил +1350
+  - level: 28
+    effect_id: 1148
+    effect: Регенерация жизненных сил +1400
+  - level: 29
+    effect_id: 1149
+    effect: Регенерация жизненных сил +1450
+  - level: 30
+    effect_id: 1150
+    effect: Регенерация жизненных сил +1500
+  - level: 31
+    effect_id: 1151
+    effect: Регенерация жизненных сил +1550
+  - level: 32
+    effect_id: 1152
+    effect: Регенерация жизненных сил +1600
+  - level: 33
+    effect_id: 1153
+    effect: Регенерация жизненных сил +1650
+  - level: 34
+    effect_id: 1154
+    effect: Регенерация жизненных сил +1700
+  - level: 35
+    effect_id: 1155
+    effect: Регенерация жизненных сил +1750
+  - level: 36
+    effect_id: 1156
+    effect: Регенерация жизненных сил +1800
+  - level: 37
+    effect_id: 1157
+    effect: Регенерация жизненных сил +1850
+  - level: 38
+    effect_id: 1158
+    effect: Регенерация жизненных сил +1900
+  - level: 39
+    effect_id: 1159
+    effect: Регенерация жизненных сил +1950
+  - level: 40
+    effect_id: 1160
+    effect: Регенерация жизненных сил +2000
+- name: Гладиатор
+  levels:
+  - level: 1
+    effect_id: 81
+    effect: PvP урон +0.075%
+  - level: 2
+    effect_id: 82
+    effect: PvP урон +0.15%
+  - level: 3
+    effect_id: 83
+    effect: PvP урон +0.225%
+  - level: 4
+    effect_id: 84
+    effect: PvP урон +0.3%
+  - level: 5
+    effect_id: 85
+    effect: PvP урон +0.375%
+  - level: 6
+    effect_id: 86
+    effect: PvP урон +0.45%
+  - level: 7
+    effect_id: 87
+    effect: PvP урон +0.525%
+  - level: 8
+    effect_id: 88
+    effect: PvP урон +0.6%
+  - level: 9
+    effect_id: 89
+    effect: PvP урон +0.675%
+  - level: 10
+    effect_id: 90
+    effect: PvP урон +0.75%
+  - level: 11
+    effect_id: 91
+    effect: PvP урон +0.825%
+  - level: 12
+    effect_id: 92
+    effect: PvP урон +0.9%
+  - level: 13
+    effect_id: 93
+    effect: PvP урон +0.975%
+  - level: 14
+    effect_id: 94
+    effect: PvP урон +1.05%
+  - level: 15
+    effect_id: 95
+    effect: PvP урон +1.125%
+  - level: 16
+    effect_id: 96
+    effect: PvP урон +1.2%
+  - level: 17
+    effect_id: 97
+    effect: PvP урон +1.275%
+  - level: 18
+    effect_id: 98
+    effect: PvP урон +1.35%
+  - level: 19
+    effect_id: 99
+    effect: PvP урон +1.425%
+  - level: 20
+    effect_id: 100
+    effect: PvP урон +1.5%
+  - level: 21
+    effect_id: 101
+    effect: PvP урон +1.575%
+  - level: 22
+    effect_id: 102
+    effect: PvP урон +1.65%
+  - level: 23
+    effect_id: 103
+    effect: PvP урон +1.725%
+  - level: 24
+    effect_id: 104
+    effect: PvP урон +1.8%
+  - level: 25
+    effect_id: 105
+    effect: PvP урон +1.875%
+  - level: 26
+    effect_id: 106
+    effect: PvP урон +1.95%
+  - level: 27
+    effect_id: 107
+    effect: PvP урон +2.025%
+  - level: 28
+    effect_id: 108
+    effect: PvP урон +2.1%
+  - level: 29
+    effect_id: 109
+    effect: PvP урон +2.175%
+  - level: 30
+    effect_id: 110
+    effect: PvP урон +2.25%
+  - level: 31
+    effect_id: 111
+    effect: PvP урон +2.325%
+  - level: 32
+    effect_id: 112
+    effect: PvP урон +2.4%
+  - level: 33
+    effect_id: 113
+    effect: PvP урон +2.475%
+  - level: 34
+    effect_id: 114
+    effect: PvP урон +2.55%
+  - level: 35
+    effect_id: 115
+    effect: PvP урон +2.625%
+  - level: 36
+    effect_id: 116
+    effect: PvP урон +2.7%
+  - level: 37
+    effect_id: 117
+    effect: PvP урон +2.775%
+  - level: 38
+    effect_id: 118
+    effect: PvP урон +2.85%
+  - level: 39
+    effect_id: 119
+    effect: PvP урон +2.925%
+  - level: 40
+    effect_id: 120
+    effect: PvP урон +3%
+- name: Живучесть
+  levels:
+  - level: 1
+    effect_id: 561
+    effect: Максимальный запас жизненных сил и боевого духа +0.06%
+  - level: 2
+    effect_id: 562
+    effect: Максимальный запас жизненных сил и боевого духа +0.12%
+  - level: 3
+    effect_id: 563
+    effect: Максимальный запас жизненных сил и боевого духа +0.18%
+  - level: 4
+    effect_id: 564
+    effect: Максимальный запас жизненных сил и боевого духа +0.24%
+  - level: 5
+    effect_id: 565
+    effect: Максимальный запас жизненных сил и боевого духа +0.3%
+  - level: 6
+    effect_id: 566
+    effect: Максимальный запас жизненных сил и боевого духа +0.36%
+  - level: 7
+    effect_id: 567
+    effect: Максимальный запас жизненных сил и боевого духа +0.42%
+  - level: 8
+    effect_id: 568
+    effect: Максимальный запас жизненных сил и боевого духа +0.48%
+  - level: 9
+    effect_id: 569
+    effect: Максимальный запас жизненных сил и боевого духа +0.54%
+  - level: 10
+    effect_id: 570
+    effect: Максимальный запас жизненных сил и боевого духа +0.6%
+  - level: 11
+    effect_id: 571
+    effect: Максимальный запас жизненных сил и боевого духа +0.66%
+  - level: 12
+    effect_id: 572
+    effect: Максимальный запас жизненных сил и боевого духа +0.72%
+  - level: 13
+    effect_id: 573
+    effect: Максимальный запас жизненных сил и боевого духа +0.78%
+  - level: 14
+    effect_id: 574
+    effect: Максимальный запас жизненных сил и боевого духа +0.84%
+  - level: 15
+    effect_id: 575
+    effect: Максимальный запас жизненных сил и боевого духа +0.9%
+  - level: 16
+    effect_id: 576
+    effect: Максимальный запас жизненных сил и боевого духа +0.96%
+  - level: 17
+    effect_id: 577
+    effect: Максимальный запас жизненных сил и боевого духа +1.02%
+  - level: 18
+    effect_id: 578
+    effect: Максимальный запас жизненных сил и боевого духа +1.08%
+  - level: 19
+    effect_id: 579
+    effect: Максимальный запас жизненных сил и боевого духа +1.14%
+  - level: 20
+    effect_id: 580
+    effect: Максимальный запас жизненных сил и боевого духа +1.2%
+  - level: 21
+    effect_id: 581
+    effect: Максимальный запас жизненных сил и боевого духа +1.26%
+  - level: 22
+    effect_id: 582
+    effect: Максимальный запас жизненных сил и боевого духа +1.32%
+  - level: 23
+    effect_id: 583
+    effect: Максимальный запас жизненных сил и боевого духа +1.38%
+  - level: 24
+    effect_id: 584
+    effect: Максимальный запас жизненных сил и боевого духа +1.44%
+  - level: 25
+    effect_id: 585
+    effect: Максимальный запас жизненных сил и боевого духа +1.5%
+  - level: 26
+    effect_id: 586
+    effect: Максимальный запас жизненных сил и боевого духа +1.56%
+  - level: 27
+    effect_id: 587
+    effect: Максимальный запас жизненных сил и боевого духа +1.62%
+  - level: 28
+    effect_id: 588
+    effect: Максимальный запас жизненных сил и боевого духа +1.68%
+  - level: 29
+    effect_id: 589
+    effect: Максимальный запас жизненных сил и боевого духа +1.74%
+  - level: 30
+    effect_id: 590
+    effect: Максимальный запас жизненных сил и боевого духа +1.8%
+  - level: 31
+    effect_id: 591
+    effect: Максимальный запас жизненных сил и боевого духа +1.86%
+  - level: 32
+    effect_id: 592
+    effect: Максимальный запас жизненных сил и боевого духа +1.92%
+  - level: 33
+    effect_id: 593
+    effect: Максимальный запас жизненных сил и боевого духа +1.98%
+  - level: 34
+    effect_id: 594
+    effect: Максимальный запас жизненных сил и боевого духа +2.04%
+  - level: 35
+    effect_id: 595
+    effect: Максимальный запас жизненных сил и боевого духа +2.1%
+  - level: 36
+    effect_id: 596
+    effect: Максимальный запас жизненных сил и боевого духа +2.16%
+  - level: 37
+    effect_id: 597
+    effect: Максимальный запас жизненных сил и боевого духа +2.22%
+  - level: 38
+    effect_id: 598
+    effect: Максимальный запас жизненных сил и боевого духа +2.28%
+  - level: 39
+    effect_id: 599
+    effect: Максимальный запас жизненных сил и боевого духа +2.34%
+  - level: 40
+    effect_id: 600
+    effect: Максимальный запас жизненных сил и боевого духа +2.4%
+- name: Защита
+  levels:
+  - level: 1
+    effect_id: 401
+    effect: Защита +0.06%
+  - level: 2
+    effect_id: 402
+    effect: Защита +0.12%
+  - level: 3
+    effect_id: 403
+    effect: Защита +0.18%
+  - level: 4
+    effect_id: 404
+    effect: Защита +0.24%
+  - level: 5
+    effect_id: 405
+    effect: Защита +0.3%
+  - level: 6
+    effect_id: 406
+    effect: Защита +0.36%
+  - level: 7
+    effect_id: 407
+    effect: Защита +0.42%
+  - level: 8
+    effect_id: 408
+    effect: Защита +0.48%
+  - level: 9
+    effect_id: 409
+    effect: Защита +0.54%
+  - level: 10
+    effect_id: 410
+    effect: Защита +0.6%
+  - level: 11
+    effect_id: 411
+    effect: Защита +0.66%
+  - level: 12
+    effect_id: 412
+    effect: Защита +0.72%
+  - level: 13
+    effect_id: 413
+    effect: Защита +0.78%
+  - level: 14
+    effect_id: 414
+    effect: Защита +0.84%
+  - level: 15
+    effect_id: 415
+    effect: Защита +0.9%
+  - level: 16
+    effect_id: 416
+    effect: Защита +0.96%
+  - level: 17
+    effect_id: 417
+    effect: Защита +1.02%
+  - level: 18
+    effect_id: 418
+    effect: Защита +1.08%
+  - level: 19
+    effect_id: 419
+    effect: Защита +1.14%
+  - level: 20
+    effect_id: 420
+    effect: Защита +1.2%
+  - level: 21
+    effect_id: 421
+    effect: Защита +1.26%
+  - level: 22
+    effect_id: 422
+    effect: Защита +1.32%
+  - level: 23
+    effect_id: 423
+    effect: Защита +1.38%
+  - level: 24
+    effect_id: 424
+    effect: Защита +1.44%
+  - level: 25
+    effect_id: 425
+    effect: Защита +1.5%
+  - level: 26
+    effect_id: 426
+    effect: Защита +1.56%
+  - level: 27
+    effect_id: 427
+    effect: Защита +1.62%
+  - level: 28
+    effect_id: 428
+    effect: Защита +1.68%
+  - level: 29
+    effect_id: 429
+    effect: Защита +1.74%
+  - level: 30
+    effect_id: 430
+    effect: Защита +1.8%
+  - level: 31
+    effect_id: 431
+    effect: Защита +1.86%
+  - level: 32
+    effect_id: 432
+    effect: Защита +1.92%
+  - level: 33
+    effect_id: 433
+    effect: Защита +1.98%
+  - level: 34
+    effect_id: 434
+    effect: Защита +2.04%
+  - level: 35
+    effect_id: 435
+    effect: Защита +2.1%
+  - level: 36
+    effect_id: 436
+    effect: Защита +2.16%
+  - level: 37
+    effect_id: 437
+    effect: Защита +2.22%
+  - level: 38
+    effect_id: 438
+    effect: Защита +2.28%
+  - level: 39
+    effect_id: 439
+    effect: Защита +2.34%
+  - level: 40
+    effect_id: 440
+    effect: Защита +2.4%
+- name: Исследователь
+  levels:
+  - level: 1
+    effect_id: 881
+    effect: Опыт за письма из столицы +1%
+  - level: 2
+    effect_id: 882
+    effect: Опыт за письма из столицы +2%
+  - level: 3
+    effect_id: 883
+    effect: Опыт за письма из столицы +3%
+  - level: 4
+    effect_id: 884
+    effect: Опыт за письма из столицы +4%
+  - level: 5
+    effect_id: 885
+    effect: Опыт за письма из столицы +5%
+  - level: 6
+    effect_id: 886
+    effect: Опыт за письма из столицы +6%
+  - level: 7
+    effect_id: 887
+    effect: Опыт за письма из столицы +7%
+  - level: 8
+    effect_id: 888
+    effect: Опыт за письма из столицы +8%
+  - level: 9
+    effect_id: 889
+    effect: Опыт за письма из столицы +9%
+  - level: 10
+    effect_id: 890
+    effect: Опыт за письма из столицы +10%
+  - level: 11
+    effect_id: 891
+    effect: Опыт за письма из столицы +11%
+  - level: 12
+    effect_id: 892
+    effect: Опыт за письма из столицы +12%
+  - level: 13
+    effect_id: 893
+    effect: Опыт за письма из столицы +13%
+  - level: 14
+    effect_id: 894
+    effect: Опыт за письма из столицы +14%
+  - level: 15
+    effect_id: 895
+    effect: Опыт за письма из столицы +15%
+  - level: 16
+    effect_id: 896
+    effect: Опыт за письма из столицы +16%
+  - level: 17
+    effect_id: 897
+    effect: Опыт за письма из столицы +17%
+  - level: 18
+    effect_id: 898
+    effect: Опыт за письма из столицы +18%
+  - level: 19
+    effect_id: 899
+    effect: Опыт за письма из столицы +19%
+  - level: 20
+    effect_id: 900
+    effect: Опыт за письма из столицы +20%
+  - level: 21
+    effect_id: 901
+    effect: Опыт за письма из столицы +21%
+  - level: 22
+    effect_id: 902
+    effect: Опыт за письма из столицы +22%
+  - level: 23
+    effect_id: 903
+    effect: Опыт за письма из столицы +23%
+  - level: 24
+    effect_id: 904
+    effect: Опыт за письма из столицы +24%
+  - level: 25
+    effect_id: 905
+    effect: Опыт за письма из столицы +25%
+  - level: 26
+    effect_id: 906
+    effect: Опыт за письма из столицы +26%
+  - level: 27
+    effect_id: 907
+    effect: Опыт за письма из столицы +27%
+  - level: 28
+    effect_id: 908
+    effect: Опыт за письма из столицы +28%
+  - level: 29
+    effect_id: 909
+    effect: Опыт за письма из столицы +29%
+  - level: 30
+    effect_id: 910
+    effect: Опыт за письма из столицы +30%
+  - level: 31
+    effect_id: 911
+    effect: Опыт за письма из столицы +31%
+  - level: 32
+    effect_id: 912
+    effect: Опыт за письма из столицы +32%
+  - level: 33
+    effect_id: 913
+    effect: Опыт за письма из столицы +33%
+  - level: 34
+    effect_id: 914
+    effect: Опыт за письма из столицы +34%
+  - level: 35
+    effect_id: 915
+    effect: Опыт за письма из столицы +35%
+  - level: 36
+    effect_id: 916
+    effect: Опыт за письма из столицы +36%
+  - level: 37
+    effect_id: 917
+    effect: Опыт за письма из столицы +37%
+  - level: 38
+    effect_id: 918
+    effect: Опыт за письма из столицы +38%
+  - level: 39
+    effect_id: 919
+    effect: Опыт за письма из столицы +39%
+  - level: 40
+    effect_id: 920
+    effect: Опыт за письма из столицы +40%
+- name: Крепость
+  levels:
+  - level: 1
+    effect_id: 161
+    effect: Защита на осаде +0.12%
+  - level: 2
+    effect_id: 162
+    effect: Защита на осаде +0.24%
+  - level: 3
+    effect_id: 163
+    effect: Защита на осаде +0.36%
+  - level: 4
+    effect_id: 164
+    effect: Защита на осаде +0.48%
+  - level: 5
+    effect_id: 165
+    effect: Защита на осаде +0.6%
+  - level: 6
+    effect_id: 166
+    effect: Защита на осаде +0.72%
+  - level: 7
+    effect_id: 167
+    effect: Защита на осаде +0.84%
+  - level: 8
+    effect_id: 168
+    effect: Защита на осаде +0.96%
+  - level: 9
+    effect_id: 169
+    effect: Защита на осаде +1.08%
+  - level: 10
+    effect_id: 170
+    effect: Защита на осаде +1.2%
+  - level: 11
+    effect_id: 171
+    effect: Защита на осаде +1.32%
+  - level: 12
+    effect_id: 172
+    effect: Защита на осаде +1.44%
+  - level: 13
+    effect_id: 173
+    effect: Защита на осаде +1.56%
+  - level: 14
+    effect_id: 174
+    effect: Защита на осаде +1.68%
+  - level: 15
+    effect_id: 175
+    effect: Защита на осаде +1.8%
+  - level: 16
+    effect_id: 176
+    effect: Защита на осаде +1.92%
+  - level: 17
+    effect_id: 177
+    effect: Защита на осаде +2.04%
+  - level: 18
+    effect_id: 178
+    effect: Защита на осаде +2.16%
+  - level: 19
+    effect_id: 179
+    effect: Защита на осаде +2.28%
+  - level: 20
+    effect_id: 180
+    effect: Защита на осаде +2.4%
+  - level: 21
+    effect_id: 181
+    effect: Защита на осаде +2.52%
+  - level: 22
+    effect_id: 182
+    effect: Защита на осаде +2.64%
+  - level: 23
+    effect_id: 183
+    effect: Защита на осаде +2.76%
+  - level: 24
+    effect_id: 184
+    effect: Защита на осаде +2.88%
+  - level: 25
+    effect_id: 185
+    effect: Защита на осаде +3%
+  - level: 26
+    effect_id: 186
+    effect: Защита на осаде +3.12%
+  - level: 27
+    effect_id: 187
+    effect: Защита на осаде +3.24%
+  - level: 28
+    effect_id: 188
+    effect: Защита на осаде +3.36%
+  - level: 29
+    effect_id: 189
+    effect: Защита на осаде +3.48%
+  - level: 30
+    effect_id: 190
+    effect: Защита на осаде +3.6%
+  - level: 31
+    effect_id: 191
+    effect: Защита на осаде +3.72%
+  - level: 32
+    effect_id: 192
+    effect: Защита на осаде +3.84%
+  - level: 33
+    effect_id: 193
+    effect: Защита на осаде +3.96%
+  - level: 34
+    effect_id: 194
+    effect: Защита на осаде +4.08%
+  - level: 35
+    effect_id: 195
+    effect: Защита на осаде +4.2%
+  - level: 36
+    effect_id: 196
+    effect: Защита на осаде +4.32%
+  - level: 37
+    effect_id: 197
+    effect: Защита на осаде +4.44%
+  - level: 38
+    effect_id: 198
+    effect: Защита на осаде +4.56%
+  - level: 39
+    effect_id: 199
+    effect: Защита на осаде +4.68%
+  - level: 40
+    effect_id: 200
+    effect: Защита на осаде +4.8%
+- name: Ловкость
+  levels:
+  - level: 1
+    effect_id: 361
+    effect: Скорость атаки и чтения заклинаний +0.04%
+  - level: 2
+    effect_id: 362
+    effect: Скорость атаки и чтения заклинаний +0.08%
+  - level: 3
+    effect_id: 363
+    effect: Скорость атаки и чтения заклинаний +0.11%
+  - level: 4
+    effect_id: 364
+    effect: Скорость атаки и чтения заклинаний +0.15%
+  - level: 5
+    effect_id: 365
+    effect: Скорость атаки и чтения заклинаний +0.19%
+  - level: 6
+    effect_id: 366
+    effect: Скорость атаки и чтения заклинаний +0.23%
+  - level: 7
+    effect_id: 367
+    effect: Скорость атаки и чтения заклинаний +0.26%
+  - level: 8
+    effect_id: 368
+    effect: Скорость атаки и чтения заклинаний +0.3%
+  - level: 9
+    effect_id: 369
+    effect: Скорость атаки и чтения заклинаний +0.34%
+  - level: 10
+    effect_id: 370
+    effect: Скорость атаки и чтения заклинаний +0.38%
+  - level: 11
+    effect_id: 371
+    effect: Скорость атаки и чтения заклинаний +0.41%
+  - level: 12
+    effect_id: 372
+    effect: Скорость атаки и чтения заклинаний +0.45%
+  - level: 13
+    effect_id: 373
+    effect: Скорость атаки и чтения заклинаний +0.49%
+  - level: 14
+    effect_id: 374
+    effect: Скорость атаки и чтения заклинаний +0.53%
+  - level: 15
+    effect_id: 375
+    effect: Скорость атаки и чтения заклинаний +0.56%
+  - level: 16
+    effect_id: 376
+    effect: Скорость атаки и чтения заклинаний +0.6%
+  - level: 17
+    effect_id: 377
+    effect: Скорость атаки и чтения заклинаний +0.64%
+  - level: 18
+    effect_id: 378
+    effect: Скорость атаки и чтения заклинаний +0.68%
+  - level: 19
+    effect_id: 379
+    effect: Скорость атаки и чтения заклинаний +0.71%
+  - level: 20
+    effect_id: 380
+    effect: Скорость атаки и чтения заклинаний +0.75%
+  - level: 21
+    effect_id: 381
+    effect: Скорость атаки и чтения заклинаний +0.79%
+  - level: 22
+    effect_id: 382
+    effect: Скорость атаки и чтения заклинаний +0.83%
+  - level: 23
+    effect_id: 383
+    effect: Скорость атаки и чтения заклинаний +0.86%
+  - level: 24
+    effect_id: 384
+    effect: Скорость атаки и чтения заклинаний +0.9%
+  - level: 25
+    effect_id: 385
+    effect: Скорость атаки и чтения заклинаний +0.94%
+  - level: 26
+    effect_id: 386
+    effect: Скорость атаки и чтения заклинаний +0.98%
+  - level: 27
+    effect_id: 387
+    effect: Скорость атаки и чтения заклинаний +1.01%
+  - level: 28
+    effect_id: 388
+    effect: Скорость атаки и чтения заклинаний +1.05%
+  - level: 29
+    effect_id: 389
+    effect: Скорость атаки и чтения заклинаний +1.09%
+  - level: 30
+    effect_id: 390
+    effect: Скорость атаки и чтения заклинаний +1.13%
+  - level: 31
+    effect_id: 391
+    effect: Скорость атаки и чтения заклинаний +1.16%
+  - level: 32
+    effect_id: 392
+    effect: Скорость атаки и чтения заклинаний +1.2%
+  - level: 33
+    effect_id: 393
+    effect: Скорость атаки и чтения заклинаний +1.24%
+  - level: 34
+    effect_id: 394
+    effect: Скорость атаки и чтения заклинаний +1.28%
+  - level: 35
+    effect_id: 395
+    effect: Скорость атаки и чтения заклинаний +1.31%
+  - level: 36
+    effect_id: 396
+    effect: Скорость атаки и чтения заклинаний +1.35%
+  - level: 37
+    effect_id: 397
+    effect: Скорость атаки и чтения заклинаний +1.39%
+  - level: 38
+    effect_id: 398
+    effect: Скорость атаки и чтения заклинаний +1.43%
+  - level: 39
+    effect_id: 399
+    effect: Скорость атаки и чтения заклинаний +1.46%
+  - level: 40
+    effect_id: 400
+    effect: Скорость атаки и чтения заклинаний +1.5%
+- name: Мана
+  levels:
+  - level: 1
+    effect_id: 1041
+    effect: Максимальный запас маны +200
+  - level: 2
+    effect_id: 1042
+    effect: Максимальный запас маны +400
+  - level: 3
+    effect_id: 1043
+    effect: Максимальный запас маны +600
+  - level: 4
+    effect_id: 1044
+    effect: Максимальный запас маны +800
+  - level: 5
+    effect_id: 1045
+    effect: Максимальный запас маны +1000
+  - level: 6
+    effect_id: 1046
+    effect: Максимальный запас маны +1200
+  - level: 7
+    effect_id: 1047
+    effect: Максимальный запас маны +1400
+  - level: 8
+    effect_id: 1048
+    effect: Максимальный запас маны +1600
+  - level: 9
+    effect_id: 1049
+    effect: Максимальный запас маны +1800
+  - level: 10
+    effect_id: 1050
+    effect: Максимальный запас маны +2000
+  - level: 11
+    effect_id: 1051
+    effect: Максимальный запас маны +2200
+  - level: 12
+    effect_id: 1052
+    effect: Максимальный запас маны +2400
+  - level: 13
+    effect_id: 1053
+    effect: Максимальный запас маны +2600
+  - level: 14
+    effect_id: 1054
+    effect: Максимальный запас маны +2800
+  - level: 15
+    effect_id: 1055
+    effect: Максимальный запас маны +3000
+  - level: 16
+    effect_id: 1056
+    effect: Максимальный запас маны +3200
+  - level: 17
+    effect_id: 1057
+    effect: Максимальный запас маны +3400
+  - level: 18
+    effect_id: 1058
+    effect: Максимальный запас маны +3600
+  - level: 19
+    effect_id: 1059
+    effect: Максимальный запас маны +3800
+  - level: 20
+    effect_id: 1060
+    effect: Максимальный запас маны +4000
+  - level: 21
+    effect_id: 1061
+    effect: Максимальный запас маны +4200
+  - level: 22
+    effect_id: 1062
+    effect: Максимальный запас маны +4400
+  - level: 23
+    effect_id: 1063
+    effect: Максимальный запас маны +4600
+  - level: 24
+    effect_id: 1064
+    effect: Максимальный запас маны +4800
+  - level: 25
+    effect_id: 1065
+    effect: Максимальный запас маны +5000
+  - level: 26
+    effect_id: 1066
+    effect: Максимальный запас маны +5200
+  - level: 27
+    effect_id: 1067
+    effect: Максимальный запас маны +5400
+  - level: 28
+    effect_id: 1068
+    effect: Максимальный запас маны +5600
+  - level: 29
+    effect_id: 1069
+    effect: Максимальный запас маны +5800
+  - level: 30
+    effect_id: 1070
+    effect: Максимальный запас маны +6000
+  - level: 31
+    effect_id: 1071
+    effect: Максимальный запас маны +6200
+  - level: 32
+    effect_id: 1072
+    effect: Максимальный запас маны +6400
+  - level: 33
+    effect_id: 1073
+    effect: Максимальный запас маны +6600
+  - level: 34
+    effect_id: 1074
+    effect: Максимальный запас маны +6800
+  - level: 35
+    effect_id: 1075
+    effect: Максимальный запас маны +7000
+  - level: 36
+    effect_id: 1076
+    effect: Максимальный запас маны +7200
+  - level: 37
+    effect_id: 1077
+    effect: Максимальный запас маны +7400
+  - level: 38
+    effect_id: 1078
+    effect: Максимальный запас маны +7600
+  - level: 39
+    effect_id: 1079
+    effect: Максимальный запас маны +7800
+  - level: 40
+    effect_id: 1080
+    effect: Максимальный запас маны +8000
+- name: Мощь
+  levels:
+  - level: 1
+    effect_id: 641
+    effect: Сила физических и магических критических атак +0.05%
+  - level: 2
+    effect_id: 642
+    effect: Сила физических и магических критических атак +0.1%
+  - level: 3
+    effect_id: 643
+    effect: Сила физических и магических критических атак +0.15%
+  - level: 4
+    effect_id: 644
+    effect: Сила физических и магических критических атак +0.2%
+  - level: 5
+    effect_id: 645
+    effect: Сила физических и магических критических атак +0.25%
+  - level: 6
+    effect_id: 646
+    effect: Сила физических и магических критических атак +0.3%
+  - level: 7
+    effect_id: 647
+    effect: Сила физических и магических критических атак +0.35%
+  - level: 8
+    effect_id: 648
+    effect: Сила физических и магических критических атак +0.4%
+  - level: 9
+    effect_id: 649
+    effect: Сила физических и магических критических атак +0.45%
+  - level: 10
+    effect_id: 650
+    effect: Сила физических и магических критических атак +0.5%
+  - level: 11
+    effect_id: 651
+    effect: Сила физических и магических критических атак +0.55%
+  - level: 12
+    effect_id: 652
+    effect: Сила физических и магических критических атак +0.6%
+  - level: 13
+    effect_id: 653
+    effect: Сила физических и магических критических атак +0.65%
+  - level: 14
+    effect_id: 654
+    effect: Сила физических и магических критических атак +0.7%
+  - level: 15
+    effect_id: 655
+    effect: Сила физических и магических критических атак +0.75%
+  - level: 16
+    effect_id: 656
+    effect: Сила физических и магических критических атак +0.8%
+  - level: 17
+    effect_id: 657
+    effect: Сила физических и магических критических атак +0.85%
+  - level: 18
+    effect_id: 658
+    effect: Сила физических и магических критических атак +0.9%
+  - level: 19
+    effect_id: 659
+    effect: Сила физических и магических критических атак +0.95%
+  - level: 20
+    effect_id: 660
+    effect: Сила физических и магических критических атак +1%
+  - level: 21
+    effect_id: 661
+    effect: Сила физических и магических критических атак +1.05%
+  - level: 22
+    effect_id: 662
+    effect: Сила физических и магических критических атак +1.1%
+  - level: 23
+    effect_id: 663
+    effect: Сила физических и магических критических атак +1.15%
+  - level: 24
+    effect_id: 664
+    effect: Сила физических и магических критических атак +1.2%
+  - level: 25
+    effect_id: 665
+    effect: Сила физических и магических критических атак +1.25%
+  - level: 26
+    effect_id: 666
+    effect: Сила физических и магических критических атак +1.3%
+  - level: 27
+    effect_id: 667
+    effect: Сила физических и магических критических атак +1.35%
+  - level: 28
+    effect_id: 668
+    effect: Сила физических и магических критических атак +1.4%
+  - level: 29
+    effect_id: 669
+    effect: Сила физических и магических критических атак +1.45%
+  - level: 30
+    effect_id: 670
+    effect: Сила физических и магических критических атак +1.5%
+  - level: 31
+    effect_id: 671
+    effect: Сила физических и магических критических атак +1.55%
+  - level: 32
+    effect_id: 672
+    effect: Сила физических и магических критических атак +1.6%
+  - level: 33
+    effect_id: 673
+    effect: Сила физических и магических критических атак +1.65%
+  - level: 34
+    effect_id: 674
+    effect: Сила физических и магических критических атак +1.7%
+  - level: 35
+    effect_id: 675
+    effect: Сила физических и магических критических атак +1.75%
+  - level: 36
+    effect_id: 676
+    effect: Сила физических и магических критических атак +1.8%
+  - level: 37
+    effect_id: 677
+    effect: Сила физических и магических критических атак +1.85%
+  - level: 38
+    effect_id: 678
+    effect: Сила физических и магических критических атак +1.9%
+  - level: 39
+    effect_id: 679
+    effect: Сила физических и магических критических атак +1.95%
+  - level: 40
+    effect_id: 680
+    effect: Сила физических и магических критических атак +2%
+- name: Новобранец
+  levels:
+  - level: 1
+    effect_id: 801
+    effect: Получаемое жалование +1%
+  - level: 2
+    effect_id: 802
+    effect: Получаемое жалование +1%
+  - level: 3
+    effect_id: 803
+    effect: Получаемое жалование +1%
+  - level: 4
+    effect_id: 804
+    effect: Получаемое жалование +2%
+  - level: 5
+    effect_id: 805
+    effect: Получаемое жалование +2%
+  - level: 6
+    effect_id: 806
+    effect: Получаемое жалование +2%
+  - level: 7
+    effect_id: 807
+    effect: Получаемое жалование +3%
+  - level: 8
+    effect_id: 808
+    effect: Получаемое жалование +3%
+  - level: 9
+    effect_id: 809
+    effect: Получаемое жалование +3%
+  - level: 10
+    effect_id: 810
+    effect: Получаемое жалование +3%
+  - level: 11
+    effect_id: 811
+    effect: Получаемое жалование +4%
+  - level: 12
+    effect_id: 812
+    effect: Получаемое жалование +4%
+  - level: 13
+    effect_id: 813
+    effect: Получаемое жалование +4%
+  - level: 14
+    effect_id: 814
+    effect: Получаемое жалование +4%
+  - level: 15
+    effect_id: 815
+    effect: Получаемое жалование +5%
+  - level: 16
+    effect_id: 816
+    effect: Получаемое жалование +5%
+  - level: 17
+    effect_id: 817
+    effect: Получаемое жалование +5%
+  - level: 18
+    effect_id: 818
+    effect: Получаемое жалование +5%
+  - level: 19
+    effect_id: 819
+    effect: Получаемое жалование +5%
+  - level: 20
+    effect_id: 820
+    effect: Получаемое жалование +6%
+  - level: 21
+    effect_id: 821
+    effect: Получаемое жалование +6%
+  - level: 22
+    effect_id: 822
+    effect: Получаемое жалование +6%
+  - level: 23
+    effect_id: 823
+    effect: Получаемое жалование +6%
+  - level: 24
+    effect_id: 824
+    effect: Получаемое жалование +6%
+  - level: 25
+    effect_id: 825
+    effect: Получаемое жалование +7%
+  - level: 26
+    effect_id: 826
+    effect: Получаемое жалование +7%
+  - level: 27
+    effect_id: 827
+    effect: Получаемое жалование +7%
+  - level: 28
+    effect_id: 828
+    effect: Получаемое жалование +7%
+  - level: 29
+    effect_id: 829
+    effect: Получаемое жалование +7%
+  - level: 30
+    effect_id: 830
+    effect: Получаемое жалование +8%
+  - level: 31
+    effect_id: 831
+    effect: Получаемое жалование +8%
+  - level: 32
+    effect_id: 832
+    effect: Получаемое жалование +8%
+  - level: 33
+    effect_id: 833
+    effect: Получаемое жалование +8%
+  - level: 34
+    effect_id: 834
+    effect: Получаемое жалование +8%
+  - level: 35
+    effect_id: 835
+    effect: Получаемое жалование +9%
+  - level: 36
+    effect_id: 836
+    effect: Получаемое жалование +9%
+  - level: 37
+    effect_id: 837
+    effect: Получаемое жалование +9%
+  - level: 38
+    effect_id: 838
+    effect: Получаемое жалование +9%
+  - level: 39
+    effect_id: 839
+    effect: Получаемое жалование +9%
+  - level: 40
+    effect_id: 840
+    effect: Получаемое жалование +10%
+- name: Орлиный глаз
+  levels:
+  - level: 1
+    effect_id: 201
+    effect: Дальность стрельбы и магии +2
+  - level: 2
+    effect_id: 202
+    effect: Дальность стрельбы и магии +4
+  - level: 3
+    effect_id: 203
+    effect: Дальность стрельбы и магии +6
+  - level: 4
+    effect_id: 204
+    effect: Дальность стрельбы и магии +8
+  - level: 5
+    effect_id: 205
+    effect: Дальность стрельбы и магии +10
+  - level: 6
+    effect_id: 206
+    effect: Дальность стрельбы и магии +12
+  - level: 7
+    effect_id: 207
+    effect: Дальность стрельбы и магии +14
+  - level: 8
+    effect_id: 208
+    effect: Дальность стрельбы и магии +16
+  - level: 9
+    effect_id: 209
+    effect: Дальность стрельбы и магии +18
+  - level: 10
+    effect_id: 210
+    effect: Дальность стрельбы и магии +20
+  - level: 11
+    effect_id: 211
+    effect: Дальность стрельбы и магии +22
+  - level: 12
+    effect_id: 212
+    effect: Дальность стрельбы и магии +24
+  - level: 13
+    effect_id: 213
+    effect: Дальность стрельбы и магии +26
+  - level: 14
+    effect_id: 214
+    effect: Дальность стрельбы и магии +28
+  - level: 15
+    effect_id: 215
+    effect: Дальность стрельбы и магии +30
+  - level: 16
+    effect_id: 216
+    effect: Дальность стрельбы и магии +32
+  - level: 17
+    effect_id: 217
+    effect: Дальность стрельбы и магии +34
+  - level: 18
+    effect_id: 218
+    effect: Дальность стрельбы и магии +36
+  - level: 19
+    effect_id: 219
+    effect: Дальность стрельбы и магии +38
+  - level: 20
+    effect_id: 220
+    effect: Дальность стрельбы и магии +40
+  - level: 21
+    effect_id: 221
+    effect: Дальность стрельбы и магии +42
+  - level: 22
+    effect_id: 222
+    effect: Дальность стрельбы и магии +44
+  - level: 23
+    effect_id: 223
+    effect: Дальность стрельбы и магии +46
+  - level: 24
+    effect_id: 224
+    effect: Дальность стрельбы и магии +48
+  - level: 25
+    effect_id: 225
+    effect: Дальность стрельбы и магии +50
+  - level: 26
+    effect_id: 226
+    effect: Дальность стрельбы и магии +52
+  - level: 27
+    effect_id: 227
+    effect: Дальность стрельбы и магии +54
+  - level: 28
+    effect_id: 228
+    effect: Дальность стрельбы и магии +56
+  - level: 29
+    effect_id: 229
+    effect: Дальность стрельбы и магии +58
+  - level: 30
+    effect_id: 230
+    effect: Дальность стрельбы и магии +60
+  - level: 31
+    effect_id: 231
+    effect: Дальность стрельбы и магии +62
+  - level: 32
+    effect_id: 232
+    effect: Дальность стрельбы и магии +64
+  - level: 33
+    effect_id: 233
+    effect: Дальность стрельбы и магии +66
+  - level: 34
+    effect_id: 234
+    effect: Дальность стрельбы и магии +68
+  - level: 35
+    effect_id: 235
+    effect: Дальность стрельбы и магии +70
+  - level: 36
+    effect_id: 236
+    effect: Дальность стрельбы и магии +72
+  - level: 37
+    effect_id: 237
+    effect: Дальность стрельбы и магии +74
+  - level: 38
+    effect_id: 238
+    effect: Дальность стрельбы и магии +76
+  - level: 39
+    effect_id: 239
+    effect: Дальность стрельбы и магии +78
+  - level: 40
+    effect_id: 240
+    effect: Дальность стрельбы и магии +80
+- name: Острота
+  levels:
+  - level: 1
+    effect_id: 681
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.05%
+
+      Шанс физической критической атаки +1%'
+  - level: 2
+    effect_id: 682
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.1%
+
+      Шанс физической критической атаки +2%'
+  - level: 3
+    effect_id: 683
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.15%
+
+      Шанс физической критической атаки +3%'
+  - level: 4
+    effect_id: 684
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.2%
+
+      Шанс физической критической атаки +4%'
+  - level: 5
+    effect_id: 685
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.25%
+
+      Шанс физической критической атаки +5%'
+  - level: 6
+    effect_id: 686
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.3%
+
+      Шанс физической критической атаки +6%'
+  - level: 7
+    effect_id: 687
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.35%
+
+      Шанс физической критической атаки +7%'
+  - level: 8
+    effect_id: 688
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.4%
+
+      Шанс физической критической атаки +8%'
+  - level: 9
+    effect_id: 689
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.45%
+
+      Шанс физической критической атаки +9%'
+  - level: 10
+    effect_id: 690
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.5%
+
+      Шанс физической критической атаки +10%'
+  - level: 11
+    effect_id: 691
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.55%
+
+      Шанс физической критической атаки +11%'
+  - level: 12
+    effect_id: 692
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.6%
+
+      Шанс физической критической атаки +12%'
+  - level: 13
+    effect_id: 693
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.65%
+
+      Шанс физической критической атаки +13%'
+  - level: 14
+    effect_id: 694
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.7%
+
+      Шанс физической критической атаки +14%'
+  - level: 15
+    effect_id: 695
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.75%
+
+      Шанс физической критической атаки +15%'
+  - level: 16
+    effect_id: 696
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.8%
+
+      Шанс физической критической атаки +16%'
+  - level: 17
+    effect_id: 697
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.85%
+
+      Шанс физической критической атаки +17%'
+  - level: 18
+    effect_id: 698
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.9%
+
+      Шанс физической критической атаки +18%'
+  - level: 19
+    effect_id: 699
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +0.95%
+
+      Шанс физической критической атаки +19%'
+  - level: 20
+    effect_id: 700
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1%
+
+      Шанс физической критической атаки +20%'
+  - level: 21
+    effect_id: 701
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.05%
+
+      Шанс физической критической атаки +21%'
+  - level: 22
+    effect_id: 702
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.1%
+
+      Шанс физической критической атаки +22%'
+  - level: 23
+    effect_id: 703
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.15%
+
+      Шанс физической критической атаки +23%'
+  - level: 24
+    effect_id: 704
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.2%
+
+      Шанс физической критической атаки +24%'
+  - level: 25
+    effect_id: 705
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.25%
+
+      Шанс физической критической атаки +25%'
+  - level: 26
+    effect_id: 706
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.3%
+
+      Шанс физической критической атаки +26%'
+  - level: 27
+    effect_id: 707
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.35%
+
+      Шанс физической критической атаки +27%'
+  - level: 28
+    effect_id: 708
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.4%
+
+      Шанс физической критической атаки +28%'
+  - level: 29
+    effect_id: 709
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.45%
+
+      Шанс физической критической атаки +29%'
+  - level: 30
+    effect_id: 710
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.5%
+
+      Шанс физической критической атаки +30%'
+  - level: 31
+    effect_id: 711
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.55%
+
+      Шанс физической критической атаки +31%'
+  - level: 32
+    effect_id: 712
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.6%
+
+      Шанс физической критической атаки +32%'
+  - level: 33
+    effect_id: 713
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.65%
+
+      Шанс физической критической атаки +33%'
+  - level: 34
+    effect_id: 714
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.7%
+
+      Шанс физической критической атаки +34%'
+  - level: 35
+    effect_id: 715
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.75%
+
+      Шанс физической критической атаки +35%'
+  - level: 36
+    effect_id: 716
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.8%
+
+      Шанс физической критической атаки +36%'
+  - level: 37
+    effect_id: 717
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.85%
+
+      Шанс физической критической атаки +37%'
+  - level: 38
+    effect_id: 718
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.9%
+
+      Шанс физической критической атаки +38%'
+  - level: 39
+    effect_id: 719
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +1.95%
+
+      Шанс физической критической атаки +39%'
+  - level: 40
+    effect_id: 720
+    effect: 'Шанс критической атаки магией и шанс критической атаки физическим умением +2%
+
+      Шанс физической критической атаки +40%'
+- name: Панцирь
+  levels:
+  - level: 1
+    effect_id: 1
+    effect: Защита спины +0.075%
+  - level: 2
+    effect_id: 2
+    effect: Защита спины +0.15%
+  - level: 3
+    effect_id: 3
+    effect: Защита спины +0.225%
+  - level: 4
+    effect_id: 4
+    effect: Защита спины +0.3%
+  - level: 5
+    effect_id: 5
+    effect: Защита спины +0.375%
+  - level: 6
+    effect_id: 6
+    effect: Защита спины +0.45%
+  - level: 7
+    effect_id: 7
+    effect: Защита спины +0.525%
+  - level: 8
+    effect_id: 8
+    effect: Защита спины +0.6%
+  - level: 9
+    effect_id: 9
+    effect: Защита спины +0.675%
+  - level: 10
+    effect_id: 10
+    effect: Защита спины +0.75%
+  - level: 11
+    effect_id: 11
+    effect: Защита спины +0.825%
+  - level: 12
+    effect_id: 12
+    effect: Защита спины +0.9%
+  - level: 13
+    effect_id: 13
+    effect: Защита спины +0.975%
+  - level: 14
+    effect_id: 14
+    effect: Защита спины +1.05%
+  - level: 15
+    effect_id: 15
+    effect: Защита спины +1.125%
+  - level: 16
+    effect_id: 16
+    effect: Защита спины +1.2%
+  - level: 17
+    effect_id: 17
+    effect: Защита спины +1.275%
+  - level: 18
+    effect_id: 18
+    effect: Защита спины +1.35%
+  - level: 19
+    effect_id: 19
+    effect: Защита спины +1.425%
+  - level: 20
+    effect_id: 20
+    effect: Защита спины +1.5%
+  - level: 21
+    effect_id: 21
+    effect: Защита спины +1.575%
+  - level: 22
+    effect_id: 22
+    effect: Защита спины +1.65%
+  - level: 23
+    effect_id: 23
+    effect: Защита спины +1.725%
+  - level: 24
+    effect_id: 24
+    effect: Защита спины +1.8%
+  - level: 25
+    effect_id: 25
+    effect: Защита спины +1.875%
+  - level: 26
+    effect_id: 26
+    effect: Защита спины +1.95%
+  - level: 27
+    effect_id: 27
+    effect: Защита спины +2.025%
+  - level: 28
+    effect_id: 28
+    effect: Защита спины +2.1%
+  - level: 29
+    effect_id: 29
+    effect: Защита спины +2.175%
+  - level: 30
+    effect_id: 30
+    effect: Защита спины +2.25%
+  - level: 31
+    effect_id: 31
+    effect: Защита спины +2.325%
+  - level: 32
+    effect_id: 32
+    effect: Защита спины +2.4%
+  - level: 33
+    effect_id: 33
+    effect: Защита спины +2.475%
+  - level: 34
+    effect_id: 34
+    effect: Защита спины +2.55%
+  - level: 35
+    effect_id: 35
+    effect: Защита спины +2.625%
+  - level: 36
+    effect_id: 36
+    effect: Защита спины +2.7%
+  - level: 37
+    effect_id: 37
+    effect: Защита спины +2.775%
+  - level: 38
+    effect_id: 38
+    effect: Защита спины +2.85%
+  - level: 39
+    effect_id: 39
+    effect: Защита спины +2.925%
+  - level: 40
+    effect_id: 40
+    effect: Защита спины +3%
+- name: Перезарядка
+  levels:
+  - level: 1
+    effect_id: 481
+    effect: Время до повторного использования физических и магических умений -1%
+  - level: 2
+    effect_id: 482
+    effect: Время до повторного использования физических и магических умений -1%
+  - level: 3
+    effect_id: 483
+    effect: Время до повторного использования физических и магических умений -1%
+  - level: 4
+    effect_id: 484
+    effect: Время до повторного использования физических и магических умений -1%
+  - level: 5
+    effect_id: 485
+    effect: Время до повторного использования физических и магических умений -1%
+  - level: 6
+    effect_id: 486
+    effect: Время до повторного использования физических и магических умений -2%
+  - level: 7
+    effect_id: 487
+    effect: Время до повторного использования физических и магических умений -2%
+  - level: 8
+    effect_id: 488
+    effect: Время до повторного использования физических и магических умений -2%
+  - level: 9
+    effect_id: 489
+    effect: Время до повторного использования физических и магических умений -2%
+  - level: 10
+    effect_id: 490
+    effect: Время до повторного использования физических и магических умений -2%
+  - level: 11
+    effect_id: 491
+    effect: Время до повторного использования физических и магических умений -3%
+  - level: 12
+    effect_id: 492
+    effect: Время до повторного использования физических и магических умений -3%
+  - level: 13
+    effect_id: 493
+    effect: Время до повторного использования физических и магических умений -3%
+  - level: 14
+    effect_id: 494
+    effect: Время до повторного использования физических и магических умений -3%
+  - level: 15
+    effect_id: 495
+    effect: Время до повторного использования физических и магических умений -4%
+  - level: 16
+    effect_id: 496
+    effect: Время до повторного использования физических и магических умений -4%
+  - level: 17
+    effect_id: 497
+    effect: Время до повторного использования физических и магических умений -4%
+  - level: 18
+    effect_id: 498
+    effect: Время до повторного использования физических и магических умений -4%
+  - level: 19
+    effect_id: 499
+    effect: Время до повторного использования физических и магических умений -4%
+  - level: 20
+    effect_id: 500
+    effect: Время до повторного использования физических и магических умений -5%
+  - level: 21
+    effect_id: 501
+    effect: Время до повторного использования физических и магических умений -5%
+  - level: 22
+    effect_id: 502
+    effect: Время до повторного использования физических и магических умений -5%
+  - level: 23
+    effect_id: 503
+    effect: Время до повторного использования физических и магических умений -5%
+  - level: 24
+    effect_id: 504
+    effect: Время до повторного использования физических и магических умений -5%
+  - level: 25
+    effect_id: 505
+    effect: Время до повторного использования физических и магических умений -6%
+  - level: 26
+    effect_id: 506
+    effect: Время до повторного использования физических и магических умений -6%
+  - level: 27
+    effect_id: 507
+    effect: Время до повторного использования физических и магических умений -6%
+  - level: 28
+    effect_id: 508
+    effect: Время до повторного использования физических и магических умений -6%
+  - level: 29
+    effect_id: 509
+    effect: Время до повторного использования физических и магических умений -6%
+  - level: 30
+    effect_id: 510
+    effect: Время до повторного использования физических и магических умений -7%
+  - level: 31
+    effect_id: 511
+    effect: Время до повторного использования физических и магических умений -7%
+  - level: 32
+    effect_id: 512
+    effect: Время до повторного использования физических и магических умений -7%
+  - level: 33
+    effect_id: 513
+    effect: Время до повторного использования физических и магических умений -7%
+  - level: 34
+    effect_id: 514
+    effect: Время до повторного использования физических и магических умений -7%
+  - level: 35
+    effect_id: 515
+    effect: Время до повторного использования физических и магических умений -8%
+  - level: 36
+    effect_id: 516
+    effect: Время до повторного использования физических и магических умений -8%
+  - level: 37
+    effect_id: 517
+    effect: Время до повторного использования физических и магических умений -8%
+  - level: 38
+    effect_id: 518
+    effect: Время до повторного использования физических и магических умений -8%
+  - level: 39
+    effect_id: 519
+    effect: Время до повторного использования физических и магических умений -8%
+  - level: 40
+    effect_id: 520
+    effect: Время до повторного использования физических и магических умений -9%
+- name: Подлость
+  levels:
+  - level: 1
+    effect_id: 41
+    effect: Урон по спине +0.075%
+  - level: 2
+    effect_id: 42
+    effect: Урон по спине +0.15%
+  - level: 3
+    effect_id: 43
+    effect: Урон по спине +0.225%
+  - level: 4
+    effect_id: 44
+    effect: Урон по спине +0.3%
+  - level: 5
+    effect_id: 45
+    effect: Урон по спине +0.375%
+  - level: 6
+    effect_id: 46
+    effect: Урон по спине +0.45%
+  - level: 7
+    effect_id: 47
+    effect: Урон по спине +0.525%
+  - level: 8
+    effect_id: 48
+    effect: Урон по спине +0.6%
+  - level: 9
+    effect_id: 49
+    effect: Урон по спине +0.675%
+  - level: 10
+    effect_id: 50
+    effect: Урон по спине +0.75%
+  - level: 11
+    effect_id: 51
+    effect: Урон по спине +0.825%
+  - level: 12
+    effect_id: 52
+    effect: Урон по спине +0.9%
+  - level: 13
+    effect_id: 53
+    effect: Урон по спине +0.975%
+  - level: 14
+    effect_id: 54
+    effect: Урон по спине +1.05%
+  - level: 15
+    effect_id: 55
+    effect: Урон по спине +1.125%
+  - level: 16
+    effect_id: 56
+    effect: Урон по спине +1.2%
+  - level: 17
+    effect_id: 57
+    effect: Урон по спине +1.275%
+  - level: 18
+    effect_id: 58
+    effect: Урон по спине +1.35%
+  - level: 19
+    effect_id: 59
+    effect: Урон по спине +1.425%
+  - level: 20
+    effect_id: 60
+    effect: Урон по спине +1.5%
+  - level: 21
+    effect_id: 61
+    effect: Урон по спине +1.575%
+  - level: 22
+    effect_id: 62
+    effect: Урон по спине +1.65%
+  - level: 23
+    effect_id: 63
+    effect: Урон по спине +1.725%
+  - level: 24
+    effect_id: 64
+    effect: Урон по спине +1.8%
+  - level: 25
+    effect_id: 65
+    effect: Урон по спине +1.875%
+  - level: 26
+    effect_id: 66
+    effect: Урон по спине +1.95%
+  - level: 27
+    effect_id: 67
+    effect: Урон по спине +2.025%
+  - level: 28
+    effect_id: 68
+    effect: Урон по спине +2.1%
+  - level: 29
+    effect_id: 69
+    effect: Урон по спине +2.175%
+  - level: 30
+    effect_id: 70
+    effect: Урон по спине +2.25%
+  - level: 31
+    effect_id: 71
+    effect: Урон по спине +2.325%
+  - level: 32
+    effect_id: 72
+    effect: Урон по спине +2.4%
+  - level: 33
+    effect_id: 73
+    effect: Урон по спине +2.475%
+  - level: 34
+    effect_id: 74
+    effect: Урон по спине +2.55%
+  - level: 35
+    effect_id: 75
+    effect: Урон по спине +2.625%
+  - level: 36
+    effect_id: 76
+    effect: Урон по спине +2.7%
+  - level: 37
+    effect_id: 77
+    effect: Урон по спине +2.775%
+  - level: 38
+    effect_id: 78
+    effect: Урон по спине +2.85%
+  - level: 39
+    effect_id: 79
+    effect: Урон по спине +2.925%
+  - level: 40
+    effect_id: 80
+    effect: Урон по спине +3%
+- name: Покров
+  levels:
+  - level: 1
+    effect_id: 521
+    effect: Защита от критических атак +0.05%
+  - level: 2
+    effect_id: 522
+    effect: Защита от критических атак +0.1%
+  - level: 3
+    effect_id: 523
+    effect: Защита от критических атак +0.15%
+  - level: 4
+    effect_id: 524
+    effect: Защита от критических атак +0.2%
+  - level: 5
+    effect_id: 525
+    effect: Защита от критических атак +0.25%
+  - level: 6
+    effect_id: 526
+    effect: Защита от критических атак +0.3%
+  - level: 7
+    effect_id: 527
+    effect: Защита от критических атак +0.35%
+  - level: 8
+    effect_id: 528
+    effect: Защита от критических атак +0.4%
+  - level: 9
+    effect_id: 529
+    effect: Защита от критических атак +0.45%
+  - level: 10
+    effect_id: 530
+    effect: Защита от критических атак +0.5%
+  - level: 11
+    effect_id: 531
+    effect: Защита от критических атак +0.55%
+  - level: 12
+    effect_id: 532
+    effect: Защита от критических атак +0.6%
+  - level: 13
+    effect_id: 533
+    effect: Защита от критических атак +0.65%
+  - level: 14
+    effect_id: 534
+    effect: Защита от критических атак +0.7%
+  - level: 15
+    effect_id: 535
+    effect: Защита от критических атак +0.75%
+  - level: 16
+    effect_id: 536
+    effect: Защита от критических атак +0.8%
+  - level: 17
+    effect_id: 537
+    effect: Защита от критических атак +0.85%
+  - level: 18
+    effect_id: 538
+    effect: Защита от критических атак +0.9%
+  - level: 19
+    effect_id: 539
+    effect: Защита от критических атак +0.95%
+  - level: 20
+    effect_id: 540
+    effect: Защита от критических атак +1%
+  - level: 21
+    effect_id: 541
+    effect: Защита от критических атак +1.05%
+  - level: 22
+    effect_id: 542
+    effect: Защита от критических атак +1.1%
+  - level: 23
+    effect_id: 543
+    effect: Защита от критических атак +1.15%
+  - level: 24
+    effect_id: 544
+    effect: Защита от критических атак +1.2%
+  - level: 25
+    effect_id: 545
+    effect: Защита от критических атак +1.25%
+  - level: 26
+    effect_id: 546
+    effect: Защита от критических атак +1.3%
+  - level: 27
+    effect_id: 547
+    effect: Защита от критических атак +1.35%
+  - level: 28
+    effect_id: 548
+    effect: Защита от критических атак +1.4%
+  - level: 29
+    effect_id: 549
+    effect: Защита от критических атак +1.45%
+  - level: 30
+    effect_id: 550
+    effect: Защита от критических атак +1.5%
+  - level: 31
+    effect_id: 551
+    effect: Защита от критических атак +1.55%
+  - level: 32
+    effect_id: 552
+    effect: Защита от критических атак +1.6%
+  - level: 33
+    effect_id: 553
+    effect: Защита от критических атак +1.65%
+  - level: 34
+    effect_id: 554
+    effect: Защита от критических атак +1.7%
+  - level: 35
+    effect_id: 555
+    effect: Защита от критических атак +1.75%
+  - level: 36
+    effect_id: 556
+    effect: Защита от критических атак +1.8%
+  - level: 37
+    effect_id: 557
+    effect: Защита от критических атак +1.85%
+  - level: 38
+    effect_id: 558
+    effect: Защита от критических атак +1.9%
+  - level: 39
+    effect_id: 559
+    effect: Защита от критических атак +1.95%
+  - level: 40
+    effect_id: 560
+    effect: Защита от критических атак +2%
+- name: Рост
+  levels:
+  - level: 1
+    effect_id: 761
+    effect: Весь получаемый опыт +0.08%
+  - level: 2
+    effect_id: 762
+    effect: Весь получаемый опыт +0.15%
+  - level: 3
+    effect_id: 763
+    effect: Весь получаемый опыт +0.23%
+  - level: 4
+    effect_id: 764
+    effect: Весь получаемый опыт +0.3%
+  - level: 5
+    effect_id: 765
+    effect: Весь получаемый опыт +0.38%
+  - level: 6
+    effect_id: 766
+    effect: Весь получаемый опыт +0.45%
+  - level: 7
+    effect_id: 767
+    effect: Весь получаемый опыт +0.53%
+  - level: 8
+    effect_id: 768
+    effect: Весь получаемый опыт +0.6%
+  - level: 9
+    effect_id: 769
+    effect: Весь получаемый опыт +0.68%
+  - level: 10
+    effect_id: 770
+    effect: Весь получаемый опыт +0.75%
+  - level: 11
+    effect_id: 771
+    effect: Весь получаемый опыт +0.83%
+  - level: 12
+    effect_id: 772
+    effect: Весь получаемый опыт +0.9%
+  - level: 13
+    effect_id: 773
+    effect: Весь получаемый опыт +0.98%
+  - level: 14
+    effect_id: 774
+    effect: Весь получаемый опыт +1.05%
+  - level: 15
+    effect_id: 775
+    effect: Весь получаемый опыт +1.13%
+  - level: 16
+    effect_id: 776
+    effect: Весь получаемый опыт +1.2%
+  - level: 17
+    effect_id: 777
+    effect: Весь получаемый опыт +1.28%
+  - level: 18
+    effect_id: 778
+    effect: Весь получаемый опыт +1.35%
+  - level: 19
+    effect_id: 779
+    effect: Весь получаемый опыт +1.43%
+  - level: 20
+    effect_id: 780
+    effect: Весь получаемый опыт +1.5%
+  - level: 21
+    effect_id: 781
+    effect: Весь получаемый опыт +1.58%
+  - level: 22
+    effect_id: 782
+    effect: Весь получаемый опыт +1.65%
+  - level: 23
+    effect_id: 783
+    effect: Весь получаемый опыт +1.73%
+  - level: 24
+    effect_id: 784
+    effect: Весь получаемый опыт +1.8%
+  - level: 25
+    effect_id: 785
+    effect: Весь получаемый опыт +1.88%
+  - level: 26
+    effect_id: 786
+    effect: Весь получаемый опыт +1.95%
+  - level: 27
+    effect_id: 787
+    effect: Весь получаемый опыт +2.03%
+  - level: 28
+    effect_id: 788
+    effect: Весь получаемый опыт +2.1%
+  - level: 29
+    effect_id: 789
+    effect: Весь получаемый опыт +2.18%
+  - level: 30
+    effect_id: 790
+    effect: Весь получаемый опыт +2.25%
+  - level: 31
+    effect_id: 791
+    effect: Весь получаемый опыт +2.33%
+  - level: 32
+    effect_id: 792
+    effect: Весь получаемый опыт +2.4%
+  - level: 33
+    effect_id: 793
+    effect: Весь получаемый опыт +2.48%
+  - level: 34
+    effect_id: 794
+    effect: Весь получаемый опыт +2.55%
+  - level: 35
+    effect_id: 795
+    effect: Весь получаемый опыт +2.63%
+  - level: 36
+    effect_id: 796
+    effect: Весь получаемый опыт +2.7%
+  - level: 37
+    effect_id: 797
+    effect: Весь получаемый опыт +2.78%
+  - level: 38
+    effect_id: 798
+    effect: Весь получаемый опыт +2.85%
+  - level: 39
+    effect_id: 799
+    effect: Весь получаемый опыт +2.93%
+  - level: 40
+    effect_id: 800
+    effect: Весь получаемый опыт +3%
+- name: Сборщик
+  levels:
+  - level: 1
+    effect_id: 1161
+    effect: Добыча ресурсов +1%
+  - level: 2
+    effect_id: 1162
+    effect: Добыча ресурсов +1%
+  - level: 3
+    effect_id: 1163
+    effect: Добыча ресурсов +1%
+  - level: 4
+    effect_id: 1164
+    effect: Добыча ресурсов +2%
+  - level: 5
+    effect_id: 1165
+    effect: Добыча ресурсов +2%
+  - level: 6
+    effect_id: 1166
+    effect: Добыча ресурсов +2%
+  - level: 7
+    effect_id: 1167
+    effect: Добыча ресурсов +3%
+  - level: 8
+    effect_id: 1168
+    effect: Добыча ресурсов +3%
+  - level: 9
+    effect_id: 1169
+    effect: Добыча ресурсов +3%
+  - level: 10
+    effect_id: 1170
+    effect: Добыча ресурсов +4%
+  - level: 11
+    effect_id: 1171
+    effect: Добыча ресурсов +4%
+  - level: 12
+    effect_id: 1172
+    effect: Добыча ресурсов +4%
+  - level: 13
+    effect_id: 1173
+    effect: Добыча ресурсов +5%
+  - level: 14
+    effect_id: 1174
+    effect: Добыча ресурсов +5%
+  - level: 15
+    effect_id: 1175
+    effect: Добыча ресурсов +6%
+  - level: 16
+    effect_id: 1176
+    effect: Добыча ресурсов +6%
+  - level: 17
+    effect_id: 1177
+    effect: Добыча ресурсов +6%
+  - level: 18
+    effect_id: 1178
+    effect: Добыча ресурсов +6%
+  - level: 19
+    effect_id: 1179
+    effect: Добыча ресурсов +7%
+  - level: 20
+    effect_id: 1180
+    effect: Добыча ресурсов +7%
+  - level: 21
+    effect_id: 1181
+    effect: Добыча ресурсов +7%
+  - level: 22
+    effect_id: 1182
+    effect: Добыча ресурсов +8%
+  - level: 23
+    effect_id: 1183
+    effect: Добыча ресурсов +8%
+  - level: 24
+    effect_id: 1184
+    effect: Добыча ресурсов +8%
+  - level: 25
+    effect_id: 1185
+    effect: Добыча ресурсов +9%
+  - level: 26
+    effect_id: 1186
+    effect: Добыча ресурсов +9%
+  - level: 27
+    effect_id: 1187
+    effect: Добыча ресурсов +9%
+  - level: 28
+    effect_id: 1188
+    effect: Добыча ресурсов +10%
+  - level: 29
+    effect_id: 1189
+    effect: Добыча ресурсов +10%
+  - level: 30
+    effect_id: 1190
+    effect: Добыча ресурсов +10%
+  - level: 31
+    effect_id: 1191
+    effect: Добыча ресурсов +11%
+  - level: 32
+    effect_id: 1192
+    effect: Добыча ресурсов +11%
+  - level: 33
+    effect_id: 1193
+    effect: Добыча ресурсов +11%
+  - level: 34
+    effect_id: 1194
+    effect: Добыча ресурсов +12%
+  - level: 35
+    effect_id: 1195
+    effect: Добыча ресурсов +12%
+  - level: 36
+    effect_id: 1196
+    effect: Добыча ресурсов +12%
+  - level: 37
+    effect_id: 1197
+    effect: Добыча ресурсов +13%
+  - level: 38
+    effect_id: 1198
+    effect: Добыча ресурсов +13%
+  - level: 39
+    effect_id: 1199
+    effect: Добыча ресурсов +13%
+  - level: 40
+    effect_id: 1200
+    effect: Добыча ресурсов +14%
+- name: Сила
+  levels:
+  - level: 1
+    effect_id: 601
+    effect: 'Физическая атака и сила критических атак Убийц +0.05%
+
+      Магическая атака +0.1%'
+  - level: 2
+    effect_id: 602
+    effect: 'Физическая атака и сила критических атак Убийц +0.1%
+
+      Магическая атака +0.2%'
+  - level: 3
+    effect_id: 603
+    effect: 'Физическая атака и сила критических атак Убийц +0.15%
+
+      Магическая атака +0.3%'
+  - level: 4
+    effect_id: 604
+    effect: 'Физическая атака и сила критических атак Убийц +0.2%
+
+      Магическая атака +0.4%'
+  - level: 5
+    effect_id: 605
+    effect: 'Физическая атака и сила критических атак Убийц +0.25%
+
+      Магическая атака +0.5%'
+  - level: 6
+    effect_id: 606
+    effect: 'Физическая атака и сила критических атак Убийц +0.3%
+
+      Магическая атака +0.6%'
+  - level: 7
+    effect_id: 607
+    effect: 'Физическая атака и сила критических атак Убийц +0.35%
+
+      Магическая атака +0.7%'
+  - level: 8
+    effect_id: 608
+    effect: 'Физическая атака и сила критических атак Убийц +0.4%
+
+      Магическая атака +0.8%'
+  - level: 9
+    effect_id: 609
+    effect: 'Физическая атака и сила критических атак Убийц +0.45%
+
+      Магическая атака +0.9%'
+  - level: 10
+    effect_id: 610
+    effect: 'Физическая атака и сила критических атак Убийц +0.5%
+
+      Магическая атака +1%'
+  - level: 11
+    effect_id: 611
+    effect: 'Физическая атака и сила критических атак Убийц +0.55%
+
+      Магическая атака +1.1%'
+  - level: 12
+    effect_id: 612
+    effect: 'Физическая атака и сила критических атак Убийц +0.6%
+
+      Магическая атака +1.2%'
+  - level: 13
+    effect_id: 613
+    effect: 'Физическая атака и сила критических атак Убийц +0.65%
+
+      Магическая атака +1.3%'
+  - level: 14
+    effect_id: 614
+    effect: 'Физическая атака и сила критических атак Убийц +0.7%
+
+      Магическая атака +1.4%'
+  - level: 15
+    effect_id: 615
+    effect: 'Физическая атака и сила критических атак Убийц +0.75%
+
+      Магическая атака +1.5%'
+  - level: 16
+    effect_id: 616
+    effect: 'Физическая атака и сила критических атак Убийц +0.8%
+
+      Магическая атака +1.6%'
+  - level: 17
+    effect_id: 617
+    effect: 'Физическая атака и сила критических атак Убийц +0.85%
+
+      Магическая атака +1.7%'
+  - level: 18
+    effect_id: 618
+    effect: 'Физическая атака и сила критических атак Убийц +0.9%
+
+      Магическая атака +1.8%'
+  - level: 19
+    effect_id: 619
+    effect: 'Физическая атака и сила критических атак Убийц +0.95%
+
+      Магическая атака +1.9%'
+  - level: 20
+    effect_id: 620
+    effect: 'Физическая атака и сила критических атак Убийц +1%
+
+      Магическая атака +2%'
+  - level: 21
+    effect_id: 621
+    effect: 'Физическая атака и сила критических атак Убийц +1.05%
+
+      Магическая атака +2.1%'
+  - level: 22
+    effect_id: 622
+    effect: 'Физическая атака и сила критических атак Убийц +1.1%
+
+      Магическая атака +2.2%'
+  - level: 23
+    effect_id: 623
+    effect: 'Физическая атака и сила критических атак Убийц +1.15%
+
+      Магическая атака +2.3%'
+  - level: 24
+    effect_id: 624
+    effect: 'Физическая атака и сила критических атак Убийц +1.2%
+
+      Магическая атака +2.4%'
+  - level: 25
+    effect_id: 625
+    effect: 'Физическая атака и сила критических атак Убийц +1.25%
+
+      Магическая атака +2.5%'
+  - level: 26
+    effect_id: 626
+    effect: 'Физическая атака и сила критических атак Убийц +1.3%
+
+      Магическая атака +2.6%'
+  - level: 27
+    effect_id: 627
+    effect: 'Физическая атака и сила критических атак Убийц +1.35%
+
+      Магическая атака +2.7%'
+  - level: 28
+    effect_id: 628
+    effect: 'Физическая атака и сила критических атак Убийц +1.4%
+
+      Магическая атака +2.8%'
+  - level: 29
+    effect_id: 629
+    effect: 'Физическая атака и сила критических атак Убийц +1.45%
+
+      Магическая атака +2.9%'
+  - level: 30
+    effect_id: 630
+    effect: 'Физическая атака и сила критических атак Убийц +1.5%
+
+      Магическая атака +3%'
+  - level: 31
+    effect_id: 631
+    effect: 'Физическая атака и сила критических атак Убийц +1.55%
+
+      Магическая атака +3.1%'
+  - level: 32
+    effect_id: 632
+    effect: 'Физическая атака и сила критических атак Убийц +1.6%
+
+      Магическая атака +3.2%'
+  - level: 33
+    effect_id: 633
+    effect: 'Физическая атака и сила критических атак Убийц +1.65%
+
+      Магическая атака +3.3%'
+  - level: 34
+    effect_id: 634
+    effect: 'Физическая атака и сила критических атак Убийц +1.7%
+
+      Магическая атака +3.4%'
+  - level: 35
+    effect_id: 635
+    effect: 'Физическая атака и сила критических атак Убийц +1.75%
+
+      Магическая атака +3.5%'
+  - level: 36
+    effect_id: 636
+    effect: 'Физическая атака и сила критических атак Убийц +1.8%
+
+      Магическая атака +3.6%'
+  - level: 37
+    effect_id: 637
+    effect: 'Физическая атака и сила критических атак Убийц +1.85%
+
+      Магическая атака +3.7%'
+  - level: 38
+    effect_id: 638
+    effect: 'Физическая атака и сила критических атак Убийц +1.9%
+
+      Магическая атака +3.8%'
+  - level: 39
+    effect_id: 639
+    effect: 'Физическая атака и сила критических атак Убийц +1.95%
+
+      Магическая атака +3.9%'
+  - level: 40
+    effect_id: 640
+    effect: 'Физическая атака и сила критических атак Убийц +2%
+
+      Магическая атака +4%'
+- name: Скорострел
+  levels:
+  - level: 1
+    effect_id: 281
+    effect: Задержка между выстрелами -0.05%
+  - level: 2
+    effect_id: 282
+    effect: Задержка между выстрелами -0.1%
+  - level: 3
+    effect_id: 283
+    effect: Задержка между выстрелами -0.15%
+  - level: 4
+    effect_id: 284
+    effect: Задержка между выстрелами -0.2%
+  - level: 5
+    effect_id: 285
+    effect: Задержка между выстрелами -0.25%
+  - level: 6
+    effect_id: 286
+    effect: Задержка между выстрелами -0.3%
+  - level: 7
+    effect_id: 287
+    effect: Задержка между выстрелами -0.35%
+  - level: 8
+    effect_id: 288
+    effect: Задержка между выстрелами -0.4%
+  - level: 9
+    effect_id: 289
+    effect: Задержка между выстрелами -0.45%
+  - level: 10
+    effect_id: 290
+    effect: Задержка между выстрелами -0.5%
+  - level: 11
+    effect_id: 291
+    effect: Задержка между выстрелами -0.55%
+  - level: 12
+    effect_id: 292
+    effect: Задержка между выстрелами -0.6%
+  - level: 13
+    effect_id: 293
+    effect: Задержка между выстрелами -0.65%
+  - level: 14
+    effect_id: 294
+    effect: Задержка между выстрелами -0.7%
+  - level: 15
+    effect_id: 295
+    effect: Задержка между выстрелами -0.75%
+  - level: 16
+    effect_id: 296
+    effect: Задержка между выстрелами -0.8%
+  - level: 17
+    effect_id: 297
+    effect: Задержка между выстрелами -0.85%
+  - level: 18
+    effect_id: 298
+    effect: Задержка между выстрелами -0.9%
+  - level: 19
+    effect_id: 299
+    effect: Задержка между выстрелами -0.95%
+  - level: 20
+    effect_id: 300
+    effect: Задержка между выстрелами -1%
+  - level: 21
+    effect_id: 301
+    effect: Задержка между выстрелами -1.05%
+  - level: 22
+    effect_id: 302
+    effect: Задержка между выстрелами -1.1%
+  - level: 23
+    effect_id: 303
+    effect: Задержка между выстрелами -1.15%
+  - level: 24
+    effect_id: 304
+    effect: Задержка между выстрелами -1.2%
+  - level: 25
+    effect_id: 305
+    effect: Задержка между выстрелами -1.25%
+  - level: 26
+    effect_id: 306
+    effect: Задержка между выстрелами -1.3%
+  - level: 27
+    effect_id: 307
+    effect: Задержка между выстрелами -1.35%
+  - level: 28
+    effect_id: 308
+    effect: Задержка между выстрелами -1.4%
+  - level: 29
+    effect_id: 309
+    effect: Задержка между выстрелами -1.45%
+  - level: 30
+    effect_id: 310
+    effect: Задержка между выстрелами -1.5%
+  - level: 31
+    effect_id: 311
+    effect: Задержка между выстрелами -1.55%
+  - level: 32
+    effect_id: 312
+    effect: Задержка между выстрелами -1.6%
+  - level: 33
+    effect_id: 313
+    effect: Задержка между выстрелами -1.65%
+  - level: 34
+    effect_id: 314
+    effect: Задержка между выстрелами -1.7%
+  - level: 35
+    effect_id: 315
+    effect: Задержка между выстрелами -1.75%
+  - level: 36
+    effect_id: 316
+    effect: Задержка между выстрелами -1.8%
+  - level: 37
+    effect_id: 317
+    effect: Задержка между выстрелами -1.85%
+  - level: 38
+    effect_id: 318
+    effect: Задержка между выстрелами -1.9%
+  - level: 39
+    effect_id: 319
+    effect: Задержка между выстрелами -1.95%
+  - level: 40
+    effect_id: 320
+    effect: Задержка между выстрелами -2%
+- name: Скорость
+  levels:
+  - level: 1
+    effect_id: 441
+    effect: Скорость бега +1
+  - level: 2
+    effect_id: 442
+    effect: Скорость бега +1
+  - level: 3
+    effect_id: 443
+    effect: Скорость бега +1
+  - level: 4
+    effect_id: 444
+    effect: Скорость бега +1
+  - level: 5
+    effect_id: 445
+    effect: Скорость бега +1
+  - level: 6
+    effect_id: 446
+    effect: Скорость бега +2
+  - level: 7
+    effect_id: 447
+    effect: Скорость бега +2
+  - level: 8
+    effect_id: 448
+    effect: Скорость бега +2
+  - level: 9
+    effect_id: 449
+    effect: Скорость бега +2
+  - level: 10
+    effect_id: 450
+    effect: Скорость бега +3
+  - level: 11
+    effect_id: 451
+    effect: Скорость бега +3
+  - level: 12
+    effect_id: 452
+    effect: Скорость бега +3
+  - level: 13
+    effect_id: 453
+    effect: Скорость бега +3
+  - level: 14
+    effect_id: 454
+    effect: Скорость бега +3
+  - level: 15
+    effect_id: 455
+    effect: Скорость бега +4
+  - level: 16
+    effect_id: 456
+    effect: Скорость бега +4
+  - level: 17
+    effect_id: 457
+    effect: Скорость бега +4
+  - level: 18
+    effect_id: 458
+    effect: Скорость бега +4
+  - level: 19
+    effect_id: 459
+    effect: Скорость бега +4
+  - level: 20
+    effect_id: 460
+    effect: Скорость бега +5
+  - level: 21
+    effect_id: 461
+    effect: Скорость бега +5
+  - level: 22
+    effect_id: 462
+    effect: Скорость бега +5
+  - level: 23
+    effect_id: 463
+    effect: Скорость бега +5
+  - level: 24
+    effect_id: 464
+    effect: Скорость бега +5
+  - level: 25
+    effect_id: 465
+    effect: Скорость бега +6
+  - level: 26
+    effect_id: 466
+    effect: Скорость бега +6
+  - level: 27
+    effect_id: 467
+    effect: Скорость бега +6
+  - level: 28
+    effect_id: 468
+    effect: Скорость бега +6
+  - level: 29
+    effect_id: 469
+    effect: Скорость бега +6
+  - level: 30
+    effect_id: 470
+    effect: Скорость бега +7
+  - level: 31
+    effect_id: 471
+    effect: Скорость бега +7
+  - level: 32
+    effect_id: 472
+    effect: Скорость бега +7
+  - level: 33
+    effect_id: 473
+    effect: Скорость бега +7
+  - level: 34
+    effect_id: 474
+    effect: Скорость бега +7
+  - level: 35
+    effect_id: 475
+    effect: Скорость бега +8
+  - level: 36
+    effect_id: 476
+    effect: Скорость бега +8
+  - level: 37
+    effect_id: 477
+    effect: Скорость бега +8
+  - level: 38
+    effect_id: 478
+    effect: Скорость бега +8
+  - level: 39
+    effect_id: 479
+    effect: Скорость бега +8
+  - level: 40
+    effect_id: 480
+    effect: Скорость бега +9
+- name: Служивый
+  levels:
+  - level: 1
+    effect_id: 1001
+    effect: Опыт за казарму +5%
+  - level: 2
+    effect_id: 1002
+    effect: Опыт за казарму +10%
+  - level: 3
+    effect_id: 1003
+    effect: Опыт за казарму +15%
+  - level: 4
+    effect_id: 1004
+    effect: Опыт за казарму +20%
+  - level: 5
+    effect_id: 1005
+    effect: Опыт за казарму +25%
+  - level: 6
+    effect_id: 1006
+    effect: Опыт за казарму +30%
+  - level: 7
+    effect_id: 1007
+    effect: Опыт за казарму +35%
+  - level: 8
+    effect_id: 1008
+    effect: Опыт за казарму +40%
+  - level: 9
+    effect_id: 1009
+    effect: Опыт за казарму +45%
+  - level: 10
+    effect_id: 1010
+    effect: Опыт за казарму +50%
+  - level: 11
+    effect_id: 1011
+    effect: Опыт за казарму +55%
+  - level: 12
+    effect_id: 1012
+    effect: Опыт за казарму +60%
+  - level: 13
+    effect_id: 1013
+    effect: Опыт за казарму +65%
+  - level: 14
+    effect_id: 1014
+    effect: Опыт за казарму +70%
+  - level: 15
+    effect_id: 1015
+    effect: Опыт за казарму +75%
+  - level: 16
+    effect_id: 1016
+    effect: Опыт за казарму +80%
+  - level: 17
+    effect_id: 1017
+    effect: Опыт за казарму +85%
+  - level: 18
+    effect_id: 1018
+    effect: Опыт за казарму +90%
+  - level: 19
+    effect_id: 1019
+    effect: Опыт за казарму +95%
+  - level: 20
+    effect_id: 1020
+    effect: Опыт за казарму +100%
+  - level: 21
+    effect_id: 1021
+    effect: Опыт за казарму +105%
+  - level: 22
+    effect_id: 1022
+    effect: Опыт за казарму +110%
+  - level: 23
+    effect_id: 1023
+    effect: Опыт за казарму +115%
+  - level: 24
+    effect_id: 1024
+    effect: Опыт за казарму +120%
+  - level: 25
+    effect_id: 1025
+    effect: Опыт за казарму +125%
+  - level: 26
+    effect_id: 1026
+    effect: Опыт за казарму +130%
+  - level: 27
+    effect_id: 1027
+    effect: Опыт за казарму +135%
+  - level: 28
+    effect_id: 1028
+    effect: Опыт за казарму +140%
+  - level: 29
+    effect_id: 1029
+    effect: Опыт за казарму +145%
+  - level: 30
+    effect_id: 1030
+    effect: Опыт за казарму +150%
+  - level: 31
+    effect_id: 1031
+    effect: Опыт за казарму +155%
+  - level: 32
+    effect_id: 1032
+    effect: Опыт за казарму +160%
+  - level: 33
+    effect_id: 1033
+    effect: Опыт за казарму +165%
+  - level: 34
+    effect_id: 1034
+    effect: Опыт за казарму +170%
+  - level: 35
+    effect_id: 1035
+    effect: Опыт за казарму +175%
+  - level: 36
+    effect_id: 1036
+    effect: Опыт за казарму +180%
+  - level: 37
+    effect_id: 1037
+    effect: Опыт за казарму +185%
+  - level: 38
+    effect_id: 1038
+    effect: Опыт за казарму +190%
+  - level: 39
+    effect_id: 1039
+    effect: Опыт за казарму +195%
+  - level: 40
+    effect_id: 1040
+    effect: Опыт за казарму +200%
+- name: Таран
+  levels:
+  - level: 1
+    effect_id: 241
+    effect: Осадный урон +2%
+  - level: 2
+    effect_id: 242
+    effect: Осадный урон +4%
+  - level: 3
+    effect_id: 243
+    effect: Осадный урон +6%
+  - level: 4
+    effect_id: 244
+    effect: Осадный урон +8%
+  - level: 5
+    effect_id: 245
+    effect: Осадный урон +10%
+  - level: 6
+    effect_id: 246
+    effect: Осадный урон +12%
+  - level: 7
+    effect_id: 247
+    effect: Осадный урон +14%
+  - level: 8
+    effect_id: 248
+    effect: Осадный урон +16%
+  - level: 9
+    effect_id: 249
+    effect: Осадный урон +18%
+  - level: 10
+    effect_id: 250
+    effect: Осадный урон +20%
+  - level: 11
+    effect_id: 251
+    effect: Осадный урон +22%
+  - level: 12
+    effect_id: 252
+    effect: Осадный урон +24%
+  - level: 13
+    effect_id: 253
+    effect: Осадный урон +26%
+  - level: 14
+    effect_id: 254
+    effect: Осадный урон +28%
+  - level: 15
+    effect_id: 255
+    effect: Осадный урон +30%
+  - level: 16
+    effect_id: 256
+    effect: Осадный урон +32%
+  - level: 17
+    effect_id: 257
+    effect: Осадный урон +34%
+  - level: 18
+    effect_id: 258
+    effect: Осадный урон +36%
+  - level: 19
+    effect_id: 259
+    effect: Осадный урон +38%
+  - level: 20
+    effect_id: 260
+    effect: Осадный урон +40%
+  - level: 21
+    effect_id: 261
+    effect: Осадный урон +42%
+  - level: 22
+    effect_id: 262
+    effect: Осадный урон +44%
+  - level: 23
+    effect_id: 263
+    effect: Осадный урон +46%
+  - level: 24
+    effect_id: 264
+    effect: Осадный урон +48%
+  - level: 25
+    effect_id: 265
+    effect: Осадный урон +50%
+  - level: 26
+    effect_id: 266
+    effect: Осадный урон +52%
+  - level: 27
+    effect_id: 267
+    effect: Осадный урон +54%
+  - level: 28
+    effect_id: 268
+    effect: Осадный урон +56%
+  - level: 29
+    effect_id: 269
+    effect: Осадный урон +58%
+  - level: 30
+    effect_id: 270
+    effect: Осадный урон +60%
+  - level: 31
+    effect_id: 271
+    effect: Осадный урон +62%
+  - level: 32
+    effect_id: 272
+    effect: Осадный урон +64%
+  - level: 33
+    effect_id: 273
+    effect: Осадный урон +66%
+  - level: 34
+    effect_id: 274
+    effect: Осадный урон +68%
+  - level: 35
+    effect_id: 275
+    effect: Осадный урон +70%
+  - level: 36
+    effect_id: 276
+    effect: Осадный урон +72%
+  - level: 37
+    effect_id: 277
+    effect: Осадный урон +74%
+  - level: 38
+    effect_id: 278
+    effect: Осадный урон +76%
+  - level: 39
+    effect_id: 279
+    effect: Осадный урон +78%
+  - level: 40
+    effect_id: 280
+    effect: Осадный урон +80%
+- name: Умелец
+  levels:
+  - level: 1
+    effect_id: 721
+    effect: Сила умений +0.06%
+  - level: 2
+    effect_id: 722
+    effect: Сила умений +0.12%
+  - level: 3
+    effect_id: 723
+    effect: Сила умений +0.18%
+  - level: 4
+    effect_id: 724
+    effect: Сила умений +0.24%
+  - level: 5
+    effect_id: 725
+    effect: Сила умений +0.3%
+  - level: 6
+    effect_id: 726
+    effect: Сила умений +0.36%
+  - level: 7
+    effect_id: 727
+    effect: Сила умений +0.42%
+  - level: 8
+    effect_id: 728
+    effect: Сила умений +0.48%
+  - level: 9
+    effect_id: 729
+    effect: Сила умений +0.54%
+  - level: 10
+    effect_id: 730
+    effect: Сила умений +0.6%
+  - level: 11
+    effect_id: 731
+    effect: Сила умений +0.66%
+  - level: 12
+    effect_id: 732
+    effect: Сила умений +0.72%
+  - level: 13
+    effect_id: 733
+    effect: Сила умений +0.78%
+  - level: 14
+    effect_id: 734
+    effect: Сила умений +0.84%
+  - level: 15
+    effect_id: 735
+    effect: Сила умений +0.9%
+  - level: 16
+    effect_id: 736
+    effect: Сила умений +0.96%
+  - level: 17
+    effect_id: 737
+    effect: Сила умений +1.02%
+  - level: 18
+    effect_id: 738
+    effect: Сила умений +1.08%
+  - level: 19
+    effect_id: 739
+    effect: Сила умений +1.14%
+  - level: 20
+    effect_id: 740
+    effect: Сила умений +1.2%
+  - level: 21
+    effect_id: 741
+    effect: Сила умений +1.26%
+  - level: 22
+    effect_id: 742
+    effect: Сила умений +1.32%
+  - level: 23
+    effect_id: 743
+    effect: Сила умений +1.38%
+  - level: 24
+    effect_id: 744
+    effect: Сила умений +1.44%
+  - level: 25
+    effect_id: 745
+    effect: Сила умений +1.5%
+  - level: 26
+    effect_id: 746
+    effect: Сила умений +1.56%
+  - level: 27
+    effect_id: 747
+    effect: Сила умений +1.62%
+  - level: 28
+    effect_id: 748
+    effect: Сила умений +1.68%
+  - level: 29
+    effect_id: 749
+    effect: Сила умений +1.74%
+  - level: 30
+    effect_id: 750
+    effect: Сила умений +1.8%
+  - level: 31
+    effect_id: 751
+    effect: Сила умений +1.86%
+  - level: 32
+    effect_id: 752
+    effect: Сила умений +1.92%
+  - level: 33
+    effect_id: 753
+    effect: Сила умений +1.98%
+  - level: 34
+    effect_id: 754
+    effect: Сила умений +2.04%
+  - level: 35
+    effect_id: 755
+    effect: Сила умений +2.1%
+  - level: 36
+    effect_id: 756
+    effect: Сила умений +2.16%
+  - level: 37
+    effect_id: 757
+    effect: Сила умений +2.22%
+  - level: 38
+    effect_id: 758
+    effect: Сила умений +2.28%
+  - level: 39
+    effect_id: 759
+    effect: Сила умений +2.34%
+  - level: 40
+    effect_id: 760
+    effect: Сила умений +2.4%
+- name: Успешность
+  levels:
+  - level: 1
+    effect_id: 921
+    effect: Опыт при охоте на монстров +0.3%
+  - level: 2
+    effect_id: 922
+    effect: Опыт при охоте на монстров +0.6%
+  - level: 3
+    effect_id: 923
+    effect: Опыт при охоте на монстров +0.9%
+  - level: 4
+    effect_id: 924
+    effect: Опыт при охоте на монстров +1.2%
+  - level: 5
+    effect_id: 925
+    effect: Опыт при охоте на монстров +1.5%
+  - level: 6
+    effect_id: 926
+    effect: Опыт при охоте на монстров +1.8%
+  - level: 7
+    effect_id: 927
+    effect: Опыт при охоте на монстров +2.1%
+  - level: 8
+    effect_id: 928
+    effect: Опыт при охоте на монстров +2.4%
+  - level: 9
+    effect_id: 929
+    effect: Опыт при охоте на монстров +2.7%
+  - level: 10
+    effect_id: 930
+    effect: Опыт при охоте на монстров +3%
+  - level: 11
+    effect_id: 931
+    effect: Опыт при охоте на монстров +3.3%
+  - level: 12
+    effect_id: 932
+    effect: Опыт при охоте на монстров +3.6%
+  - level: 13
+    effect_id: 933
+    effect: Опыт при охоте на монстров +3.9%
+  - level: 14
+    effect_id: 934
+    effect: Опыт при охоте на монстров +4.2%
+  - level: 15
+    effect_id: 935
+    effect: Опыт при охоте на монстров +4.5%
+  - level: 16
+    effect_id: 936
+    effect: Опыт при охоте на монстров +4.8%
+  - level: 17
+    effect_id: 937
+    effect: Опыт при охоте на монстров +5.1%
+  - level: 18
+    effect_id: 938
+    effect: Опыт при охоте на монстров +5.4%
+  - level: 19
+    effect_id: 939
+    effect: Опыт при охоте на монстров +5.7%
+  - level: 20
+    effect_id: 940
+    effect: Опыт при охоте на монстров +6%
+  - level: 21
+    effect_id: 941
+    effect: Опыт при охоте на монстров +6.3%
+  - level: 22
+    effect_id: 942
+    effect: Опыт при охоте на монстров +6.6%
+  - level: 23
+    effect_id: 943
+    effect: Опыт при охоте на монстров +6.9%
+  - level: 24
+    effect_id: 944
+    effect: Опыт при охоте на монстров +7.2%
+  - level: 25
+    effect_id: 945
+    effect: Опыт при охоте на монстров +7.5%
+  - level: 26
+    effect_id: 946
+    effect: Опыт при охоте на монстров +7.8%
+  - level: 27
+    effect_id: 947
+    effect: Опыт при охоте на монстров +8.1%
+  - level: 28
+    effect_id: 948
+    effect: Опыт при охоте на монстров +8.4%
+  - level: 29
+    effect_id: 949
+    effect: Опыт при охоте на монстров +8.7%
+  - level: 30
+    effect_id: 950
+    effect: Опыт при охоте на монстров +9%
+  - level: 31
+    effect_id: 951
+    effect: Опыт при охоте на монстров +9.3%
+  - level: 32
+    effect_id: 952
+    effect: Опыт при охоте на монстров +9.6%
+  - level: 33
+    effect_id: 953
+    effect: Опыт при охоте на монстров +9.9%
+  - level: 34
+    effect_id: 954
+    effect: Опыт при охоте на монстров +10.2%
+  - level: 35
+    effect_id: 955
+    effect: Опыт при охоте на монстров +10.5%
+  - level: 36
+    effect_id: 956
+    effect: Опыт при охоте на монстров +10.8%
+  - level: 37
+    effect_id: 957
+    effect: Опыт при охоте на монстров +11.1%
+  - level: 38
+    effect_id: 958
+    effect: Опыт при охоте на монстров +11.4%
+  - level: 39
+    effect_id: 959
+    effect: Опыт при охоте на монстров +11.7%
+  - level: 40
+    effect_id: 960
+    effect: Опыт при охоте на монстров +12%

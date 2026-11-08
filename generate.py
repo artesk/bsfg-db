@@ -26,8 +26,10 @@ PROGRESSION_PAGES = {
     "dragon-relics": "item_id",
     "equipment-properties": "effect_id",
     "military-service": None,
+    "boss-trophies": "item_id",
 }
 SERVICE_SLOTS = {"critical-power", "critical-chance", "attack", "speed"}
+TROPHY_KINDS = {"base", "combined", "relic"}
 CLASS_SKILL_LABELS = {
     "класс чародеев": "Чародеи",
     "класс тяжелых воинов": "Тяжёлые воины",
@@ -375,7 +377,9 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
     if not groups:
         fail(path, "groups", "нужна хотя бы одна группа")
     military = page == "military-service"
+    trophies = page == "boss-trophies"
     slots: set[tuple[str, str]] = set()
+    trophy_kinds: set[str] = set()
     group_keys: set[str | int] = set()
     record_ids: set[int] = set()
     id_key = PROGRESSION_PAGES[page]
@@ -404,6 +408,20 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
                 if slot not in SERVICE_SLOTS or (kind, slot) in slots:
                     fail(path, f"{location}.slot", "неизвестная или повторная ветка")
                 slots.add((kind, slot))
+        if trophies:
+            kind = require_string(group, "kind", path, location)
+            if kind not in TROPHY_KINDS:
+                fail(path, f"{location}.kind", "неизвестный вид трофея")
+            trophy_kinds.add(kind)
+            require_string(group, "icon", path, location)
+            if kind == "relic":
+                active = require_mapping(group.get("active"), path, f"{location}.active")
+                require_string(active, "name", path, f"{location}.active")
+                require_string(active, "effect", path, f"{location}.active")
+                if type(active.get("skill_id")) is not int or active["skill_id"] < 1:
+                    fail(path, f"{location}.active.skill_id", "ожидался положительный ID умения")
+            elif "active" in group:
+                fail(path, f"{location}.active", "активное умение предусмотрено для реликтовых трофеев")
         if key in group_keys:
             fail(path, location, "повторная группа")
         group_keys.add(key)
@@ -423,6 +441,8 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
                 record_ids.add(record_id)
     if military and slots != {(kind, slot) for kind in ("award", "medal") for slot in SERVICE_SLOTS}:
         fail(path, "groups", "для обоих типов нужны четыре ветки калькулятора")
+    if trophies and trophy_kinds != TROPHY_KINDS:
+        fail(path, "groups", "нужны базовые, объединённые и реликтовые трофеи")
     return data
 
 
@@ -515,6 +535,8 @@ def build(content: Path, output: Path) -> tuple[int, int]:
     for page, data in progression.items():
         for group in data["groups"]:
             if group.get("icon") not in available_icons:
+                if page == "boss-trophies":
+                    fail(content / "specifications/boss-trophies.yaml", group["name"], "файл иконки не найден")
                 group.pop("icon", None)
         write_json(output / "specifications" / f"{page}.json", data)
     jewelry_output = output / "items" / "pit-boss-jewelry.json"

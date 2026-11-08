@@ -103,18 +103,21 @@ h1 {
 .profession-list { margin: 0; padding: 4px 0; list-style: none; }
 .profession-list li + li { border-top: 1px solid var(--line); }
 .profession-link {
-  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 3px 10px;
-  padding: 9px 14px; text-decoration: none; overflow-wrap: anywhere;
+  display: grid; grid-template-columns: 34px minmax(0, 1fr); align-items: center; gap: 10px;
+  padding: 7px 12px; text-decoration: none; overflow-wrap: anywhere;
 }
 .profession-link:hover { background: var(--surface-2); }
 .profession-link:hover .profession-link-title { text-decoration: underline; }
+.profession-link-label { display: grid; gap: 2px; }
 .profession-link-title { font-size: 14px; }
 .profession-link-class { color: var(--muted); font-size: 11px; }
-.profession-avatar, .skill-icon {
+.profession-list-icon, .profession-avatar, .skill-icon {
   display: grid; place-items: center; color: var(--accent-2);
   background: linear-gradient(145deg, #382b18, #17130c);
   border: 1px solid rgba(232,180,91,.28); font-family: Georgia, serif;
 }
+.profession-list-icon, .profession-avatar { position: relative; overflow: hidden; }
+.profession-list-icon { width: 34px; height: 34px; border-radius: 4px; font-size: 18px; }
 
 .breadcrumbs { padding-top: 30px; display: flex; gap: 10px; color: var(--muted); font-size: 13px; }
 .breadcrumbs a { color: var(--accent); text-decoration: none; }
@@ -488,7 +491,9 @@ body::before {
 }
 
 .skill-icon img,
-.branch-icon img {
+.branch-icon img,
+.profession-list-icon img,
+.profession-avatar img {
   position: absolute;
   z-index: 2;
   inset: 0;

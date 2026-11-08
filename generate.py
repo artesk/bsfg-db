@@ -16,6 +16,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent
 DEFAULT_CONTENT = ROOT / "content"
 DEFAULT_OUTPUT = ROOT / "site" / "data"
+PROFESSION_ICON_DIR = ROOT / "site" / "assets" / "profession-icons"
 SLUG_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 KNOWN_BRANCHES = {"base", "one", "two", "three"}
 CLIENT_RELEASE_PATTERN = re.compile(r"\d{4}\.\d{2}\.\d{2}\.\d{6}")
@@ -247,6 +248,11 @@ def write_json(path: Path, value: object) -> None:
 
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
+    icons = {
+        path.stem: f"assets/profession-icons/{path.name}"
+        for path in sorted(PROFESSION_ICON_DIR.glob("*"))
+        if path.is_file() and path.suffix in {".jpg", ".png", ".gif", ".webp"}
+    }
     catalog: list[dict[str, Any]] = []
     catalog_categories: set[str] = set()
     total_records = 0
@@ -288,6 +294,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
             "categories": categories,
             "description": profession["descriptions"][0],
             "photo": profession["photo"],
+            "icon": icons.get(slug, ""),
             "skill_count": skill_count,
             "record_count": record_count,
         })

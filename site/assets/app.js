@@ -49,10 +49,10 @@ function localIconUrl(value) {
     .join("/");
 }
 
-function renderSkillIcon(iconValue, name, className = "skill-icon") {
+function renderIcon(source, name, className) {
   const frame = el("span", className);
+  frame.setAttribute("aria-hidden", "true");
   frame.append(el("span", "icon-fallback", name.slice(0, 1).toLocaleUpperCase("ru-RU")));
-  const source = localIconUrl(iconValue);
   if (source) {
     const image = document.createElement("img");
     image.src = source;
@@ -152,10 +152,12 @@ function renderProfessionGroups(items, selectedFaction) {
       const entry = el("li");
       const link = el("a", "profession-link");
       link.href = "#/profession/" + encodeURIComponent(item.slug);
-      link.append(el("span", "profession-link-title", item.title));
+      const label = el("span", "profession-link-label");
+      label.append(el("span", "profession-link-title", item.title));
       if (item.categories?.length) {
-        link.append(el("small", "profession-link-class", item.categories.join(", ")));
+        label.append(el("small", "profession-link-class", item.categories.join(", ")));
       }
+      link.append(renderIcon(item.icon, item.title, "profession-list-icon"), label);
       entry.append(link);
       list.append(entry);
     }
@@ -165,7 +167,8 @@ function renderProfessionGroups(items, selectedFaction) {
 }
 
 async function renderProfession(slug) {
-  if (!archiveIndex.professions.some((item) => item.slug === slug)) {
+  const catalogItem = archiveIndex.professions.find((item) => item.slug === slug);
+  if (!catalogItem) {
     showError("Такой профессии нет в базе.");
     return;
   }
@@ -187,8 +190,9 @@ async function renderProfession(slug) {
   document.querySelector("#profession-title").textContent = profession.title;
   document.querySelector("#profession-class").textContent = raceName(profession.title_classes);
   document.querySelector("#profession-summary").textContent = profession.descriptions[0] || "";
-  document.querySelector("#profession-avatar").textContent =
-    profession.title.slice(0, 1).toLocaleUpperCase("ru-RU");
+  const avatar = renderIcon(catalogItem.icon, profession.title, "profession-avatar");
+  avatar.id = "profession-avatar";
+  document.querySelector("#profession-avatar").replaceWith(avatar);
   const descriptions = document.querySelector("#profession-descriptions");
   descriptions.append(el("h2", "", "Описание профессии"));
   for (const paragraph of profession.descriptions) descriptions.append(el("p", "", paragraph));
@@ -274,7 +278,7 @@ function renderSkills(section, queryValue) {
     details.open = Boolean(query) || index === 0;
     const summary = el("summary", "skill-summary");
     const iconValue = rows.find((row) => row.icon)?.icon || "";
-    const icon = renderSkillIcon(iconValue, name);
+    const icon = renderIcon(localIconUrl(iconValue), name, "skill-icon");
     summary.append(icon, el("strong", "skill-heading", name), el("span", "disclosure", "+"));
     details.append(summary);
 
@@ -285,7 +289,7 @@ function renderSkills(section, queryValue) {
       const branchName = branchRows[0].name;
       const branchLabel = BRANCH_LABELS[branch] || branch;
       branchHeading.append(
-        renderSkillIcon(branchRows.find((row) => row.icon)?.icon || "", branchName, "branch-icon"),
+        renderIcon(localIconUrl(branchRows.find((row) => row.icon)?.icon), branchName, "branch-icon"),
         el("h3", "", branchName === name ? branchLabel : branchLabel + " · " + branchName),
       );
       branchBlock.append(branchHeading);

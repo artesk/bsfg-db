@@ -95,6 +95,10 @@
         <h2>Реликвии драконов</h2>
         <p>Пассивные бонусы и активные умения по уровням реликвий.</p>
       </a>
+      <a class="directory-link" href="#/specifications/boss-trophies">
+        <h2>Трофеи боссов</h2>
+        <p>Базовые, объединённые и реликтовые трофеи с бонусами по уровням.</p>
+      </a>
       <a class="directory-link" href="#/specifications/equipment-properties">
         <h2>Свойства экипировки</h2>
         <p>Значения свойств по уровням с поиском по названию и эффекту.</p>
@@ -119,6 +123,10 @@
       <section aria-labelledby="progression-table-heading">
         <h2 id="progression-table-heading" class="enchant-title">Таблица эффектов</h2>
         <div class="progression-toolbar">
+          <label id="progression-kind-field" class="progression-field" hidden>
+            <span>Вид трофея</span>
+            <select id="progression-kind"></select>
+          </label>
           <label class="progression-field">
             <span>Поиск по названию или эффекту</span>
             <input id="progression-search" type="search" autocomplete="off">

@@ -96,6 +96,7 @@ h1 {
 .enchant-source { margin: 24px 0 48px; color: var(--muted); font-size: 13px; }
 .progression-toolbar { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
 .progression-field { display: grid; gap: 6px; max-width: 100%; color: var(--muted); font-size: 14px; }
+.progression-field[hidden] { display: none; }
 .progression-field select, .progression-field input, .military-points {
   width: 100%; min-width: 0; padding: 8px 10px; color: var(--text);
   background: var(--bg); border: 1px solid var(--line); border-radius: 5px;
@@ -104,7 +105,11 @@ h1 {
 .progression-card-heading { display: flex; align-items: center; gap: 10px; padding: 14px; }
 .progression-card-heading h3 { margin: 0; font-size: 18px; }
 .progression-effect { white-space: pre-line; overflow-wrap: anywhere; }
+.progression-unleveled th:first-child { width: auto; text-align: left; }
 .progression-id { width: 1%; color: var(--muted); font-variant-numeric: tabular-nums; }
+.progression-active { padding: 14px; border-top: 1px solid var(--line); }
+.progression-active h4 { margin: 0 0 6px; color: var(--accent); }
+.progression-active p { margin: 4px 0 0; }
 .military-calculator { max-width: 800px; margin-bottom: 36px; padding: clamp(12px, 3vw, 22px); }
 #military-award-icon { align-self: end; }
 .progression-card .icon-fallback:has(+ img),

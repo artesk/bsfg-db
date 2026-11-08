@@ -40,6 +40,11 @@ const PROGRESSION_PAGES = new Map([
   ["/specifications/dragon-relics", {
     title: "Реликвии драконов", intro: "Эффекты и активные умения реликвий по уровням.", label: "Реликвия", level: "Уровень",
   }],
+  ["/specifications/boss-trophies", {
+    title: "Трофеи боссов", intro: "Пассивные бонусы по уровням и активные умения реликтовых трофеев.",
+    label: "Трофей", level: "Уровень", effect: "Пассивный эффект",
+    kinds: {base: "Базовые", combined: "Объединённые", relic: "Реликтовые"},
+  }],
   ["/specifications/equipment-properties", {
     title: "Свойства экипировки", intro: "Найдите свойство и сравните его значения по уровням.", label: "Свойство", level: "Уровень",
   }],
@@ -507,8 +512,13 @@ function renderProgressionPage(path, page, data) {
   const military = path === MILITARY_PATH;
   if (military) renderMilitaryCalculator(data);
   const search = document.querySelector("#progression-search");
+  const kind = document.querySelector("#progression-kind");
   const select = document.querySelector("#progression-group");
   const results = document.querySelector("#progression-results");
+  if (page.kinds) {
+    document.querySelector("#progression-kind-field").hidden = false;
+    kind.replaceChildren(...Object.entries(page.kinds).map(([value, title]) => new Option(title, value)));
+  }
   const groups = data.groups.map((group, index) => ({
     group, index: String(index),
     label: military
@@ -529,32 +539,46 @@ function renderProgressionPage(path, page, data) {
     const heading = el("header", "progression-card-heading");
     if (group.icon) heading.append(renderIcon(localIconUrl(group.icon), group.name, "branch-icon"));
     heading.append(el("h3", "", label));
-    const columns = [page.level, "Эффект"];
+    const showLevel = !page.kinds || group.kind === "combined";
+    const columns = showLevel ? [page.level, page.effect || "Эффект"] : [page.effect];
     if (showId) columns.push("ID");
     const table = createEnchantTable(label, columns);
+    if (!showLevel) table.classList.add("progression-unleveled");
     const body = table.createTBody();
     for (const row of group.levels) {
       const entry = body.insertRow();
-      const level = el("th", "", row.level);
-      level.scope = "row";
-      entry.append(level, el("td", "progression-effect", row.effect));
+      if (showLevel) {
+        const level = el("th", "", row.level);
+        level.scope = "row";
+        entry.append(level);
+      }
+      entry.append(el("td", "progression-effect", row.effect));
       if (showId) entry.append(el("td", "progression-id", row[idKey]));
     }
     card.append(heading, table);
+    if (group.active) {
+      const active = el("section", "progression-active");
+      active.append(el("h4", "", "Активное умение"), el("p", "", group.active.name),
+        el("p", "progression-effect", group.active.effect));
+      card.append(active);
+    }
     results.replaceChildren(card);
   };
 
   const filterGroups = () => {
     const query = normalize(search.value.trim());
     const selected = select.value;
-    const matches = groups.filter(({group, label}) => normalize(label).includes(query)
-      || group.levels.some(row => normalize(row.effect).includes(query)));
+    const matches = groups.filter(({group, label}) => (!page.kinds || group.kind === kind.value)
+      && (normalize(label).includes(query) || normalize(group.active?.effect).includes(query)
+        || group.levels.some(row => normalize(row.effect).includes(query)
+          || String(row.item_id ?? "").includes(query))));
     select.replaceChildren(...matches.map(({index, label}) => new Option(label, index)));
     select.disabled = matches.length === 0;
     if (matches.some(({index}) => index === selected)) select.value = selected;
     showGroup();
   };
   search.addEventListener("input", filterGroups);
+  kind.addEventListener("change", filterGroups);
   select.addEventListener("change", showGroup);
   filterGroups();
 }

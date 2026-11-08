@@ -1,0 +1,2792 @@
+source:
+  client_release: 2026.11.06.171000
+profession:
+  class_id: 6334
+  descriptions:
+  - Заклинатель пустоты — Маги глубокого космоса или заклинатели пустоты, черпающие силу из антиматерии,
+    способные управлять законами гравитации и силой звёзд. До недавнего времени об их существовании не
+    было известно. Как оказалось, их целью была истинная мощь, что сможет устрашать врагов самим своим
+    существованием. По какой-то причине они вышли из тени на всеобщее обозрение.
+  - Астромант — Астроманты жаждут продемонстрировать свою силу, а быть может, уже добились своей цели.
+    Хотя сами они говорят, что причина в том, что звёзды этого мира удивительны и ни на что не похожи,
+    и потому они жаждут показать всем, сколь прекрасны и величественны звёзды над небосводом и сколь смертоносны
+    они могут быть в бою.
+  parser_version: client-1.0.0
+  photo: ''
+  schema_version: 1
+  sections:
+  - entries:
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 135%, магическая защита на
+        6%, скорость чтения заклинаний на 4%, сила критической атаки магией на 11% и шанс нанести критический
+        удар магией на 1%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '1'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 137%, магическая защита на
+        10%, скорость чтения заклинаний на 5%, сила критической атаки магией на 15% и шанс нанести критический
+        удар магией на 1%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '2'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 139%, магическая защита на
+        14%, скорость чтения заклинаний на 6%, сила критической атаки магией на 19% и шанс нанести критический
+        удар магией на 1%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '3'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 141%, магическая защита на
+        18%, скорость чтения заклинаний на 7%, сила критической атаки магией на 23% и шанс нанести критический
+        удар магией на 2%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '4'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 143%, магическая защита на
+        22%, скорость чтения заклинаний на 8%, сила критической атаки магией на 27% и шанс нанести критический
+        удар магией на 2%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '5'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 145%, магическая защита на
+        26%, скорость чтения заклинаний на 9%, сила критической атаки магией на 31% и шанс нанести критический
+        удар магией на 2%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '6'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 147%, магическая защита на
+        30%, скорость чтения заклинаний на 10%, сила критической атаки магией на 35% и шанс нанести критический
+        удар магией на 3%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '7'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 148%, магическая защита на
+        31%, скорость чтения заклинаний на 10.5%, сила критической атаки магией на 35.5% и шанс нанести
+        критический удар магией на 3%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам
+        до минимума на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '8'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 149%, магическая защита на
+        32%, скорость чтения заклинаний на 11%, сила критической атаки магией на 36% и шанс нанести критический
+        удар магией на 3%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '9'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 150%, магическая защита на
+        33%, скорость чтения заклинаний на 11.5%, сила критической атаки магией на 36.5% и шанс нанести
+        критический удар магией на 4%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам
+        до минимума на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '10'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 151%, магическая защита на
+        34%, скорость чтения заклинаний на 12%, сила критической атаки магией на 37% и шанс нанести критический
+        удар магией на 4%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '11'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 152%, магическая защита на
+        35%, скорость чтения заклинаний на 12.5%, сила критической атаки магией на 37.5% и шанс нанести
+        критический удар магией на 4%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам
+        до минимума на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '12'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 153%, магическая защита на
+        36%, скорость чтения заклинаний на 13%, сила критической атаки магией на 38% и шанс нанести критический
+        удар магией на 5%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '13'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 154%, магическая защита на
+        37%, скорость чтения заклинаний на 13.5%, сила критической атаки магией на 38.5% и шанс нанести
+        критический удар магией на 5%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам
+        до минимума на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '14'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 155%, магическая защита на
+        38%, скорость чтения заклинаний на 14%, сила критической атаки магией на 39% и шанс нанести критический
+        удар магией на 5%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '15'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 156%, магическая защита на
+        39%, скорость чтения заклинаний на 14.5%, сила критической атаки магией на 39.5% и шанс нанести
+        критический удар магией на 6%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам
+        до минимума на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '16'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 157%, магическая защита на
+        40%, скорость чтения заклинаний на 15%, сила критической атаки магией на 40% и шанс нанести критический
+        удар магией на 6%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '17'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 158%, магическая защита на
+        41%, скорость чтения заклинаний на 15.5%, сила критической атаки магией на 40.5% и шанс нанести
+        критический удар магией на 6%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам
+        до минимума на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '18'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 159%, магическая защита на
+        42%, скорость чтения заклинаний на 16%, сила критической атаки магией на 41% и шанс нанести критический
+        удар магией на 7%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '19'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Вы выбрали путь мага. Ваша магическая атака увеличена на 160%, магическая защита на
+        43%, скорость чтения заклинаний на 17%, сила критической атаки магией на 42% и шанс нанести критический
+        удар магией на 7%. Вне боя Вы получаете усиление, при котором Вы снизите урон по Вам до минимума
+        на следующие 3 удара.
+      effects: []
+      icon: /icon/skill11766.jpg
+      level: '20'
+      name: Класс Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 12492
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 10%.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 15%.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 18%.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 21%.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 24%.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 27%.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 30%.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 33%.
+      effects: []
+      icon: ''
+      level: '8'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 36%.
+      effects: []
+      icon: ''
+      level: '9'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 39%.
+      effects: []
+      icon: ''
+      level: '10'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 42%.
+      effects: []
+      icon: ''
+      level: '11'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 43%.
+      effects: []
+      icon: ''
+      level: '12'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 44%.
+      effects: []
+      icon: ''
+      level: '13'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 45%.
+      effects: []
+      icon: ''
+      level: '14'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 46%.
+      effects: []
+      icon: ''
+      level: '15'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 47%.
+      effects: []
+      icon: ''
+      level: '16'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 48%.
+      effects: []
+      icon: ''
+      level: '17'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 49%.
+      effects: []
+      icon: ''
+      level: '18'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 50%.
+      effects: []
+      icon: ''
+      level: '19'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает защиту в бою с вражескими игроками магических профессий на 55%.
+      effects: []
+      icon: ''
+      level: '20'
+      name: Доблесть Магов
+      selection_id: ''
+      specifications: []
+      skill_id: 23096
+    - branch: base
+      description: Увеличивает магическую атаку при ношении робы.
+      effects: []
+      icon: /icon/s10031.jpg
+      level: '1'
+      name: Интеллект
+      selection_id: ''
+      specifications: []
+      skill_id: 10031
+    - branch: base
+      description: Увеличивает магическую атаку при ношении робы.
+      effects: []
+      icon: /icon/s10031.jpg
+      level: '2'
+      name: Интеллект
+      selection_id: ''
+      specifications: []
+      skill_id: 10031
+    - branch: base
+      description: Увеличивает магическую атаку при ношении робы.
+      effects: []
+      icon: /icon/s10031.jpg
+      level: '3'
+      name: Интеллект
+      selection_id: ''
+      specifications: []
+      skill_id: 10031
+    - branch: base
+      description: Увеличивает магическую атаку при ношении робы.
+      effects: []
+      icon: /icon/s10031.jpg
+      level: '4'
+      name: Интеллект
+      selection_id: ''
+      specifications: []
+      skill_id: 10031
+    - branch: base
+      description: Увеличивает магическую атаку при ношении робы.
+      effects: []
+      icon: /icon/s10031.jpg
+      level: '5'
+      name: Интеллект
+      selection_id: ''
+      specifications: []
+      skill_id: 10031
+    - branch: base
+      description: Увеличивает магическую атаку при ношении робы.
+      effects: []
+      icon: /icon/s10031.jpg
+      level: '6'
+      name: Интеллект
+      selection_id: ''
+      specifications: []
+      skill_id: 10031
+    - branch: base
+      description: Увеличивает магическую атаку при ношении робы.
+      effects: []
+      icon: /icon/s10031.jpg
+      level: '7'
+      name: Интеллект
+      selection_id: ''
+      specifications: []
+      skill_id: 10031
+    - branch: base
+      description: Увеличивает силу критической атаки магией.
+      effects: []
+      icon: /icon/skill1013.jpg
+      level: '1'
+      name: Перелив энергии
+      selection_id: ''
+      specifications: []
+      skill_id: 10498
+    - branch: base
+      description: Увеличивает силу критической атаки магией.
+      effects: []
+      icon: /icon/skill1013.jpg
+      level: '2'
+      name: Перелив энергии
+      selection_id: ''
+      specifications: []
+      skill_id: 10498
+    - branch: base
+      description: Увеличивает силу критической атаки магией.
+      effects: []
+      icon: /icon/skill1013.jpg
+      level: '3'
+      name: Перелив энергии
+      selection_id: ''
+      specifications: []
+      skill_id: 10498
+    - branch: base
+      description: Увеличивает силу критической атаки магией.
+      effects: []
+      icon: /icon/skill1013.jpg
+      level: '4'
+      name: Перелив энергии
+      selection_id: ''
+      specifications: []
+      skill_id: 10498
+    - branch: base
+      description: Увеличивает силу критической атаки магией.
+      effects: []
+      icon: /icon/skill1013.jpg
+      level: '5'
+      name: Перелив энергии
+      selection_id: ''
+      specifications: []
+      skill_id: 10498
+    - branch: base
+      description: Увеличивает силу критической атаки магией.
+      effects: []
+      icon: /icon/skill1013.jpg
+      level: '6'
+      name: Перелив энергии
+      selection_id: ''
+      specifications: []
+      skill_id: 10498
+    - branch: base
+      description: Увеличивает силу критической атаки магией.
+      effects: []
+      icon: /icon/skill1013.jpg
+      level: '7'
+      name: Перелив энергии
+      selection_id: ''
+      specifications: []
+      skill_id: 10498
+    - branch: base
+      description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Астролиз
+      selection_id: ''
+      specifications: []
+      skill_id: 30060
+    - branch: base
+      description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Астролиз
+      selection_id: ''
+      specifications: []
+      skill_id: 30060
+    - branch: base
+      description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Астролиз
+      selection_id: ''
+      specifications: []
+      skill_id: 30060
+    - branch: base
+      description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Астролиз
+      selection_id: ''
+      specifications: []
+      skill_id: 30060
+    - branch: base
+      description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Астролиз
+      selection_id: ''
+      specifications: []
+      skill_id: 30060
+    - branch: base
+      description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Астролиз
+      selection_id: ''
+      specifications: []
+      skill_id: 30060
+    - branch: base
+      description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Астролиз
+      selection_id: ''
+      specifications: []
+      skill_id: 30060
+    - branch: base
+      description: Вы искажаете пространство вокруг себя, становясь полностью невидимым. При выходе из
+        невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 60, скорость атаки и скорость
+        чтения заклинаний на 20%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Горизонт событий
+      selection_id: ''
+      specifications: []
+      skill_id: 30062
+    - branch: base
+      description: Вы искажаете пространство вокруг себя, становясь полностью невидимым. При выходе из
+        невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 65, скорость атаки и скорость
+        чтения заклинаний на 25%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Горизонт событий
+      selection_id: ''
+      specifications: []
+      skill_id: 30062
+    - branch: base
+      description: Вы искажаете пространство вокруг себя, становясь полностью невидимым. При выходе из
+        невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 70, скорость атаки и скорость
+        чтения заклинаний на 30%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Горизонт событий
+      selection_id: ''
+      specifications: []
+      skill_id: 30062
+    - branch: base
+      description: Вы искажаете пространство вокруг себя, становясь полностью невидимым. При выходе из
+        невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 75, скорость атаки и скорость
+        чтения заклинаний на 35%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Горизонт событий
+      selection_id: ''
+      specifications: []
+      skill_id: 30062
+    - branch: base
+      description: Вы искажаете пространство вокруг себя, становясь полностью невидимым. При выходе из
+        невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 80, скорость атаки и скорость
+        чтения заклинаний на 40%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Горизонт событий
+      selection_id: ''
+      specifications: []
+      skill_id: 30062
+    - branch: base
+      description: Вы искажаете пространство вокруг себя, становясь полностью невидимым. При выходе из
+        невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 90, скорость атаки и скорость
+        чтения заклинаний на 45%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Горизонт событий
+      selection_id: ''
+      specifications: []
+      skill_id: 30062
+    - branch: base
+      description: Вы искажаете пространство вокруг себя, становясь полностью невидимым. При выходе из
+        невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 100, скорость атаки и скорость
+        чтения заклинаний на 50%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Горизонт событий
+      selection_id: ''
+      specifications: []
+      skill_id: 30062
+    - branch: base
+      description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
+        бою, то враг получит звездный порез.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Звездный покров
+      selection_id: ''
+      specifications: []
+      skill_id: 30065
+    - branch: base
+      description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
+        бою, то враг получит звездный порез.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Звездный покров
+      selection_id: ''
+      specifications: []
+      skill_id: 30065
+    - branch: base
+      description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
+        бою, то враг получит звездный порез.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Звездный покров
+      selection_id: ''
+      specifications: []
+      skill_id: 30065
+    - branch: base
+      description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
+        бою, то враг получит звездный порез.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Звездный покров
+      selection_id: ''
+      specifications: []
+      skill_id: 30065
+    - branch: base
+      description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
+        бою, то враг получит звездный порез.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Звездный покров
+      selection_id: ''
+      specifications: []
+      skill_id: 30065
+    - branch: base
+      description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
+        бою, то враг получит звездный порез.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Звездный покров
+      selection_id: ''
+      specifications: []
+      skill_id: 30065
+    - branch: base
+      description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
+        бою, то враг получит звездный порез.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Звездный покров
+      selection_id: ''
+      specifications: []
+      skill_id: 30065
+    - branch: base
+      description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
+        и парализует его.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Сингулярность
+      selection_id: ''
+      specifications: []
+      skill_id: 30068
+    - branch: base
+      description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
+        и парализует его.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Сингулярность
+      selection_id: ''
+      specifications: []
+      skill_id: 30068
+    - branch: base
+      description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
+        и парализует его.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Сингулярность
+      selection_id: ''
+      specifications: []
+      skill_id: 30068
+    - branch: base
+      description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
+        и парализует его.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Сингулярность
+      selection_id: ''
+      specifications: []
+      skill_id: 30068
+    - branch: base
+      description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
+        и парализует его.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Сингулярность
+      selection_id: ''
+      specifications: []
+      skill_id: 30068
+    - branch: base
+      description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
+        и парализует его.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Сингулярность
+      selection_id: ''
+      specifications: []
+      skill_id: 30068
+    - branch: base
+      description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
+        и парализует его.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Сингулярность
+      selection_id: ''
+      specifications: []
+      skill_id: 30068
+    - branch: base
+      description: Наносит урон противнику.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Звездная вспышка
+      selection_id: ''
+      specifications: []
+      skill_id: 30073
+    - branch: base
+      description: Наносит урон противнику.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Звездная вспышка
+      selection_id: ''
+      specifications: []
+      skill_id: 30073
+    - branch: base
+      description: Наносит урон противнику.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Звездная вспышка
+      selection_id: ''
+      specifications: []
+      skill_id: 30073
+    - branch: base
+      description: Наносит урон противнику.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Звездная вспышка
+      selection_id: ''
+      specifications: []
+      skill_id: 30073
+    - branch: base
+      description: Наносит урон противнику.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Звездная вспышка
+      selection_id: ''
+      specifications: []
+      skill_id: 30073
+    - branch: base
+      description: Наносит урон противнику.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Звездная вспышка
+      selection_id: ''
+      specifications: []
+      skill_id: 30073
+    - branch: base
+      description: Наносит урон противнику.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Звездная вспышка
+      selection_id: ''
+      specifications: []
+      skill_id: 30073
+    - branch: base
+      description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
+        вспышка* по проклятому врагу, то она нанесет усиленный урон.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Гравитационная метка
+      selection_id: ''
+      specifications: []
+      skill_id: 30075
+    - branch: base
+      description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
+        вспышка* по проклятому врагу, то она нанесет усиленный урон.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Гравитационная метка
+      selection_id: ''
+      specifications: []
+      skill_id: 30075
+    - branch: base
+      description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
+        вспышка* по проклятому врагу, то она нанесет усиленный урон.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Гравитационная метка
+      selection_id: ''
+      specifications: []
+      skill_id: 30075
+    - branch: base
+      description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
+        вспышка* по проклятому врагу, то она нанесет усиленный урон.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Гравитационная метка
+      selection_id: ''
+      specifications: []
+      skill_id: 30075
+    - branch: base
+      description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
+        вспышка* по проклятому врагу, то она нанесет усиленный урон.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Гравитационная метка
+      selection_id: ''
+      specifications: []
+      skill_id: 30075
+    - branch: base
+      description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
+        вспышка* по проклятому врагу, то она нанесет усиленный урон.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Гравитационная метка
+      selection_id: ''
+      specifications: []
+      skill_id: 30075
+    - branch: base
+      description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
+        вспышка* по проклятому врагу, то она нанесет усиленный урон.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Гравитационная метка
+      selection_id: ''
+      specifications: []
+      skill_id: 30075
+    - branch: base
+      description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
+        лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Астромания
+      selection_id: ''
+      specifications: []
+      skill_id: 30076
+    - branch: base
+      description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
+        лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Астромания
+      selection_id: ''
+      specifications: []
+      skill_id: 30076
+    - branch: base
+      description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
+        лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Астромания
+      selection_id: ''
+      specifications: []
+      skill_id: 30076
+    - branch: base
+      description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
+        лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Астромания
+      selection_id: ''
+      specifications: []
+      skill_id: 30076
+    - branch: base
+      description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
+        лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Астромания
+      selection_id: ''
+      specifications: []
+      skill_id: 30076
+    - branch: base
+      description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
+        лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Астромания
+      selection_id: ''
+      specifications: []
+      skill_id: 30076
+    - branch: base
+      description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
+        лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Астромания
+      selection_id: ''
+      specifications: []
+      skill_id: 30076
+    - branch: base
+      description: Увеличивает магическую атаку на 35% и силу критических атак магией на 15%. Вне боя
+        Астромант быстро восстанавливает жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Астромант
+      selection_id: ''
+      specifications: []
+      skill_id: 30058
+    - branch: base
+      description: Увеличивает магическую атаку на 40% и силу критических атак магией на 17%. Вне боя
+        Астромант быстро восстанавливает жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Астромант
+      selection_id: ''
+      specifications: []
+      skill_id: 30058
+    - branch: base
+      description: Увеличивает магическую атаку на 45% и силу критических атак магией на 19%. Вне боя
+        Астромант быстро восстанавливает жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Астромант
+      selection_id: ''
+      specifications: []
+      skill_id: 30058
+    - branch: base
+      description: Увеличивает магическую атаку на 50% и силу критических атак магией на 21%. Вне боя
+        Астромант быстро восстанавливает жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Астромант
+      selection_id: ''
+      specifications: []
+      skill_id: 30058
+    - branch: base
+      description: Увеличивает магическую атаку на 55% и силу критических атак магией на 23%. Вне боя
+        Астромант быстро восстанавливает жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Астромант
+      selection_id: ''
+      specifications: []
+      skill_id: 30058
+    - branch: base
+      description: Увеличивает магическую атаку на 60% и силу критических атак магией на 25%. Вне боя
+        Астромант быстро восстанавливает жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Астромант
+      selection_id: ''
+      specifications: []
+      skill_id: 30058
+    - branch: base
+      description: Увеличивает магическую атаку на 65% и силу критических атак магией на 27%. Вне боя
+        Астромант быстро восстанавливает жизненные силы и боевой дух.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Астромант
+      selection_id: ''
+      specifications: []
+      skill_id: 30058
+    - branch: base
+      description: Наносит сильный урон противнику и врагам вокруг него, создавая черную дыру на 5 секунд,
+        которая притягивает к эпицентру и снижает скорость бега на 80, скорость атаки и скорость чтения
+        заклинаний на 30%.
+      effects: []
+      icon: /icon/skill19316.jpg
+      level: '1'
+      name: Власть космоса
+      selection_id: ''
+      specifications: []
+      skill_id: 30051
+    - branch: base
+      description: Наносит сильный урон противнику и врагам вокруг него, создавая черную дыру на 5 секунд,
+        которая притягивает к эпицентру и снижает скорость бега на 90, скорость атаки и скорость чтения
+        заклинаний на 40%.
+      effects: []
+      icon: /icon/skill19316.jpg
+      level: '2'
+      name: Власть космоса
+      selection_id: ''
+      specifications: []
+      skill_id: 30051
+    - branch: base
+      description: Наносит сильный урон противнику и врагам вокруг него, создавая черную дыру на 5 секунд,
+        которая притягивает к эпицентру и снижает скорость бега на 100, скорость атаки и скорость чтения
+        заклинаний 50%.
+      effects: []
+      icon: /icon/skill19316.jpg
+      level: '3'
+      name: Власть космоса
+      selection_id: ''
+      specifications: []
+      skill_id: 30051
+    - branch: base
+      description: Наносит сильный урон противнику и врагам вокруг него, создавая черную дыру на 5 секунд,
+        которая притягивает к эпицентру и снижает скорость бега на 110, скорость атаки и скорость чтения
+        заклинаний 60%.
+      effects: []
+      icon: /icon/skill19316.jpg
+      level: '4'
+      name: Власть космоса
+      selection_id: ''
+      specifications: []
+      skill_id: 30051
+    - branch: base
+      description: Наносит сильный урон противнику и врагам вокруг него, создавая черную дыру на 5 секунд,
+        которая притягивает к эпицентру и снижает скорость бега на 120, скорость атаки и скорость чтения
+        заклинаний 70%.
+      effects: []
+      icon: /icon/skill19316.jpg
+      level: '5'
+      name: Власть космоса
+      selection_id: ''
+      specifications: []
+      skill_id: 30051
+    id: skill20
+    title: Простые умения
+  - entries:
+    - branch: one
+      description: Увеличивает магическую атаку на 4% и дальность магических умений на 110.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '1'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30080
+      branch_group_id: 30080
+    - branch: one
+      description: Увеличивает магическую атаку на 5% и дальность магических умений на 125.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '2'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30080
+      branch_group_id: 30080
+    - branch: one
+      description: Увеличивает магическую атаку на 6% и дальность магических умений на 140.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '3'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30080
+      branch_group_id: 30080
+    - branch: one
+      description: Увеличивает магическую атаку на 7% и дальность магических умений на 155.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '4'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30080
+      branch_group_id: 30080
+    - branch: one
+      description: Увеличивает магическую атаку на 8% и дальность магических умений на 170.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '5'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30080
+      branch_group_id: 30080
+    - branch: one
+      description: Увеличивает магическую атаку на 9% и дальность магических умений на 185.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '6'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30080
+      branch_group_id: 30080
+    - branch: one
+      description: Увеличивает магическую атаку на 10% и дальность магических умений на 200.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '7'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30080
+      branch_group_id: 30080
+    - branch: two
+      description: Увеличивает магическую атаку на 8% и дальность магических умений на 70.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '1'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30081
+      branch_group_id: 30080
+    - branch: two
+      description: Увеличивает магическую атаку на 9.5% и дальность магических умений на 85.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '2'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30081
+      branch_group_id: 30080
+    - branch: two
+      description: Увеличивает магическую атаку на 11% и дальность магических умений на 100.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '3'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30081
+      branch_group_id: 30080
+    - branch: two
+      description: Увеличивает магическую атаку на 12.5% и дальность магических умений на 115.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '4'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30081
+      branch_group_id: 30080
+    - branch: two
+      description: Увеличивает магическую атаку на 14% и дальность магических умений на 130.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '5'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30081
+      branch_group_id: 30080
+    - branch: two
+      description: Увеличивает магическую атаку на 15.5% и дальность магических умений на 145.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '6'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30081
+      branch_group_id: 30080
+    - branch: two
+      description: Увеличивает магическую атаку на 17% и дальность магических умений на 160.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '7'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30081
+      branch_group_id: 30080
+    - branch: three
+      description: Увеличивает магическую атаку на 10% и дальность магических умений на 50.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '1'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30082
+      branch_group_id: 30080
+    - branch: three
+      description: Увеличивает магическую атаку на 12% и дальность магических умений на 65.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '2'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30082
+      branch_group_id: 30080
+    - branch: three
+      description: Увеличивает магическую атаку на 14% и дальность магических умений на 80.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '3'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30082
+      branch_group_id: 30080
+    - branch: three
+      description: Увеличивает магическую атаку на 16% и дальность магических умений на 95.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '4'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30082
+      branch_group_id: 30080
+    - branch: three
+      description: Увеличивает магическую атаку на 18% и дальность магических умений на 110.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '5'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30082
+      branch_group_id: 30080
+    - branch: three
+      description: Увеличивает магическую атаку на 20% и дальность магических умений на 125.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '6'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30082
+      branch_group_id: 30080
+    - branch: three
+      description: Увеличивает магическую атаку на 22% и дальность магических умений на 140.
+      effects: []
+      icon: /icon/skill1526.jpg
+      level: '7'
+      name: Управление космосом
+      selection_id: ''
+      specifications: []
+      skill_id: 30082
+      branch_group_id: 30080
+    - branch: one
+      description: Увеличивает магическую атаку на 9%.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30083
+      branch_group_id: 30083
+    - branch: one
+      description: Увеличивает магическую атаку на 10%.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30083
+      branch_group_id: 30083
+    - branch: one
+      description: Увеличивает магическую атаку на 11%.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30083
+      branch_group_id: 30083
+    - branch: one
+      description: Увеличивает магическую атаку на 12%.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30083
+      branch_group_id: 30083
+    - branch: one
+      description: Увеличивает магическую атаку на 13%.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30083
+      branch_group_id: 30083
+    - branch: one
+      description: Увеличивает магическую атаку на 14%.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30083
+      branch_group_id: 30083
+    - branch: one
+      description: Увеличивает магическую атаку на 15%.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30083
+      branch_group_id: 30083
+    - branch: two
+      description: Увеличивает силу критических атак магией на 7%.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30084
+      branch_group_id: 30083
+    - branch: two
+      description: Увеличивает силу критических атак магией на 7.5%.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30084
+      branch_group_id: 30083
+    - branch: two
+      description: Увеличивает силу критических атак магией на 8%.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30084
+      branch_group_id: 30083
+    - branch: two
+      description: Увеличивает силу критических атак магией на 8.5%.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30084
+      branch_group_id: 30083
+    - branch: two
+      description: Увеличивает силу критических атак магией на 9%.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30084
+      branch_group_id: 30083
+    - branch: two
+      description: Увеличивает силу критических атак магией на 9.5%.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30084
+      branch_group_id: 30083
+    - branch: two
+      description: Увеличивает силу критических атак магией на 10%.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30084
+      branch_group_id: 30083
+    - branch: three
+      description: Увеличивает магическую атаку на 5% и силу критических атак магией на 3%.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30085
+      branch_group_id: 30083
+    - branch: three
+      description: Увеличивает магическую атаку на 5.5% и силу критических атак магией на 3.5%.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30085
+      branch_group_id: 30083
+    - branch: three
+      description: Увеличивает магическую атаку на 6% и силу критических атак магией на 4%.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30085
+      branch_group_id: 30083
+    - branch: three
+      description: Увеличивает магическую атаку на 6.5% и силу критических атак магией на 4.5%.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30085
+      branch_group_id: 30083
+    - branch: three
+      description: Увеличивает магическую атаку на 7% и силу критических атак магией на 5%.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30085
+      branch_group_id: 30083
+    - branch: three
+      description: Увеличивает магическую атаку на 7.5% и силу критических атак магией на 5.5%.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30085
+      branch_group_id: 30083
+    - branch: three
+      description: Увеличивает магическую атаку на 8% и силу критических атак магией на 6%.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Звездный катализ
+      selection_id: ''
+      specifications: []
+      skill_id: 30085
+      branch_group_id: 30083
+    - branch: one
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Быстрый откат умения, короткое расстояние.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30086
+      branch_group_id: 30086
+    - branch: one
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Быстрый откат умения, короткое расстояние.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30086
+      branch_group_id: 30086
+    - branch: one
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Быстрый откат умения, короткое расстояние.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30086
+      branch_group_id: 30086
+    - branch: one
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Быстрый откат умения, короткое расстояние.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30086
+      branch_group_id: 30086
+    - branch: one
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Быстрый откат умения, короткое расстояние.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30086
+      branch_group_id: 30086
+    - branch: one
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Быстрый откат умения, короткое расстояние.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30086
+      branch_group_id: 30086
+    - branch: one
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Быстрый откат умения, короткое расстояние.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30086
+      branch_group_id: 30086
+    - branch: two
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Средний откат умения, среднее расстояние.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30088
+      branch_group_id: 30086
+    - branch: two
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Средний откат умения, среднее расстояние.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30088
+      branch_group_id: 30086
+    - branch: two
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Средний откат умения, среднее расстояние.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30088
+      branch_group_id: 30086
+    - branch: two
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Средний откат умения, среднее расстояние.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30088
+      branch_group_id: 30086
+    - branch: two
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Средний откат умения, среднее расстояние.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30088
+      branch_group_id: 30086
+    - branch: two
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Средний откат умения, среднее расстояние.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30088
+      branch_group_id: 30086
+    - branch: two
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Средний откат умения, среднее расстояние.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30088
+      branch_group_id: 30086
+    - branch: three
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Долгий откат умения, большое расстояние.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30090
+      branch_group_id: 30086
+    - branch: three
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Долгий откат умения, большое расстояние.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30090
+      branch_group_id: 30086
+    - branch: three
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Долгий откат умения, большое расстояние.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30090
+      branch_group_id: 30086
+    - branch: three
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Долгий откат умения, большое расстояние.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30090
+      branch_group_id: 30086
+    - branch: three
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Долгий откат умения, большое расстояние.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30090
+      branch_group_id: 30086
+    - branch: three
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Долгий откат умения, большое расстояние.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30090
+      branch_group_id: 30086
+    - branch: three
+      description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
+        Долгий откат умения, большое расстояние.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Космический шип
+      selection_id: ''
+      specifications: []
+      skill_id: 30090
+      branch_group_id: 30086
+    - branch: one
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        3 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30092
+      branch_group_id: 30092
+    - branch: one
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        3 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30092
+      branch_group_id: 30092
+    - branch: one
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        3 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30092
+      branch_group_id: 30092
+    - branch: one
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        3 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30092
+      branch_group_id: 30092
+    - branch: one
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        3 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30092
+      branch_group_id: 30092
+    - branch: one
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        3 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30092
+      branch_group_id: 30092
+    - branch: one
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        3 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30092
+      branch_group_id: 30092
+    - branch: two
+      description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
+        3 отскока без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30094
+      branch_group_id: 30092
+    - branch: two
+      description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
+        3 отскока без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30094
+      branch_group_id: 30092
+    - branch: two
+      description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
+        3 отскока без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30094
+      branch_group_id: 30092
+    - branch: two
+      description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
+        3 отскока без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30094
+      branch_group_id: 30092
+    - branch: two
+      description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
+        3 отскока без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30094
+      branch_group_id: 30092
+    - branch: two
+      description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
+        3 отскока без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30094
+      branch_group_id: 30092
+    - branch: two
+      description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
+        3 отскока без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30094
+      branch_group_id: 30092
+    - branch: three
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        2 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30096
+      branch_group_id: 30092
+    - branch: three
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        2 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30096
+      branch_group_id: 30092
+    - branch: three
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        2 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30096
+      branch_group_id: 30092
+    - branch: three
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        2 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30096
+      branch_group_id: 30092
+    - branch: three
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        2 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30096
+      branch_group_id: 30092
+    - branch: three
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        2 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30096
+      branch_group_id: 30092
+    - branch: three
+      description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
+        2 рывка без задержки. Во время использования Вы неуязвимы.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Квантовый скачок
+      selection_id: ''
+      specifications: []
+      skill_id: 30096
+      branch_group_id: 30092
+    - branch: one
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
+        откат.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30125
+      branch_group_id: 30125
+    - branch: one
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
+        откат.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30125
+      branch_group_id: 30125
+    - branch: one
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
+        откат.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30125
+      branch_group_id: 30125
+    - branch: one
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
+        откат.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30125
+      branch_group_id: 30125
+    - branch: one
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
+        откат.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30125
+      branch_group_id: 30125
+    - branch: one
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
+        откат.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30125
+      branch_group_id: 30125
+    - branch: one
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
+        откат.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30125
+      branch_group_id: 30125
+    - branch: two
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30130
+      branch_group_id: 30125
+    - branch: two
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30130
+      branch_group_id: 30125
+    - branch: two
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30130
+      branch_group_id: 30125
+    - branch: two
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30130
+      branch_group_id: 30125
+    - branch: two
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30130
+      branch_group_id: 30125
+    - branch: two
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30130
+      branch_group_id: 30125
+    - branch: two
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30130
+      branch_group_id: 30125
+    - branch: three
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30134
+      branch_group_id: 30125
+    - branch: three
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30134
+      branch_group_id: 30125
+    - branch: three
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30134
+      branch_group_id: 30125
+    - branch: three
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30134
+      branch_group_id: 30125
+    - branch: three
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30134
+      branch_group_id: 30125
+    - branch: three
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30134
+      branch_group_id: 30125
+    - branch: three
+      description: Вы перегружаете энергетическое поле врага, создавая на нем плазменное ядро. Через 3
+        секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
+        урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Плазменный всплеск
+      selection_id: ''
+      specifications: []
+      skill_id: 30134
+      branch_group_id: 30125
+    - branch: one
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 4% жизенных сил.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30098
+      branch_group_id: 30098
+    - branch: one
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 5% жизенных сил.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30098
+      branch_group_id: 30098
+    - branch: one
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 6% жизенных сил.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30098
+      branch_group_id: 30098
+    - branch: one
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 7% жизенных сил.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30098
+      branch_group_id: 30098
+    - branch: one
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 8% жизенных сил.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30098
+      branch_group_id: 30098
+    - branch: one
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 9% жизенных сил.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30098
+      branch_group_id: 30098
+    - branch: one
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 10% жизенных сил.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30098
+      branch_group_id: 30098
+    - branch: two
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 4% боевого духа.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30105
+      branch_group_id: 30098
+    - branch: two
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 5% боевого духа.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30105
+      branch_group_id: 30098
+    - branch: two
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 6% боевого духа.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30105
+      branch_group_id: 30098
+    - branch: two
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 7% боевого духа.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30105
+      branch_group_id: 30098
+    - branch: two
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 8% боевого духа.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30105
+      branch_group_id: 30098
+    - branch: two
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 9% боевого духа.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30105
+      branch_group_id: 30098
+    - branch: two
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит 10% боевого духа.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30105
+      branch_group_id: 30098
+    - branch: three
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит по 3% жизненных сил и боевого
+        духа.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30112
+      branch_group_id: 30098
+    - branch: three
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит по 3.5% жизненных сил и боевого
+        духа.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30112
+      branch_group_id: 30098
+    - branch: three
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит по 4% жизненных сил и боевого
+        духа.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30112
+      branch_group_id: 30098
+    - branch: three
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит по 4.5% жизненных сил и боевого
+        духа.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30112
+      branch_group_id: 30098
+    - branch: three
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит по 5% жизненных сил и боевого
+        духа.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30112
+      branch_group_id: 30098
+    - branch: three
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит по 5.5% жизненных сил и боевого
+        духа.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30112
+      branch_group_id: 30098
+    - branch: three
+      description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
+        котором следующая атака нанесет дополнительный урон и восстановит по 6% жизненных сил и боевого
+        духа.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Благословение Ориона
+      selection_id: ''
+      specifications: []
+      skill_id: 30112
+      branch_group_id: 30098
+    - branch: one
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 20% и силу критического удара магией на 11%.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30119
+      branch_group_id: 30119
+    - branch: one
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 25% и силу критического удара магией на 15%.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30119
+      branch_group_id: 30119
+    - branch: one
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 30% и силу критического удара магией на 19%.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30119
+      branch_group_id: 30119
+    - branch: one
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 35% и силу критического удара магией на 23%.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30119
+      branch_group_id: 30119
+    - branch: one
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 40% и силу критического удара магией на 27%.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30119
+      branch_group_id: 30119
+    - branch: one
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 45% и силу критического удара магией на 31%.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30119
+      branch_group_id: 30119
+    - branch: one
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 50% и силу критического удара магией на 35%.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30119
+      branch_group_id: 30119
+    - branch: two
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 20%, силу критического удара магией на 6% и шанс нанести его на 1%.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30121
+      branch_group_id: 30119
+    - branch: two
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 25%, силу критического удара магией на 8% и шанс нанести его на 2%.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30121
+      branch_group_id: 30119
+    - branch: two
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 30%, силу критического удара магией на 10% и шанс нанести его на 3%.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30121
+      branch_group_id: 30119
+    - branch: two
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 35%, силу критического удара магией на 12% и шанс нанести его на 4%.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30121
+      branch_group_id: 30119
+    - branch: two
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 40%, силу критического удара магией на 14% и шанс нанести его на 5%.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30121
+      branch_group_id: 30119
+    - branch: two
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 45%, силу критического удара магией на 16% и шанс нанести его на 6%.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30121
+      branch_group_id: 30119
+    - branch: two
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 50%, силу критического удара магией на 18% и шанс нанести его на 7%.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30121
+      branch_group_id: 30119
+    - branch: three
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 20%, скорость чтения заклинаний на 9% и силу критического удара магией на 9%.
+      effects: []
+      icon: ''
+      level: '1'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30123
+      branch_group_id: 30119
+    - branch: three
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 25%, скорость чтения заклинаний на 10% и силу критического удара магией на 10%.
+      effects: []
+      icon: ''
+      level: '2'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30123
+      branch_group_id: 30119
+    - branch: three
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 30%, скорость чтения заклинаний на 11% и силу критического удара магией на 11%.
+      effects: []
+      icon: ''
+      level: '3'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30123
+      branch_group_id: 30119
+    - branch: three
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 35%, скорость чтения заклинаний на 12% и силу критического удара магией на 12%.
+      effects: []
+      icon: ''
+      level: '4'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30123
+      branch_group_id: 30119
+    - branch: three
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 40%, скорость чтения заклинаний на 13% и силу критического удара магией на 13%.
+      effects: []
+      icon: ''
+      level: '5'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30123
+      branch_group_id: 30119
+    - branch: three
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 45%, скорость чтения заклинаний на 14% и силу критического удара магией на 14%.
+      effects: []
+      icon: ''
+      level: '6'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30123
+      branch_group_id: 30119
+    - branch: three
+      description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
+        на 50%, скорость чтения заклинаний на 15% и силу критического удара магией на 15%.
+      effects: []
+      icon: ''
+      level: '7'
+      name: Критическая масса
+      selection_id: ''
+      specifications: []
+      skill_id: 30123
+      branch_group_id: 30119
+    id: skill60
+    title: Особые умения
+  slug: astromant
+  title: Астромант
+  title_classes:
+  - race-belatto
+  url: '#/profession/astromant'

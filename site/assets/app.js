@@ -142,7 +142,7 @@ function renderProfessionCards(items) {
 async function renderProfession(slug) {
   const catalogItem = archiveIndex.professions.find((item) => item.slug === slug);
   if (!catalogItem) {
-    showError("Такой профессии нет в сохранённом слепке.");
+    showError("Такой профессии нет в базе.");
     return;
   }
   app.innerHTML = '<section class="loading-state"><div class="loader"></div><p>Открываю карточку…</p></section>';
@@ -174,9 +174,18 @@ async function renderProfession(slug) {
   descriptions.append(el("h2", "", "Описание профессии"));
   for (const paragraph of profession.descriptions) descriptions.append(el("p", "", paragraph));
 
-  document.querySelector("#source-snapshot").textContent = exported.archive.snapshot;
-  document.querySelector("#source-date").textContent = formatDate(exported.archive.captured_at);
-  document.querySelector("#source-url").href = exported.archive.original_url;
+  if (exported.archive) {
+    document.querySelector("#source-archive").hidden = false;
+    document.querySelector("#source-snapshot").textContent = exported.archive.snapshot;
+    document.querySelector("#source-date").textContent = formatDate(exported.archive.captured_at);
+    document.querySelector("#source-url").href = exported.archive.original_url;
+  }
+  if (exported.client_release) {
+    const source = document.querySelector("#source-client");
+    source.hidden = false;
+    source.textContent = "Данные клиента BSFG " + exported.client_release
+      + (exported.archive ? ". Часть записей и характеристик взята из архивного слепка." : ".");
+  }
 
   renderSectionTabs(profession.sections);
   app.focus({ preventScroll: true });
@@ -236,11 +245,13 @@ function groupSkills(entries) {
   const groups = [];
   for (const row of entries) {
     const current = groups.at(-1);
+    const branchGroup = row.branch_group_id ?? (row.branch === "base" ? "" : row.selection_id.split("_")[0]);
+    const sameGroup = current?.branchGroup === branchGroup && (branchGroup || current.name === row.name);
     const repeatsLevel = current?.rows.some(
       (item) => item.branch === row.branch && item.level === row.level
     );
-    if (!current || current.name !== row.name || repeatsLevel) {
-      groups.push({ name: row.name, rows: [row] });
+    if (!sameGroup || repeatsLevel) {
+      groups.push({ name: row.name, branchGroup, rows: [row] });
     } else {
       current.rows.push(row);
     }
@@ -254,7 +265,7 @@ function renderSkills(section, queryValue) {
   const query = normalize(queryValue.trim());
   list.replaceChildren();
   const grouped = groupSkills(section.entries)
-    .filter(({ name }) => !query || normalize(name).includes(query));
+    .filter(({ rows }) => !query || rows.some((row) => normalize(row.name).includes(query)));
   empty.hidden = grouped.length > 0;
 
   grouped.forEach(({ name, rows }, index) => {
@@ -277,14 +288,16 @@ function renderSkills(section, queryValue) {
     for (const [branch, branchRows] of groupBy(rows, "branch")) {
       const branchBlock = el("section", "branch-block");
       const branchHeading = el("div", "branch-heading");
+      const branchName = branchRows[0].name;
+      const branchLabel = BRANCH_LABELS[branch] || branch;
       branchHeading.append(
-        renderSkillIcon(branchRows.find((row) => row.icon)?.icon || "", name, "branch-icon"),
-        el("h3", "", BRANCH_LABELS[branch] || branch),
+        renderSkillIcon(branchRows.find((row) => row.icon)?.icon || "", branchName, "branch-icon"),
+        el("h3", "", branchName === name ? branchLabel : branchLabel + " · " + branchName),
         el("span", "branch-record-count", branchRows.length + " ур."),
       );
       branchBlock.append(branchHeading);
       const sortedRows = [...branchRows].sort((a, b) => Number(a.level) - Number(b.level));
-      branchBlock.append(renderLevelSwitcher(sortedRows, name, branch));
+      branchBlock.append(renderLevelSwitcher(sortedRows, branchName, branch));
       content.append(branchBlock);
     }
     details.append(content);
@@ -360,7 +373,13 @@ function renderLevel(row, compact = false) {
       effects.append(el("dt", className, label));
       effects.append(el("dd", className, parts.join(":").trim() || "—"));
     }
-    card.append(effects);
+    if (row.effects_from_archive) {
+      const archived = el("details", "");
+      archived.append(el("summary", "", "Эффекты в сентябрьском слепке"), effects);
+      card.append(archived);
+    } else {
+      card.append(effects);
+    }
   }
   return card;
 }

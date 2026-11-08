@@ -246,8 +246,53 @@ def write_json(path: Path, value: object) -> None:
     temporary.replace(path)
 
 
+def load_enchant_skills(content: Path) -> dict[str, Any] | None:
+    path = content / "specifications" / "enchant-skills.yaml"
+    if not path.is_file():
+        return None
+    data = require_mapping(load_yaml(path), path, "enchant_skills")
+    source = require_string(data, "source", path, "enchant_skills")
+    if not source.startswith("https://"):
+        fail(path, "enchant_skills.source", "ожидалась ссылка HTTPS")
+    categories = require_list(data.get("categories"), path, "categories")
+    if not categories:
+        fail(path, "categories", "нужен хотя бы один тип заточки")
+    for i, category_value in enumerate(categories):
+        category_path = f"categories[{i}]"
+        category = require_mapping(category_value, path, category_path)
+        require_string(category, "title", path, category_path)
+        skills = require_list(category.get("skills"), path, f"{category_path}.skills")
+        if not skills:
+            fail(path, f"{category_path}.skills", "нужно хотя бы одно умение")
+        for j, skill_value in enumerate(skills):
+            skill_path = f"{category_path}.skills[{j}]"
+            skill = require_mapping(skill_value, path, skill_path)
+            require_string(skill, "name", path, skill_path)
+            require_string(skill, "icon", path, skill_path, allow_empty=True)
+            if "description" in skill:
+                require_string(skill, "description", path, skill_path)
+            levels = require_list(skill.get("levels"), path, f"{skill_path}.levels")
+            if not levels:
+                fail(path, f"{skill_path}.levels", "нужен хотя бы один уровень")
+            previous_level = 0
+            for k, level_value in enumerate(levels):
+                level_path = f"{skill_path}.levels[{k}]"
+                level = require_mapping(level_value, path, level_path)
+                number = level.get("level")
+                if type(number) is not int or number <= previous_level:
+                    fail(path, f"{level_path}.level", "уровни должны быть положительными и идти по возрастанию")
+                previous_level = number
+                if "description" not in skill or "description" in level:
+                    require_string(level, "description", path, level_path)
+                effects = require_string_list(level, "effects", path, level_path)
+                if not effects or any(not effect.strip() for effect in effects):
+                    fail(path, f"{level_path}.effects", "нужен хотя бы один непустой эффект")
+    return data
+
+
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
+    enchant_skills = load_enchant_skills(content)
     icons = {
         path.stem: f"assets/profession-icons/{path.name}"
         for path in sorted(PROFESSION_ICON_DIR.glob("*"))
@@ -314,6 +359,11 @@ def build(content: Path, output: Path) -> tuple[int, int]:
         "categories": [label for label in CLASS_SKILL_LABELS.values() if label in catalog_categories],
         "professions": catalog,
     })
+    enchant_output = output / "specifications" / "enchant-skills.json"
+    if enchant_skills is not None:
+        write_json(enchant_output, enchant_skills)
+    else:
+        enchant_output.unlink(missing_ok=True)
     return len(catalog), total_records
 
 def parse_args() -> argparse.Namespace:
@@ -332,6 +382,7 @@ def main() -> int:
     try:
         if args.validate_only:
             _, documents = load_content(args.content.resolve())
+            load_enchant_skills(args.content.resolve())
             print(f"VALID professions={len(documents)} content={args.content.resolve()}")
             return 0
         profession_count, record_count = build(

@@ -19,7 +19,10 @@ const BRANCH_LABELS = {
 };
 
 const app = document.querySelector("#app");
+const siteLinks = document.querySelectorAll(".site-nav a");
 let archiveIndex;
+let enchantSkills;
+let routeVersion = 0;
 
 function el(tag, className, value) {
   const node = document.createElement(tag);
@@ -66,14 +69,13 @@ function renderIcon(source, name, className) {
 }
 
 function showError(message) {
-  app.replaceChildren();
   const state = el("section", "empty-state error-state");
-  state.append(el("h1", "", "Не удалось открыть архив"), el("p", "", message));
-  app.append(state);
+  state.append(el("h1", "", "Не удалось открыть страницу"), el("p", "", message));
+  app.replaceChildren(state);
 }
 
 function renderCatalog() {
-  document.title = "Архив профессий BSFG";
+  document.title = "Профессии — База знаний BSFG";
   app.replaceChildren(cloneTemplate("#catalog-template"));
 
   const search = document.querySelector("#profession-search");
@@ -103,7 +105,6 @@ function renderCatalog() {
   search.addEventListener("input", refresh);
   factionFilter.addEventListener("change", refresh);
   refresh();
-  app.focus({ preventScroll: true });
 }
 
 function renderClassFilters(categories, selectedCategories, refresh) {
@@ -151,7 +152,7 @@ function renderProfessionGroups(items, selectedFaction) {
     for (const item of professions) {
       const entry = el("li");
       const link = el("a", "profession-link");
-      link.href = "#/profession/" + encodeURIComponent(item.slug);
+      link.href = "#/professions/" + encodeURIComponent(item.slug);
       const label = el("span", "profession-link-label");
       label.append(el("span", "profession-link-title", item.title));
       if (item.categories?.length) {
@@ -166,25 +167,9 @@ function renderProfessionGroups(items, selectedFaction) {
   }
 }
 
-async function renderProfession(slug) {
-  const catalogItem = archiveIndex.professions.find((item) => item.slug === slug);
-  if (!catalogItem) {
-    showError("Такой профессии нет в базе.");
-    return;
-  }
-  app.innerHTML = '<section class="loading-state"><div class="loader"></div><p>Открываю карточку…</p></section>';
-  let exported;
-  try {
-    const response = await fetch("data/professions/" + encodeURIComponent(slug) + ".json");
-    if (!response.ok) throw new Error("HTTP " + response.status);
-    exported = await response.json();
-  } catch (error) {
-    showError("Файл профессии не загрузился: " + error.message);
-    return;
-  }
-
+function renderProfession(catalogItem, exported) {
   const profession = exported.profession;
-  document.title = profession.title + " — архив BSFG";
+  document.title = profession.title + " — База знаний BSFG";
   app.replaceChildren(cloneTemplate("#detail-template"));
   document.querySelector("#crumb-title").textContent = profession.title;
   document.querySelector("#profession-title").textContent = profession.title;
@@ -198,7 +183,6 @@ async function renderProfession(slug) {
   for (const paragraph of profession.descriptions) descriptions.append(el("p", "", paragraph));
 
   renderSectionTabs(profession.sections);
-  app.focus({ preventScroll: true });
 }
 
 function renderSectionTabs(sections) {
@@ -373,26 +357,123 @@ function renderLevel(row) {
   return card;
 }
 
-function route() {
-  const match = location.hash.match(/^#\/profession\/([^/?#]+)$/);
-  if (match) renderProfession(decodeURIComponent(match[1]));
-  else renderCatalog();
-  window.scrollTo({ top: 0, behavior: "instant" });
-}
-
-async function init() {
-  try {
-    const response = await fetch("data/index.json");
-    if (!response.ok) throw new Error("HTTP " + response.status);
-    archiveIndex = await response.json();
-    addEventListener("hashchange", route);
-    route();
-  } catch (error) {
-    showError(
-      "Индекс данных не загрузился: " + error.message
-      + ". Откройте сайт через локальный HTTP-сервер."
-    );
+function renderEnchantSkills(data) {
+  document.title = "Заточка скиллов — База знаний BSFG";
+  app.replaceChildren(cloneTemplate("#enchant-template"));
+  const options = document.querySelector("#enchant-options");
+  const panel = document.querySelector("#enchant-category");
+  document.querySelector("#enchant-source").href = data.source;
+  for (const [index, category] of data.categories.entries()) {
+    const button = el("button", "class-option", category.title);
+    button.type = "button";
+    button.setAttribute("aria-pressed", String(index === 0));
+    button.addEventListener("click", () => {
+      for (const option of options.children) {
+        option.setAttribute("aria-pressed", String(option === button));
+      }
+      renderEnchantCategory(panel, category);
+    });
+    options.append(button);
   }
+  renderEnchantCategory(panel, data.categories[0]);
 }
 
-init();
+function renderEnchantCategory(panel, category) {
+  const title = el("h2", "enchant-title", category.title);
+  title.id = "enchant-title";
+  const grid = el("div", "enchant-grid");
+  for (const skill of category.skills) {
+    const card = el("article", "enchant-card");
+    const heading = el("header", "enchant-heading");
+    heading.append(
+      renderIcon(localIconUrl(skill.icon), skill.name, "branch-icon"),
+      el("h3", "", skill.name),
+    );
+    if (skill.description) heading.append(el("p", "", skill.description));
+    const table = el("table", "enchant-table");
+    table.append(el("caption", "visually-hidden", skill.name));
+    const headerRow = table.createTHead().insertRow();
+    for (const label of ["Уровень", "Эффект"]) {
+      const cell = el("th", "", label);
+      cell.scope = "col";
+      headerRow.append(cell);
+    }
+    const body = table.createTBody();
+    for (const row of skill.levels) {
+      const entry = body.insertRow();
+      const level = el("th", "", row.level);
+      level.scope = "row";
+      entry.append(level);
+      const effects = entry.insertCell();
+      if (row.description) effects.append(el("span", "enchant-description", row.description));
+      for (const effect of row.effects) effects.append(el("span", "", effect));
+    }
+    card.append(heading, table);
+    grid.append(card);
+  }
+  panel.replaceChildren(title, grid);
+}
+
+async function loadJson(path) {
+  const response = await fetch(path);
+  if (!response.ok) throw new Error("HTTP " + response.status);
+  return response.json();
+}
+
+async function route() {
+  const version = ++routeVersion;
+  const path = location.hash.slice(1).replace(/\/+$/, "") || "/";
+  const profession = path.match(/^\/(?:profession|professions)\/([^/?#]+)$/);
+  const isProfessionSection = path === "/professions" || profession !== null;
+  const isSpecifications = path === "/specifications" || path === "/specifications/enchant-skills";
+  for (const link of siteLinks) {
+    const linkPath = link.hash.slice(1);
+    const active = linkPath === "/professions" ? isProfessionSection : isSpecifications;
+    if (active) link.setAttribute("aria-current", path === linkPath ? "page" : "location");
+    else link.removeAttribute("aria-current");
+  }
+
+  window.scrollTo({ top: 0, behavior: "instant" });
+  try {
+    if (path === "/") {
+      document.title = "База знаний BSFG";
+      app.replaceChildren(cloneTemplate("#home-template"));
+    } else if (path === "/specifications") {
+      document.title = "Характеристики — База знаний BSFG";
+      app.replaceChildren(cloneTemplate("#specifications-template"));
+    } else if (path === "/specifications/enchant-skills") {
+      if (!enchantSkills) {
+        app.replaceChildren(cloneTemplate("#loading-template"));
+        enchantSkills = await loadJson("data/specifications/enchant-skills.json");
+      }
+      if (version !== routeVersion) return;
+      renderEnchantSkills(enchantSkills);
+    } else if (isProfessionSection) {
+      if (!archiveIndex || profession) app.replaceChildren(cloneTemplate("#loading-template"));
+      archiveIndex ??= await loadJson("data/index.json");
+      if (version !== routeVersion) return;
+      if (profession) {
+        const slug = decodeURIComponent(profession[1]);
+        const catalogItem = archiveIndex.professions.find((item) => item.slug === slug);
+        if (!catalogItem) showError("Такой профессии нет в базе.");
+        else {
+          const exported = await loadJson("data/professions/" + encodeURIComponent(slug) + ".json");
+          if (version !== routeVersion) return;
+          renderProfession(catalogItem, exported);
+        }
+      } else {
+        renderCatalog();
+      }
+    } else {
+      document.title = "Страница не найдена — База знаний BSFG";
+      showError("Такой страницы нет в базе.");
+    }
+  } catch (error) {
+    if (version !== routeVersion) return;
+    showError("Данные страницы не загрузились: " + error.message);
+  }
+  app.focus({ preventScroll: true });
+}
+
+addEventListener("hashchange", route);
+route();

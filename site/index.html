@@ -3,25 +3,79 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Справочник по профессиям, умениям и веткам развития в BSFG">
-  <title>Архив профессий BSFG</title>
+  <meta name="description" content="База знаний BSFG о профессиях, умениях и характеристиках">
+  <title>База знаний BSFG</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#/" aria-label="К каталогу профессий">
+    <a class="brand" href="#/" aria-label="База знаний BSFG, главная">
       <span class="brand-mark">B</span>
-      <span><strong>BSFG</strong><small>архив профессий</small></span>
+      <span><strong>BSFG</strong><small>база знаний</small></span>
     </a>
+    <nav class="site-nav" aria-label="Разделы сайта">
+      <a href="#/professions">Профессии</a>
+      <a href="#/specifications">Характеристики</a>
+    </nav>
   </header>
 
-  <main id="app" tabindex="-1">
-    <section class="loading-state" aria-live="polite">
-      <div class="loader"></div><p>Загружаю архив…</p>
-    </section>
-  </main>
+  <main id="app" tabindex="-1"></main>
 
   <footer><p>Неофициальные данные, собранные сообществом.</p></footer>
+
+  <template id="loading-template">
+    <section class="loading-state" role="status">
+      <div class="loader"></div><p>Загружаю страницу…</p>
+    </section>
+  </template>
+
+  <template id="home-template">
+    <section class="hero">
+      <h1>База знаний BSFG</h1>
+      <p class="hero-copy">Справочник по профессиям, умениям и характеристикам Battles for Glory.</p>
+    </section>
+    <div class="directory-grid">
+      <a class="directory-link" href="#/professions">
+        <h2>Профессии</h2>
+        <p>Каталог по фракциям и классам с описаниями, умениями и ветками развития.</p>
+      </a>
+      <a class="directory-link" href="#/specifications">
+        <h2>Характеристики</h2>
+        <p>Улучшения умений и их эффекты по уровням.</p>
+      </a>
+    </div>
+  </template>
+
+  <template id="specifications-template">
+    <section class="hero">
+      <h1>Характеристики</h1>
+      <p class="hero-copy">Улучшения умений и их эффекты по уровням.</p>
+    </section>
+    <div class="directory-grid">
+      <a class="directory-link" href="#/specifications/enchant-skills">
+        <h2>Заточка скиллов</h2>
+        <p>Эффекты заточки для оружия, брони и других типов умений.</p>
+      </a>
+    </div>
+  </template>
+
+  <template id="enchant-template">
+    <article class="enchant-page">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <a href="#/specifications">Характеристики</a><span>/</span><span aria-current="page">Заточка скиллов</span>
+      </nav>
+      <header class="hero">
+        <h1>Заточка скиллов</h1>
+        <p class="hero-copy">Выберите тип заточки, чтобы сравнить эффекты на разных уровнях.</p>
+      </header>
+      <fieldset class="class-filters">
+        <legend>Тип заточки</legend>
+        <div id="enchant-options" class="class-options"></div>
+      </fieldset>
+      <section id="enchant-category" aria-labelledby="enchant-title"></section>
+      <p class="enchant-source"><a id="enchant-source" target="_blank" rel="noreferrer">Архивная таблица BSFG ↗</a></p>
+    </article>
+  </template>
 
   <template id="catalog-template">
     <section class="hero">
@@ -53,7 +107,7 @@
   <template id="detail-template">
     <article class="profession-page">
       <nav class="breadcrumbs" aria-label="Навигационная цепочка">
-        <a href="#/">Все профессии</a><span>/</span><span id="crumb-title"></span>
+        <a href="#/professions">Все профессии</a><span>/</span><span id="crumb-title" aria-current="page"></span>
       </nav>
       <div class="profession-layout">
         <aside class="profession-sidebar">

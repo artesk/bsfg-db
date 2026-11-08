@@ -63,7 +63,6 @@ h1 {
 .hero-copy { max-width: 650px; margin: 23px 0 0; color: var(--muted); font-size: 18px; line-height: 1.65; }
 
 .directory-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding-bottom: 60px; }
-.home-directory { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .directory-link, .enchant-card {
   border: 1px solid var(--line); border-radius: 7px;
   background-color: var(--surface); background-image: var(--panel-pattern);

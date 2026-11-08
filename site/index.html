@@ -41,7 +41,7 @@
       </a>
       <a class="directory-link" href="#/specifications">
         <h2>Характеристики</h2>
-        <p>Улучшения умений и их эффекты по уровням.</p>
+        <p>Эффекты заточки умений и улучшения оружия.</p>
       </a>
     </div>
   </template>
@@ -49,12 +49,16 @@
   <template id="specifications-template">
     <section class="hero">
       <h1>Характеристики</h1>
-      <p class="hero-copy">Улучшения умений и их эффекты по уровням.</p>
+      <p class="hero-copy">Эффекты заточки умений и улучшения оружия.</p>
     </section>
     <div class="directory-grid">
       <a class="directory-link" href="#/specifications/enchant-skills">
         <h2>Заточка скиллов</h2>
         <p>Эффекты заточки для оружия, брони и других типов умений.</p>
+      </a>
+      <a class="directory-link" href="#/specifications/enchant-weapon">
+        <h2>Улучшения оружия</h2>
+        <p>Пассивные свойства оружия и щитов при улучшении до +4 по рангам BA–GM.</p>
       </a>
     </div>
   </template>
@@ -62,17 +66,20 @@
   <template id="enchant-template">
     <article class="enchant-page">
       <nav class="breadcrumbs" aria-label="Навигационная цепочка">
-        <a href="#/specifications">Характеристики</a><span>/</span><span aria-current="page">Заточка скиллов</span>
+        <a href="#/specifications">Характеристики</a><span>/</span><span id="enchant-crumb" aria-current="page"></span>
       </nav>
       <header class="hero">
-        <h1>Заточка скиллов</h1>
-        <p class="hero-copy">Выберите тип заточки, чтобы сравнить эффекты на разных уровнях.</p>
+        <h1 id="enchant-heading"></h1>
+        <p id="enchant-intro" class="hero-copy"></p>
       </header>
       <fieldset class="class-filters">
-        <legend>Тип заточки</legend>
+        <legend id="enchant-filter-label"></legend>
         <div id="enchant-options" class="class-options"></div>
       </fieldset>
-      <section id="enchant-category" aria-labelledby="enchant-title"></section>
+      <section aria-labelledby="enchant-title">
+        <h2 id="enchant-title" class="enchant-title"></h2>
+        <div id="enchant-results"></div>
+      </section>
       <p class="enchant-source"><a id="enchant-source" target="_blank" rel="noreferrer">Архивная таблица BSFG ↗</a></p>
     </article>
   </template>

@@ -20,6 +20,7 @@ PROFESSION_ICON_DIR = ROOT / "site" / "assets" / "profession-icons"
 SLUG_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 KNOWN_BRANCHES = {"base", "one", "two", "three"}
 CLIENT_RELEASE_PATTERN = re.compile(r"\d{4}\.\d{2}\.\d{2}\.\d{6}")
+ENCHANTMENT_PAGES = ("enchant-skills", "enchant-weapon")
 CLASS_SKILL_LABELS = {
     "класс чародеев": "Чародеи",
     "класс тяжелых воинов": "Тяжёлые воины",
@@ -246,14 +247,20 @@ def write_json(path: Path, value: object) -> None:
     temporary.replace(path)
 
 
-def load_enchant_skills(content: Path) -> dict[str, Any] | None:
-    path = content / "specifications" / "enchant-skills.yaml"
+def validate_enchant_effects(row: dict[str, Any], path: Path, location: str) -> None:
+    effects = require_string_list(row, "effects", path, location)
+    if not effects or any(not effect.strip() for effect in effects):
+        fail(path, f"{location}.effects", "нужен хотя бы один непустой эффект")
+
+
+def load_enchantments(content: Path, page: str) -> dict[str, Any] | None:
+    path = content / "specifications" / f"{page}.yaml"
     if not path.is_file():
         return None
-    data = require_mapping(load_yaml(path), path, "enchant_skills")
-    source = require_string(data, "source", path, "enchant_skills")
+    data = require_mapping(load_yaml(path), path, page)
+    source = require_string(data, "source", path, page)
     if not source.startswith("https://"):
-        fail(path, "enchant_skills.source", "ожидалась ссылка HTTPS")
+        fail(path, f"{page}.source", "ожидалась ссылка HTTPS")
     categories = require_list(data.get("categories"), path, "categories")
     if not categories:
         fail(path, "categories", "нужен хотя бы один тип заточки")
@@ -269,6 +276,10 @@ def load_enchant_skills(content: Path) -> dict[str, Any] | None:
             skill = require_mapping(skill_value, path, skill_path)
             require_string(skill, "name", path, skill_path)
             require_string(skill, "icon", path, skill_path, allow_empty=True)
+            if page == "enchant-weapon":
+                require_string(skill, "description", path, skill_path)
+                validate_enchant_effects(skill, path, skill_path)
+                continue
             if "description" in skill:
                 require_string(skill, "description", path, skill_path)
             levels = require_list(skill.get("levels"), path, f"{skill_path}.levels")
@@ -284,15 +295,13 @@ def load_enchant_skills(content: Path) -> dict[str, Any] | None:
                 previous_level = number
                 if "description" not in skill or "description" in level:
                     require_string(level, "description", path, level_path)
-                effects = require_string_list(level, "effects", path, level_path)
-                if not effects or any(not effect.strip() for effect in effects):
-                    fail(path, f"{level_path}.effects", "нужен хотя бы один непустой эффект")
+                validate_enchant_effects(level, path, level_path)
     return data
 
 
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
-    enchant_skills = load_enchant_skills(content)
+    enchantments = {page: load_enchantments(content, page) for page in ENCHANTMENT_PAGES}
     icons = {
         path.stem: f"assets/profession-icons/{path.name}"
         for path in sorted(PROFESSION_ICON_DIR.glob("*"))
@@ -359,11 +368,21 @@ def build(content: Path, output: Path) -> tuple[int, int]:
         "categories": [label for label in CLASS_SKILL_LABELS.values() if label in catalog_categories],
         "professions": catalog,
     })
-    enchant_output = output / "specifications" / "enchant-skills.json"
-    if enchant_skills is not None:
-        write_json(enchant_output, enchant_skills)
-    else:
-        enchant_output.unlink(missing_ok=True)
+    icon_dir = ROOT / "site" / "assets" / "icons"
+    available_icons = {
+        f"/icon/{path.relative_to(icon_dir).as_posix()}"
+        for path in icon_dir.rglob("*") if path.is_file()
+    }
+    for page, data in enchantments.items():
+        enchant_output = output / "specifications" / f"{page}.json"
+        if data is not None:
+            for category in data["categories"]:
+                for skill in category["skills"]:
+                    if skill["icon"] not in available_icons:
+                        skill["icon"] = ""
+            write_json(enchant_output, data)
+        else:
+            enchant_output.unlink(missing_ok=True)
     return len(catalog), total_records
 
 def parse_args() -> argparse.Namespace:
@@ -382,7 +401,8 @@ def main() -> int:
     try:
         if args.validate_only:
             _, documents = load_content(args.content.resolve())
-            load_enchant_skills(args.content.resolve())
+            for page in ENCHANTMENT_PAGES:
+                load_enchantments(args.content.resolve(), page)
             print(f"VALID professions={len(documents)} content={args.content.resolve()}")
             return 0
         profession_count, record_count = build(

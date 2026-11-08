@@ -88,6 +88,11 @@ h1 {
 .enchant-table thead th, .enchant-description { color: var(--muted); }
 .enchant-table td span { display: block; overflow-wrap: anywhere; }
 .enchant-description { margin-bottom: 4px; }
+.weapon-enchant-table th:first-child { width: 42%; text-align: left; }
+.weapon-enchant-label {
+  display: grid; grid-template-columns: 36px minmax(0, 1fr); align-items: center; gap: 8px;
+  overflow-wrap: anywhere;
+}
 .enchant-source { margin: 24px 0 48px; color: var(--muted); font-size: 13px; }
 
 .catalog-shell, .skills-shell { padding-bottom: 70px; }
@@ -252,6 +257,7 @@ footer {
   .site-header { min-height: 64px; padding-inline: 14px; }
   .site-nav a { padding-inline: 8px; font-size: 13px; }
   .directory-grid, .enchant-grid { grid-template-columns: 1fr; }
+  .weapon-enchant-label { grid-template-columns: 1fr; }
   main, footer { width: min(100% - 28px, 1240px); }
   .hero { padding: 42px 0 32px; }
   .hero h1 { font-size: clamp(32px, 7vw, 44px); }

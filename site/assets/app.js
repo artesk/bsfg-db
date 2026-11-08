@@ -18,10 +18,25 @@ const BRANCH_LABELS = {
   three: "Ветка III",
 };
 
+const ENCHANT_PAGES = new Map([
+  ["/specifications/enchant-skills", {
+    title: "Заточка скиллов",
+    intro: "Выберите тип заточки, чтобы сравнить эффекты на разных уровнях.",
+    filterLabel: "Тип заточки",
+    renderCategory: renderSkillEnchantments,
+  }],
+  ["/specifications/enchant-weapon", {
+    title: "Улучшения оружия",
+    intro: "При улучшении до +4 оружие получает пассивное свойство. Выберите ранг, чтобы посмотреть бонусы оружия и щитов.",
+    filterLabel: "Ранг",
+    renderCategory: renderWeaponEnchantments,
+  }],
+]);
+
 const app = document.querySelector("#app");
 const siteLinks = document.querySelectorAll(".site-nav a");
+const enchantData = new Map();
 let archiveIndex;
-let enchantSkills;
 let routeVersion = 0;
 
 function el(tag, className, value) {
@@ -357,12 +372,21 @@ function renderLevel(row) {
   return card;
 }
 
-function renderEnchantSkills(data) {
-  document.title = "Заточка скиллов — База знаний BSFG";
+function renderEnchantPage(page, data) {
+  document.title = page.title + " — База знаний BSFG";
   app.replaceChildren(cloneTemplate("#enchant-template"));
+  document.querySelector("#enchant-heading").textContent = page.title;
+  document.querySelector("#enchant-crumb").textContent = page.title;
+  document.querySelector("#enchant-intro").textContent = page.intro;
+  document.querySelector("#enchant-filter-label").textContent = page.filterLabel;
   const options = document.querySelector("#enchant-options");
-  const panel = document.querySelector("#enchant-category");
+  const title = document.querySelector("#enchant-title");
+  const results = document.querySelector("#enchant-results");
   document.querySelector("#enchant-source").href = data.source;
+  const showCategory = (category) => {
+    title.textContent = category.title;
+    results.replaceChildren(page.renderCategory(category));
+  };
   for (const [index, category] of data.categories.entries()) {
     const button = el("button", "class-option", category.title);
     button.type = "button";
@@ -371,16 +395,26 @@ function renderEnchantSkills(data) {
       for (const option of options.children) {
         option.setAttribute("aria-pressed", String(option === button));
       }
-      renderEnchantCategory(panel, category);
+      showCategory(category);
     });
     options.append(button);
   }
-  renderEnchantCategory(panel, data.categories[0]);
+  showCategory(data.categories[0]);
 }
 
-function renderEnchantCategory(panel, category) {
-  const title = el("h2", "enchant-title", category.title);
-  title.id = "enchant-title";
+function createEnchantTable(title, columns) {
+  const table = el("table", "enchant-table");
+  table.append(el("caption", "visually-hidden", title));
+  const headerRow = table.createTHead().insertRow();
+  for (const label of columns) {
+    const cell = el("th", "", label);
+    cell.scope = "col";
+    headerRow.append(cell);
+  }
+  return table;
+}
+
+function renderSkillEnchantments(category) {
   const grid = el("div", "enchant-grid");
   for (const skill of category.skills) {
     const card = el("article", "enchant-card");
@@ -390,14 +424,7 @@ function renderEnchantCategory(panel, category) {
       el("h3", "", skill.name),
     );
     if (skill.description) heading.append(el("p", "", skill.description));
-    const table = el("table", "enchant-table");
-    table.append(el("caption", "visually-hidden", skill.name));
-    const headerRow = table.createTHead().insertRow();
-    for (const label of ["Уровень", "Эффект"]) {
-      const cell = el("th", "", label);
-      cell.scope = "col";
-      headerRow.append(cell);
-    }
+    const table = createEnchantTable(skill.name, ["Уровень", "Эффект"]);
     const body = table.createTBody();
     for (const row of skill.levels) {
       const entry = body.insertRow();
@@ -411,7 +438,32 @@ function renderEnchantCategory(panel, category) {
     card.append(heading, table);
     grid.append(card);
   }
-  panel.replaceChildren(title, grid);
+  return grid;
+}
+
+function renderWeaponEnchantments(category) {
+  const card = el("div", "enchant-card");
+  const table = createEnchantTable("Ранг " + category.title, ["Название", "Эффект"]);
+  table.classList.add("weapon-enchant-table");
+  const body = table.createTBody();
+  for (const skill of category.skills) {
+    const entry = body.insertRow();
+    const name = el("th");
+    name.scope = "row";
+    const label = el("span", "weapon-enchant-label");
+    const weaponName = skill.name.replace(/^.*?: улучшенн\S+ /, "");
+    label.append(
+      renderIcon(localIconUrl(skill.icon), weaponName, "branch-icon"),
+      el("span", "", skill.name),
+    );
+    name.append(label);
+    entry.append(name);
+    const effects = entry.insertCell();
+    effects.append(el("span", "enchant-description", skill.description));
+    for (const effect of skill.effects) effects.append(el("span", "", effect));
+  }
+  card.append(table);
+  return card;
 }
 
 async function loadJson(path) {
@@ -425,7 +477,8 @@ async function route() {
   const path = location.hash.slice(1).replace(/\/+$/, "") || "/";
   const profession = path.match(/^\/(?:profession|professions)\/([^/?#]+)$/);
   const isProfessionSection = path === "/professions" || profession !== null;
-  const isSpecifications = path === "/specifications" || path === "/specifications/enchant-skills";
+  const enchantPage = ENCHANT_PAGES.get(path);
+  const isSpecifications = path === "/specifications" || enchantPage !== undefined;
   for (const link of siteLinks) {
     const linkPath = link.hash.slice(1);
     const active = linkPath === "/professions" ? isProfessionSection : isSpecifications;
@@ -441,13 +494,13 @@ async function route() {
     } else if (path === "/specifications") {
       document.title = "Характеристики — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#specifications-template"));
-    } else if (path === "/specifications/enchant-skills") {
-      if (!enchantSkills) {
+    } else if (enchantPage) {
+      if (!enchantData.has(path)) {
         app.replaceChildren(cloneTemplate("#loading-template"));
-        enchantSkills = await loadJson("data/specifications/enchant-skills.json");
+        enchantData.set(path, await loadJson("data" + path + ".json"));
       }
       if (version !== routeVersion) return;
-      renderEnchantSkills(enchantSkills);
+      renderEnchantPage(enchantPage, enchantData.get(path));
     } else if (isProfessionSection) {
       if (!archiveIndex || profession) app.replaceChildren(cloneTemplate("#loading-template"));
       archiveIndex ??= await loadJson("data/index.json");

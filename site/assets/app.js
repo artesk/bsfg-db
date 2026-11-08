@@ -585,6 +585,9 @@ async function route() {
     } else if (path === "/specifications") {
       document.title = "Характеристики — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#specifications-template"));
+    } else if (path === "/guides") {
+      document.title = "Гайды — База знаний BSFG";
+      app.replaceChildren(cloneTemplate("#guides-template"));
     } else if (path === "/items/pit-boss-jewelry") {
       if (!pitJewelry) {
         app.replaceChildren(cloneTemplate("#loading-template"));

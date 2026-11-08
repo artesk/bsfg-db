@@ -1,0 +1,76 @@
+name: Ошибка в игровых данных
+description: Сообщить правильное значение без редактирования YAML
+title: '[Данные] '
+labels: [data]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за помощь. Заполните известные поля; программировать не нужно.
+
+  - type: input
+    id: profession
+    attributes:
+      label: Профессия
+      placeholder: Например, Эксперт
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Раздел
+      options:
+        - Простые умения
+        - Особые умения
+        - Описание профессии
+        - Другое
+    validations:
+      required: true
+
+  - type: input
+    id: skill
+    attributes:
+      label: Умение
+      placeholder: Название умения или «не относится»
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Ветка и уровень
+      description: Например, основная ветка, уровень 7
+      placeholder: Основная ветка, уровень 7
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Что сейчас указано неверно
+      placeholder: Скопируйте текущее описание или значение
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Как должно быть
+      placeholder: Укажите правильный текст или значение
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Подтверждение
+      description: Ссылка, скриншот, версия игры или пояснение
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Проверка
+      options:
+        - label: Я проверил профессию, ветку и уровень.
+          required: true
+        - label: В сообщении нет паролей и персональных данных.
+          required: true

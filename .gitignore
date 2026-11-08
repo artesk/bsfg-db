@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+
+# Generated browser data; GitHub Actions rebuilds it from content/.
+site/data/
+
+# Local migration and recovery files are never published.
+*.orig
+*.pre-public
+*.tmp

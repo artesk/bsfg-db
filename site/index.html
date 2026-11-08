@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Архив профессий BSFG из проверенного слепка базы знаний">
+  <title>Архив профессий BSFG</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="К каталогу профессий">
+      <span class="brand-mark">B</span>
+      <span><strong>BSFG</strong><small>архив профессий</small></span>
+    </a>
+    <div class="archive-badge"><span class="status-dot"></span>Слепок <span id="header-snapshot">…</span></div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <section class="loading-state" aria-live="polite">
+      <div class="loader"></div><p>Загружаю архив…</p>
+    </section>
+  </main>
+
+  <footer><p>Значения отражают проверенный слепок базы; изображения умений восстановлены отдельно из Wayback Machine.</p></footer>
+
+  <template id="catalog-template">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Сохранённая база знаний</p>
+        <h1>Профессии BSFG</h1>
+        <p class="hero-copy">Описания, умения, уровни и ветки развития из последнего проверенного слепка.</p>
+      </div>
+      <dl class="stats">
+        <div><dt id="stat-professions">—</dt><dd>профессий</dd></div>
+        <div><dt id="stat-records">—</dt><dd>записей умений</dd></div>
+        <div><dt id="stat-date">—</dt><dd>дата слепка</dd></div>
+      </dl>
+    </section>
+    <section class="catalog-shell">
+      <div class="toolbar">
+        <label class="search-box">
+          <span class="visually-hidden">Найти профессию</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+          <input id="profession-search" type="search" placeholder="Найти профессию…" autocomplete="off">
+        </label>
+        <label class="filter-box"><span>Фракция</span><select id="class-filter"><option value="">Все</option></select></label>
+        <p id="result-count" class="result-count"></p>
+      </div>
+      <div id="profession-grid" class="profession-grid"></div>
+      <div id="empty-catalog" class="empty-state" hidden>
+        <h2>Ничего не найдено</h2><p>Попробуйте изменить запрос или выбрать другую фракцию.</p>
+      </div>
+    </section>
+  </template>
+
+  <template id="detail-template">
+    <article class="profession-page">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <a href="#/">Все профессии</a><span>/</span><span id="crumb-title"></span>
+      </nav>
+      <div class="profession-layout">
+        <aside class="profession-sidebar">
+          <div class="profile-sticky">
+            <section class="profession-profile">
+              <div id="profession-avatar" class="profession-avatar"></div>
+              <div class="profession-heading">
+                <p id="profession-class" class="eyebrow"></p>
+                <h1 id="profession-title"></h1>
+                <p id="profession-summary"></p>
+                <div class="profession-meta">
+                  <span id="profession-skill-count"></span>
+                  <span id="profession-record-count"></span>
+                </div>
+              </div>
+            </section>
+            <nav class="profession-nav" aria-label="Разделы профессии">
+              <span>Разделы умений</span>
+              <div id="section-tabs" class="section-tabs" role="tablist"></div>
+            </nav>
+          </div>
+          <section id="profession-descriptions" class="description-panel"></section>
+          <aside class="provenance">
+            <strong>Источник данных</strong>
+            <p>Слепок <code id="source-snapshot"></code>, создан <span id="source-date"></span>. Иконки умений восстановлены из Wayback Machine.</p>
+            <a id="source-url" href="" target="_blank" rel="noreferrer">Открыть исходный адрес ↗</a>
+          </aside>
+        </aside>
+        <section class="skills-shell">
+          <div class="skills-heading">
+            <div>
+              <p class="eyebrow">Полная карточка</p>
+              <h2 id="active-section-title">Умения и уровни</h2>
+              <p id="active-section-count" class="section-summary"></p>
+            </div>
+            <label class="search-box compact">
+              <span class="visually-hidden">Найти умение</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+              <input id="skill-search" type="search" placeholder="Найти умение…" autocomplete="off">
+            </label>
+          </div>
+          <div id="skills-list" class="skills-list"></div>
+          <div id="empty-skills" class="empty-state" hidden><p>Умений с таким названием нет.</p></div>
+        </section>
+      </div>
+    </article>
+  </template>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

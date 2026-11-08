@@ -4,7 +4,6 @@
 умений. Сайт не требует сервера приложений и может публиковаться на GitHub Pages.
 
 GitHub Pages: <https://artesk.github.io/bsfg-db/>
-Зеркало: <https://45.95.235.235.nip.io/bsfg-db/>
 
 ## Как устроен проект
 

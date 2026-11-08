@@ -53,6 +53,19 @@ const PROGRESSION_PAGES = new Map([
   }],
 ]);
 const MILITARY_PATH = "/specifications/military-service";
+const EQUIPMENT_PATH = "/items/equipment";
+const EQUIPMENT_CATEGORIES = {
+  heavy: "Тяжёлая броня", light: "Лёгкая броня", robe: "Роба", "robe-legion": "Роба (Легион)", form: "Форма",
+  jewelry: "Бижутерия", bracelets: "Браслеты", "hunter-bracelets": "Браслеты (охотник)",
+  talismans: "Талисманы", shields: "Щиты", books: "Боевые книги", linen: "Бельё", pet: "Предметы питомца",
+};
+const EQUIPMENT_STATS = {
+  pDefense: "Физ. защита", mDefense: "Маг. защита", pAttack: "Физ. атака", mAttack: "Маг. атака",
+  pAttackSpeed: "Скорость атаки", pHit: "Физ. точность", mHit: "Маг. точность",
+  pCritical: "Физ. крит", mCritical: "Маг. крит", speed: "Скорость бега",
+  ShieldDefense: "Защита щита", ShieldDefenseRate: "Шанс блока",
+  pavoid: "Физ. уклонение", mavoid: "Маг. уклонение",
+};
 const MILITARY_SLOTS = [
   ["critical-power", "Сила критического удара"],
   ["critical-chance", "Шанс критического удара"],
@@ -66,6 +79,7 @@ const siteLinks = document.querySelectorAll(".site-nav a");
 const enchantData = new Map();
 let archiveIndex;
 let pitJewelry;
+let equipmentData;
 let routeVersion = 0;
 
 function el(tag, className, value) {
@@ -501,6 +515,113 @@ async function loadJson(path) {
   return response.json();
 }
 
+function renderEquipment(category, data) {
+  document.title = EQUIPMENT_CATEGORIES[category] + " — Экипировка BSFG";
+  app.replaceChildren(cloneTemplate("#equipment-template"));
+  document.querySelector("#equipment-release").textContent = data.client_release;
+  document.querySelector("#equipment-category-title").textContent = EQUIPMENT_CATEGORIES[category];
+  const navigation = document.querySelector("#equipment-categories");
+  for (const [key, label] of Object.entries(EQUIPMENT_CATEGORIES)) {
+    const link = el("a", "class-option", label);
+    link.href = "#" + EQUIPMENT_PATH + "/" + key;
+    if (key === category) link.setAttribute("aria-current", "page");
+    navigation.append(link);
+  }
+  for (const [path, label] of [
+    ["/items/pit-boss-jewelry", "Бижутерия Пит-боссов"], ["/specifications/boss-trophies", "Трофеи боссов"],
+  ]) {
+    const link = el("a", "class-option", label);
+    link.href = "#" + path;
+    navigation.append(link);
+  }
+
+  const items = new Map(data.items.map(item => [item.id, item]));
+  const sets = data.sets.filter(group => group.category === category);
+  const memberIds = new Set(sets.flatMap(group => group.items));
+  const entries = sets.map(group => ({set: group, items: group.items.map(id => items.get(id))}));
+  for (const item of data.items) {
+    if (item.category === category && !memberIds.has(item.id)) entries.push({items: [item]});
+  }
+  const ranks = ["BA", "EX", "EL", "MA", "GM", "LEG", ""];
+  entries.sort((a, b) => ranks.indexOf(a.items[0].rank) - ranks.indexOf(b.items[0].rank)
+    || a.items[0].name.localeCompare(b.items[0].name, "ru") || a.items[0].id - b.items[0].id);
+  const rank = document.querySelector("#equipment-rank");
+  const present = new Set(entries.map(entry => entry.items[0].rank));
+  rank.append(new Option("Все ранги", "all"));
+  for (const value of ranks) {
+    if (present.has(value)) rank.append(new Option(value || "Без ранга", value));
+  }
+
+  const search = document.querySelector("#equipment-search");
+  const results = document.querySelector("#equipment-results");
+  const counter = document.querySelector("#equipment-count");
+  const more = document.querySelector("#equipment-more");
+  const pageSize = 24;
+  let matches = [];
+  let shown = 0;
+  const next = () => {
+    results.append(...matches.slice(shown, shown + pageSize).map(renderEquipmentEntry));
+    shown = Math.min(matches.length, shown + pageSize);
+    counter.textContent = matches.length ? "Показано " + shown + " из " + matches.length : "Совпадений нет.";
+    more.hidden = shown === matches.length;
+  };
+  const refresh = () => {
+    const query = normalize(search.value.trim());
+    matches = entries.filter(entry => (rank.value === "all" || entry.items[0].rank === rank.value)
+      && entry.items.some(item => normalize(item.name + " " + (item.label || "")).includes(query)
+        || String(item.id) === query));
+    shown = 0;
+    results.replaceChildren();
+    next();
+  };
+  search.addEventListener("input", refresh);
+  rank.addEventListener("change", refresh);
+  more.addEventListener("click", next);
+  refresh();
+}
+
+function renderEquipmentEntry(entry) {
+  if (!entry.set) return renderEquipmentItem(entry.items[0]);
+  const section = el("section", "enchant-card equipment-set");
+  const heading = el("header", "equipment-set-heading");
+  heading.append(el("h3", "", entry.items[0].name), el("span", "", "Комплект · " + entry.items[0].rank));
+  section.append(heading);
+  for (const effect of entry.set.effects) section.append(el("p", "equipment-set-note", effect));
+  const pieces = el("div", "equipment-pieces");
+  pieces.append(...entry.items.map(renderEquipmentItem));
+  section.append(pieces);
+  return section;
+}
+
+function renderEquipmentItem(item) {
+  const card = el("article", "enchant-card equipment-item");
+  card.dataset.itemId = item.id;
+  const heading = el("header", "enchant-heading");
+  heading.append(renderIcon(localIconUrl(item.icon), item.name, "branch-icon"), el("h4", "", item.name));
+  heading.append(el("p", "", [item.rank || "Без ранга", item.slot, item.label, "ID " + item.id].filter(Boolean).join(" · ")));
+  card.append(heading);
+  const stats = el("dl", "jewelry-stats equipment-stats");
+  for (const [key, value] of Object.entries(item.stats || {})) {
+    stats.append(el("dt", "", EQUIPMENT_STATS[key]), el("dd", "", value.toLocaleString("ru-RU", {maximumFractionDigits: 4})));
+  }
+  if (stats.childElementCount) card.append(stats);
+  if (item.effects || item.recipes) {
+    const details = el("details", "equipment-details");
+    const summary = item.effects && item.recipes ? "Эффекты и рецепты" : item.effects ? "Эффекты" : "Рецепты";
+    details.append(el("summary", "", summary));
+    for (const effect of item.effects || []) details.append(el("p", "progression-effect", effect));
+    for (const recipe of item.recipes || []) {
+      details.append(el("p", "", "Рецепт " + recipe.id + " · уровень " + recipe.level
+        + " · результат ×" + recipe.quantity + " · шанс " + recipe.success + "%"));
+      const materials = el("ul");
+      for (const [name, quantity] of recipe.materials) materials.append(el("li", "", name + " × " + quantity.toLocaleString("ru-RU")));
+      details.append(materials);
+    }
+    card.append(details);
+  }
+  return card;
+}
+
 function renderProgressionPage(path, page, data) {
   document.title = page.title + " — База знаний BSFG";
   app.replaceChildren(cloneTemplate("#progression-template"));
@@ -775,10 +896,14 @@ async function route() {
   const isProfessionSection = path === "/professions" || profession !== null;
   const enchantPage = ENCHANT_PAGES.get(path);
   const progressionPage = PROGRESSION_PAGES.get(path);
+  const equipmentMatch = path.match(/^\/items\/equipment(?:\/([a-z-]+))?$/);
+  const equipmentCategory = equipmentMatch?.[1] || "heavy";
+  const isEquipment = equipmentMatch && Object.hasOwn(EQUIPMENT_CATEGORIES, equipmentCategory);
   const isSpecifications = path === "/specifications" || enchantPage !== undefined || progressionPage !== undefined;
   let activeSection = path;
   if (isProfessionSection) activeSection = "/professions";
   else if (isSpecifications) activeSection = "/specifications";
+  else if (isEquipment) activeSection = EQUIPMENT_PATH;
   for (const link of siteLinks) {
     const linkPath = link.hash.slice(1);
     if (linkPath === activeSection) link.setAttribute("aria-current", path === linkPath ? "page" : "location");
@@ -796,6 +921,13 @@ async function route() {
     } else if (path === "/guides") {
       document.title = "Гайды — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#guides-template"));
+    } else if (isEquipment) {
+      if (!equipmentData) {
+        app.replaceChildren(cloneTemplate("#loading-template"));
+        equipmentData = await loadJson("data/items/equipment.json");
+      }
+      if (version !== routeVersion) return;
+      renderEquipment(equipmentCategory, equipmentData);
     } else if (path === "/items/pit-boss-jewelry") {
       if (!pitJewelry) {
         app.replaceChildren(cloneTemplate("#loading-template"));

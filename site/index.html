@@ -16,6 +16,7 @@
     <nav class="site-nav" aria-label="Разделы сайта">
       <a href="#/professions">Профессии</a>
       <a href="#/specifications">Характеристики</a>
+      <a href="#/items/equipment">Экипировка</a>
       <a href="#/items/pit-boss-jewelry">Бижутерия Пит-боссов</a>
       <a href="#/guides">Гайды</a>
     </nav>
@@ -45,15 +46,42 @@
         <h2>Характеристики</h2>
         <p>Заточка, свойства экипировки, знамёна, реликвии и военная служба.</p>
       </a>
-      <a class="directory-link" href="#/items/pit-boss-jewelry">
-        <h2>Бижутерия Пит-боссов</h2>
-        <p>Украшения рангов EL и MA с характеристиками и эффектами по боссам.</p>
+      <a class="directory-link" href="#/items/equipment">
+        <h2>Экипировка</h2>
+        <p>Комплекты брони, украшения, щиты и другие предметы по рангам.</p>
       </a>
       <a class="directory-link" href="#/guides">
         <h2>Гайды</h2>
         <p>Руководства по строительству и игровым механикам.</p>
       </a>
     </div>
+  </template>
+
+  <template id="equipment-template">
+    <article class="enchant-page">
+      <header class="hero">
+        <h1>Экипировка</h1>
+        <p class="hero-copy">Комплекты, базовые характеристики, эффекты и рецепты из клиента BSFG.</p>
+      </header>
+      <nav id="equipment-categories" class="equipment-categories" aria-label="Виды экипировки"></nav>
+      <div class="progression-toolbar equipment-toolbar">
+        <label class="progression-field">
+          <span>Ранг</span>
+          <select id="equipment-rank"></select>
+        </label>
+        <label class="progression-field">
+          <span>Название, пометка или ID</span>
+          <input id="equipment-search" type="search" autocomplete="off">
+        </label>
+      </div>
+      <section aria-labelledby="equipment-category-title">
+        <h2 id="equipment-category-title" class="enchant-title"></h2>
+        <p id="equipment-count" class="equipment-count" role="status"></p>
+        <div id="equipment-results" class="equipment-results"></div>
+        <button id="equipment-more" class="class-option" type="button" hidden>Показать ещё</button>
+      </section>
+      <p class="enchant-source">Данные клиента BSFG <span id="equipment-release"></span>. Каталог показывает характеристики базового предмета и рецепты, записанные в клиенте.</p>
+    </article>
   </template>
 
   <template id="guides-template">

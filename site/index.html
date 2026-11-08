@@ -17,6 +17,7 @@
       <a href="#/professions">Профессии</a>
       <a href="#/specifications">Характеристики</a>
       <a href="#/items/equipment">Экипировка</a>
+      <a href="#/items/weapons">Оружие</a>
       <a href="#/items/pit-boss-jewelry">Бижутерия Пит-боссов</a>
       <a href="#/guides">Гайды</a>
     </nav>
@@ -50,6 +51,10 @@
         <h2>Экипировка</h2>
         <p>Комплекты брони, украшения, щиты и другие предметы по рангам.</p>
       </a>
+      <a class="directory-link" href="#/items/weapons">
+        <h2>Оружие</h2>
+        <p>Характеристики, эффекты и рецепты оружия по типам и рангам.</p>
+      </a>
       <a class="directory-link" href="#/guides">
         <h2>Гайды</h2>
         <p>Руководства по строительству и игровым механикам.</p>
@@ -60,10 +65,10 @@
   <template id="equipment-template">
     <article class="enchant-page">
       <header class="hero">
-        <h1>Экипировка</h1>
-        <p class="hero-copy">Комплекты, базовые характеристики, эффекты и рецепты из клиента BSFG.</p>
+        <h1 id="equipment-title"></h1>
+        <p id="equipment-intro" class="hero-copy"></p>
       </header>
-      <nav id="equipment-categories" class="equipment-categories" aria-label="Виды экипировки"></nav>
+      <nav id="equipment-categories" class="equipment-categories"></nav>
       <div class="progression-toolbar equipment-toolbar">
         <label class="progression-field">
           <span>Ранг</span>

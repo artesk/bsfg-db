@@ -30,6 +30,11 @@ PROGRESSION_PAGES = {
 }
 SERVICE_SLOTS = {"critical-power", "critical-chance", "attack", "speed"}
 TROPHY_KINDS = {"base", "combined", "relic"}
+EQUIPMENT_CATEGORIES = {
+    "heavy", "light", "robe", "robe-legion", "form", "jewelry", "bracelets", "hunter-bracelets",
+    "talismans", "shields", "books", "linen", "pet",
+}
+EQUIPMENT_RANKS = {"", "BA", "EX", "EL", "MA", "GM", "LEG"}
 CLASS_SKILL_LABELS = {
     "класс чародеев": "Чародеи",
     "класс тяжелых воинов": "Тяжёлые воины",
@@ -446,11 +451,73 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
     return data
 
 
+def load_equipment(content: Path) -> dict[str, Any]:
+    path = content / "items/equipment.yaml"
+    data = require_mapping(load_yaml(path), path, "equipment")
+    if not CLIENT_RELEASE_PATTERN.fullmatch(require_string(data, "client_release", path, "equipment")):
+        fail(path, "client_release", "ожидался номер релиза клиента")
+    items = require_list(data.get("items"), path, "items")
+    item_ids = {}
+    categories = set()
+    for index, value in enumerate(items):
+        location = f"items[{index}]"
+        row = require_mapping(value, path, location)
+        item_id = row.get("id")
+        if type(item_id) is not int or item_id < 1 or item_id in item_ids:
+            fail(path, f"{location}.id", "ожидался уникальный положительный ID предмета")
+        require_string(row, "name", path, location)
+        category = require_string(row, "category", path, location)
+        if category not in EQUIPMENT_CATEGORIES:
+            fail(path, f"{location}.category", "неизвестный вид экипировки")
+        rank = require_string(row, "rank", path, location, allow_empty=True)
+        if rank not in EQUIPMENT_RANKS:
+            fail(path, f"{location}.rank", "неизвестный ранг")
+        for field in ("icon", "label", "slot"):
+            if field in row:
+                require_string(row, field, path, location)
+        if "effects" in row:
+            require_string_list(row, "effects", path, location)
+        if "stats" in row:
+            stats = require_mapping(row["stats"], path, f"{location}.stats")
+            if any(type(value) not in (int, float) for value in stats.values()):
+                fail(path, f"{location}.stats", "ожидались числовые значения")
+        for recipe_index, value in enumerate(require_list(row.get("recipes", []), path, f"{location}.recipes")):
+            recipe_path = f"{location}.recipes[{recipe_index}]"
+            recipe = require_mapping(value, path, recipe_path)
+            if any(type(recipe.get(field)) is not int for field in ("id", "level", "success", "quantity")):
+                fail(path, recipe_path, "ожидались целые значения рецепта")
+            for material in require_list(recipe.get("materials"), path, f"{recipe_path}.materials"):
+                if (not isinstance(material, list) or len(material) != 2 or not isinstance(material[0], str)
+                        or not material[0] or type(material[1]) is not int or material[1] < 1):
+                    fail(path, f"{recipe_path}.materials", "ожидались название и количество материала")
+        item_ids[item_id] = rank
+        categories.add(category)
+    if categories != EQUIPMENT_CATEGORIES:
+        fail(path, "items", "в каталоге должны быть все виды экипировки")
+    set_ids = set()
+    for index, value in enumerate(require_list(data.get("sets"), path, "sets")):
+        location = f"sets[{index}]"
+        group = require_mapping(value, path, location)
+        set_id = group.get("id")
+        if type(set_id) is not int or set_id < 0 or set_id in set_ids:
+            fail(path, f"{location}.id", "ожидался уникальный ID комплекта")
+        if require_string(group, "category", path, location) not in {"heavy", "light", "robe", "robe-legion", "form"}:
+            fail(path, f"{location}.category", "ожидалась категория брони")
+        parts = require_list(group.get("items"), path, f"{location}.items")
+        if (len(parts) < 2 or any(type(item) is not int or item not in item_ids for item in parts)
+                or len(set(parts)) != len(parts) or len({item_ids[item] for item in parts}) != 1):
+            fail(path, f"{location}.items", "ожидались разные предметы одного ранга")
+        require_string_list(group, "effects", path, location)
+        set_ids.add(set_id)
+    return data
+
+
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
     enchantments = {page: load_enchantments(content, page) for page in ENCHANTMENT_PAGES}
     progression = {page: load_progression(content, page) for page in PROGRESSION_PAGES}
     pit_jewelry = load_pit_jewelry(content)
+    equipment = load_equipment(content)
     icons = {
         path.stem: f"assets/profession-icons/{path.name}"
         for path in sorted(PROFESSION_ICON_DIR.glob("*"))
@@ -539,6 +606,10 @@ def build(content: Path, output: Path) -> tuple[int, int]:
                     fail(content / "specifications/boss-trophies.yaml", group["name"], "файл иконки не найден")
                 group.pop("icon", None)
         write_json(output / "specifications" / f"{page}.json", data)
+    for item in equipment["items"]:
+        if "icon" in item and item["icon"] not in available_icons:
+            fail(content / "items/equipment.yaml", str(item["id"]), "файл иконки не найден")
+    write_json(output / "items/equipment.json", equipment)
     jewelry_output = output / "items" / "pit-boss-jewelry.json"
     if pit_jewelry is not None:
         for rank in pit_jewelry["ranks"]:
@@ -572,6 +643,7 @@ def main() -> int:
             for page in PROGRESSION_PAGES:
                 load_progression(args.content.resolve(), page)
             load_pit_jewelry(args.content.resolve())
+            load_equipment(args.content.resolve())
             print(f"VALID professions={len(documents)} content={args.content.resolve()}")
             return 0
         profession_count, record_count = build(

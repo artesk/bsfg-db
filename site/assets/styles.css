@@ -110,6 +110,28 @@ h1 {
 .progression-active { padding: 14px; border-top: 1px solid var(--line); }
 .progression-active h4 { margin: 0 0 6px; color: var(--accent); }
 .progression-active p { margin: 4px 0 0; }
+.equipment-categories { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+.equipment-categories a { text-decoration: none; }
+.equipment-categories a[aria-current] { border-color: var(--accent); color: var(--accent-2); }
+.equipment-toolbar .progression-field:last-child { flex: 0 1 340px; }
+.equipment-count { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+.equipment-results, .equipment-pieces {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 255px), 1fr)); gap: 12px;
+  align-items: start;
+}
+.equipment-set { grid-column: 1 / -1; padding: 14px; }
+.equipment-set-heading { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; }
+.equipment-set-heading h3 { margin: 0; font-size: 20px; }
+.equipment-set-heading span, .equipment-set-note { color: var(--muted); font-size: 14px; }
+.equipment-set-note { margin: 8px 0 0; }
+.equipment-pieces { margin-top: 12px; }
+.equipment-item h4 { margin: 0; }
+.equipment-item .icon-fallback:has(+ img) { visibility: hidden; }
+.equipment-stats { padding: 0 14px 12px; }
+.equipment-details { border-top: 1px solid var(--line); padding: 10px 14px; font-size: 14px; }
+.equipment-details summary { cursor: pointer; color: var(--accent-2); }
+.equipment-details p, .equipment-details ul { margin: 8px 0 0; }
+#equipment-more { margin-top: 16px; }
 .military-calculator { max-width: 800px; margin-bottom: 36px; padding: clamp(12px, 3vw, 22px); }
 #military-award-icon { align-self: end; }
 .progression-card .icon-fallback:has(+ img),

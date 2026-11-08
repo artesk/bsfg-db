@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Архив профессий BSFG из проверенного слепка базы знаний">
+  <meta name="description" content="Справочник по профессиям, умениям и веткам развития в BSFG">
   <title>Архив профессий BSFG</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -13,7 +13,6 @@
       <span class="brand-mark">B</span>
       <span><strong>BSFG</strong><small>архив профессий</small></span>
     </a>
-    <div class="archive-badge"><span class="status-dot"></span>Слепок <span id="header-snapshot">…</span></div>
   </header>
 
   <main id="app" tabindex="-1">
@@ -22,20 +21,13 @@
     </section>
   </main>
 
-  <footer><p>Значения отражают проверенный слепок базы; изображения умений восстановлены отдельно из Wayback Machine.</p></footer>
+  <footer><p>Неофициальные данные, собранные сообществом.</p></footer>
 
   <template id="catalog-template">
     <section class="hero">
-      <div>
-        <p class="eyebrow">Сохранённая база знаний</p>
-        <h1>Профессии BSFG</h1>
-        <p class="hero-copy">Описания, умения, уровни и ветки развития из последнего проверенного слепка.</p>
-      </div>
-      <dl class="stats">
-        <div><dt id="stat-professions">—</dt><dd>профессий</dd></div>
-        <div><dt id="stat-records">—</dt><dd>записей умений</dd></div>
-        <div><dt id="stat-date">—</dt><dd>дата слепка</dd></div>
-      </dl>
+      <p class="eyebrow">База знаний</p>
+      <h1>Профессии BSFG</h1>
+      <p class="hero-copy">Описания профессий, умения и ветки развития.</p>
     </section>
     <section class="catalog-shell">
       <div class="toolbar">
@@ -68,10 +60,6 @@
                 <p id="profession-class" class="eyebrow"></p>
                 <h1 id="profession-title"></h1>
                 <p id="profession-summary"></p>
-                <div class="profession-meta">
-                  <span id="profession-skill-count"></span>
-                  <span id="profession-record-count"></span>
-                </div>
               </div>
             </section>
             <nav class="profession-nav" aria-label="Разделы профессии">
@@ -80,21 +68,12 @@
             </nav>
           </div>
           <section id="profession-descriptions" class="description-panel"></section>
-          <aside class="provenance">
-            <strong>Источник данных</strong>
-            <div id="source-archive" hidden>
-              <p>Архивный слепок <code id="source-snapshot"></code> от <span id="source-date"></span>.</p>
-              <a id="source-url" href="" target="_blank" rel="noreferrer">Открыть исходный адрес ↗</a>
-            </div>
-            <p id="source-client" hidden></p>
-          </aside>
         </aside>
         <section class="skills-shell">
           <div class="skills-heading">
             <div>
               <p class="eyebrow">Полная карточка</p>
               <h2 id="active-section-title">Умения и уровни</h2>
-              <p id="active-section-count" class="section-summary"></p>
             </div>
             <label class="search-box compact">
               <span class="visually-hidden">Найти умение</span>

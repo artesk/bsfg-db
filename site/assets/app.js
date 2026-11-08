@@ -28,16 +28,6 @@ function el(tag, className, value) {
   return node;
 }
 
-function formatNumber(value) {
-  return new Intl.NumberFormat("ru-RU").format(value);
-}
-
-function formatDate(value) {
-  return new Intl.DateTimeFormat("ru-RU", {
-    day: "numeric", month: "long", year: "numeric",
-  }).format(new Date(value));
-}
-
 function normalize(value) {
   return String(value || "").toLocaleLowerCase("ru-RU").replaceAll("ё", "е");
 }
@@ -85,9 +75,6 @@ function showError(message) {
 function renderCatalog() {
   document.title = "Архив профессий BSFG";
   app.replaceChildren(cloneTemplate("#catalog-template"));
-  document.querySelector("#stat-professions").textContent = formatNumber(archiveIndex.profession_count);
-  document.querySelector("#stat-records").textContent = formatNumber(archiveIndex.record_count);
-  document.querySelector("#stat-date").textContent = formatDate(archiveIndex.captured_at);
 
   const search = document.querySelector("#profession-search");
   const filter = document.querySelector("#class-filter");
@@ -132,7 +119,6 @@ function renderProfessionCards(items) {
       el("span", "card-race", raceName(item.classes)),
       el("strong", "card-title", item.title),
       el("span", "card-description", item.description || "Описание отсутствует"),
-      el("span", "card-stats", item.skill_count + " умений · " + item.record_count + " уровней и веток"),
     );
     card.append(avatar, body, el("span", "card-arrow", "→"));
     grid.append(card);
@@ -140,8 +126,7 @@ function renderProfessionCards(items) {
 }
 
 async function renderProfession(slug) {
-  const catalogItem = archiveIndex.professions.find((item) => item.slug === slug);
-  if (!catalogItem) {
+  if (!archiveIndex.professions.some((item) => item.slug === slug)) {
     showError("Такой профессии нет в базе.");
     return;
   }
@@ -165,27 +150,9 @@ async function renderProfession(slug) {
   document.querySelector("#profession-summary").textContent = profession.descriptions[0] || "";
   document.querySelector("#profession-avatar").textContent =
     profession.title.slice(0, 1).toLocaleUpperCase("ru-RU");
-  document.querySelector("#profession-skill-count").textContent =
-    catalogItem.skill_count + " умений";
-  document.querySelector("#profession-record-count").textContent =
-    catalogItem.record_count + " записей уровней и веток";
-
   const descriptions = document.querySelector("#profession-descriptions");
   descriptions.append(el("h2", "", "Описание профессии"));
   for (const paragraph of profession.descriptions) descriptions.append(el("p", "", paragraph));
-
-  if (exported.archive) {
-    document.querySelector("#source-archive").hidden = false;
-    document.querySelector("#source-snapshot").textContent = exported.archive.snapshot;
-    document.querySelector("#source-date").textContent = formatDate(exported.archive.captured_at);
-    document.querySelector("#source-url").href = exported.archive.original_url;
-  }
-  if (exported.client_release) {
-    const source = document.querySelector("#source-client");
-    source.hidden = false;
-    source.textContent = "Данные клиента BSFG " + exported.client_release
-      + (exported.archive ? ". Часть записей и характеристик взята из архивного слепка." : ".");
-  }
 
   renderSectionTabs(profession.sections);
   app.focus({ preventScroll: true });
@@ -195,11 +162,9 @@ function renderSectionTabs(sections) {
   const tabs = document.querySelector("#section-tabs");
   const search = document.querySelector("#skill-search");
   const activeTitle = document.querySelector("#active-section-title");
-  const activeCount = document.querySelector("#active-section-count");
   let activeSection = 0;
 
   sections.forEach((section, index) => {
-    const skillCount = new Set(section.entries.map((row) => row.name)).size;
     const button = el("button", "section-tab");
     button.type = "button";
     button.setAttribute("role", "tab");
@@ -207,7 +172,6 @@ function renderSectionTabs(sections) {
     button.append(
       el("span", "tab-index", String(index + 1).padStart(2, "0")),
       el("span", "tab-copy", section.title),
-      el("span", "tab-count", String(skillCount)),
     );
     button.addEventListener("click", () => {
       activeSection = index;
@@ -222,9 +186,7 @@ function renderSectionTabs(sections) {
 
   const refresh = () => {
     const section = sections[activeSection];
-    const skillCount = new Set(section.entries.map((row) => row.name)).size;
     activeTitle.textContent = section.title;
-    activeCount.textContent = skillCount + " умений · " + section.entries.length + " записей уровней и веток";
     renderSkills(section, search.value);
   };
   search.addEventListener("input", refresh);
@@ -274,14 +236,7 @@ function renderSkills(section, queryValue) {
     const summary = el("summary", "skill-summary");
     const iconValue = rows.find((row) => row.icon)?.icon || "";
     const icon = renderSkillIcon(iconValue, name);
-    const heading = el("span", "skill-heading");
-    const branchCount = new Set(rows.map((row) => row.branch)).size;
-    const levelCount = new Set(rows.map((row) => row.level)).size;
-    heading.append(
-      el("strong", "", name),
-      el("small", "", levelCount + " уровней · " + branchCount + " веток"),
-    );
-    summary.append(icon, heading, el("span", "disclosure", "+"));
+    summary.append(icon, el("strong", "skill-heading", name), el("span", "disclosure", "+"));
     details.append(summary);
 
     const content = el("div", "skill-content");
@@ -293,7 +248,6 @@ function renderSkills(section, queryValue) {
       branchHeading.append(
         renderSkillIcon(branchRows.find((row) => row.icon)?.icon || "", branchName, "branch-icon"),
         el("h3", "", branchName === name ? branchLabel : branchLabel + " · " + branchName),
-        el("span", "branch-record-count", branchRows.length + " ур."),
       );
       branchBlock.append(branchHeading);
       const sortedRows = [...branchRows].sort((a, b) => Number(a.level) - Number(b.level));
@@ -327,7 +281,7 @@ function renderLevelSwitcher(rows, skillName, branch) {
       button.setAttribute("aria-pressed", String(selected));
       button.classList.toggle("is-selected", selected);
     }
-    levelContent.replaceChildren(renderLevel(row, true));
+    levelContent.replaceChildren(renderLevel(row));
   };
 
   for (const row of rows) {
@@ -346,16 +300,8 @@ function renderLevelSwitcher(rows, skillName, branch) {
   return panel;
 }
 
-function renderLevel(row, compact = false) {
-  const card = el("article", compact ? "level-card active-level" : "level-card");
-  if (!compact) {
-    const heading = el("div", "level-heading");
-    heading.append(el("span", "level-number", row.level), el("h4", "", "Уровень умения"));
-    if (row.selection_id) heading.append(el("span", "selection-id", "#" + row.selection_id));
-    card.append(heading);
-  } else if (row.selection_id) {
-    card.append(el("span", "selection-id active-selection-id", "#" + row.selection_id));
-  }
+function renderLevel(row) {
+  const card = el("article", "level-card");
   if (row.description) card.append(el("p", "level-description", row.description));
 
   if (row.specifications && row.specifications.length) {
@@ -375,7 +321,7 @@ function renderLevel(row, compact = false) {
     }
     if (row.effects_from_archive) {
       const archived = el("details", "");
-      archived.append(el("summary", "", "Эффекты в сентябрьском слепке"), effects);
+      archived.append(el("summary", "", "Архивные эффекты"), effects);
       card.append(archived);
     } else {
       card.append(effects);
@@ -396,7 +342,6 @@ async function init() {
     const response = await fetch("data/index.json");
     if (!response.ok) throw new Error("HTTP " + response.status);
     archiveIndex = await response.json();
-    document.querySelector("#header-snapshot").textContent = archiveIndex.snapshot;
     addEventListener("hashchange", route);
     route();
   } catch (error) {

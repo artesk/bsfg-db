@@ -1,0 +1,2858 @@
+source: https://web.archive.org/web/20250116162623/https://db.bsfg.ru/items/jewelry/
+ranks:
+- rank: EL
+  bosses:
+  - name: Альфа-сусцептор
+    items:
+    - name: Ожерелье Альфа-сусцептора
+      icon: /icon/g_accessory_event_earring.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Сила критической атаки магией +5%
+    - name: Серьга Альфа-сусцептора
+      icon: /icon/etc_r2_necklace_piece.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Физическая атака +4%
+    - name: Кольцо Альфа-сусцептора
+      icon: /icon/accessory_ring_of_core_i00.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Физическая защита +3.85%
+  - name: Бетта-сусцептор
+    items:
+    - name: Ожерелье Бетта-сусцептора
+      icon: /icon/g_accessory_event_necklace.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Скорость +2
+    - name: Серьга Бетта-сусцептора
+      icon: /icon/r95_earring_i01.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Сила критической атаки магией +5%
+    - name: Кольцо Бетта-сусцептора
+      icon: /icon/accessory_ring_of_core_i00.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Физическая атака +4%
+  - name: Гаргона
+    items:
+    - name: Ожерелье Горгоны
+      icon: /icon/vesper_necklace_i01.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Физическая атака +4%
+    - name: Серьга Горгоны
+      icon: /icon/accessary_paradia_earing_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Магическая атака +4%
+      - Сила критической атаки магией +3%
+    - name: Кольцо Горгоны
+      icon: /icon/vesper_ring_i01.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Защита +0.7%
+  - name: Гремучий змей
+    items:
+    - name: Ожерелье Гремучей змеи
+      icon: /icon/octavis_necklace_i00.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +7%
+      - Сила и эффективность восстановления боевого духа +7%
+    - name: Серьга Гремучей змеи
+      icon: /icon/octavis_earring_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Скорость атаки +4%
+      - Сила критической атаки +3%
+    - name: Кольцо Гремучей змеи
+      icon: /icon/accessary_ring_of_summons_i00.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Магическая защита +3.5%
+  - name: Громила
+    items:
+    - name: Ожерелье Громилы
+      icon: /icon/r2_necklace_i00.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Защита +0.7%
+    - name: Серьга Громилы
+      icon: /icon/accessary_moonstone_earing_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Магическая защита +3.5%
+    - name: Кольцо Громилы
+      icon: /icon/r2_ring_i00.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Сила критической атаки магией +5%
+  - name: Жаба
+    items:
+    - name: Ожерелье Жабы
+      icon: /icon/npoint_earring_of_lind_30day.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Скорость атаки +4%
+      - Сила критической атаки +3%
+    - name: Серьга Жабы
+      icon: /icon/accessary_nassens_earing_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Скорость атаки +2.5%
+      - Физическая атака +2.5%
+    - name: Кольцо Жабы
+      icon: /icon/etc_r95_earring_piece.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Защита +2.45%
+  - name: Инко
+    items:
+    - name: Ожерелье Инко
+      icon: /icon/r2_necklace_i01.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Физическая защита +3.85%
+    - name: Серьга Инко
+      icon: /icon/accessary_earing_of_phantom_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Шанс критической магии +3%
+      - Сила критической атаки магией +3%
+    - name: Кольцо Инко
+      icon: /icon/r2_ring_i01.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Скорость атаки +4%
+      - Сила критической атаки +3%
+  - name: Корень зла
+    items:
+    - name: Ожерелье Корня зла
+      icon: /icon/accessory_necklace_of_pet_i02.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Сила критической атаки +5%
+    - name: Серьга Корня зла
+      icon: /icon/bm_r95_necklace_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Скорость +2
+    - name: Кольцо Корня зла
+      icon: /icon/etc_r95_necklace_piece.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Скорость атаки +2.5%
+      - Физическая атака +2.5%
+  - name: Лорд Крок
+    items:
+    - name: Ожерелье Крока
+      icon: /icon/r95_necklace_i01.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Шанс критической магии +3%
+      - Сила критической атаки магией +3%
+    - name: Серьга Крока
+      icon: /icon/accessary_sanddragons_earing_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Сила критической атаки +5%
+    - name: Кольцо Крока
+      icon: /icon/r95_ring_i01.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +7%
+      - Сила и эффективность восстановления боевого духа +7%
+  - name: Мартин Сибири VI
+    items:
+    - name: Семейная реликвия Сибири
+      icon: /icon/accessary_inferno_necklace_i02.jpg
+      variant: normal
+      magic_defense: 94
+      gear_level: null
+      effects: []
+  - name: Нага
+    items:
+    - name: Ожерелье Наги
+      icon: /icon/accessary_sages_necklace_i00.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Магическая защита +3.5%
+    - name: Серьга Наги
+      icon: /icon/etc_r991_ring_piece.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Защита +0.7%
+    - name: Кольцо Наги
+      icon: /icon/ring_earthworm_heart.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Скорость +2
+  - name: Око
+    items:
+    - name: Ожерелье Ока
+      icon: /icon/accessary_phoenixs_necklace_i00.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Шанс критической атаки +8%
+      - Сила критической атаки +3%
+    - name: Серьга Ока
+      icon: /icon/r991_earring_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Защита +2.45%
+    - name: Кольцо Ока
+      icon: /icon/r991_ring_i00.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Скорость чтения заклинаний +4%
+  - name: Падальщик
+    items:
+    - name: Ожерелье Падальщика
+      icon: /icon/istina_necklace_i00.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Скорость атаки +2.5%
+      - Физическая атака +2.5%
+    - name: Серьга Падальщика
+      icon: /icon/accessary_sages_earing_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Физическая атака +1.5%
+      - Сила критической атаки +3%
+    - name: Кольцо Падальщика
+      icon: /icon/istina_ring_i00.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Сила критической атаки +5%
+  - name: Провидец
+    items:
+    - name: Ожерелье Провидца
+      icon: /icon/bm_ring_earthworm_heart.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Максимум НР,CP +4.2%
+    - name: Серьга Провидца
+      icon: /icon/etc_r991_earring_piece.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Физическая защита +3.85%
+    - name: Кольцо Провидца
+      icon: /icon/accessary_ring_of_sola_eclipse_i00.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Шанс критической магии +3%
+      - Сила критической атаки магией +3%
+  - name: Рыцарь смерти
+    items:
+    - name: Ожерелье Рыцаря смерти
+      icon: /icon/accessory_necklace_of_valakas_i00.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Защита +2.45%
+    - name: Серьга Рыцаря смерти
+      icon: /icon/r2_earring_i01.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +7%
+      - Сила и эффективность восстановления боевого духа +7%
+    - name: Кольцо Рыцаря смерти
+      icon: /icon/ring_of_oman.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Физическая атака +1.5%
+      - Сила критической атаки +3%
+  - name: Скелет
+    items:
+    - name: Ожерелье Скелета
+      icon: /icon/necklace_of_oman.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Скорость +1
+      - Сила критической атаки +4%
+    - name: Серьга Скелета
+      icon: /icon/bm_r95_earring_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Шанс критической атаки +8%
+      - Сила критической атаки +3%
+    - name: Кольцо Скелета
+      icon: /icon/accessary_ring_of_wisdom_i00.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Магическая атака +4%
+      - Сила критической атаки магией +3%
+  - name: Сорас
+    items:
+    - name: Ожерелье Сораса
+      icon: /icon/accessary_phoenixs_necklace_i02.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Скорость чтения заклинаний +4%
+    - name: Серьга Сораса
+      icon: /icon/r1_earring_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Максимум НР,CP +4.2%
+    - name: Кольцо Сораса
+      icon: /icon/etc_r2_earring_piece.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Скорость +1
+      - Сила критической атаки +4%
+  - name: Тавр
+    items:
+    - name: Ожерелье Тавра
+      icon: /icon/ev_11th_rare_acc_necklace.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Магическая атака +4%
+      - Сила критической атаки магией +3%
+    - name: Серьга Тавра
+      icon: /icon/accessary_tigerseye_earing_i00.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Скорость чтения заклинаний +4%
+    - name: Кольцо Тавра
+      icon: /icon/r991_ring_i01.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Шанс критической атаки +8%
+      - Сила критической атаки +3%
+  - name: Черная пантера
+    items:
+    - name: Ожерелье Черной пантеры
+      icon: /icon/r991_necklace_i00.jpg
+      variant: normal
+      magic_defense: 85
+      gear_level: '2.0'
+      effects:
+      - Физическая атака +1.5%
+      - Сила критической атаки +3%
+    - name: Серьга Черной пантеры
+      icon: /icon/r991_earring_i01.jpg
+      variant: normal
+      magic_defense: 72
+      gear_level: '2.0'
+      effects:
+      - Скорость +1
+      - Сила критической атаки +4%
+    - name: Кольцо Черной пантеры
+      icon: /icon/accessary_sages_ring_i00.jpg
+      variant: normal
+      magic_defense: 46
+      gear_level: '2.0'
+      effects:
+      - Максимум НР,CP +4.2%
+- rank: MA
+  bosses:
+  - name: Авто-механик
+    items:
+    - name: Ожерелье Авто-механика
+      icon: /icon/accessory_tateossian_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +5%
+      - Сила критической атаки +4%
+    - name: Серьга Авто-механика
+      icon: /icon/Accessory_tateossian_earring_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Магическая атака +10%
+    - name: Кольцо Авто-механика
+      icon: /icon/accessory_ring_of_core_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Скорость чтения заклинаний +5%
+    - name: Ожерелье Авто-механика
+      icon: /icon/accessory_tateossian_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +6%
+      - Сила критической атаки +5.5%
+    - name: Серьга Авто-механика
+      icon: /icon/Accessory_tateossian_earring_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +12%
+    - name: Кольцо Авто-механика
+      icon: /icon/accessory_ring_of_core_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+      - Скорость чтения заклинаний +6%
+  - name: Авто-шагоход
+    items:
+    - name: Ожерелье Авто-шагохода
+      icon: /icon/accessory_tateossian_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Максимум НР,CP +3.85%
+      - Защита +1.05%
+    - name: Серьга Авто-шагохода
+      icon: /icon/Accessory_tateossian_earring_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+    - name: Кольцо Авто-шагохода
+      icon: /icon/accessory_ring_of_core_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +5%
+    - name: Ожерелье Авто-шагохода
+      icon: /icon/accessory_tateossian_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +4.9%
+      - Защита +1.4%
+    - name: Серьга Авто-шагохода
+      icon: /icon/Accessory_tateossian_earring_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +10%
+      - Сила и эффективность восстановления боевого духа +10%
+    - name: Кольцо Авто-шагохода
+      icon: /icon/accessory_ring_of_core_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +6%
+  - name: Альторос
+    items:
+    - name: Ожерелье Альтороса
+      icon: /icon/accessory_necklace_of_funtion_pet_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Магическая атака +5%
+      - Сила критической атаки магией +4%
+    - name: Серьга Альтороса
+      icon: /icon/accessary_earing_of_assistance_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +5%
+    - name: Кольцо Альтороса
+      icon: /icon/accessary_elemental_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+    - name: Ожерелье Альтороса
+      icon: /icon/accessory_necklace_of_funtion_pet_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +6%
+      - Сила критической атаки магией +5%
+    - name: Серьга Альтороса
+      icon: /icon/accessary_earing_of_assistance_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +6%
+    - name: Кольцо Альтороса
+      icon: /icon/accessary_elemental_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +10%
+      - Сила и эффективность восстановления боевого духа +10%
+  - name: Амару
+    items:
+    - name: Ожерелье Амару
+      icon: /icon/accessory_necklace_of_hero_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+    - name: Серьга Амару
+      icon: /icon/accessary_earing_of_grace_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +8%
+    - name: Кольцо Амару
+      icon: /icon/accessary_ring_of_phantom_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +6%
+      - Шанс критической магии +4%
+    - name: Ожерелье Амару
+      icon: /icon/accessary_paradia_necklace_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +10%
+      - Сила и эффективность восстановления боевого духа +10%
+    - name: Серьга Амару
+      icon: /icon/accessary_earing_of_grace_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +10%
+    - name: Кольцо Амару
+      icon: /icon/accessary_ring_of_phantom_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +7%
+      - Шанс критической магии +6%
+  - name: Барлер
+    items:
+    - name: Ожерелье Барлера
+      icon: /icon/accessary_necklace_of_binding_i00.jpg
+      variant: normal
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +4%
+      - Сила критической атаки магией +4%
+    - name: Серьга Барлера
+      icon: /icon/accessary_elemental_earing_i00.jpg
+      variant: normal
+      magic_defense: 86
+      gear_level: '2.0'
+      effects:
+      - Шанс критической атаки +11%
+      - Сила критической атаки +4%
+    - name: Кольцо Барлера
+      icon: /icon/accessary_magic_ring_i00.jpg
+      variant: normal
+      magic_defense: 63
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +5%
+    - name: Ожерелье Барлера
+      icon: /icon/accessary_necklace_of_binding_i00.jpg
+      variant: epic
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +6%
+      - Сила критической атаки магией +5%
+    - name: Серьга Барлера
+      icon: /icon/accessary_elemental_earing_i00.jpg
+      variant: epic
+      magic_defense: 86
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +13%
+      - Сила критической атаки +5.5%
+    - name: Кольцо Барлера
+      icon: /icon/accessary_magic_ring_i00.jpg
+      variant: epic
+      magic_defense: 63
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +6%
+  - name: Безглазый
+    items:
+    - name: Ожерелье Безглазого
+      icon: /icon/accessary_necklace_of_anguish_i00.jpg
+      variant: normal
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +16%
+    - name: Серьга Безглазого
+      icon: /icon/accessary_inferno_earing_i02.jpg
+      variant: normal
+      magic_defense: 86
+      gear_level: '2.0'
+      effects:
+      - Скорость в тяжелой броне +2
+      - Скорость в легкой броне, робе и форме +2
+      - Сила критической атаки +5%
+    - name: Кольцо Безглазого
+      icon: /icon/accessory_ring_of_core_i00.jpg
+      variant: normal
+      magic_defense: 63
+      gear_level: '2.5'
+      effects:
+      - Магическая атака +5%
+      - Сила критической атаки магией +4%
+    - name: Ожерелье Безглазого
+      icon: /icon/accessary_necklace_of_anguish_i00.jpg
+      variant: epic
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +18%
+    - name: Серьга Безглазого
+      icon: /icon/accessary_inferno_earing_i02.jpg
+      variant: epic
+      magic_defense: 86
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+      - Сила критической атаки +6.5%
+    - name: Кольцо Безглазого
+      icon: /icon/accessory_ring_of_core_i00.jpg
+      variant: epic
+      magic_defense: 63
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +6%
+      - Сила критической атаки магией +5%
+  - name: Бехамах младший
+    items:
+    - name: Ожерелье Бехамаха младшего
+      icon: /icon/accessary_inferno_necklace_i00.jpg
+      variant: normal
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Скорость чтения заклинаний +5%
+    - name: Серьга Бехамаха младшего
+      icon: /icon/accessory_earring_of_orfen_i00.jpg
+      variant: normal
+      magic_defense: 86
+      gear_level: '2.0'
+      effects:
+      - Максимум НР,CP +5.6%
+    - name: Кольцо Бехамаха младшего
+      icon: /icon/accessary_enchanted_ring_i00.jpg
+      variant: normal
+      magic_defense: 63
+      gear_level: '2.5'
+      effects:
+      - Шанс критической магии +6%
+    - name: Ожерелье Бехамаха младшего
+      icon: /icon/accessary_inferno_necklace_i00.jpg
+      variant: epic
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+      - Скорость чтения заклинаний +6%
+    - name: Серьга Бехамаха младшего
+      icon: /icon/accessory_earring_of_orfen_i00.jpg
+      variant: epic
+      magic_defense: 86
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +7%
+    - name: Кольцо Бехамаха младшего
+      icon: /icon/accessary_enchanted_ring_i00.jpg
+      variant: epic
+      magic_defense: 63
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +18%
+  - name: Бехамах старший
+    items:
+    - name: Ожерелье Бехамаха старшего
+      icon: /icon/accessary_necklace_of_assistance_i00.jpg
+      variant: normal
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +5.6%
+    - name: Серьга Бехамаха старшего
+      icon: /icon/accessary_elven_earing_i00.jpg
+      variant: normal
+      magic_defense: 86
+      gear_level: '2.0'
+      effects:
+      - Шанс критической магии +4%
+      - Сила критической атаки магией +4%
+    - name: Кольцо Бехамаха старшего
+      icon: /icon/accessary_inferno_ring_i00.jpg
+      variant: normal
+      magic_defense: 63
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +2
+      - Скорость в легкой броне, робе и форме +2
+      - Сила критической атаки +5%
+    - name: Ожерелье Бехамаха старшего
+      icon: /icon/accessary_necklace_of_assistance_i00.jpg
+      variant: epic
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +7%
+    - name: Серьга Бехамаха старшего
+      icon: /icon/accessary_elven_earing_i00.jpg
+      variant: epic
+      magic_defense: 86
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +6%
+      - Сила критической атаки магией +5%
+    - name: Кольцо Бехамаха старшего
+      icon: /icon/accessary_inferno_ring_i00.jpg
+      variant: epic
+      magic_defense: 63
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+      - Сила критической атаки +6.5%
+  - name: Верховный суккубус
+    items:
+    - name: Ожерелье Верховного суккубуса
+      icon: /icon/accessory_necklace_of_frintessa_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +6%
+      - Шанс критической магии +4%
+    - name: Серьга Верховного суккубуса
+      icon: /icon/accessary_apprentices_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Защита +2.8%
+    - name: Кольцо Верховного суккубуса
+      icon: /icon/accessary_phoenixs_ring_i02.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки +6%
+    - name: Ожерелье Верховного суккубуса
+      icon: /icon/accessory_necklace_of_frintessa_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +7%
+      - Шанс критической магии +6%
+    - name: Серьга Верховного суккубуса
+      icon: /icon/accessary_apprentices_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Защита +3.5%
+    - name: Кольцо Верховного суккубуса
+      icon: /icon/accessary_phoenixs_ring_i02.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки +7.5%
+  - name: Виолет
+    items:
+    - name: Ожерелье Виолета
+      icon: /icon/accessary_necklace_of_assistance_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +5%
+    - name: Серьга Виолета
+      icon: /icon/accessary_catseye_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+    - name: Кольцо Виолета
+      icon: /icon/accessary_ring_of_firefly_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Шанс критической атаки +11%
+      - Сила критической атаки +4%
+    - name: Ожерелье Виолета
+      icon: /icon/accessary_necklace_of_assistance_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +6%
+    - name: Серьга Виолета
+      icon: /icon/accessary_catseye_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +10%
+      - Сила и эффективность восстановления боевого духа +10%
+    - name: Кольцо Виолета
+      icon: /icon/accessary_ring_of_firefly_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +13%
+      - Сила критической атаки +5.5%
+  - name: Воевода
+    items:
+    - name: Ожерелье Воеводы
+      icon: /icon/accessary_necklace_of_holy_spirit_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +8%
+    - name: Серьга Воеводы
+      icon: /icon/accessary_elven_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Максимум НР,CP +5.6%
+    - name: Кольцо Воеводы
+      icon: /icon/accessary_blessed_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Защита +1.05%
+    - name: Ожерелье Воеводы
+      icon: /icon/accessary_necklace_of_holy_spirit_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +10%
+    - name: Серьга Воеводы
+      icon: /icon/accessary_elven_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +7%
+    - name: Кольцо Воеводы
+      icon: /icon/accessary_blessed_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Защита +1.75%
+  - name: Воительница ночи
+    items:
+    - name: Ожерелье Воительницы ночи
+      icon: /icon/accessary_necklace_of_knowledge_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+    - name: Серьга Воительницы ночи
+      icon: /icon/accessary_inferno_earing_i02.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки магией +6%
+    - name: Кольцо Воительницы ночи
+      icon: /icon/accessary_blue_coral_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +6%
+      - Шанс критической магии +4%
+    - name: Ожерелье Воительницы ночи
+      icon: /icon/accessary_necklace_of_knowledge_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +10%
+      - Сила и эффективность восстановления боевого духа +10%
+    - name: Серьга Воительницы ночи
+      icon: /icon/accessary_inferno_earing_i02.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки магией +7%
+    - name: Кольцо Воительницы ночи
+      icon: /icon/accessary_blue_coral_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +7%
+      - Шанс критической магии +6%
+  - name: Всевидящий
+    items:
+    - name: Ожерелье Всевидящего
+      icon: /icon/accessory_necklace_of_pet_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Защита +1.05%
+    - name: Серьга Всевидящего
+      icon: /icon/accessory_tateossian_earring_i02.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки +6%
+    - name: Кольцо Всевидящего
+      icon: /icon/accessary_inferno_ring_i02.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+    - name: Ожерелье Всевидящего
+      icon: /icon/accessory_necklace_of_pet_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Защита +1.75%
+    - name: Серьга Всевидящего
+      icon: /icon/accessory_tateossian_earring_i02.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки +7.5%
+    - name: Кольцо Всевидящего
+      icon: /icon/accessary_inferno_ring_i02.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +4
+      - Скорость в легкой броне, робе и форме +4
+  - name: Гигант водопада
+    items:
+    - name: Ожерелье Гиганта водопада
+      icon: /icon/accessary_necklace_of_magic_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Шанс критической магии +4%
+      - Сила критической атаки магией +4%
+    - name: Серьга Гиганта водопада
+      icon: /icon/accessary_elemental_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Магическая атака +5%
+      - Сила критической атаки магией +4%
+    - name: Кольцо Гиганта водопада
+      icon: /icon/accessary_cerberuss_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Физическая защита +4.55%
+    - name: Ожерелье Гиганта водопада
+      icon: /icon/accessary_necklace_of_magic_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +6%
+      - Сила критической атаки магией +5%
+    - name: Серьга Гиганта водопада
+      icon: /icon/accessary_elemental_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +6%
+      - Сила критической атаки магией +5%
+    - name: Кольцо Гиганта водопада
+      icon: /icon/accessary_cerberuss_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Физическая защита +5.25%
+  - name: Граф
+    items:
+    - name: Ожерелье Графа
+      icon: /icon/accessary_necklace_of_grace_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Защита +2.8%
+    - name: Серьга Графа
+      icon: /icon/accessory_earring_of_orfen_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +10%
+    - name: Кольцо Графа
+      icon: /icon/accessary_adamantite_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Шанс критической магии +4%
+      - Сила критической атаки магией +4%
+    - name: Ожерелье Графа
+      icon: /icon/accessary_necklace_of_grace_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Защита +3.5%
+    - name: Серьга Графа
+      icon: /icon/accessory_earring_of_orfen_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +13%
+    - name: Кольцо Графа
+      icon: /icon/accessary_adamantite_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +6%
+      - Сила критической атаки магией +5%
+  - name: Демон принц
+    items:
+    - name: Ожерелье Демона принца
+      icon: /icon/accessary_necklace_of_devotion_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Шанс критической атаки +11%
+      - Сила критической атаки +4%
+    - name: Серьга Демона принца
+      icon: /icon/accessary_earing_of_summons_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +3%
+      - Физическая атака +3%
+    - name: Кольцо Демона принца
+      icon: /icon/accessary_another_worlds_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Магическая защита +4.2%
+    - name: Ожерелье Демона принца
+      icon: /icon/accessary_necklace_of_devotion_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +13%
+      - Сила критической атаки +5.5%
+    - name: Серьга Демона принца
+      icon: /icon/accessary_earing_of_summons_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +4%
+      - Физическая атака +4%
+    - name: Кольцо Демона принца
+      icon: /icon/accessary_another_worlds_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Магическая защита +4.9%
+  - name: Демонесса
+    items:
+    - name: Ожерелье Демонессы
+      icon: /icon/accessory_necklace_of_funtion_pet_i02.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Скорость чтения заклинаний +5%
+    - name: Серьга Демонессы
+      icon: /icon/accessary_dynasty_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+    - name: Кольцо Демонессы
+      icon: /icon/accessary_dynasty_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +10%
+    - name: Ожерелье Демонессы
+      icon: /icon/accessory_necklace_of_funtion_pet_i02.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+      - Скорость чтения заклинаний +6%
+    - name: Серьга Демонессы
+      icon: /icon/accessary_dynasty_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +4
+      - Скорость в легкой броне, робе и форме +4
+    - name: Кольцо Демонессы
+      icon: /icon/accessary_dynasty_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +13%
+  - name: Железяка
+    items:
+    - name: Ожерелье Железяки
+      icon: /icon/necklace_of_oman.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.0'
+      effects:
+      - Скорость в тяжелой броне +2
+      - Скорость в легкой броне, робе и форме +2
+      - Сила критической атаки +5%
+    - name: Серьга Железяки
+      icon: /icon/accessary_earing_of_protection_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+    - name: Кольцо Железяки
+      icon: /icon/accessary_ring_of_protection_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки +6%
+    - name: Ожерелье Железяки
+      icon: /icon/necklace_of_oman.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+      - Сила критической атаки +6.5%
+    - name: Серьга Железяки
+      icon: /icon/accessary_earing_of_protection_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +4
+      - Скорость в легкой броне, робе и форме +4
+    - name: Кольцо Железяки
+      icon: /icon/accessary_ring_of_protection_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки +7.5%
+  - name: Зазеркалье
+    items:
+    - name: Ожерелье Зазеркалья
+      icon: /icon/accessary_necklace_of_darkness_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +2%
+      - Сила критической атаки +4%
+    - name: Серьга Зазеркалья
+      icon: /icon/accessary_earing_of_wisdom_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +8%
+    - name: Кольцо Зазеркалья
+      icon: /icon/accessary_aquastone_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Магическая атака +10%
+    - name: Ожерелье Зазеркалья
+      icon: /icon/accessary_necklace_of_darkness_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +3%
+      - Сила критической атаки +5.5%
+    - name: Серьга Зазеркалья
+      icon: /icon/accessary_earing_of_wisdom_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +10%
+    - name: Кольцо Зазеркалья
+      icon: /icon/accessary_aquastone_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +12%
+  - name: Змееголовый
+    items:
+    - name: Ожерелье Змееголового
+      icon: /icon/accessary_necklace_of_assistance_i00.jpg
+      variant: normal
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Защита +2.8%
+    - name: Серьга Змееголового
+      icon: /icon/accessary_inferno_earing_i00.jpg
+      variant: normal
+      magic_defense: 86
+      gear_level: '2.0'
+      effects:
+      - Сила критической атаки +6%
+    - name: Кольцо Змееголового
+      icon: /icon/accessary_inferno_ring_i02.jpg
+      variant: normal
+      magic_defense: 63
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +3%
+      - Физическая атака +3%
+    - name: Ожерелье Змееголового
+      icon: /icon/accessary_necklace_of_assistance_i00.jpg
+      variant: epic
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Защита +3.5%
+    - name: Серьга Змееголового
+      icon: /icon/accessary_inferno_earing_i00.jpg
+      variant: epic
+      magic_defense: 86
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки +7.5%
+    - name: Кольцо Змееголового
+      icon: /icon/accessary_inferno_ring_i02.jpg
+      variant: epic
+      magic_defense: 63
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +4%
+      - Физическая атака +4%
+  - name: Каим-Регул
+    items:
+    - name: Ожерелье Каим Регула
+      icon: /icon/accessary_necklace_of_black_ore_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +6%
+      - Шанс критической магии +4%
+    - name: Серьга Каим Регула
+      icon: /icon/accessary_earing_of_phantom_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Магическая атака +10%
+    - name: Кольцо Каим Регула
+      icon: /icon/accessary_ring_of_mana_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +5%
+      - Сила критической атаки +4%
+    - name: Ожерелье Каим Регула
+      icon: /icon/accessary_necklace_of_black_ore_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +7%
+      - Шанс критической магии +6%
+    - name: Серьга Каим Регула
+      icon: /icon/accessary_earing_of_phantom_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +12%
+    - name: Кольцо Каим Регула
+      icon: /icon/accessary_ring_of_mana_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +6%
+      - Сила критической атаки +5.5%
+  - name: Каменная гаргулья
+    items:
+    - name: Ожерелье Каменной гаргульи
+      icon: /icon/accessary_necklace_of_wisdom_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +5%
+      - Сила критической атаки +4%
+    - name: Серьга Каменной гаргульи
+      icon: /icon/accessory_earring_of_hero_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.0'
+      effects:
+      - Шанс критической атаки +16%
+    - name: Кольцо Каменной гаргульи
+      icon: /icon/accessary_ring_of_binding_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Магическая атака +10%
+    - name: Ожерелье Каменной гаргульи
+      icon: /icon/accessary_necklace_of_wisdom_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +6%
+      - Сила критической атаки +5.5%
+    - name: Серьга Каменной гаргульи
+      icon: /icon/accessory_earring_of_hero_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +18%
+    - name: Кольцо Каменной гаргульи
+      icon: /icon/accessary_ring_of_binding_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +12%
+  - name: Кел-Торос
+    items:
+    - name: Ожерелье Кел-тороса
+      icon: /icon/accessary_necklace_of_valor_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Физическая защита +4.55%
+    - name: Серьга Кел-тороса
+      icon: /icon/accessory_earring_of_lind_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.0'
+      effects:
+      - Скорость в тяжелой броне +2
+      - Скорость в легкой броне, робе и форме +2
+      - Сила критической атаки +5%
+    - name: Кольцо Кел-тороса
+      icon: /icon/accessary_ring_of_assistance_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Шанс критической атаки +16%
+    - name: Ожерелье Кел-тороса
+      icon: /icon/accessary_necklace_of_valor_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Физическая защита +5.25%
+    - name: Серьга Кел-тороса
+      icon: /icon/accessory_earring_of_lind_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+      - Сила критической атаки +6.5%
+    - name: Кольцо Кел-тороса
+      icon: /icon/accessary_ring_of_assistance_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +18%
+  - name: Кровавая королева
+    items:
+    - name: Ожерелье Кровавой королевы
+      icon: /icon/accessary_necklace_of_binding_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +3%
+      - Физическая атака +3%
+    - name: Серьга Кровавой королевы
+      icon: /icon/accessary_earing_of_mana_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки магией +6%
+    - name: Кольцо Кровавой королевы
+      icon: /icon/accessary_ring_of_devotion_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Шанс критической магии +4%
+      - Сила критической атаки магией +4%
+    - name: Ожерелье Кровавой королевы
+      icon: /icon/accessary_necklace_of_binding_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +4%
+      - Физическая атака +4%
+    - name: Серьга Кровавой королевы
+      icon: /icon/accessary_earing_of_mana_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки магией +7%
+    - name: Кольцо Кровавой королевы
+      icon: /icon/accessary_ring_of_devotion_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +6%
+      - Сила критической атаки магией +5%
+  - name: Легионер
+    items:
+    - name: Ожерелье Легионера
+      icon: /icon/accessary_near_forest_necklace_i00.jpg
+      variant: normal
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +3.85%
+      - Защита +1.05%
+    - name: Серьга Легионера
+      icon: /icon/accessary_earing_of_summons_i00.jpg
+      variant: normal
+      magic_defense: 86
+      gear_level: '2.0'
+      effects:
+      - Шанс критической атаки +16%
+    - name: Кольцо Легионера
+      icon: /icon/accessary_dynasty_ring_i01.jpg
+      variant: normal
+      magic_defense: 63
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +2%
+      - Сила критической атаки +4%
+    - name: Ожерелье Легионера
+      icon: /icon/accessary_near_forest_necklace_i00.jpg
+      variant: epic
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +4.9%
+      - Защита +1.4%
+    - name: Серьга Легионера
+      icon: /icon/accessary_earing_of_summons_i00.jpg
+      variant: epic
+      magic_defense: 86
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +18%
+    - name: Кольцо Легионера
+      icon: /icon/accessary_dynasty_ring_i01.jpg
+      variant: epic
+      magic_defense: 63
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +3%
+      - Сила критической атаки +5.5%
+  - name: Лич
+    items:
+    - name: Ожерелье Лича
+      icon: /icon/accessary_necklace_of_blessing_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +5%
+    - name: Серьга Лича
+      icon: /icon/accessary_inferno_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +2%
+      - Сила критической атаки +4%
+    - name: Кольцо Лича
+      icon: /icon/accessory_tateossian_ring_i02.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Максимум НР,CP +3.85%
+      - Защита +1.05%
+    - name: Ожерелье Лича
+      icon: /icon/accessary_necklace_of_blessing_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +6%
+    - name: Серьга Лича
+      icon: /icon/accessary_inferno_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +3%
+      - Сила критической атаки +5.5%
+    - name: Кольцо Лича
+      icon: /icon/accessory_tateossian_ring_i02.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +4.9%
+      - Защита +1.4%
+  - name: Лун
+    items:
+    - name: Ожерелье Луна
+      icon: /icon/accessary_paradia_necklace_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +10%
+    - name: Серьга Луна
+      icon: /icon/accessary_sealed_verpes_earring_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.0'
+      effects:
+      - Магическая защита +4.2%
+    - name: Кольцо Луна
+      icon: /icon/accessary_ring_of_ages_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Максимум НР,CP +3.85%
+      - Защита +1.05%
+    - name: Ожерелье Луна
+      icon: /icon/accessary_paradia_necklace_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +13%
+    - name: Серьга Луна
+      icon: /icon/accessary_sealed_verpes_earring_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Магическая защита +4.9%
+    - name: Кольцо Луна
+      icon: /icon/accessary_ring_of_ages_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +4.9%
+      - Защита +1.4%
+  - name: Людоед
+    items:
+    - name: Ожерелье Людоеда
+      icon: /icon/octavis_necklace_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.0'
+      effects:
+      - Шанс критической магии +6%
+    - name: Серьга Людоеда
+      icon: /icon/accessary_earing_of_strength_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Защита +1.05%
+    - name: Кольцо Людоеда
+      icon: /icon/accessary_ring_of_grace_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки магией +6%
+    - name: Ожерелье Людоеда
+      icon: /icon/octavis_necklace_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +10%
+    - name: Серьга Людоеда
+      icon: /icon/accessary_earing_of_strength_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Защита +1.75%
+    - name: Кольцо Людоеда
+      icon: /icon/accessary_ring_of_grace_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки магией +7%
+  - name: Люцифер
+    items:
+    - name: Ожерелье Люцифера
+      icon: /icon/accessary_enchanted_necklace_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Магическая защита +4.2%
+    - name: Серьга Люцифера
+      icon: /icon/accessary_red_cresent_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +5%
+      - Сила критической атаки +4%
+    - name: Кольцо Люцифера
+      icon: /icon/accessory_shiny_couple_ring.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.0'
+      effects:
+      - Физическая защита +4.55%
+    - name: Ожерелье Люцифера
+      icon: /icon/accessary_enchanted_necklace_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Магическая защита +4.9%
+    - name: Серьга Люцифера
+      icon: /icon/accessary_red_cresent_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +6%
+      - Сила критической атаки +5.5%
+    - name: Кольцо Люцифера
+      icon: /icon/accessory_shiny_couple_ring.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Физическая защита +5.25%
+  - name: Миф
+    items:
+    - name: Ожерелье Мифа
+      icon: /icon/accessory_necklace_of_funtion_pet_i04.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Максимум НР,CP +5.6%
+    - name: Серьга Мифа
+      icon: /icon/accessary_earing_of_holy_spirit_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +10%
+    - name: Кольцо Мифа
+      icon: /icon/accessary_magic_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +2%
+      - Сила критической атаки +4%
+    - name: Ожерелье Мифа
+      icon: /icon/accessory_necklace_of_funtion_pet_i04.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +7%
+    - name: Серьга Мифа
+      icon: /icon/accessary_earing_of_holy_spirit_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +13%
+    - name: Кольцо Мифа
+      icon: /icon/accessary_magic_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +3%
+      - Сила критической атаки +5.5%
+  - name: Морской гигант
+    items:
+    - name: Ожерелье Морского гиганта
+      icon: /icon/r2_necklace_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.0'
+      effects:
+      - Магическая атака +10%
+    - name: Серьга Морского гиганта
+      icon: /icon/accessary_earing_of_sola_eclipse_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Защита +1.05%
+    - name: Кольцо Морского гиганта
+      icon: /icon/accessary_ring_of_black_ore_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Максимум НР,CP +5.6%
+    - name: Ожерелье Морского гиганта
+      icon: /icon/r2_necklace_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +12%
+    - name: Серьга Морского гиганта
+      icon: /icon/accessary_earing_of_sola_eclipse_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Защита +1.75%
+    - name: Кольцо Морского гиганта
+      icon: /icon/accessary_ring_of_black_ore_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +7%
+  - name: Морской дракон
+    items:
+    - name: Ожерелье Морского дракона
+      icon: /icon/accessary_necklace_of_phantom_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Магическая атака +10%
+    - name: Серьга Морского дракона
+      icon: /icon/accessary_phoenixs_earing_i02.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Шанс критической магии +4%
+      - Сила критической атаки магией +4%
+    - name: Кольцо Морского дракона
+      icon: /icon/accessary_tauti_ring.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Скорость чтения заклинаний +5%
+    - name: Ожерелье Морского дракона
+      icon: /icon/accessary_necklace_of_phantom_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +12%
+    - name: Серьга Морского дракона
+      icon: /icon/accessary_phoenixs_earing_i02.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +6%
+      - Сила критической атаки магией +5%
+    - name: Кольцо Морского дракона
+      icon: /icon/accessary_tauti_ring.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+      - Скорость чтения заклинаний +6%
+  - name: Ная
+    items:
+    - name: Ожерелье Ная
+      icon: /icon/accessary_necklace_of_black_ore_i00.jpg
+      variant: normal
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Физическая защита +4.55%
+    - name: Серьга Ная
+      icon: /icon/accessary_enchanted_earing_i00.jpg
+      variant: normal
+      magic_defense: 86
+      gear_level: '2.0'
+      effects:
+      - Скорость атаки +5%
+      - Сила критической атаки +4%
+    - name: Кольцо Ная
+      icon: /icon/accessary_phoenixs_ring_i02.jpg
+      variant: normal
+      magic_defense: 63
+      gear_level: '2.5'
+      effects:
+      - Магическая защита +4.2%
+    - name: Ожерелье Ная
+      icon: /icon/accessary_necklace_of_black_ore_i00.jpg
+      variant: epic
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Физическая защита +5.25%
+    - name: Серьга Ная
+      icon: /icon/accessary_enchanted_earing_i00.jpg
+      variant: epic
+      magic_defense: 86
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +6%
+      - Сила критической атаки +5.5%
+    - name: Кольцо Ная
+      icon: /icon/accessary_phoenixs_ring_i02.jpg
+      variant: epic
+      magic_defense: 63
+      gear_level: '3.0'
+      effects:
+      - Магическая защита +4.9%
+  - name: Оркбосс
+    items:
+    - name: Ожерелье Оркбосса
+      icon: /icon/accessory_necklace_of_funtion_pet_i01.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+    - name: Серьга Оркбосса
+      icon: /icon/accessary_blessed_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +2%
+      - Сила критической атаки +4%
+    - name: Кольцо Оркбосса
+      icon: /icon/accessary_enchanted_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +5%
+      - Сила критической атаки +4%
+    - name: Ожерелье Оркбосса
+      icon: /icon/accessory_necklace_of_funtion_pet_i01.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +4
+      - Скорость в легкой броне, робе и форме +4
+    - name: Серьга Оркбосса
+      icon: /icon/accessary_blessed_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +3%
+      - Сила критической атаки +5.5%
+    - name: Кольцо Оркбосса
+      icon: /icon/accessary_enchanted_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +6%
+      - Сила критической атаки +5.5%
+  - name: Падший
+    items:
+    - name: Ожерелье Падшего
+      icon: /icon/accessary_necklace_of_courage_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +3%
+      - Физическая атака +3%
+    - name: Серьга Падшего
+      icon: /icon/accessory_earring_of_zaken_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Магическая защита +4.2%
+    - name: Кольцо Падшего
+      icon: /icon/accessary_black_pearl_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Шанс критической атаки +11%
+      - Сила критической атаки +4%
+    - name: Ожерелье Падшего
+      icon: /icon/accessary_necklace_of_courage_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +4%
+      - Физическая атака +5%
+    - name: Серьга Падшего
+      icon: /icon/accessory_earring_of_zaken_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Магическая защита +4.9%
+    - name: Кольцо Падшего
+      icon: /icon/accessary_black_pearl_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +13%
+      - Сила критической атаки +5.5%
+  - name: Палач
+    items:
+    - name: Ожерелье Палача
+      icon: /icon/accessory_necklace_of_funtion_pet_i03.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Защита +1.05%
+    - name: Серьга Палача
+      icon: /icon/accessary_adamantite_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Шанс критической атаки +16%
+    - name: Кольцо Палача
+      icon: /icon/accessary_ring_of_anguish_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки магией +6%
+    - name: Ожерелье Палача
+      icon: /icon/accessory_necklace_of_funtion_pet_i03.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Защита +1.75%
+    - name: Серьга Палача
+      icon: /icon/accessary_adamantite_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +18%
+    - name: Кольцо Палача
+      icon: /icon/accessary_ring_of_anguish_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки магией +7%
+  - name: Пан
+    items:
+    - name: Ожерелье Пана
+      icon: /icon/accessory_necklace_of_pet_i01.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Шанс критической атаки +16%
+    - name: Серьга Пана
+      icon: /icon/accessary_sealed_ponshrnoen_earring_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.0'
+      effects:
+      - Физическая защита +4.55%
+    - name: Кольцо Пана
+      icon: /icon/accessary_mithril_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +3%
+      - Физическая атака +3%
+    - name: Ожерелье Пана
+      icon: /icon/accessory_necklace_of_pet_i01.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +18%
+    - name: Серьга Пана
+      icon: /icon/accessary_sealed_ponshrnoen_earring_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Физическая защита +5.25%
+    - name: Кольцо Пана
+      icon: /icon/accessary_mithril_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +3%
+      - Физическая атака +5%
+  - name: Паразит
+    items:
+    - name: Ожерелье Паразита
+      icon: /icon/accessary_near_forest_necklace_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +10%
+    - name: Серьга Паразита
+      icon: /icon/accessary_earing_of_binding_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Физическая защита +4.55%
+    - name: Кольцо Паразита
+      icon: /icon/accessary_ring_of_aurakyria_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +5%
+      - Сила и эффективность восстановления боевого духа +5%
+      - Защита +1.05%
+    - name: Ожерелье Паразита
+      icon: /icon/accessary_near_forest_necklace_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +13%
+    - name: Серьга Паразита
+      icon: /icon/accessary_earing_of_binding_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Физическая защита +5.25%
+    - name: Кольцо Паразита
+      icon: /icon/accessary_ring_of_aurakyria_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Защита +1.75%
+  - name: Пламя
+    items:
+    - name: Ожерелье Пламени
+      icon: /icon/accessary_inferno_necklace_i02.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки магией +6%
+    - name: Серьга Пламени
+      icon: /icon/accessary_earing_of_blessing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Максимум НР,CP +3.85%
+      - Защита +1.05%
+    - name: Кольцо Пламени
+      icon: /icon/accessary_ring_of_blessing_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Шанс критической атаки +16%
+    - name: Ожерелье Пламени
+      icon: /icon/accessary_inferno_necklace_i02.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки магией +7%
+    - name: Серьга Пламени
+      icon: /icon/accessary_earing_of_blessing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +4.9%
+      - Защита +1.4%
+    - name: Кольцо Пламени
+      icon: /icon/accessary_ring_of_blessing_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +18%
+  - name: Потрошитель
+    items:
+    - name: Ожерелье Потрошителя
+      icon: /icon/accessary_necklace_of_mermaid_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +8%
+    - name: Серьга Потрошителя
+      icon: /icon/accessary_mage_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Защита +2.8%
+    - name: Кольцо Потрошителя
+      icon: /icon/accessary_sealed_ponshrnoen_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.0'
+      effects:
+      - Магическая атака +5%
+      - Сила критической атаки магией +4%
+    - name: Ожерелье Потрошителя
+      icon: /icon/accessary_necklace_of_mermaid_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +10%
+    - name: Серьга Потрошителя
+      icon: /icon/accessary_mage_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Защита +3.5%
+    - name: Кольцо Потрошителя
+      icon: /icon/accessary_sealed_ponshrnoen_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +6%
+      - Сила критической атаки магией +5%
+  - name: Прородительница
+    items:
+    - name: Ожерелье Прородительницы
+      icon: /icon/accessary_necklace_of_protection_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+    - name: Серьга Прородительницы
+      icon: /icon/accessary_phoenixs_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Скорость чтения заклинаний +5%
+    - name: Кольцо Прородительницы
+      icon: /icon/accessary_sealed_bluelycan_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.0'
+      effects:
+      - Шанс критической магии +6%
+    - name: Ожерелье Прородительницы
+      icon: /icon/accessary_necklace_of_protection_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +4
+      - Скорость в легкой броне, робе и форме +4
+    - name: Серьга Прородительницы
+      icon: /icon/accessary_phoenixs_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+      - Скорость чтения заклинаний +6%
+    - name: Кольцо Прородительницы
+      icon: /icon/accessary_sealed_bluelycan_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +18%
+  - name: Пылающий дракон
+    items:
+    - name: Ожерелье Пылающего дракона
+      icon: /icon/accessary_inferno_necklace_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки +6%
+    - name: Серьга Пылающего дракона
+      icon: /icon/accessary_cerberuss_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Шанс критической атаки +11%
+      - Сила критической атаки +4%
+    - name: Кольцо Пылающего дракона
+      icon: /icon/accessary_phoenixs_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Защита +2.8%
+    - name: Ожерелье Пылающего дракона
+      icon: /icon/accessary_inferno_necklace_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки +7.5%
+    - name: Серьга Пылающего дракона
+      icon: /icon/accessary_cerberuss_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +13%
+      - Сила критической атаки +5.5%
+    - name: Кольцо Пылающего дракона
+      icon: /icon/accessary_phoenixs_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Защита +3.5%
+  - name: Раненый дракон
+    items:
+    - name: Ожерелье Раненого дракона
+      icon: /icon/accessory_tateossian_i00.jpg
+      variant: normal
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +11%
+      - Сила критической атаки +4%
+    - name: Серьга Раненого дракона
+      icon: /icon/accessory_earring_of_zaken_i00.jpg
+      variant: normal
+      magic_defense: 86
+      gear_level: '2.0'
+      effects:
+      - Шанс критической магии +6%
+    - name: Кольцо Раненого дракона
+      icon: /icon/accessary_elemental_ring_i00.jpg
+      variant: normal
+      magic_defense: 63
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+    - name: Ожерелье Раненого дракона
+      icon: /icon/accessory_tateossian_i00.jpg
+      variant: epic
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Шанс критической атаки +13%
+      - Сила критической атаки +5.5%
+    - name: Серьга Раненого дракона
+      icon: /icon/accessory_earring_of_zaken_i00.jpg
+      variant: epic
+      magic_defense: 86
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +10%
+    - name: Кольцо Раненого дракона
+      icon: /icon/accessary_elemental_ring_i00.jpg
+      variant: epic
+      magic_defense: 63
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +4
+      - Скорость в легкой броне, робе и форме +4
+  - name: Соратник
+    items:
+    - name: Ожерелье Соратника
+      icon: /icon/accessary_inferno_necklace_i02.jpg
+      variant: normal
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +6%
+    - name: Серьга Соратника
+      icon: /icon/accessary_earing_of_wisdom_i00.jpg
+      variant: normal
+      magic_defense: 86
+      gear_level: '2.0'
+      effects:
+      - Скорость чтения заклинаний +6%
+      - Шанс критической магии +4%
+    - name: Кольцо Соратника
+      icon: /icon/accessary_ring_of_anguish_i00.jpg
+      variant: normal
+      magic_defense: 63
+      gear_level: '2.5'
+      effects:
+      - Максимум НР,CP +5.6%
+    - name: Ожерелье Соратника
+      icon: /icon/accessary_inferno_necklace_i02.jpg
+      variant: epic
+      magic_defense: 102
+      gear_level: '3.0'
+      effects:
+      - Шанс критической магии +10%
+    - name: Серьга Соратника
+      icon: /icon/accessary_earing_of_wisdom_i00.jpg
+      variant: epic
+      magic_defense: 86
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +7%
+      - Шанс критической магии +6%
+    - name: Кольцо Соратника
+      icon: /icon/accessary_ring_of_anguish_i00.jpg
+      variant: epic
+      magic_defense: 63
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +7%
+  - name: Спаун
+    items:
+    - name: Ожерелье Спауна
+      icon: /icon/accessary_necklace_of_anguish_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки магией +6%
+    - name: Серьга Спауна
+      icon: /icon/accessary_earing_of_black_ore_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Магическая атака +5%
+      - Сила критической атаки магией +4%
+    - name: Кольцо Спауна
+      icon: /icon/accessary_ring_of_knowledge_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Защита +2.8%
+    - name: Ожерелье Спауна
+      icon: /icon/accessary_necklace_of_anguish_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки магией +7%
+    - name: Серьга Спауна
+      icon: /icon/accessary_earing_of_black_ore_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +6%
+      - Сила критической атаки магией +5%
+    - name: Кольцо Спауна
+      icon: /icon/accessary_ring_of_knowledge_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Защита +3.5%
+  - name: Страх
+    items:
+    - name: Ожерелье Страха
+      icon: /icon/accessary_necklace_of_sola_eclipse_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +2%
+      - Сила критической атаки +4%
+    - name: Серьга Страха
+      icon: /icon/accessary_another_worlds_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +6%
+      - Шанс критической магии +4%
+    - name: Кольцо Страха
+      icon: /icon/accessary_dynasty_ring_i01.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость чтения заклинаний +10%
+    - name: Ожерелье Страха
+      icon: /icon/accessary_necklace_of_sola_eclipse_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +3%
+      - Сила критической атаки +5.5%
+    - name: Серьга Страха
+      icon: /icon/accessary_another_worlds_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +7%
+      - Шанс критической магии +6%
+    - name: Кольцо Страха
+      icon: /icon/accessary_dynasty_ring_i01.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость чтения заклинаний +13%
+  - name: Торос
+    items:
+    - name: Ожерелье Тороса
+      icon: /icon/accessary_necklace_of_mana_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Магическая защита +4.2%
+    - name: Серьга Тороса
+      icon: /icon/accessary_enchanted_earing_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +3%
+      - Физическая атака +3%
+    - name: Кольцо Тороса
+      icon: /icon/accessary_elven_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +2
+      - Скорость в легкой броне, робе и форме +2
+      - Сила критической атаки +5%
+    - name: Ожерелье Тороса
+      icon: /icon/accessary_necklace_of_mana_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Магическая защита +4.9%
+    - name: Серьга Тороса
+      icon: /icon/accessary_enchanted_earing_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +3%
+      - Физическая атака +5%
+    - name: Кольцо Тороса
+      icon: /icon/accessary_elven_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+      - Сила критической атаки +6.5%
+  - name: Улей
+    items:
+    - name: Ожерелье Улья
+      icon: /icon/accessory_necklace_of_gourd_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.0'
+      effects:
+      - Магическая атака +5%
+      - Сила критической атаки магией +4%
+    - name: Серьга Улья
+      icon: /icon/accessory_earring_of_gourd_i00.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Физическая атака +5%
+    - name: Кольцо Улья
+      icon: /icon/accessary_ring_of_raccoon_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+    - name: Ожерелье Улья
+      icon: /icon/accessory_necklace_of_gourd_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Магическая атака +6%
+      - Сила критической атаки магией +5%
+    - name: Серьга Улья
+      icon: /icon/accessory_earring_of_gourd_i00.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Физическая атака +6%
+    - name: Кольцо Улья
+      icon: /icon/accessary_ring_of_raccoon_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +10%
+      - Сила и эффективность восстановления боевого духа +10%
+  - name: Фарнитос
+    items:
+    - name: Ожерелье Фарнитоса
+      icon: /icon/accessary_necklace_of_summons_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Сила критической атаки +6%
+    - name: Серьга Фарнитоса
+      icon: /icon/accessory_earring_of_hero_i01.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.0'
+      effects:
+      - Сила и эффективность лечения +6%
+      - Сила и эффективность восстановления боевого духа +6%
+      - Скорость чтения заклинаний +5%
+    - name: Кольцо Фарнитоса
+      icon: /icon/accessary_paradia_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость атаки +8%
+    - name: Ожерелье Фарнитоса
+      icon: /icon/accessary_necklace_of_summons_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Сила критической атаки +7.5%
+    - name: Серьга Фарнитоса
+      icon: /icon/accessory_earring_of_hero_i01.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Сила и эффективность лечения +8%
+      - Сила и эффективность восстановления боевого духа +8%
+      - Скорость чтения заклинаний +6%
+    - name: Кольцо Фарнитоса
+      icon: /icon/accessary_paradia_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость атаки +10%
+  - name: Эрагон
+    items:
+    - name: Ожерелье Эрагона
+      icon: /icon/accessory_earring_of_antaras_i00.jpg
+      variant: normal
+      magic_defense: 100
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +2
+      - Скорость в легкой броне, робе и форме +2
+      - Сила критической атаки +5%
+    - name: Серьга Эрагона
+      icon: /icon/accessary_dynasty_earing_i01.jpg
+      variant: normal
+      magic_defense: 84
+      gear_level: '2.5'
+      effects:
+      - Максимум НР,CP +3.85%
+      - Защита +1.05%
+    - name: Кольцо Эрагона
+      icon: /icon/accessary_inferno_ring_i00.jpg
+      variant: normal
+      magic_defense: 61
+      gear_level: '2.5'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+    - name: Ожерелье Эрагона
+      icon: /icon/accessory_earring_of_antaras_i00.jpg
+      variant: epic
+      magic_defense: 100
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +3
+      - Скорость в легкой броне, робе и форме +3
+      - Сила критической атаки +6.5%
+    - name: Серьга Эрагона
+      icon: /icon/accessary_dynasty_earing_i01.jpg
+      variant: epic
+      magic_defense: 84
+      gear_level: '3.0'
+      effects:
+      - Максимум НР,CP +4.9%
+      - Защита +1.4%
+    - name: Кольцо Эрагона
+      icon: /icon/accessary_inferno_ring_i00.jpg
+      variant: epic
+      magic_defense: 61
+      gear_level: '3.0'
+      effects:
+      - Скорость в тяжелой броне +4
+      - Скорость в легкой броне, робе и форме +4

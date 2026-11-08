@@ -40,7 +40,7 @@ button, select { color: inherit; }
 }
 .brand > span:last-child { display: grid; line-height: 1; gap: 5px; letter-spacing: .04em; }
 .brand small { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .12em; }
-.site-nav { display: flex; gap: 4px; }
+.site-nav { display: flex; flex-wrap: wrap; gap: 4px; }
 .site-nav a {
   padding: 9px 12px; border-radius: 5px; color: var(--muted);
   font-size: 14px; font-weight: 600; text-decoration: none;
@@ -63,6 +63,7 @@ h1 {
 .hero-copy { max-width: 650px; margin: 23px 0 0; color: var(--muted); font-size: 18px; line-height: 1.65; }
 
 .directory-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding-bottom: 60px; }
+.home-directory { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .directory-link, .enchant-card {
   border: 1px solid var(--line); border-radius: 7px;
   background-color: var(--surface); background-image: var(--panel-pattern);
@@ -94,6 +95,25 @@ h1 {
   overflow-wrap: anywhere;
 }
 .enchant-source { margin: 24px 0 48px; color: var(--muted); font-size: 13px; }
+.jewelry-toolbar {
+  display: flex; flex-wrap: wrap; align-items: end; gap: 12px 16px; margin-bottom: 28px;
+}
+.jewelry-toolbar .class-filters { margin: 0; }
+.jewelry-toolbar .search-box { flex: 1 1 260px; min-width: 0; max-width: 500px; }
+.jewelry-boss + .jewelry-boss { margin-top: 28px; }
+.jewelry-grid { align-items: stretch; }
+.jewelry-card .enchant-heading h3 { font-size: 19px; }
+.jewelry-stats {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 5px 12px;
+  margin: 0; padding: 0 14px 14px; font-size: 13px;
+}
+.jewelry-stats dt { color: var(--muted); }
+.jewelry-stats dd { margin: 0; font-variant-numeric: tabular-nums; }
+.jewelry-effects {
+  margin: 0; padding: 12px 14px 14px 30px; border-top: 1px solid var(--line);
+  font-size: 13px; line-height: 1.5; overflow-wrap: anywhere;
+}
+.jewelry-effects li + li { margin-top: 3px; }
 
 .catalog-shell, .skills-shell { padding-bottom: 70px; }
 .toolbar {

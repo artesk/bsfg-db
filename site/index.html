@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="База знаний BSFG о профессиях, умениях и характеристиках">
+  <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов">
   <title>База знаний BSFG</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -16,6 +16,7 @@
     <nav class="site-nav" aria-label="Разделы сайта">
       <a href="#/professions">Профессии</a>
       <a href="#/specifications">Характеристики</a>
+      <a href="#/items/pit-boss-jewelry">Бижутерия Пит-боссов</a>
     </nav>
   </header>
 
@@ -32,9 +33,9 @@
   <template id="home-template">
     <section class="hero">
       <h1>База знаний BSFG</h1>
-      <p class="hero-copy">Справочник по профессиям, умениям и характеристикам Battles for Glory.</p>
+      <p class="hero-copy">Справочник по профессиям, умениям, характеристикам и экипировке Battles for Glory.</p>
     </section>
-    <div class="directory-grid">
+    <div class="directory-grid home-directory">
       <a class="directory-link" href="#/professions">
         <h2>Профессии</h2>
         <p>Каталог по фракциям и классам с описаниями, умениями и ветками развития.</p>
@@ -42,6 +43,10 @@
       <a class="directory-link" href="#/specifications">
         <h2>Характеристики</h2>
         <p>Эффекты заточки умений и улучшения оружия.</p>
+      </a>
+      <a class="directory-link" href="#/items/pit-boss-jewelry">
+        <h2>Бижутерия Пит-боссов</h2>
+        <p>Украшения рангов EL и MA с характеристиками и эффектами по боссам.</p>
       </a>
     </div>
   </template>
@@ -81,6 +86,36 @@
         <div id="enchant-results"></div>
       </section>
       <p class="enchant-source"><a id="enchant-source" target="_blank" rel="noreferrer">Архивная таблица BSFG ↗</a></p>
+    </article>
+  </template>
+
+  <template id="pit-jewelry-template">
+    <article class="jewelry-page">
+      <header class="hero">
+        <h1>Бижутерия Пит-боссов</h1>
+        <p class="hero-copy">Украшения рангов EL и MA. Выберите ранг или найдите нужного босса или предмет.</p>
+      </header>
+      <div class="jewelry-toolbar">
+        <fieldset class="class-filters">
+          <legend>Ранг</legend>
+          <div id="jewelry-ranks" class="class-options"></div>
+        </fieldset>
+        <fieldset id="jewelry-variant-filter" class="class-filters" hidden>
+          <legend>Вариант MA</legend>
+          <div class="class-options">
+            <button class="class-option" type="button" value="normal" aria-pressed="true">Обычная</button>
+            <button class="class-option" type="button" value="epic" aria-pressed="false">Эпик</button>
+          </div>
+        </fieldset>
+        <label class="search-box">
+          <span class="visually-hidden">Найти босса или украшение</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+          <input id="jewelry-search" type="search" placeholder="Найти босса или украшение…" autocomplete="off">
+        </label>
+      </div>
+      <div id="jewelry-results" class="jewelry-results"></div>
+      <div id="empty-jewelry" class="empty-state" hidden><p>Боссы и украшения по этому запросу не найдены.</p></div>
+      <p class="enchant-source"><a id="jewelry-source" target="_blank" rel="noreferrer">Архивная таблица BSFG ↗</a></p>
     </article>
   </template>
 

@@ -37,6 +37,7 @@ const app = document.querySelector("#app");
 const siteLinks = document.querySelectorAll(".site-nav a");
 const enchantData = new Map();
 let archiveIndex;
+let pitJewelry;
 let routeVersion = 0;
 
 function el(tag, className, value) {
@@ -472,6 +473,80 @@ async function loadJson(path) {
   return response.json();
 }
 
+function renderPitJewelry(data) {
+  document.title = "Бижутерия Пит-боссов — База знаний BSFG";
+  app.replaceChildren(cloneTemplate("#pit-jewelry-template"));
+  document.querySelector("#jewelry-source").href = data.source;
+  const ranks = document.querySelector("#jewelry-ranks");
+  const variants = document.querySelector("#jewelry-variant-filter");
+  const variantButtons = variants.querySelectorAll("button");
+  const search = document.querySelector("#jewelry-search");
+  const results = document.querySelector("#jewelry-results");
+  const empty = document.querySelector("#empty-jewelry");
+  let activeRank = data.ranks[0];
+  let maVariant = "normal";
+
+  const refresh = () => {
+    const isMA = activeRank.rank === "MA";
+    variants.hidden = !isMA;
+    const variant = isMA ? maVariant : "normal";
+    const query = normalize(search.value.trim());
+    const groups = document.createDocumentFragment();
+    for (const boss of activeRank.bosses) {
+      const bossMatches = normalize(boss.name).includes(query);
+      const items = boss.items.filter((item) => item.variant === variant
+        && (bossMatches || normalize(item.name).includes(query)));
+      if (items.length === 0) continue;
+      const section = el("section", "jewelry-boss");
+      const grid = el("div", "enchant-grid jewelry-grid");
+      grid.append(...items.map(renderJewelryItem));
+      section.append(el("h2", "enchant-title", boss.name), grid);
+      groups.append(section);
+    }
+    empty.hidden = groups.childElementCount > 0;
+    results.replaceChildren(groups);
+  };
+
+  for (const rank of data.ranks) {
+    const button = el("button", "class-option", rank.rank);
+    button.type = "button";
+    button.setAttribute("aria-pressed", String(rank === activeRank));
+    button.addEventListener("click", () => {
+      activeRank = rank;
+      for (const option of ranks.children) option.setAttribute("aria-pressed", String(option === button));
+      refresh();
+    });
+    ranks.append(button);
+  }
+  for (const button of variantButtons) {
+    button.addEventListener("click", () => {
+      maVariant = button.value;
+      for (const option of variantButtons) option.setAttribute("aria-pressed", String(option === button));
+      refresh();
+    });
+  }
+  search.addEventListener("input", refresh);
+  refresh();
+}
+
+function renderJewelryItem(item) {
+  const card = el("article", "enchant-card jewelry-card");
+  const heading = el("header", "enchant-heading");
+  heading.append(renderIcon(localIconUrl(item.icon), item.name, "branch-icon"), el("h3", "", item.name));
+  const stats = el("dl", "jewelry-stats");
+  stats.append(el("dt", "", "Магическая защита"), el("dd", "", item.magic_defense));
+  if (item.gear_level != null) {
+    stats.append(el("dt", "", "Уровень экипировки"), el("dd", "", item.gear_level));
+  }
+  card.append(heading, stats);
+  if (item.effects.length > 0) {
+    const effects = el("ul", "jewelry-effects");
+    for (const effect of item.effects) effects.append(el("li", "", effect));
+    card.append(effects);
+  }
+  return card;
+}
+
 async function route() {
   const version = ++routeVersion;
   const path = location.hash.slice(1).replace(/\/+$/, "") || "/";
@@ -479,10 +554,12 @@ async function route() {
   const isProfessionSection = path === "/professions" || profession !== null;
   const enchantPage = ENCHANT_PAGES.get(path);
   const isSpecifications = path === "/specifications" || enchantPage !== undefined;
+  let activeSection = path;
+  if (isProfessionSection) activeSection = "/professions";
+  else if (isSpecifications) activeSection = "/specifications";
   for (const link of siteLinks) {
     const linkPath = link.hash.slice(1);
-    const active = linkPath === "/professions" ? isProfessionSection : isSpecifications;
-    if (active) link.setAttribute("aria-current", path === linkPath ? "page" : "location");
+    if (linkPath === activeSection) link.setAttribute("aria-current", path === linkPath ? "page" : "location");
     else link.removeAttribute("aria-current");
   }
 
@@ -494,6 +571,13 @@ async function route() {
     } else if (path === "/specifications") {
       document.title = "Характеристики — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#specifications-template"));
+    } else if (path === "/items/pit-boss-jewelry") {
+      if (!pitJewelry) {
+        app.replaceChildren(cloneTemplate("#loading-template"));
+        pitJewelry = await loadJson("data/items/pit-boss-jewelry.json");
+      }
+      if (version !== routeVersion) return;
+      renderPitJewelry(pitJewelry);
     } else if (enchantPage) {
       if (!enchantData.has(path)) {
         app.replaceChildren(cloneTemplate("#loading-template"));

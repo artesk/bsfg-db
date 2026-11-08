@@ -299,9 +299,59 @@ def load_enchantments(content: Path, page: str) -> dict[str, Any] | None:
     return data
 
 
+def load_pit_jewelry(content: Path) -> dict[str, Any] | None:
+    path = content / "items" / "pit-boss-jewelry.yaml"
+    if not path.is_file():
+        return None
+    data = require_mapping(load_yaml(path), path, "jewelry")
+    source = require_string(data, "source", path, "jewelry")
+    if not source.startswith("https://"):
+        fail(path, "jewelry.source", "ожидалась ссылка HTTPS")
+    ranks = require_list(data.get("ranks"), path, "ranks")
+    seen_ranks: set[str] = set()
+    for i, rank_value in enumerate(ranks):
+        rank_path = f"ranks[{i}]"
+        rank = require_mapping(rank_value, path, rank_path)
+        label = require_string(rank, "rank", path, rank_path)
+        if label not in {"EL", "MA"} or label in seen_ranks:
+            fail(path, f"{rank_path}.rank", "ожидался уникальный ранг EL или MA")
+        seen_ranks.add(label)
+        bosses = require_list(rank.get("bosses"), path, f"{rank_path}.bosses")
+        if not bosses:
+            fail(path, f"{rank_path}.bosses", "нужен хотя бы один пит-босс")
+        variants = {"normal"} if label == "EL" else {"normal", "epic"}
+        for j, boss_value in enumerate(bosses):
+            boss_path = f"{rank_path}.bosses[{j}]"
+            boss = require_mapping(boss_value, path, boss_path)
+            require_string(boss, "name", path, boss_path)
+            items = require_list(boss.get("items"), path, f"{boss_path}.items")
+            if not items:
+                fail(path, f"{boss_path}.items", "нужно хотя бы одно украшение")
+            for k, item_value in enumerate(items):
+                item_path = f"{boss_path}.items[{k}]"
+                item = require_mapping(item_value, path, item_path)
+                require_string(item, "name", path, item_path)
+                require_string(item, "icon", path, item_path, allow_empty=True)
+                variant = require_string(item, "variant", path, item_path)
+                if variant not in variants:
+                    fail(path, f"{item_path}.variant", "неизвестный вариант для этого ранга")
+                defense = item.get("magic_defense")
+                if type(defense) is not int or defense < 0:
+                    fail(path, f"{item_path}.magic_defense", "ожидалось целое неотрицательное число")
+                if item.get("gear_level") is not None:
+                    level = require_string(item, "gear_level", path, item_path)
+                    if not re.fullmatch(r"\d+(?:\.\d+)?", level):
+                        fail(path, f"{item_path}.gear_level", "ожидался уровень экипировки")
+                require_string_list(item, "effects", path, item_path)
+    if seen_ranks != {"EL", "MA"}:
+        fail(path, "ranks", "нужны оба ранга EL и MA")
+    return data
+
+
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
     enchantments = {page: load_enchantments(content, page) for page in ENCHANTMENT_PAGES}
+    pit_jewelry = load_pit_jewelry(content)
     icons = {
         path.stem: f"assets/profession-icons/{path.name}"
         for path in sorted(PROFESSION_ICON_DIR.glob("*"))
@@ -383,6 +433,16 @@ def build(content: Path, output: Path) -> tuple[int, int]:
             write_json(enchant_output, data)
         else:
             enchant_output.unlink(missing_ok=True)
+    jewelry_output = output / "items" / "pit-boss-jewelry.json"
+    if pit_jewelry is not None:
+        for rank in pit_jewelry["ranks"]:
+            for boss in rank["bosses"]:
+                for item in boss["items"]:
+                    if item["icon"] not in available_icons:
+                        item["icon"] = ""
+        write_json(jewelry_output, pit_jewelry)
+    else:
+        jewelry_output.unlink(missing_ok=True)
     return len(catalog), total_records
 
 def parse_args() -> argparse.Namespace:
@@ -403,6 +463,7 @@ def main() -> int:
             _, documents = load_content(args.content.resolve())
             for page in ENCHANTMENT_PAGES:
                 load_enchantments(args.content.resolve(), page)
+            load_pit_jewelry(args.content.resolve())
             print(f"VALID professions={len(documents)} content={args.content.resolve()}")
             return 0
         profession_count, record_count = build(

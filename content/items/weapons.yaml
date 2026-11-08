@@ -26070,21 +26070,6 @@ items:
     spiritshot_count: 1
   enchant_effect: Увеличивает силу атаки и шанс критических попаданий.
   icon: /icon/weapons/icon.weapon_lind_twohand_sword_i01.png
-- id: 15305
-  name: Двуручный меч Никши
-  rank: BA
-  category: two-handed-swords
-  label: Элегия
-  stats:
-    pAttack: 70
-    mAttack: 10
-    pAttackSpeed: 265
-    pCritical: 8.0
-    random_damage: 10
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу атаки и шанс критических попаданий.
-  icon: /icon/weapons/icon.weapon_valrakas_twohand_sword_i01.png
 - id: 15308
   name: Двуручный меч
   rank: BA
@@ -26857,24 +26842,6 @@ items:
   - Чем больше качество магического оружия, тем больше сила лечения и повреждения по монстрам при его использовании.
   enchant_effect: Увеличивает скорость чтения заклинаний.
   icon: /icon/weapons/icon.weapon_lind_onehand_magic_blunt_i01.png
-- id: 15420
-  name: Жезл дракона Никши
-  rank: BA
-  category: rod
-  label: Элегия
-  stats:
-    pAttack: 10
-    mAttack: 50
-    pAttackSpeed: 374
-    pHit: -50.0
-    pCritical: 4.0
-    random_damage: 20
-    soulshot_count: 1
-    spiritshot_count: 1
-  effects:
-  - Чем больше качество магического оружия, тем больше сила лечения и повреждения по монстрам при его использовании.
-  enchant_effect: Увеличивает скорость чтения заклинаний.
-  icon: /icon/weapons/icon.weapon_valrakas_onehand_magic_blunt_i01.png
 - id: 15423
   name: Жезл
   rank: BA
@@ -27128,23 +27095,6 @@ items:
   - Влияет на силу атаки острого оружия.
   enchant_effect: Увеличивает скорость атаки и мощность критических попаданий.
   icon: /icon/weapons/icon.weapon_lind_dagger_i01.png
-- id: 15453
-  name: Кинжал Никши
-  rank: BA
-  category: daggers
-  label: Элегия
-  stats:
-    pAttack: 20
-    mAttack: 10
-    pAttackSpeed: 374
-    pCritical: 12.0
-    random_damage: 5
-    soulshot_count: 1
-    spiritshot_count: 1
-  effects:
-  - Влияет на силу атаки острого оружия.
-  enchant_effect: Увеличивает скорость атаки и мощность критических попаданий.
-  icon: /icon/weapons/icon.weapon_valrakas_dagger_i01.png
 - id: 15455
   name: Кинжал
   rank: BA
@@ -27837,21 +27787,6 @@ items:
     spiritshot_count: 1
   enchant_effect: Увеличивает силу стрельбы и магическую атаку.
   icon: /icon/weapons/icon.weapon_lind_bow_i01.png
-- id: 15558
-  name: Короткий лук Никши
-  rank: BA
-  category: short-bows
-  label: Элегия
-  stats:
-    pAttack: 65
-    mAttack: 35
-    pAttackSpeed: 234
-    pCritical: 12.0
-    random_damage: 5
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу стрельбы и магическую атаку.
-  icon: /icon/weapons/icon.weapon_valrakas_bow_i01.png
 - id: 15561
   name: Лук
   rank: BA
@@ -28070,21 +28005,6 @@ items:
     spiritshot_count: 1
   enchant_effect: Увеличивает шанс критической атаки и шанс нанести критический удар магией.
   icon: /icon/weapons/icon.weapon_lind_onehand_sword_i01.png
-- id: 15591
-  name: Меч Никши
-  rank: BA
-  category: one-handed-swords
-  label: Элегия
-  stats:
-    pAttack: 40
-    mAttack: 10
-    pAttackSpeed: 374
-    pCritical: 8.0
-    random_damage: 10
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает шанс критической атаки и шанс нанести критический удар магией.
-  icon: /icon/weapons/icon.weapon_valrakas_onehand_sword_i01.png
 - id: 15594
   name: Меч
   rank: BA
@@ -28429,24 +28349,6 @@ items:
   - Чем больше качество магического оружия, тем больше сила лечения и повреждения по монстрам при его использовании.
   enchant_effect: Увеличивает силу магической атаки.
   icon: /icon/weapons/icon.weapon_valrakas_twohand_magic_blunt_i01.png
-- id: 15632
-  name: Посох Никши
-  rank: BA
-  category: stick
-  label: Элегия
-  stats:
-    pAttack: 10
-    mAttack: 70
-    pAttackSpeed: 333
-    pHit: -50.0
-    pCritical: 4.0
-    random_damage: 20
-    soulshot_count: 1
-    spiritshot_count: 1
-  effects:
-  - Чем больше качество магического оружия, тем больше сила лечения и повреждения по монстрам при его использовании.
-  enchant_effect: Увеличивает силу магической атаки.
-  icon: /icon/weapons/icon.weapon_valrakas_twohand_magic_blunt_i01.png
 - id: 15634
   name: Посох
   rank: BA
@@ -28630,21 +28532,6 @@ items:
   name: Рапира
   rank: BA
   category: rapier
-  stats:
-    pAttack: 50
-    mAttack: 10
-    pAttackSpeed: 260
-    pCritical: 12.0
-    random_damage: 10
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает шанс критической атаки.
-  icon: /icon/weapons/icon.weapon_valrakas_onehand_magic_sword_i01.png
-- id: 15659
-  name: Рапира Никши
-  rank: BA
-  category: rapier
-  label: Элегия
   stats:
     pAttack: 50
     mAttack: 10
@@ -29591,266 +29478,6 @@ items:
     spiritshot_count: 1
   enchant_effect: Увеличивает силу и точность атак.
   icon: /icon/weapons/icon.weapon_infinity_sword_i01.png
-- id: 16891
-  name: Коготь Никши
-  rank: BA
-  category: claw
-  label: Элегия
-  stats:
-    pAttack: 50
-    mAttack: 30
-    pAttackSpeed: 177
-    pHit: 45.0
-    pCritical: 12.0
-    random_damage: 20
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу стрельбы, точность атак и силу магической атаки.
-  icon: /icon/weapons/icon.weapon_antaras_onehand_blunt_i01.png
-- id: 16892
-  name: Острый топор Никши
-  rank: BA
-  category: sharp-axes
-  label: Элегия
-  stats:
-    pAttack: 20
-    mAttack: 10
-    pAttackSpeed: 374
-    pCritical: 12.0
-    random_damage: 20
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает точность атак и мощность критических попаданий.
-  icon: /icon/weapons/icon.weapon_antaras_onehand_blunt_i01.png
-- id: 16893
-  name: Топор Никши
-  rank: BA
-  category: one-handed-hammers
-  label: Элегия
-  stats:
-    pAttack: 70
-    mAttack: 10
-    pAttackSpeed: 265
-    pCritical: 4.0
-    random_damage: 20
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу и точность атак.
-  icon: /icon/weapons/icon.weapon_antaras_onehand_blunt_i01.png
-- id: 16894
-  name: Двухручный топор Никши
-  rank: BA
-  category: two-handed-hammers
-  label: Элегия
-  stats:
-    pAttack: 70
-    mAttack: 10
-    pAttackSpeed: 265
-    pCritical: 4.0
-    random_damage: 20
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу и точность атак.
-  icon: /icon/weapons/icon.weapon_antaras_onehand_blunt_i01.png
-- id: 16895
-  name: Арбалет Никши
-  rank: BA
-  category: crossbows
-  label: Элегия
-  stats:
-    pAttack: 50
-    mAttack: 10
-    pAttackSpeed: 208
-    pHit: 5.0
-    pCritical: 12.0
-    random_damage: 5
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает точность стрельбы и шанс критического попадания.
-  icon: /icon/weapons/icon.weapon_lind_crossbow_i01.png
-- id: 16896
-  name: Ружье Никши
-  rank: BA
-  category: shotguns
-  label: Элегия
-  stats:
-    pAttack: 50
-    mAttack: 30
-    pAttackSpeed: 177
-    pHit: 45.0
-    pCritical: 12.0
-    random_damage: 5
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу стрельбы, точность атак и силу магической атаки.
-  icon: /icon/weapons/icon.weapon_lind_crossbow_i01.png
-- id: 16897
-  name: Кастеты Никши
-  rank: BA
-  category: knuckles
-  label: Элегия
-  stats:
-    pAttack: 50
-    mAttack: 10
-    pAttackSpeed: 333
-    pCritical: 8.0
-    random_damage: 5
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу атаки.
-  icon: /icon/weapons/icon.weapon_antaras_fist_i01.png
-- id: 16898
-  name: Копье Никши
-  rank: BA
-  category: halberds
-  label: Элегия
-  stats:
-    pAttack: 70
-    mAttack: 10
-    pAttackSpeed: 265
-    pCritical: 8.0
-    random_damage: 10
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу и радиус атаки.
-  icon: /icon/weapons/icon.weapon_antaras_spear_i01.png
-- id: 16899
-  name: Парные мечи Никши
-  rank: BA
-  category: twin-swords
-  label: Элегия
-  stats:
-    pAttack: 50
-    mAttack: 10
-    pAttackSpeed: 333
-    pCritical: 8.0
-    random_damage: 10
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает скорость атаки и шанс критических попаданий.
-  icon: /icon/weapons/icon.weapon_antaras_dual_sword_i01.png
-- id: 16900
-  name: Парные топоры Никши
-  rank: BA
-  category: steam-hammers
-  label: Элегия
-  stats:
-    pAttack: 50
-    mAttack: 10
-    pAttackSpeed: 333
-    pCritical: 8.0
-    random_damage: 20
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу и точность атаки.
-  icon: /icon/weapons/icon.weapon_antaras_dual_blunt_i01.png
-- id: 16901
-  name: Парные кинжалы Никши
-  rank: BA
-  category: paired-daggers
-  label: Элегия
-  stats:
-    pAttack: 50
-    mAttack: 10
-    pAttackSpeed: 333
-    pCritical: 8.0
-    random_damage: 10
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает скорость атаки.
-  icon: /icon/weapons/icon.weapon_antaras_dual_sword_i01.png
-- id: 16902
-  name: Парные рапиры Никши
-  rank: BA
-  category: paired-rapiers
-  label: Элегия
-  stats:
-    pAttack: 70
-    mAttack: 10
-    pAttackSpeed: 333
-    pCritical: 8.0
-    random_damage: 10
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает скорость атаки и шанс критических попаданий.
-  icon: /icon/weapons/icon.weapon_antaras_dual_sword_i01.png
-- id: 16903
-  name: Длинный лук Никши
-  rank: BA
-  category: long-bows
-  label: Элегия
-  stats:
-    pAttack: 65
-    mAttack: 35
-    pAttackSpeed: 234
-    pCritical: 12.0
-    random_damage: 5
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу стрельбы и магическую атаку.
-  icon: /icon/weapons/icon.weapon_valrakas_bow_i01.png
-- id: 16904
-  name: Варп-арбалет Никши
-  rank: BA
-  category: warp-crossbows
-  label: Элегия
-  stats:
-    pAttack: 50
-    mAttack: 10
-    pAttackSpeed: 208
-    pHit: 5.0
-    pCritical: 12.0
-    random_damage: 5
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает точность стрельбы и шанс критического попадания.
-  icon: /icon/weapons/icon.weapon_lind_crossbow_i01.png
-- id: 16905
-  name: Древний меч Никши
-  rank: BA
-  category: two-handed-swords
-  label: Элегия
-  stats:
-    pAttack: 70
-    mAttack: 10
-    pAttackSpeed: 265
-    pCritical: 8.0
-    random_damage: 10
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает силу атаки и шанс критических попаданий.
-  icon: /icon/weapons/icon.weapon_valrakas_twohand_sword_i01.png
-- id: 16906
-  name: Жезл с символом Никши
-  rank: BA
-  category: rod-symbol
-  label: Элегия
-  stats:
-    pAttack: 10
-    mAttack: 50
-    pAttackSpeed: 374
-    pHit: -50.0
-    pCritical: 4.0
-    random_damage: 20
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает скорость чтения заклинаний.
-  icon: /icon/weapons/icon.weapon_valrakas_onehand_magic_blunt_i01.png
-- id: 16907
-  name: Рапира с символом Никши
-  rank: BA
-  category: rapier-with-symbol
-  label: Элегия
-  stats:
-    pAttack: 50
-    mAttack: 10
-    pAttackSpeed: 260
-    pCritical: 12.0
-    random_damage: 10
-    soulshot_count: 1
-    spiritshot_count: 1
-  enchant_effect: Увеличивает шанс критической атаки.
-  icon: /icon/weapons/icon.weapon_valrakas_onehand_magic_sword_i01.png
 - id: 19083
   name: Звездопад новичка
   rank: EX

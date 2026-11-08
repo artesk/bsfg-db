@@ -307,8 +307,12 @@ def load_pit_jewelry(content: Path) -> dict[str, Any] | None:
     source = require_string(data, "source", path, "jewelry")
     if not source.startswith("https://"):
         fail(path, "jewelry.source", "ожидалась ссылка HTTPS")
+    release = require_string(data, "client_release", path, "jewelry")
+    if not re.fullmatch(r"\d{4}\.\d{2}\.\d{2}\.\d{6}", release):
+        fail(path, "jewelry.client_release", "ожидался номер релиза клиента")
     ranks = require_list(data.get("ranks"), path, "ranks")
     seen_ranks: set[str] = set()
+    seen_items: set[int] = set()
     for i, rank_value in enumerate(ranks):
         rank_path = f"ranks[{i}]"
         rank = require_mapping(rank_value, path, rank_path)
@@ -319,7 +323,9 @@ def load_pit_jewelry(content: Path) -> dict[str, Any] | None:
         bosses = require_list(rank.get("bosses"), path, f"{rank_path}.bosses")
         if not bosses:
             fail(path, f"{rank_path}.bosses", "нужен хотя бы один пит-босс")
-        variants = {"normal"} if label == "EL" else {"normal", "epic"}
+        variants = {"epic", "relic"}
+        if label == "EL":
+            variants.add("normal")
         for j, boss_value in enumerate(bosses):
             boss_path = f"{rank_path}.bosses[{j}]"
             boss = require_mapping(boss_value, path, boss_path)
@@ -330,6 +336,10 @@ def load_pit_jewelry(content: Path) -> dict[str, Any] | None:
             for k, item_value in enumerate(items):
                 item_path = f"{boss_path}.items[{k}]"
                 item = require_mapping(item_value, path, item_path)
+                item_id = item.get("item_id")
+                if type(item_id) is not int or item_id <= 0 or item_id in seen_items:
+                    fail(path, f"{item_path}.item_id", "ожидался уникальный положительный ID предмета")
+                seen_items.add(item_id)
                 require_string(item, "name", path, item_path)
                 require_string(item, "icon", path, item_path, allow_empty=True)
                 variant = require_string(item, "variant", path, item_path)

@@ -477,25 +477,24 @@ function renderPitJewelry(data) {
   document.title = "Бижутерия Пит-боссов — База знаний BSFG";
   app.replaceChildren(cloneTemplate("#pit-jewelry-template"));
   document.querySelector("#jewelry-source").href = data.source;
+  document.querySelector("#jewelry-client-release").textContent = data.client_release;
   const ranks = document.querySelector("#jewelry-ranks");
   const variants = document.querySelector("#jewelry-variant-filter");
-  const variantButtons = variants.querySelectorAll("button");
+  const variantOptions = variants.querySelector(".class-options");
+  const variantLabels = {normal: "Обычная", epic: "Эпик", relic: "Реликт"};
   const search = document.querySelector("#jewelry-search");
   const results = document.querySelector("#jewelry-results");
   const empty = document.querySelector("#empty-jewelry");
   let activeRank = data.ranks[0];
-  let maVariant = "normal";
+  let activeVariant;
 
   const refresh = () => {
-    const isMA = activeRank.rank === "MA";
-    variants.hidden = !isMA;
-    const variant = isMA ? maVariant : "normal";
     const query = normalize(search.value.trim());
     const groups = document.createDocumentFragment();
     for (const boss of activeRank.bosses) {
       const bossMatches = normalize(boss.name).includes(query);
-      const items = boss.items.filter((item) => item.variant === variant
-        && (bossMatches || normalize(item.name).includes(query)));
+      const items = boss.items.filter((item) => item.variant === activeVariant
+        && (bossMatches || normalize(item.name).includes(query) || query === String(item.item_id)));
       if (items.length === 0) continue;
       const section = el("section", "jewelry-boss");
       const grid = el("div", "enchant-grid jewelry-grid");
@@ -507,6 +506,25 @@ function renderPitJewelry(data) {
     results.replaceChildren(groups);
   };
 
+  const renderVariants = () => {
+    const available = new Set(activeRank.bosses.flatMap((boss) => boss.items.map((item) => item.variant)));
+    const options = Object.entries(variantLabels).filter(([variant]) => available.has(variant));
+    if (!available.has(activeVariant)) activeVariant = options[0][0];
+    variants.hidden = options.length < 2;
+    variantOptions.replaceChildren();
+    for (const [variant, label] of options) {
+      const button = el("button", "class-option", label);
+      button.type = "button";
+      button.setAttribute("aria-pressed", String(variant === activeVariant));
+      button.addEventListener("click", () => {
+        activeVariant = variant;
+        for (const option of variantOptions.children) option.setAttribute("aria-pressed", String(option === button));
+        refresh();
+      });
+      variantOptions.append(button);
+    }
+  };
+
   for (const rank of data.ranks) {
     const button = el("button", "class-option", rank.rank);
     button.type = "button";
@@ -514,18 +532,13 @@ function renderPitJewelry(data) {
     button.addEventListener("click", () => {
       activeRank = rank;
       for (const option of ranks.children) option.setAttribute("aria-pressed", String(option === button));
+      renderVariants();
       refresh();
     });
     ranks.append(button);
   }
-  for (const button of variantButtons) {
-    button.addEventListener("click", () => {
-      maVariant = button.value;
-      for (const option of variantButtons) option.setAttribute("aria-pressed", String(option === button));
-      refresh();
-    });
-  }
   search.addEventListener("input", refresh);
+  renderVariants();
   refresh();
 }
 
@@ -535,6 +548,7 @@ function renderJewelryItem(item) {
   heading.append(renderIcon(localIconUrl(item.icon), item.name, "branch-icon"), el("h3", "", item.name));
   const stats = el("dl", "jewelry-stats");
   stats.append(el("dt", "", "Магическая защита"), el("dd", "", item.magic_defense));
+  stats.append(el("dt", "", "ID предмета"), el("dd", "", item.item_id));
   if (item.gear_level != null) {
     stats.append(el("dt", "", "Уровень экипировки"), el("dd", "", item.gear_level));
   }

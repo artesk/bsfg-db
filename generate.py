@@ -21,6 +21,13 @@ SLUG_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 KNOWN_BRANCHES = {"base", "one", "two", "three"}
 CLIENT_RELEASE_PATTERN = re.compile(r"\d{4}\.\d{2}\.\d{2}\.\d{6}")
 ENCHANTMENT_PAGES = ("enchant-skills", "enchant-weapon")
+PROGRESSION_PAGES = {
+    "banners": "item_id",
+    "dragon-relics": "item_id",
+    "equipment-properties": "effect_id",
+    "military-service": None,
+}
+SERVICE_SLOTS = {"critical-power", "critical-chance", "attack", "speed"}
 CLASS_SKILL_LABELS = {
     "класс чародеев": "Чародеи",
     "класс тяжелых воинов": "Тяжёлые воины",
@@ -358,9 +365,71 @@ def load_pit_jewelry(content: Path) -> dict[str, Any] | None:
     return data
 
 
+def load_progression(content: Path, page: str) -> dict[str, Any]:
+    path = content / "specifications" / f"{page}.yaml"
+    data = require_mapping(load_yaml(path), path, page)
+    release = require_string(data, "client_release", path, page)
+    if not CLIENT_RELEASE_PATTERN.fullmatch(release):
+        fail(path, "client_release", "ожидался номер релиза клиента")
+    groups = require_list(data.get("groups"), path, "groups")
+    if not groups:
+        fail(path, "groups", "нужна хотя бы одна группа")
+    military = page == "military-service"
+    slots: set[tuple[str, str]] = set()
+    group_keys: set[str | int] = set()
+    record_ids: set[int] = set()
+    id_key = PROGRESSION_PAGES[page]
+    if military and (type(data.get("rank_limit")) is not int or data["rank_limit"] < 1):
+        fail(path, "rank_limit", "ожидался положительный целый ранг")
+    if military:
+        rank_icons = require_mapping(data.get("rank_icons"), path, "rank_icons")
+        for kind in ("order", "insignia", "medal"):
+            require_string(rank_icons, kind, path, "rank_icons")
+    for index, value in enumerate(groups):
+        location = f"groups[{index}]"
+        group = require_mapping(value, path, location)
+        name = require_string(group, "name", path, location)
+        key: str | int = name
+        if "icon" in group:
+            require_string(group, "icon", path, location)
+        if military:
+            key = group.get("skill_id")
+            if type(key) is not int or key < 1:
+                fail(path, f"{location}.skill_id", "ожидался положительный ID умения")
+            kind = require_string(group, "kind", path, location)
+            if kind not in {"award", "medal"}:
+                fail(path, f"{location}.kind", "ожидались награды или медали")
+            if "slot" in group:
+                slot = require_string(group, "slot", path, location)
+                if slot not in SERVICE_SLOTS or (kind, slot) in slots:
+                    fail(path, f"{location}.slot", "неизвестная или повторная ветка")
+                slots.add((kind, slot))
+        if key in group_keys:
+            fail(path, location, "повторная группа")
+        group_keys.add(key)
+        levels = require_list(group.get("levels"), path, f"{location}.levels")
+        if not levels:
+            fail(path, f"{location}.levels", "нужен хотя бы один уровень")
+        for level, value in enumerate(levels, start=1):
+            row_path = f"{location}.levels[{level - 1}]"
+            row = require_mapping(value, path, row_path)
+            if type(row.get("level")) is not int or row["level"] != level:
+                fail(path, f"{row_path}.level", "ожидались уровни от 1 без пропусков")
+            require_string(row, "effect", path, row_path)
+            if id_key:
+                record_id = row.get(id_key)
+                if type(record_id) is not int or record_id < 1 or record_id in record_ids:
+                    fail(path, f"{row_path}.{id_key}", "ожидался уникальный положительный ID")
+                record_ids.add(record_id)
+    if military and slots != {(kind, slot) for kind in ("award", "medal") for slot in SERVICE_SLOTS}:
+        fail(path, "groups", "для обоих типов нужны четыре ветки калькулятора")
+    return data
+
+
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
     enchantments = {page: load_enchantments(content, page) for page in ENCHANTMENT_PAGES}
+    progression = {page: load_progression(content, page) for page in PROGRESSION_PAGES}
     pit_jewelry = load_pit_jewelry(content)
     icons = {
         path.stem: f"assets/profession-icons/{path.name}"
@@ -443,6 +512,11 @@ def build(content: Path, output: Path) -> tuple[int, int]:
             write_json(enchant_output, data)
         else:
             enchant_output.unlink(missing_ok=True)
+    for page, data in progression.items():
+        for group in data["groups"]:
+            if group.get("icon") not in available_icons:
+                group.pop("icon", None)
+        write_json(output / "specifications" / f"{page}.json", data)
     jewelry_output = output / "items" / "pit-boss-jewelry.json"
     if pit_jewelry is not None:
         for rank in pit_jewelry["ranks"]:
@@ -473,6 +547,8 @@ def main() -> int:
             _, documents = load_content(args.content.resolve())
             for page in ENCHANTMENT_PAGES:
                 load_enchantments(args.content.resolve(), page)
+            for page in PROGRESSION_PAGES:
+                load_progression(args.content.resolve(), page)
             load_pit_jewelry(args.content.resolve())
             print(f"VALID professions={len(documents)} content={args.content.resolve()}")
             return 0

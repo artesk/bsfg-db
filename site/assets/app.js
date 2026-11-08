@@ -33,6 +33,29 @@ const ENCHANT_PAGES = new Map([
   }],
 ]);
 
+const PROGRESSION_PAGES = new Map([
+  ["/specifications/banners", {
+    title: "Знамёна", intro: "Сравните бонусы знамён по рангам.", label: "Знамя", level: "Ранг",
+  }],
+  ["/specifications/dragon-relics", {
+    title: "Реликвии драконов", intro: "Эффекты и активные умения реликвий по уровням.", label: "Реликвия", level: "Уровень",
+  }],
+  ["/specifications/equipment-properties", {
+    title: "Свойства экипировки", intro: "Найдите свойство и сравните его значения по уровням.", label: "Свойство", level: "Уровень",
+  }],
+  ["/specifications/military-service", {
+    title: "Награды и медали за военную службу", intro: "Распределите лычки или откройте таблицу эффектов.", label: "Эффект", level: "Уровень",
+  }],
+]);
+const MILITARY_PATH = "/specifications/military-service";
+const MILITARY_SLOTS = [
+  ["critical-power", "Сила критического удара"],
+  ["critical-chance", "Шанс критического удара"],
+  ["attack", "Физическая и магическая атака"],
+  ["speed", "Скорость атаки и каста"],
+  ["pvp", "PvP-урон и защита"],
+];
+
 const app = document.querySelector("#app");
 const siteLinks = document.querySelectorAll(".site-nav a");
 const enchantData = new Map();
@@ -473,6 +496,166 @@ async function loadJson(path) {
   return response.json();
 }
 
+function renderProgressionPage(path, page, data) {
+  document.title = page.title + " — База знаний BSFG";
+  app.replaceChildren(cloneTemplate("#progression-template"));
+  document.querySelector("#progression-heading").textContent = page.title;
+  document.querySelector("#progression-crumb").textContent = page.title;
+  document.querySelector("#progression-intro").textContent = page.intro;
+  document.querySelector("#progression-release").textContent = data.client_release;
+  document.querySelector("#progression-group-label").textContent = page.label;
+  const military = path === MILITARY_PATH;
+  if (military) renderMilitaryCalculator(data);
+  const search = document.querySelector("#progression-search");
+  const select = document.querySelector("#progression-group");
+  const results = document.querySelector("#progression-results");
+  const groups = data.groups.map((group, index) => ({
+    group, index: String(index),
+    label: military
+      ? (group.kind === "medal" ? "Медали" : "Награды") + " — " + group.name + " (" + group.skill_id + ")"
+      : group.name,
+  }));
+
+  const showGroup = () => {
+    const entry = groups.find(({index}) => index === select.value);
+    if (!entry) {
+      results.replaceChildren(el("p", "empty-state", "Совпадений нет."));
+      return;
+    }
+    const {group, label} = entry;
+    const idKey = group.levels[0].item_id ? "item_id" : "effect_id";
+    const showId = Boolean(group.levels[0][idKey]);
+    const card = el("article", "enchant-card progression-card");
+    const heading = el("header", "progression-card-heading");
+    if (group.icon) heading.append(renderIcon(localIconUrl(group.icon), group.name, "branch-icon"));
+    heading.append(el("h3", "", label));
+    const columns = [page.level, "Эффект"];
+    if (showId) columns.push("ID");
+    const table = createEnchantTable(label, columns);
+    const body = table.createTBody();
+    for (const row of group.levels) {
+      const entry = body.insertRow();
+      const level = el("th", "", row.level);
+      level.scope = "row";
+      entry.append(level, el("td", "progression-effect", row.effect));
+      if (showId) entry.append(el("td", "progression-id", row[idKey]));
+    }
+    card.append(heading, table);
+    results.replaceChildren(card);
+  };
+
+  const filterGroups = () => {
+    const query = normalize(search.value.trim());
+    const selected = select.value;
+    const matches = groups.filter(({group, label}) => normalize(label).includes(query)
+      || group.levels.some(row => normalize(row.effect).includes(query)));
+    select.replaceChildren(...matches.map(({index, label}) => new Option(label, index)));
+    select.disabled = matches.length === 0;
+    if (matches.some(({index}) => index === selected)) select.value = selected;
+    showGroup();
+  };
+  search.addEventListener("input", filterGroups);
+  select.addEventListener("change", showGroup);
+  filterGroups();
+}
+
+function renderMilitaryCalculator(data) {
+  const panel = document.querySelector("#progression-calculator");
+  panel.append(cloneTemplate("#military-calculator-template"));
+  const kind = panel.querySelector("#military-kind");
+  const awardIcon = panel.querySelector("#military-award-icon");
+  const rankInput = panel.querySelector("#military-rank");
+  const budget = panel.querySelector("#military-budget");
+  const progress = panel.querySelector("#military-progress");
+  const list = panel.querySelector("#military-slots");
+  const points = new Array(MILITARY_SLOTS.length).fill(0);
+  let rank = Math.min(30, data.rank_limit);
+  const used = () => points.reduce((total, value) => total + value, 0);
+  rankInput.max = data.rank_limit;
+  rankInput.value = rank;
+
+  const rows = MILITARY_SLOTS.map(([slot, title], index) => {
+    const row = el("li", "military-row");
+    const icon = el("span", "military-icon");
+    const name = el("h3", "", title);
+    const controls = el("div", "military-controls");
+    const input = el("input", "military-points");
+    input.type = "number";
+    input.min = 0;
+    input.step = 1;
+    input.inputMode = "numeric";
+    input.setAttribute("aria-label", title + " — лычки");
+    const next = el("span", "military-next");
+    const effect = el("p", "military-effect");
+    const adjust = (value) => {
+      const limit = rank - used() + points[index];
+      points[index] = Math.max(0, Math.min(limit, Math.trunc(value)));
+      refresh();
+    };
+    const button = (glyph, action, handle) => {
+      const element = el("button", "class-option", glyph);
+      element.type = "button";
+      element.title = action;
+      element.setAttribute("aria-label", action + " — " + title);
+      element.addEventListener("click", handle);
+      return element;
+    };
+    const minus = button("−", "Убрать одну лычку", () => adjust(points[index] - 1));
+    const plus = button("+", "Добавить одну лычку", () => adjust(points[index] + 1));
+    const fill = button("↑", "Вложить оставшиеся лычки", () => adjust(rank));
+    const clear = button("×", "Очистить ветку", () => adjust(0));
+    input.addEventListener("change", () => adjust(Number(input.value)));
+    controls.append(input, next, minus, plus, fill, clear);
+    row.append(icon, name, controls, effect);
+    list.append(row);
+    return {slot, icon, input, next, effect, minus, plus, fill, clear};
+  });
+
+  function refresh() {
+    const total = used();
+    const free = rank - total;
+    const series = kind.value === "medal" ? "medal" : "award";
+    budget.textContent = "Использовано лычек: " + total + " / " + rank + " · Свободно: " + free;
+    progress.max = rank;
+    progress.value = total;
+    rankInput.min = Math.max(1, total);
+    for (const [index, row] of rows.entries()) {
+      const value = points[index];
+      const group = data.groups.find(group => group.kind === series && group.slot === row.slot);
+      const iconPath = group?.icon || "";
+      if (row.icon.dataset.path !== iconPath) {
+        row.icon.replaceChildren(renderIcon(localIconUrl(iconPath), group?.name || "PvP", "branch-icon"));
+        row.icon.dataset.path = iconPath;
+      }
+      row.input.max = value + free;
+      row.input.value = value;
+      row.next.textContent = free ? "→ " + (value + 1) : "→ —";
+      row.next.title = free ? (group?.levels[value]?.effect ?? "Следующий уровень ветки") : "Свободных лычек нет";
+      row.minus.disabled = row.clear.disabled = value === 0;
+      row.plus.disabled = row.fill.disabled = free === 0;
+      row.effect.textContent = value === 0 ? "Лычки не вложены."
+        : group?.levels[value - 1]?.effect ?? "Числовое значение для этого уровня не подтверждено.";
+    }
+  }
+
+  rankInput.addEventListener("change", () => {
+    rank = Math.max(1, used(), Math.min(data.rank_limit, Math.trunc(Number(rankInput.value))));
+    rankInput.value = rank;
+    refresh();
+  });
+  function updateAward() {
+    const name = kind.selectedOptions[0].textContent;
+    awardIcon.replaceChildren(renderIcon(localIconUrl(data.rank_icons[kind.value]), name, "branch-icon"));
+    refresh();
+  }
+  kind.addEventListener("change", updateAward);
+  panel.querySelector("#military-reset").addEventListener("click", () => {
+    points.fill(0);
+    refresh();
+  });
+  updateAward();
+}
+
 function renderPitJewelry(data) {
   document.title = "Бижутерия Пит-боссов — База знаний BSFG";
   app.replaceChildren(cloneTemplate("#pit-jewelry-template"));
@@ -567,7 +750,8 @@ async function route() {
   const profession = path.match(/^\/(?:profession|professions)\/([^/?#]+)$/);
   const isProfessionSection = path === "/professions" || profession !== null;
   const enchantPage = ENCHANT_PAGES.get(path);
-  const isSpecifications = path === "/specifications" || enchantPage !== undefined;
+  const progressionPage = PROGRESSION_PAGES.get(path);
+  const isSpecifications = path === "/specifications" || enchantPage !== undefined || progressionPage !== undefined;
   let activeSection = path;
   if (isProfessionSection) activeSection = "/professions";
   else if (isSpecifications) activeSection = "/specifications";
@@ -602,6 +786,11 @@ async function route() {
       }
       if (version !== routeVersion) return;
       renderEnchantPage(enchantPage, enchantData.get(path));
+    } else if (progressionPage) {
+      app.replaceChildren(cloneTemplate("#loading-template"));
+      const data = await loadJson("data" + path + ".json");
+      if (version !== routeVersion) return;
+      renderProgressionPage(path, progressionPage, data);
     } else if (isProfessionSection) {
       if (!archiveIndex || profession) app.replaceChildren(cloneTemplate("#loading-template"));
       archiveIndex ??= await loadJson("data/index.json");

@@ -293,6 +293,26 @@ h1 {
   font-weight: 650;
 }
 .equipment-preview-meta { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+.equipment-preview-defense {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 13px;
+}
+.equipment-preview-defense dd {
+  margin: 0;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
 .equipment-preview-icons { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0; padding: 0; list-style: none; }
 .equipment-catalog .equipment-preview-icon {
   width: clamp(40px, 5vw, 64px);

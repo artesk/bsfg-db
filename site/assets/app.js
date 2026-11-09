@@ -873,16 +873,15 @@ function renderEquipmentPreview(variants, entry, dialog, statKeys) {
   heading.append(el("h3", "", first.name), el("span", "equipment-rank", first.rank || "Без ранга"));
   const subtitle = el("p", "equipment-preview-meta");
   const icons = el("ul", "equipment-preview-icons");
+  const defense = entry.set ? el("dl", "equipment-preview-defense") : null;
+  const defenseValue = defense && el("dd");
+  if (defense) defense.append(el("dt", "", "Физ. защита комплекта"), defenseValue);
   const actions = el("div", "equipment-preview-actions");
   const viewLabel = statKeys ? "Подробнее" : (entry.set ? "Смотреть комплект" : "Смотреть предмет");
   const view = el("button", "class-option equipment-preview-view", viewLabel);
-  const recipes = el("button", "class-option equipment-preview-recipes",
-    statKeys && first.recipes?.length === 1 ? "Рецепт" : "Рецепты");
-  for (const button of [view, recipes]) {
-    button.type = "button";
-    button.setAttribute("aria-label", button.textContent + " — " + first.name);
-    button.setAttribute("aria-haspopup", "dialog");
-  }
+  const recipes = statKeys && first.recipes?.length
+    ? el("button", "class-option equipment-preview-recipes", first.recipes.length === 1 ? "Рецепт" : "Рецепты")
+    : null;
   let active = entry;
   const updatePreview = (variant) => {
     active = variant;
@@ -898,24 +897,30 @@ function renderEquipmentPreview(variants, entry, dialog, statKeys) {
       );
       return icon;
     }));
-    recipes.hidden = !variant.items.some(piece => piece.recipes?.length);
+    if (defenseValue) {
+      const total = variant.items.reduce((sum, piece) => sum + (piece.stats?.pDefense ?? 0), 0);
+      defenseValue.textContent = EQUIPMENT_STAT_FORMAT.format(total);
+    }
   };
-  const open = (showRecipes) => {
+  const open = (showRecipes, trigger) => {
     dialog.querySelector("#equipment-dialog-title").textContent = first.name;
     const details = active.set
       ? renderEquipmentSet(variants, active, showRecipes, updatePreview)
       : renderEquipmentItem(active.items[0], showRecipes);
     dialog.querySelector(".equipment-dialog-content").replaceChildren(details);
     dialog.addEventListener("close", () => {
-      const trigger = showRecipes && !recipes.hidden ? recipes : view;
       trigger.focus({ preventScroll: true });
     }, { once: true });
     dialog.showModal();
     dialog.scrollTop = 0;
   };
-  view.addEventListener("click", () => open(false));
-  recipes.addEventListener("click", () => open(true));
-  actions.append(view, recipes);
+  for (const button of recipes ? [view, recipes] : [view]) {
+    button.type = "button";
+    button.setAttribute("aria-label", button.textContent + " — " + first.name);
+    button.setAttribute("aria-haspopup", "dialog");
+    button.addEventListener("click", () => open(button === recipes, button));
+    actions.append(button);
+  }
   identity.append(heading, subtitle);
   if (statKeys) {
     card.classList.add("weapon-preview");
@@ -924,7 +929,9 @@ function renderEquipmentPreview(variants, entry, dialog, statKeys) {
     card.append(header, renderWeaponPreviewStats(first, statKeys), actions);
   } else {
     header.append(identity);
-    card.append(header, icons, actions);
+    card.append(header, icons);
+    if (defense) card.append(defense);
+    card.append(actions);
   }
   updatePreview(entry);
   return card;

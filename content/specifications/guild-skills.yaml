@@ -1,0 +1,1100 @@
+client_release: 2026.11.06.171000
+study_buildings: Церковь (Империя), Святилище (Альянс), Алтарь (Доминион), Тотем (Орда), Дух машины (Союз), Храм (Легион)
+groups:
+- name: Слава гильдии
+  skill_id: 370
+  icon: /icon/guild-skills/icon.skill0373.png
+  description: Увеличивает максимум здоровья членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Максимум здоровья: 300ед.'
+    building_level: 1
+  - level: 2
+    effect: 'Максимум здоровья: 400ед.'
+    building_level: 2
+  - level: 3
+    effect: 'Максимум здоровья: 600ед.'
+    building_level: 3
+  - level: 4
+    effect: 'Максимум здоровья: 800ед.'
+    building_level: 4
+  - level: 5
+    effect: 'Максимум здоровья: 1000ед.'
+    building_level: 5
+  - level: 6
+    effect: 'Максимум здоровья: 1300ед.'
+    building_level: 6
+  - level: 7
+    effect: 'Максимум здоровья: 1600ед.'
+    building_level: 7
+  - level: 8
+    effect: 'Максимум здоровья: 1900ед.'
+    building_level: 7
+  - level: 9
+    effect: 'Максимум здоровья: 2200ед.'
+    building_level: 7
+  - level: 10
+    effect: 'Максимум здоровья: 2500ед.'
+    building_level: 7
+- name: Эссенция гильдии
+  skill_id: 371
+  icon: /icon/guild-skills/icon.skill0388.png
+  description: Уменьшает время перезарядки магических умений членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Время до повторного использования магических умений: -0.8%'
+    building_level: 1
+  - level: 2
+    effect: 'Время до повторного использования магических умений: -1.1%'
+    building_level: 2
+  - level: 3
+    effect: 'Время до повторного использования магических умений: -1.4%'
+    building_level: 3
+  - level: 4
+    effect: 'Время до повторного использования магических умений: -1.7%'
+    building_level: 4
+  - level: 5
+    effect: 'Время до повторного использования магических умений: -2%'
+    building_level: 5
+  - level: 6
+    effect: 'Время до повторного использования магических умений: -2.3%'
+    building_level: 6
+  - level: 7
+    effect: 'Время до повторного использования магических умений: -2.6%'
+    building_level: 7
+  - level: 8
+    effect: 'Время до повторного использования магических умений: -2.9%'
+    building_level: 7
+  - level: 9
+    effect: 'Время до повторного использования магических умений: -3.2%'
+    building_level: 7
+  - level: 10
+    effect: 'Время до повторного использования магических умений: -3.5%'
+    building_level: 7
+- name: Духовность гильдии
+  skill_id: 372
+  icon: /icon/guild-skills/icon.skill0375.png
+  description: Увеличивает максимум маны членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Максимум маны: 100ед.'
+    building_level: 1
+  - level: 2
+    effect: 'Максимум маны: 150ед.'
+    building_level: 2
+  - level: 3
+    effect: 'Максимум маны: 200ед.'
+    building_level: 3
+  - level: 4
+    effect: 'Максимум маны: 250ед.'
+    building_level: 4
+  - level: 5
+    effect: 'Максимум маны: 300ед.'
+    building_level: 5
+  - level: 6
+    effect: 'Максимум маны: 350ед.'
+    building_level: 6
+  - level: 7
+    effect: 'Максимум маны: 400ед.'
+    building_level: 7
+  - level: 8
+    effect: 'Максимум маны: 450ед.'
+    building_level: 7
+  - level: 9
+    effect: 'Максимум маны: 500ед.'
+    building_level: 7
+  - level: 10
+    effect: 'Максимум маны: 550ед.'
+    building_level: 7
+- name: Регенерация гильдии
+  skill_id: 373
+  icon: /icon/guild-skills/icon.skill0370.png
+  description: Увеличивает регенерацию здоровья членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 14ед.'
+    building_level: 1
+  - level: 2
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 18ед.'
+    building_level: 2
+  - level: 3
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 22ед.'
+    building_level: 3
+  - level: 4
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 26ед.'
+    building_level: 4
+  - level: 5
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 30ед.'
+    building_level: 5
+  - level: 6
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 34ед.'
+    building_level: 6
+  - level: 7
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 38ед.'
+    building_level: 7
+  - level: 8
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 42ед.'
+    building_level: 7
+  - level: 9
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 46ед.'
+    building_level: 7
+  - level: 10
+    effect: 'Регенерация здоровья каждые 4 секунды (Любая броня): 50ед.'
+    building_level: 7
+- name: Мораль гильдии
+  skill_id: 374
+  icon: /icon/skill19011.jpg
+  description: Уменьшает время перезарядки физических умений членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Время до повторного использования физических умений: -0.8%'
+    building_level: 1
+  - level: 2
+    effect: 'Время до повторного использования физических умений: -1.1%'
+    building_level: 2
+  - level: 3
+    effect: 'Время до повторного использования физических умений: -1.4%'
+    building_level: 3
+  - level: 4
+    effect: 'Время до повторного использования физических умений: -1.7%'
+    building_level: 4
+  - level: 5
+    effect: 'Время до повторного использования физических умений: -2%'
+    building_level: 5
+  - level: 6
+    effect: 'Время до повторного использования физических умений: -2.3%'
+    building_level: 6
+  - level: 7
+    effect: 'Время до повторного использования физических умений: -2.6%'
+    building_level: 7
+  - level: 8
+    effect: 'Время до повторного использования физических умений: -2.9%'
+    building_level: 7
+  - level: 9
+    effect: 'Время до повторного использования физических умений: -3.2%'
+    building_level: 7
+  - level: 10
+    effect: 'Время до повторного использования физических умений: -3.5%'
+    building_level: 7
+- name: Дух гильдии
+  skill_id: 375
+  icon: /icon/guild-skills/icon.skill0372.png
+  description: Увеличивает силу критического удара магией у членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Сила крит. атаки магии: 1%'
+    building_level: 1
+  - level: 2
+    effect: 'Сила крит. атаки магии: 2%'
+    building_level: 2
+  - level: 3
+    effect: 'Сила крит. атаки магии: 3%'
+    building_level: 3
+  - level: 4
+    effect: 'Сила крит. атаки магии: 4%'
+    building_level: 4
+  - level: 5
+    effect: 'Сила крит. атаки магии: 5%'
+    building_level: 5
+  - level: 6
+    effect: —
+    building_level: 6
+  - level: 7
+    effect: —
+    building_level: 7
+  - level: 8
+    effect: —
+    building_level: 7
+  - level: 9
+    effect: —
+    building_level: 7
+  - level: 10
+    effect: —
+    building_level: 7
+  note: Уровни 6–10 есть в клиенте. Их числовые бонусы в слепке отсутствуют.
+- name: Могущество гильдии
+  skill_id: 376
+  icon: /icon/guild-skills/icon.skill0376.png
+  description: Увеличивает физическую атаку у членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Физическая атака (Все): 1.5%'
+    building_level: 1
+  - level: 2
+    effect: 'Физическая атака (Все): 1.8%'
+    building_level: 2
+  - level: 3
+    effect: 'Физическая атака (Все): 2.2%'
+    building_level: 3
+  - level: 4
+    effect: 'Физическая атака (Все): 2.6%'
+    building_level: 4
+  - level: 5
+    effect: 'Физическая атака (Все): 3%'
+    building_level: 5
+  - level: 6
+    effect: 'Физическая атака (Все): 3.4%'
+    building_level: 6
+  - level: 7
+    effect: 'Физическая атака (Все): 3.8%'
+    building_level: 7
+  - level: 8
+    effect: 'Физическая атака (Все): 4.2%'
+    building_level: 7
+  - level: 9
+    effect: 'Физическая атака (Все): 4.6%'
+    building_level: 7
+  - level: 10
+    effect: 'Физическая атака (Все): 5%'
+    building_level: 7
+- name: Защита гильдии
+  skill_id: 377
+  icon: /icon/guild-skills/icon.skill0377.png
+  description: Увеличивает физическую защиту членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Физическая защита (Любая броня): 1%'
+    building_level: 1
+  - level: 2
+    effect: 'Физическая защита (Любая броня): 1.6%'
+    building_level: 2
+  - level: 3
+    effect: 'Физическая защита (Любая броня): 2.2%'
+    building_level: 3
+  - level: 4
+    effect: 'Физическая защита (Любая броня): 2.8%'
+    building_level: 4
+  - level: 5
+    effect: 'Физическая защита (Любая броня): 3.4%'
+    building_level: 5
+  - level: 6
+    effect: 'Физическая защита (Любая броня): 4%'
+    building_level: 6
+  - level: 7
+    effect: 'Физическая защита (Любая броня): 4.6%'
+    building_level: 7
+  - level: 8
+    effect: 'Физическая защита (Любая броня): 5.2%'
+    building_level: 7
+  - level: 9
+    effect: 'Физическая защита (Любая броня): 5.8%'
+    building_level: 7
+  - level: 10
+    effect: 'Физическая защита (Любая броня): 6.4%'
+    building_level: 7
+- name: Благородство гильдии
+  skill_id: 378
+  icon: /icon/guild-skills/icon.skill0378.png
+  description: Увеличивает магическую атаку у членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Магическая атака (Любая броня): 1.4%'
+    building_level: 1
+  - level: 2
+    effect: 'Магическая атака (Любая броня): 1.8%'
+    building_level: 2
+  - level: 3
+    effect: 'Магическая атака (Любая броня): 2.2%'
+    building_level: 3
+  - level: 4
+    effect: 'Магическая атака (Любая броня): 2.6%'
+    building_level: 4
+  - level: 5
+    effect: 'Магическая атака (Любая броня): 3%'
+    building_level: 5
+  - level: 6
+    effect: 'Магическая атака (Любая броня): 3.4%'
+    building_level: 6
+  - level: 7
+    effect: 'Магическая атака (Любая броня): 3.8%'
+    building_level: 7
+  - level: 8
+    effect: 'Магическая атака (Любая броня): 4.2%'
+    building_level: 7
+  - level: 9
+    effect: 'Магическая атака (Любая броня): 4.6%'
+    building_level: 7
+  - level: 10
+    effect: 'Магическая атака (Любая броня): 5%'
+    building_level: 7
+- name: Барьер гильдии
+  skill_id: 379
+  icon: /icon/guild-skills/icon.skill0379.png
+  description: Увеличивает магическую защиту членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Магическая защита (Любая броня): 1%'
+    building_level: 1
+  - level: 2
+    effect: 'Магическая защита (Любая броня): 1.6%'
+    building_level: 2
+  - level: 3
+    effect: 'Магическая защита (Любая броня): 2.2%'
+    building_level: 3
+  - level: 4
+    effect: 'Магическая защита (Любая броня): 2.8%'
+    building_level: 4
+  - level: 5
+    effect: 'Магическая защита (Любая броня): 3.4%'
+    building_level: 5
+  - level: 6
+    effect: 'Магическая защита (Любая броня): 4%'
+    building_level: 6
+  - level: 7
+    effect: 'Магическая защита (Любая броня): 4.6%'
+    building_level: 7
+  - level: 8
+    effect: 'Магическая защита (Любая броня): 5.2%'
+    building_level: 7
+  - level: 9
+    effect: 'Магическая защита (Любая броня): 5.8%'
+    building_level: 7
+  - level: 10
+    effect: 'Магическая защита (Любая броня): 6.4%'
+    building_level: 7
+- name: Точность гильдии
+  skill_id: 380
+  icon: /icon/guild-skills/icon.skill0380.png
+  description: Увеличивает меткость членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Меткость (Все): 4ед.'
+    building_level: 1
+  - level: 2
+    effect: 'Меткость (Все): 5ед.'
+    building_level: 2
+  - level: 3
+    effect: 'Меткость (Все): 6ед.'
+    building_level: 3
+  - level: 4
+    effect: 'Меткость (Все): 7ед.'
+    building_level: 4
+  - level: 5
+    effect: 'Меткость (Все): 8ед.'
+    building_level: 5
+  - level: 6
+    effect: 'Меткость (Все): 9ед.'
+    building_level: 6
+  - level: 7
+    effect: 'Меткость (Все): 10ед.'
+    building_level: 7
+  - level: 8
+    effect: 'Меткость (Все): 11ед.'
+    building_level: 7
+  - level: 9
+    effect: 'Меткость (Все): 12ед.'
+    building_level: 7
+  - level: 10
+    effect: 'Меткость (Все): 13ед.'
+    building_level: 7
+- name: Ловкость гильдии
+  skill_id: 381
+  icon: /icon/guild-skills/icon.skill0381.png
+  description: Увеличивает ловкость членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Уклонение (Любая броня): 1ед.'
+    building_level: 1
+  - level: 2
+    effect: 'Уклонение (Любая броня): 2ед.'
+    building_level: 2
+  - level: 3
+    effect: 'Уклонение (Любая броня): 3ед.'
+    building_level: 3
+  - level: 4
+    effect: 'Уклонение (Любая броня): 4ед.'
+    building_level: 4
+  - level: 5
+    effect: 'Уклонение (Любая броня): 5ед.'
+    building_level: 5
+  - level: 6
+    effect: 'Уклонение (Любая броня): 6ед.'
+    building_level: 6
+  - level: 7
+    effect: 'Уклонение (Любая броня): 7ед.'
+    building_level: 7
+  - level: 8
+    effect: 'Уклонение (Любая броня): 8ед.'
+    building_level: 7
+  - level: 9
+    effect: 'Уклонение (Любая броня): 9ед.'
+    building_level: 7
+  - level: 10
+    effect: 'Уклонение (Любая броня): 10ед.'
+    building_level: 7
+- name: Защита от монстров гильдии
+  skill_id: 382
+  icon: /icon/guild-skills/icon.skill0386.png
+  description: Увеличивает защиту членов гильдии от атак монстров.
+  levels:
+  - level: 1
+    effect: 'Защита от монстров: 1%'
+    building_level: 1
+  - level: 2
+    effect: 'Защита от монстров: 2%'
+    building_level: 2
+  - level: 3
+    effect: 'Защита от монстров: 3%'
+    building_level: 3
+  - level: 4
+    effect: 'Защита от монстров: 4%'
+    building_level: 4
+  - level: 5
+    effect: 'Защита от монстров: 5%'
+    building_level: 5
+  - level: 6
+    effect: 'Защита от монстров: 6%'
+    building_level: 6
+  - level: 7
+    effect: 'Защита от монстров: 7%'
+    building_level: 7
+  - level: 8
+    effect: 'Защита от монстров: 8%'
+    building_level: 7
+  - level: 9
+    effect: 'Защита от монстров: 9%'
+    building_level: 7
+  - level: 10
+    effect: 'Защита от монстров: 10%'
+    building_level: 7
+- name: Охота гильдии
+  skill_id: 383
+  icon: /icon/guild-skills/icon.skill0374.png
+  description: Увеличивает повреждения по монстрам для членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Увеличения урона по монстрам: 1%'
+    building_level: 1
+  - level: 2
+    effect: 'Увеличения урона по монстрам: 2%'
+    building_level: 2
+  - level: 3
+    effect: 'Увеличения урона по монстрам: 3%'
+    building_level: 3
+  - level: 4
+    effect: 'Увеличения урона по монстрам: 4%'
+    building_level: 4
+  - level: 5
+    effect: 'Увеличения урона по монстрам: 5%'
+    building_level: 5
+  - level: 6
+    effect: 'Увеличения урона по монстрам: 6%'
+    building_level: 6
+  - level: 7
+    effect: 'Увеличения урона по монстрам: 7%'
+    building_level: 7
+  - level: 8
+    effect: 'Увеличения урона по монстрам: 8%'
+    building_level: 7
+  - level: 9
+    effect: 'Увеличения урона по монстрам: 9%'
+    building_level: 7
+  - level: 10
+    effect: 'Увеличения урона по монстрам: 10%'
+    building_level: 7
+- name: Магический вампиризм гильдии
+  skill_id: 384
+  icon: /icon/guild-skills/icon.skill19015.png
+  description: Магические атаки членов гильдии будут восполнять здоровье в зависимости от повреждений.
+  levels:
+  - level: 1
+    effect: 'Магический вампиризм: 1%'
+    building_level: 3
+  - level: 2
+    effect: 'Магический вампиризм: 2%'
+    building_level: 4
+  - level: 3
+    effect: 'Магический вампиризм: 3%'
+    building_level: 5
+  - level: 4
+    effect: 'Магический вампиризм: 4%'
+    building_level: 6
+  - level: 5
+    effect: 'Магический вампиризм: 5%'
+    building_level: 7
+- name: Вампиризм гильдии
+  skill_id: 385
+  icon: /icon/guild-skills/icon.skill0371.png
+  description: Физические атаки членов гильдии в ближнем бою будут восполнять здоровье в зависимости от повреждений.
+  levels:
+  - level: 1
+    effect: 'Вампиризм: 1%'
+    building_level: 3
+  - level: 2
+    effect: 'Вампиризм: 2%'
+    building_level: 4
+  - level: 3
+    effect: 'Вампиризм: 3%'
+    building_level: 5
+  - level: 4
+    effect: 'Вампиризм: 4%'
+    building_level: 6
+  - level: 5
+    effect: 'Вампиризм: 5%'
+    building_level: 7
+- name: Клерики гильдии
+  skill_id: 386
+  icon: /icon/skill19004.jpg
+  description: Увеличивает силу заклинаний лечения и восстановления боевого духа членов гильдии.
+  levels:
+  - level: 1
+    effect: |-
+      Сила лечения: 1%
+      Сила восстановления боевого духа: 0.5%
+    building_level: 3
+  - level: 2
+    effect: |-
+      Сила лечения: 2%
+      Сила восстановления боевого духа: 1%
+    building_level: 4
+  - level: 3
+    effect: |-
+      Сила лечения: 3%
+      Сила восстановления боевого духа: 1.5%
+    building_level: 5
+  - level: 4
+    effect: |-
+      Сила лечения: 4%
+      Сила восстановления боевого духа: 2%
+    building_level: 6
+  - level: 5
+    effect: |-
+      Сила лечения: 5%
+      Сила восстановления боевого духа: 2.5%
+    building_level: 7
+- name: Лечение гильдии
+  skill_id: 387
+  icon: /icon/guild-skills/icon.skill19005.png
+  description: Увеличивает эффект лечения и восстановления боевого духа у членов гильдии.
+  levels:
+  - level: 1
+    effect: |-
+      Эффект лечения: 1%
+      Эффективность восстановления боевого духа: 0.5%
+    building_level: 3
+  - level: 2
+    effect: |-
+      Эффект лечения: 2%
+      Эффективность восстановления боевого духа: 1%
+    building_level: 4
+  - level: 3
+    effect: |-
+      Эффект лечения: 3%
+      Эффективность восстановления боевого духа: 1.5%
+    building_level: 5
+  - level: 4
+    effect: |-
+      Эффект лечения: 4%
+      Эффективность восстановления боевого духа: 2%
+    building_level: 6
+  - level: 5
+    effect: |-
+      Эффект лечения: 5%
+      Эффективность восстановления боевого духа: 2.5%
+    building_level: 7
+- name: Критическая магия гильдии
+  skill_id: 388
+  icon: /icon/guild-skills/icon.skill19007.png
+  description: Увеличивает шанс критической магии у членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Шанс крит. атаки магии: 1ед.'
+    building_level: 3
+  - level: 2
+    effect: 'Шанс крит. атаки магии: 2ед.'
+    building_level: 5
+  - level: 3
+    effect: 'Шанс крит. атаки магии: 3ед.'
+    building_level: 7
+- name: Марш гильдии
+  skill_id: 389
+  icon: /icon/guild-skills/icon.skill0389.png
+  description: Увеличивает скорость передвижения у членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Скорость передвижения (Любая броня): 1ед.'
+    building_level: 3
+  - level: 2
+    effect: 'Скорость передвижения (Любая броня): 2ед.'
+    building_level: 4
+  - level: 3
+    effect: 'Скорость передвижения (Любая броня): 3ед.'
+    building_level: 5
+  - level: 4
+    effect: 'Скорость передвижения (Любая броня): 4ед.'
+    building_level: 6
+  - level: 5
+    effect: 'Скорость передвижения (Любая броня): 5ед.'
+    building_level: 7
+- name: Критические атаки гильдии
+  skill_id: 390
+  icon: /icon/guild-skills/icon.skill19017.png
+  description: Увеличивает шанс критической атаки у членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Шанс критического урона: 1.6%'
+    building_level: 3
+  - level: 2
+    effect: 'Шанс критического урона: 3.2%'
+    building_level: 4
+  - level: 3
+    effect: 'Шанс критического урона: 4.8%'
+    building_level: 5
+  - level: 4
+    effect: 'Шанс критического урона: 6.4%'
+    building_level: 6
+  - level: 5
+    effect: 'Шанс критического урона: 8%'
+    building_level: 7
+- name: Боевой дух гильдии
+  skill_id: 391
+  icon: /icon/guild-skills/icon.skill0383.png
+  description: Увеличивает максимум боевого духа членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Максимум боевого духа: 500ед.'
+    building_level: 1
+  - level: 2
+    effect: 'Максимум боевого духа: 700ед.'
+    building_level: 2
+  - level: 3
+    effect: 'Максимум боевого духа: 900ед.'
+    building_level: 3
+  - level: 4
+    effect: 'Максимум боевого духа: 1100ед.'
+    building_level: 4
+  - level: 5
+    effect: 'Максимум боевого духа: 1300ед.'
+    building_level: 5
+  - level: 6
+    effect: 'Максимум боевого духа: 1500ед.'
+    building_level: 6
+  - level: 7
+    effect: 'Максимум боевого духа: 1700ед.'
+    building_level: 7
+  - level: 8
+    effect: 'Максимум боевого духа: 1900ед.'
+    building_level: 7
+  - level: 9
+    effect: 'Максимум боевого духа: 2100ед.'
+    building_level: 7
+  - level: 10
+    effect: 'Максимум боевого духа: 2300ед.'
+    building_level: 7
+- name: Убийцы гильдии
+  skill_id: 392
+  icon: /icon/guild-skills/icon.skill19012.png
+  description: Увеличивает силу критических ударов членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Сила крит. удара: 1.5%'
+    building_level: 1
+  - level: 2
+    effect: 'Сила крит. удара: 1.8%'
+    building_level: 2
+  - level: 3
+    effect: 'Сила крит. удара: 2.2%'
+    building_level: 3
+  - level: 4
+    effect: 'Сила крит. удара: 2.6%'
+    building_level: 4
+  - level: 5
+    effect: 'Сила крит. удара: 3%'
+    building_level: 5
+  - level: 6
+    effect: 'Сила крит. удара: 3.4%'
+    building_level: 6
+  - level: 7
+    effect: 'Сила крит. удара: 3.8%'
+    building_level: 7
+  - level: 8
+    effect: 'Сила крит. удара: 4.2%'
+    building_level: 7
+  - level: 9
+    effect: 'Сила крит. удара: 4.6%'
+    building_level: 7
+  - level: 10
+    effect: 'Сила крит. удара: 5%'
+    building_level: 7
+- name: Рвение гильдии
+  skill_id: 393
+  icon: /icon/guild-skills/icon.skill19009.png
+  description: Увеличивает регенерацию боевого духа членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Регенерация боевого духа (Любая броня): 14ед.'
+    building_level: 1
+  - level: 2
+    effect: 'Регенерация боевого духа (Любая броня): 18ед.'
+    building_level: 2
+  - level: 3
+    effect: 'Регенерация боевого духа (Любая броня): 22ед.'
+    building_level: 3
+  - level: 4
+    effect: 'Регенерация боевого духа (Любая броня): 26ед.'
+    building_level: 4
+  - level: 5
+    effect: 'Регенерация боевого духа (Любая броня): 30ед.'
+    building_level: 5
+  - level: 6
+    effect: 'Регенерация боевого духа (Любая броня): 34ед.'
+    building_level: 6
+  - level: 7
+    effect: 'Регенерация боевого духа (Любая броня): 38ед.'
+    building_level: 7
+  - level: 8
+    effect: 'Регенерация боевого духа (Любая броня): 42ед.'
+    building_level: 7
+  - level: 9
+    effect: 'Регенерация боевого духа (Любая броня): 46ед.'
+    building_level: 7
+  - level: 10
+    effect: 'Регенерация боевого духа (Любая броня): 50ед.'
+    building_level: 7
+- name: Жалование гильдии
+  skill_id: 394
+  icon: /icon/guild-skills/icon.skill0390.png
+  description: Увеличивает получение желования во время боевых действий для членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Бонус получаемого жалования: 4ед.'
+    building_level: 1
+  - level: 2
+    effect: 'Бонус получаемого жалования: 8ед.'
+    building_level: 2
+  - level: 3
+    effect: 'Бонус получаемого жалования: 12ед.'
+    building_level: 3
+  - level: 4
+    effect: 'Бонус получаемого жалования: 16ед.'
+    building_level: 4
+  - level: 5
+    effect: 'Бонус получаемого жалования: 20ед.'
+    building_level: 5
+  - level: 6
+    effect: 'Бонус получаемого жалования: 24ед.'
+    building_level: 6
+  - level: 7
+    effect: 'Бонус получаемого жалования: 28ед.'
+    building_level: 7
+  - level: 8
+    effect: 'Бонус получаемого жалования: 32ед.'
+    building_level: 7
+  - level: 9
+    effect: 'Бонус получаемого жалования: 36ед.'
+    building_level: 7
+  - level: 10
+    effect: 'Бонус получаемого жалования: 40ед.'
+    building_level: 7
+- name: Ресурсы гильдии
+  skill_id: 395
+  icon: /icon/guild-skills/icon.skill0382.png
+  description: Увеличивает получение ресурсов и ингредиентов алхимии для членов гильдии.
+  levels:
+  - level: 1
+    effect: —
+    building_level: 1
+  - level: 2
+    effect: —
+    building_level: 2
+  - level: 3
+    effect: —
+    building_level: 3
+  - level: 4
+    effect: —
+    building_level: 4
+  - level: 5
+    effect: —
+    building_level: 5
+  - level: 6
+    effect: —
+    building_level: 6
+  - level: 7
+    effect: —
+    building_level: 7
+  - level: 8
+    effect: —
+    building_level: 7
+  - level: 9
+    effect: —
+    building_level: 7
+  - level: 10
+    effect: —
+    building_level: 7
+  note: В слепке указан бонус к мане. Числовой бонус к ресурсам и ингредиентам не подтверждён.
+- name: Сбор гильдии
+  skill_id: 396
+  icon: /icon/guild-skills/icon.skill0387.png
+  description: Увеличивает шанс получить предметы с монстров для членов гильдии.
+  levels:
+  - level: 1
+    effect: 'Шанс получения предметов с монстров: 1%'
+    building_level: 1
+  - level: 2
+    effect: 'Шанс получения предметов с монстров: 2%'
+    building_level: 2
+  - level: 3
+    effect: 'Шанс получения предметов с монстров: 3%'
+    building_level: 3
+  - level: 4
+    effect: 'Шанс получения предметов с монстров: 4%'
+    building_level: 4
+  - level: 5
+    effect: 'Шанс получения предметов с монстров: 5%'
+    building_level: 5
+  - level: 6
+    effect: 'Шанс получения предметов с монстров: 6%'
+    building_level: 6
+  - level: 7
+    effect: 'Шанс получения предметов с монстров: 7%'
+    building_level: 7
+  - level: 8
+    effect: 'Шанс получения предметов с монстров: 8%'
+    building_level: 7
+  - level: 9
+    effect: 'Шанс получения предметов с монстров: 9%'
+    building_level: 7
+  - level: 10
+    effect: 'Шанс получения предметов с монстров: 10%'
+    building_level: 7
+- name: Механизм воодушевления воителей гильдии
+  skill_id: 21714
+  icon: /icon/guild-skills/bsfg.focus_chance.png
+  description: На небольшой промежуток времени увеличивает скорость бега, PVP урон и PVP защиту членам гильдии.
+  levels:
+  - level: 1
+    effect: |-
+      Скорость передвижения (Любая броня): 1ед.
+      Физический урон в PVP: 1%
+      Сила физических умений в PVP: 1%
+      Сила магических умений в PVP: 1%
+      Физическая защита в PVP (Любая броня): 1%
+      Магическая защита в PVP (Любая броня): 1%
+  - level: 2
+    effect: |-
+      Скорость передвижения (Любая броня): 2ед.
+      Физический урон в PVP: 2%
+      Сила физических умений в PVP: 2%
+      Сила магических умений в PVP: 2%
+      Физическая защита в PVP (Любая броня): 2%
+      Магическая защита в PVP (Любая броня): 2%
+  - level: 3
+    effect: |-
+      Скорость передвижения (Любая броня): 3ед.
+      Физический урон в PVP: 3%
+      Сила физических умений в PVP: 3%
+      Сила магических умений в PVP: 3%
+      Физическая защита в PVP (Любая броня): 3%
+      Магическая защита в PVP (Любая броня): 3%
+  - level: 4
+    effect: |-
+      Скорость передвижения (Любая броня): 4ед.
+      Физический урон в PVP: 4%
+      Сила физических умений в PVP: 4%
+      Сила магических умений в PVP: 4%
+      Физическая защита в PVP (Любая броня): 4%
+      Магическая защита в PVP (Любая броня): 4%
+  - level: 5
+    effect: |-
+      Скорость передвижения (Любая броня): 5ед.
+      Физический урон в PVP: 5%
+      Сила физических умений в PVP: 5%
+      Сила магических умений в PVP: 5%
+      Физическая защита в PVP (Любая броня): 5%
+      Магическая защита в PVP (Любая броня): 5%
+  - level: 6
+    effect: |-
+      Скорость передвижения (Любая броня): 6ед.
+      Физический урон в PVP: 5.5%
+      Сила физических умений в PVP: 5.5%
+      Сила магических умений в PVP: 5.5%
+      Физическая защита в PVP (Любая броня): 5.5%
+      Магическая защита в PVP (Любая броня): 5.5%
+  - level: 7
+    effect: |-
+      Скорость передвижения (Любая броня): 7ед.
+      Физический урон в PVP: 6%
+      Сила физических умений в PVP: 6%
+      Сила магических умений в PVP: 6%
+      Физическая защита в PVP (Любая броня): 6%
+      Магическая защита в PVP (Любая броня): 6%
+  - level: 8
+    effect: |-
+      Скорость передвижения (Любая броня): 8ед.
+      Физический урон в PVP: 6.5%
+      Сила физических умений в PVP: 6.5%
+      Сила магических умений в PVP: 6.5%
+      Физическая защита в PVP (Любая броня): 6.5%
+      Магическая защита в PVP (Любая броня): 6.5%
+  - level: 9
+    effect: |-
+      Скорость передвижения (Любая броня): 9ед.
+      Физический урон в PVP: 7%
+      Сила физических умений в PVP: 7%
+      Сила магических умений в PVP: 7%
+      Физическая защита в PVP (Любая броня): 7%
+      Магическая защита в PVP (Любая броня): 7%
+  - level: 10
+    effect: |-
+      Скорость передвижения (Любая броня): 10ед.
+      Физический урон в PVP: 7.5%
+      Сила физических умений в PVP: 7.5%
+      Сила магических умений в PVP: 7.5%
+      Физическая защита в PVP (Любая броня): 7.5%
+      Магическая защита в PVP (Любая броня): 7.5%
+  - level: 11
+    effect: |-
+      Скорость передвижения (Любая броня): 11ед.
+      Физический урон в PVP: 8%
+      Сила физических умений в PVP: 8%
+      Сила магических умений в PVP: 8%
+      Физическая защита в PVP (Любая броня): 8%
+      Магическая защита в PVP (Любая броня): 8%
+  - level: 12
+    effect: |-
+      Скорость передвижения (Любая броня): 12ед.
+      Физический урон в PVP: 8.5%
+      Сила физических умений в PVP: 8.5%
+      Сила магических умений в PVP: 8.5%
+      Физическая защита в PVP (Любая броня): 8.5%
+      Магическая защита в PVP (Любая броня): 8.5%
+  - level: 13
+    effect: |-
+      Скорость передвижения (Любая броня): 13ед.
+      Физический урон в PVP: 9%
+      Сила физических умений в PVP: 9%
+      Сила магических умений в PVP: 9%
+      Физическая защита в PVP (Любая броня): 9%
+      Магическая защита в PVP (Любая броня): 9%
+  - level: 14
+    effect: |-
+      Скорость передвижения (Любая броня): 14ед.
+      Физический урон в PVP: 9.5%
+      Сила физических умений в PVP: 9.5%
+      Сила магических умений в PVP: 9.5%
+      Физическая защита в PVP (Любая броня): 9.5%
+      Магическая защита в PVP (Любая броня): 9.5%
+  - level: 15
+    effect: |-
+      Скорость передвижения (Любая броня): 15ед.
+      Физический урон в PVP: 10%
+      Сила физических умений в PVP: 10%
+      Сила магических умений в PVP: 10%
+      Физическая защита в PVP (Любая броня): 10%
+      Магическая защита в PVP (Любая броня): 10%
+- name: Механизм благословения гильдии
+  skill_id: 21715
+  icon: /icon/guild-skills/bsfg.guild_blessing.png
+  description: На длительный период времени увеличивает членам гильдии урон по монстрам, опыт при охоте на монстров и количество
+    получаемого жалования.
+  levels:
+  - level: 1
+    effect: |-
+      Получаемый опыт: 2%
+      Увеличения урона по монстрам: 2%
+      Бонус получаемого жалования: 10ед.
+  - level: 2
+    effect: |-
+      Получаемый опыт: 4%
+      Увеличения урона по монстрам: 4%
+      Бонус получаемого жалования: 10ед.
+  - level: 3
+    effect: |-
+      Получаемый опыт: 5%
+      Увеличения урона по монстрам: 5%
+      Бонус получаемого жалования: 10ед.
+  - level: 4
+    effect: |-
+      Получаемый опыт: 6%
+      Увеличения урона по монстрам: 6%
+      Бонус получаемого жалования: 10ед.
+  - level: 5
+    effect: |-
+      Получаемый опыт: 7%
+      Увеличения урона по монстрам: 7%
+      Бонус получаемого жалования: 10ед.
+  - level: 6
+    effect: |-
+      Получаемый опыт: 8%
+      Увеличения урона по монстрам: 8%
+      Бонус получаемого жалования: 10ед.
+  - level: 7
+    effect: |-
+      Получаемый опыт: 9%
+      Увеличения урона по монстрам: 9%
+      Бонус получаемого жалования: 10ед.
+  - level: 8
+    effect: |-
+      Получаемый опыт: 10%
+      Увеличения урона по монстрам: 10%
+      Бонус получаемого жалования: 10ед.
+  - level: 9
+    effect: |-
+      Получаемый опыт: 11%
+      Увеличения урона по монстрам: 11%
+      Бонус получаемого жалования: 10ед.
+  - level: 10
+    effect: |-
+      Получаемый опыт: 12%
+      Увеличения урона по монстрам: 12%
+      Бонус получаемого жалования: 10ед.
+  - level: 11
+    effect: |-
+      Получаемый опыт: 13%
+      Увеличения урона по монстрам: 13%
+      Бонус получаемого жалования: 10ед.
+  - level: 12
+    effect: |-
+      Получаемый опыт: 14%
+      Увеличения урона по монстрам: 14%
+      Бонус получаемого жалования: 10ед.
+  - level: 13
+    effect: |-
+      Получаемый опыт: 15%
+      Увеличения урона по монстрам: 15%
+      Бонус получаемого жалования: 10ед.
+  - level: 14
+    effect: |-
+      Получаемый опыт: 16%
+      Увеличения урона по монстрам: 16%
+      Бонус получаемого жалования: 10ед.
+  - level: 15
+    effect: |-
+      Получаемый опыт: 17%
+      Увеличения урона по монстрам: 17%
+      Бонус получаемого жалования: 10ед.
+- name: Механизм воодушевления охотников гильдии
+  skill_id: 21716
+  icon: /icon/guild-skills/bsfg.guild_recovery.png
+  description: На небольшой промежуток времени увеличивает членам гильдии урон по монстрам.
+  levels:
+  - level: 1
+    effect: 'Увеличения урона по монстрам: 10%'
+  - level: 2
+    effect: 'Увеличения урона по монстрам: 20%'
+  - level: 3
+    effect: 'Увеличения урона по монстрам: 30%'
+  - level: 4
+    effect: 'Увеличения урона по монстрам: 40%'
+  - level: 5
+    effect: 'Увеличения урона по монстрам: 50%'
+  - level: 6
+    effect: 'Увеличения урона по монстрам: 60%'
+  - level: 7
+    effect: 'Увеличения урона по монстрам: 70%'
+  - level: 8
+    effect: 'Увеличения урона по монстрам: 80%'
+  - level: 9
+    effect: 'Увеличения урона по монстрам: 90%'
+  - level: 10
+    effect: 'Увеличения урона по монстрам: 100%'
+  - level: 11
+    effect: 'Увеличения урона по монстрам: 105%'
+  - level: 12
+    effect: 'Увеличения урона по монстрам: 110%'
+  - level: 13
+    effect: 'Увеличения урона по монстрам: 115%'
+  - level: 14
+    effect: 'Увеличения урона по монстрам: 120%'
+  - level: 15
+    effect: 'Увеличения урона по монстрам: 125%'

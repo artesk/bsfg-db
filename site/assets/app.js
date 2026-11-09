@@ -608,6 +608,17 @@ function renderBranchComparison(skillName, rows, level) {
   return comparison;
 }
 
+function renderEffectList(effects) {
+  const list = el("dl", "effect-list");
+  for (const effect of effects) {
+    const parts = effect.text.split(":");
+    const label = parts.shift();
+    const className = effect.kind === "group" ? "effect-group" : "";
+    list.append(el("dt", className, label), el("dd", className, parts.join(":").trim() || "—"));
+  }
+  return list;
+}
+
 function renderLevel(row) {
   const card = el("article", "level-card");
   if (row.description) card.append(el("p", "level-description", row.description));
@@ -618,22 +629,12 @@ function renderLevel(row) {
     card.append(specifications);
   }
 
-  if (row.effects && row.effects.length) {
-    const effects = el("dl", "effect-list");
-    for (const effect of row.effects) {
-      const parts = effect.text.split(":");
-      const label = parts.shift();
-      const className = effect.kind === "group" ? "effect-group" : "";
-      effects.append(el("dt", className, label));
-      effects.append(el("dd", className, parts.join(":").trim() || "—"));
-    }
-    if (row.effects_from_archive) {
-      const archived = el("details", "");
-      archived.append(el("summary", "", "Архивные эффекты"), effects);
-      card.append(archived);
-    } else {
-      card.append(effects);
-    }
+  if (row.effects?.length && !row.effects_from_archive) card.append(renderEffectList(row.effects));
+  const archive = row.effects_from_archive ? row.effects : row.archived_effects;
+  if (archive?.length) {
+    const details = el("details", "");
+    details.append(el("summary", "", "Архивные эффекты"), renderEffectList(archive));
+    card.append(details);
   }
   return card;
 }

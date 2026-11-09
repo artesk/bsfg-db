@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=sibyl-cards">
+  <link rel="stylesheet" href="assets/styles.css?v=specifications-directory">
 </head>
 <body>
   <header class="site-header">
@@ -183,44 +183,70 @@
   </template>
 
   <template id="specifications-template">
-    <section class="hero">
-      <h1>Характеристики</h1>
-      <p class="hero-copy">Эффекты заточки, свойства экипировки и бонусы по уровням.</p>
-    </section>
-    <div class="directory-grid">
-      <a class="directory-link" href="#/specifications/enchant-skills">
-        <h2>Заточка скиллов</h2>
-        <p>Эффекты заточки для оружия, брони и других типов умений.</p>
-      </a>
-      <a class="directory-link" href="#/specifications/enchant-weapon">
-        <h2>Улучшения оружия</h2>
-        <p>Пассивные свойства оружия и щитов при улучшении до +4 по рангам BA–GM.</p>
-      </a>
-      <a class="directory-link" href="#/specifications/banners">
-        <h2>Знамёна</h2>
-        <p>Бонусы опыта, PvE и PvP по рангам знамён.</p>
-      </a>
-      <a class="directory-link" href="#/specifications/dragon-relics">
-        <h2>Реликвии драконов</h2>
-        <p>Пассивные бонусы и активные умения по уровням реликвий.</p>
-      </a>
-      <a class="directory-link" href="#/specifications/boss-trophies">
-        <h2>Трофеи боссов</h2>
-        <p>Базовые, объединённые и реликтовые трофеи с бонусами по уровням.</p>
-      </a>
-      <a class="directory-link" href="#/specifications/sibyl-cards">
-        <h2>Карты Сивиллы</h2>
-        <p>Пассивные бонусы, условия срабатывания и иконки карт из клиента.</p>
-      </a>
-      <a class="directory-link" href="#/specifications/equipment-properties">
-        <h2>Свойства экипировки</h2>
-        <p>Значения свойств по уровням с поиском по названию и эффекту.</p>
-      </a>
-      <a class="directory-link" href="#/specifications/military-service">
-        <h2>Награды и медали за военную службу</h2>
-        <p>Распределение лычек и таблицы эффектов по уровням.</p>
-      </a>
-    </div>
+    <article class="specifications-page">
+      <header class="hero specifications-hero">
+        <p class="eyebrow">Справочник BSFG</p>
+        <h1>Характеристики</h1>
+        <p class="hero-copy">Эффекты заточки, свойства экипировки и бонусы по уровням.</p>
+      </header>
+      <nav class="specifications-directory" aria-label="Разделы характеристик">
+        <section class="specifications-group" aria-labelledby="specifications-upgrades">
+          <h2 id="specifications-upgrades">Заточка и свойства</h2>
+          <div class="specifications-grid">
+            <a class="directory-link specifications-link" href="#/specifications/enchant-skills">
+              <img src="assets/icons/skill10546.jpg" width="44" height="44" alt="">
+              <h3>Заточка скиллов</h3>
+              <p>Эффекты заточки для оружия, брони и других типов умений.</p>
+            </a>
+            <a class="directory-link specifications-link" href="#/specifications/enchant-weapon">
+              <img src="assets/icons/skill4462.jpg" width="44" height="44" alt="">
+              <h3>Улучшения оружия</h3>
+              <p>Пассивные свойства оружия и щитов при улучшении до +4 по рангам BA–GM.</p>
+            </a>
+            <a class="directory-link specifications-link" href="#/specifications/equipment-properties">
+              <img src="assets/icons/equipment/icon.armor_t44_b_i00.png" width="44" height="44" alt="">
+              <h3>Свойства экипировки</h3>
+              <p>Значения свойств по уровням с поиском по названию и эффекту.</p>
+            </a>
+          </div>
+        </section>
+        <section class="specifications-group" aria-labelledby="specifications-collectibles">
+          <h2 id="specifications-collectibles">Карты, трофеи и реликвии</h2>
+          <div class="specifications-grid">
+            <a class="directory-link specifications-link" href="#/specifications/sibyl-cards">
+              <img src="assets/icons/sibyl-cards/icon.four_leaf_clover_i00.png" width="44" height="44" alt="">
+              <h3>Карты Сивиллы</h3>
+              <p>Пассивные бонусы и условия срабатывания карт.</p>
+            </a>
+            <a class="directory-link specifications-link" href="#/specifications/boss-trophies">
+              <img src="assets/icons/trophies/icon.etc_piece_bracelet_i00.png" width="44" height="44" alt="">
+              <h3>Трофеи боссов</h3>
+              <p>Базовые, объединённые и реликтовые трофеи с бонусами по уровням.</p>
+            </a>
+            <a class="directory-link specifications-link" href="#/specifications/dragon-relics">
+              <img src="assets/icons/progression/icon.etc_fang_red_i00.png" width="44" height="44" alt="">
+              <h3>Реликвии драконов</h3>
+              <p>Пассивные бонусы и активные умения по уровням реликвий.</p>
+            </a>
+          </div>
+        </section>
+        <section class="specifications-group" aria-labelledby="specifications-service">
+          <h2 id="specifications-service">Знамёна и военная служба</h2>
+          <div class="specifications-grid">
+            <a class="directory-link specifications-link" href="#/specifications/banners">
+              <img src="assets/icons/progression/bsfgicon.item.conqueror_banner_02_i00.png" width="44" height="44" alt="">
+              <h3>Знамёна</h3>
+              <p>Бонусы опыта, PvE и PvP по рангам знамён.</p>
+            </a>
+            <a class="directory-link specifications-link" href="#/specifications/military-service">
+              <img src="assets/icons/progression/bsfg.medal_or01.png" width="44" height="44" alt="">
+              <h3>Награды и медали за военную службу</h3>
+              <p>Калькулятор лычек и таблицы эффектов по уровням.</p>
+            </a>
+          </div>
+        </section>
+      </nav>
+    </article>
   </template>
 
   <template id="progression-template">

@@ -47,9 +47,9 @@ const PROGRESSION_PAGES = new Map([
     kinds: {base: "Базовые", combined: "Объединённые", relic: "Реликтовые"},
   }],
   ["/specifications/sibyl-cards", {
-    title: "Карты Сивиллы", label: "Карта", level: "Уровни", effect: "Бонусы и эффекты",
+    title: "Карты Сивиллы", label: "Карта",
     intro: "Пассивные бонусы и условия срабатывания карт. Числовые параметры приведены в объёме клиентских подсказок.",
-    compactLevels: true,
+    cardCatalog: true,
   }],
   ["/specifications/equipment-properties", {
     title: "Свойства экипировки", intro: "Найдите свойство и сравните его значения по уровням.", label: "Свойство", level: "Уровень",
@@ -1038,6 +1038,10 @@ function renderProgressionPage(path, page, data) {
   const kind = document.querySelector("#progression-kind");
   const select = document.querySelector("#progression-group");
   const results = document.querySelector("#progression-results");
+  if (page.cardCatalog) {
+    document.querySelector("#progression-table-heading").textContent = "Каталог карт";
+    results.classList.add("sibyl-card-grid");
+  }
   if (page.kinds) {
     document.querySelector("#progression-kind-field").hidden = false;
     kind.replaceChildren(...Object.entries(page.kinds).map(([value, title]) => new Option(title, value)));
@@ -1048,14 +1052,23 @@ function renderProgressionPage(path, page, data) {
       ? (group.kind === "medal" ? "Медали" : "Награды") + " — " + group.name + " (" + group.skill_id + ")"
       : group.name,
   }));
+  let matches = groups;
 
   const showGroup = () => {
-    const entry = groups.find(({index}) => index === select.value);
+    if (select.value === "all") {
+      results.replaceChildren(...matches.map(({group}) => renderSibylCard(group)));
+      return;
+    }
+    const entry = matches.find(({index}) => index === select.value);
     if (!entry) {
       results.replaceChildren(el("p", "empty-state", "Совпадений нет."));
       return;
     }
     const {group, label} = entry;
+    if (page.cardCatalog) {
+      results.replaceChildren(renderSibylCard(group));
+      return;
+    }
     const idKey = group.levels[0].item_id ? "item_id" : "effect_id";
     const showId = Boolean(group.levels[0][idKey]);
     const card = el("article", "enchant-card progression-card");
@@ -1068,12 +1081,7 @@ function renderProgressionPage(path, page, data) {
     const table = createEnchantTable(label, columns);
     if (!showLevel) table.classList.add("progression-unleveled");
     const body = table.createTBody();
-    const firstLevel = group.levels[0];
-    const lastLevel = group.levels.at(-1);
-    const sameEffect = page.compactLevels && !showId && group.levels.length > 1
-      && group.levels.every(row => row.effect === firstLevel.effect);
-    const levels = sameEffect ? [{...firstLevel, level: firstLevel.level + "–" + lastLevel.level}] : group.levels;
-    for (const row of levels) {
+    for (const row of group.levels) {
       const entry = body.insertRow();
       if (showLevel) {
         const level = el("th", "", row.level);
@@ -1096,12 +1104,14 @@ function renderProgressionPage(path, page, data) {
   const filterGroups = () => {
     const query = normalize(search.value.trim());
     const selected = select.value;
-    const matches = groups.filter(({group, label}) => (!page.kinds || group.kind === kind.value)
+    matches = groups.filter(({group, label}) => (!page.kinds || group.kind === kind.value)
       && (normalize(label).includes(query) || normalize(group.active?.effect).includes(query)
         || String(group.closed_item_id ?? "").includes(query)
         || group.levels.some(row => normalize(row.effect).includes(query)
           || String(row.item_id ?? "").includes(query))));
-    select.replaceChildren(...matches.map(({index, label}) => new Option(label, index)));
+    const options = matches.map(({index, label}) => new Option(label, index));
+    if (page.cardCatalog && options.length) options.unshift(new Option("Все карты", "all"));
+    select.replaceChildren(...options);
     select.disabled = matches.length === 0;
     if (matches.some(({index}) => index === selected)) select.value = selected;
     showGroup();
@@ -1110,6 +1120,31 @@ function renderProgressionPage(path, page, data) {
   kind.addEventListener("change", filterGroups);
   select.addEventListener("change", showGroup);
   filterGroups();
+}
+
+function renderSibylCard(group) {
+  const card = el("article", "enchant-card progression-card sibyl-card");
+  const heading = el("header", "progression-card-heading");
+  const [first] = group.levels;
+  const last = group.levels.at(-1);
+  const levelRange = first.level === last.level ? "Уровень " + first.level : "Уровни " + first.level + "–" + last.level;
+  const title = el("div");
+  const meta = el("div", "sibyl-card-meta");
+  meta.append(el("span", "", levelRange), el("span", "", "ID карты " + group.closed_item_id));
+  title.append(el("h3", "", group.name), meta);
+  heading.append(renderIcon(localIconUrl(group.icon), group.name, "branch-icon"), title);
+  card.append(heading);
+
+  if (group.levels.every(row => row.effect === first.effect)) {
+    card.append(el("p", "sibyl-card-effect progression-effect", first.effect));
+  } else {
+    const effects = el("dl", "sibyl-card-effect sibyl-card-levels");
+    for (const row of group.levels) {
+      effects.append(el("dt", "", "Уровень " + row.level), el("dd", "progression-effect", row.effect));
+    }
+    card.append(effects);
+  }
+  return card;
 }
 
 function renderMilitaryCalculator(data) {

@@ -696,15 +696,15 @@ function renderEquipment(path, catalog, category, data) {
   const items = new Map(data.items.map(item => [item.id, item]));
   const sets = (data.sets || []).filter(group => group.category === category);
   const memberIds = new Set(sets.flatMap(group => group.items));
-  const entries = sets.map(group => ({set: group, items: group.items.map(id => items.get(id))}));
+  const entries = groupEquipmentSets(sets, items);
   for (const item of data.items) {
-    if (item.category === category && !memberIds.has(item.id)) entries.push({items: [item]});
+    if (item.category === category && !memberIds.has(item.id)) entries.push([{items: [item]}]);
   }
   const ranks = ["BA", "EX", "EL", "MA", "GM", "LEG", ""];
-  entries.sort((a, b) => ranks.indexOf(a.items[0].rank) - ranks.indexOf(b.items[0].rank)
+  entries.sort(([a], [b]) => ranks.indexOf(a.items[0].rank) - ranks.indexOf(b.items[0].rank)
     || a.items[0].name.localeCompare(b.items[0].name, "ru") || a.items[0].id - b.items[0].id);
   const rank = document.querySelector("#equipment-rank");
-  const present = new Set(entries.map(entry => entry.items[0].rank));
+  const present = new Set(entries.map(([entry]) => entry.items[0].rank));
   rank.append(new Option("Все ранги", "all"));
   for (const value of ranks) {
     if (present.has(value)) rank.append(new Option(value || "Без ранга", value));
@@ -715,10 +715,14 @@ function renderEquipment(path, catalog, category, data) {
   const counter = document.querySelector("#equipment-count");
   const refresh = () => {
     const query = normalize(search.value.trim());
-    const matches = entries.filter(entry => (rank.value === "all" || entry.items[0].rank === rank.value)
-      && entry.items.some(item => normalize(item.name + " " + (item.label || "")).includes(query)
-        || String(item.id) === query));
-    results.replaceChildren(...matches.map(renderEquipmentEntry));
+    const matches = [];
+    for (const variants of entries) {
+      if (rank.value !== "all" && variants[0].items[0].rank !== rank.value) continue;
+      const match = variants.find(variant => variant.items.some(item =>
+        normalize(item.name + " " + (item.label || "")).includes(query) || String(item.id) === query));
+      if (match) matches.push(renderEquipmentEntry(variants, match));
+    }
+    results.replaceChildren(...matches);
     counter.textContent = matches.length ? "Показано " + matches.length : "Совпадений нет.";
   };
   search.addEventListener("input", refresh);
@@ -726,16 +730,51 @@ function renderEquipment(path, catalog, category, data) {
   refresh();
 }
 
-function renderEquipmentEntry(entry) {
+function groupEquipmentSets(sets, itemsById) {
+  const groups = new Map();
+  for (const set of sets) {
+    const items = set.items.map(id => itemsById.get(id));
+    const [first] = items;
+    const pieces = items.map(item => JSON.stringify([item.slot, item.name])).sort();
+    const key = JSON.stringify([first.rank, first.name, pieces]);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push({set, items});
+  }
+  return [...groups.values()];
+}
+
+function renderEquipmentEntry(variants, entry) {
   if (!entry.set) return renderEquipmentItem(entry.items[0]);
   const section = el("section", "enchant-card equipment-set");
   const heading = el("header", "equipment-set-heading");
-  heading.append(el("h3", "", entry.items[0].name), el("span", "", "Комплект · " + entry.items[0].rank));
+  const [first] = entry.items;
+  heading.append(el("h3", "", first.name), el("span", "", "Комплект · " + first.rank));
   section.append(heading);
-  for (const effect of entry.set.effects) section.append(el("p", "equipment-set-note", effect));
-  const pieces = el("div", "equipment-pieces");
-  pieces.append(...entry.items.map(renderEquipmentItem));
-  section.append(pieces);
+
+  const content = el("div");
+  const showVariant = (variant) => {
+    const notes = variant.set.effects.map(effect => el("p", "equipment-set-note", effect));
+    const pieces = el("div", "equipment-pieces");
+    pieces.append(...variant.items.map(renderEquipmentItem));
+    content.replaceChildren(...notes, pieces);
+  };
+  if (variants.length > 1) {
+    const field = el("label", "progression-field equipment-set-variant");
+    const select = el("select");
+    const labels = variants.map(variant => variant.items[0].label);
+    variants.forEach((variant, index) => {
+      const item = variant.items[0];
+      const label = item.label && labels.filter(value => value === item.label).length === 1
+        ? item.label : [item.label, "ID " + item.id].filter(Boolean).join(" · ");
+      select.add(new Option(label, index));
+    });
+    select.selectedIndex = variants.indexOf(entry);
+    select.addEventListener("change", () => showVariant(variants[select.selectedIndex]));
+    field.append(el("span", "", "Вариант комплекта"), select);
+    section.append(field);
+  }
+  section.append(content);
+  showVariant(entry);
   return section;
 }
 

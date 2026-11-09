@@ -181,6 +181,7 @@ h1 {
 .equipment-set-heading { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; }
 .equipment-set-heading h3 { margin: 0; font-size: 20px; }
 .equipment-set-heading span, .equipment-set-note { color: var(--muted); font-size: 14px; }
+.equipment-set-variant { width: fit-content; margin-top: 12px; }
 .equipment-set-note { margin: 8px 0 0; }
 .equipment-pieces { margin-top: 12px; }
 .equipment-item h4 { margin: 0; }

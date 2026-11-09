@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=equipment-defense">
+  <link rel="stylesheet" href="assets/styles.css?v=map-expedition">
 </head>
 <body>
   <header class="site-header">
@@ -81,36 +81,47 @@
 
   <template id="world-map-template">
     <section class="world-map">
-      <header class="hero">
-        <h1>Интерактивная карта BSFG</h1>
-        <p class="hero-copy">Выберите слои или найдите метку по названию. Колёсико меняет масштаб, перетаскивание перемещает карту.</p>
-      </header>
-      <div class="map-layout">
-        <aside class="map-controls" aria-label="Управление картой">
-          <label class="progression-field"><span>Поиск метки</span><input id="map-search" type="search" autocomplete="off"></label>
-          <label class="progression-field"><span>Результаты поиска</span><select id="map-matches"></select></label>
-          <details class="map-layers" open>
-            <summary>Слои карты</summary>
-            <div class="class-options">
-              <button id="map-all-layers" class="class-option" type="button">Все слои</button>
-              <button id="map-default-layers" class="class-option" type="button">По умолчанию</button>
+      <div class="map-shell">
+        <div id="map-viewport" class="map-viewport" tabindex="0" role="region" aria-label="Карта мира">
+          <div id="map-stage" class="map-stage"></div>
+        </div>
+        <div class="map-hud">
+          <header class="map-heading">
+            <p class="eyebrow">Battles for Glory</p>
+            <h1>Карта мира</h1>
+            <div class="map-search">
+              <label class="map-search-field">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg>
+                <input id="map-search" type="search" autocomplete="off" placeholder="Найти место или босса" aria-label="Найти место или босса" aria-controls="map-matches">
+              </label>
+              <div id="map-matches" class="map-matches" role="group" aria-label="Результаты поиска" hidden></div>
             </div>
-            <div id="map-layers"></div>
-          </details>
-        </aside>
-        <div class="map-panel">
-          <div class="class-options map-zoom" role="group" aria-label="Масштаб карты">
-            <button id="map-zoom-out" class="class-option" type="button" aria-label="Уменьшить масштаб">−</button>
-            <button id="map-zoom-in" class="class-option" type="button" aria-label="Увеличить масштаб">+</button>
-            <button id="map-fit" class="class-option" type="button">Вся карта</button>
+          </header>
+          <div class="map-compass" aria-hidden="true"><span>N</span><span>✧</span></div>
+          <div class="map-bottom">
+            <div class="map-info" id="map-info" aria-live="polite" hidden></div>
+            <div class="map-zoom" role="group" aria-label="Масштаб карты">
+              <button id="map-zoom-in" type="button" aria-label="Увеличить масштаб">+</button>
+              <button id="map-zoom-out" type="button" aria-label="Уменьшить масштаб">−</button>
+              <button id="map-fit" type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg>Вся карта</button>
+            </div>
           </div>
-          <div id="map-viewport" class="map-viewport" tabindex="0" role="region" aria-label="Карта мира">
-            <div id="map-stage" class="map-stage"></div>
+          <div class="map-layers">
+            <div id="map-primary-layers" class="map-primary-layers" role="group" aria-label="Основные слои"></div>
+            <details class="map-extra-layers">
+              <summary>Ещё слои</summary>
+              <div class="map-layer-menu">
+                <div class="map-layer-actions">
+                  <button id="map-all-layers" type="button">Все слои</button>
+                  <button id="map-default-layers" type="button">По умолчанию</button>
+                </div>
+                <div id="map-layers"></div>
+              </div>
+            </details>
           </div>
-          <div id="map-info" class="map-info" aria-live="polite">Выберите метку на карте или в результатах поиска.</div>
         </div>
       </div>
-      <p class="enchant-source"><a id="map-source" target="_blank" rel="noreferrer">Архивная карта BSFG ↗</a></p>
+      <div class="map-source"><span>BSFG · База знаний сообщества</span><a id="map-source" target="_blank" rel="noreferrer">Архивная карта BSFG ↗</a></div>
     </section>
   </template>
 
@@ -386,7 +397,7 @@
     </article>
   </template>
 
-  <script src="assets/map.js" defer></script>
-  <script src="assets/app.js?v=equipment-defense" defer></script>
+  <script src="assets/map.js?v=map-expedition" defer></script>
+  <script src="assets/app.js?v=map-expedition" defer></script>
 </body>
 </html>

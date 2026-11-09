@@ -123,6 +123,7 @@ let worldMap;
 let pitJewelry;
 let routeVersion = 0;
 let disposeStream;
+let disposeMap;
 let hlsScript;
 
 function el(tag, className, value) {
@@ -1300,6 +1301,8 @@ async function route() {
   const version = ++routeVersion;
   disposeStream?.();
   disposeStream = undefined;
+  disposeMap?.();
+  disposeMap = undefined;
   const path = location.hash.slice(1).replace(/\/+$/, "") || "/";
   const profession = path.match(/^\/(?:profession|professions)\/([^/?#]+)$/);
   const isProfessionSection = path === "/professions" || profession !== null;
@@ -1341,7 +1344,7 @@ async function route() {
       if (version !== routeVersion) return;
       document.title = "Интерактивная карта — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#world-map-template"));
-      mountWorldMap(app, worldMap);
+      disposeMap = mountWorldMap(app, worldMap);
     } else if (isGear) {
       if (!gearData.has(gearPath)) {
         app.replaceChildren(cloneTemplate("#loading-template"));

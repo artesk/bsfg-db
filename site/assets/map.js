@@ -5,9 +5,14 @@ function mountWorldMap(root, data) {
   const stage = root.querySelector("#map-stage");
   const info = root.querySelector("#map-info");
   const layers = root.querySelector("#map-layers");
+  const primaryLayers = root.querySelector("#map-primary-layers");
+  const extraLayers = root.querySelector(".map-extra-layers");
+  const searchPanel = root.querySelector(".map-search");
   const search = root.querySelector("#map-search");
   const matches = root.querySelector("#map-matches");
-  if (matchMedia("(max-width: 660px)").matches) root.querySelector(".map-layers").open = false;
+  const primary = new Map([
+    ["towns", "Город"], ["castles", "Замок"], ["bosses", "Босс"], ["squads", "Сквад"], ["outposts", "Аванпост"],
+  ]);
   root.querySelector("#map-source").href = data.source;
   const image = el("img", "map-background");
   image.src = "assets/map/worldmap2.jpg";
@@ -18,41 +23,45 @@ function mountWorldMap(root, data) {
   stage.append(image);
 
   const points = new Map();
-  const controls = [];
-  const overlays = [];
+  const controls = new Map();
   let alchemy;
   let selected;
   let scale = 1;
+  let view = "region";
   let drag;
+
+  function setLayer(control, visible) {
+    control.button.setAttribute("aria-pressed", String(visible));
+    control.overlay.hidden = !visible;
+  }
 
   for (const layer of data.layers) {
     const overlay = el("div", "map-overlay");
     overlay.style.setProperty("--map-color", layer.color);
-    const label = el("label", "map-layer-option");
-    const checkbox = el("input");
-    checkbox.type = "checkbox";
-    checkbox.checked = layer.visible;
-    overlay.hidden = !checkbox.checked;
-    checkbox.addEventListener("change", () => {
-      overlay.hidden = !checkbox.checked;
-      if (overlay.hidden && selected?.overlay === overlay) clearSelection();
-    });
+    const toggle = el("button", "map-layer-option");
+    toggle.type = "button";
     const swatch = el("span", "map-layer-swatch");
+    swatch.setAttribute("aria-hidden", "true");
+    swatch.style.setProperty("--map-color", layer.color);
     const icon = layer.icon ? 'url("assets/map/' + layer.icon + '")' : "";
     if (icon) {
       swatch.classList.add("map-layer-icon");
       swatch.style.backgroundImage = icon;
     }
-    label.append(checkbox, swatch, el("span", "", layer.title));
-    label.style.setProperty("--map-color", layer.color);
+    toggle.append(swatch, el("span", "", layer.title));
+    const control = { button: toggle, overlay, visible: layer.visible, swatch };
+    controls.set(layer.id, control);
+    setLayer(control, layer.visible);
+    toggle.addEventListener("click", () => {
+      setLayer(control, overlay.hidden);
+      if (overlay.hidden && selected?.control === control) clearSelection();
+    });
     if (layer.group && !alchemy) {
       alchemy = el("fieldset", "map-layer-group");
       alchemy.append(el("legend", "", layer.group));
       layers.append(alchemy);
     }
-    (layer.group ? alchemy : layers).append(label);
-    controls.push({ checkbox, overlay, visible: layer.visible });
-    overlays.push(overlay);
+    if (!primary.has(layer.id)) (layer.group ? alchemy : layers).append(toggle);
 
     for (const marker of layer.markers) {
       const button = el("button", "map-marker");
@@ -63,41 +72,50 @@ function mountWorldMap(root, data) {
       button.style.top = marker.y / data.height * 100 + "%";
       const description = marker.level ? marker.name + " · " + marker.level + " ур." : marker.name;
       button.title = description;
+      button.dataset.label = layer.id === "towns" ? marker.name.replace(/^Город /, "") : marker.name;
       button.setAttribute("aria-label", description);
       if (icon) {
         button.classList.add("map-marker-icon", "map-marker-" + layer.id);
         button.style.backgroundImage = icon;
       }
-      const optionLabel = description + " · " + layer.title;
-      const searchText = normalize([optionLabel, layer.group].join(" "));
-      points.set(marker.id, { marker, layer, button, checkbox, overlay, optionLabel, searchText });
+      const category = layer.title + (marker.level ? " · " + marker.level + " ур." : "");
+      const searchText = normalize([description, layer.title, layer.group].join(" "));
+      points.set(marker.id, { marker, layer, button, control, category, searchText });
       overlay.append(button);
     }
   }
-  stage.append(...overlays.reverse());
+  stage.append(...[...controls.values()].reverse().map(control => control.overlay));
+  for (const id of primary.keys()) {
+    const control = controls.get(id);
+    if (control) primaryLayers.append(control.button);
+  }
 
   function clearSelection() {
     selected?.button.classList.remove("map-marker-selected");
     selected = undefined;
-    matches.value = "";
-    info.textContent = "Выберите метку на карте или в результатах поиска.";
+    info.hidden = true;
+    info.replaceChildren();
   }
 
   function selectPoint(point, center) {
     selected?.button.classList.remove("map-marker-selected");
     selected = point;
-    const { marker, layer, button, checkbox, overlay } = point;
-    checkbox.checked = true;
-    overlay.hidden = false;
+    const { marker, layer, button, control } = point;
+    setLayer(control, true);
     button.classList.add("map-marker-selected");
-    matches.value = marker.id;
-    info.replaceChildren(el("strong", "", marker.name), el("p", "", layer.title + (marker.level ? " · Уровень " + marker.level : "")));
-    if (marker.details?.length) {
-      if (layer.id === "towns" || layer.id === "castles") info.append(el("p", "", "Расписание из архива"));
-      for (const detail of marker.details) info.append(el("p", "", detail));
+    const meta = el("div", "map-info-meta");
+    meta.append(el("strong", "", primary.get(layer.id) || layer.title));
+    if (marker.level) meta.append(el("span", "", "Уровень " + marker.level));
+    if (marker.details?.length && (layer.id === "towns" || layer.id === "castles")) {
+      meta.append(el("span", "", "Расписание из архива"));
     }
+    const title = el("h2");
+    title.append(control.swatch.cloneNode(), el("span", "", marker.name));
+    info.hidden = false;
+    info.replaceChildren(meta, title);
+    for (const detail of marker.details || []) info.append(el("p", "", detail));
     if (layer.id === "books") {
-      const mark = el("button", "class-option");
+      const mark = el("button");
       mark.type = "button";
       const updateLabel = (marked) => {
         mark.textContent = marked ? "Снять отметку" : "Отметить книгу";
@@ -107,32 +125,61 @@ function mountWorldMap(root, data) {
       mark.addEventListener("click", () => updateLabel(button.classList.toggle("map-book-marked")));
       info.append(mark);
     }
-    if (center) zoomTo(Math.max(scale, 1), marker.x, marker.y);
+    if (center) {
+      view = "manual";
+      zoomTo(Math.max(scale, 1), marker.x, marker.y);
+    }
   }
 
   function updateMatches() {
     const query = normalize(search.value.trim());
     const options = document.createDocumentFragment();
-    let found = false;
-    for (const [id, point] of points) {
+    for (const point of points.values()) {
       if (!point.searchText.includes(query)) continue;
-      options.append(new Option(point.optionLabel, id));
-      found = true;
+      const result = el("button", "", point.marker.name);
+      result.type = "button";
+      if (options.childElementCount) result.tabIndex = -1;
+      result.dataset.marker = point.marker.id;
+      result.append(el("small", "", point.category));
+      options.append(result);
     }
-    matches.replaceChildren(new Option(found ? "Выберите метку" : "Совпадений нет", ""), options);
-    matches.disabled = !found;
-    if (selected?.searchText.includes(query)) matches.value = selected.marker.id;
+    if (!options.childElementCount) options.append(el("p", "", "Совпадений нет"));
+    matches.replaceChildren(options);
+    matches.hidden = false;
+    matches.scrollTop = 0;
+  }
+
+  function selectResult(result) {
+    const point = points.get(result?.dataset.marker);
+    if (!point) return;
+    search.value = point.marker.name;
+    search.focus({ preventScroll: true });
+    matches.hidden = true;
+    selectPoint(point, true);
   }
 
   const fitScale = () => Math.min(viewport.clientWidth / data.width, viewport.clientHeight / data.height);
   function zoomTo(nextScale, x, y, anchor) {
     const mapX = x ?? (viewport.scrollLeft + viewport.clientWidth / 2 - stage.offsetLeft) / scale;
-    const mapY = y ?? (viewport.scrollTop + viewport.clientHeight / 2) / scale;
+    const mapY = y ?? (viewport.scrollTop + viewport.clientHeight / 2 - stage.offsetTop) / scale;
     scale = Math.min(3, Math.max(fitScale(), nextScale));
     stage.style.width = data.width * scale + "px";
-    stage.style.setProperty("--map-marker-scale", Math.max(0.55, Math.min(1, scale)));
+    stage.style.marginTop = Math.max(0, (viewport.clientHeight - data.height * scale) / 2) + "px";
+    stage.style.setProperty("--map-marker-scale", Math.max(0.55, Math.min(1, scale / .48)));
+    stage.classList.toggle("map-show-labels", scale >= .42);
     viewport.scrollLeft = stage.offsetLeft + mapX * scale - (anchor?.x ?? viewport.clientWidth / 2);
-    viewport.scrollTop = mapY * scale - (anchor?.y ?? viewport.clientHeight / 2);
+    viewport.scrollTop = stage.offsetTop + mapY * scale - (anchor?.y ?? viewport.clientHeight / 2);
+  }
+
+  function fitMap() {
+    view = "full";
+    zoomTo(fitScale(), data.width / 2, data.height / 2);
+  }
+
+  function showRegion() {
+    // Frame the central and southern regions shown in the Expedition design.
+    const regionScale = Math.max(viewport.clientWidth / 1900, viewport.clientHeight / 1180);
+    zoomTo(regionScale, data.width * .527, data.height * .634);
   }
 
   viewport.addEventListener("wheel", (event) => {
@@ -151,27 +198,68 @@ function mountWorldMap(root, data) {
     if (deltaMode === WheelEvent.DOM_DELTA_LINE) delta *= 16;
     if (deltaMode === WheelEvent.DOM_DELTA_PAGE) delta *= viewport.clientHeight;
     const step = Math.max(-150, Math.min(150, delta));
+    view = "manual";
     zoomTo(scale * Math.exp(-step / 500), x, y, anchor);
   }, { passive: false });
 
-  root.querySelector("#map-zoom-in").addEventListener("click", () => zoomTo(scale * 1.35));
-  root.querySelector("#map-zoom-out").addEventListener("click", () => zoomTo(scale / 1.35));
-  root.querySelector("#map-fit").addEventListener("click", () => zoomTo(fitScale(), data.width / 2, data.height / 2));
+  for (const [selector, factor] of [["#map-zoom-in", 1.35], ["#map-zoom-out", 1 / 1.35]]) {
+    root.querySelector(selector).addEventListener("click", () => {
+      view = "manual";
+      zoomTo(scale * factor);
+    });
+  }
+  root.querySelector("#map-fit").addEventListener("click", fitMap);
   for (const [selector, showAll] of [["#map-all-layers", true], ["#map-default-layers", false]]) {
     root.querySelector(selector).addEventListener("click", () => {
-      for (const { checkbox, overlay, visible } of controls) {
-        checkbox.checked = showAll || visible;
-        overlay.hidden = !checkbox.checked;
-      }
-      if (selected?.overlay.hidden) clearSelection();
+      for (const control of controls.values()) setLayer(control, showAll || control.visible);
+      if (selected?.control.overlay.hidden) clearSelection();
     });
   }
   search.addEventListener("input", updateMatches);
-  search.addEventListener("keydown", (event) => {
-    if (event.key === "Enter" && matches.options.length > 1) selectPoint(points.get(matches.options[1].value), true);
+  search.addEventListener("focus", (event) => {
+    if (!searchPanel.contains(event.relatedTarget)) updateMatches();
   });
-  matches.addEventListener("change", () => {
-    if (matches.value) selectPoint(points.get(matches.value), true);
+  search.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      if (matches.hidden) updateMatches();
+      selectResult(matches.querySelector("button"));
+    }
+    if (event.key === "ArrowDown") {
+      if (matches.hidden) updateMatches();
+      const first = matches.querySelector("button");
+      if (first) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+  });
+  matches.addEventListener("click", (event) => selectResult(event.target.closest("button")));
+  matches.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      event.target.nextElementSibling?.focus();
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      (event.target.previousElementSibling || search).focus();
+    }
+  });
+  searchPanel.addEventListener("focusout", (event) => {
+    if (!searchPanel.contains(event.relatedTarget)) matches.hidden = true;
+  });
+  searchPanel.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || matches.hidden) return;
+    event.preventDefault();
+    search.focus({ preventScroll: true });
+    matches.hidden = true;
+  });
+  extraLayers.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !extraLayers.open) return;
+    extraLayers.open = false;
+    extraLayers.querySelector("summary").focus();
+  });
+  root.querySelector(".world-map").addEventListener("click", (event) => {
+    if (!searchPanel.contains(event.target)) matches.hidden = true;
+    if (!extraLayers.contains(event.target)) extraLayers.open = false;
   });
   stage.addEventListener("click", (event) => {
     const marker = event.target.closest(".map-marker");
@@ -179,6 +267,7 @@ function mountWorldMap(root, data) {
   });
 
   viewport.addEventListener("pointerdown", (event) => {
+    if (event.pointerType === "touch") view = "manual";
     if (event.pointerType !== "mouse" || event.button !== 0 || !stage.contains(event.target)) return;
     drag = { id: event.pointerId, x: event.clientX, y: event.clientY, left: viewport.scrollLeft, top: viewport.scrollTop };
   });
@@ -190,6 +279,7 @@ function mountWorldMap(root, data) {
       if (Math.hypot(dx, dy) < 5) return;
       viewport.setPointerCapture(drag.id);
       viewport.classList.add("map-dragging");
+      view = "manual";
     }
     viewport.scrollLeft = drag.left - dx;
     viewport.scrollTop = drag.top - dy;
@@ -201,6 +291,12 @@ function mountWorldMap(root, data) {
     });
   }
 
-  updateMatches();
-  zoomTo(fitScale(), data.width / 2, data.height / 2);
+  showRegion();
+  const observer = new ResizeObserver(() => {
+    if (view === "region") showRegion();
+    else if (view === "full") fitMap();
+    else zoomTo(scale);
+  });
+  observer.observe(viewport);
+  return () => observer.disconnect();
 }

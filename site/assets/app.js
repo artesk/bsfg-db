@@ -106,6 +106,7 @@ const siteLinks = document.querySelectorAll(".site-nav a");
 const enchantData = new Map();
 const gearData = new Map();
 let archiveIndex;
+let worldMap;
 let pitJewelry;
 let routeVersion = 0;
 
@@ -952,6 +953,15 @@ async function route() {
     } else if (path === "/guides") {
       document.title = "Гайды — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#guides-template"));
+    } else if (path === "/map") {
+      if (!worldMap) {
+        app.replaceChildren(cloneTemplate("#loading-template"));
+        worldMap = await loadJson("data/map/world.json");
+      }
+      if (version !== routeVersion) return;
+      document.title = "Интерактивная карта — База знаний BSFG";
+      app.replaceChildren(cloneTemplate("#world-map-template"));
+      mountWorldMap(app, worldMap);
     } else if (isGear) {
       if (!gearData.has(gearPath)) {
         app.replaceChildren(cloneTemplate("#loading-template"));

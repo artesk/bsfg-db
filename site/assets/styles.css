@@ -94,6 +94,44 @@ h1 {
   overflow-wrap: anywhere;
 }
 .enchant-source { margin: 24px 0 48px; color: var(--muted); font-size: 13px; }
+.map-layout { display: grid; grid-template-columns: 238px minmax(0, 1fr); gap: 14px; align-items: start; }
+.map-controls, .map-panel {
+  min-width: 0; padding: 14px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface);
+}
+.map-controls .progression-field { min-width: 0; margin-bottom: 12px; }
+.map-controls input[type="search"], .map-controls select { width: 100%; min-width: 0; }
+.map-layers summary { margin-bottom: 10px; cursor: pointer; }
+.map-layers .class-options { margin-bottom: 10px; }
+.map-layer-option { display: flex; align-items: center; gap: 6px; padding-block: 3px; font-size: 13px; cursor: pointer; }
+.map-layer-swatch { width: 9px; height: 9px; flex: none; border-radius: 50%; background: var(--map-color); }
+.map-layer-icon { width: 13px; height: 13px; border-radius: 0; background: transparent center / contain no-repeat; }
+.map-layer-group { margin: 8px 0 0; padding: 3px 7px; border: 1px solid var(--line); }
+.map-layer-group legend { color: var(--muted); font-size: 12px; }
+.map-zoom { margin-bottom: 10px; }
+.map-viewport {
+  position: relative; height: clamp(320px, 70vh, 760px); overflow: auto;
+  border: 1px solid var(--line); border-radius: 5px; background: #090a0b;
+  cursor: grab; user-select: none;
+}
+.map-viewport.map-dragging, .map-dragging .map-marker { cursor: grabbing; }
+.map-stage { position: relative; margin-inline: auto; }
+.map-background { display: block; width: 100%; height: auto; }
+.map-overlay { position: absolute; inset: 0; pointer-events: none; }
+.map-marker {
+  position: absolute; width: 9px; height: 9px; padding: 0;
+  transform: translate(-50%, -50%) scale(var(--map-marker-scale, 1));
+  border: 1px solid #14151a; border-radius: 50%; background-color: var(--map-color);
+  pointer-events: auto; cursor: pointer;
+}
+.map-marker-icon { width: 16px; height: 15px; border: 0; border-radius: 0; background: transparent center / contain no-repeat; }
+.map-marker-outposts { width: 18px; height: 22px; }
+.map-marker-towns { width: 32px; height: 32px; }
+.map-marker-castles { width: 24px; height: 24px; }
+.map-marker:hover, .map-marker-selected, .map-book-marked { outline: 2px solid #fff; outline-offset: 1px; }
+.map-info { min-height: 3em; padding-top: 12px; color: var(--muted); font-size: 14px; }
+.map-info strong { color: var(--text); }
+.map-info p { margin: 5px 0; }
+.map-info button { margin-top: 6px; }
 .progression-toolbar { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
 .progression-field { display: grid; gap: 6px; max-width: 100%; color: var(--muted); font-size: 14px; }
 .progression-field[hidden] { display: none; }
@@ -342,6 +380,7 @@ footer {
   .site-header { min-height: 64px; padding-inline: 14px; }
   .site-nav a { padding-inline: 8px; font-size: 13px; }
   .directory-grid, .enchant-grid { grid-template-columns: 1fr; }
+  .map-layout { grid-template-columns: 1fr; }
   .weapon-enchant-label { grid-template-columns: 1fr; }
   main, footer { width: min(100% - 28px, 1240px); }
   .hero { padding: 42px 0 32px; }

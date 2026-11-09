@@ -20,6 +20,7 @@
       <a href="#/items/weapons">Оружие</a>
       <a href="#/items/pit-boss-jewelry">Бижутерия Пит-боссов</a>
       <a href="#/guides">Гайды</a>
+      <a href="#/map">Карта</a>
     </nav>
   </header>
 
@@ -59,7 +60,46 @@
         <h2>Гайды</h2>
         <p>Руководства по строительству и игровым механикам.</p>
       </a>
+      <a class="directory-link" href="#/map">
+        <h2>Интерактивная карта</h2>
+        <p>Боссы, города, аванпосты, книги секретов и точки сбора ресурсов.</p>
+      </a>
     </div>
+  </template>
+
+  <template id="world-map-template">
+    <section class="world-map">
+      <header class="hero">
+        <h1>Интерактивная карта BSFG</h1>
+        <p class="hero-copy">Выберите слои или найдите метку по названию. Карту можно перетаскивать мышью и прокручивать касанием.</p>
+      </header>
+      <div class="map-layout">
+        <aside class="map-controls" aria-label="Управление картой">
+          <label class="progression-field"><span>Поиск метки</span><input id="map-search" type="search" autocomplete="off"></label>
+          <label class="progression-field"><span>Результаты поиска</span><select id="map-matches"></select></label>
+          <details class="map-layers" open>
+            <summary>Слои карты</summary>
+            <div class="class-options">
+              <button id="map-all-layers" class="class-option" type="button">Все слои</button>
+              <button id="map-default-layers" class="class-option" type="button">По умолчанию</button>
+            </div>
+            <div id="map-layers"></div>
+          </details>
+        </aside>
+        <div class="map-panel">
+          <div class="class-options map-zoom" role="group" aria-label="Масштаб карты">
+            <button id="map-zoom-out" class="class-option" type="button" aria-label="Уменьшить масштаб">−</button>
+            <button id="map-zoom-in" class="class-option" type="button" aria-label="Увеличить масштаб">+</button>
+            <button id="map-fit" class="class-option" type="button">Вся карта</button>
+          </div>
+          <div id="map-viewport" class="map-viewport" tabindex="0" role="region" aria-label="Карта мира">
+            <div id="map-stage" class="map-stage"></div>
+          </div>
+          <div id="map-info" class="map-info" aria-live="polite">Выберите метку на карте или в результатах поиска.</div>
+        </div>
+      </div>
+      <p class="enchant-source"><a id="map-source" target="_blank" rel="noreferrer">Архивная карта BSFG ↗</a></p>
+    </section>
   </template>
 
   <template id="equipment-template">
@@ -321,6 +361,7 @@
     </article>
   </template>
 
+  <script src="assets/map.js" defer></script>
   <script src="assets/app.js" defer></script>
 </body>
 </html>

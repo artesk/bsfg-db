@@ -533,11 +533,69 @@ def load_gear(content: Path, page: str) -> dict[str, Any]:
     return data
 
 
+def load_world_map(content: Path) -> dict[str, Any] | None:
+    path = content / "map" / "world.json"
+    if not path.is_file():
+        return None
+    try:
+        data = require_mapping(json.loads(path.read_text(encoding="utf-8")), path, "map")
+    except json.JSONDecodeError as error:
+        raise ContentError(f"{path}: некорректный JSON: {error}") from error
+    for key in ("source", "image_source"):
+        if not require_string(data, key, path, "map").startswith("https://"):
+            fail(path, key, "ожидалась ссылка HTTPS")
+    for key in ("width", "height"):
+        if type(data.get(key)) is not int or data[key] < 1:
+            fail(path, key, "ожидался положительный размер карты")
+    assets = ROOT / "site" / "assets" / "map"
+    if not (assets / "worldmap2.jpg").is_file():
+        fail(path, "map", "файл фона не найден")
+    layers = require_list(data.get("layers"), path, "layers")
+    if not layers:
+        fail(path, "layers", "нужен хотя бы один слой карты")
+    layer_ids: set[str] = set()
+    marker_ids: set[str] = set()
+    for index, value in enumerate(layers):
+        location = f"layers[{index}]"
+        layer = require_mapping(value, path, location)
+        layer_id = require_string(layer, "id", path, location)
+        if not SLUG_PATTERN.fullmatch(layer_id) or layer_id in layer_ids:
+            fail(path, f"{location}.id", "ожидался уникальный идентификатор слоя")
+        layer_ids.add(layer_id)
+        require_string(layer, "title", path, location)
+        if "group" in layer:
+            require_string(layer, "group", path, location)
+        if type(layer.get("visible")) is not bool:
+            fail(path, f"{location}.visible", "ожидалось логическое значение")
+        if not re.fullmatch(r"#[0-9a-fA-F]{6}", require_string(layer, "color", path, location)):
+            fail(path, f"{location}.color", "ожидался цвет в формате #RRGGBB")
+        icon = require_string(layer, "icon", path, location, allow_empty=True)
+        if icon and (not re.fullmatch(r"[a-zA-Z0-9_-]+\.png", icon) or not (assets / icon).is_file()):
+            fail(path, f"{location}.icon", "файл значка не найден")
+        for marker_index, marker_value in enumerate(require_list(layer.get("markers"), path, f"{location}.markers")):
+            marker_path = f"{location}.markers[{marker_index}]"
+            marker = require_mapping(marker_value, path, marker_path)
+            marker_id = require_string(marker, "id", path, marker_path)
+            if marker_id in marker_ids:
+                fail(path, f"{marker_path}.id", "идентификатор метки уже используется")
+            marker_ids.add(marker_id)
+            require_string(marker, "name", path, marker_path)
+            validate_optional_id(marker, "level", path, marker_path)
+            if "details" in marker:
+                require_string_list(marker, "details", path, marker_path)
+            for axis, dimension in (("x", "width"), ("y", "height")):
+                coordinate = marker.get(axis)
+                if type(coordinate) not in (int, float) or not 0 <= coordinate <= data[dimension]:
+                    fail(path, f"{marker_path}.{axis}", "координата находится за пределами карты")
+    return data
+
+
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
     enchantments = {page: load_enchantments(content, page) for page in ENCHANTMENT_PAGES}
     progression = {page: load_progression(content, page) for page in PROGRESSION_PAGES}
     pit_jewelry = load_pit_jewelry(content)
+    world_map = load_world_map(content)
     gear = {page: load_gear(content, page) for page in GEAR_CATALOGS}
     icons = {
         path.stem: f"assets/profession-icons/{path.name}"
@@ -642,6 +700,11 @@ def build(content: Path, output: Path) -> tuple[int, int]:
         write_json(jewelry_output, pit_jewelry)
     else:
         jewelry_output.unlink(missing_ok=True)
+    map_output = output / "map" / "world.json"
+    if world_map is not None:
+        write_json(map_output, world_map)
+    else:
+        map_output.unlink(missing_ok=True)
     return len(catalog), total_records
 
 def parse_args() -> argparse.Namespace:
@@ -650,7 +713,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument(
         "--validate-only", action="store_true",
-        help="Validate YAML without writing site/data",
+        help="Validate content without writing site/data",
     )
     return parser.parse_args()
 
@@ -665,6 +728,7 @@ def main() -> int:
             for page in PROGRESSION_PAGES:
                 load_progression(args.content.resolve(), page)
             load_pit_jewelry(args.content.resolve())
+            load_world_map(args.content.resolve())
             for page in GEAR_CATALOGS:
                 load_gear(args.content.resolve(), page)
             print(f"VALID professions={len(documents)} content={args.content.resolve()}")

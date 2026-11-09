@@ -416,17 +416,17 @@ main:has(> .world-map) { width: 100%; min-height: 0; }
 .progression-active { padding: 14px; border-top: 1px solid var(--line); }
 .progression-active h4 { margin: 0 0 6px; color: var(--accent); }
 .progression-active p { margin: 4px 0 0; }
-.sibyl-card-grid {
+.progression-catalog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
   gap: 14px;
 }
-.sibyl-card-grid > .empty-state { grid-column: 1 / -1; }
-.sibyl-card .progression-card-heading { align-items: flex-start; }
-.sibyl-card .branch-icon { flex: 0 0 auto; width: 44px; height: 44px; }
+.progression-catalog-grid > .empty-state { grid-column: 1 / -1; }
+.progression-catalog-card .progression-card-heading { align-items: flex-start; }
+.progression-catalog-card .branch-icon { flex: 0 0 auto; width: 44px; height: 44px; }
 .sibyl-card-meta { display: flex; flex-wrap: wrap; gap: 5px 10px; margin-top: 6px; color: var(--muted); font-size: 12px; }
 .sibyl-card-meta span:first-child { color: var(--accent-2); }
-.sibyl-card-effect {
+.progression-catalog-effect {
   margin: 0;
   padding: 12px 14px 15px;
   border-top: 1px solid var(--line);

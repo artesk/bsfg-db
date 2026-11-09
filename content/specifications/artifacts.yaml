@@ -1,0 +1,58 @@
+client_release: 2026.11.06.171000
+groups:
+- name: Артефакт Имперской Мощи
+  skill_id: 7294
+  icon: /icon/artifacts/bsfg.skillart5.png
+  levels:
+  - level: 1
+    effect: Увеличивает весь получаемый опыт у расы, владеющей артефактом.
+- name: Артефакт Демонической Ярости
+  skill_id: 7295
+  icon: /icon/artifacts/icon.skill4416_none.png
+  levels:
+  - level: 1
+    effect: Увеличивает урон по боссам на 50%, осадный урон на 80% и шанс получить «Ядро Элегии» на 20% у расы, владеющей
+      артефактом.
+- name: Артефакт Стазиса
+  skill_id: 7296
+  icon: /icon/artifacts/bsfg.skillart3.png
+  levels:
+  - level: 1
+    effect: Увеличивает опыт при обмене маны у расы, владеющей артефактом.
+- name: Артефакт Храбрости
+  skill_id: 7297
+  icon: /icon/artifacts/icon.skill4416_none.png
+  levels:
+  - level: 1
+    effect: Увеличивает шанс получить предмет на 6% и шанс получить «Оболочку души» на 20% у расы, владеющей артефактом.
+- name: Артефакт Грома
+  skill_id: 7301
+  icon: /icon/artifacts/bsfg.skillart2.png
+  levels:
+  - level: 1
+    effect: Увеличивает опыт при охоте на монстров, опыт за письма из столицы и опыт за сбор сундучков с аванпостов у расы,
+      владеющей артефактом.
+- name: Артефакт Бессмертия
+  skill_id: 7302
+  icon: /icon/artifacts/icon.skill4416_none.png
+  levels:
+  - level: 1
+    effect: Увеличивает шанс получить «Каменные яйца» на 20% и добываемую ману с монстров на 3 у расы, владеющей артефактом.
+- name: Артефакт Каменного Духа
+  skill_id: 7303
+  icon: /icon/artifacts/bsfg.skillart4.png
+  levels:
+  - level: 1
+    effect: Увеличивает получаемое жалование и драконит у расы, владеющей артефактом.
+- name: Победитель войны в пустыне муравьев
+  skill_id: 7326
+  icon: /icon/artifacts/icon.etc_m_i00.png
+  levels:
+  - level: 1
+    effect: Ваша раса выиграла Ant War. Максимум боевого духа расы увеличен.
+- name: Артефакт Железной Воли
+  skill_id: 10531
+  icon: /icon/artifacts/bsfg.skillart1.png
+  levels:
+  - level: 1
+    effect: Увеличивает опыт при использовании чернил и перьев и опыт за казарму у расы, владеющей артефактом.

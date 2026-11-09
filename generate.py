@@ -29,6 +29,7 @@ PROGRESSION_PAGES = {
     "boss-trophies": "item_id",
     "sibyl-cards": None,
     "artifacts": None,
+    "guild-skills": None,
 }
 SERVICE_SLOTS = {"critical-power", "critical-chance", "attack", "speed"}
 TROPHY_KINDS = {"base", "combined", "relic"}
@@ -397,11 +398,14 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
     trophies = page == "boss-trophies"
     sibyl_cards = page == "sibyl-cards"
     artifacts = page == "artifacts"
+    guild_skills = page == "guild-skills"
     slots: set[tuple[str, str]] = set()
     trophy_kinds: set[str] = set()
     group_keys: set[str | int] = set()
     record_ids: set[int] = set()
     id_key = PROGRESSION_PAGES[page]
+    if guild_skills:
+        require_string(data, "study_buildings", path, page)
     if military and (type(data.get("rank_limit")) is not int or data["rank_limit"] < 1):
         fail(path, "rank_limit", "ожидался положительный целый ранг")
     if military:
@@ -415,17 +419,21 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
         key: str | int = name
         if "icon" in group:
             require_string(group, "icon", path, location)
-        if military or sibyl_cards or artifacts:
+        if military or sibyl_cards or artifacts or guild_skills:
             key = group.get("skill_id")
             if type(key) is not int or key < 1:
                 fail(path, f"{location}.skill_id", "ожидался положительный ID умения")
-        if sibyl_cards or artifacts:
+        if sibyl_cards or artifacts or guild_skills:
             require_string(group, "icon", path, location)
         if sibyl_cards:
             item_id = group.get("closed_item_id")
             if type(item_id) is not int or item_id < 1 or item_id in record_ids:
                 fail(path, f"{location}.closed_item_id", "ожидался уникальный положительный ID закрытой карты")
             record_ids.add(item_id)
+        if guild_skills:
+            require_string(group, "description", path, location)
+            if "note" in group:
+                require_string(group, "note", path, location)
         if military:
             kind = require_string(group, "kind", path, location)
             if kind not in {"award", "medal"}:
@@ -463,6 +471,10 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
             if type(row.get("level")) is not int or row["level"] != level:
                 fail(path, f"{row_path}.level", "ожидались уровни от 1 без пропусков")
             require_string(row, "effect", path, row_path)
+            if guild_skills and "building_level" in row:
+                building_level = row["building_level"]
+                if type(building_level) is not int or building_level < 1:
+                    fail(path, f"{row_path}.building_level", "ожидался положительный уровень строения")
             if id_key:
                 record_id = row.get(id_key)
                 if type(record_id) is not int or record_id < 1 or record_id in record_ids:
@@ -689,7 +701,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
     for page, data in progression.items():
         for group in data["groups"]:
             if group.get("icon") not in available_icons:
-                if page in {"boss-trophies", "sibyl-cards", "artifacts"}:
+                if page in {"boss-trophies", "sibyl-cards", "artifacts", "guild-skills"}:
                     fail(content / "specifications" / f"{page}.yaml", group["name"], "файл иконки не найден")
                 group.pop("icon", None)
         write_json(output / "specifications" / f"{page}.json", data)

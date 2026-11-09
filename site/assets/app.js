@@ -56,6 +56,12 @@ const PROGRESSION_PAGES = new Map([
     intro: "Расовые бонусы за владение артефактами и победу в войне в пустыне муравьёв. Числа приведены там, где их указывает клиент.",
     catalog: {heading: "Эффекты артефактов", all: "Все эффекты"},
   }],
+  ["/specifications/guild-skills", {
+    title: "Умения гильдии", label: "Умение", level: "Уровень", effect: "Бонус по слепку",
+    intro: "Умения и механизмы гильдии, требования к изучению и бонусы по уровням.",
+    iconPicker: true,
+    archiveSource: "https://web.archive.org/web/20250327233923/https://db.bsfg.ru/specifications/guild_skill/",
+  }],
   ["/specifications/equipment-properties", {
     title: "Свойства экипировки", intro: "Найдите свойство и сравните его значения по уровням.", label: "Свойство", level: "Уровень",
   }],
@@ -1044,6 +1050,19 @@ function renderProgressionPage(path, page, data) {
   const kind = document.querySelector("#progression-kind");
   const select = document.querySelector("#progression-group");
   const results = document.querySelector("#progression-results");
+  const iconPicker = page.iconPicker ? el("div", "guild-skill-picker") : null;
+  if (iconPicker) {
+    iconPicker.setAttribute("role", "group");
+    iconPicker.setAttribute("aria-label", "Умения и механизмы гильдии");
+    select.closest("label").classList.add("guild-skill-select");
+    results.before(iconPicker);
+  }
+  if (page.archiveSource) {
+    const link = el("a", "", "слепка от 27 марта 2025 года");
+    link.href = page.archiveSource;
+    document.querySelector("#progression-release").parentElement.append(
+      ". Числовые бонусы взяты из ", link, ".");
+  }
   const {catalog} = page;
   if (catalog) {
     document.querySelector("#progression-table-heading").textContent = catalog.heading;
@@ -1062,6 +1081,11 @@ function renderProgressionPage(path, page, data) {
   let matches = groups;
 
   const showGroup = () => {
+    if (iconPicker) {
+      for (const button of iconPicker.children) {
+        button.setAttribute("aria-pressed", String(button.value === select.value));
+      }
+    }
     if (select.value === "all") {
       results.replaceChildren(...matches.map(({group}) => renderProgressionCatalogCard(group)));
       return;
@@ -1084,6 +1108,8 @@ function renderProgressionPage(path, page, data) {
     heading.append(el("h3", "", label));
     const showLevel = !page.kinds || group.kind === "combined";
     const columns = showLevel ? [page.level, page.effect || "Эффект"] : [page.effect];
+    const showBuilding = group.levels.some(row => row.building_level);
+    if (showBuilding) columns.splice(1, 0, "Уровень строения");
     if (showId) columns.push("ID");
     const table = createEnchantTable(label, columns);
     if (!showLevel) table.classList.add("progression-unleveled");
@@ -1095,10 +1121,19 @@ function renderProgressionPage(path, page, data) {
         level.scope = "row";
         entry.append(level);
       }
+      if (showBuilding) entry.append(el("td", "", row.building_level ?? "—"));
       entry.append(el("td", "progression-effect", row.effect));
       if (showId) entry.append(el("td", "progression-id", row[idKey]));
     }
-    card.append(heading, table);
+    card.append(heading);
+    if (group.description) {
+      const description = el("div", "guild-skill-description");
+      description.append(el("p", "", group.description));
+      if (showBuilding) description.append(el("p", "", "Строения для изучения: " + data.study_buildings + "."));
+      if (group.note) description.append(el("p", "", group.note));
+      card.append(description);
+    }
+    card.append(table);
     if (group.active) {
       const active = el("section", "progression-active");
       active.append(el("h4", "", "Активное умение"), el("p", "", group.active.name),
@@ -1113,6 +1148,7 @@ function renderProgressionPage(path, page, data) {
     const selected = select.value;
     matches = groups.filter(({group, label}) => (!page.kinds || group.kind === kind.value)
       && (normalize(label).includes(query) || normalize(group.active?.effect).includes(query)
+        || normalize(group.description).includes(query)
         || String(group.closed_item_id ?? "").includes(query)
         || group.levels.some(row => normalize(row.effect).includes(query)
           || String(row.item_id ?? "").includes(query))));
@@ -1121,6 +1157,19 @@ function renderProgressionPage(path, page, data) {
     select.replaceChildren(...options);
     select.disabled = matches.length === 0;
     if (matches.some(({index}) => index === selected)) select.value = selected;
+    if (iconPicker) {
+      iconPicker.replaceChildren(...matches.map(({group, index, label}) => {
+        const button = el("button", "class-option guild-skill-option");
+        button.type = "button";
+        button.value = index;
+        button.append(renderIcon(localIconUrl(group.icon), "", "branch-icon"), el("span", "", label));
+        button.addEventListener("click", () => {
+          select.value = index;
+          showGroup();
+        });
+        return button;
+      }));
+    }
     showGroup();
   };
   search.addEventListener("input", filterGroups);

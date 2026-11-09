@@ -416,6 +416,20 @@ main:has(> .world-map) { width: 100%; min-height: 0; }
 .progression-active { padding: 14px; border-top: 1px solid var(--line); }
 .progression-active h4 { margin: 0 0 6px; color: var(--accent); }
 .progression-active p { margin: 4px 0 0; }
+.guild-skill-select { display: none; }
+.guild-skill-picker {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 186px), 1fr));
+  gap: 7px; margin-bottom: 16px;
+}
+.guild-skill-picker:empty { display: none; }
+.guild-skill-picker .guild-skill-option { display: flex; align-items: center; gap: 8px; text-align: left; }
+.guild-skill-option .branch-icon { flex: 0 0 28px; width: 28px; height: 28px; }
+.guild-skill-description { padding: 0 14px 10px; color: var(--muted); }
+.guild-skill-description p { margin: 0 0 6px; }
+@media (max-width: 600px) {
+  .guild-skill-picker { display: none; }
+  .guild-skill-select { display: grid; }
+}
 .progression-catalog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));

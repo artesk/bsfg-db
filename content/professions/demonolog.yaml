@@ -2579,7 +2579,7 @@ profession:
         text: 'Если на цели есть *Метка демона*:'
       - kind: value
         text: 'Оглушение: 5 сек.'
-      icon: /icon/s12543.jpg
+      icon: /icon/client-skills/bsfg.s12543.png
       level: '1'
       name: Потусторонний удар
       selection_id: ''
@@ -2605,7 +2605,7 @@ profession:
         text: 'Если на цели есть *Метка демона*:'
       - kind: value
         text: 'Оглушение: 5 сек.'
-      icon: /icon/s12543.jpg
+      icon: /icon/client-skills/bsfg.s12543.png
       level: '2'
       name: Потусторонний удар
       selection_id: ''
@@ -2631,7 +2631,7 @@ profession:
         text: 'Если на цели есть *Метка демона*:'
       - kind: value
         text: 'Оглушение: 5 сек.'
-      icon: /icon/s12543.jpg
+      icon: /icon/client-skills/bsfg.s12543.png
       level: '3'
       name: Потусторонний удар
       selection_id: ''
@@ -2657,7 +2657,7 @@ profession:
         text: 'Если на цели есть *Метка демона*:'
       - kind: value
         text: 'Оглушение: 5 сек.'
-      icon: /icon/s12543.jpg
+      icon: /icon/client-skills/bsfg.s12543.png
       level: '4'
       name: Потусторонний удар
       selection_id: ''
@@ -2683,7 +2683,7 @@ profession:
         text: 'Если на цели есть *Метка демона*:'
       - kind: value
         text: 'Оглушение: 5 сек.'
-      icon: /icon/s12543.jpg
+      icon: /icon/client-skills/bsfg.s12543.png
       level: '5'
       name: Потусторонний удар
       selection_id: ''
@@ -2709,7 +2709,7 @@ profession:
         text: 'Если на цели есть *Метка демона*:'
       - kind: value
         text: 'Оглушение: 5 сек.'
-      icon: /icon/s12543.jpg
+      icon: /icon/client-skills/bsfg.s12543.png
       level: '6'
       name: Потусторонний удар
       selection_id: ''
@@ -2735,7 +2735,7 @@ profession:
         text: 'Если на цели есть *Метка демона*:'
       - kind: value
         text: 'Оглушение: 5 сек.'
-      icon: /icon/s12543.jpg
+      icon: /icon/client-skills/bsfg.s12543.png
       level: '7'
       name: Потусторонний удар
       selection_id: ''
@@ -2760,7 +2760,7 @@ profession:
         text: 'Если при изгнании Экзорцист сам находится под контролем:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 13%'
-      icon: /icon/s12545.jpg
+      icon: /icon/client-skills/bsfg.s12545.png
       level: '1'
       name: Изгнание бесов
       selection_id: ''
@@ -2783,7 +2783,7 @@ profession:
         text: 'Если при изгнании Экзорцист сам находится под контролем:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 15%'
-      icon: /icon/s12545.jpg
+      icon: /icon/client-skills/bsfg.s12545.png
       level: '2'
       name: Изгнание бесов
       selection_id: ''
@@ -2806,7 +2806,7 @@ profession:
         text: 'Если при изгнании Экзорцист сам находится под контролем:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 17%'
-      icon: /icon/s12545.jpg
+      icon: /icon/client-skills/bsfg.s12545.png
       level: '3'
       name: Изгнание бесов
       selection_id: ''
@@ -2829,7 +2829,7 @@ profession:
         text: 'Если при изгнании Экзорцист сам находится под контролем:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 19%'
-      icon: /icon/s12545.jpg
+      icon: /icon/client-skills/bsfg.s12545.png
       level: '4'
       name: Изгнание бесов
       selection_id: ''
@@ -2852,7 +2852,7 @@ profession:
         text: 'Если при изгнании Экзорцист сам находится под контролем:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 21%'
-      icon: /icon/s12545.jpg
+      icon: /icon/client-skills/bsfg.s12545.png
       level: '5'
       name: Изгнание бесов
       selection_id: ''
@@ -2875,7 +2875,7 @@ profession:
         text: 'Если при изгнании Экзорцист сам находится под контролем:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 23%'
-      icon: /icon/s12545.jpg
+      icon: /icon/client-skills/bsfg.s12545.png
       level: '6'
       name: Изгнание бесов
       selection_id: ''
@@ -2898,7 +2898,7 @@ profession:
         text: 'Если при изгнании Экзорцист сам находится под контролем:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 25%'
-      icon: /icon/s12545.jpg
+      icon: /icon/client-skills/bsfg.s12545.png
       level: '7'
       name: Изгнание бесов
       selection_id: ''
@@ -4267,7 +4267,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 8%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '1'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4285,7 +4285,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '2'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4303,7 +4303,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 12%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '3'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4321,7 +4321,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 14%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '4'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4339,7 +4339,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 16%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '5'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4357,7 +4357,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '6'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4375,7 +4375,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '7'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4393,7 +4393,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '8'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4411,7 +4411,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '9'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4429,7 +4429,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '10'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4447,7 +4447,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 26%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '11'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4465,7 +4465,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '12'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4483,7 +4483,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 28%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '13'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4501,7 +4501,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 29%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '14'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4519,7 +4519,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '15'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4537,7 +4537,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 31%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '16'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4555,7 +4555,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 32%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '17'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4573,7 +4573,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '18'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4591,7 +4591,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 34%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '19'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4609,7 +4609,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '20'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5062,7 +5062,7 @@ profession:
         text: 'Сила физического умения: 600'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/s_triple_sonic_slash_engage.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_triple_sonic_slash_engage.png
       level: '1'
       name: Демонический взрыв
       selection_id: ''
@@ -5108,7 +5108,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s12620.jpg
+      icon: /icon/client-skills/bsfg.s12620.png
       level: '1'
       name: Астральное перемещение
       selection_id: '2.1_1'
@@ -5180,7 +5180,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s12620.jpg
+      icon: /icon/client-skills/bsfg.s12620.png
       level: '2'
       name: Астральное перемещение
       selection_id: '2.1_4'
@@ -5252,7 +5252,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s12620.jpg
+      icon: /icon/client-skills/bsfg.s12620.png
       level: '3'
       name: Астральное перемещение
       selection_id: '2.1_2'
@@ -5324,7 +5324,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s12620.jpg
+      icon: /icon/client-skills/bsfg.s12620.png
       level: '4'
       name: Астральное перемещение
       selection_id: '2.1_2'
@@ -5396,7 +5396,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s12620.jpg
+      icon: /icon/client-skills/bsfg.s12620.png
       level: '5'
       name: Астральное перемещение
       selection_id: '2.1_2'
@@ -5468,7 +5468,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s12620.jpg
+      icon: /icon/client-skills/bsfg.s12620.png
       level: '6'
       name: Астральное перемещение
       selection_id: '2.1_2'
@@ -5540,7 +5540,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s12620.jpg
+      icon: /icon/client-skills/bsfg.s12620.png
       level: '7'
       name: Астральное перемещение
       selection_id: '2.1_2'
@@ -5604,7 +5604,7 @@ profession:
       description: Усиление, при котором все кто ударит Демонолога получат *Метку демона*, а сам Демонолог
         увеличит свою физическую атаку на 8%.
       effects: []
-      icon: /icon/s12628.jpg
+      icon: /icon/client-skills/bsfg.s12628.png
       level: '1'
       name: Демонический доспех
       selection_id: '2.2_2'
@@ -5655,7 +5655,7 @@ profession:
       description: Усиление, при котором все кто ударит Демонолога получат *Метку демона*, а сам Демонолог
         увеличит свою физическую атаку на 10%.
       effects: []
-      icon: /icon/s12628.jpg
+      icon: /icon/client-skills/bsfg.s12628.png
       level: '2'
       name: Демонический доспех
       selection_id: '2.2_2'
@@ -5706,7 +5706,7 @@ profession:
       description: Усиление, при котором все кто ударит Демонолога получат *Метку демона*, а сам Демонолог
         увеличит свою физическую атаку на 12%.
       effects: []
-      icon: /icon/s12628.jpg
+      icon: /icon/client-skills/bsfg.s12628.png
       level: '3'
       name: Демонический доспех
       selection_id: '2.2_2'
@@ -5757,7 +5757,7 @@ profession:
       description: Усиление, при котором все кто ударит Демонолога получат *Метку демона*, а сам Демонолог
         увеличит свою физическую атаку на 14%.
       effects: []
-      icon: /icon/s12628.jpg
+      icon: /icon/client-skills/bsfg.s12628.png
       level: '4'
       name: Демонический доспех
       selection_id: '2.2_2'
@@ -5808,7 +5808,7 @@ profession:
       description: Усиление, при котором все кто ударит Демонолога получат *Метку демона*, а сам Демонолог
         увеличит свою физическую атаку на 16%.
       effects: []
-      icon: /icon/s12628.jpg
+      icon: /icon/client-skills/bsfg.s12628.png
       level: '5'
       name: Демонический доспех
       selection_id: '2.2_2'
@@ -5859,7 +5859,7 @@ profession:
       description: Усиление, при котором все кто ударит Демонолога получат *Метку демона*, а сам Демонолог
         увеличит свою физическую атаку на 18%.
       effects: []
-      icon: /icon/s12628.jpg
+      icon: /icon/client-skills/bsfg.s12628.png
       level: '6'
       name: Демонический доспех
       selection_id: '2.2_2'
@@ -5910,7 +5910,7 @@ profession:
       description: Усиление, при котором все кто ударит Демонолога получат *Метку демона*, а сам Демонолог
         увеличит свою физическую атаку на 20%.
       effects: []
-      icon: /icon/s12628.jpg
+      icon: /icon/client-skills/bsfg.s12628.png
       level: '7'
       name: Демонический доспех
       selection_id: '2.2_2'
@@ -5952,7 +5952,7 @@ profession:
         text: 'Физическая защита (Любая броня): 18%'
       - kind: value
         text: 'Магическая защита (Любая броня): 18%'
-      icon: /icon/s12599.jpg
+      icon: /icon/client-skills/bsfg.s12599.png
       level: '1'
       name: Ритуал экзорцизма
       selection_id: '2.3_1'
@@ -5978,7 +5978,7 @@ profession:
         text: 'Физическая атака (Все): -16%'
       - kind: value
         text: 'Магическая атака (Любая броня): -16%'
-      icon: /icon/s12603.jpg
+      icon: /icon/client-skills/bsfg.s12603.png
       level: '1'
       name: Ритуал экзорцизма
       selection_id: '2.3_2'
@@ -6008,7 +6008,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/s12608.jpg
+      icon: /icon/client-skills/bsfg.s12608.png
       level: '1'
       name: Ритуал экзорцизма
       selection_id: '2.3_3'
@@ -6034,7 +6034,7 @@ profession:
         text: 'Физическая защита (Любая броня): 20%'
       - kind: value
         text: 'Магическая защита (Любая броня): 20%'
-      icon: /icon/s12599.jpg
+      icon: /icon/client-skills/bsfg.s12599.png
       level: '2'
       name: Ритуал экзорцизма
       selection_id: '2.3_1'
@@ -6060,7 +6060,7 @@ profession:
         text: 'Физическая атака (Все): -20%'
       - kind: value
         text: 'Магическая атака (Любая броня): -20%'
-      icon: /icon/s12603.jpg
+      icon: /icon/client-skills/bsfg.s12603.png
       level: '2'
       name: Ритуал экзорцизма
       selection_id: '2.3_2'
@@ -6090,7 +6090,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Магическая защита (Любая броня): 12%'
-      icon: /icon/s12608.jpg
+      icon: /icon/client-skills/bsfg.s12608.png
       level: '2'
       name: Ритуал экзорцизма
       selection_id: '2.3_3'
@@ -6116,7 +6116,7 @@ profession:
         text: 'Физическая защита (Любая броня): 22%'
       - kind: value
         text: 'Магическая защита (Любая броня): 22%'
-      icon: /icon/s12599.jpg
+      icon: /icon/client-skills/bsfg.s12599.png
       level: '3'
       name: Ритуал экзорцизма
       selection_id: '2.3_1'
@@ -6142,7 +6142,7 @@ profession:
         text: 'Физическая атака (Все): -24%'
       - kind: value
         text: 'Магическая атака (Любая броня): -24%'
-      icon: /icon/s12603.jpg
+      icon: /icon/client-skills/bsfg.s12603.png
       level: '3'
       name: Ритуал экзорцизма
       selection_id: '2.3_2'
@@ -6172,7 +6172,7 @@ profession:
         text: 'Физическая защита (Любая броня): 14%'
       - kind: value
         text: 'Магическая защита (Любая броня): 14%'
-      icon: /icon/s12608.jpg
+      icon: /icon/client-skills/bsfg.s12608.png
       level: '3'
       name: Ритуал экзорцизма
       selection_id: '2.3_3'
@@ -6198,7 +6198,7 @@ profession:
         text: 'Физическая защита (Любая броня): 24%'
       - kind: value
         text: 'Магическая защита (Любая броня): 24%'
-      icon: /icon/s12599.jpg
+      icon: /icon/client-skills/bsfg.s12599.png
       level: '4'
       name: Ритуал экзорцизма
       selection_id: '2.3_1'
@@ -6224,7 +6224,7 @@ profession:
         text: 'Физическая атака (Все): -28%'
       - kind: value
         text: 'Магическая атака (Любая броня): -28%'
-      icon: /icon/s12603.jpg
+      icon: /icon/client-skills/bsfg.s12603.png
       level: '4'
       name: Ритуал экзорцизма
       selection_id: '2.3_2'
@@ -6254,7 +6254,7 @@ profession:
         text: 'Физическая защита (Любая броня): 16%'
       - kind: value
         text: 'Магическая защита (Любая броня): 16%'
-      icon: /icon/s12608.jpg
+      icon: /icon/client-skills/bsfg.s12608.png
       level: '4'
       name: Ритуал экзорцизма
       selection_id: '2.3_3'
@@ -6280,7 +6280,7 @@ profession:
         text: 'Физическая защита (Любая броня): 26%'
       - kind: value
         text: 'Магическая защита (Любая броня): 26%'
-      icon: /icon/s12599.jpg
+      icon: /icon/client-skills/bsfg.s12599.png
       level: '5'
       name: Ритуал экзорцизма
       selection_id: '2.3_1'
@@ -6306,7 +6306,7 @@ profession:
         text: 'Физическая атака (Все): -32%'
       - kind: value
         text: 'Магическая атака (Любая броня): -32%'
-      icon: /icon/s12603.jpg
+      icon: /icon/client-skills/bsfg.s12603.png
       level: '5'
       name: Ритуал экзорцизма
       selection_id: '2.3_2'
@@ -6336,7 +6336,7 @@ profession:
         text: 'Физическая защита (Любая броня): 18%'
       - kind: value
         text: 'Магическая защита (Любая броня): 18%'
-      icon: /icon/s12608.jpg
+      icon: /icon/client-skills/bsfg.s12608.png
       level: '5'
       name: Ритуал экзорцизма
       selection_id: '2.3_3'
@@ -6362,7 +6362,7 @@ profession:
         text: 'Физическая защита (Любая броня): 28%'
       - kind: value
         text: 'Магическая защита (Любая броня): 28%'
-      icon: /icon/s12599.jpg
+      icon: /icon/client-skills/bsfg.s12599.png
       level: '6'
       name: Ритуал экзорцизма
       selection_id: '2.3_1'
@@ -6388,7 +6388,7 @@ profession:
         text: 'Физическая атака (Все): -36%'
       - kind: value
         text: 'Магическая атака (Любая броня): -36%'
-      icon: /icon/s12603.jpg
+      icon: /icon/client-skills/bsfg.s12603.png
       level: '6'
       name: Ритуал экзорцизма
       selection_id: '2.3_2'
@@ -6418,7 +6418,7 @@ profession:
         text: 'Физическая защита (Любая броня): 20%'
       - kind: value
         text: 'Магическая защита (Любая броня): 20%'
-      icon: /icon/s12608.jpg
+      icon: /icon/client-skills/bsfg.s12608.png
       level: '6'
       name: Ритуал экзорцизма
       selection_id: '2.3_3'
@@ -6444,7 +6444,7 @@ profession:
         text: 'Физическая защита (Любая броня): 30%'
       - kind: value
         text: 'Магическая защита (Любая броня): 30%'
-      icon: /icon/s12599.jpg
+      icon: /icon/client-skills/bsfg.s12599.png
       level: '7'
       name: Ритуал экзорцизма
       selection_id: '2.3_1'
@@ -6470,7 +6470,7 @@ profession:
         text: 'Физическая атака (Все): -40%'
       - kind: value
         text: 'Магическая атака (Любая броня): -40%'
-      icon: /icon/s12603.jpg
+      icon: /icon/client-skills/bsfg.s12603.png
       level: '7'
       name: Ритуал экзорцизма
       selection_id: '2.3_2'
@@ -6500,7 +6500,7 @@ profession:
         text: 'Физическая защита (Любая броня): 22%'
       - kind: value
         text: 'Магическая защита (Любая броня): 22%'
-      icon: /icon/s12608.jpg
+      icon: /icon/client-skills/bsfg.s12608.png
       level: '7'
       name: Ритуал экзорцизма
       selection_id: '2.3_3'
@@ -6532,7 +6532,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12632.jpg
+      icon: /icon/client-skills/bsfg.s12632.png
       level: '1'
       name: Древнее знание
       selection_id: '2.4_1'
@@ -6584,7 +6584,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12636.jpg
+      icon: /icon/client-skills/bsfg.s12636.png
       level: '1'
       name: Древнее знание
       selection_id: '2.4_3'
@@ -6611,7 +6611,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12632.jpg
+      icon: /icon/client-skills/bsfg.s12632.png
       level: '2'
       name: Древнее знание
       selection_id: '2.4_1'
@@ -6663,7 +6663,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12636.jpg
+      icon: /icon/client-skills/bsfg.s12636.png
       level: '2'
       name: Древнее знание
       selection_id: '2.4_3'
@@ -6690,7 +6690,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12632.jpg
+      icon: /icon/client-skills/bsfg.s12632.png
       level: '3'
       name: Древнее знание
       selection_id: '2.4_1'
@@ -6742,7 +6742,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12636.jpg
+      icon: /icon/client-skills/bsfg.s12636.png
       level: '3'
       name: Древнее знание
       selection_id: '2.4_3'
@@ -6769,7 +6769,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12632.jpg
+      icon: /icon/client-skills/bsfg.s12632.png
       level: '4'
       name: Древнее знание
       selection_id: '2.4_1'
@@ -6821,7 +6821,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12636.jpg
+      icon: /icon/client-skills/bsfg.s12636.png
       level: '4'
       name: Древнее знание
       selection_id: '2.4_3'
@@ -6848,7 +6848,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12632.jpg
+      icon: /icon/client-skills/bsfg.s12632.png
       level: '5'
       name: Древнее знание
       selection_id: '2.4_1'
@@ -6900,7 +6900,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12636.jpg
+      icon: /icon/client-skills/bsfg.s12636.png
       level: '5'
       name: Древнее знание
       selection_id: '2.4_3'
@@ -6927,7 +6927,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12632.jpg
+      icon: /icon/client-skills/bsfg.s12632.png
       level: '6'
       name: Древнее знание
       selection_id: '2.4_1'
@@ -6979,7 +6979,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12636.jpg
+      icon: /icon/client-skills/bsfg.s12636.png
       level: '6'
       name: Древнее знание
       selection_id: '2.4_3'
@@ -7006,7 +7006,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12632.jpg
+      icon: /icon/client-skills/bsfg.s12632.png
       level: '7'
       name: Древнее знание
       selection_id: '2.4_1'
@@ -7058,7 +7058,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s12636.jpg
+      icon: /icon/client-skills/bsfg.s12636.png
       level: '7'
       name: Древнее знание
       selection_id: '2.4_3'
@@ -7108,7 +7108,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12674.jpg
+      icon: /icon/client-skills/bsfg.s12674.png
       level: '1'
       name: Демоническая сущность
       selection_id: '2.5_2'
@@ -7135,7 +7135,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12667.jpg
+      icon: /icon/client-skills/bsfg.s12667.png
       level: '1'
       name: Демоническая сущность
       selection_id: '2.5_3'
@@ -7189,7 +7189,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12674.jpg
+      icon: /icon/client-skills/bsfg.s12674.png
       level: '2'
       name: Демоническая сущность
       selection_id: '2.5_2'
@@ -7216,7 +7216,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12667.jpg
+      icon: /icon/client-skills/bsfg.s12667.png
       level: '2'
       name: Демоническая сущность
       selection_id: '2.5_3'
@@ -7270,7 +7270,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12674.jpg
+      icon: /icon/client-skills/bsfg.s12674.png
       level: '3'
       name: Демоническая сущность
       selection_id: '2.5_2'
@@ -7297,7 +7297,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12667.jpg
+      icon: /icon/client-skills/bsfg.s12667.png
       level: '3'
       name: Демоническая сущность
       selection_id: '2.5_3'
@@ -7351,7 +7351,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12674.jpg
+      icon: /icon/client-skills/bsfg.s12674.png
       level: '4'
       name: Демоническая сущность
       selection_id: '2.5_2'
@@ -7378,7 +7378,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12667.jpg
+      icon: /icon/client-skills/bsfg.s12667.png
       level: '4'
       name: Демоническая сущность
       selection_id: '2.5_3'
@@ -7432,7 +7432,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12674.jpg
+      icon: /icon/client-skills/bsfg.s12674.png
       level: '5'
       name: Демоническая сущность
       selection_id: '2.5_2'
@@ -7459,7 +7459,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12667.jpg
+      icon: /icon/client-skills/bsfg.s12667.png
       level: '5'
       name: Демоническая сущность
       selection_id: '2.5_3'
@@ -7513,7 +7513,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12674.jpg
+      icon: /icon/client-skills/bsfg.s12674.png
       level: '6'
       name: Демоническая сущность
       selection_id: '2.5_2'
@@ -7540,7 +7540,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12667.jpg
+      icon: /icon/client-skills/bsfg.s12667.png
       level: '6'
       name: Демоническая сущность
       selection_id: '2.5_3'
@@ -7594,7 +7594,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12674.jpg
+      icon: /icon/client-skills/bsfg.s12674.png
       level: '7'
       name: Демоническая сущность
       selection_id: '2.5_2'
@@ -7621,7 +7621,7 @@ profession:
         text: 'При высвобождении демонической сущности:'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s12667.jpg
+      icon: /icon/client-skills/bsfg.s12667.png
       level: '7'
       name: Демоническая сущность
       selection_id: '2.5_3'
@@ -7643,7 +7643,7 @@ profession:
         text: 'Душа улетает каждые: 10 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12662.jpg
+      icon: /icon/client-skills/bsfg.s12662.png
       level: '1'
       name: Сбор душ
       selection_id: '2.6_1'
@@ -7662,7 +7662,7 @@ profession:
         text: 'Душа улетает каждые: 10 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12665.jpg
+      icon: /icon/client-skills/bsfg.s12665.png
       level: '1'
       name: Сбор душ
       selection_id: '2.6_2'
@@ -7680,7 +7680,7 @@ profession:
         text: 'Душа улетает каждые: 10 сек.'
       - kind: value
         text: 'Время существования души: 0 сек.'
-      icon: /icon/s12668.jpg
+      icon: /icon/client-skills/bsfg.s12668.png
       level: '1'
       name: Сбор душ
       selection_id: '2.6_3'
@@ -7698,7 +7698,7 @@ profession:
         text: 'Душа улетает каждые: 14 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12662.jpg
+      icon: /icon/client-skills/bsfg.s12662.png
       level: '2'
       name: Сбор душ
       selection_id: '2.6_1'
@@ -7717,7 +7717,7 @@ profession:
         text: 'Душа улетает каждые: 14 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12665.jpg
+      icon: /icon/client-skills/bsfg.s12665.png
       level: '2'
       name: Сбор душ
       selection_id: '2.6_2'
@@ -7735,7 +7735,7 @@ profession:
         text: 'Душа улетает каждые: 14 сек.'
       - kind: value
         text: 'Время существования души: 0 сек.'
-      icon: /icon/s12668.jpg
+      icon: /icon/client-skills/bsfg.s12668.png
       level: '2'
       name: Сбор душ
       selection_id: '2.6_3'
@@ -7753,7 +7753,7 @@ profession:
         text: 'Душа улетает каждые: 17 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12662.jpg
+      icon: /icon/client-skills/bsfg.s12662.png
       level: '3'
       name: Сбор душ
       selection_id: '2.6_1'
@@ -7772,7 +7772,7 @@ profession:
         text: 'Душа улетает каждые: 17 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12665.jpg
+      icon: /icon/client-skills/bsfg.s12665.png
       level: '3'
       name: Сбор душ
       selection_id: '2.6_2'
@@ -7790,7 +7790,7 @@ profession:
         text: 'Душа улетает каждые: 17 сек.'
       - kind: value
         text: 'Время существования души: 0 сек.'
-      icon: /icon/s12668.jpg
+      icon: /icon/client-skills/bsfg.s12668.png
       level: '3'
       name: Сбор душ
       selection_id: '2.6_3'
@@ -7808,7 +7808,7 @@ profession:
         text: 'Душа улетает каждые: 20 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12662.jpg
+      icon: /icon/client-skills/bsfg.s12662.png
       level: '4'
       name: Сбор душ
       selection_id: '2.6_1'
@@ -7827,7 +7827,7 @@ profession:
         text: 'Душа улетает каждые: 20 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12665.jpg
+      icon: /icon/client-skills/bsfg.s12665.png
       level: '4'
       name: Сбор душ
       selection_id: '2.6_2'
@@ -7845,7 +7845,7 @@ profession:
         text: 'Душа улетает каждые: 20 сек.'
       - kind: value
         text: 'Время существования души: 0 сек.'
-      icon: /icon/s12668.jpg
+      icon: /icon/client-skills/bsfg.s12668.png
       level: '4'
       name: Сбор душ
       selection_id: '2.6_3'
@@ -7863,7 +7863,7 @@ profession:
         text: 'Душа улетает каждые: 24 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12662.jpg
+      icon: /icon/client-skills/bsfg.s12662.png
       level: '5'
       name: Сбор душ
       selection_id: '2.6_1'
@@ -7882,7 +7882,7 @@ profession:
         text: 'Душа улетает каждые: 24 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12665.jpg
+      icon: /icon/client-skills/bsfg.s12665.png
       level: '5'
       name: Сбор душ
       selection_id: '2.6_2'
@@ -7900,7 +7900,7 @@ profession:
         text: 'Душа улетает каждые: 24 сек.'
       - kind: value
         text: 'Время существования души: 0 сек.'
-      icon: /icon/s12668.jpg
+      icon: /icon/client-skills/bsfg.s12668.png
       level: '5'
       name: Сбор душ
       selection_id: '2.6_3'
@@ -7918,7 +7918,7 @@ profession:
         text: 'Душа улетает каждые: 27 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12662.jpg
+      icon: /icon/client-skills/bsfg.s12662.png
       level: '6'
       name: Сбор душ
       selection_id: '2.6_1'
@@ -7937,7 +7937,7 @@ profession:
         text: 'Душа улетает каждые: 27 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12665.jpg
+      icon: /icon/client-skills/bsfg.s12665.png
       level: '6'
       name: Сбор душ
       selection_id: '2.6_2'
@@ -7955,7 +7955,7 @@ profession:
         text: 'Душа улетает каждые: 27 сек.'
       - kind: value
         text: 'Время существования души: 0 сек.'
-      icon: /icon/s12668.jpg
+      icon: /icon/client-skills/bsfg.s12668.png
       level: '6'
       name: Сбор душ
       selection_id: '2.6_3'
@@ -7973,7 +7973,7 @@ profession:
         text: 'Душа улетает каждые: 30 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12662.jpg
+      icon: /icon/client-skills/bsfg.s12662.png
       level: '7'
       name: Сбор душ
       selection_id: '2.6_1'
@@ -7992,7 +7992,7 @@ profession:
         text: 'Душа улетает каждые: 30 сек.'
       - kind: value
         text: 'Время существования души: 3600 сек.'
-      icon: /icon/s12665.jpg
+      icon: /icon/client-skills/bsfg.s12665.png
       level: '7'
       name: Сбор душ
       selection_id: '2.6_2'
@@ -8010,7 +8010,7 @@ profession:
         text: 'Душа улетает каждые: 30 сек.'
       - kind: value
         text: 'Время существования души: 0 сек.'
-      icon: /icon/s12668.jpg
+      icon: /icon/client-skills/bsfg.s12668.png
       level: '7'
       name: Сбор душ
       selection_id: '2.6_3'
@@ -8031,7 +8031,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 12%'
-      icon: /icon/s12650.jpg
+      icon: /icon/client-skills/bsfg.s12650.png
       level: '1'
       name: Демонический клинок
       selection_id: '2.7_1'
@@ -8056,7 +8056,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 12%'
-      icon: /icon/s12652.jpg
+      icon: /icon/client-skills/bsfg.s12652.png
       level: '1'
       name: Демонический клинок
       selection_id: '2.7_2'
@@ -8081,7 +8081,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 12%'
-      icon: /icon/s12653.jpg
+      icon: /icon/client-skills/bsfg.s12653.png
       level: '1'
       name: Демонический клинок
       selection_id: '2.7_3'
@@ -8106,7 +8106,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 15%'
-      icon: /icon/s12650.jpg
+      icon: /icon/client-skills/bsfg.s12650.png
       level: '2'
       name: Демонический клинок
       selection_id: '2.7_1'
@@ -8131,7 +8131,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 15%'
-      icon: /icon/s12652.jpg
+      icon: /icon/client-skills/bsfg.s12652.png
       level: '2'
       name: Демонический клинок
       selection_id: '2.7_2'
@@ -8156,7 +8156,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 15%'
-      icon: /icon/s12653.jpg
+      icon: /icon/client-skills/bsfg.s12653.png
       level: '2'
       name: Демонический клинок
       selection_id: '2.7_3'
@@ -8181,7 +8181,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 18%'
-      icon: /icon/s12650.jpg
+      icon: /icon/client-skills/bsfg.s12650.png
       level: '3'
       name: Демонический клинок
       selection_id: '2.7_1'
@@ -8206,7 +8206,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 18%'
-      icon: /icon/s12652.jpg
+      icon: /icon/client-skills/bsfg.s12652.png
       level: '3'
       name: Демонический клинок
       selection_id: '2.7_2'
@@ -8231,7 +8231,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 18%'
-      icon: /icon/s12653.jpg
+      icon: /icon/client-skills/bsfg.s12653.png
       level: '3'
       name: Демонический клинок
       selection_id: '2.7_3'
@@ -8256,7 +8256,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 21%'
-      icon: /icon/s12650.jpg
+      icon: /icon/client-skills/bsfg.s12650.png
       level: '4'
       name: Демонический клинок
       selection_id: '2.7_1'
@@ -8281,7 +8281,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 21%'
-      icon: /icon/s12652.jpg
+      icon: /icon/client-skills/bsfg.s12652.png
       level: '4'
       name: Демонический клинок
       selection_id: '2.7_2'
@@ -8306,7 +8306,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 21%'
-      icon: /icon/s12653.jpg
+      icon: /icon/client-skills/bsfg.s12653.png
       level: '4'
       name: Демонический клинок
       selection_id: '2.7_3'
@@ -8331,7 +8331,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 24%'
-      icon: /icon/s12650.jpg
+      icon: /icon/client-skills/bsfg.s12650.png
       level: '5'
       name: Демонический клинок
       selection_id: '2.7_1'
@@ -8356,7 +8356,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 24%'
-      icon: /icon/s12652.jpg
+      icon: /icon/client-skills/bsfg.s12652.png
       level: '5'
       name: Демонический клинок
       selection_id: '2.7_2'
@@ -8381,7 +8381,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 24%'
-      icon: /icon/s12653.jpg
+      icon: /icon/client-skills/bsfg.s12653.png
       level: '5'
       name: Демонический клинок
       selection_id: '2.7_3'
@@ -8406,7 +8406,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 27%'
-      icon: /icon/s12650.jpg
+      icon: /icon/client-skills/bsfg.s12650.png
       level: '6'
       name: Демонический клинок
       selection_id: '2.7_1'
@@ -8431,7 +8431,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 27%'
-      icon: /icon/s12652.jpg
+      icon: /icon/client-skills/bsfg.s12652.png
       level: '6'
       name: Демонический клинок
       selection_id: '2.7_2'
@@ -8456,7 +8456,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 27%'
-      icon: /icon/s12653.jpg
+      icon: /icon/client-skills/bsfg.s12653.png
       level: '6'
       name: Демонический клинок
       selection_id: '2.7_3'
@@ -8481,7 +8481,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 30%'
-      icon: /icon/s12650.jpg
+      icon: /icon/client-skills/bsfg.s12650.png
       level: '7'
       name: Демонический клинок
       selection_id: '2.7_1'
@@ -8506,7 +8506,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 30%'
-      icon: /icon/s12652.jpg
+      icon: /icon/client-skills/bsfg.s12652.png
       level: '7'
       name: Демонический клинок
       selection_id: '2.7_2'
@@ -8531,7 +8531,7 @@ profession:
         text: 'Эффект усиления:'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 30%'
-      icon: /icon/s12653.jpg
+      icon: /icon/client-skills/bsfg.s12653.png
       level: '7'
       name: Демонический клинок
       selection_id: '2.7_3'

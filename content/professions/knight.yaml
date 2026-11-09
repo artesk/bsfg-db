@@ -698,7 +698,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2800ед.'
-      icon: /icon/skill10532.jpg
+      icon: /icon/client-skills/icon.skill10532.png
       level: '1'
       name: Ненависть
       selection_id: ''
@@ -718,7 +718,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill10532.jpg
+      icon: /icon/client-skills/icon.skill10532.png
       level: '2'
       name: Ненависть
       selection_id: ''
@@ -738,7 +738,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3200ед.'
-      icon: /icon/skill10532.jpg
+      icon: /icon/client-skills/icon.skill10532.png
       level: '3'
       name: Ненависть
       selection_id: ''
@@ -758,7 +758,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3400ед.'
-      icon: /icon/skill10532.jpg
+      icon: /icon/client-skills/icon.skill10532.png
       level: '4'
       name: Ненависть
       selection_id: ''
@@ -778,7 +778,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3600ед.'
-      icon: /icon/skill10532.jpg
+      icon: /icon/client-skills/icon.skill10532.png
       level: '5'
       name: Ненависть
       selection_id: ''
@@ -798,7 +798,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3800ед.'
-      icon: /icon/skill10532.jpg
+      icon: /icon/client-skills/icon.skill10532.png
       level: '6'
       name: Ненависть
       selection_id: ''
@@ -818,7 +818,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 4000ед.'
-      icon: /icon/skill10532.jpg
+      icon: /icon/client-skills/icon.skill10532.png
       level: '7'
       name: Ненависть
       selection_id: ''
@@ -995,7 +995,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/skill10001.jpg
+      icon: /icon/client-skills/icon.skill10001.png
       level: '1'
       name: Усиленный удар
       selection_id: ''
@@ -1024,7 +1024,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Фиксированный урон: 1500ед.'
-      icon: /icon/skill10001.jpg
+      icon: /icon/client-skills/icon.skill10001.png
       level: '2'
       name: Усиленный удар
       selection_id: ''
@@ -1053,7 +1053,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Фиксированный урон: 1800ед.'
-      icon: /icon/skill10001.jpg
+      icon: /icon/client-skills/icon.skill10001.png
       level: '3'
       name: Усиленный удар
       selection_id: ''
@@ -1082,7 +1082,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Фиксированный урон: 2100ед.'
-      icon: /icon/skill10001.jpg
+      icon: /icon/client-skills/icon.skill10001.png
       level: '4'
       name: Усиленный удар
       selection_id: ''
@@ -1111,7 +1111,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Фиксированный урон: 2400ед.'
-      icon: /icon/skill10001.jpg
+      icon: /icon/client-skills/icon.skill10001.png
       level: '5'
       name: Усиленный удар
       selection_id: ''
@@ -1140,7 +1140,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Фиксированный урон: 2700ед.'
-      icon: /icon/skill10001.jpg
+      icon: /icon/client-skills/icon.skill10001.png
       level: '6'
       name: Усиленный удар
       selection_id: ''
@@ -1169,7 +1169,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill10001.jpg
+      icon: /icon/client-skills/icon.skill10001.png
       level: '7'
       name: Усиленный удар
       selection_id: ''
@@ -1319,7 +1319,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 200ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 200ед.'
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '1'
       name: Стойка рыцаря
       selection_id: ''
@@ -1349,7 +1349,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 250ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 250ед.'
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '2'
       name: Стойка рыцаря
       selection_id: ''
@@ -1379,7 +1379,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 300ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 300ед.'
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '3'
       name: Стойка рыцаря
       selection_id: ''
@@ -1409,7 +1409,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 350ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 350ед.'
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '4'
       name: Стойка рыцаря
       selection_id: ''
@@ -1439,7 +1439,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 400ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 400ед.'
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '5'
       name: Стойка рыцаря
       selection_id: ''
@@ -1469,7 +1469,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 450ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 450ед.'
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '6'
       name: Стойка рыцаря
       selection_id: ''
@@ -1499,7 +1499,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 500ед.'
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '7'
       name: Стойка рыцаря
       selection_id: ''
@@ -3409,7 +3409,7 @@ profession:
         text: 'Максимум боевого духа: 3%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 12%'
-      icon: /icon/skill1470.jpg
+      icon: /icon/client-skills/icon.skill1470.png
       level: '1'
       name: Имперский защитник
       selection_id: ''
@@ -3426,7 +3426,7 @@ profession:
         text: 'Максимум боевого духа: 5%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 15%'
-      icon: /icon/skill1470.jpg
+      icon: /icon/client-skills/icon.skill1470.png
       level: '2'
       name: Имперский защитник
       selection_id: ''
@@ -3443,7 +3443,7 @@ profession:
         text: 'Максимум боевого духа: 7%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 18%'
-      icon: /icon/skill1470.jpg
+      icon: /icon/client-skills/icon.skill1470.png
       level: '3'
       name: Имперский защитник
       selection_id: ''
@@ -3460,7 +3460,7 @@ profession:
         text: 'Максимум боевого духа: 9%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 21%'
-      icon: /icon/skill1470.jpg
+      icon: /icon/client-skills/icon.skill1470.png
       level: '4'
       name: Имперский защитник
       selection_id: ''
@@ -3477,7 +3477,7 @@ profession:
         text: 'Максимум боевого духа: 11%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 24%'
-      icon: /icon/skill1470.jpg
+      icon: /icon/client-skills/icon.skill1470.png
       level: '5'
       name: Имперский защитник
       selection_id: ''
@@ -3494,7 +3494,7 @@ profession:
         text: 'Максимум боевого духа: 13%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 27%'
-      icon: /icon/skill1470.jpg
+      icon: /icon/client-skills/icon.skill1470.png
       level: '6'
       name: Имперский защитник
       selection_id: ''
@@ -3511,7 +3511,7 @@ profession:
         text: 'Максимум боевого духа: 15%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Меч): 30%'
-      icon: /icon/skill1470.jpg
+      icon: /icon/client-skills/icon.skill1470.png
       level: '7'
       name: Имперский защитник
       selection_id: ''
@@ -4919,7 +4919,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '1'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4941,7 +4941,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '2'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4963,7 +4963,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '3'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4985,7 +4985,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '4'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5007,7 +5007,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '5'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5029,7 +5029,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '6'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5051,7 +5051,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '7'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5073,7 +5073,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '8'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5095,7 +5095,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '9'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5117,7 +5117,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '10'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5139,7 +5139,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '11'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5161,7 +5161,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '12'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5183,7 +5183,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '13'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5205,7 +5205,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '14'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5227,7 +5227,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '15'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5249,7 +5249,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '16'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5271,7 +5271,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '17'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5293,7 +5293,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '18'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5315,7 +5315,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '19'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5337,7 +5337,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '20'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5639,7 +5639,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 8%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 8%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '1'
       name: Рыцарь
       selection_id: ''
@@ -5660,7 +5660,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 10%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 10%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '2'
       name: Рыцарь
       selection_id: ''
@@ -5681,7 +5681,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 12%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 12%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '3'
       name: Рыцарь
       selection_id: ''
@@ -5702,7 +5702,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 14%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 14%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '4'
       name: Рыцарь
       selection_id: ''
@@ -5723,7 +5723,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 16%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 16%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '5'
       name: Рыцарь
       selection_id: ''
@@ -5744,7 +5744,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 18%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 18%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '6'
       name: Рыцарь
       selection_id: ''
@@ -5765,7 +5765,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 20%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 20%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '7'
       name: Рыцарь
       selection_id: ''
@@ -5781,7 +5781,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 15%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 15%'
-      icon: /icon/Icon4/guardian_skill_book_blue.jpg
+      icon: /icon/client-skills/icon4.l2icon.guardian_skill_book_blue.png
       level: '1'
       name: Рыцарский кодекс
       selection_id: ''
@@ -5798,7 +5798,7 @@ profession:
         на 2 секунды. На коне: пять следующих удара будут запрещать умения и магию на 3 секунды, либо
         нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '1'
       name: Рыцарская отвага
       selection_id: '2.1_0'
@@ -5815,7 +5815,7 @@ profession:
         пять следующих удара будут обездвиживать на 4 секунды, либо нанесут усиленные повреждения укреплениям
         противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '1'
       name: Рыцарская отвага
       selection_id: '2.1_1'
@@ -5832,7 +5832,7 @@ profession:
         силой 600. На коне: пять следующих удара будут наносить кровоточащую рану на 5 секунд, силой 700,
         либо нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '1'
       name: Рыцарская отвага
       selection_id: '2.1_2'
@@ -5849,7 +5849,7 @@ profession:
         на 2 секунды. На коне: пять следующих удара будут запрещать умения и магию на 3 секунды, либо
         нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '2'
       name: Рыцарская отвага
       selection_id: '2.1_3'
@@ -5866,7 +5866,7 @@ profession:
         пять следующих удара будут обездвиживать на 4 секунды, либо нанесут усиленные повреждения укреплениям
         противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '2'
       name: Рыцарская отвага
       selection_id: '2.1_4'
@@ -5883,7 +5883,7 @@ profession:
         силой 600. На коне: пять следующих удара будут наносить кровоточащую рану на 5 секунд, силой 700,
         либо нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '2'
       name: Рыцарская отвага
       selection_id: '2.1_5'
@@ -5900,7 +5900,7 @@ profession:
         на 2 секунды. На коне: пять следующих удара будут запрещать умения и магию на 3 секунды, либо
         нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '3'
       name: Рыцарская отвага
       selection_id: '2.1_1'
@@ -5917,7 +5917,7 @@ profession:
         пять следующих удара будут обездвиживать на 4 секунды, либо нанесут усиленные повреждения укреплениям
         противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '3'
       name: Рыцарская отвага
       selection_id: '2.1_2'
@@ -5934,7 +5934,7 @@ profession:
         силой 600. На коне: пять следующих удара будут наносить кровоточащую рану на 5 секунд, силой 700,
         либо нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '3'
       name: Рыцарская отвага
       selection_id: '2.1_3'
@@ -5951,7 +5951,7 @@ profession:
         на 2 секунды. На коне: пять следующих удара будут запрещать умения и магию на 3 секунды, либо
         нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '4'
       name: Рыцарская отвага
       selection_id: '2.1_1'
@@ -5968,7 +5968,7 @@ profession:
         пять следующих удара будут обездвиживать на 4 секунды, либо нанесут усиленные повреждения укреплениям
         противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '4'
       name: Рыцарская отвага
       selection_id: '2.1_2'
@@ -5985,7 +5985,7 @@ profession:
         силой 600. На коне: пять следующих удара будут наносить кровоточащую рану на 5 секунд, силой 700,
         либо нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '4'
       name: Рыцарская отвага
       selection_id: '2.1_3'
@@ -6002,7 +6002,7 @@ profession:
         на 2 секунды. На коне: пять следующих удара будут запрещать умения и магию на 3 секунды, либо
         нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '5'
       name: Рыцарская отвага
       selection_id: '2.1_1'
@@ -6019,7 +6019,7 @@ profession:
         пять следующих удара будут обездвиживать на 4 секунды, либо нанесут усиленные повреждения укреплениям
         противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '5'
       name: Рыцарская отвага
       selection_id: '2.1_2'
@@ -6036,7 +6036,7 @@ profession:
         силой 600. На коне: пять следующих удара будут наносить кровоточащую рану на 5 секунд, силой 700,
         либо нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '5'
       name: Рыцарская отвага
       selection_id: '2.1_3'
@@ -6053,7 +6053,7 @@ profession:
         на 2 секунды. На коне: пять следующих удара будут запрещать умения и магию на 3 секунды, либо
         нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '6'
       name: Рыцарская отвага
       selection_id: '2.1_1'
@@ -6070,7 +6070,7 @@ profession:
         пять следующих удара будут обездвиживать на 4 секунды, либо нанесут усиленные повреждения укреплениям
         противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '6'
       name: Рыцарская отвага
       selection_id: '2.1_2'
@@ -6087,7 +6087,7 @@ profession:
         силой 600. На коне: пять следующих удара будут наносить кровоточащую рану на 5 секунд, силой 700,
         либо нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '6'
       name: Рыцарская отвага
       selection_id: '2.1_3'
@@ -6104,7 +6104,7 @@ profession:
         на 2 секунды. На коне: пять следующих удара будут запрещать умения и магию на 3 секунды, либо
         нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '7'
       name: Рыцарская отвага
       selection_id: '2.1_1'
@@ -6121,7 +6121,7 @@ profession:
         пять следующих удара будут обездвиживать на 4 секунды, либо нанесут усиленные повреждения укреплениям
         противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '7'
       name: Рыцарская отвага
       selection_id: '2.1_2'
@@ -6138,7 +6138,7 @@ profession:
         силой 600. На коне: пять следующих удара будут наносить кровоточащую рану на 5 секунд, силой 700,
         либо нанесут усиленные повреждения укреплениям противника.'
       effects: []
-      icon: /icon/skill1537.jpg
+      icon: /icon/client-skills/icon.skill1537.png
       level: '7'
       name: Рыцарская отвага
       selection_id: '2.1_3'
@@ -6942,7 +6942,7 @@ profession:
         text: 'Сила физического умения: 200'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '1'
       name: Массовый удар
       selection_id: '2.4_1'
@@ -6964,7 +6964,7 @@ profession:
         text: 'Сила физического умения: 200'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '1'
       name: Массовый удар
       selection_id: '2.4_2'
@@ -6986,7 +6986,7 @@ profession:
         text: 'Сила физического умения: 200'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '1'
       name: Массовый удар
       selection_id: '2.4_3'
@@ -7008,7 +7008,7 @@ profession:
         text: 'Сила физического умения: 210'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '2'
       name: Массовый удар
       selection_id: '2.4_1'
@@ -7030,7 +7030,7 @@ profession:
         text: 'Сила физического умения: 210'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '2'
       name: Массовый удар
       selection_id: '2.4_2'
@@ -7052,7 +7052,7 @@ profession:
         text: 'Сила физического умения: 210'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '2'
       name: Массовый удар
       selection_id: '2.4_3'
@@ -7074,7 +7074,7 @@ profession:
         text: 'Сила физического умения: 220'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '3'
       name: Массовый удар
       selection_id: '2.4_1'
@@ -7096,7 +7096,7 @@ profession:
         text: 'Сила физического умения: 220'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '3'
       name: Массовый удар
       selection_id: '2.4_2'
@@ -7118,7 +7118,7 @@ profession:
         text: 'Сила физического умения: 220'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '3'
       name: Массовый удар
       selection_id: '2.4_3'
@@ -7140,7 +7140,7 @@ profession:
         text: 'Сила физического умения: 230'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '4'
       name: Массовый удар
       selection_id: '2.4_1'
@@ -7162,7 +7162,7 @@ profession:
         text: 'Сила физического умения: 230'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '4'
       name: Массовый удар
       selection_id: '2.4_2'
@@ -7184,7 +7184,7 @@ profession:
         text: 'Сила физического умения: 230'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '4'
       name: Массовый удар
       selection_id: '2.4_3'
@@ -7206,7 +7206,7 @@ profession:
         text: 'Сила физического умения: 240'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '5'
       name: Массовый удар
       selection_id: '2.4_1'
@@ -7228,7 +7228,7 @@ profession:
         text: 'Сила физического умения: 240'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '5'
       name: Массовый удар
       selection_id: '2.4_2'
@@ -7250,7 +7250,7 @@ profession:
         text: 'Сила физического умения: 240'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '5'
       name: Массовый удар
       selection_id: '2.4_3'
@@ -7272,7 +7272,7 @@ profession:
         text: 'Сила физического умения: 250'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '6'
       name: Массовый удар
       selection_id: '2.4_1'
@@ -7294,7 +7294,7 @@ profession:
         text: 'Сила физического умения: 250'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '6'
       name: Массовый удар
       selection_id: '2.4_2'
@@ -7316,7 +7316,7 @@ profession:
         text: 'Сила физического умения: 250'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '6'
       name: Массовый удар
       selection_id: '2.4_3'
@@ -7338,7 +7338,7 @@ profession:
         text: 'Сила физического умения: 260'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '7'
       name: Массовый удар
       selection_id: '2.4_1'
@@ -7360,7 +7360,7 @@ profession:
         text: 'Сила физического умения: 260'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '7'
       name: Массовый удар
       selection_id: '2.4_2'
@@ -7382,7 +7382,7 @@ profession:
         text: 'Сила физического умения: 260'
       - kind: value
         text: 'Урон по сооружениям: 4000'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '7'
       name: Массовый удар
       selection_id: '2.4_3'
@@ -8482,7 +8482,7 @@ profession:
         text: 'Время действия: 600 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 336 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '1'
       name: Призыв боевого коня
       selection_id: '2.7_1'
@@ -8530,7 +8530,7 @@ profession:
         text: 'Время действия: 450 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 312 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '1'
       name: Призыв боевого коня
       selection_id: '2.7_2'
@@ -8578,7 +8578,7 @@ profession:
         text: 'Время действия: 360 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 288 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '1'
       name: Призыв боевого коня
       selection_id: '2.7_3'
@@ -8626,7 +8626,7 @@ profession:
         text: 'Время действия: 600 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 336 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '2'
       name: Призыв боевого коня
       selection_id: '2.7_1'
@@ -8674,7 +8674,7 @@ profession:
         text: 'Время действия: 450 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 312 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '2'
       name: Призыв боевого коня
       selection_id: '2.7_2'
@@ -8722,7 +8722,7 @@ profession:
         text: 'Время действия: 360 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 288 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '2'
       name: Призыв боевого коня
       selection_id: '2.7_3'
@@ -8770,7 +8770,7 @@ profession:
         text: 'Время действия: 600 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 336 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '3'
       name: Призыв боевого коня
       selection_id: '2.7_1'
@@ -8818,7 +8818,7 @@ profession:
         text: 'Время действия: 450 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 312 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '3'
       name: Призыв боевого коня
       selection_id: '2.7_2'
@@ -8866,7 +8866,7 @@ profession:
         text: 'Время действия: 360 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 288 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '3'
       name: Призыв боевого коня
       selection_id: '2.7_3'
@@ -8914,7 +8914,7 @@ profession:
         text: 'Время действия: 600 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 336 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '4'
       name: Призыв боевого коня
       selection_id: '2.7_1'
@@ -8962,7 +8962,7 @@ profession:
         text: 'Время действия: 450 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 312 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '4'
       name: Призыв боевого коня
       selection_id: '2.7_2'
@@ -9010,7 +9010,7 @@ profession:
         text: 'Время действия: 360 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 288 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '4'
       name: Призыв боевого коня
       selection_id: '2.7_3'
@@ -9058,7 +9058,7 @@ profession:
         text: 'Время действия: 600 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 336 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '5'
       name: Призыв боевого коня
       selection_id: '2.7_1'
@@ -9106,7 +9106,7 @@ profession:
         text: 'Время действия: 450 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 312 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '5'
       name: Призыв боевого коня
       selection_id: '2.7_2'
@@ -9154,7 +9154,7 @@ profession:
         text: 'Время действия: 360 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 288 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '5'
       name: Призыв боевого коня
       selection_id: '2.7_3'
@@ -9202,7 +9202,7 @@ profession:
         text: 'Время действия: 600 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 336 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '6'
       name: Призыв боевого коня
       selection_id: '2.7_1'
@@ -9250,7 +9250,7 @@ profession:
         text: 'Время действия: 450 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 312 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '6'
       name: Призыв боевого коня
       selection_id: '2.7_2'
@@ -9298,7 +9298,7 @@ profession:
         text: 'Время действия: 360 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 288 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '6'
       name: Призыв боевого коня
       selection_id: '2.7_3'
@@ -9346,7 +9346,7 @@ profession:
         text: 'Время действия: 600 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 336 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '7'
       name: Призыв боевого коня
       selection_id: '2.7_1'
@@ -9394,7 +9394,7 @@ profession:
         text: 'Время действия: 450 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 312 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '7'
       name: Призыв боевого коня
       selection_id: '2.7_2'
@@ -9442,7 +9442,7 @@ profession:
         text: 'Время действия: 360 сек.'
       - kind: value
         text: 'Общее время до повтороного использования: 288 сек.'
-      icon: /icon/skill9210.jpg
+      icon: /icon/client-skills/icon.skill9210.png
       level: '7'
       name: Призыв боевого коня
       selection_id: '2.7_3'

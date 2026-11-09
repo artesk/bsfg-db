@@ -4967,7 +4967,7 @@ profession:
         text: 'Эффект лечения: -100%'
       - kind: value
         text: 'Эффективность восстановления боевого духа: -100%'
-      icon: /icon/Icon4/citadel_of_kelbim.jpg
+      icon: /icon/client-skills/icon4.l2icon.citadel_of_kelbim.png
       level: '1'
       name: Остановка времени
       selection_id: ''

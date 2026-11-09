@@ -3234,7 +3234,7 @@ profession:
         text: 'Эффективность восстановления боевого духа: -100%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/blessing_of_honors.jpg
+      icon: /icon/client-skills/icon.blessing_of_honors.png
       level: '1'
       name: Душа ангела
       selection_id: ''
@@ -3269,7 +3269,7 @@ profession:
         text: 'Эффективность восстановления боевого духа: -100%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/blessing_of_honors.jpg
+      icon: /icon/client-skills/icon.blessing_of_honors.png
       level: '2'
       name: Душа ангела
       selection_id: ''
@@ -3304,7 +3304,7 @@ profession:
         text: 'Эффективность восстановления боевого духа: -100%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/blessing_of_honors.jpg
+      icon: /icon/client-skills/icon.blessing_of_honors.png
       level: '3'
       name: Душа ангела
       selection_id: ''
@@ -3339,7 +3339,7 @@ profession:
         text: 'Эффективность восстановления боевого духа: -100%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/blessing_of_honors.jpg
+      icon: /icon/client-skills/icon.blessing_of_honors.png
       level: '4'
       name: Душа ангела
       selection_id: ''
@@ -3374,7 +3374,7 @@ profession:
         text: 'Эффективность восстановления боевого духа: -100%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/blessing_of_honors.jpg
+      icon: /icon/client-skills/icon.blessing_of_honors.png
       level: '5'
       name: Душа ангела
       selection_id: ''
@@ -3409,7 +3409,7 @@ profession:
         text: 'Эффективность восстановления боевого духа: -100%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/blessing_of_honors.jpg
+      icon: /icon/client-skills/icon.blessing_of_honors.png
       level: '6'
       name: Душа ангела
       selection_id: ''
@@ -3444,7 +3444,7 @@ profession:
         text: 'Эффективность восстановления боевого духа: -100%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/blessing_of_honors.jpg
+      icon: /icon/client-skills/icon.blessing_of_honors.png
       level: '7'
       name: Душа ангела
       selection_id: ''
@@ -4676,7 +4676,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '1'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4694,7 +4694,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '2'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4712,7 +4712,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '3'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4730,7 +4730,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '4'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4748,7 +4748,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '5'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4766,7 +4766,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '6'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4784,7 +4784,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '7'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4802,7 +4802,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '8'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4820,7 +4820,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '9'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4838,7 +4838,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '10'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4856,7 +4856,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '11'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4874,7 +4874,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '12'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4892,7 +4892,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '13'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4910,7 +4910,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '14'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4928,7 +4928,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '15'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4946,7 +4946,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '16'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4964,7 +4964,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '17'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4982,7 +4982,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '18'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5000,7 +5000,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '19'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5018,7 +5018,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '20'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5320,7 +5320,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 8ед.'
       - kind: value
         text: 'Физическая атака (Меч): 80%'
-      icon: /icon/skill1254.jpg
+      icon: /icon/client-skills/icon.skill1254.png
       level: '1'
       name: Серафим
       selection_id: ''
@@ -5341,7 +5341,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Физическая атака (Меч): 95%'
-      icon: /icon/skill1254.jpg
+      icon: /icon/client-skills/icon.skill1254.png
       level: '2'
       name: Серафим
       selection_id: ''
@@ -5362,7 +5362,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 12ед.'
       - kind: value
         text: 'Физическая атака (Меч): 110%'
-      icon: /icon/skill1254.jpg
+      icon: /icon/client-skills/icon.skill1254.png
       level: '3'
       name: Серафим
       selection_id: ''
@@ -5383,7 +5383,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 14ед.'
       - kind: value
         text: 'Физическая атака (Меч): 125%'
-      icon: /icon/skill1254.jpg
+      icon: /icon/client-skills/icon.skill1254.png
       level: '4'
       name: Серафим
       selection_id: ''
@@ -5404,7 +5404,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 16ед.'
       - kind: value
         text: 'Физическая атака (Меч): 140%'
-      icon: /icon/skill1254.jpg
+      icon: /icon/client-skills/icon.skill1254.png
       level: '5'
       name: Серафим
       selection_id: ''
@@ -5425,7 +5425,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 18ед.'
       - kind: value
         text: 'Физическая атака (Меч): 155%'
-      icon: /icon/skill1254.jpg
+      icon: /icon/client-skills/icon.skill1254.png
       level: '6'
       name: Серафим
       selection_id: ''
@@ -5446,7 +5446,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 20ед.'
       - kind: value
         text: 'Физическая атака (Меч): 170%'
-      icon: /icon/skill1254.jpg
+      icon: /icon/client-skills/icon.skill1254.png
       level: '7'
       name: Серафим
       selection_id: ''
@@ -5468,7 +5468,7 @@ profession:
         text: 'Эффект лечения: -100%'
       - kind: value
         text: 'Эффективность восстановления боевого духа: -100%'
-      icon: /icon/Icon4/skill31389.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill31389.png
       level: '1'
       name: Последний суд
       selection_id: ''
@@ -5492,7 +5492,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '1'
       name: На пределе сил
       selection_id: '2.1_0'
@@ -5511,7 +5511,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '1'
       name: На пределе сил
       selection_id: '2.1_1'
@@ -5529,7 +5529,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '1'
       name: На пределе сил
       selection_id: '2.1_2'
@@ -5548,7 +5548,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '2'
       name: На пределе сил
       selection_id: '2.1_3'
@@ -5567,7 +5567,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '2'
       name: На пределе сил
       selection_id: '2.1_4'
@@ -5585,7 +5585,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '2'
       name: На пределе сил
       selection_id: '2.1_5'
@@ -5604,7 +5604,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '3'
       name: На пределе сил
       selection_id: '2.1_1'
@@ -5623,7 +5623,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '3'
       name: На пределе сил
       selection_id: '2.1_2'
@@ -5641,7 +5641,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '3'
       name: На пределе сил
       selection_id: '2.1_3'
@@ -5660,7 +5660,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '4'
       name: На пределе сил
       selection_id: '2.1_1'
@@ -5679,7 +5679,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '4'
       name: На пределе сил
       selection_id: '2.1_2'
@@ -5697,7 +5697,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '4'
       name: На пределе сил
       selection_id: '2.1_3'
@@ -5716,7 +5716,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '5'
       name: На пределе сил
       selection_id: '2.1_1'
@@ -5735,7 +5735,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '5'
       name: На пределе сил
       selection_id: '2.1_2'
@@ -5753,7 +5753,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '5'
       name: На пределе сил
       selection_id: '2.1_3'
@@ -5772,7 +5772,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '6'
       name: На пределе сил
       selection_id: '2.1_1'
@@ -5791,7 +5791,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '6'
       name: На пределе сил
       selection_id: '2.1_2'
@@ -5809,7 +5809,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '6'
       name: На пределе сил
       selection_id: '2.1_3'
@@ -5828,7 +5828,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '7'
       name: На пределе сил
       selection_id: '2.1_1'
@@ -5847,7 +5847,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '7'
       name: На пределе сил
       selection_id: '2.1_2'
@@ -5865,7 +5865,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill3581.jpg
+      icon: /icon/client-skills/icon.skill3581.png
       level: '7'
       name: На пределе сил
       selection_id: '2.1_3'
@@ -6726,7 +6726,7 @@ profession:
         text: 'Физическая атака (Все): 8%'
       - kind: value
         text: 'Фиксированный урон: 600ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '1'
       name: Световой щит
       selection_id: '2.4_1'
@@ -6746,7 +6746,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Фиксированный урон: 600ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '1'
       name: Световой щит
       selection_id: '2.4_2'
@@ -6768,7 +6768,7 @@ profession:
         text: 'Физическая защита (Любая броня): 8%'
       - kind: value
         text: 'Фиксированный урон: 600ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '1'
       name: Световой щит
       selection_id: '2.4_3'
@@ -6786,7 +6786,7 @@ profession:
         text: 'Физическая атака (Все): 10%'
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '2'
       name: Световой щит
       selection_id: '2.4_1'
@@ -6806,7 +6806,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '2'
       name: Световой щит
       selection_id: '2.4_2'
@@ -6828,7 +6828,7 @@ profession:
         text: 'Физическая защита (Любая броня): 9%'
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '2'
       name: Световой щит
       selection_id: '2.4_3'
@@ -6846,7 +6846,7 @@ profession:
         text: 'Физическая атака (Все): 12%'
       - kind: value
         text: 'Фиксированный урон: 800ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '3'
       name: Световой щит
       selection_id: '2.4_1'
@@ -6866,7 +6866,7 @@ profession:
         text: 'Физическая защита (Любая броня): 17%'
       - kind: value
         text: 'Фиксированный урон: 800ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '3'
       name: Световой щит
       selection_id: '2.4_2'
@@ -6888,7 +6888,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Фиксированный урон: 800ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '3'
       name: Световой щит
       selection_id: '2.4_3'
@@ -6906,7 +6906,7 @@ profession:
         text: 'Физическая атака (Все): 14%'
       - kind: value
         text: 'Фиксированный урон: 900ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '4'
       name: Световой щит
       selection_id: '2.4_1'
@@ -6926,7 +6926,7 @@ profession:
         text: 'Физическая защита (Любая броня): 19%'
       - kind: value
         text: 'Фиксированный урон: 900ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '4'
       name: Световой щит
       selection_id: '2.4_2'
@@ -6948,7 +6948,7 @@ profession:
         text: 'Физическая защита (Любая броня): 11%'
       - kind: value
         text: 'Фиксированный урон: 900ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '4'
       name: Световой щит
       selection_id: '2.4_3'
@@ -6966,7 +6966,7 @@ profession:
         text: 'Физическая атака (Все): 16%'
       - kind: value
         text: 'Фиксированный урон: 1000ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '5'
       name: Световой щит
       selection_id: '2.4_1'
@@ -6986,7 +6986,7 @@ profession:
         text: 'Физическая защита (Любая броня): 21%'
       - kind: value
         text: 'Фиксированный урон: 1000ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '5'
       name: Световой щит
       selection_id: '2.4_2'
@@ -7008,7 +7008,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Фиксированный урон: 1000ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '5'
       name: Световой щит
       selection_id: '2.4_3'
@@ -7026,7 +7026,7 @@ profession:
         text: 'Физическая атака (Все): 18%'
       - kind: value
         text: 'Фиксированный урон: 1100ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '6'
       name: Световой щит
       selection_id: '2.4_1'
@@ -7046,7 +7046,7 @@ profession:
         text: 'Физическая защита (Любая броня): 23%'
       - kind: value
         text: 'Фиксированный урон: 1100ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '6'
       name: Световой щит
       selection_id: '2.4_2'
@@ -7068,7 +7068,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Фиксированный урон: 1100ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '6'
       name: Световой щит
       selection_id: '2.4_3'
@@ -7086,7 +7086,7 @@ profession:
         text: 'Физическая атака (Все): 20%'
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '7'
       name: Световой щит
       selection_id: '2.4_1'
@@ -7106,7 +7106,7 @@ profession:
         text: 'Физическая защита (Любая броня): 25%'
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '7'
       name: Световой щит
       selection_id: '2.4_2'
@@ -7128,7 +7128,7 @@ profession:
         text: 'Физическая защита (Любая броня): 14%'
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/skill1621.jpg
+      icon: /icon/client-skills/icon.skill1621.png
       level: '7'
       name: Световой щит
       selection_id: '2.4_3'
@@ -7145,7 +7145,7 @@ profession:
         text: 'Сила физического умения: 290'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '1'
       name: Световой взрыв
       selection_id: '2.5_1'
@@ -7167,7 +7167,7 @@ profession:
         text: 'Сила физического умения: 320'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '1'
       name: Световой взрыв
       selection_id: '2.5_2'
@@ -7189,7 +7189,7 @@ profession:
         text: 'Сила физического умения: 350'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '1'
       name: Световой взрыв
       selection_id: '2.5_3'
@@ -7211,7 +7211,7 @@ profession:
         text: 'Сила физического умения: 300'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '2'
       name: Световой взрыв
       selection_id: '2.5_1'
@@ -7233,7 +7233,7 @@ profession:
         text: 'Сила физического умения: 330'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '2'
       name: Световой взрыв
       selection_id: '2.5_2'
@@ -7255,7 +7255,7 @@ profession:
         text: 'Сила физического умения: 360'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '2'
       name: Световой взрыв
       selection_id: '2.5_3'
@@ -7277,7 +7277,7 @@ profession:
         text: 'Сила физического умения: 310'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '3'
       name: Световой взрыв
       selection_id: '2.5_1'
@@ -7299,7 +7299,7 @@ profession:
         text: 'Сила физического умения: 340'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '3'
       name: Световой взрыв
       selection_id: '2.5_2'
@@ -7321,7 +7321,7 @@ profession:
         text: 'Сила физического умения: 370'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '3'
       name: Световой взрыв
       selection_id: '2.5_3'
@@ -7343,7 +7343,7 @@ profession:
         text: 'Сила физического умения: 320'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '4'
       name: Световой взрыв
       selection_id: '2.5_1'
@@ -7365,7 +7365,7 @@ profession:
         text: 'Сила физического умения: 350'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '4'
       name: Световой взрыв
       selection_id: '2.5_2'
@@ -7387,7 +7387,7 @@ profession:
         text: 'Сила физического умения: 380'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '4'
       name: Световой взрыв
       selection_id: '2.5_3'
@@ -7409,7 +7409,7 @@ profession:
         text: 'Сила физического умения: 330'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '5'
       name: Световой взрыв
       selection_id: '2.5_1'
@@ -7431,7 +7431,7 @@ profession:
         text: 'Сила физического умения: 360'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '5'
       name: Световой взрыв
       selection_id: '2.5_2'
@@ -7453,7 +7453,7 @@ profession:
         text: 'Сила физического умения: 390'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '5'
       name: Световой взрыв
       selection_id: '2.5_3'
@@ -7475,7 +7475,7 @@ profession:
         text: 'Сила физического умения: 340'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '6'
       name: Световой взрыв
       selection_id: '2.5_1'
@@ -7497,7 +7497,7 @@ profession:
         text: 'Сила физического умения: 370'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '6'
       name: Световой взрыв
       selection_id: '2.5_2'
@@ -7519,7 +7519,7 @@ profession:
         text: 'Сила физического умения: 400'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '6'
       name: Световой взрыв
       selection_id: '2.5_3'
@@ -7541,7 +7541,7 @@ profession:
         text: 'Сила физического умения: 350'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '7'
       name: Световой взрыв
       selection_id: '2.5_1'
@@ -7563,7 +7563,7 @@ profession:
         text: 'Сила физического умения: 380'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '7'
       name: Световой взрыв
       selection_id: '2.5_2'
@@ -7585,7 +7585,7 @@ profession:
         text: 'Сила физического умения: 410'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill0947.jpg
+      icon: /icon/client-skills/icon.skill0947.png
       level: '7'
       name: Световой взрыв
       selection_id: '2.5_3'
@@ -7615,7 +7615,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '1'
       name: Комбо удар
       selection_id: '2.6_1'
@@ -7637,7 +7637,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '1'
       name: Комбо удар
       selection_id: '2.6_2'
@@ -7668,7 +7668,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '1'
       name: Комбо удар
       selection_id: '2.6_3'
@@ -7697,7 +7697,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '2'
       name: Комбо удар
       selection_id: '2.6_1'
@@ -7719,7 +7719,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Фиксированный урон: 3500ед.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '2'
       name: Комбо удар
       selection_id: '2.6_2'
@@ -7750,7 +7750,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '2'
       name: Комбо удар
       selection_id: '2.6_3'
@@ -7779,7 +7779,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '3'
       name: Комбо удар
       selection_id: '2.6_1'
@@ -7801,7 +7801,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Фиксированный урон: 4000ед.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '3'
       name: Комбо удар
       selection_id: '2.6_2'
@@ -7832,7 +7832,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '3'
       name: Комбо удар
       selection_id: '2.6_3'
@@ -7861,7 +7861,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '4'
       name: Комбо удар
       selection_id: '2.6_1'
@@ -7883,7 +7883,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Фиксированный урон: 4500ед.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '4'
       name: Комбо удар
       selection_id: '2.6_2'
@@ -7914,7 +7914,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '4'
       name: Комбо удар
       selection_id: '2.6_3'
@@ -7943,7 +7943,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '5'
       name: Комбо удар
       selection_id: '2.6_1'
@@ -7965,7 +7965,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Фиксированный урон: 5000ед.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '5'
       name: Комбо удар
       selection_id: '2.6_2'
@@ -7996,7 +7996,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '5'
       name: Комбо удар
       selection_id: '2.6_3'
@@ -8025,7 +8025,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '6'
       name: Комбо удар
       selection_id: '2.6_1'
@@ -8047,7 +8047,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Фиксированный урон: 5500ед.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '6'
       name: Комбо удар
       selection_id: '2.6_2'
@@ -8078,7 +8078,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '6'
       name: Комбо удар
       selection_id: '2.6_3'
@@ -8107,7 +8107,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '7'
       name: Комбо удар
       selection_id: '2.6_1'
@@ -8129,7 +8129,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 6000ед.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '7'
       name: Комбо удар
       selection_id: '2.6_2'
@@ -8160,7 +8160,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '7'
       name: Комбо удар
       selection_id: '2.6_3'
@@ -8183,7 +8183,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '1'
       name: Исцеление серафима
       selection_id: '2.7_1'
@@ -8207,7 +8207,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '1'
       name: Исцеление серафима
       selection_id: '2.7_2'
@@ -8231,7 +8231,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '1'
       name: Исцеление серафима
       selection_id: '2.7_3'
@@ -8255,7 +8255,7 @@ profession:
         text: 'Магическая защита (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита (Любая броня): 25%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '2'
       name: Исцеление серафима
       selection_id: '2.7_1'
@@ -8279,7 +8279,7 @@ profession:
         text: 'Магическая защита (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита (Любая броня): 25%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '2'
       name: Исцеление серафима
       selection_id: '2.7_2'
@@ -8303,7 +8303,7 @@ profession:
         text: 'Магическая защита (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита (Любая броня): 25%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '2'
       name: Исцеление серафима
       selection_id: '2.7_3'
@@ -8327,7 +8327,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита (Любая броня): 30%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '3'
       name: Исцеление серафима
       selection_id: '2.7_1'
@@ -8351,7 +8351,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита (Любая броня): 30%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '3'
       name: Исцеление серафима
       selection_id: '2.7_2'
@@ -8375,7 +8375,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита (Любая броня): 30%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '3'
       name: Исцеление серафима
       selection_id: '2.7_3'
@@ -8399,7 +8399,7 @@ profession:
         text: 'Магическая защита (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита (Любая броня): 35%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '4'
       name: Исцеление серафима
       selection_id: '2.7_1'
@@ -8423,7 +8423,7 @@ profession:
         text: 'Магическая защита (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита (Любая броня): 35%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '4'
       name: Исцеление серафима
       selection_id: '2.7_2'
@@ -8447,7 +8447,7 @@ profession:
         text: 'Магическая защита (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита (Любая броня): 35%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '4'
       name: Исцеление серафима
       selection_id: '2.7_3'
@@ -8471,7 +8471,7 @@ profession:
         text: 'Магическая защита (Любая броня): 40%'
       - kind: value
         text: 'Физическая защита (Любая броня): 40%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '5'
       name: Исцеление серафима
       selection_id: '2.7_1'
@@ -8495,7 +8495,7 @@ profession:
         text: 'Магическая защита (Любая броня): 40%'
       - kind: value
         text: 'Физическая защита (Любая броня): 40%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '5'
       name: Исцеление серафима
       selection_id: '2.7_2'
@@ -8519,7 +8519,7 @@ profession:
         text: 'Магическая защита (Любая броня): 40%'
       - kind: value
         text: 'Физическая защита (Любая броня): 40%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '5'
       name: Исцеление серафима
       selection_id: '2.7_3'
@@ -8543,7 +8543,7 @@ profession:
         text: 'Магическая защита (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита (Любая броня): 45%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '6'
       name: Исцеление серафима
       selection_id: '2.7_1'
@@ -8567,7 +8567,7 @@ profession:
         text: 'Магическая защита (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита (Любая броня): 45%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '6'
       name: Исцеление серафима
       selection_id: '2.7_2'
@@ -8591,7 +8591,7 @@ profession:
         text: 'Магическая защита (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита (Любая броня): 45%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '6'
       name: Исцеление серафима
       selection_id: '2.7_3'
@@ -8615,7 +8615,7 @@ profession:
         text: 'Магическая защита (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита (Любая броня): 50%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '7'
       name: Исцеление серафима
       selection_id: '2.7_1'
@@ -8639,7 +8639,7 @@ profession:
         text: 'Магическая защита (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита (Любая броня): 50%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '7'
       name: Исцеление серафима
       selection_id: '2.7_2'
@@ -8663,7 +8663,7 @@ profession:
         text: 'Магическая защита (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита (Любая броня): 50%'
-      icon: /icon/skill0517.jpg
+      icon: /icon/client-skills/icon.skill0517.png
       level: '7'
       name: Исцеление серафима
       selection_id: '2.7_3'

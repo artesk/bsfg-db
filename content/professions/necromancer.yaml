@@ -2853,7 +2853,7 @@ profession:
         text: 'Магическая атака (Любая броня): 90%'
       - kind: value
         text: 'Сила крит. атаки магии: 7%'
-      icon: /icon/skll10091.jpg
+      icon: /icon/client-skills/icon.skll10091.png
       level: '1'
       name: Сила мертвых
       selection_id: ''
@@ -2871,7 +2871,7 @@ profession:
         text: 'Магическая атака (Любая броня): 95%'
       - kind: value
         text: 'Сила крит. атаки магии: 10%'
-      icon: /icon/skll10091.jpg
+      icon: /icon/client-skills/icon.skll10091.png
       level: '2'
       name: Сила мертвых
       selection_id: ''
@@ -2889,7 +2889,7 @@ profession:
         text: 'Магическая атака (Любая броня): 100%'
       - kind: value
         text: 'Сила крит. атаки магии: 13%'
-      icon: /icon/skll10091.jpg
+      icon: /icon/client-skills/icon.skll10091.png
       level: '3'
       name: Сила мертвых
       selection_id: ''
@@ -2907,7 +2907,7 @@ profession:
         text: 'Магическая атака (Любая броня): 105%'
       - kind: value
         text: 'Сила крит. атаки магии: 16%'
-      icon: /icon/skll10091.jpg
+      icon: /icon/client-skills/icon.skll10091.png
       level: '4'
       name: Сила мертвых
       selection_id: ''
@@ -2925,7 +2925,7 @@ profession:
         text: 'Магическая атака (Любая броня): 110%'
       - kind: value
         text: 'Сила крит. атаки магии: 19%'
-      icon: /icon/skll10091.jpg
+      icon: /icon/client-skills/icon.skll10091.png
       level: '5'
       name: Сила мертвых
       selection_id: ''
@@ -2943,7 +2943,7 @@ profession:
         text: 'Магическая атака (Любая броня): 115%'
       - kind: value
         text: 'Сила крит. атаки магии: 22%'
-      icon: /icon/skll10091.jpg
+      icon: /icon/client-skills/icon.skll10091.png
       level: '6'
       name: Сила мертвых
       selection_id: ''
@@ -2961,7 +2961,7 @@ profession:
         text: 'Магическая атака (Любая броня): 120%'
       - kind: value
         text: 'Сила крит. атаки магии: 25%'
-      icon: /icon/skll10091.jpg
+      icon: /icon/client-skills/icon.skll10091.png
       level: '7'
       name: Сила мертвых
       selection_id: ''
@@ -3783,7 +3783,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -3797,7 +3797,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -3811,7 +3811,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -3825,7 +3825,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -3839,7 +3839,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -3853,7 +3853,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -3867,7 +3867,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -3881,7 +3881,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -3895,7 +3895,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -3909,7 +3909,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -3923,7 +3923,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -3937,7 +3937,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -3951,7 +3951,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -3965,7 +3965,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -3979,7 +3979,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -3993,7 +3993,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -4007,7 +4007,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4021,7 +4021,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4035,7 +4035,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4049,7 +4049,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4348,7 +4348,7 @@ profession:
         text: 'Сила крит. атаки магии: 1%'
       - kind: value
         text: 'Магическая атака (Любая броня): 17%'
-      icon: /icon/skill50004.jpg
+      icon: /icon/client-skills/icon.skill50004.png
       level: '1'
       name: Некромансер
       selection_id: ''
@@ -4367,7 +4367,7 @@ profession:
         text: 'Сила крит. атаки магии: 2%'
       - kind: value
         text: 'Магическая атака (Любая броня): 20%'
-      icon: /icon/skill50004.jpg
+      icon: /icon/client-skills/icon.skill50004.png
       level: '2'
       name: Некромансер
       selection_id: ''
@@ -4386,7 +4386,7 @@ profession:
         text: 'Сила крит. атаки магии: 2%'
       - kind: value
         text: 'Магическая атака (Любая броня): 23%'
-      icon: /icon/skill50004.jpg
+      icon: /icon/client-skills/icon.skill50004.png
       level: '3'
       name: Некромансер
       selection_id: ''
@@ -4405,7 +4405,7 @@ profession:
         text: 'Сила крит. атаки магии: 3%'
       - kind: value
         text: 'Магическая атака (Любая броня): 26%'
-      icon: /icon/skill50004.jpg
+      icon: /icon/client-skills/icon.skill50004.png
       level: '4'
       name: Некромансер
       selection_id: ''
@@ -4424,7 +4424,7 @@ profession:
         text: 'Сила крит. атаки магии: 4%'
       - kind: value
         text: 'Магическая атака (Любая броня): 29%'
-      icon: /icon/skill50004.jpg
+      icon: /icon/client-skills/icon.skill50004.png
       level: '5'
       name: Некромансер
       selection_id: ''
@@ -4443,7 +4443,7 @@ profession:
         text: 'Сила крит. атаки магии: 4%'
       - kind: value
         text: 'Магическая атака (Любая броня): 32%'
-      icon: /icon/skill50004.jpg
+      icon: /icon/client-skills/icon.skill50004.png
       level: '6'
       name: Некромансер
       selection_id: ''
@@ -4462,7 +4462,7 @@ profession:
         text: 'Сила крит. атаки магии: 5%'
       - kind: value
         text: 'Магическая атака (Любая броня): 35%'
-      icon: /icon/skill50004.jpg
+      icon: /icon/client-skills/icon.skill50004.png
       level: '7'
       name: Некромансер
       selection_id: ''
@@ -4479,7 +4479,7 @@ profession:
         text: 'Сила магического умения: 1200'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/pet_gigantic_bite.jpg
+      icon: /icon/client-skills/icon4.l2icon.pet_gigantic_bite.png
       level: '1'
       name: Проклятье смерти
       selection_id: ''
@@ -5004,7 +5004,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 8 секунд и полностью восстановить свое здоровье.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '1'
       name: Переселение душ
       selection_id: '2.2_1'
@@ -5018,7 +5018,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 7 секунд и полностью восстановить свое здоровье.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '1'
       name: Переселение душ
       selection_id: '2.2_2'
@@ -5032,7 +5032,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 6 секунд и полностью восстановить свое здоровье.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '1'
       name: Переселение душ
       selection_id: '2.2_3'
@@ -5046,7 +5046,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 8 секунд и полностью восстановить свое здоровье.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '2'
       name: Переселение душ
       selection_id: '2.2_1'
@@ -5060,7 +5060,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 7 секунд и полностью восстановить свое здоровье.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '2'
       name: Переселение душ
       selection_id: '2.2_2'
@@ -5074,7 +5074,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 6 секунд и полностью восстановить свое здоровье.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '2'
       name: Переселение душ
       selection_id: '2.2_3'
@@ -5088,7 +5088,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 8 секунд и полностью восстановить свое здоровье.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '3'
       name: Переселение душ
       selection_id: '2.2_1'
@@ -5102,7 +5102,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 7 секунд и полностью восстановить свое здоровье.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '3'
       name: Переселение душ
       selection_id: '2.2_2'
@@ -5116,7 +5116,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 6 секунд и полностью восстановить свое здоровье.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '3'
       name: Переселение душ
       selection_id: '2.2_3'
@@ -5130,7 +5130,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 8 секунд и полностью восстановить свое здоровье.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '4'
       name: Переселение душ
       selection_id: '2.2_1'
@@ -5144,7 +5144,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 7 секунд и полностью восстановить свое здоровье.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '4'
       name: Переселение душ
       selection_id: '2.2_2'
@@ -5158,7 +5158,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 6 секунд и полностью восстановить свое здоровье.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '4'
       name: Переселение душ
       selection_id: '2.2_3'
@@ -5172,7 +5172,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 8 секунд и полностью восстановить свое здоровье.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '5'
       name: Переселение душ
       selection_id: '2.2_1'
@@ -5186,7 +5186,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 7 секунд и полностью восстановить свое здоровье.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '5'
       name: Переселение душ
       selection_id: '2.2_2'
@@ -5200,7 +5200,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 6 секунд и полностью восстановить свое здоровье.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '5'
       name: Переселение душ
       selection_id: '2.2_3'
@@ -5214,7 +5214,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 8 секунд и полностью восстановить свое здоровье.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '6'
       name: Переселение душ
       selection_id: '2.2_1'
@@ -5228,7 +5228,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 7 секунд и полностью восстановить свое здоровье.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '6'
       name: Переселение душ
       selection_id: '2.2_2'
@@ -5242,7 +5242,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 6 секунд и полностью восстановить свое здоровье.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '6'
       name: Переселение душ
       selection_id: '2.2_3'
@@ -5256,7 +5256,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 8 секунд и полностью восстановить свое здоровье.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '7'
       name: Переселение душ
       selection_id: '2.2_1'
@@ -5270,7 +5270,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 7 секунд и полностью восстановить свое здоровье.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '7'
       name: Переселение душ
       selection_id: '2.2_2'
@@ -5284,7 +5284,7 @@ profession:
         получив ее магическую атаку и жизненные силы на 6 секунд и полностью восстановить свое здоровье.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1159.jpg
+      icon: /icon/client-skills/icon.skill1159.png
       level: '7'
       name: Переселение душ
       selection_id: '2.2_3'
@@ -6193,7 +6193,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 8% и шанс нанести критический удар магией на 4%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '1'
       name: Пожиратель душ
       selection_id: '2.5_1'
@@ -6210,7 +6210,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 3% и шанс нанести критический удар магией на 9%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '1'
       name: Пожиратель душ
       selection_id: '2.5_2'
@@ -6227,7 +6227,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 1% и шанс нанести критический удар магией на 14%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '1'
       name: Пожиратель душ
       selection_id: '2.5_3'
@@ -6244,7 +6244,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 10% и шанс нанести критический удар магией на 5%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '2'
       name: Пожиратель душ
       selection_id: '2.5_1'
@@ -6261,7 +6261,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 5% и шанс нанести критический удар магией на 10%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '2'
       name: Пожиратель душ
       selection_id: '2.5_2'
@@ -6278,7 +6278,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 2.5% и шанс нанести критический удар магией на 15%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '2'
       name: Пожиратель душ
       selection_id: '2.5_3'
@@ -6295,7 +6295,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 12% и шанс нанести критический удар магией на 6%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '3'
       name: Пожиратель душ
       selection_id: '2.5_1'
@@ -6312,7 +6312,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 7% и шанс нанести критический удар магией на 11%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '3'
       name: Пожиратель душ
       selection_id: '2.5_2'
@@ -6329,7 +6329,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 4% и шанс нанести критический удар магией на 16%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '3'
       name: Пожиратель душ
       selection_id: '2.5_3'
@@ -6346,7 +6346,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 14% и шанс нанести критический удар магией на 7%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '4'
       name: Пожиратель душ
       selection_id: '2.5_1'
@@ -6363,7 +6363,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 9% и шанс нанести критический удар магией на 12%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '4'
       name: Пожиратель душ
       selection_id: '2.5_2'
@@ -6380,7 +6380,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 5.5% и шанс нанести критический удар магией на 17%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '4'
       name: Пожиратель душ
       selection_id: '2.5_3'
@@ -6397,7 +6397,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 16% и шанс нанести критический удар магией на 8%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '5'
       name: Пожиратель душ
       selection_id: '2.5_1'
@@ -6414,7 +6414,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 11% и шанс нанести критический удар магией на 13%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '5'
       name: Пожиратель душ
       selection_id: '2.5_2'
@@ -6431,7 +6431,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 7% и шанс нанести критический удар магией на 18%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '5'
       name: Пожиратель душ
       selection_id: '2.5_3'
@@ -6448,7 +6448,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 18% и шанс нанести критический удар магией на 9%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '6'
       name: Пожиратель душ
       selection_id: '2.5_1'
@@ -6465,7 +6465,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 13% и шанс нанести критический удар магией на 14%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '6'
       name: Пожиратель душ
       selection_id: '2.5_2'
@@ -6482,7 +6482,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 8.5% и шанс нанести критический удар магией на 19%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '6'
       name: Пожиратель душ
       selection_id: '2.5_3'
@@ -6499,7 +6499,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 20% и шанс нанести критический удар магией на 10%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '7'
       name: Пожиратель душ
       selection_id: '2.5_1'
@@ -6516,7 +6516,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 15% и шанс нанести критический удар магией на 15%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '7'
       name: Пожиратель душ
       selection_id: '2.5_2'
@@ -6533,7 +6533,7 @@ profession:
       description: В течении небольшого промежутка времени Вы пожираете душу своей призванной нежити,
         чтобы увеличить свою магическую атаку на 10% и шанс нанести критический удар магией на 20%.
       effects: []
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '7'
       name: Пожиратель душ
       selection_id: '2.5_3'
@@ -7019,7 +7019,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '1'
       name: Некрономикон
       selection_id: '2.7_1'
@@ -7049,7 +7049,7 @@ profession:
         text: 'Сила крит. атаки магии: 7%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '1'
       name: Некрономикон
       selection_id: '2.7_2'
@@ -7079,7 +7079,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '1'
       name: Некрономикон
       selection_id: '2.7_3'
@@ -7109,7 +7109,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '2'
       name: Некрономикон
       selection_id: '2.7_1'
@@ -7139,7 +7139,7 @@ profession:
         text: 'Сила крит. атаки магии: 7%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '2'
       name: Некрономикон
       selection_id: '2.7_2'
@@ -7169,7 +7169,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '2'
       name: Некрономикон
       selection_id: '2.7_3'
@@ -7199,7 +7199,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '3'
       name: Некрономикон
       selection_id: '2.7_1'
@@ -7229,7 +7229,7 @@ profession:
         text: 'Сила крит. атаки магии: 7%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '3'
       name: Некрономикон
       selection_id: '2.7_2'
@@ -7259,7 +7259,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '3'
       name: Некрономикон
       selection_id: '2.7_3'
@@ -7289,7 +7289,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '4'
       name: Некрономикон
       selection_id: '2.7_1'
@@ -7319,7 +7319,7 @@ profession:
         text: 'Сила крит. атаки магии: 7%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '4'
       name: Некрономикон
       selection_id: '2.7_2'
@@ -7349,7 +7349,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '4'
       name: Некрономикон
       selection_id: '2.7_3'
@@ -7379,7 +7379,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '5'
       name: Некрономикон
       selection_id: '2.7_1'
@@ -7409,7 +7409,7 @@ profession:
         text: 'Сила крит. атаки магии: 7%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '5'
       name: Некрономикон
       selection_id: '2.7_2'
@@ -7439,7 +7439,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '5'
       name: Некрономикон
       selection_id: '2.7_3'
@@ -7469,7 +7469,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '6'
       name: Некрономикон
       selection_id: '2.7_1'
@@ -7499,7 +7499,7 @@ profession:
         text: 'Сила крит. атаки магии: 7%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '6'
       name: Некрономикон
       selection_id: '2.7_2'
@@ -7529,7 +7529,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '6'
       name: Некрономикон
       selection_id: '2.7_3'
@@ -7559,7 +7559,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '7'
       name: Некрономикон
       selection_id: '2.7_1'
@@ -7589,7 +7589,7 @@ profession:
         text: 'Сила крит. атаки магии: 7%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '7'
       name: Некрономикон
       selection_id: '2.7_2'
@@ -7619,7 +7619,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 172800 сек.'
-      icon: /icon/skill1279.jpg
+      icon: /icon/client-skills/icon.skill1279.png
       level: '7'
       name: Некрономикон
       selection_id: '2.7_3'

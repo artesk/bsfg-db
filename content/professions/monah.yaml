@@ -2805,7 +2805,7 @@ profession:
         text: 'Физическая защита (Любая броня): 4%'
       - kind: value
         text: 'Магическая защита (Любая броня): 4%'
-      icon: /icon/skill8607.jpg
+      icon: /icon/client-skills/icon.skill8607.png
       level: '1'
       name: Истинная форма
       selection_id: ''
@@ -2830,7 +2830,7 @@ profession:
         text: 'Физическая защита (Любая броня): 5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 5%'
-      icon: /icon/skill8607.jpg
+      icon: /icon/client-skills/icon.skill8607.png
       level: '2'
       name: Истинная форма
       selection_id: ''
@@ -2855,7 +2855,7 @@ profession:
         text: 'Физическая защита (Любая броня): 6%'
       - kind: value
         text: 'Магическая защита (Любая броня): 6%'
-      icon: /icon/skill8607.jpg
+      icon: /icon/client-skills/icon.skill8607.png
       level: '3'
       name: Истинная форма
       selection_id: ''
@@ -2880,7 +2880,7 @@ profession:
         text: 'Физическая защита (Любая броня): 7%'
       - kind: value
         text: 'Магическая защита (Любая броня): 7%'
-      icon: /icon/skill8607.jpg
+      icon: /icon/client-skills/icon.skill8607.png
       level: '4'
       name: Истинная форма
       selection_id: ''
@@ -2905,7 +2905,7 @@ profession:
         text: 'Физическая защита (Любая броня): 8%'
       - kind: value
         text: 'Магическая защита (Любая броня): 8%'
-      icon: /icon/skill8607.jpg
+      icon: /icon/client-skills/icon.skill8607.png
       level: '5'
       name: Истинная форма
       selection_id: ''
@@ -2930,7 +2930,7 @@ profession:
         text: 'Физическая защита (Любая броня): 9%'
       - kind: value
         text: 'Магическая защита (Любая броня): 9%'
-      icon: /icon/skill8607.jpg
+      icon: /icon/client-skills/icon.skill8607.png
       level: '6'
       name: Истинная форма
       selection_id: ''
@@ -2955,7 +2955,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/skill8607.jpg
+      icon: /icon/client-skills/icon.skill8607.png
       level: '7'
       name: Истинная форма
       selection_id: ''
@@ -4342,7 +4342,7 @@ profession:
         жизненных сил на 1000. При использовании сбрасывает откат умений *Дух Даго-Ма*, *Тигр*, *Медведь*,
         и *Истинная форма*.
       effects: []
-      icon: /icon/Icon4/pet_fox_field.jpg
+      icon: /icon/client-skills/icon4.l2icon.pet_fox_field.png
       level: '1'
       name: Сила зверя
       selection_id: ''
@@ -5724,7 +5724,7 @@ profession:
         text: 'Здоровье: 2200ед.'
       - kind: value
         text: 'Боевой дух: 2200'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '1'
       name: Дух Даго-Ма
       selection_id: '2.4_1'
@@ -5746,7 +5746,7 @@ profession:
         text: 'Здоровье: 2200ед.'
       - kind: value
         text: 'Боевой дух: 2200'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '1'
       name: Дух Даго-Ма
       selection_id: '2.4_2'
@@ -5768,7 +5768,7 @@ profession:
         text: 'Здоровье: 2200ед.'
       - kind: value
         text: 'Боевой дух: 2200'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '1'
       name: Дух Даго-Ма
       selection_id: '2.4_3'
@@ -5790,7 +5790,7 @@ profession:
         text: 'Здоровье: 2500ед.'
       - kind: value
         text: 'Боевой дух: 2500'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '2'
       name: Дух Даго-Ма
       selection_id: '2.4_1'
@@ -5812,7 +5812,7 @@ profession:
         text: 'Здоровье: 2500ед.'
       - kind: value
         text: 'Боевой дух: 2500'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '2'
       name: Дух Даго-Ма
       selection_id: '2.4_2'
@@ -5834,7 +5834,7 @@ profession:
         text: 'Здоровье: 2500ед.'
       - kind: value
         text: 'Боевой дух: 2500'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '2'
       name: Дух Даго-Ма
       selection_id: '2.4_3'
@@ -5856,7 +5856,7 @@ profession:
         text: 'Здоровье: 2800ед.'
       - kind: value
         text: 'Боевой дух: 2800'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '3'
       name: Дух Даго-Ма
       selection_id: '2.4_1'
@@ -5878,7 +5878,7 @@ profession:
         text: 'Здоровье: 2800ед.'
       - kind: value
         text: 'Боевой дух: 2800'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '3'
       name: Дух Даго-Ма
       selection_id: '2.4_2'
@@ -5900,7 +5900,7 @@ profession:
         text: 'Здоровье: 2800ед.'
       - kind: value
         text: 'Боевой дух: 2800'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '3'
       name: Дух Даго-Ма
       selection_id: '2.4_3'
@@ -5922,7 +5922,7 @@ profession:
         text: 'Здоровье: 3100ед.'
       - kind: value
         text: 'Боевой дух: 3100'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '4'
       name: Дух Даго-Ма
       selection_id: '2.4_1'
@@ -5944,7 +5944,7 @@ profession:
         text: 'Здоровье: 3100ед.'
       - kind: value
         text: 'Боевой дух: 3100'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '4'
       name: Дух Даго-Ма
       selection_id: '2.4_2'
@@ -5966,7 +5966,7 @@ profession:
         text: 'Здоровье: 3100ед.'
       - kind: value
         text: 'Боевой дух: 3100'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '4'
       name: Дух Даго-Ма
       selection_id: '2.4_3'
@@ -5988,7 +5988,7 @@ profession:
         text: 'Здоровье: 3400ед.'
       - kind: value
         text: 'Боевой дух: 3400'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '5'
       name: Дух Даго-Ма
       selection_id: '2.4_1'
@@ -6010,7 +6010,7 @@ profession:
         text: 'Здоровье: 3400ед.'
       - kind: value
         text: 'Боевой дух: 3400'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '5'
       name: Дух Даго-Ма
       selection_id: '2.4_2'
@@ -6032,7 +6032,7 @@ profession:
         text: 'Здоровье: 3400ед.'
       - kind: value
         text: 'Боевой дух: 3400'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '5'
       name: Дух Даго-Ма
       selection_id: '2.4_3'
@@ -6054,7 +6054,7 @@ profession:
         text: 'Здоровье: 3700ед.'
       - kind: value
         text: 'Боевой дух: 3700'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '6'
       name: Дух Даго-Ма
       selection_id: '2.4_1'
@@ -6076,7 +6076,7 @@ profession:
         text: 'Здоровье: 3700ед.'
       - kind: value
         text: 'Боевой дух: 3700'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '6'
       name: Дух Даго-Ма
       selection_id: '2.4_2'
@@ -6098,7 +6098,7 @@ profession:
         text: 'Здоровье: 3700ед.'
       - kind: value
         text: 'Боевой дух: 3700'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '6'
       name: Дух Даго-Ма
       selection_id: '2.4_3'
@@ -6120,7 +6120,7 @@ profession:
         text: 'Здоровье: 4000ед.'
       - kind: value
         text: 'Боевой дух: 4000'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '7'
       name: Дух Даго-Ма
       selection_id: '2.4_1'
@@ -6142,7 +6142,7 @@ profession:
         text: 'Здоровье: 4000ед.'
       - kind: value
         text: 'Боевой дух: 4000'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '7'
       name: Дух Даго-Ма
       selection_id: '2.4_2'
@@ -6164,7 +6164,7 @@ profession:
         text: 'Здоровье: 4000ед.'
       - kind: value
         text: 'Боевой дух: 4000'
-      icon: /icon/skill8904.jpg
+      icon: /icon/client-skills/icon.skill8904.png
       level: '7'
       name: Дух Даго-Ма
       selection_id: '2.4_3'
@@ -6520,7 +6520,7 @@ profession:
         фиксированный урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не
         сможете восстановить здоровье. Быстрый откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '1'
       name: Древний зверь
       selection_id: '2.6_1'
@@ -6536,7 +6536,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '1'
       name: Древний зверь
       selection_id: '2.6_2'
@@ -6552,7 +6552,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '1'
       name: Древний зверь
       selection_id: '2.6_3'
@@ -6568,7 +6568,7 @@ profession:
         фиксированный урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не
         сможете восстановить здоровье. Быстрый откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '2'
       name: Древний зверь
       selection_id: '2.6_1'
@@ -6584,7 +6584,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '2'
       name: Древний зверь
       selection_id: '2.6_2'
@@ -6600,7 +6600,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '2'
       name: Древний зверь
       selection_id: '2.6_3'
@@ -6616,7 +6616,7 @@ profession:
         фиксированный урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не
         сможете восстановить здоровье. Быстрый откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '3'
       name: Древний зверь
       selection_id: '2.6_1'
@@ -6632,7 +6632,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '3'
       name: Древний зверь
       selection_id: '2.6_2'
@@ -6648,7 +6648,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '3'
       name: Древний зверь
       selection_id: '2.6_3'
@@ -6664,7 +6664,7 @@ profession:
         фиксированный урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не
         сможете восстановить здоровье. Быстрый откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '4'
       name: Древний зверь
       selection_id: '2.6_1'
@@ -6680,7 +6680,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '4'
       name: Древний зверь
       selection_id: '2.6_2'
@@ -6696,7 +6696,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '4'
       name: Древний зверь
       selection_id: '2.6_3'
@@ -6712,7 +6712,7 @@ profession:
         фиксированный урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не
         сможете восстановить здоровье. Быстрый откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '5'
       name: Древний зверь
       selection_id: '2.6_1'
@@ -6728,7 +6728,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '5'
       name: Древний зверь
       selection_id: '2.6_2'
@@ -6744,7 +6744,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '5'
       name: Древний зверь
       selection_id: '2.6_3'
@@ -6760,7 +6760,7 @@ profession:
         фиксированный урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не
         сможете восстановить здоровье. Быстрый откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '6'
       name: Древний зверь
       selection_id: '2.6_1'
@@ -6776,7 +6776,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '6'
       name: Древний зверь
       selection_id: '2.6_2'
@@ -6792,7 +6792,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '6'
       name: Древний зверь
       selection_id: '2.6_3'
@@ -6808,7 +6808,7 @@ profession:
         фиксированный урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не
         сможете восстановить здоровье. Быстрый откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '7'
       name: Древний зверь
       selection_id: '2.6_1'
@@ -6824,7 +6824,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '7'
       name: Древний зверь
       selection_id: '2.6_2'
@@ -6840,7 +6840,7 @@ profession:
         урон и замедлять его. По окончании эффекта Вы какое-то время не каким образом не сможете восстановить
         здоровье. Средний откат умения.
       effects: []
-      icon: /icon/skill1364.jpg
+      icon: /icon/client-skills/icon.skill1364.png
       level: '7'
       name: Древний зверь
       selection_id: '2.6_3'
@@ -6856,7 +6856,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '1'
       name: Тигр
       selection_id: '2.7_1'
@@ -6876,7 +6876,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '1'
       name: Тигр
       selection_id: '2.7_2'
@@ -6896,7 +6896,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '1'
       name: Тигр
       selection_id: '2.7_3'
@@ -6916,7 +6916,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '2'
       name: Тигр
       selection_id: '2.7_1'
@@ -6936,7 +6936,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '2'
       name: Тигр
       selection_id: '2.7_2'
@@ -6956,7 +6956,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '2'
       name: Тигр
       selection_id: '2.7_3'
@@ -6976,7 +6976,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '3'
       name: Тигр
       selection_id: '2.7_1'
@@ -6996,7 +6996,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '3'
       name: Тигр
       selection_id: '2.7_2'
@@ -7016,7 +7016,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '3'
       name: Тигр
       selection_id: '2.7_3'
@@ -7036,7 +7036,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '4'
       name: Тигр
       selection_id: '2.7_1'
@@ -7056,7 +7056,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '4'
       name: Тигр
       selection_id: '2.7_2'
@@ -7076,7 +7076,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '4'
       name: Тигр
       selection_id: '2.7_3'
@@ -7096,7 +7096,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '5'
       name: Тигр
       selection_id: '2.7_1'
@@ -7116,7 +7116,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '5'
       name: Тигр
       selection_id: '2.7_2'
@@ -7136,7 +7136,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '5'
       name: Тигр
       selection_id: '2.7_3'
@@ -7156,7 +7156,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '6'
       name: Тигр
       selection_id: '2.7_1'
@@ -7176,7 +7176,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '6'
       name: Тигр
       selection_id: '2.7_2'
@@ -7196,7 +7196,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '6'
       name: Тигр
       selection_id: '2.7_3'
@@ -7216,7 +7216,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '7'
       name: Тигр
       selection_id: '2.7_1'
@@ -7236,7 +7236,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '7'
       name: Тигр
       selection_id: '2.7_2'
@@ -7256,7 +7256,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированная скорость передвижения: 320'
-      icon: /icon/skill1306.jpg
+      icon: /icon/client-skills/icon.skill1306.png
       level: '7'
       name: Тигр
       selection_id: '2.7_3'

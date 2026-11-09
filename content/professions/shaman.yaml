@@ -3813,7 +3813,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -3827,7 +3827,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -3841,7 +3841,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -3855,7 +3855,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -3869,7 +3869,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -3883,7 +3883,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -3897,7 +3897,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -3911,7 +3911,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -3925,7 +3925,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -3939,7 +3939,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -3953,7 +3953,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -3967,7 +3967,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -3981,7 +3981,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -3995,7 +3995,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -4009,7 +4009,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -4023,7 +4023,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -4037,7 +4037,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4051,7 +4051,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4065,7 +4065,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4079,7 +4079,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4503,7 +4503,7 @@ profession:
         text: 'Урон по сооружениям: 1500'
       - kind: value
         text: 'Восстановление здоровья: -15%'
-      icon: /icon/Icon4/s_raid_antaras_summon_stalactite1.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_raid_antaras_summon_stalactite1.png
       level: '1'
       name: Скалистый вал
       selection_id: ''
@@ -4576,7 +4576,7 @@ profession:
         text: 'Повторное использования:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/s13248.jpg
+      icon: /icon/client-skills/bsfg.s13248.png
       level: '1'
       name: Туннель
       selection_id: '2.1_2'
@@ -4645,7 +4645,7 @@ profession:
         text: 'Повторное использования:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/s13248.jpg
+      icon: /icon/client-skills/bsfg.s13248.png
       level: '2'
       name: Туннель
       selection_id: '2.1_5'
@@ -4714,7 +4714,7 @@ profession:
         text: 'Повторное использования:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/s13248.jpg
+      icon: /icon/client-skills/bsfg.s13248.png
       level: '3'
       name: Туннель
       selection_id: '2.1_3'
@@ -4783,7 +4783,7 @@ profession:
         text: 'Повторное использования:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/s13248.jpg
+      icon: /icon/client-skills/bsfg.s13248.png
       level: '4'
       name: Туннель
       selection_id: '2.1_3'
@@ -4852,7 +4852,7 @@ profession:
         text: 'Повторное использования:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/s13248.jpg
+      icon: /icon/client-skills/bsfg.s13248.png
       level: '5'
       name: Туннель
       selection_id: '2.1_3'
@@ -4921,7 +4921,7 @@ profession:
         text: 'Повторное использования:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/s13248.jpg
+      icon: /icon/client-skills/bsfg.s13248.png
       level: '6'
       name: Туннель
       selection_id: '2.1_3'
@@ -4990,7 +4990,7 @@ profession:
         text: 'Повторное использования:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/s13248.jpg
+      icon: /icon/client-skills/bsfg.s13248.png
       level: '7'
       name: Туннель
       selection_id: '2.1_3'
@@ -5013,7 +5013,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s4141.jpg
+      icon: /icon/client-skills/bsfg.s4141.png
       level: '1'
       name: Глыба
       selection_id: '2.2_1'
@@ -5037,7 +5037,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Обездвиживание: 5 сек.'
-      icon: /icon/s13219.jpg
+      icon: /icon/client-skills/bsfg.s13219.png
       level: '1'
       name: Глыба
       selection_id: '2.2_2'
@@ -5063,7 +5063,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -90%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s13221.jpg
+      icon: /icon/client-skills/bsfg.s13221.png
       level: '1'
       name: Глыба
       selection_id: '2.2_3'
@@ -5087,7 +5087,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s4141.jpg
+      icon: /icon/client-skills/bsfg.s4141.png
       level: '2'
       name: Глыба
       selection_id: '2.2_1'
@@ -5111,7 +5111,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Обездвиживание: 5 сек.'
-      icon: /icon/s13219.jpg
+      icon: /icon/client-skills/bsfg.s13219.png
       level: '2'
       name: Глыба
       selection_id: '2.2_2'
@@ -5137,7 +5137,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -90%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s13221.jpg
+      icon: /icon/client-skills/bsfg.s13221.png
       level: '2'
       name: Глыба
       selection_id: '2.2_3'
@@ -5161,7 +5161,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s4141.jpg
+      icon: /icon/client-skills/bsfg.s4141.png
       level: '3'
       name: Глыба
       selection_id: '2.2_1'
@@ -5185,7 +5185,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Обездвиживание: 5 сек.'
-      icon: /icon/s13219.jpg
+      icon: /icon/client-skills/bsfg.s13219.png
       level: '3'
       name: Глыба
       selection_id: '2.2_2'
@@ -5211,7 +5211,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -90%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s13221.jpg
+      icon: /icon/client-skills/bsfg.s13221.png
       level: '3'
       name: Глыба
       selection_id: '2.2_3'
@@ -5235,7 +5235,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s4141.jpg
+      icon: /icon/client-skills/bsfg.s4141.png
       level: '4'
       name: Глыба
       selection_id: '2.2_1'
@@ -5259,7 +5259,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Обездвиживание: 5 сек.'
-      icon: /icon/s13219.jpg
+      icon: /icon/client-skills/bsfg.s13219.png
       level: '4'
       name: Глыба
       selection_id: '2.2_2'
@@ -5285,7 +5285,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -90%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s13221.jpg
+      icon: /icon/client-skills/bsfg.s13221.png
       level: '4'
       name: Глыба
       selection_id: '2.2_3'
@@ -5309,7 +5309,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s4141.jpg
+      icon: /icon/client-skills/bsfg.s4141.png
       level: '5'
       name: Глыба
       selection_id: '2.2_1'
@@ -5333,7 +5333,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Обездвиживание: 5 сек.'
-      icon: /icon/s13219.jpg
+      icon: /icon/client-skills/bsfg.s13219.png
       level: '5'
       name: Глыба
       selection_id: '2.2_2'
@@ -5359,7 +5359,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -90%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s13221.jpg
+      icon: /icon/client-skills/bsfg.s13221.png
       level: '5'
       name: Глыба
       selection_id: '2.2_3'
@@ -5383,7 +5383,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s4141.jpg
+      icon: /icon/client-skills/bsfg.s4141.png
       level: '6'
       name: Глыба
       selection_id: '2.2_1'
@@ -5407,7 +5407,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Обездвиживание: 5 сек.'
-      icon: /icon/s13219.jpg
+      icon: /icon/client-skills/bsfg.s13219.png
       level: '6'
       name: Глыба
       selection_id: '2.2_2'
@@ -5433,7 +5433,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -90%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s13221.jpg
+      icon: /icon/client-skills/bsfg.s13221.png
       level: '6'
       name: Глыба
       selection_id: '2.2_3'
@@ -5457,7 +5457,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s4141.jpg
+      icon: /icon/client-skills/bsfg.s4141.png
       level: '7'
       name: Глыба
       selection_id: '2.2_1'
@@ -5481,7 +5481,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Обездвиживание: 5 сек.'
-      icon: /icon/s13219.jpg
+      icon: /icon/client-skills/bsfg.s13219.png
       level: '7'
       name: Глыба
       selection_id: '2.2_2'
@@ -5507,7 +5507,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -90%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/s13221.jpg
+      icon: /icon/client-skills/bsfg.s13221.png
       level: '7'
       name: Глыба
       selection_id: '2.2_3'
@@ -5525,7 +5525,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им урон.
       effects: []
-      icon: /icon/s11327.jpg
+      icon: /icon/client-skills/bsfg.s11327.png
       level: '1'
       name: Сила земли
       selection_id: '2.3_1'
@@ -5541,7 +5541,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно нанести фиксированные повреждения и урон
         ближним противникам.
       effects: []
-      icon: /icon/s13235.jpg
+      icon: /icon/client-skills/bsfg.s13235.png
       level: '1'
       name: Сила земли
       selection_id: '2.3_2'
@@ -5557,7 +5557,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им фиксированные повреждения и урон.
       effects: []
-      icon: /icon/s13238.jpg
+      icon: /icon/client-skills/bsfg.s13238.png
       level: '1'
       name: Сила земли
       selection_id: '2.3_3'
@@ -5573,7 +5573,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им урон.
       effects: []
-      icon: /icon/s11327.jpg
+      icon: /icon/client-skills/bsfg.s11327.png
       level: '2'
       name: Сила земли
       selection_id: '2.3_1'
@@ -5589,7 +5589,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно нанести фиксированные повреждения и урон
         ближним противникам.
       effects: []
-      icon: /icon/s13235.jpg
+      icon: /icon/client-skills/bsfg.s13235.png
       level: '2'
       name: Сила земли
       selection_id: '2.3_2'
@@ -5605,7 +5605,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им фиксированные повреждения и урон.
       effects: []
-      icon: /icon/s13238.jpg
+      icon: /icon/client-skills/bsfg.s13238.png
       level: '2'
       name: Сила земли
       selection_id: '2.3_3'
@@ -5621,7 +5621,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им урон.
       effects: []
-      icon: /icon/s11327.jpg
+      icon: /icon/client-skills/bsfg.s11327.png
       level: '3'
       name: Сила земли
       selection_id: '2.3_1'
@@ -5637,7 +5637,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно нанести фиксированные повреждения и урон
         ближним противникам.
       effects: []
-      icon: /icon/s13235.jpg
+      icon: /icon/client-skills/bsfg.s13235.png
       level: '3'
       name: Сила земли
       selection_id: '2.3_2'
@@ -5653,7 +5653,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им фиксированные повреждения и урон.
       effects: []
-      icon: /icon/s13238.jpg
+      icon: /icon/client-skills/bsfg.s13238.png
       level: '3'
       name: Сила земли
       selection_id: '2.3_3'
@@ -5669,7 +5669,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им урон.
       effects: []
-      icon: /icon/s11327.jpg
+      icon: /icon/client-skills/bsfg.s11327.png
       level: '4'
       name: Сила земли
       selection_id: '2.3_1'
@@ -5685,7 +5685,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно нанести фиксированные повреждения и урон
         ближним противникам.
       effects: []
-      icon: /icon/s13235.jpg
+      icon: /icon/client-skills/bsfg.s13235.png
       level: '4'
       name: Сила земли
       selection_id: '2.3_2'
@@ -5701,7 +5701,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им фиксированные повреждения и урон.
       effects: []
-      icon: /icon/s13238.jpg
+      icon: /icon/client-skills/bsfg.s13238.png
       level: '4'
       name: Сила земли
       selection_id: '2.3_3'
@@ -5717,7 +5717,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им урон.
       effects: []
-      icon: /icon/s11327.jpg
+      icon: /icon/client-skills/bsfg.s11327.png
       level: '5'
       name: Сила земли
       selection_id: '2.3_1'
@@ -5733,7 +5733,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно нанести фиксированные повреждения и урон
         ближним противникам.
       effects: []
-      icon: /icon/s13235.jpg
+      icon: /icon/client-skills/bsfg.s13235.png
       level: '5'
       name: Сила земли
       selection_id: '2.3_2'
@@ -5749,7 +5749,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им фиксированные повреждения и урон.
       effects: []
-      icon: /icon/s13238.jpg
+      icon: /icon/client-skills/bsfg.s13238.png
       level: '5'
       name: Сила земли
       selection_id: '2.3_3'
@@ -5765,7 +5765,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им урон.
       effects: []
-      icon: /icon/s11327.jpg
+      icon: /icon/client-skills/bsfg.s11327.png
       level: '6'
       name: Сила земли
       selection_id: '2.3_1'
@@ -5781,7 +5781,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно нанести фиксированные повреждения и урон
         ближним противникам.
       effects: []
-      icon: /icon/s13235.jpg
+      icon: /icon/client-skills/bsfg.s13235.png
       level: '6'
       name: Сила земли
       selection_id: '2.3_2'
@@ -5797,7 +5797,7 @@ profession:
       description: Шаман использует силу земли, чтобы мгновенно отравить ближних противников и нанести
         им фиксированные повреждения и урон.
       effects: []
-      icon: /icon/s13238.jpg
+      icon: /icon/client-skills/bsfg.s13238.png
       level: '6'
       name: Сила земли
       selection_id: '2.3_3'
@@ -5825,7 +5825,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s11327.jpg
+      icon: /icon/client-skills/bsfg.s11327.png
       level: '7'
       name: Сила земли
       selection_id: '2.3_1'
@@ -5847,7 +5847,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 6000ед.'
-      icon: /icon/s13235.jpg
+      icon: /icon/client-skills/bsfg.s13235.png
       level: '7'
       name: Сила земли
       selection_id: '2.3_2'
@@ -5877,7 +5877,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/s13238.jpg
+      icon: /icon/client-skills/bsfg.s13238.png
       level: '7'
       name: Сила земли
       selection_id: '2.3_3'
@@ -5895,7 +5895,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s11328.jpg
+      icon: /icon/client-skills/bsfg.s11328.png
       level: '1'
       name: Танец шамана
       selection_id: '2.4_1'
@@ -5912,7 +5912,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13241.jpg
+      icon: /icon/client-skills/bsfg.s13241.png
       level: '1'
       name: Танец шамана
       selection_id: '2.4_2'
@@ -5929,7 +5929,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13243.jpg
+      icon: /icon/client-skills/bsfg.s13243.png
       level: '1'
       name: Танец шамана
       selection_id: '2.4_3'
@@ -5946,7 +5946,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s11328.jpg
+      icon: /icon/client-skills/bsfg.s11328.png
       level: '2'
       name: Танец шамана
       selection_id: '2.4_1'
@@ -5963,7 +5963,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13241.jpg
+      icon: /icon/client-skills/bsfg.s13241.png
       level: '2'
       name: Танец шамана
       selection_id: '2.4_2'
@@ -5980,7 +5980,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13243.jpg
+      icon: /icon/client-skills/bsfg.s13243.png
       level: '2'
       name: Танец шамана
       selection_id: '2.4_3'
@@ -5997,7 +5997,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s11328.jpg
+      icon: /icon/client-skills/bsfg.s11328.png
       level: '3'
       name: Танец шамана
       selection_id: '2.4_1'
@@ -6014,7 +6014,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13241.jpg
+      icon: /icon/client-skills/bsfg.s13241.png
       level: '3'
       name: Танец шамана
       selection_id: '2.4_2'
@@ -6031,7 +6031,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13243.jpg
+      icon: /icon/client-skills/bsfg.s13243.png
       level: '3'
       name: Танец шамана
       selection_id: '2.4_3'
@@ -6048,7 +6048,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s11328.jpg
+      icon: /icon/client-skills/bsfg.s11328.png
       level: '4'
       name: Танец шамана
       selection_id: '2.4_1'
@@ -6065,7 +6065,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13241.jpg
+      icon: /icon/client-skills/bsfg.s13241.png
       level: '4'
       name: Танец шамана
       selection_id: '2.4_2'
@@ -6082,7 +6082,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13243.jpg
+      icon: /icon/client-skills/bsfg.s13243.png
       level: '4'
       name: Танец шамана
       selection_id: '2.4_3'
@@ -6099,7 +6099,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s11328.jpg
+      icon: /icon/client-skills/bsfg.s11328.png
       level: '5'
       name: Танец шамана
       selection_id: '2.4_1'
@@ -6116,7 +6116,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13241.jpg
+      icon: /icon/client-skills/bsfg.s13241.png
       level: '5'
       name: Танец шамана
       selection_id: '2.4_2'
@@ -6133,7 +6133,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13243.jpg
+      icon: /icon/client-skills/bsfg.s13243.png
       level: '5'
       name: Танец шамана
       selection_id: '2.4_3'
@@ -6150,7 +6150,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s11328.jpg
+      icon: /icon/client-skills/bsfg.s11328.png
       level: '6'
       name: Танец шамана
       selection_id: '2.4_1'
@@ -6167,7 +6167,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13241.jpg
+      icon: /icon/client-skills/bsfg.s13241.png
       level: '6'
       name: Танец шамана
       selection_id: '2.4_2'
@@ -6184,7 +6184,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13243.jpg
+      icon: /icon/client-skills/bsfg.s13243.png
       level: '6'
       name: Танец шамана
       selection_id: '2.4_3'
@@ -6201,7 +6201,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s11328.jpg
+      icon: /icon/client-skills/bsfg.s11328.png
       level: '7'
       name: Танец шамана
       selection_id: '2.4_1'
@@ -6218,7 +6218,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13241.jpg
+      icon: /icon/client-skills/bsfg.s13241.png
       level: '7'
       name: Танец шамана
       selection_id: '2.4_2'
@@ -6235,7 +6235,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/s13243.jpg
+      icon: /icon/client-skills/bsfg.s13243.png
       level: '7'
       name: Танец шамана
       selection_id: '2.4_3'
@@ -6252,7 +6252,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 10%'
-      icon: /icon/s11323.jpg
+      icon: /icon/client-skills/bsfg.skillnew.s11323.png
       level: '1'
       name: Ловец душ
       selection_id: '2.5_1'
@@ -6269,7 +6269,7 @@ profession:
         text: 'Магическая атака (Любая броня): 5%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 8%'
-      icon: /icon/s13217.jpg
+      icon: /icon/client-skills/bsfg.s13217.png
       level: '1'
       name: Ловец душ
       selection_id: '2.5_2'
@@ -6286,7 +6286,7 @@ profession:
         text: 'Магическая атака (Любая броня): 5%'
       - kind: value
         text: 'Сила крит. атаки магии: 6%'
-      icon: /icon/s13218.jpg
+      icon: /icon/client-skills/bsfg.s13218.png
       level: '1'
       name: Ловец душ
       selection_id: '2.5_3'
@@ -6301,7 +6301,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 15%'
-      icon: /icon/s11323.jpg
+      icon: /icon/client-skills/bsfg.skillnew.s11323.png
       level: '2'
       name: Ловец душ
       selection_id: '2.5_1'
@@ -6318,7 +6318,7 @@ profession:
         text: 'Магическая атака (Любая броня): 10%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
-      icon: /icon/s13217.jpg
+      icon: /icon/client-skills/bsfg.s13217.png
       level: '2'
       name: Ловец душ
       selection_id: '2.5_2'
@@ -6335,7 +6335,7 @@ profession:
         text: 'Магическая атака (Любая броня): 10%'
       - kind: value
         text: 'Сила крит. атаки магии: 7%'
-      icon: /icon/s13218.jpg
+      icon: /icon/client-skills/bsfg.s13218.png
       level: '2'
       name: Ловец душ
       selection_id: '2.5_3'
@@ -6350,7 +6350,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 25%'
-      icon: /icon/s11323.jpg
+      icon: /icon/client-skills/bsfg.skillnew.s11323.png
       level: '3'
       name: Ловец душ
       selection_id: '2.5_1'
@@ -6367,7 +6367,7 @@ profession:
         text: 'Магическая атака (Любая броня): 15%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 12%'
-      icon: /icon/s13217.jpg
+      icon: /icon/client-skills/bsfg.s13217.png
       level: '3'
       name: Ловец душ
       selection_id: '2.5_2'
@@ -6384,7 +6384,7 @@ profession:
         text: 'Магическая атака (Любая броня): 15%'
       - kind: value
         text: 'Сила крит. атаки магии: 8%'
-      icon: /icon/s13218.jpg
+      icon: /icon/client-skills/bsfg.s13218.png
       level: '3'
       name: Ловец душ
       selection_id: '2.5_3'
@@ -6399,7 +6399,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 35%'
-      icon: /icon/s11323.jpg
+      icon: /icon/client-skills/bsfg.skillnew.s11323.png
       level: '4'
       name: Ловец душ
       selection_id: '2.5_1'
@@ -6416,7 +6416,7 @@ profession:
         text: 'Магическая атака (Любая броня): 20%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 14%'
-      icon: /icon/s13217.jpg
+      icon: /icon/client-skills/bsfg.s13217.png
       level: '4'
       name: Ловец душ
       selection_id: '2.5_2'
@@ -6433,7 +6433,7 @@ profession:
         text: 'Магическая атака (Любая броня): 20%'
       - kind: value
         text: 'Сила крит. атаки магии: 9%'
-      icon: /icon/s13218.jpg
+      icon: /icon/client-skills/bsfg.s13218.png
       level: '4'
       name: Ловец душ
       selection_id: '2.5_3'
@@ -6448,7 +6448,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 45%'
-      icon: /icon/s11323.jpg
+      icon: /icon/client-skills/bsfg.skillnew.s11323.png
       level: '5'
       name: Ловец душ
       selection_id: '2.5_1'
@@ -6465,7 +6465,7 @@ profession:
         text: 'Магическая атака (Любая броня): 25%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 16%'
-      icon: /icon/s13217.jpg
+      icon: /icon/client-skills/bsfg.s13217.png
       level: '5'
       name: Ловец душ
       selection_id: '2.5_2'
@@ -6482,7 +6482,7 @@ profession:
         text: 'Магическая атака (Любая броня): 25%'
       - kind: value
         text: 'Сила крит. атаки магии: 10%'
-      icon: /icon/s13218.jpg
+      icon: /icon/client-skills/bsfg.s13218.png
       level: '5'
       name: Ловец душ
       selection_id: '2.5_3'
@@ -6497,7 +6497,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 55%'
-      icon: /icon/s11323.jpg
+      icon: /icon/client-skills/bsfg.skillnew.s11323.png
       level: '6'
       name: Ловец душ
       selection_id: '2.5_1'
@@ -6514,7 +6514,7 @@ profession:
         text: 'Магическая атака (Любая броня): 30%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 18%'
-      icon: /icon/s13217.jpg
+      icon: /icon/client-skills/bsfg.s13217.png
       level: '6'
       name: Ловец душ
       selection_id: '2.5_2'
@@ -6531,7 +6531,7 @@ profession:
         text: 'Магическая атака (Любая броня): 30%'
       - kind: value
         text: 'Сила крит. атаки магии: 11%'
-      icon: /icon/s13218.jpg
+      icon: /icon/client-skills/bsfg.s13218.png
       level: '6'
       name: Ловец душ
       selection_id: '2.5_3'
@@ -6546,7 +6546,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 65%'
-      icon: /icon/s11323.jpg
+      icon: /icon/client-skills/bsfg.skillnew.s11323.png
       level: '7'
       name: Ловец душ
       selection_id: '2.5_1'
@@ -6563,7 +6563,7 @@ profession:
         text: 'Магическая атака (Любая броня): 35%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 20%'
-      icon: /icon/s13217.jpg
+      icon: /icon/client-skills/bsfg.s13217.png
       level: '7'
       name: Ловец душ
       selection_id: '2.5_2'
@@ -6580,7 +6580,7 @@ profession:
         text: 'Магическая атака (Любая броня): 35%'
       - kind: value
         text: 'Сила крит. атаки магии: 12%'
-      icon: /icon/s13218.jpg
+      icon: /icon/client-skills/bsfg.s13218.png
       level: '7'
       name: Ловец душ
       selection_id: '2.5_3'
@@ -6593,7 +6593,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         фиксированные повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s4229.jpg
+      icon: /icon/client-skills/bsfg.s4229.png
       level: '1'
       name: Отпустить души
       selection_id: '2.6_1'
@@ -6609,7 +6609,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         магические повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13227.jpg
+      icon: /icon/client-skills/bsfg.s13227.png
       level: '1'
       name: Отпустить души
       selection_id: '2.6_2'
@@ -6625,7 +6625,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой отравить противника.
         Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13231.jpg
+      icon: /icon/client-skills/bsfg.s13231.png
       level: '1'
       name: Отпустить души
       selection_id: '2.6_3'
@@ -6641,7 +6641,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         фиксированные повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s4229.jpg
+      icon: /icon/client-skills/bsfg.s4229.png
       level: '2'
       name: Отпустить души
       selection_id: '2.6_1'
@@ -6657,7 +6657,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         магические повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13227.jpg
+      icon: /icon/client-skills/bsfg.s13227.png
       level: '2'
       name: Отпустить души
       selection_id: '2.6_2'
@@ -6673,7 +6673,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой отравить противника.
         Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13231.jpg
+      icon: /icon/client-skills/bsfg.s13231.png
       level: '2'
       name: Отпустить души
       selection_id: '2.6_3'
@@ -6689,7 +6689,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         фиксированные повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s4229.jpg
+      icon: /icon/client-skills/bsfg.s4229.png
       level: '3'
       name: Отпустить души
       selection_id: '2.6_1'
@@ -6705,7 +6705,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         магические повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13227.jpg
+      icon: /icon/client-skills/bsfg.s13227.png
       level: '3'
       name: Отпустить души
       selection_id: '2.6_2'
@@ -6721,7 +6721,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой отравить противника.
         Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13231.jpg
+      icon: /icon/client-skills/bsfg.s13231.png
       level: '3'
       name: Отпустить души
       selection_id: '2.6_3'
@@ -6737,7 +6737,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         фиксированные повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s4229.jpg
+      icon: /icon/client-skills/bsfg.s4229.png
       level: '4'
       name: Отпустить души
       selection_id: '2.6_1'
@@ -6753,7 +6753,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         магические повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13227.jpg
+      icon: /icon/client-skills/bsfg.s13227.png
       level: '4'
       name: Отпустить души
       selection_id: '2.6_2'
@@ -6769,7 +6769,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой отравить противника.
         Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13231.jpg
+      icon: /icon/client-skills/bsfg.s13231.png
       level: '4'
       name: Отпустить души
       selection_id: '2.6_3'
@@ -6785,7 +6785,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         фиксированные повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s4229.jpg
+      icon: /icon/client-skills/bsfg.s4229.png
       level: '5'
       name: Отпустить души
       selection_id: '2.6_1'
@@ -6801,7 +6801,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         магические повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13227.jpg
+      icon: /icon/client-skills/bsfg.s13227.png
       level: '5'
       name: Отпустить души
       selection_id: '2.6_2'
@@ -6817,7 +6817,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой отравить противника.
         Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13231.jpg
+      icon: /icon/client-skills/bsfg.s13231.png
       level: '5'
       name: Отпустить души
       selection_id: '2.6_3'
@@ -6833,7 +6833,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         фиксированные повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s4229.jpg
+      icon: /icon/client-skills/bsfg.s4229.png
       level: '6'
       name: Отпустить души
       selection_id: '2.6_1'
@@ -6849,7 +6849,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой нанести дополнительные
         магические повреждения. Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13227.jpg
+      icon: /icon/client-skills/bsfg.s13227.png
       level: '6'
       name: Отпустить души
       selection_id: '2.6_2'
@@ -6865,7 +6865,7 @@ profession:
       description: Шаман может использовать силу накопленных душ чтобы следующей атакой отравить противника.
         Сила повреждений зависит от количества накопленных душ.
       effects: []
-      icon: /icon/s13231.jpg
+      icon: /icon/client-skills/bsfg.s13231.png
       level: '6'
       name: Отпустить души
       selection_id: '2.6_3'
@@ -6885,7 +6885,7 @@ profession:
         text: 'Максимальный бонус:'
       - kind: value
         text: 'Фиксированный урон: 4500ед.'
-      icon: /icon/s4229.jpg
+      icon: /icon/client-skills/bsfg.s4229.png
       level: '7'
       name: Отпустить души
       selection_id: '2.6_1'
@@ -6905,7 +6905,7 @@ profession:
         text: 'Максимальный бонус:'
       - kind: value
         text: 'Сила магического умения: 500'
-      icon: /icon/s13227.jpg
+      icon: /icon/client-skills/bsfg.s13227.png
       level: '7'
       name: Отпустить души
       selection_id: '2.6_2'
@@ -6931,7 +6931,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/s13231.jpg
+      icon: /icon/client-skills/bsfg.s13231.png
       level: '7'
       name: Отпустить души
       selection_id: '2.6_3'
@@ -6950,7 +6950,7 @@ profession:
       effects:
       - kind: value
         text: 'Испуг: 3 сек.'
-      icon: /icon/s13329.jpg
+      icon: /icon/client-skills/bsfg.s13329.png
       level: '1'
       name: Потерянная душа
       selection_id: '2.7_1'
@@ -6970,7 +6970,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13223.jpg
+      icon: /icon/client-skills/bsfg.s13223.png
       level: '1'
       name: Потерянная душа
       selection_id: '2.7_2'
@@ -6991,7 +6991,7 @@ profession:
       effects:
       - kind: value
         text: 'Запрет использования умения и магию: 6 сек.'
-      icon: /icon/s13225.jpg
+      icon: /icon/client-skills/bsfg.s13225.png
       level: '1'
       name: Потерянная душа
       selection_id: '2.7_3'
@@ -7012,7 +7012,7 @@ profession:
       effects:
       - kind: value
         text: 'Испуг: 3 сек.'
-      icon: /icon/s13329.jpg
+      icon: /icon/client-skills/bsfg.s13329.png
       level: '2'
       name: Потерянная душа
       selection_id: '2.7_1'
@@ -7032,7 +7032,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13223.jpg
+      icon: /icon/client-skills/bsfg.s13223.png
       level: '2'
       name: Потерянная душа
       selection_id: '2.7_2'
@@ -7053,7 +7053,7 @@ profession:
       effects:
       - kind: value
         text: 'Запрет использования умения и магию: 6 сек.'
-      icon: /icon/s13225.jpg
+      icon: /icon/client-skills/bsfg.s13225.png
       level: '2'
       name: Потерянная душа
       selection_id: '2.7_3'
@@ -7074,7 +7074,7 @@ profession:
       effects:
       - kind: value
         text: 'Испуг: 3 сек.'
-      icon: /icon/s13329.jpg
+      icon: /icon/client-skills/bsfg.s13329.png
       level: '3'
       name: Потерянная душа
       selection_id: '2.7_1'
@@ -7094,7 +7094,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13223.jpg
+      icon: /icon/client-skills/bsfg.s13223.png
       level: '3'
       name: Потерянная душа
       selection_id: '2.7_2'
@@ -7115,7 +7115,7 @@ profession:
       effects:
       - kind: value
         text: 'Запрет использования умения и магию: 6 сек.'
-      icon: /icon/s13225.jpg
+      icon: /icon/client-skills/bsfg.s13225.png
       level: '3'
       name: Потерянная душа
       selection_id: '2.7_3'
@@ -7136,7 +7136,7 @@ profession:
       effects:
       - kind: value
         text: 'Испуг: 3 сек.'
-      icon: /icon/s13329.jpg
+      icon: /icon/client-skills/bsfg.s13329.png
       level: '4'
       name: Потерянная душа
       selection_id: '2.7_1'
@@ -7156,7 +7156,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13223.jpg
+      icon: /icon/client-skills/bsfg.s13223.png
       level: '4'
       name: Потерянная душа
       selection_id: '2.7_2'
@@ -7177,7 +7177,7 @@ profession:
       effects:
       - kind: value
         text: 'Запрет использования умения и магию: 6 сек.'
-      icon: /icon/s13225.jpg
+      icon: /icon/client-skills/bsfg.s13225.png
       level: '4'
       name: Потерянная душа
       selection_id: '2.7_3'
@@ -7198,7 +7198,7 @@ profession:
       effects:
       - kind: value
         text: 'Испуг: 3 сек.'
-      icon: /icon/s13329.jpg
+      icon: /icon/client-skills/bsfg.s13329.png
       level: '5'
       name: Потерянная душа
       selection_id: '2.7_1'
@@ -7218,7 +7218,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13223.jpg
+      icon: /icon/client-skills/bsfg.s13223.png
       level: '5'
       name: Потерянная душа
       selection_id: '2.7_2'
@@ -7239,7 +7239,7 @@ profession:
       effects:
       - kind: value
         text: 'Запрет использования умения и магию: 6 сек.'
-      icon: /icon/s13225.jpg
+      icon: /icon/client-skills/bsfg.s13225.png
       level: '5'
       name: Потерянная душа
       selection_id: '2.7_3'
@@ -7260,7 +7260,7 @@ profession:
       effects:
       - kind: value
         text: 'Испуг: 3 сек.'
-      icon: /icon/s13329.jpg
+      icon: /icon/client-skills/bsfg.s13329.png
       level: '6'
       name: Потерянная душа
       selection_id: '2.7_1'
@@ -7280,7 +7280,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13223.jpg
+      icon: /icon/client-skills/bsfg.s13223.png
       level: '6'
       name: Потерянная душа
       selection_id: '2.7_2'
@@ -7301,7 +7301,7 @@ profession:
       effects:
       - kind: value
         text: 'Запрет использования умения и магию: 6 сек.'
-      icon: /icon/s13225.jpg
+      icon: /icon/client-skills/bsfg.s13225.png
       level: '6'
       name: Потерянная душа
       selection_id: '2.7_3'
@@ -7322,7 +7322,7 @@ profession:
       effects:
       - kind: value
         text: 'Испуг: 3 сек.'
-      icon: /icon/s13329.jpg
+      icon: /icon/client-skills/bsfg.s13329.png
       level: '7'
       name: Потерянная душа
       selection_id: '2.7_1'
@@ -7342,7 +7342,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13223.jpg
+      icon: /icon/client-skills/bsfg.s13223.png
       level: '7'
       name: Потерянная душа
       selection_id: '2.7_2'
@@ -7363,7 +7363,7 @@ profession:
       effects:
       - kind: value
         text: 'Запрет использования умения и магию: 6 сек.'
-      icon: /icon/s13225.jpg
+      icon: /icon/client-skills/bsfg.s13225.png
       level: '7'
       name: Потерянная душа
       selection_id: '2.7_3'

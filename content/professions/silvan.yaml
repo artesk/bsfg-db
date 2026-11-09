@@ -386,7 +386,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 8% и физическую защиту
         в бою с вражескими игроками на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '1'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -396,7 +396,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 10% и физическую защиту
         в бою с вражескими игроками на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '2'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -406,7 +406,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 12% и физическую защиту
         в бою с вражескими игроками на 18%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '3'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -416,7 +416,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 14% и физическую защиту
         в бою с вражескими игроками на 21%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '4'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -426,7 +426,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 16% и физическую защиту
         в бою с вражескими игроками на 25%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '5'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -436,7 +436,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 18% и физическую защиту
         в бою с вражескими игроками на 45%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '6'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -446,7 +446,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 20% и физическую защиту
         в бою с вражескими игроками на 65%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '7'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -456,7 +456,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 22% и физическую защиту
         в бою с вражескими игроками на 66%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '8'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -466,7 +466,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 24% и физическую защиту
         в бою с вражескими игроками на 67%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '9'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -476,7 +476,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 25% и физическую защиту
         в бою с вражескими игроками на 68%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '10'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -486,7 +486,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 26% и физическую защиту
         в бою с вражескими игроками на 69%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '11'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -496,7 +496,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 27% и физическую защиту
         в бою с вражескими игроками на 70%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '12'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -506,7 +506,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 28% и физическую защиту
         в бою с вражескими игроками на 71%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '13'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -516,7 +516,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 29% и физическую защиту
         в бою с вражескими игроками на 72%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '14'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -526,7 +526,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 30% и физическую защиту
         в бою с вражескими игроками на 73%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '15'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -536,7 +536,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 31% и физическую защиту
         в бою с вражескими игроками на 74%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '16'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -546,7 +546,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 32% и физическую защиту
         в бою с вражескими игроками на 75%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '17'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -556,7 +556,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 33% и физическую защиту
         в бою с вражескими игроками на 76%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '18'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -566,7 +566,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 34% и физическую защиту
         в бою с вражескими игроками на 77%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '19'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -576,7 +576,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 35% и физическую защиту
         в бою с вражескими игроками на 78%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '20'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -656,7 +656,7 @@ profession:
       description: Обездвиживает противника и увеличивает Вашу защиту. Если в это время приминить умение
         повторно, то противник получит урон и будет оглушен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.gold_stone_debuff.png
       level: '1'
       name: Удар лозой
       selection_id: ''
@@ -666,7 +666,7 @@ profession:
       description: Обездвиживает противника и увеличивает Вашу защиту. Если в это время приминить умение
         повторно, то противник получит урон и будет оглушен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.gold_stone_debuff.png
       level: '2'
       name: Удар лозой
       selection_id: ''
@@ -676,7 +676,7 @@ profession:
       description: Обездвиживает противника и увеличивает Вашу защиту. Если в это время приминить умение
         повторно, то противник получит урон и будет оглушен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.gold_stone_debuff.png
       level: '3'
       name: Удар лозой
       selection_id: ''
@@ -686,7 +686,7 @@ profession:
       description: Обездвиживает противника и увеличивает Вашу защиту. Если в это время приминить умение
         повторно, то противник получит урон и будет оглушен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.gold_stone_debuff.png
       level: '4'
       name: Удар лозой
       selection_id: ''
@@ -696,7 +696,7 @@ profession:
       description: Обездвиживает противника и увеличивает Вашу защиту. Если в это время приминить умение
         повторно, то противник получит урон и будет оглушен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.gold_stone_debuff.png
       level: '5'
       name: Удар лозой
       selection_id: ''
@@ -706,7 +706,7 @@ profession:
       description: Обездвиживает противника и увеличивает Вашу защиту. Если в это время приминить умение
         повторно, то противник получит урон и будет оглушен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.gold_stone_debuff.png
       level: '6'
       name: Удар лозой
       selection_id: ''
@@ -716,7 +716,7 @@ profession:
       description: Обездвиживает противника и увеличивает Вашу защиту. Если в это время приминить умение
         повторно, то противник получит урон и будет оглушен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.gold_stone_debuff.png
       level: '7'
       name: Удар лозой
       selection_id: ''
@@ -727,7 +727,7 @@ profession:
         этом свою физическую атаку. Если при очищении Вы сами находились под контролем, то Вы получите
         еще больше атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31391.png
       level: '1'
       name: Природное очищение
       selection_id: ''
@@ -738,7 +738,7 @@ profession:
         этом свою физическую атаку. Если при очищении Вы сами находились под контролем, то Вы получите
         еще больше атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31391.png
       level: '2'
       name: Природное очищение
       selection_id: ''
@@ -749,7 +749,7 @@ profession:
         этом свою физическую атаку. Если при очищении Вы сами находились под контролем, то Вы получите
         еще больше атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31391.png
       level: '3'
       name: Природное очищение
       selection_id: ''
@@ -760,7 +760,7 @@ profession:
         этом свою физическую атаку. Если при очищении Вы сами находились под контролем, то Вы получите
         еще больше атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31391.png
       level: '4'
       name: Природное очищение
       selection_id: ''
@@ -771,7 +771,7 @@ profession:
         этом свою физическую атаку. Если при очищении Вы сами находились под контролем, то Вы получите
         еще больше атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31391.png
       level: '5'
       name: Природное очищение
       selection_id: ''
@@ -782,7 +782,7 @@ profession:
         этом свою физическую атаку. Если при очищении Вы сами находились под контролем, то Вы получите
         еще больше атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31391.png
       level: '6'
       name: Природное очищение
       selection_id: ''
@@ -793,7 +793,7 @@ profession:
         этом свою физическую атаку. Если при очищении Вы сами находились под контролем, то Вы получите
         еще больше атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31391.png
       level: '7'
       name: Природное очищение
       selection_id: ''
@@ -803,7 +803,7 @@ profession:
       description: Увеличивает силу физических умений, защиту, физическую атаку и снижает время перезарядки
         умений.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_newbie_user_display.png
       level: '1'
       name: Лесные травы
       selection_id: ''
@@ -813,7 +813,7 @@ profession:
       description: Увеличивает силу физических умений, защиту, физическую атаку и снижает время перезарядки
         умений.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_newbie_user_display.png
       level: '2'
       name: Лесные травы
       selection_id: ''
@@ -823,7 +823,7 @@ profession:
       description: Увеличивает силу физических умений, защиту, физическую атаку и снижает время перезарядки
         умений.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_newbie_user_display.png
       level: '3'
       name: Лесные травы
       selection_id: ''
@@ -833,7 +833,7 @@ profession:
       description: Увеличивает силу физических умений, защиту, физическую атаку и снижает время перезарядки
         умений.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_newbie_user_display.png
       level: '4'
       name: Лесные травы
       selection_id: ''
@@ -843,7 +843,7 @@ profession:
       description: Увеличивает силу физических умений, защиту, физическую атаку и снижает время перезарядки
         умений.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_newbie_user_display.png
       level: '5'
       name: Лесные травы
       selection_id: ''
@@ -853,7 +853,7 @@ profession:
       description: Увеличивает силу физических умений, защиту, физическую атаку и снижает время перезарядки
         умений.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_newbie_user_display.png
       level: '6'
       name: Лесные травы
       selection_id: ''
@@ -863,7 +863,7 @@ profession:
       description: Увеличивает силу физических умений, защиту, физическую атаку и снижает время перезарядки
         умений.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_newbie_user_display.png
       level: '7'
       name: Лесные травы
       selection_id: ''
@@ -873,7 +873,7 @@ profession:
       description: Наносит массовый урон противникам на расстоянии и ставит на них клеймо, которое отменяет
         регенерацию жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i01.png
       level: '1'
       name: Клеймо леса
       selection_id: ''
@@ -883,7 +883,7 @@ profession:
       description: Наносит массовый урон противникам на расстоянии и ставит на них клеймо, которое отменяет
         регенерацию жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i01.png
       level: '2'
       name: Клеймо леса
       selection_id: ''
@@ -893,7 +893,7 @@ profession:
       description: Наносит массовый урон противникам на расстоянии и ставит на них клеймо, которое отменяет
         регенерацию жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i01.png
       level: '3'
       name: Клеймо леса
       selection_id: ''
@@ -903,7 +903,7 @@ profession:
       description: Наносит массовый урон противникам на расстоянии и ставит на них клеймо, которое отменяет
         регенерацию жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i01.png
       level: '4'
       name: Клеймо леса
       selection_id: ''
@@ -913,7 +913,7 @@ profession:
       description: Наносит массовый урон противникам на расстоянии и ставит на них клеймо, которое отменяет
         регенерацию жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i01.png
       level: '5'
       name: Клеймо леса
       selection_id: ''
@@ -923,7 +923,7 @@ profession:
       description: Наносит массовый урон противникам на расстоянии и ставит на них клеймо, которое отменяет
         регенерацию жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i01.png
       level: '6'
       name: Клеймо леса
       selection_id: ''
@@ -933,7 +933,7 @@ profession:
       description: Наносит массовый урон противникам на расстоянии и ставит на них клеймо, которое отменяет
         регенерацию жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i01.png
       level: '7'
       name: Клеймо леса
       selection_id: ''
@@ -943,7 +943,7 @@ profession:
       description: Вы наносите урон вокруг себя и ставите на врагов клеймо. Если на цели уже было клеймо,
         то враг будет обездвижен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blade_wave_contender_new.png
       level: '1'
       name: Терновник
       selection_id: ''
@@ -953,7 +953,7 @@ profession:
       description: Вы наносите урон вокруг себя и ставите на врагов клеймо. Если на цели уже было клеймо,
         то враг будет обездвижен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blade_wave_contender_new.png
       level: '2'
       name: Терновник
       selection_id: ''
@@ -963,7 +963,7 @@ profession:
       description: Вы наносите урон вокруг себя и ставите на врагов клеймо. Если на цели уже было клеймо,
         то враг будет обездвижен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blade_wave_contender_new.png
       level: '3'
       name: Терновник
       selection_id: ''
@@ -973,7 +973,7 @@ profession:
       description: Вы наносите урон вокруг себя и ставите на врагов клеймо. Если на цели уже было клеймо,
         то враг будет обездвижен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blade_wave_contender_new.png
       level: '4'
       name: Терновник
       selection_id: ''
@@ -983,7 +983,7 @@ profession:
       description: Вы наносите урон вокруг себя и ставите на врагов клеймо. Если на цели уже было клеймо,
         то враг будет обездвижен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blade_wave_contender_new.png
       level: '5'
       name: Терновник
       selection_id: ''
@@ -993,7 +993,7 @@ profession:
       description: Вы наносите урон вокруг себя и ставите на врагов клеймо. Если на цели уже было клеймо,
         то враг будет обездвижен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blade_wave_contender_new.png
       level: '6'
       name: Терновник
       selection_id: ''
@@ -1003,7 +1003,7 @@ profession:
       description: Вы наносите урон вокруг себя и ставите на врагов клеймо. Если на цели уже было клеймо,
         то враг будет обездвижен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blade_wave_contender_new.png
       level: '7'
       name: Терновник
       selection_id: ''
@@ -1013,7 +1013,7 @@ profession:
       description: Вы наносите урон вокруг себя и постепенно высасываете жизненные силы противника. Если
         на цели было клеймо, то враг будет отброшен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10076.png
       level: '1'
       name: Шипастая лоза
       selection_id: ''
@@ -1023,7 +1023,7 @@ profession:
       description: Вы наносите урон вокруг себя и постепенно высасываете жизненные силы противника. Если
         на цели было клеймо, то враг будет отброшен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10076.png
       level: '2'
       name: Шипастая лоза
       selection_id: ''
@@ -1033,7 +1033,7 @@ profession:
       description: Вы наносите урон вокруг себя и постепенно высасываете жизненные силы противника. Если
         на цели было клеймо, то враг будет отброшен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10076.png
       level: '3'
       name: Шипастая лоза
       selection_id: ''
@@ -1043,7 +1043,7 @@ profession:
       description: Вы наносите урон вокруг себя и постепенно высасываете жизненные силы противника. Если
         на цели было клеймо, то враг будет отброшен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10076.png
       level: '4'
       name: Шипастая лоза
       selection_id: ''
@@ -1053,7 +1053,7 @@ profession:
       description: Вы наносите урон вокруг себя и постепенно высасываете жизненные силы противника. Если
         на цели было клеймо, то враг будет отброшен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10076.png
       level: '5'
       name: Шипастая лоза
       selection_id: ''
@@ -1063,7 +1063,7 @@ profession:
       description: Вы наносите урон вокруг себя и постепенно высасываете жизненные силы противника. Если
         на цели было клеймо, то враг будет отброшен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10076.png
       level: '6'
       name: Шипастая лоза
       selection_id: ''
@@ -1073,7 +1073,7 @@ profession:
       description: Вы наносите урон вокруг себя и постепенно высасываете жизненные силы противника. Если
         на цели было клеймо, то враг будет отброшен.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10076.png
       level: '7'
       name: Шипастая лоза
       selection_id: ''
@@ -1083,7 +1083,7 @@ profession:
       description: Вы делаете рывок вперед. Перемещаясь Вы увеличиваете скорость бега союзников в точке
         начала перемещения и в точке куда Вы совершили перемещение.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.titan_hyper_rush.png
       level: '1'
       name: Тропа охотников
       selection_id: ''
@@ -1093,7 +1093,7 @@ profession:
       description: Вы делаете рывок вперед. Перемещаясь Вы увеличиваете скорость бега союзников в точке
         начала перемещения и в точке куда Вы совершили перемещение.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.titan_hyper_rush.png
       level: '2'
       name: Тропа охотников
       selection_id: ''
@@ -1103,7 +1103,7 @@ profession:
       description: Вы делаете рывок вперед. Перемещаясь Вы увеличиваете скорость бега союзников в точке
         начала перемещения и в точке куда Вы совершили перемещение.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.titan_hyper_rush.png
       level: '3'
       name: Тропа охотников
       selection_id: ''
@@ -1113,7 +1113,7 @@ profession:
       description: Вы делаете рывок вперед. Перемещаясь Вы увеличиваете скорость бега союзников в точке
         начала перемещения и в точке куда Вы совершили перемещение.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.titan_hyper_rush.png
       level: '4'
       name: Тропа охотников
       selection_id: ''
@@ -1123,7 +1123,7 @@ profession:
       description: Вы делаете рывок вперед. Перемещаясь Вы увеличиваете скорость бега союзников в точке
         начала перемещения и в точке куда Вы совершили перемещение.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.titan_hyper_rush.png
       level: '5'
       name: Тропа охотников
       selection_id: ''
@@ -1133,7 +1133,7 @@ profession:
       description: Вы делаете рывок вперед. Перемещаясь Вы увеличиваете скорость бега союзников в точке
         начала перемещения и в точке куда Вы совершили перемещение.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.titan_hyper_rush.png
       level: '6'
       name: Тропа охотников
       selection_id: ''
@@ -1143,7 +1143,7 @@ profession:
       description: Вы делаете рывок вперед. Перемещаясь Вы увеличиваете скорость бега союзников в точке
         начала перемещения и в точке куда Вы совершили перемещение.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.titan_hyper_rush.png
       level: '7'
       name: Тропа охотников
       selection_id: ''
@@ -1153,7 +1153,7 @@ profession:
       description: Увеличивает физическую защиту на 16%, магическую защиту на 20% и регенерацию жизненных
         сил на 1%. Атакующие Вас враги будут получать периодический урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_sp_sephiroth_master.png
       level: '1'
       name: Сильван
       selection_id: ''
@@ -1163,7 +1163,7 @@ profession:
       description: Увеличивает физическую защиту на 20%, магическую защиту на 25% и регенерацию жизненных
         сил на 1.5%. Атакующие Вас враги будут получать периодический урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_sp_sephiroth_master.png
       level: '2'
       name: Сильван
       selection_id: ''
@@ -1173,7 +1173,7 @@ profession:
       description: Увеличивает физическую защиту на 24%, магическую защиту на 30% и регенерацию жизненных
         сил на 2%. Атакующие Вас враги будут получать периодический урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_sp_sephiroth_master.png
       level: '3'
       name: Сильван
       selection_id: ''
@@ -1183,7 +1183,7 @@ profession:
       description: Увеличивает физическую защиту на 28%, магическую защиту на 35% и регенерацию жизненных
         сил на 2.5%. Атакующие Вас враги будут получать периодический урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_sp_sephiroth_master.png
       level: '4'
       name: Сильван
       selection_id: ''
@@ -1193,7 +1193,7 @@ profession:
       description: Увеличивает физическую защиту на 32%, магическую защиту на 40% и регенерацию жизненных
         сил на 3%. Атакующие Вас враги будут получать периодический урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_sp_sephiroth_master.png
       level: '5'
       name: Сильван
       selection_id: ''
@@ -1203,7 +1203,7 @@ profession:
       description: Увеличивает физическую защиту на 36%, магическую защиту на 45% и регенерацию жизненных
         сил на 3.5%. Атакующие Вас враги будут получать периодический урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_sp_sephiroth_master.png
       level: '6'
       name: Сильван
       selection_id: ''
@@ -1213,7 +1213,7 @@ profession:
       description: Увеличивает физическую защиту на 40%, магическую защиту на 50% и регенерацию жизненных
         сил на 4%. Атакующие Вас враги будут получать периодический урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_sp_sephiroth_master.png
       level: '7'
       name: Сильван
       selection_id: ''
@@ -1223,7 +1223,7 @@ profession:
       description: Вы наносите массовый удар по врагам вокруг. Если на цели было Клеймо, то Ваши 2 следующих
         умения будут усилены на 20% и 100% нанесут критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_benediction_new.png
       level: '1'
       name: Гнев природы
       selection_id: ''
@@ -1233,7 +1233,7 @@ profession:
       description: Вы наносите массовый удар по врагам вокруг. Если на цели было Клеймо, то Ваши 2 следующих
         умения будут усилены на 20% и 100% нанесут критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_benediction_new.png
       level: '2'
       name: Гнев природы
       selection_id: ''
@@ -1243,7 +1243,7 @@ profession:
       description: Вы наносите массовый удар по врагам вокруг. Если на цели было Клеймо, то Ваши 2 следующих
         умения будут усилены на 20% и 100% нанесут критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_benediction_new.png
       level: '3'
       name: Гнев природы
       selection_id: ''
@@ -1253,7 +1253,7 @@ profession:
       description: Вы наносите массовый удар по врагам вокруг. Если на цели было Клеймо, то Ваши 2 следующих
         умения будут усилены на 20% и 100% нанесут критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_benediction_new.png
       level: '4'
       name: Гнев природы
       selection_id: ''
@@ -1263,7 +1263,7 @@ profession:
       description: Вы наносите массовый удар по врагам вокруг. Если на цели было Клеймо, то Ваши 2 следующих
         умения будут усилены на 20% и 100% нанесут критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_benediction_new.png
       level: '5'
       name: Гнев природы
       selection_id: ''
@@ -1278,7 +1278,7 @@ profession:
         на 2%. Скорость бега врага станет фиксирована на 100. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '1'
       name: Лесной облик
       selection_id: ''
@@ -1291,7 +1291,7 @@ profession:
         на 2.5%. Скорость бега врага станет фиксирована на 100. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '2'
       name: Лесной облик
       selection_id: ''
@@ -1304,7 +1304,7 @@ profession:
         на 3%. Скорость бега врага станет фиксирована на 100. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '3'
       name: Лесной облик
       selection_id: ''
@@ -1317,7 +1317,7 @@ profession:
         на 3.5%. Скорость бега врага станет фиксирована на 100. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '4'
       name: Лесной облик
       selection_id: ''
@@ -1330,7 +1330,7 @@ profession:
         на 4%. Скорость бега врага станет фиксирована на 100. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '5'
       name: Лесной облик
       selection_id: ''
@@ -1343,7 +1343,7 @@ profession:
         на 4.5%. Скорость бега врага станет фиксирована на 100. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '6'
       name: Лесной облик
       selection_id: ''
@@ -1356,7 +1356,7 @@ profession:
         на 5%. Скорость бега врага станет фиксирована на 100. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '7'
       name: Лесной облик
       selection_id: ''
@@ -1369,7 +1369,7 @@ profession:
         на 4%. Скорость бега врага станет фиксирована на 125. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '1'
       name: Лесной облик
       selection_id: ''
@@ -1382,7 +1382,7 @@ profession:
         на 5%. Скорость бега врага станет фиксирована на 125. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '2'
       name: Лесной облик
       selection_id: ''
@@ -1395,7 +1395,7 @@ profession:
         на 6%. Скорость бега врага станет фиксирована на 125. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '3'
       name: Лесной облик
       selection_id: ''
@@ -1408,7 +1408,7 @@ profession:
         на 7%. Скорость бега врага станет фиксирована на 125. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '4'
       name: Лесной облик
       selection_id: ''
@@ -1421,7 +1421,7 @@ profession:
         на 8%. Скорость бега врага станет фиксирована на 125. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '5'
       name: Лесной облик
       selection_id: ''
@@ -1434,7 +1434,7 @@ profession:
         на 9%. Скорость бега врага станет фиксирована на 125. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '6'
       name: Лесной облик
       selection_id: ''
@@ -1447,7 +1447,7 @@ profession:
         на 10%. Скорость бега врага станет фиксирована на 125. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '7'
       name: Лесной облик
       selection_id: ''
@@ -1460,7 +1460,7 @@ profession:
         на 3%. Скорость бега врага станет фиксирована на 150. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '1'
       name: Лесной облик
       selection_id: ''
@@ -1473,7 +1473,7 @@ profession:
         на 5%. Скорость бега врага станет фиксирована на 150. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '2'
       name: Лесной облик
       selection_id: ''
@@ -1486,7 +1486,7 @@ profession:
         на 7%. Скорость бега врага станет фиксирована на 150. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '3'
       name: Лесной облик
       selection_id: ''
@@ -1499,7 +1499,7 @@ profession:
         на 9%. Скорость бега врага станет фиксирована на 150. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '4'
       name: Лесной облик
       selection_id: ''
@@ -1512,7 +1512,7 @@ profession:
         на 11%. Скорость бега врага станет фиксирована на 150. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '5'
       name: Лесной облик
       selection_id: ''
@@ -1525,7 +1525,7 @@ profession:
         на 13%. Скорость бега врага станет фиксирована на 150. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '6'
       name: Лесной облик
       selection_id: ''
@@ -1538,7 +1538,7 @@ profession:
         на 15%. Скорость бега врага станет фиксирована на 150. Нельзя использовать на персонажей, которые
         находятся верхом.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '7'
       name: Лесной облик
       selection_id: ''
@@ -1549,7 +1549,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 3%. Также время
         от времени восстанавливает 4% жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '1'
       name: Дух хранитель
       selection_id: ''
@@ -1560,7 +1560,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 5%. Также время
         от времени восстанавливает 4.5% жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '2'
       name: Дух хранитель
       selection_id: ''
@@ -1571,7 +1571,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 7%. Также время
         от времени восстанавливает 5% жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '3'
       name: Дух хранитель
       selection_id: ''
@@ -1582,7 +1582,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 9%. Также время
         от времени восстанавливает 5.5% жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '4'
       name: Дух хранитель
       selection_id: ''
@@ -1593,7 +1593,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 11%. Также
         время от времени восстанавливает 6% жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '5'
       name: Дух хранитель
       selection_id: ''
@@ -1604,7 +1604,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 13%. Также
         время от времени восстанавливает 6.5% жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '6'
       name: Дух хранитель
       selection_id: ''
@@ -1615,7 +1615,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 15%. Также
         время от времени восстанавливает 7% жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '7'
       name: Дух хранитель
       selection_id: ''
@@ -1626,7 +1626,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 3%. Также время
         от времени восстанавливает 4% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '1'
       name: Дух хранитель
       selection_id: ''
@@ -1637,7 +1637,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 5%. Также время
         от времени восстанавливает 4.5% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '2'
       name: Дух хранитель
       selection_id: ''
@@ -1648,7 +1648,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 7%. Также время
         от времени восстанавливает 5% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '3'
       name: Дух хранитель
       selection_id: ''
@@ -1659,7 +1659,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 9%. Также время
         от времени восстанавливает 5.5% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '4'
       name: Дух хранитель
       selection_id: ''
@@ -1670,7 +1670,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 11%. Также
         время от времени восстанавливает 6% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '5'
       name: Дух хранитель
       selection_id: ''
@@ -1681,7 +1681,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 13%. Также
         время от времени восстанавливает 6.5% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '6'
       name: Дух хранитель
       selection_id: ''
@@ -1692,7 +1692,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 15%. Также
         время от времени восстанавливает 7% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '7'
       name: Дух хранитель
       selection_id: ''
@@ -1703,7 +1703,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 3%. Также время
         от времени восстанавливает по 2.5% боевого духа и жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '1'
       name: Дух хранитель
       selection_id: ''
@@ -1714,7 +1714,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 5%. Также время
         от времени восстанавливает по 2.75% боевого духа и жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '2'
       name: Дух хранитель
       selection_id: ''
@@ -1725,7 +1725,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 7%. Также время
         от времени восстанавливает по 3% боевого духа и жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '3'
       name: Дух хранитель
       selection_id: ''
@@ -1736,7 +1736,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 9%. Также время
         от времени восстанавливает по 3.25% боевого духа и жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '4'
       name: Дух хранитель
       selection_id: ''
@@ -1747,7 +1747,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 11%. Также
         время от времени восстанавливает по 3.5% боевого духа и жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '5'
       name: Дух хранитель
       selection_id: ''
@@ -1758,7 +1758,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 13%. Также
         время от времени восстанавливает по 3.75% боевого духа и жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '6'
       name: Дух хранитель
       selection_id: ''
@@ -1769,7 +1769,7 @@ profession:
       description: Призывает духа хранителя, который увеличивает силу физических умений на 15%. Также
         время от времени восстанавливает по 4% боевого духа и жизненных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10079_2.png
       level: '7'
       name: Дух хранитель
       selection_id: ''
@@ -1781,7 +1781,7 @@ profession:
         на 1% и силу критического удара умением на 3%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '1'
       name: Дух защитник
       selection_id: ''
@@ -1793,7 +1793,7 @@ profession:
         на 2% и силу критического удара умением на 5%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '2'
       name: Дух защитник
       selection_id: ''
@@ -1805,7 +1805,7 @@ profession:
         на 2% и силу критического удара умением на 7%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '3'
       name: Дух защитник
       selection_id: ''
@@ -1817,7 +1817,7 @@ profession:
         на 3% и силу критического удара умением на 9%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '4'
       name: Дух защитник
       selection_id: ''
@@ -1829,7 +1829,7 @@ profession:
         на 4% и силу критического удара умением на 11%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '5'
       name: Дух защитник
       selection_id: ''
@@ -1841,7 +1841,7 @@ profession:
         на 4% и силу критического удара умением на 13%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '6'
       name: Дух защитник
       selection_id: ''
@@ -1853,7 +1853,7 @@ profession:
         на 1% и силу критического удара умением на 15%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '7'
       name: Дух защитник
       selection_id: ''
@@ -1865,7 +1865,7 @@ profession:
         на 3% и силу критического удара умением на 1%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '1'
       name: Дух защитник
       selection_id: ''
@@ -1877,7 +1877,7 @@ profession:
         на 5% и силу критического удара умением на 2%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '2'
       name: Дух защитник
       selection_id: ''
@@ -1889,7 +1889,7 @@ profession:
         на 7% и силу критического удара умением на 2%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '3'
       name: Дух защитник
       selection_id: ''
@@ -1901,7 +1901,7 @@ profession:
         на 9% и силу критического удара умением на 3%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '4'
       name: Дух защитник
       selection_id: ''
@@ -1913,7 +1913,7 @@ profession:
         на 11% и силу критического удара умением на 4%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '5'
       name: Дух защитник
       selection_id: ''
@@ -1925,7 +1925,7 @@ profession:
         на 13% и силу критического удара умением на 4%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '6'
       name: Дух защитник
       selection_id: ''
@@ -1937,7 +1937,7 @@ profession:
         на 15% и силу критического удара умением на 5%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '7'
       name: Дух защитник
       selection_id: ''
@@ -1949,7 +1949,7 @@ profession:
         на 2% и силу критического удара умением на 2%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '1'
       name: Дух защитник
       selection_id: ''
@@ -1961,7 +1961,7 @@ profession:
         на 3% и силу критического удара умением на 3%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '2'
       name: Дух защитник
       selection_id: ''
@@ -1973,7 +1973,7 @@ profession:
         на 4% и силу критического удара умением на 4%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '3'
       name: Дух защитник
       selection_id: ''
@@ -1985,7 +1985,7 @@ profession:
         на 5% и силу критического удара умением на 5%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '4'
       name: Дух защитник
       selection_id: ''
@@ -1997,7 +1997,7 @@ profession:
         на 6% и силу критического удара умением на 6%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '5'
       name: Дух защитник
       selection_id: ''
@@ -2009,7 +2009,7 @@ profession:
         на 7% и силу критического удара умением на 7%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '6'
       name: Дух защитник
       selection_id: ''
@@ -2021,7 +2021,7 @@ profession:
         на 8% и силу критического удара умением на 8%. Если Вас введут в состояние сна, транса , оглушения,
         страха или паралича, то вместо этих эффектов Вы не сможете использовать умения и магию.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10092_2.png
       level: '7'
       name: Дух защитник
       selection_id: ''
@@ -2033,7 +2033,7 @@ profession:
         на 8%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '1'
       name: Дух леса
       selection_id: ''
@@ -2045,7 +2045,7 @@ profession:
         на 10%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '2'
       name: Дух леса
       selection_id: ''
@@ -2057,7 +2057,7 @@ profession:
         на 12%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '3'
       name: Дух леса
       selection_id: ''
@@ -2069,7 +2069,7 @@ profession:
         на 14%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '4'
       name: Дух леса
       selection_id: ''
@@ -2081,7 +2081,7 @@ profession:
         на 16%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '5'
       name: Дух леса
       selection_id: ''
@@ -2093,7 +2093,7 @@ profession:
         на 18%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '6'
       name: Дух леса
       selection_id: ''
@@ -2105,7 +2105,7 @@ profession:
         на 20%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '7'
       name: Дух леса
       selection_id: ''
@@ -2117,7 +2117,7 @@ profession:
         на 8%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '1'
       name: Дух леса
       selection_id: ''
@@ -2129,7 +2129,7 @@ profession:
         на 10%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '2'
       name: Дух леса
       selection_id: ''
@@ -2141,7 +2141,7 @@ profession:
         на 12%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '3'
       name: Дух леса
       selection_id: ''
@@ -2153,7 +2153,7 @@ profession:
         на 14%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '4'
       name: Дух леса
       selection_id: ''
@@ -2165,7 +2165,7 @@ profession:
         на 16%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '5'
       name: Дух леса
       selection_id: ''
@@ -2177,7 +2177,7 @@ profession:
         на 18%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '6'
       name: Дух леса
       selection_id: ''
@@ -2189,7 +2189,7 @@ profession:
         на 20%. Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '7'
       name: Дух леса
       selection_id: ''
@@ -2201,7 +2201,7 @@ profession:
         смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать умения,
         но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '1'
       name: Дух леса
       selection_id: ''
@@ -2213,7 +2213,7 @@ profession:
         Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '2'
       name: Дух леса
       selection_id: ''
@@ -2225,7 +2225,7 @@ profession:
         смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать умения,
         но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '3'
       name: Дух леса
       selection_id: ''
@@ -2237,7 +2237,7 @@ profession:
         Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '4'
       name: Дух леса
       selection_id: ''
@@ -2249,7 +2249,7 @@ profession:
         смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать умения,
         но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '5'
       name: Дух леса
       selection_id: ''
@@ -2261,7 +2261,7 @@ profession:
         Вместо смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать
         умения, но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '6'
       name: Дух леса
       selection_id: ''
@@ -2273,7 +2273,7 @@ profession:
         смерти Вы превращаетесь в медлительного неуязвимого энта, который не может использовать умения,
         но его обычные атаки наносят большой урон по здоровью врага.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill10073_2.png
       level: '7'
       name: Дух леса
       selection_id: ''
@@ -2285,7 +2285,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут обездвижены на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '1'
       name: Дендроид
       selection_id: ''
@@ -2297,7 +2297,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут обездвижены на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '2'
       name: Дендроид
       selection_id: ''
@@ -2309,7 +2309,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут обездвижены на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '3'
       name: Дендроид
       selection_id: ''
@@ -2321,7 +2321,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут обездвижены на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '4'
       name: Дендроид
       selection_id: ''
@@ -2333,7 +2333,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут обездвижены на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '5'
       name: Дендроид
       selection_id: ''
@@ -2345,7 +2345,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут обездвижены на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '6'
       name: Дендроид
       selection_id: ''
@@ -2357,7 +2357,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут обездвижены на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '7'
       name: Дендроид
       selection_id: ''
@@ -2369,7 +2369,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут замедлены на 5 секунд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '1'
       name: Дендроид
       selection_id: ''
@@ -2381,7 +2381,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут замедлены на 5 секунд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '2'
       name: Дендроид
       selection_id: ''
@@ -2393,7 +2393,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут замедлены на 5 секунд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '3'
       name: Дендроид
       selection_id: ''
@@ -2405,7 +2405,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут замедлены на 5 секунд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '4'
       name: Дендроид
       selection_id: ''
@@ -2417,7 +2417,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут замедлены на 5 секунд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '5'
       name: Дендроид
       selection_id: ''
@@ -2429,7 +2429,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут замедлены на 5 секунд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '6'
       name: Дендроид
       selection_id: ''
@@ -2441,7 +2441,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и будут замедлены на 5 секунд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '7'
       name: Дендроид
       selection_id: ''
@@ -2453,7 +2453,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и не смогут использовать умения и магию 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '1'
       name: Дендроид
       selection_id: ''
@@ -2465,7 +2465,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и не смогут использовать умения и магию 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '2'
       name: Дендроид
       selection_id: ''
@@ -2477,7 +2477,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и не смогут использовать умения и магию 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '3'
       name: Дендроид
       selection_id: ''
@@ -2489,7 +2489,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и не смогут использовать умения и магию 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '4'
       name: Дендроид
       selection_id: ''
@@ -2501,7 +2501,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и не смогут использовать умения и магию 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '5'
       name: Дендроид
       selection_id: ''
@@ -2513,7 +2513,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и не смогут использовать умения и магию 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '6'
       name: Дендроид
       selection_id: ''
@@ -2525,7 +2525,7 @@ profession:
         не можете двигаться, атаковать и использовать навыки и умения. При превращении враги вокруг получат
         урон и не смогут использовать умения и магию 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30847.png
       level: '7'
       name: Дендроид
       selection_id: ''
@@ -2537,7 +2537,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Быстрое время использования, долгий
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '1'
       name: Удар энта
       selection_id: ''
@@ -2549,7 +2549,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Быстрое время использования, долгий
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '2'
       name: Удар энта
       selection_id: ''
@@ -2561,7 +2561,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Быстрое время использования, долгий
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '3'
       name: Удар энта
       selection_id: ''
@@ -2573,7 +2573,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Быстрое время использования, долгий
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '4'
       name: Удар энта
       selection_id: ''
@@ -2585,7 +2585,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Быстрое время использования, долгий
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '5'
       name: Удар энта
       selection_id: ''
@@ -2597,7 +2597,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Быстрое время использования, долгий
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '6'
       name: Удар энта
       selection_id: ''
@@ -2609,7 +2609,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Быстрое время использования, долгий
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '7'
       name: Удар энта
       selection_id: ''
@@ -2621,7 +2621,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Среднее время использования, средний
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '1'
       name: Удар энта
       selection_id: ''
@@ -2633,7 +2633,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Среднее время использования, средний
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '2'
       name: Удар энта
       selection_id: ''
@@ -2645,7 +2645,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Среднее время использования, средний
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '3'
       name: Удар энта
       selection_id: ''
@@ -2657,7 +2657,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Среднее время использования, средний
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '4'
       name: Удар энта
       selection_id: ''
@@ -2669,7 +2669,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Среднее время использования, средний
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '5'
       name: Удар энта
       selection_id: ''
@@ -2681,7 +2681,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Среднее время использования, средний
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '6'
       name: Удар энта
       selection_id: ''
@@ -2693,7 +2693,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Среднее время использования, средний
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '7'
       name: Удар энта
       selection_id: ''
@@ -2705,7 +2705,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Долгое время использования, быстрый
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '1'
       name: Удар энта
       selection_id: ''
@@ -2717,7 +2717,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Долгое время использования, быстрый
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '2'
       name: Удар энта
       selection_id: ''
@@ -2729,7 +2729,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Долгое время использования, быстрый
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '3'
       name: Удар энта
       selection_id: ''
@@ -2741,7 +2741,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Долгое время использования, быстрый
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '4'
       name: Удар энта
       selection_id: ''
@@ -2753,7 +2753,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Долгое время использования, быстрый
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '5'
       name: Удар энта
       selection_id: ''
@@ -2765,7 +2765,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Долгое время использования, быстрый
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '6'
       name: Удар энта
       selection_id: ''
@@ -2777,7 +2777,7 @@ profession:
         здоровье было менее 50%, то он получает дополнительный урон. Долгое время использования, быстрый
         откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
       level: '7'
       name: Удар энта
       selection_id: ''
@@ -2788,7 +2788,7 @@ profession:
       description: Вы проклинаете врагов вокруг себя, снижая их атаку на 12% и увеличивая свою физическую
         атаку на 9%. Если на враге было *Клеймо леса*, то он дополнительно потеряет 9% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '1'
       name: Природное равновесие
       selection_id: ''
@@ -2799,7 +2799,7 @@ profession:
       description: Вы проклинаете врагов вокруг себя, снижая их атаку на 15% и увеличивая свою физическую
         атаку на 10%. Если на враге было *Клеймо леса*, то он дополнительно потеряет 10% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '2'
       name: Природное равновесие
       selection_id: ''
@@ -2810,7 +2810,7 @@ profession:
       description: Вы проклинаете врагов вокруг себя, снижая их атаку на 18% и увеличивая свою физическую
         атаку на 11%. Если на враге было *Клеймо леса*, то он дополнительно потеряет 11% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '3'
       name: Природное равновесие
       selection_id: ''
@@ -2821,7 +2821,7 @@ profession:
       description: Вы проклинаете врагов вокруг себя, снижая их атаку на 21% и увеличивая свою физическую
         атаку на 12%. Если на враге было *Клеймо леса*, то он дополнительно потеряет 12% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '4'
       name: Природное равновесие
       selection_id: ''
@@ -2832,7 +2832,7 @@ profession:
       description: Вы проклинаете врагов вокруг себя, снижая их атаку на 24% и увеличивая свою физическую
         атаку на 13%. Если на враге было *Клеймо леса*, то он дополнительно потеряет 13% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '5'
       name: Природное равновесие
       selection_id: ''
@@ -2843,7 +2843,7 @@ profession:
       description: Вы проклинаете врагов вокруг себя, снижая их атаку на 27% и увеличивая свою физическую
         атаку на 14%. Если на враге было *Клеймо леса*, то он дополнительно потеряет 14% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '6'
       name: Природное равновесие
       selection_id: ''
@@ -2854,7 +2854,7 @@ profession:
       description: Вы проклинаете врагов вокруг себя, снижая их атаку на 30% и увеличивая свою физическую
         атаку на 15%. Если на враге было *Клеймо леса*, то он дополнительно потеряет 15% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '7'
       name: Природное равновесие
       selection_id: ''
@@ -2866,7 +2866,7 @@ profession:
         8% и увеличивая свою физическую атаку на 9%. Если на враге было *Клеймо леса*, то он дополнительно
         потеряет 9% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '1'
       name: Природное равновесие
       selection_id: ''
@@ -2878,7 +2878,7 @@ profession:
         10% и увеличивая свою физическую атаку на 10%. Если на враге было *Клеймо леса*, то он дополнительно
         потеряет 10% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '2'
       name: Природное равновесие
       selection_id: ''
@@ -2890,7 +2890,7 @@ profession:
         12% и увеличивая свою физическую атаку на 11%. Если на враге было *Клеймо леса*, то он дополнительно
         потеряет 11% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '3'
       name: Природное равновесие
       selection_id: ''
@@ -2902,7 +2902,7 @@ profession:
         14% и увеличивая свою физическую атаку на 12%. Если на враге было *Клеймо леса*, то он дополнительно
         потеряет 12% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '4'
       name: Природное равновесие
       selection_id: ''
@@ -2914,7 +2914,7 @@ profession:
         16% и увеличивая свою физическую атаку на 13%. Если на враге было *Клеймо леса*, то он дополнительно
         потеряет 13% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '5'
       name: Природное равновесие
       selection_id: ''
@@ -2926,7 +2926,7 @@ profession:
         18% и увеличивая свою физическую атаку на 14%. Если на враге было *Клеймо леса*, то он дополнительно
         потеряет 14% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '6'
       name: Природное равновесие
       selection_id: ''
@@ -2938,7 +2938,7 @@ profession:
         20% и увеличивая свою физическую атаку на 15%. Если на враге было *Клеймо леса*, то он дополнительно
         потеряет 15% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '7'
       name: Природное равновесие
       selection_id: ''
@@ -2950,7 +2950,7 @@ profession:
         на 6% и увеличивая свою физическую атаку на 9%. Если на враге было *Клеймо леса*, то он дополнительно
         потеряет 9% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '1'
       name: Природное равновесие
       selection_id: ''
@@ -2962,7 +2962,7 @@ profession:
         заклинаний на 7% и увеличивая свою физическую атаку на 10%. Если на враге было *Клеймо леса*,
         то он дополнительно потеряет 10% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '2'
       name: Природное равновесие
       selection_id: ''
@@ -2974,7 +2974,7 @@ profession:
         заклинаний на 8% и увеличивая свою физическую атаку на 11%. Если на враге было *Клеймо леса*,
         то он дополнительно потеряет 11% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '3'
       name: Природное равновесие
       selection_id: ''
@@ -2986,7 +2986,7 @@ profession:
         заклинаний на 9% и увеличивая свою физическую атаку на 12%. Если на враге было *Клеймо леса*,
         то он дополнительно потеряет 12% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '4'
       name: Природное равновесие
       selection_id: ''
@@ -2998,7 +2998,7 @@ profession:
         заклинаний на 10% и увеличивая свою физическую атаку на 13%. Если на враге было *Клеймо леса*,
         то он дополнительно потеряет 13% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '5'
       name: Природное равновесие
       selection_id: ''
@@ -3010,7 +3010,7 @@ profession:
         заклинаний на 11% и увеличивая свою физическую атаку на 14%. Если на враге было *Клеймо леса*,
         то он дополнительно потеряет 14% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '6'
       name: Природное равновесие
       selection_id: ''
@@ -3022,7 +3022,7 @@ profession:
         заклинаний на 12% и увеличивая свою физическую атаку на 15%. Если на враге было *Клеймо леса*,
         то он дополнительно потеряет 15% своей защиты.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sympony_sword.png
       level: '7'
       name: Природное равновесие
       selection_id: ''

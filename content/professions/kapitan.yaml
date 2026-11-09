@@ -590,7 +590,7 @@ profession:
     - branch: base
       description: Заставляет противников атаковать.
       effects: []
-      icon: /icon/skill10277.jpg
+      icon: /icon/client-skills/icon.skill10277.png
       level: '1'
       name: Грязная ругань
       selection_id: ''
@@ -608,7 +608,7 @@ profession:
     - branch: base
       description: Заставляет противников атаковать.
       effects: []
-      icon: /icon/skill10277.jpg
+      icon: /icon/client-skills/icon.skill10277.png
       level: '2'
       name: Грязная ругань
       selection_id: ''
@@ -626,7 +626,7 @@ profession:
     - branch: base
       description: Заставляет противников атаковать.
       effects: []
-      icon: /icon/skill10277.jpg
+      icon: /icon/client-skills/icon.skill10277.png
       level: '3'
       name: Грязная ругань
       selection_id: ''
@@ -644,7 +644,7 @@ profession:
     - branch: base
       description: Заставляет противников атаковать.
       effects: []
-      icon: /icon/skill10277.jpg
+      icon: /icon/client-skills/icon.skill10277.png
       level: '4'
       name: Грязная ругань
       selection_id: ''
@@ -662,7 +662,7 @@ profession:
     - branch: base
       description: Заставляет противников атаковать.
       effects: []
-      icon: /icon/skill10277.jpg
+      icon: /icon/client-skills/icon.skill10277.png
       level: '5'
       name: Грязная ругань
       selection_id: ''
@@ -680,7 +680,7 @@ profession:
     - branch: base
       description: Заставляет противников атаковать.
       effects: []
-      icon: /icon/skill10277.jpg
+      icon: /icon/client-skills/icon.skill10277.png
       level: '6'
       name: Грязная ругань
       selection_id: ''
@@ -698,7 +698,7 @@ profession:
     - branch: base
       description: Заставляет противников атаковать.
       effects: []
-      icon: /icon/skill10277.jpg
+      icon: /icon/client-skills/icon.skill10277.png
       level: '7'
       name: Грязная ругань
       selection_id: ''
@@ -1106,7 +1106,7 @@ profession:
           70%'
       - kind: value
         text: 'Физическая защита с оружием (Рапира с символом): 10%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '1'
       name: Оружие капитана
       selection_id: ''
@@ -1123,7 +1123,7 @@ profession:
           87%'
       - kind: value
         text: 'Физическая защита с оружием (Рапира с символом): 12%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '2'
       name: Оружие капитана
       selection_id: ''
@@ -1140,7 +1140,7 @@ profession:
           105%'
       - kind: value
         text: 'Физическая защита с оружием (Рапира с символом): 14%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '3'
       name: Оружие капитана
       selection_id: ''
@@ -1157,7 +1157,7 @@ profession:
           122%'
       - kind: value
         text: 'Физическая защита с оружием (Рапира с символом): 16%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '4'
       name: Оружие капитана
       selection_id: ''
@@ -1174,7 +1174,7 @@ profession:
           140%'
       - kind: value
         text: 'Физическая защита с оружием (Рапира с символом): 18%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '5'
       name: Оружие капитана
       selection_id: ''
@@ -1191,7 +1191,7 @@ profession:
           157%'
       - kind: value
         text: 'Физическая защита с оружием (Рапира с символом): 20%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '6'
       name: Оружие капитана
       selection_id: ''
@@ -1208,7 +1208,7 @@ profession:
           175%'
       - kind: value
         text: 'Физическая защита с оружием (Рапира с символом): 22%'
-      icon: /icon/skill0985.jpg
+      icon: /icon/client-skills/icon.skill0985.png
       level: '7'
       name: Оружие капитана
       selection_id: ''
@@ -1220,7 +1220,7 @@ profession:
     - branch: base
       description: Заставляет противников вокруг капитана атаковать.
       effects: []
-      icon: /icon/skill0018.jpg
+      icon: /icon/client-skills/icon.skill0018.png
       level: '1'
       name: Провокация
       selection_id: ''
@@ -1237,7 +1237,7 @@ profession:
     - branch: base
       description: Заставляет противников вокруг капитана атаковать.
       effects: []
-      icon: /icon/skill0018.jpg
+      icon: /icon/client-skills/icon.skill0018.png
       level: '2'
       name: Провокация
       selection_id: ''
@@ -1254,7 +1254,7 @@ profession:
     - branch: base
       description: Заставляет противников вокруг капитана атаковать.
       effects: []
-      icon: /icon/skill0018.jpg
+      icon: /icon/client-skills/icon.skill0018.png
       level: '3'
       name: Провокация
       selection_id: ''
@@ -1271,7 +1271,7 @@ profession:
     - branch: base
       description: Заставляет противников вокруг капитана атаковать.
       effects: []
-      icon: /icon/skill0018.jpg
+      icon: /icon/client-skills/icon.skill0018.png
       level: '4'
       name: Провокация
       selection_id: ''
@@ -1288,7 +1288,7 @@ profession:
     - branch: base
       description: Заставляет противников вокруг капитана атаковать.
       effects: []
-      icon: /icon/skill0018.jpg
+      icon: /icon/client-skills/icon.skill0018.png
       level: '5'
       name: Провокация
       selection_id: ''
@@ -1305,7 +1305,7 @@ profession:
     - branch: base
       description: Заставляет противников вокруг капитана атаковать.
       effects: []
-      icon: /icon/skill0018.jpg
+      icon: /icon/client-skills/icon.skill0018.png
       level: '6'
       name: Провокация
       selection_id: ''
@@ -1322,7 +1322,7 @@ profession:
     - branch: base
       description: Заставляет противников вокруг капитана атаковать.
       effects: []
-      icon: /icon/skill0018.jpg
+      icon: /icon/client-skills/icon.skill0018.png
       level: '7'
       name: Провокация
       selection_id: ''
@@ -3235,7 +3235,7 @@ profession:
         text: 'Снижение фиксированного урона: -100%'
       - kind: value
         text: 'Максимальный входящий урон: 200ед.'
-      icon: /icon/skill19186.jpg
+      icon: /icon/client-skills/icon.skill19186.png
       level: '1'
       name: Укрыться щитом
       selection_id: ''
@@ -3257,7 +3257,7 @@ profession:
         text: 'Снижение фиксированного урона: -100%'
       - kind: value
         text: 'Максимальный входящий урон: 200ед.'
-      icon: /icon/skill19186.jpg
+      icon: /icon/client-skills/icon.skill19186.png
       level: '2'
       name: Укрыться щитом
       selection_id: ''
@@ -3279,7 +3279,7 @@ profession:
         text: 'Снижение фиксированного урона: -100%'
       - kind: value
         text: 'Максимальный входящий урон: 200ед.'
-      icon: /icon/skill19186.jpg
+      icon: /icon/client-skills/icon.skill19186.png
       level: '3'
       name: Укрыться щитом
       selection_id: ''
@@ -3301,7 +3301,7 @@ profession:
         text: 'Снижение фиксированного урона: -100%'
       - kind: value
         text: 'Максимальный входящий урон: 200ед.'
-      icon: /icon/skill19186.jpg
+      icon: /icon/client-skills/icon.skill19186.png
       level: '4'
       name: Укрыться щитом
       selection_id: ''
@@ -3323,7 +3323,7 @@ profession:
         text: 'Снижение фиксированного урона: -100%'
       - kind: value
         text: 'Максимальный входящий урон: 200ед.'
-      icon: /icon/skill19186.jpg
+      icon: /icon/client-skills/icon.skill19186.png
       level: '5'
       name: Укрыться щитом
       selection_id: ''
@@ -3345,7 +3345,7 @@ profession:
         text: 'Снижение фиксированного урона: -100%'
       - kind: value
         text: 'Максимальный входящий урон: 200ед.'
-      icon: /icon/skill19186.jpg
+      icon: /icon/client-skills/icon.skill19186.png
       level: '6'
       name: Укрыться щитом
       selection_id: ''
@@ -3367,7 +3367,7 @@ profession:
         text: 'Снижение фиксированного урона: -100%'
       - kind: value
         text: 'Максимальный входящий урон: 200ед.'
-      icon: /icon/skill19186.jpg
+      icon: /icon/client-skills/icon.skill19186.png
       level: '7'
       name: Укрыться щитом
       selection_id: ''
@@ -5227,7 +5227,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '1'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5249,7 +5249,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '2'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5271,7 +5271,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '3'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5293,7 +5293,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '4'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5315,7 +5315,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '5'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5337,7 +5337,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '6'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5359,7 +5359,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '7'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5381,7 +5381,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '8'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5403,7 +5403,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '9'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5425,7 +5425,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '10'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5447,7 +5447,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '11'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5469,7 +5469,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '12'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5491,7 +5491,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '13'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5513,7 +5513,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '14'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5535,7 +5535,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '15'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5557,7 +5557,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '16'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5579,7 +5579,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '17'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5601,7 +5601,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '18'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5623,7 +5623,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '19'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5645,7 +5645,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '20'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -6070,7 +6070,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 9%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 18%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '1'
       name: Деревянная нога
       selection_id: '2.1_0'
@@ -6100,7 +6100,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 9%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 18%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '1'
       name: Деревянная нога
       selection_id: '2.1_1'
@@ -6129,7 +6129,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 9%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 18%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '1'
       name: Деревянная нога
       selection_id: '2.1_2'
@@ -6158,7 +6158,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 10%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 20%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '2'
       name: Деревянная нога
       selection_id: '2.1_3'
@@ -6188,7 +6188,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 10%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 20%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '2'
       name: Деревянная нога
       selection_id: '2.1_4'
@@ -6217,7 +6217,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 10%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 20%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '2'
       name: Деревянная нога
       selection_id: '2.1_5'
@@ -6246,7 +6246,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 11%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 22%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '3'
       name: Деревянная нога
       selection_id: '2.1_1'
@@ -6276,7 +6276,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 11%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 22%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '3'
       name: Деревянная нога
       selection_id: '2.1_2'
@@ -6305,7 +6305,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 11%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 22%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '3'
       name: Деревянная нога
       selection_id: '2.1_3'
@@ -6334,7 +6334,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 12%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 24%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '4'
       name: Деревянная нога
       selection_id: '2.1_1'
@@ -6364,7 +6364,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 12%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 24%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '4'
       name: Деревянная нога
       selection_id: '2.1_2'
@@ -6393,7 +6393,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 12%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 24%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '4'
       name: Деревянная нога
       selection_id: '2.1_3'
@@ -6422,7 +6422,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 13%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 26%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '5'
       name: Деревянная нога
       selection_id: '2.1_1'
@@ -6452,7 +6452,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 13%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 26%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '5'
       name: Деревянная нога
       selection_id: '2.1_2'
@@ -6481,7 +6481,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 13%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 26%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '5'
       name: Деревянная нога
       selection_id: '2.1_3'
@@ -6510,7 +6510,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 14%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 28%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '6'
       name: Деревянная нога
       selection_id: '2.1_1'
@@ -6540,7 +6540,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 14%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 28%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '6'
       name: Деревянная нога
       selection_id: '2.1_2'
@@ -6569,7 +6569,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 14%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 28%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '6'
       name: Деревянная нога
       selection_id: '2.1_3'
@@ -6598,7 +6598,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 15%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 30%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '7'
       name: Деревянная нога
       selection_id: '2.1_1'
@@ -6628,7 +6628,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 15%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 30%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '7'
       name: Деревянная нога
       selection_id: '2.1_2'
@@ -6657,7 +6657,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 15%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 30%'
-      icon: /icon/skill11523.jpg
+      icon: /icon/client-skills/icon.skill11523.png
       level: '7'
       name: Деревянная нога
       selection_id: '2.1_3'
@@ -7139,7 +7139,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан оглушит ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '1'
       name: Защита капитана
       selection_id: '2.3_1'
@@ -7156,7 +7156,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан напугает ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '1'
       name: Защита капитана
       selection_id: '2.3_2'
@@ -7173,7 +7173,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан замедлит ближних противников на 6 секунд на 90%.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '1'
       name: Защита капитана
       selection_id: '2.3_3'
@@ -7190,7 +7190,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан оглушит ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '2'
       name: Защита капитана
       selection_id: '2.3_1'
@@ -7207,7 +7207,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан напугает ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '2'
       name: Защита капитана
       selection_id: '2.3_2'
@@ -7224,7 +7224,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан замедлит ближних противников на 6 секунд на 90%.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '2'
       name: Защита капитана
       selection_id: '2.3_3'
@@ -7241,7 +7241,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан оглушит ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '3'
       name: Защита капитана
       selection_id: '2.3_1'
@@ -7258,7 +7258,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан напугает ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '3'
       name: Защита капитана
       selection_id: '2.3_2'
@@ -7275,7 +7275,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан замедлит ближних противников на 6 секунд на 90%.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '3'
       name: Защита капитана
       selection_id: '2.3_3'
@@ -7292,7 +7292,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан оглушит ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '4'
       name: Защита капитана
       selection_id: '2.3_1'
@@ -7309,7 +7309,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан напугает ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '4'
       name: Защита капитана
       selection_id: '2.3_2'
@@ -7326,7 +7326,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан замедлит ближних противников на 6 секунд на 90%.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '4'
       name: Защита капитана
       selection_id: '2.3_3'
@@ -7343,7 +7343,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан оглушит ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '5'
       name: Защита капитана
       selection_id: '2.3_1'
@@ -7360,7 +7360,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан напугает ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '5'
       name: Защита капитана
       selection_id: '2.3_2'
@@ -7377,7 +7377,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан замедлит ближних противников на 6 секунд на 90%.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '5'
       name: Защита капитана
       selection_id: '2.3_3'
@@ -7394,7 +7394,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан оглушит ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '6'
       name: Защита капитана
       selection_id: '2.3_1'
@@ -7411,7 +7411,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан напугает ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '6'
       name: Защита капитана
       selection_id: '2.3_2'
@@ -7428,7 +7428,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан замедлит ближних противников на 6 секунд на 90%.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '6'
       name: Защита капитана
       selection_id: '2.3_3'
@@ -7445,7 +7445,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан оглушит ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '7'
       name: Защита капитана
       selection_id: '2.3_1'
@@ -7462,7 +7462,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан напугает ближних противников на 4 секунды.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '7'
       name: Защита капитана
       selection_id: '2.3_2'
@@ -7479,7 +7479,7 @@ profession:
       description: Капитан использует свою усиленную защиту щитом, временно получая полную неуязвимость.
         В конце умения капитан замедлит ближних противников на 6 секунд на 90%.
       effects: []
-      icon: /icon/skill10020.jpg
+      icon: /icon/client-skills/icon.skill10020.png
       level: '7'
       name: Защита капитана
       selection_id: '2.3_3'

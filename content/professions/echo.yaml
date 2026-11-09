@@ -382,7 +382,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '1'
       name: Доблесть Стрелков
       selection_id: ''
@@ -391,7 +391,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '2'
       name: Доблесть Стрелков
       selection_id: ''
@@ -400,7 +400,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 18%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '3'
       name: Доблесть Стрелков
       selection_id: ''
@@ -409,7 +409,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 21%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '4'
       name: Доблесть Стрелков
       selection_id: ''
@@ -418,7 +418,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 24%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '5'
       name: Доблесть Стрелков
       selection_id: ''
@@ -427,7 +427,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 27%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '6'
       name: Доблесть Стрелков
       selection_id: ''
@@ -436,7 +436,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '7'
       name: Доблесть Стрелков
       selection_id: ''
@@ -445,7 +445,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 33%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '8'
       name: Доблесть Стрелков
       selection_id: ''
@@ -454,7 +454,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 36%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '9'
       name: Доблесть Стрелков
       selection_id: ''
@@ -463,7 +463,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 39%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '10'
       name: Доблесть Стрелков
       selection_id: ''
@@ -472,7 +472,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 42%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '11'
       name: Доблесть Стрелков
       selection_id: ''
@@ -481,7 +481,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 43%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '12'
       name: Доблесть Стрелков
       selection_id: ''
@@ -490,7 +490,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 44%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '13'
       name: Доблесть Стрелков
       selection_id: ''
@@ -499,7 +499,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 45%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '14'
       name: Доблесть Стрелков
       selection_id: ''
@@ -508,7 +508,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 46%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '15'
       name: Доблесть Стрелков
       selection_id: ''
@@ -517,7 +517,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 47%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '16'
       name: Доблесть Стрелков
       selection_id: ''
@@ -526,7 +526,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 48%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '17'
       name: Доблесть Стрелков
       selection_id: ''
@@ -535,7 +535,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 49%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '18'
       name: Доблесть Стрелков
       selection_id: ''
@@ -544,7 +544,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 50%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '19'
       name: Доблесть Стрелков
       selection_id: ''
@@ -553,7 +553,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 55%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '20'
       name: Доблесть Стрелков
       selection_id: ''
@@ -1200,7 +1200,7 @@ profession:
       description: Выстрел в противника, который наносит ему урон. Во время выстрела Вы уворачиваетесь
         практически от всех атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_wind_spiral.png
       level: '1'
       name: Реверберация
       selection_id: ''
@@ -1210,7 +1210,7 @@ profession:
       description: Выстрел в противника, который наносит ему урон. Во время выстрела Вы уворачиваетесь
         практически от всех атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_wind_spiral.png
       level: '2'
       name: Реверберация
       selection_id: ''
@@ -1220,7 +1220,7 @@ profession:
       description: Выстрел в противника, который наносит ему урон. Во время выстрела Вы уворачиваетесь
         практически от всех атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_wind_spiral.png
       level: '3'
       name: Реверберация
       selection_id: ''
@@ -1230,7 +1230,7 @@ profession:
       description: Выстрел в противника, который наносит ему урон. Во время выстрела Вы уворачиваетесь
         практически от всех атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_wind_spiral.png
       level: '4'
       name: Реверберация
       selection_id: ''
@@ -1240,7 +1240,7 @@ profession:
       description: Выстрел в противника, который наносит ему урон. Во время выстрела Вы уворачиваетесь
         практически от всех атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_wind_spiral.png
       level: '5'
       name: Реверберация
       selection_id: ''
@@ -1250,7 +1250,7 @@ profession:
       description: Выстрел в противника, который наносит ему урон. Во время выстрела Вы уворачиваетесь
         практически от всех атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_wind_spiral.png
       level: '6'
       name: Реверберация
       selection_id: ''
@@ -1260,7 +1260,7 @@ profession:
       description: Выстрел в противника, который наносит ему урон. Во время выстрела Вы уворачиваетесь
         практически от всех атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_wind_spiral.png
       level: '7'
       name: Реверберация
       selection_id: ''
@@ -1270,7 +1270,7 @@ profession:
       description: Позволяет атаковать одну дополнительную цель и увеличивает шанс физической критической
         атаки на 5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31128.png
       level: '1'
       name: Резонанс
       selection_id: ''
@@ -1280,7 +1280,7 @@ profession:
       description: Позволяет атаковать одну дополнительную цель и увеличивает шанс физической критической
         атаки на 8%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31128.png
       level: '2'
       name: Резонанс
       selection_id: ''
@@ -1290,7 +1290,7 @@ profession:
       description: Позволяет атаковать одну дополнительную цель и увеличивает шанс физической критической
         атаки на 12%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31128.png
       level: '3'
       name: Резонанс
       selection_id: ''
@@ -1300,7 +1300,7 @@ profession:
       description: Позволяет атаковать одну дополнительную цель и увеличивает шанс физической критической
         атаки на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31128.png
       level: '4'
       name: Резонанс
       selection_id: ''
@@ -1310,7 +1310,7 @@ profession:
       description: Позволяет атаковать одну дополнительную цель и увеличивает шанс физической критической
         атаки на 18%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31128.png
       level: '5'
       name: Резонанс
       selection_id: ''
@@ -1320,7 +1320,7 @@ profession:
       description: Позволяет атаковать одну дополнительную цель и увеличивает шанс физической критической
         атаки на 22%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31128.png
       level: '6'
       name: Резонанс
       selection_id: ''
@@ -1330,7 +1330,7 @@ profession:
       description: Позволяет атаковать одну дополнительную цель и увеличивает шанс физической критической
         атаки на 25%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31128.png
       level: '7'
       name: Резонанс
       selection_id: ''
@@ -1339,7 +1339,7 @@ profession:
     - branch: base
       description: Выстрел в противника, который подкидывает его в воздух и наносит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_spiral_shot.png
       level: '1'
       name: Звуковая стрела
       selection_id: ''
@@ -1348,7 +1348,7 @@ profession:
     - branch: base
       description: Выстрел в противника, который подкидывает его в воздух и наносит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_spiral_shot.png
       level: '2'
       name: Звуковая стрела
       selection_id: ''
@@ -1357,7 +1357,7 @@ profession:
     - branch: base
       description: Выстрел в противника, который подкидывает его в воздух и наносит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_spiral_shot.png
       level: '3'
       name: Звуковая стрела
       selection_id: ''
@@ -1366,7 +1366,7 @@ profession:
     - branch: base
       description: Выстрел в противника, который подкидывает его в воздух и наносит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_spiral_shot.png
       level: '4'
       name: Звуковая стрела
       selection_id: ''
@@ -1375,7 +1375,7 @@ profession:
     - branch: base
       description: Выстрел в противника, который подкидывает его в воздух и наносит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_spiral_shot.png
       level: '5'
       name: Звуковая стрела
       selection_id: ''
@@ -1384,7 +1384,7 @@ profession:
     - branch: base
       description: Выстрел в противника, который подкидывает его в воздух и наносит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_spiral_shot.png
       level: '6'
       name: Звуковая стрела
       selection_id: ''
@@ -1393,7 +1393,7 @@ profession:
     - branch: base
       description: Выстрел в противника, который подкидывает его в воздух и наносит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_spiral_shot.png
       level: '7'
       name: Звуковая стрела
       selection_id: ''
@@ -1472,7 +1472,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30827.png
       level: '1'
       name: Усиление звука
       selection_id: ''
@@ -1481,7 +1481,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30827.png
       level: '2'
       name: Усиление звука
       selection_id: ''
@@ -1490,7 +1490,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30827.png
       level: '3'
       name: Усиление звука
       selection_id: ''
@@ -1499,7 +1499,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30827.png
       level: '4'
       name: Усиление звука
       selection_id: ''
@@ -1508,7 +1508,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30827.png
       level: '5'
       name: Усиление звука
       selection_id: ''
@@ -1517,7 +1517,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30827.png
       level: '6'
       name: Усиление звука
       selection_id: ''
@@ -1526,7 +1526,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill30827.png
       level: '7'
       name: Усиление звука
       selection_id: ''
@@ -1535,7 +1535,7 @@ profession:
     - branch: base
       description: Увеличивает скорость атаки с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31129.png
       level: '1'
       name: Ускоренный темп
       selection_id: ''
@@ -1544,7 +1544,7 @@ profession:
     - branch: base
       description: Увеличивает скорость атаки с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31129.png
       level: '2'
       name: Ускоренный темп
       selection_id: ''
@@ -1553,7 +1553,7 @@ profession:
     - branch: base
       description: Увеличивает скорость атаки с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31129.png
       level: '3'
       name: Ускоренный темп
       selection_id: ''
@@ -1562,7 +1562,7 @@ profession:
     - branch: base
       description: Увеличивает скорость атаки с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31129.png
       level: '4'
       name: Ускоренный темп
       selection_id: ''
@@ -1571,7 +1571,7 @@ profession:
     - branch: base
       description: Увеличивает скорость атаки с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31129.png
       level: '5'
       name: Ускоренный темп
       selection_id: ''
@@ -1580,7 +1580,7 @@ profession:
     - branch: base
       description: Увеличивает скорость атаки с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31129.png
       level: '6'
       name: Ускоренный темп
       selection_id: ''
@@ -1589,7 +1589,7 @@ profession:
     - branch: base
       description: Увеличивает скорость атаки с коротким луком.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31129.png
       level: '7'
       name: Ускоренный темп
       selection_id: ''
@@ -1598,7 +1598,7 @@ profession:
     - branch: base
       description: Увеличивает защиту, максимальный запас жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30505.png
       level: '1'
       name: Ритм жизни
       selection_id: ''
@@ -1607,7 +1607,7 @@ profession:
     - branch: base
       description: Увеличивает защиту, максимальный запас жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30505.png
       level: '2'
       name: Ритм жизни
       selection_id: ''
@@ -1616,7 +1616,7 @@ profession:
     - branch: base
       description: Увеличивает защиту, максимальный запас жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30505.png
       level: '3'
       name: Ритм жизни
       selection_id: ''
@@ -1625,7 +1625,7 @@ profession:
     - branch: base
       description: Увеличивает защиту, максимальный запас жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30505.png
       level: '4'
       name: Ритм жизни
       selection_id: ''
@@ -1634,7 +1634,7 @@ profession:
     - branch: base
       description: Увеличивает защиту, максимальный запас жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30505.png
       level: '5'
       name: Ритм жизни
       selection_id: ''
@@ -1643,7 +1643,7 @@ profession:
     - branch: base
       description: Увеличивает защиту, максимальный запас жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30505.png
       level: '6'
       name: Ритм жизни
       selection_id: ''
@@ -1652,7 +1652,7 @@ profession:
     - branch: base
       description: Увеличивает защиту, максимальный запас жизненных сил и боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30505.png
       level: '7'
       name: Ритм жизни
       selection_id: ''
@@ -1662,7 +1662,7 @@ profession:
       description: Увеличивает силу критических атак на 4%, шанс нанести критический удар на 6.4% и силу
         физических умений на 1%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '1'
       name: Эхо
       selection_id: ''
@@ -1672,7 +1672,7 @@ profession:
       description: Увеличивает силу критических атак на 5%, шанс нанести критический удар на 8% и силу
         физических умений на 2%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '2'
       name: Эхо
       selection_id: ''
@@ -1682,7 +1682,7 @@ profession:
       description: Увеличивает силу критических атак на 6%, шанс нанести критический удар на 9.6% и силу
         физических умений на 3%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '3'
       name: Эхо
       selection_id: ''
@@ -1692,7 +1692,7 @@ profession:
       description: Увеличивает силу критических атак на 7%, шанс нанести критический удар на 11.2% и силу
         физических умений на 4%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '4'
       name: Эхо
       selection_id: ''
@@ -1702,7 +1702,7 @@ profession:
       description: Увеличивает силу критических атак на 8%, шанс нанести критический удар на 12.8% и силу
         физических умений на 6%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '5'
       name: Эхо
       selection_id: ''
@@ -1712,7 +1712,7 @@ profession:
       description: Увеличивает силу критических атак на 9%, шанс нанести критический удар на 14.4% и силу
         физических умений на 8%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '6'
       name: Эхо
       selection_id: ''
@@ -1722,7 +1722,7 @@ profession:
       description: Увеличивает силу критических атак на 10%, шанс нанести критический удар на 16% и силу
         физических умений на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '7'
       name: Эхо
       selection_id: ''
@@ -1732,7 +1732,7 @@ profession:
       description: Эхо окружает себя звуковым барьером на 5 секунд, снижая получаемый урон на 99% от профессий
         атакующих на расстоянии.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30027.png
       level: '1'
       name: Звуковой барьер
       selection_id: ''
@@ -1742,7 +1742,7 @@ profession:
       description: Эхо окружает себя звуковым барьером на 5 секунд, снижая получаемый урон на 99% от профессий
         атакующих на расстоянии.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30027.png
       level: '2'
       name: Звуковой барьер
       selection_id: ''
@@ -1752,7 +1752,7 @@ profession:
       description: Эхо окружает себя звуковым барьером на 5 секунд, снижая получаемый урон на 99% от профессий
         атакующих на расстоянии.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30027.png
       level: '3'
       name: Звуковой барьер
       selection_id: ''
@@ -1762,7 +1762,7 @@ profession:
       description: Эхо окружает себя звуковым барьером на 5 секунд, снижая получаемый урон на 99% от профессий
         атакующих на расстоянии.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30027.png
       level: '4'
       name: Звуковой барьер
       selection_id: ''
@@ -1772,7 +1772,7 @@ profession:
       description: Эхо окружает себя звуковым барьером на 5 секунд, снижая получаемый урон на 99% от профессий
         атакующих на расстоянии.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill30027.png
       level: '5'
       name: Звуковой барьер
       selection_id: ''
@@ -1785,7 +1785,7 @@ profession:
       description: Увеличивает скорость атаки на 4.5%, силу критических атак на 18% и шанс нанести критический
         удар на 5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '1'
       name: Вибрация
       selection_id: ''
@@ -1796,7 +1796,7 @@ profession:
       description: Увеличивает скорость атаки на 5%, силу критических атак на 20% и шанс нанести критический
         удар на 7.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '2'
       name: Вибрация
       selection_id: ''
@@ -1807,7 +1807,7 @@ profession:
       description: Увеличивает скорость атаки на 5.5%, силу критических атак на 22% и шанс нанести критический
         удар на 9%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '3'
       name: Вибрация
       selection_id: ''
@@ -1818,7 +1818,7 @@ profession:
       description: Увеличивает скорость атаки на 6%, силу критических атак на 24% и шанс нанести критический
         удар на 10.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '4'
       name: Вибрация
       selection_id: ''
@@ -1829,7 +1829,7 @@ profession:
       description: Увеличивает скорость атаки на 6.5%, силу критических атак на 26% и шанс нанести критический
         удар на 12%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '5'
       name: Вибрация
       selection_id: ''
@@ -1840,7 +1840,7 @@ profession:
       description: Увеличивает скорость атаки на 7%, силу критических атак на 28% и шанс нанести критический
         удар на 13.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '6'
       name: Вибрация
       selection_id: ''
@@ -1851,7 +1851,7 @@ profession:
       description: Увеличивает скорость атаки на 7.5%, силу критических атак на 30% и шанс нанести критический
         удар на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '7'
       name: Вибрация
       selection_id: ''
@@ -1862,7 +1862,7 @@ profession:
       description: Увеличивает скорость атаки на 4.5%, силу критических атак на 12% и шанс нанести критический
         удар на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '1'
       name: Вибрация
       selection_id: ''
@@ -1873,7 +1873,7 @@ profession:
       description: Увеличивает скорость атаки на 5%, силу критических атак на 14% и шанс нанести критический
         удар на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '2'
       name: Вибрация
       selection_id: ''
@@ -1884,7 +1884,7 @@ profession:
       description: Увеличивает скорость атаки на 5.5%, силу критических атак на 16% и шанс нанести критический
         удар на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '3'
       name: Вибрация
       selection_id: ''
@@ -1895,7 +1895,7 @@ profession:
       description: Увеличивает скорость атаки на 6%, силу критических атак на 18% и шанс нанести критический
         удар на 22.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '4'
       name: Вибрация
       selection_id: ''
@@ -1906,7 +1906,7 @@ profession:
       description: Увеличивает скорость атаки на 6.5%, силу критических атак на 20% и шанс нанести критический
         удар на 25%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '5'
       name: Вибрация
       selection_id: ''
@@ -1917,7 +1917,7 @@ profession:
       description: Увеличивает скорость атаки на 7%, силу критических атак на 22% и шанс нанести критический
         удар на 27.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '6'
       name: Вибрация
       selection_id: ''
@@ -1928,7 +1928,7 @@ profession:
       description: Увеличивает скорость атаки на 7.5%, силу критических атак на 24% и шанс нанести критический
         удар на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '7'
       name: Вибрация
       selection_id: ''
@@ -1939,7 +1939,7 @@ profession:
       description: Увеличивает скорость атаки на 4.5%, силу критических атак на 6% и шанс нанести критический
         удар на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '1'
       name: Вибрация
       selection_id: ''
@@ -1950,7 +1950,7 @@ profession:
       description: Увеличивает скорость атаки на 5%, силу критических атак на 8% и шанс нанести критический
         удар на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '2'
       name: Вибрация
       selection_id: ''
@@ -1961,7 +1961,7 @@ profession:
       description: Увеличивает скорость атаки на 5.5%, силу критических атак на 10% и шанс нанести критический
         удар на 25%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '3'
       name: Вибрация
       selection_id: ''
@@ -1972,7 +1972,7 @@ profession:
       description: Увеличивает скорость атаки на 6%, силу критических атак на 12% и шанс нанести критический
         удар на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '4'
       name: Вибрация
       selection_id: ''
@@ -1983,7 +1983,7 @@ profession:
       description: Увеличивает скорость атаки на 6.5%, силу критических атак на 14% и шанс нанести критический
         удар на 35%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '5'
       name: Вибрация
       selection_id: ''
@@ -1994,7 +1994,7 @@ profession:
       description: Увеличивает скорость атаки на 7%, силу критических атак на 16% и шанс нанести критический
         удар на 40%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '6'
       name: Вибрация
       selection_id: ''
@@ -2005,7 +2005,7 @@ profession:
       description: Увеличивает скорость атаки на 7.5%, силу критических атак на 18% и шанс нанести критический
         удар на 45%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.dyeeffect_hidden_2.png
       level: '7'
       name: Вибрация
       selection_id: ''
@@ -2247,7 +2247,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 5 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '1'
       name: Звуковая ловушка
       selection_id: ''
@@ -2258,7 +2258,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 10 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '2'
       name: Звуковая ловушка
       selection_id: ''
@@ -2269,7 +2269,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 15 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '3'
       name: Звуковая ловушка
       selection_id: ''
@@ -2280,7 +2280,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 20 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '4'
       name: Звуковая ловушка
       selection_id: ''
@@ -2291,7 +2291,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 25 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '5'
       name: Звуковая ловушка
       selection_id: ''
@@ -2302,7 +2302,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 30 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '6'
       name: Звуковая ловушка
       selection_id: ''
@@ -2313,7 +2313,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 35 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '7'
       name: Звуковая ловушка
       selection_id: ''
@@ -2324,7 +2324,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 10 и физическую защиту
         на 7.5% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '1'
       name: Звуковая ловушка
       selection_id: ''
@@ -2335,7 +2335,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 16 и физическую защиту
         на 7.5% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '2'
       name: Звуковая ловушка
       selection_id: ''
@@ -2346,7 +2346,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 22 и физическую защиту
         на 7.5% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '3'
       name: Звуковая ловушка
       selection_id: ''
@@ -2357,7 +2357,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 28 и физическую защиту
         на 7.5% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '4'
       name: Звуковая ловушка
       selection_id: ''
@@ -2368,7 +2368,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 33 и физическую защиту
         на 7.5% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '5'
       name: Звуковая ловушка
       selection_id: ''
@@ -2379,7 +2379,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 39 и физическую защиту
         на 7.5% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '6'
       name: Звуковая ловушка
       selection_id: ''
@@ -2390,7 +2390,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 45 и физическую защиту
         на 7.5% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '7'
       name: Звуковая ловушка
       selection_id: ''
@@ -2401,7 +2401,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 15 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '1'
       name: Звуковая ловушка
       selection_id: ''
@@ -2412,7 +2412,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 22 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '2'
       name: Звуковая ловушка
       selection_id: ''
@@ -2423,7 +2423,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 28 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '3'
       name: Звуковая ловушка
       selection_id: ''
@@ -2434,7 +2434,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 35 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '4'
       name: Звуковая ловушка
       selection_id: ''
@@ -2445,7 +2445,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 42 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '5'
       name: Звуковая ловушка
       selection_id: ''
@@ -2456,7 +2456,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 48 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '6'
       name: Звуковая ловушка
       selection_id: ''
@@ -2467,7 +2467,7 @@ profession:
       description: Атакуя противника из лука, снижает его скорость передвижения на 55 и физическую защиту
         на 10% на 3 секунды.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '7'
       name: Звуковая ловушка
       selection_id: ''
@@ -2478,7 +2478,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 8 и теряют 0.5% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '1'
       name: Диссонанс
       selection_id: ''
@@ -2489,7 +2489,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 10 и теряют 0.65% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '2'
       name: Диссонанс
       selection_id: ''
@@ -2500,7 +2500,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 12 и теряют 0.8% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '3'
       name: Диссонанс
       selection_id: ''
@@ -2511,7 +2511,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 14 и теряют 0.95% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '4'
       name: Диссонанс
       selection_id: ''
@@ -2522,7 +2522,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 16 и теряют 1.1% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '5'
       name: Диссонанс
       selection_id: ''
@@ -2533,7 +2533,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 18 и теряют 1.25% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '6'
       name: Диссонанс
       selection_id: ''
@@ -2544,7 +2544,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 20 и теряют 1.5% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '7'
       name: Диссонанс
       selection_id: ''
@@ -2555,7 +2555,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 12 и теряют 0.4% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '1'
       name: Диссонанс
       selection_id: ''
@@ -2566,7 +2566,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 15 и теряют 0.5% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '2'
       name: Диссонанс
       selection_id: ''
@@ -2577,7 +2577,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 18 и теряют 0.6% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '3'
       name: Диссонанс
       selection_id: ''
@@ -2588,7 +2588,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 21 и теряют 0.7% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '4'
       name: Диссонанс
       selection_id: ''
@@ -2599,7 +2599,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 24 и теряют 0.8% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '5'
       name: Диссонанс
       selection_id: ''
@@ -2610,7 +2610,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 27 и теряют 0.9% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '6'
       name: Диссонанс
       selection_id: ''
@@ -2621,7 +2621,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 30 и теряют 1% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '7'
       name: Диссонанс
       selection_id: ''
@@ -2632,7 +2632,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 16 и теряют 0.2% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '1'
       name: Диссонанс
       selection_id: ''
@@ -2643,7 +2643,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 20 и теряют 0.25% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '2'
       name: Диссонанс
       selection_id: ''
@@ -2654,7 +2654,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 24 и теряют 0.3% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '3'
       name: Диссонанс
       selection_id: ''
@@ -2665,7 +2665,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 28 и теряют 0.35% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '4'
       name: Диссонанс
       selection_id: ''
@@ -2676,7 +2676,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 32 и теряют 0.4% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '5'
       name: Диссонанс
       selection_id: ''
@@ -2687,7 +2687,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 36 и теряют 0.45% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '6'
       name: Диссонанс
       selection_id: ''
@@ -2698,7 +2698,7 @@ profession:
       description: Все враги, которые были слишком близко к Вам, входят с Вами в диссонанс и их скорость
         снижается на 40 и теряют 0.5% жизненных сил в секунду.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.skill32617.png
       level: '7'
       name: Диссонанс
       selection_id: ''
@@ -2709,7 +2709,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 2 секунды. Слабый урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '1'
       name: Отголосок удара
       selection_id: ''
@@ -2720,7 +2720,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 2 секунды. Слабый урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '2'
       name: Отголосок удара
       selection_id: ''
@@ -2731,7 +2731,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 2 секунды. Слабый урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '3'
       name: Отголосок удара
       selection_id: ''
@@ -2742,7 +2742,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 2 секунды. Слабый урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '4'
       name: Отголосок удара
       selection_id: ''
@@ -2753,7 +2753,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 2 секунды. Слабый урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '5'
       name: Отголосок удара
       selection_id: ''
@@ -2764,7 +2764,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 2 секунды. Слабый урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '6'
       name: Отголосок удара
       selection_id: ''
@@ -2775,7 +2775,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 2 секунды. Слабый урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '7'
       name: Отголосок удара
       selection_id: ''
@@ -2786,7 +2786,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 4 секунды. Средний урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '1'
       name: Отголосок удара
       selection_id: ''
@@ -2797,7 +2797,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 4 секунды. Средний урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '2'
       name: Отголосок удара
       selection_id: ''
@@ -2808,7 +2808,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 4 секунды. Средний урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '3'
       name: Отголосок удара
       selection_id: ''
@@ -2819,7 +2819,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 4 секунды. Средний урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '4'
       name: Отголосок удара
       selection_id: ''
@@ -2830,7 +2830,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 4 секунды. Средний урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '5'
       name: Отголосок удара
       selection_id: ''
@@ -2841,7 +2841,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 4 секунды. Средний урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '6'
       name: Отголосок удара
       selection_id: ''
@@ -2852,7 +2852,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 4 секунды. Средний урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '7'
       name: Отголосок удара
       selection_id: ''
@@ -2863,7 +2863,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 6 секунд. Сильный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '1'
       name: Отголосок удара
       selection_id: ''
@@ -2874,7 +2874,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 6 секунд. Сильный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '2'
       name: Отголосок удара
       selection_id: ''
@@ -2885,7 +2885,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 6 секунд. Сильный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '3'
       name: Отголосок удара
       selection_id: ''
@@ -2896,7 +2896,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 6 секунд. Сильный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '4'
       name: Отголосок удара
       selection_id: ''
@@ -2907,7 +2907,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 6 секунд. Сильный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '5'
       name: Отголосок удара
       selection_id: ''
@@ -2918,7 +2918,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 6 секунд. Сильный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '6'
       name: Отголосок удара
       selection_id: ''
@@ -2929,7 +2929,7 @@ profession:
       description: Время от времени Вы получаете усиление, при котором Ваша следующая атака нанесет дополнительный
         урон по врагу спустя 6 секунд. Сильный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_archer_storm_piercing.png
       level: '7'
       name: Отголосок удара
       selection_id: ''
@@ -2939,7 +2939,7 @@ profession:
     - branch: one
       description: В течение 2 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '1'
       name: Сверхзвук
       selection_id: ''
@@ -2949,7 +2949,7 @@ profession:
     - branch: one
       description: В течение 2 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '2'
       name: Сверхзвук
       selection_id: ''
@@ -2959,7 +2959,7 @@ profession:
     - branch: one
       description: В течение 2 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '3'
       name: Сверхзвук
       selection_id: ''
@@ -2969,7 +2969,7 @@ profession:
     - branch: one
       description: В течение 2 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '4'
       name: Сверхзвук
       selection_id: ''
@@ -2979,7 +2979,7 @@ profession:
     - branch: one
       description: В течение 2 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '5'
       name: Сверхзвук
       selection_id: ''
@@ -2989,7 +2989,7 @@ profession:
     - branch: one
       description: В течение 2 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '6'
       name: Сверхзвук
       selection_id: ''
@@ -2999,7 +2999,7 @@ profession:
     - branch: one
       description: В течение 2 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '7'
       name: Сверхзвук
       selection_id: ''
@@ -3009,7 +3009,7 @@ profession:
     - branch: two
       description: В течение 3 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '1'
       name: Сверхзвук
       selection_id: ''
@@ -3019,7 +3019,7 @@ profession:
     - branch: two
       description: В течение 3 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '2'
       name: Сверхзвук
       selection_id: ''
@@ -3029,7 +3029,7 @@ profession:
     - branch: two
       description: В течение 3 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '3'
       name: Сверхзвук
       selection_id: ''
@@ -3039,7 +3039,7 @@ profession:
     - branch: two
       description: В течение 3 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '4'
       name: Сверхзвук
       selection_id: ''
@@ -3049,7 +3049,7 @@ profession:
     - branch: two
       description: В течение 3 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '5'
       name: Сверхзвук
       selection_id: ''
@@ -3059,7 +3059,7 @@ profession:
     - branch: two
       description: В течение 3 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '6'
       name: Сверхзвук
       selection_id: ''
@@ -3069,7 +3069,7 @@ profession:
     - branch: two
       description: В течение 3 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '7'
       name: Сверхзвук
       selection_id: ''
@@ -3079,7 +3079,7 @@ profession:
     - branch: three
       description: В течение 4 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '1'
       name: Сверхзвук
       selection_id: ''
@@ -3089,7 +3089,7 @@ profession:
     - branch: three
       description: В течение 4 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '2'
       name: Сверхзвук
       selection_id: ''
@@ -3099,7 +3099,7 @@ profession:
     - branch: three
       description: В течение 4 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '3'
       name: Сверхзвук
       selection_id: ''
@@ -3109,7 +3109,7 @@ profession:
     - branch: three
       description: В течение 4 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '4'
       name: Сверхзвук
       selection_id: ''
@@ -3119,7 +3119,7 @@ profession:
     - branch: three
       description: В течение 4 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '5'
       name: Сверхзвук
       selection_id: ''
@@ -3129,7 +3129,7 @@ profession:
     - branch: three
       description: В течение 4 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '6'
       name: Сверхзвук
       selection_id: ''
@@ -3139,7 +3139,7 @@ profession:
     - branch: three
       description: В течение 4 секунд позволяет атаковать до 4 целей с максимальной скоростью атаки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_storm_arrow_rain.png
       level: '7'
       name: Сверхзвук
       selection_id: ''
@@ -3151,7 +3151,7 @@ profession:
         сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен от
         Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '1'
       name: Импульс
       selection_id: ''
@@ -3163,7 +3163,7 @@ profession:
         сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен от
         Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '2'
       name: Импульс
       selection_id: ''
@@ -3175,7 +3175,7 @@ profession:
         сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен от
         Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '3'
       name: Импульс
       selection_id: ''
@@ -3187,7 +3187,7 @@ profession:
         сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен от
         Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '4'
       name: Импульс
       selection_id: ''
@@ -3199,7 +3199,7 @@ profession:
         сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен от
         Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '5'
       name: Импульс
       selection_id: ''
@@ -3211,7 +3211,7 @@ profession:
         сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен от
         Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '6'
       name: Импульс
       selection_id: ''
@@ -3223,7 +3223,7 @@ profession:
         сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен от
         Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '7'
       name: Импульс
       selection_id: ''
@@ -3235,7 +3235,7 @@ profession:
         духа. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен
         от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '1'
       name: Импульс
       selection_id: ''
@@ -3247,7 +3247,7 @@ profession:
         духа. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен
         от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '2'
       name: Импульс
       selection_id: ''
@@ -3259,7 +3259,7 @@ profession:
         духа. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен
         от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '3'
       name: Импульс
       selection_id: ''
@@ -3271,7 +3271,7 @@ profession:
         духа. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен
         от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '4'
       name: Импульс
       selection_id: ''
@@ -3283,7 +3283,7 @@ profession:
         духа. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен
         от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '5'
       name: Импульс
       selection_id: ''
@@ -3295,7 +3295,7 @@ profession:
         духа. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен
         от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '6'
       name: Импульс
       selection_id: ''
@@ -3307,7 +3307,7 @@ profession:
         духа. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг будет отброшен
         от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '7'
       name: Импульс
       selection_id: ''
@@ -3319,7 +3319,7 @@ profession:
         духа и жизненных сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг
         будет отброшен от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '1'
       name: Импульс
       selection_id: ''
@@ -3331,7 +3331,7 @@ profession:
         боевого духа и жизненных сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет,
         а враг будет отброшен от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '2'
       name: Импульс
       selection_id: ''
@@ -3343,7 +3343,7 @@ profession:
         боевого духа и жизненных сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет,
         а враг будет отброшен от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '3'
       name: Импульс
       selection_id: ''
@@ -3355,7 +3355,7 @@ profession:
         боевого духа и жизненных сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет,
         а враг будет отброшен от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '4'
       name: Импульс
       selection_id: ''
@@ -3367,7 +3367,7 @@ profession:
         боевого духа и жизненных сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет,
         а враг будет отброшен от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '5'
       name: Импульс
       selection_id: ''
@@ -3379,7 +3379,7 @@ profession:
         боевого духа и жизненных сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет,
         а враг будет отброшен от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '6'
       name: Импульс
       selection_id: ''
@@ -3391,7 +3391,7 @@ profession:
         духа и жизненных сил. Если враг атакует Вас на ближней дистанции, то усиление пропадет, а враг
         будет отброшен от Вас.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_true_target.png
       level: '7'
       name: Импульс
       selection_id: ''

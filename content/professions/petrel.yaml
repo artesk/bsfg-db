@@ -4510,7 +4510,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 10%'
-      icon: /icon/Icon4/maker_skill_debuff.jpg
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '1'
       name: Контроль варпа
       selection_id: ''

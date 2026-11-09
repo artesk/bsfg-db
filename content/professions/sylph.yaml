@@ -2116,7 +2116,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 8%'
-      icon: /icon/skill30018.jpg
+      icon: /icon/client-skills/icon.skill30018.png
       level: '1'
       name: Волшебник Белатто
       selection_id: ''
@@ -2145,7 +2145,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/skill30018.jpg
+      icon: /icon/client-skills/icon.skill30018.png
       level: '2'
       name: Волшебник Белатто
       selection_id: ''
@@ -2174,7 +2174,7 @@ profession:
         text: 'Физическая защита (Любая броня): 20%'
       - kind: value
         text: 'Магическая защита (Любая броня): 12%'
-      icon: /icon/skill30018.jpg
+      icon: /icon/client-skills/icon.skill30018.png
       level: '3'
       name: Волшебник Белатто
       selection_id: ''
@@ -2203,7 +2203,7 @@ profession:
         text: 'Физическая защита (Любая броня): 25%'
       - kind: value
         text: 'Магическая защита (Любая броня): 14%'
-      icon: /icon/skill30018.jpg
+      icon: /icon/client-skills/icon.skill30018.png
       level: '4'
       name: Волшебник Белатто
       selection_id: ''
@@ -2232,7 +2232,7 @@ profession:
         text: 'Физическая защита (Любая броня): 30%'
       - kind: value
         text: 'Магическая защита (Любая броня): 16%'
-      icon: /icon/skill30018.jpg
+      icon: /icon/client-skills/icon.skill30018.png
       level: '5'
       name: Волшебник Белатто
       selection_id: ''
@@ -2261,7 +2261,7 @@ profession:
         text: 'Физическая защита (Любая броня): 35%'
       - kind: value
         text: 'Магическая защита (Любая броня): 18%'
-      icon: /icon/skill30018.jpg
+      icon: /icon/client-skills/icon.skill30018.png
       level: '6'
       name: Волшебник Белатто
       selection_id: ''
@@ -2290,7 +2290,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 20%'
-      icon: /icon/skill30018.jpg
+      icon: /icon/client-skills/icon.skill30018.png
       level: '7'
       name: Волшебник Белатто
       selection_id: ''
@@ -2303,7 +2303,7 @@ profession:
       description: На несколько секунд отключают разум противников, увеличивая свою скорость бега. Если
         они получат повреждения, то он тутже придут в себя.
       effects: []
-      icon: /icon/vam_sleep_2.jpg
+      icon: /icon/client-skills/icon.vam_sleep_2.png
       level: '1'
       name: Уязвимость разума
       selection_id: ''
@@ -2322,7 +2322,7 @@ profession:
       description: На несколько секунд отключают разум противников, увеличивая свою скорость бега. Если
         они получат повреждения, то он тутже придут в себя.
       effects: []
-      icon: /icon/vam_sleep_2.jpg
+      icon: /icon/client-skills/icon.vam_sleep_2.png
       level: '2'
       name: Уязвимость разума
       selection_id: ''
@@ -2341,7 +2341,7 @@ profession:
       description: На несколько секунд отключают разум противников, увеличивая свою скорость бега. Если
         они получат повреждения, то он тутже придут в себя.
       effects: []
-      icon: /icon/vam_sleep_2.jpg
+      icon: /icon/client-skills/icon.vam_sleep_2.png
       level: '3'
       name: Уязвимость разума
       selection_id: ''
@@ -2360,7 +2360,7 @@ profession:
       description: На несколько секунд отключают разум противников, увеличивая свою скорость бега. Если
         они получат повреждения, то он тутже придут в себя.
       effects: []
-      icon: /icon/vam_sleep_2.jpg
+      icon: /icon/client-skills/icon.vam_sleep_2.png
       level: '4'
       name: Уязвимость разума
       selection_id: ''
@@ -2379,7 +2379,7 @@ profession:
       description: На несколько секунд отключают разум противников, увеличивая свою скорость бега. Если
         они получат повреждения, то он тутже придут в себя.
       effects: []
-      icon: /icon/vam_sleep_2.jpg
+      icon: /icon/client-skills/icon.vam_sleep_2.png
       level: '5'
       name: Уязвимость разума
       selection_id: ''
@@ -2398,7 +2398,7 @@ profession:
       description: На несколько секунд отключают разум противников, увеличивая свою скорость бега. Если
         они получат повреждения, то он тутже придут в себя.
       effects: []
-      icon: /icon/vam_sleep_2.jpg
+      icon: /icon/client-skills/icon.vam_sleep_2.png
       level: '6'
       name: Уязвимость разума
       selection_id: ''
@@ -2417,7 +2417,7 @@ profession:
       description: На несколько секунд отключают разум противников, увеличивая свою скорость бега. Если
         они получат повреждения, то он тутже придут в себя.
       effects: []
-      icon: /icon/vam_sleep_2.jpg
+      icon: /icon/client-skills/icon.vam_sleep_2.png
       level: '7'
       name: Уязвимость разума
       selection_id: ''
@@ -2435,7 +2435,7 @@ profession:
     - branch: base
       description: Порывом ветра выбивает оружие из рук врагов вокруг себя.
       effects: []
-      icon: /icon/skill30006.jpg
+      icon: /icon/client-skills/icon.skill30006.png
       level: '1'
       name: Порыв ветра
       selection_id: ''
@@ -2452,7 +2452,7 @@ profession:
     - branch: base
       description: Порывом ветра выбивает оружие из рук врагов вокруг себя.
       effects: []
-      icon: /icon/skill30006.jpg
+      icon: /icon/client-skills/icon.skill30006.png
       level: '2'
       name: Порыв ветра
       selection_id: ''
@@ -2469,7 +2469,7 @@ profession:
     - branch: base
       description: Порывом ветра выбивает оружие из рук врагов вокруг себя.
       effects: []
-      icon: /icon/skill30006.jpg
+      icon: /icon/client-skills/icon.skill30006.png
       level: '3'
       name: Порыв ветра
       selection_id: ''
@@ -2486,7 +2486,7 @@ profession:
     - branch: base
       description: Порывом ветра выбивает оружие из рук врагов вокруг себя.
       effects: []
-      icon: /icon/skill30006.jpg
+      icon: /icon/client-skills/icon.skill30006.png
       level: '4'
       name: Порыв ветра
       selection_id: ''
@@ -2503,7 +2503,7 @@ profession:
     - branch: base
       description: Порывом ветра выбивает оружие из рук врагов вокруг себя.
       effects: []
-      icon: /icon/skill30006.jpg
+      icon: /icon/client-skills/icon.skill30006.png
       level: '5'
       name: Порыв ветра
       selection_id: ''
@@ -2520,7 +2520,7 @@ profession:
     - branch: base
       description: Порывом ветра выбивает оружие из рук врагов вокруг себя.
       effects: []
-      icon: /icon/skill30006.jpg
+      icon: /icon/client-skills/icon.skill30006.png
       level: '6'
       name: Порыв ветра
       selection_id: ''
@@ -2537,7 +2537,7 @@ profession:
     - branch: base
       description: Порывом ветра выбивает оружие из рук врагов вокруг себя.
       effects: []
-      icon: /icon/skill30006.jpg
+      icon: /icon/client-skills/icon.skill30006.png
       level: '7'
       name: Порыв ветра
       selection_id: ''
@@ -2557,7 +2557,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака от оружия (Меч): 18%'
-      icon: /icon/skill30008.jpg
+      icon: /icon/client-skills/icon.skill30008.png
       level: '1'
       name: Клинок ветра
       selection_id: ''
@@ -2576,7 +2576,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака от оружия (Меч): 20%'
-      icon: /icon/skill30008.jpg
+      icon: /icon/client-skills/icon.skill30008.png
       level: '2'
       name: Клинок ветра
       selection_id: ''
@@ -2595,7 +2595,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака от оружия (Меч): 22%'
-      icon: /icon/skill30008.jpg
+      icon: /icon/client-skills/icon.skill30008.png
       level: '3'
       name: Клинок ветра
       selection_id: ''
@@ -2614,7 +2614,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака от оружия (Меч): 24%'
-      icon: /icon/skill30008.jpg
+      icon: /icon/client-skills/icon.skill30008.png
       level: '4'
       name: Клинок ветра
       selection_id: ''
@@ -2633,7 +2633,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака от оружия (Меч): 26%'
-      icon: /icon/skill30008.jpg
+      icon: /icon/client-skills/icon.skill30008.png
       level: '5'
       name: Клинок ветра
       selection_id: ''
@@ -2652,7 +2652,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака от оружия (Меч): 28%'
-      icon: /icon/skill30008.jpg
+      icon: /icon/client-skills/icon.skill30008.png
       level: '6'
       name: Клинок ветра
       selection_id: ''
@@ -2671,7 +2671,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака от оружия (Меч): 30%'
-      icon: /icon/skill30008.jpg
+      icon: /icon/client-skills/icon.skill30008.png
       level: '7'
       name: Клинок ветра
       selection_id: ''
@@ -2690,7 +2690,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 200'
-      icon: /icon/skill11137.jpg
+      icon: /icon/client-skills/icon.skill11137.png
       level: '1'
       name: Смерч
       selection_id: ''
@@ -2709,7 +2709,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill11137.jpg
+      icon: /icon/client-skills/icon.skill11137.png
       level: '2'
       name: Смерч
       selection_id: ''
@@ -2728,7 +2728,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 300'
-      icon: /icon/skill11137.jpg
+      icon: /icon/client-skills/icon.skill11137.png
       level: '3'
       name: Смерч
       selection_id: ''
@@ -2747,7 +2747,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 350'
-      icon: /icon/skill11137.jpg
+      icon: /icon/client-skills/icon.skill11137.png
       level: '4'
       name: Смерч
       selection_id: ''
@@ -2766,7 +2766,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 400'
-      icon: /icon/skill11137.jpg
+      icon: /icon/client-skills/icon.skill11137.png
       level: '5'
       name: Смерч
       selection_id: ''
@@ -2785,7 +2785,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 450'
-      icon: /icon/skill11137.jpg
+      icon: /icon/client-skills/icon.skill11137.png
       level: '6'
       name: Смерч
       selection_id: ''
@@ -2804,7 +2804,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 500'
-      icon: /icon/skill11137.jpg
+      icon: /icon/client-skills/icon.skill11137.png
       level: '7'
       name: Смерч
       selection_id: ''
@@ -3763,7 +3763,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -3777,7 +3777,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -3791,7 +3791,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -3805,7 +3805,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -3819,7 +3819,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -3833,7 +3833,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -3847,7 +3847,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -3861,7 +3861,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -3875,7 +3875,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -3889,7 +3889,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -3903,7 +3903,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -3917,7 +3917,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -3931,7 +3931,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -3945,7 +3945,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -3959,7 +3959,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -3973,7 +3973,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -3987,7 +3987,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4001,7 +4001,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4015,7 +4015,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4029,7 +4029,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4342,7 +4342,7 @@ profession:
         text: 'Шанс крит. атаки магии: 1ед.'
       - kind: value
         text: 'Магическая атака от оружия (Меч): 40%'
-      icon: /icon/skill30512.jpg
+      icon: /icon/client-skills/icon.skill30512.png
       level: '1'
       name: Сильф
       selection_id: ''
@@ -4376,7 +4376,7 @@ profession:
         text: 'Шанс крит. атаки магии: 2ед.'
       - kind: value
         text: 'Магическая атака от оружия (Меч): 45%'
-      icon: /icon/skill30512.jpg
+      icon: /icon/client-skills/icon.skill30512.png
       level: '2'
       name: Сильф
       selection_id: ''
@@ -4410,7 +4410,7 @@ profession:
         text: 'Шанс крит. атаки магии: 3ед.'
       - kind: value
         text: 'Магическая атака от оружия (Меч): 50%'
-      icon: /icon/skill30512.jpg
+      icon: /icon/client-skills/icon.skill30512.png
       level: '3'
       name: Сильф
       selection_id: ''
@@ -4444,7 +4444,7 @@ profession:
         text: 'Шанс крит. атаки магии: 4ед.'
       - kind: value
         text: 'Магическая атака от оружия (Меч): 55%'
-      icon: /icon/skill30512.jpg
+      icon: /icon/client-skills/icon.skill30512.png
       level: '4'
       name: Сильф
       selection_id: ''
@@ -4478,7 +4478,7 @@ profession:
         text: 'Шанс крит. атаки магии: 5ед.'
       - kind: value
         text: 'Магическая атака от оружия (Меч): 60%'
-      icon: /icon/skill30512.jpg
+      icon: /icon/client-skills/icon.skill30512.png
       level: '5'
       name: Сильф
       selection_id: ''
@@ -4512,7 +4512,7 @@ profession:
         text: 'Шанс крит. атаки магии: 6ед.'
       - kind: value
         text: 'Магическая атака от оружия (Меч): 65%'
-      icon: /icon/skill30512.jpg
+      icon: /icon/client-skills/icon.skill30512.png
       level: '6'
       name: Сильф
       selection_id: ''
@@ -4546,7 +4546,7 @@ profession:
         text: 'Шанс крит. атаки магии: 7ед.'
       - kind: value
         text: 'Магическая атака от оружия (Меч): 70%'
-      icon: /icon/skill30512.jpg
+      icon: /icon/client-skills/icon.skill30512.png
       level: '7'
       name: Сильф
       selection_id: ''
@@ -4559,7 +4559,7 @@ profession:
     - branch: base
       description: Ваши атаки каждые 2 секунды будут наносить цели дополнительный урон.
       effects: []
-      icon: /icon/Icon4/triple_sonic_slash.jpg
+      icon: /icon/client-skills/icon4.l2icon.triple_sonic_slash.png
       level: '1'
       name: Бора
       selection_id: ''
@@ -6292,7 +6292,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 26ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '1'
       name: Легкий шаг
       selection_id: '2.5_1'
@@ -6311,7 +6311,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 12ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '1'
       name: Легкий шаг
       selection_id: '2.5_2'
@@ -6333,7 +6333,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 12ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 18%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '1'
       name: Легкий шаг
       selection_id: '2.5_3'
@@ -6352,7 +6352,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 30ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '2'
       name: Легкий шаг
       selection_id: '2.5_1'
@@ -6371,7 +6371,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 15ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '2'
       name: Легкий шаг
       selection_id: '2.5_2'
@@ -6393,7 +6393,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 15ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 20%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '2'
       name: Легкий шаг
       selection_id: '2.5_3'
@@ -6412,7 +6412,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 34ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '3'
       name: Легкий шаг
       selection_id: '2.5_1'
@@ -6431,7 +6431,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 18ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '3'
       name: Легкий шаг
       selection_id: '2.5_2'
@@ -6453,7 +6453,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 18ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 22%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '3'
       name: Легкий шаг
       selection_id: '2.5_3'
@@ -6472,7 +6472,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 38ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '4'
       name: Легкий шаг
       selection_id: '2.5_1'
@@ -6491,7 +6491,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 21ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '4'
       name: Легкий шаг
       selection_id: '2.5_2'
@@ -6513,7 +6513,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 21ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 24%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '4'
       name: Легкий шаг
       selection_id: '2.5_3'
@@ -6532,7 +6532,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 42ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '5'
       name: Легкий шаг
       selection_id: '2.5_1'
@@ -6551,7 +6551,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 24ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '5'
       name: Легкий шаг
       selection_id: '2.5_2'
@@ -6573,7 +6573,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 24ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 26%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '5'
       name: Легкий шаг
       selection_id: '2.5_3'
@@ -6592,7 +6592,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 46ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '6'
       name: Легкий шаг
       selection_id: '2.5_1'
@@ -6611,7 +6611,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 27ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '6'
       name: Легкий шаг
       selection_id: '2.5_2'
@@ -6633,7 +6633,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 27ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 28%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '6'
       name: Легкий шаг
       selection_id: '2.5_3'
@@ -6652,7 +6652,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 50ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '7'
       name: Легкий шаг
       selection_id: '2.5_1'
@@ -6671,7 +6671,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 30ед.'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '7'
       name: Легкий шаг
       selection_id: '2.5_2'
@@ -6693,7 +6693,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 30ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 30%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '7'
       name: Легкий шаг
       selection_id: '2.5_3'
@@ -7194,7 +7194,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Сильный урон умения, максимальный уровень силы ветра равен 10.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '1'
       name: Муссон
       selection_id: '2.7_1'
@@ -7212,7 +7212,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Средний урон умения, максимальный уровень силы ветра равен 7.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '1'
       name: Муссон
       selection_id: '2.7_2'
@@ -7230,7 +7230,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Слабый урон умения, максимальный уровень силы ветра равен 4.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '1'
       name: Муссон
       selection_id: '2.7_3'
@@ -7248,7 +7248,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Сильный урон умения, максимальный уровень силы ветра равен 10.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '2'
       name: Муссон
       selection_id: '2.7_1'
@@ -7266,7 +7266,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Средний урон умения, максимальный уровень силы ветра равен 7.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '2'
       name: Муссон
       selection_id: '2.7_2'
@@ -7284,7 +7284,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Слабый урон умения, максимальный уровень силы ветра равен 4.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '2'
       name: Муссон
       selection_id: '2.7_3'
@@ -7302,7 +7302,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Сильный урон умения, максимальный уровень силы ветра равен 10.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '3'
       name: Муссон
       selection_id: '2.7_1'
@@ -7320,7 +7320,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Средний урон умения, максимальный уровень силы ветра равен 7.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '3'
       name: Муссон
       selection_id: '2.7_2'
@@ -7338,7 +7338,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Слабый урон умения, максимальный уровень силы ветра равен 4.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '3'
       name: Муссон
       selection_id: '2.7_3'
@@ -7356,7 +7356,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Сильный урон умения, максимальный уровень силы ветра равен 10.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '4'
       name: Муссон
       selection_id: '2.7_1'
@@ -7374,7 +7374,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Средний урон умения, максимальный уровень силы ветра равен 7.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '4'
       name: Муссон
       selection_id: '2.7_2'
@@ -7392,7 +7392,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Слабый урон умения, максимальный уровень силы ветра равен 4.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '4'
       name: Муссон
       selection_id: '2.7_3'
@@ -7410,7 +7410,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Сильный урон умения, максимальный уровень силы ветра равен 10.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '5'
       name: Муссон
       selection_id: '2.7_1'
@@ -7428,7 +7428,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Средний урон умения, максимальный уровень силы ветра равен 7.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '5'
       name: Муссон
       selection_id: '2.7_2'
@@ -7446,7 +7446,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Слабый урон умения, максимальный уровень силы ветра равен 4.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '5'
       name: Муссон
       selection_id: '2.7_3'
@@ -7464,7 +7464,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Сильный урон умения, максимальный уровень силы ветра равен 10.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '6'
       name: Муссон
       selection_id: '2.7_1'
@@ -7482,7 +7482,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Средний урон умения, максимальный уровень силы ветра равен 7.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '6'
       name: Муссон
       selection_id: '2.7_2'
@@ -7500,7 +7500,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Слабый урон умения, максимальный уровень силы ветра равен 4.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '6'
       name: Муссон
       selection_id: '2.7_3'
@@ -7518,7 +7518,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Сильный урон умения, максимальный уровень силы ветра равен 10.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '7'
       name: Муссон
       selection_id: '2.7_1'
@@ -7536,7 +7536,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Средний урон умения, максимальный уровень силы ветра равен 7.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '7'
       name: Муссон
       selection_id: '2.7_2'
@@ -7554,7 +7554,7 @@ profession:
         очень сильно увеличивается. Получая удары Вы будете копить силу ветра, которую Вы сможете высвободить
         накопив максимум. Слабый урон умения, максимальный уровень силы ветра равен 4.
       effects: []
-      icon: /icon/skill4281_new.jpg
+      icon: /icon/client-skills/icon.skill4281_new.png
       level: '7'
       name: Муссон
       selection_id: '2.7_3'

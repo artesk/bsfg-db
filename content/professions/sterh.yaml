@@ -2693,7 +2693,7 @@ profession:
     - branch: base
       description: Выстрел, оглушающий противника.
       effects: []
-      icon: /icon/skill0416.jpg
+      icon: /icon/client-skills/icon.skill0416.png
       level: '1'
       name: Оглушающая стрела
       selection_id: ''
@@ -2710,7 +2710,7 @@ profession:
     - branch: base
       description: Выстрел, оглушающий противника.
       effects: []
-      icon: /icon/skill0416.jpg
+      icon: /icon/client-skills/icon.skill0416.png
       level: '2'
       name: Оглушающая стрела
       selection_id: ''
@@ -2727,7 +2727,7 @@ profession:
     - branch: base
       description: Выстрел, оглушающий противника.
       effects: []
-      icon: /icon/skill0416.jpg
+      icon: /icon/client-skills/icon.skill0416.png
       level: '3'
       name: Оглушающая стрела
       selection_id: ''
@@ -2744,7 +2744,7 @@ profession:
     - branch: base
       description: Выстрел, оглушающий противника.
       effects: []
-      icon: /icon/skill0416.jpg
+      icon: /icon/client-skills/icon.skill0416.png
       level: '4'
       name: Оглушающая стрела
       selection_id: ''
@@ -2761,7 +2761,7 @@ profession:
     - branch: base
       description: Выстрел, оглушающий противника.
       effects: []
-      icon: /icon/skill0416.jpg
+      icon: /icon/client-skills/icon.skill0416.png
       level: '5'
       name: Оглушающая стрела
       selection_id: ''
@@ -2778,7 +2778,7 @@ profession:
     - branch: base
       description: Выстрел, оглушающий противника.
       effects: []
-      icon: /icon/skill0416.jpg
+      icon: /icon/client-skills/icon.skill0416.png
       level: '6'
       name: Оглушающая стрела
       selection_id: ''
@@ -2795,7 +2795,7 @@ profession:
     - branch: base
       description: Выстрел, оглушающий противника.
       effects: []
-      icon: /icon/skill0416.jpg
+      icon: /icon/client-skills/icon.skill0416.png
       level: '7'
       name: Оглушающая стрела
       selection_id: ''
@@ -2812,7 +2812,7 @@ profession:
     - branch: base
       description: В течении небольшого промежутка времени Ваши атаки будут наносить массовый урон.
       effects: []
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '1'
       name: Веер стрел
       selection_id: ''
@@ -2828,7 +2828,7 @@ profession:
     - branch: base
       description: В течении небольшого промежутка времени Ваши атаки будут наносить массовый урон.
       effects: []
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '2'
       name: Веер стрел
       selection_id: ''
@@ -2844,7 +2844,7 @@ profession:
     - branch: base
       description: В течении небольшого промежутка времени Ваши атаки будут наносить массовый урон.
       effects: []
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '3'
       name: Веер стрел
       selection_id: ''
@@ -2860,7 +2860,7 @@ profession:
     - branch: base
       description: В течении небольшого промежутка времени Ваши атаки будут наносить массовый урон.
       effects: []
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '4'
       name: Веер стрел
       selection_id: ''
@@ -2876,7 +2876,7 @@ profession:
     - branch: base
       description: В течении небольшого промежутка времени Ваши атаки будут наносить массовый урон.
       effects: []
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '5'
       name: Веер стрел
       selection_id: ''
@@ -2892,7 +2892,7 @@ profession:
     - branch: base
       description: В течении небольшого промежутка времени Ваши атаки будут наносить массовый урон.
       effects: []
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '6'
       name: Веер стрел
       selection_id: ''
@@ -2908,7 +2908,7 @@ profession:
     - branch: base
       description: В течении небольшого промежутка времени Ваши атаки будут наносить массовый урон.
       effects: []
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '7'
       name: Веер стрел
       selection_id: ''
@@ -2938,7 +2938,7 @@ profession:
         text: 'Физическая защита (Любая броня): 9%'
       - kind: value
         text: 'Дальность атаки (Арбалет): 40'
-      icon: /icon/skill4271.jpg
+      icon: /icon/client-skills/icon.skill4271.png
       level: '1'
       name: Парализующий наконечник
       selection_id: ''
@@ -2964,7 +2964,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Дальность атаки (Арбалет): 50'
-      icon: /icon/skill4271.jpg
+      icon: /icon/client-skills/icon.skill4271.png
       level: '2'
       name: Парализующий наконечник
       selection_id: ''
@@ -2990,7 +2990,7 @@ profession:
         text: 'Физическая защита (Любая броня): 11%'
       - kind: value
         text: 'Дальность атаки (Арбалет): 60'
-      icon: /icon/skill4271.jpg
+      icon: /icon/client-skills/icon.skill4271.png
       level: '3'
       name: Парализующий наконечник
       selection_id: ''
@@ -3016,7 +3016,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Дальность атаки (Арбалет): 70'
-      icon: /icon/skill4271.jpg
+      icon: /icon/client-skills/icon.skill4271.png
       level: '4'
       name: Парализующий наконечник
       selection_id: ''
@@ -3042,7 +3042,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Дальность атаки (Арбалет): 80'
-      icon: /icon/skill4271.jpg
+      icon: /icon/client-skills/icon.skill4271.png
       level: '5'
       name: Парализующий наконечник
       selection_id: ''
@@ -3068,7 +3068,7 @@ profession:
         text: 'Физическая защита (Любая броня): 14%'
       - kind: value
         text: 'Дальность атаки (Арбалет): 90'
-      icon: /icon/skill4271.jpg
+      icon: /icon/client-skills/icon.skill4271.png
       level: '6'
       name: Парализующий наконечник
       selection_id: ''
@@ -3094,7 +3094,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Дальность атаки (Арбалет): 100'
-      icon: /icon/skill4271.jpg
+      icon: /icon/client-skills/icon.skill4271.png
       level: '7'
       name: Парализующий наконечник
       selection_id: ''
@@ -3879,7 +3879,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '1'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3893,7 +3893,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '2'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3907,7 +3907,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '3'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3921,7 +3921,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '4'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3935,7 +3935,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '5'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3949,7 +3949,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '6'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3963,7 +3963,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '7'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3977,7 +3977,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '8'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3991,7 +3991,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '9'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4005,7 +4005,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '10'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4019,7 +4019,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '11'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4033,7 +4033,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '12'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4047,7 +4047,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '13'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4061,7 +4061,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '14'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4075,7 +4075,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '15'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4089,7 +4089,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '16'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4103,7 +4103,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '17'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4117,7 +4117,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '18'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4131,7 +4131,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '19'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4145,7 +4145,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '20'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4545,7 +4545,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. урона с оружием (Арбалет): 10%'
-      icon: /icon/Icon4/s_archer_spinning_piercing.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_archer_spinning_piercing.png
       level: '1'
       name: Боевая подготовка
       selection_id: ''
@@ -4566,7 +4566,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '1'
       name: Самозарядный арбалет
       selection_id: '2.1_0'
@@ -4588,7 +4588,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '1'
       name: Самозарядный арбалет
       selection_id: '2.1_1'
@@ -4610,7 +4610,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '1'
       name: Самозарядный арбалет
       selection_id: '2.1_2'
@@ -4632,7 +4632,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '2'
       name: Самозарядный арбалет
       selection_id: '2.1_3'
@@ -4654,7 +4654,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '2'
       name: Самозарядный арбалет
       selection_id: '2.1_4'
@@ -4676,7 +4676,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '2'
       name: Самозарядный арбалет
       selection_id: '2.1_5'
@@ -4698,7 +4698,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '3'
       name: Самозарядный арбалет
       selection_id: '2.1_1'
@@ -4720,7 +4720,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '3'
       name: Самозарядный арбалет
       selection_id: '2.1_2'
@@ -4742,7 +4742,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '3'
       name: Самозарядный арбалет
       selection_id: '2.1_3'
@@ -4764,7 +4764,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '4'
       name: Самозарядный арбалет
       selection_id: '2.1_1'
@@ -4786,7 +4786,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '4'
       name: Самозарядный арбалет
       selection_id: '2.1_2'
@@ -4808,7 +4808,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '4'
       name: Самозарядный арбалет
       selection_id: '2.1_3'
@@ -4830,7 +4830,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '5'
       name: Самозарядный арбалет
       selection_id: '2.1_1'
@@ -4852,7 +4852,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '5'
       name: Самозарядный арбалет
       selection_id: '2.1_2'
@@ -4874,7 +4874,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '5'
       name: Самозарядный арбалет
       selection_id: '2.1_3'
@@ -4896,7 +4896,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '6'
       name: Самозарядный арбалет
       selection_id: '2.1_1'
@@ -4918,7 +4918,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '6'
       name: Самозарядный арбалет
       selection_id: '2.1_2'
@@ -4940,7 +4940,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '6'
       name: Самозарядный арбалет
       selection_id: '2.1_3'
@@ -4962,7 +4962,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '7'
       name: Самозарядный арбалет
       selection_id: '2.1_1'
@@ -4984,7 +4984,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '7'
       name: Самозарядный арбалет
       selection_id: '2.1_2'
@@ -5006,7 +5006,7 @@ profession:
         text: 'Скорость атаки выше предела: 100'
       - kind: value
         text: 'Задержка между выстрелами (Легкая броня): -40%'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '7'
       name: Самозарядный арбалет
       selection_id: '2.1_3'
@@ -7066,7 +7066,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 50% на следующие 2 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '1'
       name: Гнев стерха
       selection_id: '2.7_1'
@@ -7081,7 +7081,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 25% на следующие 4 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '1'
       name: Гнев стерха
       selection_id: '2.7_2'
@@ -7096,7 +7096,7 @@ profession:
     - branch: three
       description: Увеличивает физическую атаку на 10% на следующие 6 ударов по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '1'
       name: Гнев стерха
       selection_id: '2.7_3'
@@ -7111,7 +7111,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 50% на следующие 2 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '2'
       name: Гнев стерха
       selection_id: '2.7_1'
@@ -7126,7 +7126,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 25% на следующие 4 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '2'
       name: Гнев стерха
       selection_id: '2.7_2'
@@ -7141,7 +7141,7 @@ profession:
     - branch: three
       description: Увеличивает физическую атаку на 10% на следующие 6 ударов по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '2'
       name: Гнев стерха
       selection_id: '2.7_3'
@@ -7156,7 +7156,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 50% на следующие 2 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '3'
       name: Гнев стерха
       selection_id: '2.7_1'
@@ -7171,7 +7171,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 25% на следующие 4 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '3'
       name: Гнев стерха
       selection_id: '2.7_2'
@@ -7186,7 +7186,7 @@ profession:
     - branch: three
       description: Увеличивает физическую атаку на 10% на следующие 6 ударов по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '3'
       name: Гнев стерха
       selection_id: '2.7_3'
@@ -7201,7 +7201,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 50% на следующие 2 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '4'
       name: Гнев стерха
       selection_id: '2.7_1'
@@ -7216,7 +7216,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 25% на следующие 4 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '4'
       name: Гнев стерха
       selection_id: '2.7_2'
@@ -7231,7 +7231,7 @@ profession:
     - branch: three
       description: Увеличивает физическую атаку на 10% на следующие 6 ударов по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '4'
       name: Гнев стерха
       selection_id: '2.7_3'
@@ -7246,7 +7246,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 50% на следующие 2 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '5'
       name: Гнев стерха
       selection_id: '2.7_1'
@@ -7261,7 +7261,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 25% на следующие 4 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '5'
       name: Гнев стерха
       selection_id: '2.7_2'
@@ -7276,7 +7276,7 @@ profession:
     - branch: three
       description: Увеличивает физическую атаку на 10% на следующие 6 ударов по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '5'
       name: Гнев стерха
       selection_id: '2.7_3'
@@ -7291,7 +7291,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 50% на следующие 2 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '6'
       name: Гнев стерха
       selection_id: '2.7_1'
@@ -7306,7 +7306,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 25% на следующие 4 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '6'
       name: Гнев стерха
       selection_id: '2.7_2'
@@ -7321,7 +7321,7 @@ profession:
     - branch: three
       description: Увеличивает физическую атаку на 10% на следующие 6 ударов по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '6'
       name: Гнев стерха
       selection_id: '2.7_3'
@@ -7336,7 +7336,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 50% на следующие 2 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '7'
       name: Гнев стерха
       selection_id: '2.7_1'
@@ -7351,7 +7351,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 25% на следующие 4 удара по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '7'
       name: Гнев стерха
       selection_id: '2.7_2'
@@ -7366,7 +7366,7 @@ profession:
     - branch: three
       description: Увеличивает физическую атаку на 10% на следующие 6 ударов по противнику.
       effects: []
-      icon: /icon/skill0487.jpg
+      icon: /icon/client-skills/icon.skill0487.png
       level: '7'
       name: Гнев стерха
       selection_id: '2.7_3'

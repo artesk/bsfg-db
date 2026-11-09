@@ -4017,7 +4017,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/icon267.jpg
+      icon: /icon/client-skills/bsfg.icon267.png
       level: '1'
       name: Вызов врат
       selection_id: ''
@@ -4030,7 +4030,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/icon267.jpg
+      icon: /icon/client-skills/bsfg.icon267.png
       level: '2'
       name: Вызов врат
       selection_id: ''
@@ -4044,7 +4044,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/icon267.jpg
+      icon: /icon/client-skills/bsfg.icon267.png
       level: '3'
       name: Вызов врат
       selection_id: ''
@@ -4058,7 +4058,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/icon267.jpg
+      icon: /icon/client-skills/bsfg.icon267.png
       level: '4'
       name: Вызов врат
       selection_id: ''
@@ -4072,7 +4072,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/icon267.jpg
+      icon: /icon/client-skills/bsfg.icon267.png
       level: '5'
       name: Вызов врат
       selection_id: ''
@@ -4086,7 +4086,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/icon267.jpg
+      icon: /icon/client-skills/bsfg.icon267.png
       level: '6'
       name: Вызов врат
       selection_id: ''
@@ -4100,7 +4100,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/icon267.jpg
+      icon: /icon/client-skills/bsfg.icon267.png
       level: '7'
       name: Вызов врат
       selection_id: ''
@@ -4126,7 +4126,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '1'
       name: Боевая стойка
       selection_id: ''
@@ -4154,7 +4154,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '2'
       name: Боевая стойка
       selection_id: ''
@@ -4182,7 +4182,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '3'
       name: Боевая стойка
       selection_id: ''
@@ -4210,7 +4210,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '4'
       name: Боевая стойка
       selection_id: ''
@@ -4238,7 +4238,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '5'
       name: Боевая стойка
       selection_id: ''
@@ -4266,7 +4266,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '6'
       name: Боевая стойка
       selection_id: ''
@@ -4294,7 +4294,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '7'
       name: Боевая стойка
       selection_id: ''
@@ -4317,7 +4317,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '1'
       name: Стойка поддержки
       selection_id: ''
@@ -4341,7 +4341,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '2'
       name: Стойка поддержки
       selection_id: ''
@@ -4365,7 +4365,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '3'
       name: Стойка поддержки
       selection_id: ''
@@ -4389,7 +4389,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '4'
       name: Стойка поддержки
       selection_id: ''
@@ -4413,7 +4413,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '5'
       name: Стойка поддержки
       selection_id: ''
@@ -4437,7 +4437,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '6'
       name: Стойка поддержки
       selection_id: ''
@@ -4461,7 +4461,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '7'
       name: Стойка поддержки
       selection_id: ''
@@ -4571,7 +4571,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '1'
       name: Туман уклонения
       selection_id: ''
@@ -4590,7 +4590,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '2'
       name: Туман уклонения
       selection_id: ''
@@ -4609,7 +4609,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '3'
       name: Туман уклонения
       selection_id: ''
@@ -4628,7 +4628,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '4'
       name: Туман уклонения
       selection_id: ''
@@ -4647,7 +4647,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '5'
       name: Туман уклонения
       selection_id: ''
@@ -4666,7 +4666,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '6'
       name: Туман уклонения
       selection_id: ''
@@ -4685,7 +4685,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '7'
       name: Туман уклонения
       selection_id: ''
@@ -5447,7 +5447,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '1'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5465,7 +5465,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '2'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5483,7 +5483,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '3'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5501,7 +5501,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '4'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5519,7 +5519,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '5'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5537,7 +5537,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '6'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5555,7 +5555,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '7'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5573,7 +5573,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '8'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5591,7 +5591,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '9'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5609,7 +5609,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '10'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5627,7 +5627,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '11'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5645,7 +5645,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '12'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5663,7 +5663,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '13'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5681,7 +5681,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '14'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5699,7 +5699,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '15'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5717,7 +5717,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '16'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5735,7 +5735,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '17'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5753,7 +5753,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '18'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5771,7 +5771,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '19'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5789,7 +5789,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '20'
       name: Доблесть Менталистов
       selection_id: ''
@@ -6211,7 +6211,7 @@ profession:
         text: 'Эффект лечения: -50%'
       - kind: value
         text: 'Эффективность восстановления боевого духа: -50%'
-      icon: /icon/Icon4/s_walkout.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_walkout.png
       level: '1'
       name: Черная метка
       selection_id: ''
@@ -6229,7 +6229,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости враги вокруг будут сбиты с ног и отброшены.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '1'
       name: Метка стазиса
       selection_id: ''
@@ -6239,7 +6239,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости враги вокруг будут сбиты с ног и отброшены.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '2'
       name: Метка стазиса
       selection_id: ''
@@ -6249,7 +6249,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости враги вокруг будут сбиты с ног и отброшены.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '3'
       name: Метка стазиса
       selection_id: ''
@@ -6259,7 +6259,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости враги вокруг будут сбиты с ног и отброшены.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '4'
       name: Метка стазиса
       selection_id: ''
@@ -6269,7 +6269,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости враги вокруг будут сбиты с ног и отброшены.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '5'
       name: Метка стазиса
       selection_id: ''
@@ -6279,7 +6279,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости враги вокруг будут сбиты с ног и отброшены.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '6'
       name: Метка стазиса
       selection_id: ''
@@ -6289,7 +6289,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости враги вокруг будут сбиты с ног и отброшены.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '7'
       name: Метка стазиса
       selection_id: ''

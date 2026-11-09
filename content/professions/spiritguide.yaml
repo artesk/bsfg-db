@@ -2639,7 +2639,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 12ед.'
       - kind: value
         text: 'Невидимость: 5 сек.'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '1'
       name: Дух ветра
       selection_id: ''
@@ -2663,7 +2663,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 15ед.'
       - kind: value
         text: 'Невидимость: 5 сек.'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '2'
       name: Дух ветра
       selection_id: ''
@@ -2687,7 +2687,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 18ед.'
       - kind: value
         text: 'Невидимость: 5 сек.'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '3'
       name: Дух ветра
       selection_id: ''
@@ -2711,7 +2711,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 21ед.'
       - kind: value
         text: 'Невидимость: 5 сек.'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '4'
       name: Дух ветра
       selection_id: ''
@@ -2735,7 +2735,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 24ед.'
       - kind: value
         text: 'Невидимость: 5 сек.'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '5'
       name: Дух ветра
       selection_id: ''
@@ -2759,7 +2759,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 27ед.'
       - kind: value
         text: 'Невидимость: 5 сек.'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '6'
       name: Дух ветра
       selection_id: ''
@@ -2783,7 +2783,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 30ед.'
       - kind: value
         text: 'Невидимость: 5 сек.'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '7'
       name: Дух ветра
       selection_id: ''
@@ -2936,7 +2936,7 @@ profession:
         text: 'Эффект от умения *Проводник духов*:'
       - kind: value
         text: 'Оглушение врагов вокруг цели: 3 сек.'
-      icon: /icon/skill11266.jpg
+      icon: /icon/client-skills/icon.skill11266.png
       level: '1'
       name: Дух земли
       selection_id: ''
@@ -2957,7 +2957,7 @@ profession:
         text: 'Эффект от умения *Проводник духов*:'
       - kind: value
         text: 'Оглушение врагов вокруг цели: 3 сек.'
-      icon: /icon/skill11266.jpg
+      icon: /icon/client-skills/icon.skill11266.png
       level: '2'
       name: Дух земли
       selection_id: ''
@@ -2978,7 +2978,7 @@ profession:
         text: 'Эффект от умения *Проводник духов*:'
       - kind: value
         text: 'Оглушение врагов вокруг цели: 3 сек.'
-      icon: /icon/skill11266.jpg
+      icon: /icon/client-skills/icon.skill11266.png
       level: '3'
       name: Дух земли
       selection_id: ''
@@ -2999,7 +2999,7 @@ profession:
         text: 'Эффект от умения *Проводник духов*:'
       - kind: value
         text: 'Оглушение врагов вокруг цели: 3 сек.'
-      icon: /icon/skill11266.jpg
+      icon: /icon/client-skills/icon.skill11266.png
       level: '4'
       name: Дух земли
       selection_id: ''
@@ -3020,7 +3020,7 @@ profession:
         text: 'Эффект от умения *Проводник духов*:'
       - kind: value
         text: 'Оглушение врагов вокруг цели: 3 сек.'
-      icon: /icon/skill11266.jpg
+      icon: /icon/client-skills/icon.skill11266.png
       level: '5'
       name: Дух земли
       selection_id: ''
@@ -3041,7 +3041,7 @@ profession:
         text: 'Эффект от умения *Проводник духов*:'
       - kind: value
         text: 'Оглушение врагов вокруг цели: 3 сек.'
-      icon: /icon/skill11266.jpg
+      icon: /icon/client-skills/icon.skill11266.png
       level: '6'
       name: Дух земли
       selection_id: ''
@@ -3062,7 +3062,7 @@ profession:
         text: 'Эффект от умения *Проводник духов*:'
       - kind: value
         text: 'Оглушение врагов вокруг цели: 3 сек.'
-      icon: /icon/skill11266.jpg
+      icon: /icon/client-skills/icon.skill11266.png
       level: '7'
       name: Дух земли
       selection_id: ''
@@ -3763,7 +3763,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -3777,7 +3777,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -3791,7 +3791,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -3805,7 +3805,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -3819,7 +3819,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -3833,7 +3833,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -3847,7 +3847,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -3861,7 +3861,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -3875,7 +3875,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -3889,7 +3889,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -3903,7 +3903,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -3917,7 +3917,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -3931,7 +3931,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -3945,7 +3945,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -3959,7 +3959,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -3973,7 +3973,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -3987,7 +3987,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4001,7 +4001,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4015,7 +4015,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4029,7 +4029,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4492,7 +4492,7 @@ profession:
         на 100. Вода: увеличивает восстановление жизненных сил и боевого духа по 2000. Земля: увеличивает
         защиту на 20%.'
       effects: []
-      icon: /icon/Icon4/s_blood_dance.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_blood_dance.png
       level: '1'
       name: Король духов
       selection_id: ''
@@ -6061,7 +6061,7 @@ profession:
         text: 'После трех применений:'
       - kind: value
         text: 'Время до повторного использования: 60 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '1'
       name: Духовная энергия
       selection_id: '2.4_1'
@@ -6084,7 +6084,7 @@ profession:
         text: 'После двух применений:'
       - kind: value
         text: 'Время до повторного использования: 40 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '1'
       name: Духовная энергия
       selection_id: '2.4_2'
@@ -6102,7 +6102,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 400'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '1'
       name: Духовная энергия
       selection_id: '2.4_3'
@@ -6126,7 +6126,7 @@ profession:
         text: 'После трех применений:'
       - kind: value
         text: 'Время до повторного использования: 60 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '2'
       name: Духовная энергия
       selection_id: '2.4_1'
@@ -6149,7 +6149,7 @@ profession:
         text: 'После двух применений:'
       - kind: value
         text: 'Время до повторного использования: 40 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '2'
       name: Духовная энергия
       selection_id: '2.4_2'
@@ -6167,7 +6167,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 500'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '2'
       name: Духовная энергия
       selection_id: '2.4_3'
@@ -6191,7 +6191,7 @@ profession:
         text: 'После трех применений:'
       - kind: value
         text: 'Время до повторного использования: 60 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '3'
       name: Духовная энергия
       selection_id: '2.4_1'
@@ -6214,7 +6214,7 @@ profession:
         text: 'После двух применений:'
       - kind: value
         text: 'Время до повторного использования: 40 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '3'
       name: Духовная энергия
       selection_id: '2.4_2'
@@ -6232,7 +6232,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 600'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '3'
       name: Духовная энергия
       selection_id: '2.4_3'
@@ -6256,7 +6256,7 @@ profession:
         text: 'После трех применений:'
       - kind: value
         text: 'Время до повторного использования: 60 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '4'
       name: Духовная энергия
       selection_id: '2.4_1'
@@ -6279,7 +6279,7 @@ profession:
         text: 'После двух применений:'
       - kind: value
         text: 'Время до повторного использования: 40 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '4'
       name: Духовная энергия
       selection_id: '2.4_2'
@@ -6297,7 +6297,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 700'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '4'
       name: Духовная энергия
       selection_id: '2.4_3'
@@ -6321,7 +6321,7 @@ profession:
         text: 'После трех применений:'
       - kind: value
         text: 'Время до повторного использования: 60 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '5'
       name: Духовная энергия
       selection_id: '2.4_1'
@@ -6344,7 +6344,7 @@ profession:
         text: 'После двух применений:'
       - kind: value
         text: 'Время до повторного использования: 40 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '5'
       name: Духовная энергия
       selection_id: '2.4_2'
@@ -6362,7 +6362,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 800'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '5'
       name: Духовная энергия
       selection_id: '2.4_3'
@@ -6386,7 +6386,7 @@ profession:
         text: 'После трех применений:'
       - kind: value
         text: 'Время до повторного использования: 60 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '6'
       name: Духовная энергия
       selection_id: '2.4_1'
@@ -6409,7 +6409,7 @@ profession:
         text: 'После двух применений:'
       - kind: value
         text: 'Время до повторного использования: 40 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '6'
       name: Духовная энергия
       selection_id: '2.4_2'
@@ -6427,7 +6427,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 900'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '6'
       name: Духовная энергия
       selection_id: '2.4_3'
@@ -6451,7 +6451,7 @@ profession:
         text: 'После трех применений:'
       - kind: value
         text: 'Время до повторного использования: 60 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '7'
       name: Духовная энергия
       selection_id: '2.4_1'
@@ -6474,7 +6474,7 @@ profession:
         text: 'После двух применений:'
       - kind: value
         text: 'Время до повторного использования: 40 сек.'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '7'
       name: Духовная энергия
       selection_id: '2.4_2'
@@ -6492,7 +6492,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила магического умения: 1000'
-      icon: /icon/skill10030.jpg
+      icon: /icon/client-skills/icon.skill10030.png
       level: '7'
       name: Духовная энергия
       selection_id: '2.4_3'
@@ -6514,7 +6514,7 @@ profession:
         text: 'Физическая защита (Любая броня): 4%'
       - kind: value
         text: 'Магическая защита (Любая броня): 7%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '1'
       name: Шаманизм
       selection_id: '2.5_1'
@@ -6533,7 +6533,7 @@ profession:
         text: 'Физическая защита (Любая броня): 4%'
       - kind: value
         text: 'Магическая защита (Любая броня): 7%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '1'
       name: Шаманизм
       selection_id: '2.5_2'
@@ -6553,7 +6553,7 @@ profession:
         text: 'Физическая защита (Любая броня): 4%'
       - kind: value
         text: 'Магическая защита (Любая броня): 7%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '1'
       name: Шаманизм
       selection_id: '2.5_3'
@@ -6573,7 +6573,7 @@ profession:
         text: 'Физическая защита (Любая броня): 5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '2'
       name: Шаманизм
       selection_id: '2.5_1'
@@ -6592,7 +6592,7 @@ profession:
         text: 'Физическая защита (Любая броня): 5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '2'
       name: Шаманизм
       selection_id: '2.5_2'
@@ -6612,7 +6612,7 @@ profession:
         text: 'Физическая защита (Любая броня): 5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '2'
       name: Шаманизм
       selection_id: '2.5_3'
@@ -6632,7 +6632,7 @@ profession:
         text: 'Физическая защита (Любая броня): 6%'
       - kind: value
         text: 'Магическая защита (Любая броня): 13%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '3'
       name: Шаманизм
       selection_id: '2.5_1'
@@ -6651,7 +6651,7 @@ profession:
         text: 'Физическая защита (Любая броня): 6%'
       - kind: value
         text: 'Магическая защита (Любая броня): 13%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '3'
       name: Шаманизм
       selection_id: '2.5_2'
@@ -6671,7 +6671,7 @@ profession:
         text: 'Физическая защита (Любая броня): 6%'
       - kind: value
         text: 'Магическая защита (Любая броня): 13%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '3'
       name: Шаманизм
       selection_id: '2.5_3'
@@ -6691,7 +6691,7 @@ profession:
         text: 'Физическая защита (Любая броня): 7%'
       - kind: value
         text: 'Магическая защита (Любая броня): 16%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '4'
       name: Шаманизм
       selection_id: '2.5_1'
@@ -6710,7 +6710,7 @@ profession:
         text: 'Физическая защита (Любая броня): 7%'
       - kind: value
         text: 'Магическая защита (Любая броня): 16%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '4'
       name: Шаманизм
       selection_id: '2.5_2'
@@ -6730,7 +6730,7 @@ profession:
         text: 'Физическая защита (Любая броня): 7%'
       - kind: value
         text: 'Магическая защита (Любая броня): 16%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '4'
       name: Шаманизм
       selection_id: '2.5_3'
@@ -6750,7 +6750,7 @@ profession:
         text: 'Физическая защита (Любая броня): 8%'
       - kind: value
         text: 'Магическая защита (Любая броня): 19%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '5'
       name: Шаманизм
       selection_id: '2.5_1'
@@ -6769,7 +6769,7 @@ profession:
         text: 'Физическая защита (Любая броня): 8%'
       - kind: value
         text: 'Магическая защита (Любая броня): 19%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '5'
       name: Шаманизм
       selection_id: '2.5_2'
@@ -6789,7 +6789,7 @@ profession:
         text: 'Физическая защита (Любая броня): 8%'
       - kind: value
         text: 'Магическая защита (Любая броня): 19%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '5'
       name: Шаманизм
       selection_id: '2.5_3'
@@ -6809,7 +6809,7 @@ profession:
         text: 'Физическая защита (Любая броня): 9%'
       - kind: value
         text: 'Магическая защита (Любая броня): 22%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '6'
       name: Шаманизм
       selection_id: '2.5_1'
@@ -6828,7 +6828,7 @@ profession:
         text: 'Физическая защита (Любая броня): 9%'
       - kind: value
         text: 'Магическая защита (Любая броня): 22%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '6'
       name: Шаманизм
       selection_id: '2.5_2'
@@ -6848,7 +6848,7 @@ profession:
         text: 'Физическая защита (Любая броня): 9%'
       - kind: value
         text: 'Магическая защита (Любая броня): 22%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '6'
       name: Шаманизм
       selection_id: '2.5_3'
@@ -6868,7 +6868,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 25%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '7'
       name: Шаманизм
       selection_id: '2.5_1'
@@ -6887,7 +6887,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 25%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '7'
       name: Шаманизм
       selection_id: '2.5_2'
@@ -6907,7 +6907,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 25%'
-      icon: /icon/skill30523.jpg
+      icon: /icon/client-skills/icon.skill30523.png
       level: '7'
       name: Шаманизм
       selection_id: '2.5_3'
@@ -6924,7 +6924,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 13%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '1'
       name: Владение посохом
       selection_id: '2.6_1'
@@ -6939,7 +6939,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. атаки магии: 8%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '1'
       name: Владение посохом
       selection_id: '2.6_2'
@@ -6954,7 +6954,7 @@ profession:
       effects:
       - kind: value
         text: 'Шанс крит. атаки магии: 3ед.'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '1'
       name: Владение посохом
       selection_id: '2.6_3'
@@ -6968,7 +6968,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 15%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '2'
       name: Владение посохом
       selection_id: '2.6_1'
@@ -6983,7 +6983,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. атаки магии: 10%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '2'
       name: Владение посохом
       selection_id: '2.6_2'
@@ -6998,7 +6998,7 @@ profession:
       effects:
       - kind: value
         text: 'Шанс крит. атаки магии: 5ед.'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '2'
       name: Владение посохом
       selection_id: '2.6_3'
@@ -7012,7 +7012,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 17%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '3'
       name: Владение посохом
       selection_id: '2.6_1'
@@ -7027,7 +7027,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. атаки магии: 12%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '3'
       name: Владение посохом
       selection_id: '2.6_2'
@@ -7042,7 +7042,7 @@ profession:
       effects:
       - kind: value
         text: 'Шанс крит. атаки магии: 7ед.'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '3'
       name: Владение посохом
       selection_id: '2.6_3'
@@ -7056,7 +7056,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 19%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '4'
       name: Владение посохом
       selection_id: '2.6_1'
@@ -7071,7 +7071,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. атаки магии: 14%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '4'
       name: Владение посохом
       selection_id: '2.6_2'
@@ -7086,7 +7086,7 @@ profession:
       effects:
       - kind: value
         text: 'Шанс крит. атаки магии: 9ед.'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '4'
       name: Владение посохом
       selection_id: '2.6_3'
@@ -7100,7 +7100,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 21%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '5'
       name: Владение посохом
       selection_id: '2.6_1'
@@ -7115,7 +7115,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. атаки магии: 16%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '5'
       name: Владение посохом
       selection_id: '2.6_2'
@@ -7130,7 +7130,7 @@ profession:
       effects:
       - kind: value
         text: 'Шанс крит. атаки магии: 11ед.'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '5'
       name: Владение посохом
       selection_id: '2.6_3'
@@ -7144,7 +7144,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 23%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '6'
       name: Владение посохом
       selection_id: '2.6_1'
@@ -7159,7 +7159,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. атаки магии: 18%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '6'
       name: Владение посохом
       selection_id: '2.6_2'
@@ -7174,7 +7174,7 @@ profession:
       effects:
       - kind: value
         text: 'Шанс крит. атаки магии: 13ед.'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '6'
       name: Владение посохом
       selection_id: '2.6_3'
@@ -7188,7 +7188,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 25%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '7'
       name: Владение посохом
       selection_id: '2.6_1'
@@ -7203,7 +7203,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. атаки магии: 20%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '7'
       name: Владение посохом
       selection_id: '2.6_2'
@@ -7218,7 +7218,7 @@ profession:
       effects:
       - kind: value
         text: 'Шанс крит. атаки магии: 15ед.'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '7'
       name: Владение посохом
       selection_id: '2.6_3'

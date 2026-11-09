@@ -598,7 +598,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 11'
-      icon: /icon/skill1475.jpg
+      icon: /icon/client-skills/icon.skill1475.png
       level: '1'
       name: Ритуал жизненной силы
       selection_id: ''
@@ -618,7 +618,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 14'
-      icon: /icon/skill1475.jpg
+      icon: /icon/client-skills/icon.skill1475.png
       level: '2'
       name: Ритуал жизненной силы
       selection_id: ''
@@ -638,7 +638,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 18'
-      icon: /icon/skill1475.jpg
+      icon: /icon/client-skills/icon.skill1475.png
       level: '3'
       name: Ритуал жизненной силы
       selection_id: ''
@@ -658,7 +658,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 21'
-      icon: /icon/skill1475.jpg
+      icon: /icon/client-skills/icon.skill1475.png
       level: '4'
       name: Ритуал жизненной силы
       selection_id: ''
@@ -678,7 +678,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 24'
-      icon: /icon/skill1475.jpg
+      icon: /icon/client-skills/icon.skill1475.png
       level: '5'
       name: Ритуал жизненной силы
       selection_id: ''
@@ -698,7 +698,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 29'
-      icon: /icon/skill1475.jpg
+      icon: /icon/client-skills/icon.skill1475.png
       level: '6'
       name: Ритуал жизненной силы
       selection_id: ''
@@ -718,7 +718,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 32'
-      icon: /icon/skill1475.jpg
+      icon: /icon/client-skills/icon.skill1475.png
       level: '7'
       name: Ритуал жизненной силы
       selection_id: ''
@@ -739,7 +739,7 @@ profession:
         text: 'На врагов вокруг:'
       - kind: value
         text: 'Обездвиживание: 3 сек.'
-      icon: /icon/skill0035.jpg
+      icon: /icon/client-skills/icon.skill0035.png
       level: '1'
       name: Ритуал демонических оков
       selection_id: ''
@@ -761,7 +761,7 @@ profession:
         text: 'На врагов вокруг:'
       - kind: value
         text: 'Обездвиживание: 3 сек.'
-      icon: /icon/skill0035.jpg
+      icon: /icon/client-skills/icon.skill0035.png
       level: '2'
       name: Ритуал демонических оков
       selection_id: ''
@@ -783,7 +783,7 @@ profession:
         text: 'На врагов вокруг:'
       - kind: value
         text: 'Обездвиживание: 3 сек.'
-      icon: /icon/skill0035.jpg
+      icon: /icon/client-skills/icon.skill0035.png
       level: '3'
       name: Ритуал демонических оков
       selection_id: ''
@@ -805,7 +805,7 @@ profession:
         text: 'На врагов вокруг:'
       - kind: value
         text: 'Обездвиживание: 3 сек.'
-      icon: /icon/skill0035.jpg
+      icon: /icon/client-skills/icon.skill0035.png
       level: '4'
       name: Ритуал демонических оков
       selection_id: ''
@@ -827,7 +827,7 @@ profession:
         text: 'На врагов вокруг:'
       - kind: value
         text: 'Обездвиживание: 3 сек.'
-      icon: /icon/skill0035.jpg
+      icon: /icon/client-skills/icon.skill0035.png
       level: '5'
       name: Ритуал демонических оков
       selection_id: ''
@@ -849,7 +849,7 @@ profession:
         text: 'На врагов вокруг:'
       - kind: value
         text: 'Обездвиживание: 3 сек.'
-      icon: /icon/skill0035.jpg
+      icon: /icon/client-skills/icon.skill0035.png
       level: '6'
       name: Ритуал демонических оков
       selection_id: ''
@@ -871,7 +871,7 @@ profession:
         text: 'На врагов вокруг:'
       - kind: value
         text: 'Обездвиживание: 3 сек.'
-      icon: /icon/skill0035.jpg
+      icon: /icon/client-skills/icon.skill0035.png
       level: '7'
       name: Ритуал демонических оков
       selection_id: ''
@@ -2933,7 +2933,7 @@ profession:
         text: 'Магическая атака (Роба): 4%'
       - kind: value
         text: 'Сила крит. атаки магии: 2%'
-      icon: /icon/skill0787.jpg
+      icon: /icon/client-skills/icon.skill0787.png
       level: '1'
       name: Темный лекарь
       selection_id: ''
@@ -2959,7 +2959,7 @@ profession:
         text: 'Магическая атака (Роба): 5%'
       - kind: value
         text: 'Сила крит. атаки магии: 2.5%'
-      icon: /icon/skill0787.jpg
+      icon: /icon/client-skills/icon.skill0787.png
       level: '2'
       name: Темный лекарь
       selection_id: ''
@@ -2985,7 +2985,7 @@ profession:
         text: 'Магическая атака (Роба): 6%'
       - kind: value
         text: 'Сила крит. атаки магии: 3%'
-      icon: /icon/skill0787.jpg
+      icon: /icon/client-skills/icon.skill0787.png
       level: '3'
       name: Темный лекарь
       selection_id: ''
@@ -3011,7 +3011,7 @@ profession:
         text: 'Магическая атака (Роба): 7%'
       - kind: value
         text: 'Сила крит. атаки магии: 3.5%'
-      icon: /icon/skill0787.jpg
+      icon: /icon/client-skills/icon.skill0787.png
       level: '4'
       name: Темный лекарь
       selection_id: ''
@@ -3037,7 +3037,7 @@ profession:
         text: 'Магическая атака (Роба): 8%'
       - kind: value
         text: 'Сила крит. атаки магии: 4%'
-      icon: /icon/skill0787.jpg
+      icon: /icon/client-skills/icon.skill0787.png
       level: '5'
       name: Темный лекарь
       selection_id: ''
@@ -3063,7 +3063,7 @@ profession:
         text: 'Магическая атака (Роба): 9%'
       - kind: value
         text: 'Сила крит. атаки магии: 4.5%'
-      icon: /icon/skill0787.jpg
+      icon: /icon/client-skills/icon.skill0787.png
       level: '6'
       name: Темный лекарь
       selection_id: ''
@@ -3097,7 +3097,7 @@ profession:
         text: 'Магическая атака (Роба): 10%'
       - kind: value
         text: 'Сила крит. атаки магии: 5%'
-      icon: /icon/skill0787.jpg
+      icon: /icon/client-skills/icon.skill0787.png
       level: '7'
       name: Темный лекарь
       selection_id: ''
@@ -3121,7 +3121,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '1'
       name: Боевая стойка
       selection_id: ''
@@ -3149,7 +3149,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '2'
       name: Боевая стойка
       selection_id: ''
@@ -3177,7 +3177,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '3'
       name: Боевая стойка
       selection_id: ''
@@ -3205,7 +3205,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '4'
       name: Боевая стойка
       selection_id: ''
@@ -3233,7 +3233,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '5'
       name: Боевая стойка
       selection_id: ''
@@ -3261,7 +3261,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '6'
       name: Боевая стойка
       selection_id: ''
@@ -3289,7 +3289,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '7'
       name: Боевая стойка
       selection_id: ''
@@ -3312,7 +3312,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '1'
       name: Стойка поддержки
       selection_id: ''
@@ -3336,7 +3336,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '2'
       name: Стойка поддержки
       selection_id: ''
@@ -3360,7 +3360,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '3'
       name: Стойка поддержки
       selection_id: ''
@@ -3384,7 +3384,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '4'
       name: Стойка поддержки
       selection_id: ''
@@ -3408,7 +3408,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '5'
       name: Стойка поддержки
       selection_id: ''
@@ -3432,7 +3432,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '6'
       name: Стойка поддержки
       selection_id: ''
@@ -3456,7 +3456,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '7'
       name: Стойка поддержки
       selection_id: ''
@@ -3566,7 +3566,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '1'
       name: Туман защиты
       selection_id: ''
@@ -3585,7 +3585,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '2'
       name: Туман защиты
       selection_id: ''
@@ -3604,7 +3604,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '3'
       name: Туман защиты
       selection_id: ''
@@ -3623,7 +3623,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '4'
       name: Туман защиты
       selection_id: ''
@@ -3642,7 +3642,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '5'
       name: Туман защиты
       selection_id: ''
@@ -3661,7 +3661,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '6'
       name: Туман защиты
       selection_id: ''
@@ -3680,7 +3680,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '7'
       name: Туман защиты
       selection_id: ''
@@ -4402,7 +4402,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '1'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4420,7 +4420,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '2'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4438,7 +4438,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '3'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4456,7 +4456,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '4'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4474,7 +4474,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '5'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4492,7 +4492,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '6'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4510,7 +4510,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '7'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4528,7 +4528,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '8'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4546,7 +4546,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '9'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4564,7 +4564,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '10'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4582,7 +4582,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '11'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4600,7 +4600,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '12'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4618,7 +4618,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '13'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4636,7 +4636,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '14'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4654,7 +4654,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '15'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4672,7 +4672,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '16'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4690,7 +4690,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '17'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4708,7 +4708,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '18'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4726,7 +4726,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '19'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4744,7 +4744,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '20'
       name: Доблесть Лекарей
       selection_id: ''
@@ -5044,7 +5044,7 @@ profession:
         text: 'Сила лечения: 7%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 4%'
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '1'
       name: Жрец
       selection_id: ''
@@ -5063,7 +5063,7 @@ profession:
         text: 'Сила лечения: 10%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 5%'
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '2'
       name: Жрец
       selection_id: ''
@@ -5082,7 +5082,7 @@ profession:
         text: 'Сила лечения: 13%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 6%'
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '3'
       name: Жрец
       selection_id: ''
@@ -5101,7 +5101,7 @@ profession:
         text: 'Сила лечения: 16%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 7%'
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '4'
       name: Жрец
       selection_id: ''
@@ -5120,7 +5120,7 @@ profession:
         text: 'Сила лечения: 19%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 8%'
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '5'
       name: Жрец
       selection_id: ''
@@ -5139,7 +5139,7 @@ profession:
         text: 'Сила лечения: 22%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 9%'
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '6'
       name: Жрец
       selection_id: ''
@@ -5158,7 +5158,7 @@ profession:
         text: 'Сила лечения: 25%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '7'
       name: Жрец
       selection_id: ''
@@ -5171,7 +5171,7 @@ profession:
       description: Получая смертельный урон Вы не умираете и на 3 секунды становитесь неуязвимым и восстанавливаете
         себе 30000 жизненных сил. Вы не сможете избегать смерти постоянно.
       effects: []
-      icon: /icon/Icon4/flame_bone_prison.jpg
+      icon: /icon/client-skills/icon4.l2icon.flame_bone_prison.png
       level: '1'
       name: Ритуал бессмертия
       selection_id: ''
@@ -5254,7 +5254,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает защиту
         от критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '1'
       name: Темная мудрость
       selection_id: ''
@@ -5264,7 +5264,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает защиту
         от критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '2'
       name: Темная мудрость
       selection_id: ''
@@ -5274,7 +5274,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает защиту
         от критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '3'
       name: Темная мудрость
       selection_id: ''
@@ -5284,7 +5284,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает защиту
         от критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '4'
       name: Темная мудрость
       selection_id: ''
@@ -5294,7 +5294,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает защиту
         от критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '5'
       name: Темная мудрость
       selection_id: ''
@@ -5304,7 +5304,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает защиту
         от критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '6'
       name: Темная мудрость
       selection_id: ''
@@ -5314,7 +5314,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает защиту
         от критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '7'
       name: Темная мудрость
       selection_id: ''
@@ -5792,7 +5792,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '1'
       name: Ритуальное мастерство
       selection_id: '2.2_1'
@@ -5817,7 +5817,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '1'
       name: Ритуальное мастерство
       selection_id: '2.2_2'
@@ -5840,7 +5840,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '1'
       name: Ритуальное мастерство
       selection_id: '2.2_3'
@@ -5863,7 +5863,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '2'
       name: Ритуальное мастерство
       selection_id: '2.2_1'
@@ -5888,7 +5888,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '2'
       name: Ритуальное мастерство
       selection_id: '2.2_2'
@@ -5911,7 +5911,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '2'
       name: Ритуальное мастерство
       selection_id: '2.2_3'
@@ -5934,7 +5934,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '3'
       name: Ритуальное мастерство
       selection_id: '2.2_1'
@@ -5959,7 +5959,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '3'
       name: Ритуальное мастерство
       selection_id: '2.2_2'
@@ -5982,7 +5982,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '3'
       name: Ритуальное мастерство
       selection_id: '2.2_3'
@@ -6005,7 +6005,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '4'
       name: Ритуальное мастерство
       selection_id: '2.2_1'
@@ -6030,7 +6030,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '4'
       name: Ритуальное мастерство
       selection_id: '2.2_2'
@@ -6053,7 +6053,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '4'
       name: Ритуальное мастерство
       selection_id: '2.2_3'
@@ -6076,7 +6076,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '5'
       name: Ритуальное мастерство
       selection_id: '2.2_1'
@@ -6101,7 +6101,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '5'
       name: Ритуальное мастерство
       selection_id: '2.2_2'
@@ -6124,7 +6124,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '5'
       name: Ритуальное мастерство
       selection_id: '2.2_3'
@@ -6147,7 +6147,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '6'
       name: Ритуальное мастерство
       selection_id: '2.2_1'
@@ -6172,7 +6172,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '6'
       name: Ритуальное мастерство
       selection_id: '2.2_2'
@@ -6195,7 +6195,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '6'
       name: Ритуальное мастерство
       selection_id: '2.2_3'
@@ -6218,7 +6218,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '7'
       name: Ритуальное мастерство
       selection_id: '2.2_1'
@@ -6243,7 +6243,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '7'
       name: Ритуальное мастерство
       selection_id: '2.2_2'
@@ -6266,7 +6266,7 @@ profession:
         text: 'Каждая полученная жертва:'
       - kind: value
         text: 'Лечение: 600'
-      icon: /icon/skill1495.jpg
+      icon: /icon/client-skills/icon.skill1495.png
       level: '7'
       name: Ритуальное мастерство
       selection_id: '2.2_3'
@@ -6285,7 +6285,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 19%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '1'
       name: Ритуал поддержки
       selection_id: '2.3_1'
@@ -6304,7 +6304,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 14%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '1'
       name: Ритуал поддержки
       selection_id: '2.3_2'
@@ -6323,7 +6323,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 9%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '1'
       name: Ритуал поддержки
       selection_id: '2.3_3'
@@ -6342,7 +6342,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 20%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '2'
       name: Ритуал поддержки
       selection_id: '2.3_1'
@@ -6361,7 +6361,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 15%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '2'
       name: Ритуал поддержки
       selection_id: '2.3_2'
@@ -6380,7 +6380,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 10%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '2'
       name: Ритуал поддержки
       selection_id: '2.3_3'
@@ -6399,7 +6399,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 21%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '3'
       name: Ритуал поддержки
       selection_id: '2.3_1'
@@ -6418,7 +6418,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 16%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '3'
       name: Ритуал поддержки
       selection_id: '2.3_2'
@@ -6437,7 +6437,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 11%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '3'
       name: Ритуал поддержки
       selection_id: '2.3_3'
@@ -6456,7 +6456,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 22%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '4'
       name: Ритуал поддержки
       selection_id: '2.3_1'
@@ -6475,7 +6475,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 17%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '4'
       name: Ритуал поддержки
       selection_id: '2.3_2'
@@ -6494,7 +6494,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 12%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '4'
       name: Ритуал поддержки
       selection_id: '2.3_3'
@@ -6513,7 +6513,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 23%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '5'
       name: Ритуал поддержки
       selection_id: '2.3_1'
@@ -6532,7 +6532,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 18%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '5'
       name: Ритуал поддержки
       selection_id: '2.3_2'
@@ -6551,7 +6551,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 13%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '5'
       name: Ритуал поддержки
       selection_id: '2.3_3'
@@ -6570,7 +6570,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 24%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '6'
       name: Ритуал поддержки
       selection_id: '2.3_1'
@@ -6589,7 +6589,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 19%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '6'
       name: Ритуал поддержки
       selection_id: '2.3_2'
@@ -6608,7 +6608,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 14%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '6'
       name: Ритуал поддержки
       selection_id: '2.3_3'
@@ -6627,7 +6627,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 25%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '7'
       name: Ритуал поддержки
       selection_id: '2.3_1'
@@ -6646,7 +6646,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 20%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '7'
       name: Ритуал поддержки
       selection_id: '2.3_2'
@@ -6665,7 +6665,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила лечения: 15%'
-      icon: /icon/skill1500.jpg
+      icon: /icon/client-skills/icon.skill1500.png
       level: '7'
       name: Ритуал поддержки
       selection_id: '2.3_3'
@@ -6684,7 +6684,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -35%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '1'
       name: Ритуал заточения
       selection_id: '2.4_1'
@@ -6705,7 +6705,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -15%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '1'
       name: Ритуал заточения
       selection_id: '2.4_2'
@@ -6726,7 +6726,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -25%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '1'
       name: Ритуал заточения
       selection_id: '2.4_3'
@@ -6747,7 +6747,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -40%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '2'
       name: Ритуал заточения
       selection_id: '2.4_1'
@@ -6768,7 +6768,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -20%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '2'
       name: Ритуал заточения
       selection_id: '2.4_2'
@@ -6789,7 +6789,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -30%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '2'
       name: Ритуал заточения
       selection_id: '2.4_3'
@@ -6810,7 +6810,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -45%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '3'
       name: Ритуал заточения
       selection_id: '2.4_1'
@@ -6831,7 +6831,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -25%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '3'
       name: Ритуал заточения
       selection_id: '2.4_2'
@@ -6852,7 +6852,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -35%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '3'
       name: Ритуал заточения
       selection_id: '2.4_3'
@@ -6873,7 +6873,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '4'
       name: Ритуал заточения
       selection_id: '2.4_1'
@@ -6894,7 +6894,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -30%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '4'
       name: Ритуал заточения
       selection_id: '2.4_2'
@@ -6915,7 +6915,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -40%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '4'
       name: Ритуал заточения
       selection_id: '2.4_3'
@@ -6936,7 +6936,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -55%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '5'
       name: Ритуал заточения
       selection_id: '2.4_1'
@@ -6957,7 +6957,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -35%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '5'
       name: Ритуал заточения
       selection_id: '2.4_2'
@@ -6978,7 +6978,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -45%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '5'
       name: Ритуал заточения
       selection_id: '2.4_3'
@@ -6999,7 +6999,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -60%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '6'
       name: Ритуал заточения
       selection_id: '2.4_1'
@@ -7020,7 +7020,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -40%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '6'
       name: Ритуал заточения
       selection_id: '2.4_2'
@@ -7041,7 +7041,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '6'
       name: Ритуал заточения
       selection_id: '2.4_3'
@@ -7074,7 +7074,7 @@ profession:
         text: 'Эффект лечения: -100%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '7'
       name: Ритуал заточения
       selection_id: '2.4_1'
@@ -7107,7 +7107,7 @@ profession:
         text: 'Эффект лечения: -100%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '7'
       name: Ритуал заточения
       selection_id: '2.4_2'
@@ -7140,7 +7140,7 @@ profession:
         text: 'Эффект лечения: -100%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1412.jpg
+      icon: /icon/client-skills/icon.skill1412.png
       level: '7'
       name: Ритуал заточения
       selection_id: '2.4_3'
@@ -7799,7 +7799,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '1'
       name: Ритуал защиты
       selection_id: '2.6_1'
@@ -7824,7 +7824,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '1'
       name: Ритуал защиты
       selection_id: '2.6_2'
@@ -7851,7 +7851,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '1'
       name: Ритуал защиты
       selection_id: '2.6_3'
@@ -7876,7 +7876,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '2'
       name: Ритуал защиты
       selection_id: '2.6_1'
@@ -7901,7 +7901,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '2'
       name: Ритуал защиты
       selection_id: '2.6_2'
@@ -7928,7 +7928,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '2'
       name: Ритуал защиты
       selection_id: '2.6_3'
@@ -7953,7 +7953,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '3'
       name: Ритуал защиты
       selection_id: '2.6_1'
@@ -7978,7 +7978,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '3'
       name: Ритуал защиты
       selection_id: '2.6_2'
@@ -8005,7 +8005,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '3'
       name: Ритуал защиты
       selection_id: '2.6_3'
@@ -8030,7 +8030,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '4'
       name: Ритуал защиты
       selection_id: '2.6_1'
@@ -8055,7 +8055,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '4'
       name: Ритуал защиты
       selection_id: '2.6_2'
@@ -8082,7 +8082,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '4'
       name: Ритуал защиты
       selection_id: '2.6_3'
@@ -8107,7 +8107,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '5'
       name: Ритуал защиты
       selection_id: '2.6_1'
@@ -8132,7 +8132,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '5'
       name: Ритуал защиты
       selection_id: '2.6_2'
@@ -8159,7 +8159,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '5'
       name: Ритуал защиты
       selection_id: '2.6_3'
@@ -8184,7 +8184,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '6'
       name: Ритуал защиты
       selection_id: '2.6_1'
@@ -8209,7 +8209,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '6'
       name: Ритуал защиты
       selection_id: '2.6_2'
@@ -8236,7 +8236,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '6'
       name: Ритуал защиты
       selection_id: '2.6_3'
@@ -8261,7 +8261,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '7'
       name: Ритуал защиты
       selection_id: '2.6_1'
@@ -8286,7 +8286,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '7'
       name: Ритуал защиты
       selection_id: '2.6_2'
@@ -8313,7 +8313,7 @@ profession:
         text: 'Жертва:'
       - kind: value
         text: 'Отражение проклятий: 5 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '7'
       name: Ритуал защиты
       selection_id: '2.6_3'
@@ -8342,7 +8342,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '1'
       name: Ритуал спасения
       selection_id: '2.7_1'
@@ -8365,7 +8365,7 @@ profession:
         text: 'Скорость передвижения (Роба): 50ед.'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '1'
       name: Ритуал спасения
       selection_id: '2.7_2'
@@ -8387,7 +8387,7 @@ profession:
         text: 'Сила лечения: 60%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '1'
       name: Ритуал спасения
       selection_id: '2.7_3'
@@ -8415,7 +8415,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '2'
       name: Ритуал спасения
       selection_id: '2.7_1'
@@ -8438,7 +8438,7 @@ profession:
         text: 'Скорость передвижения (Роба): 50ед.'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '2'
       name: Ритуал спасения
       selection_id: '2.7_2'
@@ -8460,7 +8460,7 @@ profession:
         text: 'Сила лечения: 60%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '2'
       name: Ритуал спасения
       selection_id: '2.7_3'
@@ -8488,7 +8488,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '3'
       name: Ритуал спасения
       selection_id: '2.7_1'
@@ -8511,7 +8511,7 @@ profession:
         text: 'Скорость передвижения (Роба): 50ед.'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '3'
       name: Ритуал спасения
       selection_id: '2.7_2'
@@ -8533,7 +8533,7 @@ profession:
         text: 'Сила лечения: 60%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '3'
       name: Ритуал спасения
       selection_id: '2.7_3'
@@ -8561,7 +8561,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '4'
       name: Ритуал спасения
       selection_id: '2.7_1'
@@ -8584,7 +8584,7 @@ profession:
         text: 'Скорость передвижения (Роба): 50ед.'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '4'
       name: Ритуал спасения
       selection_id: '2.7_2'
@@ -8606,7 +8606,7 @@ profession:
         text: 'Сила лечения: 60%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '4'
       name: Ритуал спасения
       selection_id: '2.7_3'
@@ -8634,7 +8634,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '5'
       name: Ритуал спасения
       selection_id: '2.7_1'
@@ -8657,7 +8657,7 @@ profession:
         text: 'Скорость передвижения (Роба): 50ед.'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '5'
       name: Ритуал спасения
       selection_id: '2.7_2'
@@ -8679,7 +8679,7 @@ profession:
         text: 'Сила лечения: 60%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '5'
       name: Ритуал спасения
       selection_id: '2.7_3'
@@ -8707,7 +8707,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '6'
       name: Ритуал спасения
       selection_id: '2.7_1'
@@ -8730,7 +8730,7 @@ profession:
         text: 'Скорость передвижения (Роба): 50ед.'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '6'
       name: Ритуал спасения
       selection_id: '2.7_2'
@@ -8752,7 +8752,7 @@ profession:
         text: 'Сила лечения: 60%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '6'
       name: Ритуал спасения
       selection_id: '2.7_3'
@@ -8780,7 +8780,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '7'
       name: Ритуал спасения
       selection_id: '2.7_1'
@@ -8803,7 +8803,7 @@ profession:
         text: 'Скорость передвижения (Роба): 50ед.'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '7'
       name: Ритуал спасения
       selection_id: '2.7_2'
@@ -8825,7 +8825,7 @@ profession:
         text: 'Сила лечения: 60%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '7'
       name: Ритуал спасения
       selection_id: '2.7_3'

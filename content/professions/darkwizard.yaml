@@ -833,7 +833,7 @@ profession:
         text: 'Сила магического умения: 270'
       - kind: value
         text: 'Урон по сооружениям: 100'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '1'
       name: Магическая аура
       selection_id: ''
@@ -860,7 +860,7 @@ profession:
         text: 'Сила магического умения: 430'
       - kind: value
         text: 'Урон по сооружениям: 105'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '2'
       name: Магическая аура
       selection_id: ''
@@ -887,7 +887,7 @@ profession:
         text: 'Сила магического умения: 640'
       - kind: value
         text: 'Урон по сооружениям: 110'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '3'
       name: Магическая аура
       selection_id: ''
@@ -914,7 +914,7 @@ profession:
         text: 'Сила магического умения: 750'
       - kind: value
         text: 'Урон по сооружениям: 115'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '4'
       name: Магическая аура
       selection_id: ''
@@ -941,7 +941,7 @@ profession:
         text: 'Сила магического умения: 860'
       - kind: value
         text: 'Урон по сооружениям: 120'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '5'
       name: Магическая аура
       selection_id: ''
@@ -968,7 +968,7 @@ profession:
         text: 'Сила магического умения: 970'
       - kind: value
         text: 'Урон по сооружениям: 125'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '6'
       name: Магическая аура
       selection_id: ''
@@ -995,7 +995,7 @@ profession:
         text: 'Сила магического умения: 1080'
       - kind: value
         text: 'Урон по сооружениям: 130'
-      icon: /icon/skill11029.jpg
+      icon: /icon/client-skills/icon.skill11029.png
       level: '7'
       name: Магическая аура
       selection_id: ''
@@ -1200,7 +1200,7 @@ profession:
         text: 'Седьмой накопленный заряд:'
       - kind: value
         text: 'Паралич: 2 сек.'
-      icon: /icon/skill1456.jpg
+      icon: /icon/client-skills/icon.skill1456.png
       level: '1'
       name: Метла колдуна
       selection_id: ''
@@ -1223,7 +1223,7 @@ profession:
         text: 'Седьмой накопленный заряд:'
       - kind: value
         text: 'Паралич: 2 сек.'
-      icon: /icon/skill1456.jpg
+      icon: /icon/client-skills/icon.skill1456.png
       level: '2'
       name: Метла колдуна
       selection_id: ''
@@ -1246,7 +1246,7 @@ profession:
         text: 'Седьмой накопленный заряд:'
       - kind: value
         text: 'Паралич: 2 сек.'
-      icon: /icon/skill1456.jpg
+      icon: /icon/client-skills/icon.skill1456.png
       level: '3'
       name: Метла колдуна
       selection_id: ''
@@ -1269,7 +1269,7 @@ profession:
         text: 'Седьмой накопленный заряд:'
       - kind: value
         text: 'Паралич: 2 сек.'
-      icon: /icon/skill1456.jpg
+      icon: /icon/client-skills/icon.skill1456.png
       level: '4'
       name: Метла колдуна
       selection_id: ''
@@ -1292,7 +1292,7 @@ profession:
         text: 'Седьмой накопленный заряд:'
       - kind: value
         text: 'Паралич: 2 сек.'
-      icon: /icon/skill1456.jpg
+      icon: /icon/client-skills/icon.skill1456.png
       level: '5'
       name: Метла колдуна
       selection_id: ''
@@ -1315,7 +1315,7 @@ profession:
         text: 'Седьмой накопленный заряд:'
       - kind: value
         text: 'Паралич: 2 сек.'
-      icon: /icon/skill1456.jpg
+      icon: /icon/client-skills/icon.skill1456.png
       level: '6'
       name: Метла колдуна
       selection_id: ''
@@ -1338,7 +1338,7 @@ profession:
         text: 'Седьмой накопленный заряд:'
       - kind: value
         text: 'Паралич: 2 сек.'
-      icon: /icon/skill1456.jpg
+      icon: /icon/client-skills/icon.skill1456.png
       level: '7'
       name: Метла колдуна
       selection_id: ''
@@ -4367,7 +4367,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 13%'
-      icon: /icon/skill6320.jpg
+      icon: /icon/client-skills/icon.skill6320.png
       level: '1'
       name: Чернокнижник
       selection_id: ''
@@ -4385,7 +4385,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 14%'
-      icon: /icon/skill6320.jpg
+      icon: /icon/client-skills/icon.skill6320.png
       level: '2'
       name: Чернокнижник
       selection_id: ''
@@ -4403,7 +4403,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 15%'
-      icon: /icon/skill6320.jpg
+      icon: /icon/client-skills/icon.skill6320.png
       level: '3'
       name: Чернокнижник
       selection_id: ''
@@ -4421,7 +4421,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 16%'
-      icon: /icon/skill6320.jpg
+      icon: /icon/client-skills/icon.skill6320.png
       level: '4'
       name: Чернокнижник
       selection_id: ''
@@ -4439,7 +4439,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 17%'
-      icon: /icon/skill6320.jpg
+      icon: /icon/client-skills/icon.skill6320.png
       level: '5'
       name: Чернокнижник
       selection_id: ''
@@ -4457,7 +4457,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 18%'
-      icon: /icon/skill6320.jpg
+      icon: /icon/client-skills/icon.skill6320.png
       level: '6'
       name: Чернокнижник
       selection_id: ''
@@ -4475,7 +4475,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 19%'
-      icon: /icon/skill6320.jpg
+      icon: /icon/client-skills/icon.skill6320.png
       level: '7'
       name: Чернокнижник
       selection_id: ''
@@ -4493,7 +4493,7 @@ profession:
         text: 'Магическая защита (Любая броня): -15%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -150ед.'
-      icon: /icon/Icon4/baium_thunder_splash2.jpg
+      icon: /icon/client-skills/icon4.l2icon.baium_thunder_splash2.png
       level: '1'
       name: Силенсус
       selection_id: ''
@@ -5002,7 +5002,7 @@ profession:
         text: 'Шанс крит. атаки магии: 4ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 8%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '1'
       name: Протего патронум
       selection_id: '2.2_1'
@@ -5028,7 +5028,7 @@ profession:
         text: 'Шанс крит. атаки магии: 4ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 18%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '1'
       name: Протего патронум
       selection_id: '2.2_2'
@@ -5063,7 +5063,7 @@ profession:
         text: 'Шанс крит. атаки магии: 4ед.'
       - kind: value
         text: 'Сила крит. атаки магии: 2%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '1'
       name: Протего патронум
       selection_id: '2.2_3'
@@ -5098,7 +5098,7 @@ profession:
         text: 'Шанс крит. атаки магии: 5ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 9%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '2'
       name: Протего патронум
       selection_id: '2.2_1'
@@ -5124,7 +5124,7 @@ profession:
         text: 'Шанс крит. атаки магии: 5ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 20%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '2'
       name: Протего патронум
       selection_id: '2.2_2'
@@ -5159,7 +5159,7 @@ profession:
         text: 'Шанс крит. атаки магии: 5ед.'
       - kind: value
         text: 'Сила крит. атаки магии: 3%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '2'
       name: Протего патронум
       selection_id: '2.2_3'
@@ -5194,7 +5194,7 @@ profession:
         text: 'Шанс крит. атаки магии: 6ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 10%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '3'
       name: Протего патронум
       selection_id: '2.2_1'
@@ -5220,7 +5220,7 @@ profession:
         text: 'Шанс крит. атаки магии: 6ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 22%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '3'
       name: Протего патронум
       selection_id: '2.2_2'
@@ -5255,7 +5255,7 @@ profession:
         text: 'Шанс крит. атаки магии: 6ед.'
       - kind: value
         text: 'Сила крит. атаки магии: 4%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '3'
       name: Протего патронум
       selection_id: '2.2_3'
@@ -5290,7 +5290,7 @@ profession:
         text: 'Шанс крит. атаки магии: 7ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 11%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '4'
       name: Протего патронум
       selection_id: '2.2_1'
@@ -5316,7 +5316,7 @@ profession:
         text: 'Шанс крит. атаки магии: 7ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 24%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '4'
       name: Протего патронум
       selection_id: '2.2_2'
@@ -5351,7 +5351,7 @@ profession:
         text: 'Шанс крит. атаки магии: 7ед.'
       - kind: value
         text: 'Сила крит. атаки магии: 5%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '4'
       name: Протего патронум
       selection_id: '2.2_3'
@@ -5386,7 +5386,7 @@ profession:
         text: 'Шанс крит. атаки магии: 8ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 12%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '5'
       name: Протего патронум
       selection_id: '2.2_1'
@@ -5412,7 +5412,7 @@ profession:
         text: 'Шанс крит. атаки магии: 8ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 26%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '5'
       name: Протего патронум
       selection_id: '2.2_2'
@@ -5447,7 +5447,7 @@ profession:
         text: 'Шанс крит. атаки магии: 8ед.'
       - kind: value
         text: 'Сила крит. атаки магии: 6%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '5'
       name: Протего патронум
       selection_id: '2.2_3'
@@ -5482,7 +5482,7 @@ profession:
         text: 'Шанс крит. атаки магии: 9ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 13%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '6'
       name: Протего патронум
       selection_id: '2.2_1'
@@ -5508,7 +5508,7 @@ profession:
         text: 'Шанс крит. атаки магии: 9ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 28%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '6'
       name: Протего патронум
       selection_id: '2.2_2'
@@ -5543,7 +5543,7 @@ profession:
         text: 'Шанс крит. атаки магии: 9ед.'
       - kind: value
         text: 'Сила крит. атаки магии: 7%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '6'
       name: Протего патронум
       selection_id: '2.2_3'
@@ -5578,7 +5578,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 14%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '7'
       name: Протего патронум
       selection_id: '2.2_1'
@@ -5604,7 +5604,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 30%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '7'
       name: Протего патронум
       selection_id: '2.2_2'
@@ -5639,7 +5639,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Сила крит. атаки магии: 8%'
-      icon: /icon/skill1503.jpg
+      icon: /icon/client-skills/icon.skill1503.png
       level: '7'
       name: Протего патронум
       selection_id: '2.2_3'
@@ -6167,7 +6167,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '1'
       name: Портус/Флиппендо
       selection_id: '2.4_1'
@@ -6191,7 +6191,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '1'
       name: Портус/Флиппендо
       selection_id: '2.4_2'
@@ -6224,7 +6224,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Запрет использовать умения и магию: 5 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '1'
       name: Портус/Флиппендо
       selection_id: '2.4_3'
@@ -6248,7 +6248,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '2'
       name: Портус/Флиппендо
       selection_id: '2.4_1'
@@ -6272,7 +6272,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '2'
       name: Портус/Флиппендо
       selection_id: '2.4_2'
@@ -6305,7 +6305,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Запрет использовать умения и магию: 5 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '2'
       name: Портус/Флиппендо
       selection_id: '2.4_3'
@@ -6329,7 +6329,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '3'
       name: Портус/Флиппендо
       selection_id: '2.4_1'
@@ -6353,7 +6353,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '3'
       name: Портус/Флиппендо
       selection_id: '2.4_2'
@@ -6386,7 +6386,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Запрет использовать умения и магию: 5 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '3'
       name: Портус/Флиппендо
       selection_id: '2.4_3'
@@ -6410,7 +6410,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '4'
       name: Портус/Флиппендо
       selection_id: '2.4_1'
@@ -6434,7 +6434,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '4'
       name: Портус/Флиппендо
       selection_id: '2.4_2'
@@ -6467,7 +6467,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Запрет использовать умения и магию: 5 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '4'
       name: Портус/Флиппендо
       selection_id: '2.4_3'
@@ -6491,7 +6491,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '5'
       name: Портус/Флиппендо
       selection_id: '2.4_1'
@@ -6515,7 +6515,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '5'
       name: Портус/Флиппендо
       selection_id: '2.4_2'
@@ -6548,7 +6548,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Запрет использовать умения и магию: 5 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '5'
       name: Портус/Флиппендо
       selection_id: '2.4_3'
@@ -6572,7 +6572,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '6'
       name: Портус/Флиппендо
       selection_id: '2.4_1'
@@ -6596,7 +6596,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '6'
       name: Портус/Флиппендо
       selection_id: '2.4_2'
@@ -6629,7 +6629,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Запрет использовать умения и магию: 5 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '6'
       name: Портус/Флиппендо
       selection_id: '2.4_3'
@@ -6653,7 +6653,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '7'
       name: Портус/Флиппендо
       selection_id: '2.4_1'
@@ -6677,7 +6677,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '7'
       name: Портус/Флиппендо
       selection_id: '2.4_2'
@@ -6710,7 +6710,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Запрет использовать умения и магию: 5 сек.'
-      icon: /icon/skill1436.jpg
+      icon: /icon/client-skills/icon.skill1436.png
       level: '7'
       name: Портус/Флиппендо
       selection_id: '2.4_3'
@@ -7511,7 +7511,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 130 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '1'
       name: Импервиус
       selection_id: '2.6_1'
@@ -7557,7 +7557,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 100 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '1'
       name: Импервиус
       selection_id: '2.6_2'
@@ -7603,7 +7603,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 70 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '1'
       name: Импервиус
       selection_id: '2.6_3'
@@ -7649,7 +7649,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 125 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '2'
       name: Импервиус
       selection_id: '2.6_1'
@@ -7695,7 +7695,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 95 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '2'
       name: Импервиус
       selection_id: '2.6_2'
@@ -7741,7 +7741,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 65 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '2'
       name: Импервиус
       selection_id: '2.6_3'
@@ -7787,7 +7787,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 120 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '3'
       name: Импервиус
       selection_id: '2.6_1'
@@ -7833,7 +7833,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 90 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '3'
       name: Импервиус
       selection_id: '2.6_2'
@@ -7879,7 +7879,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '3'
       name: Импервиус
       selection_id: '2.6_3'
@@ -7925,7 +7925,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 115 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '4'
       name: Импервиус
       selection_id: '2.6_1'
@@ -7971,7 +7971,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 85 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '4'
       name: Импервиус
       selection_id: '2.6_2'
@@ -8017,7 +8017,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 55 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '4'
       name: Импервиус
       selection_id: '2.6_3'
@@ -8063,7 +8063,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 110 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '5'
       name: Импервиус
       selection_id: '2.6_1'
@@ -8109,7 +8109,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 80 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '5'
       name: Импервиус
       selection_id: '2.6_2'
@@ -8155,7 +8155,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 50 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '5'
       name: Импервиус
       selection_id: '2.6_3'
@@ -8201,7 +8201,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 105 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '6'
       name: Импервиус
       selection_id: '2.6_1'
@@ -8247,7 +8247,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 75 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '6'
       name: Импервиус
       selection_id: '2.6_2'
@@ -8293,7 +8293,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 45 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '6'
       name: Импервиус
       selection_id: '2.6_3'
@@ -8339,7 +8339,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 100 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '7'
       name: Импервиус
       selection_id: '2.6_1'
@@ -8385,7 +8385,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 70 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '7'
       name: Импервиус
       selection_id: '2.6_2'
@@ -8431,7 +8431,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 40 сек.'
-      icon: /icon/skill1442.jpg
+      icon: /icon/client-skills/icon.skill1442.png
       level: '7'
       name: Импервиус
       selection_id: '2.6_3'
@@ -8459,7 +8459,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Сон: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '1'
       name: Иммобилус
       selection_id: '2.7_1'
@@ -8487,7 +8487,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '1'
       name: Иммобилус
       selection_id: '2.7_2'
@@ -8515,7 +8515,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Паралич: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '1'
       name: Иммобилус
       selection_id: '2.7_3'
@@ -8543,7 +8543,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Сон: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '2'
       name: Иммобилус
       selection_id: '2.7_1'
@@ -8571,7 +8571,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '2'
       name: Иммобилус
       selection_id: '2.7_2'
@@ -8599,7 +8599,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Паралич: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '2'
       name: Иммобилус
       selection_id: '2.7_3'
@@ -8627,7 +8627,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Сон: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '3'
       name: Иммобилус
       selection_id: '2.7_1'
@@ -8655,7 +8655,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '3'
       name: Иммобилус
       selection_id: '2.7_2'
@@ -8683,7 +8683,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Паралич: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '3'
       name: Иммобилус
       selection_id: '2.7_3'
@@ -8711,7 +8711,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Сон: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '4'
       name: Иммобилус
       selection_id: '2.7_1'
@@ -8739,7 +8739,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '4'
       name: Иммобилус
       selection_id: '2.7_2'
@@ -8767,7 +8767,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Паралич: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '4'
       name: Иммобилус
       selection_id: '2.7_3'
@@ -8795,7 +8795,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Сон: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '5'
       name: Иммобилус
       selection_id: '2.7_1'
@@ -8823,7 +8823,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '5'
       name: Иммобилус
       selection_id: '2.7_2'
@@ -8851,7 +8851,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Паралич: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '5'
       name: Иммобилус
       selection_id: '2.7_3'
@@ -8879,7 +8879,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Сон: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '6'
       name: Иммобилус
       selection_id: '2.7_1'
@@ -8907,7 +8907,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '6'
       name: Иммобилус
       selection_id: '2.7_2'
@@ -8935,7 +8935,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Паралич: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '6'
       name: Иммобилус
       selection_id: '2.7_3'
@@ -8963,7 +8963,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Сон: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '7'
       name: Иммобилус
       selection_id: '2.7_1'
@@ -8991,7 +8991,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Обездвиживание: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '7'
       name: Иммобилус
       selection_id: '2.7_2'
@@ -9019,7 +9019,7 @@ profession:
         text: 'На метле:'
       - kind: value
         text: 'Паралич: 4 сек.'
-      icon: /icon/skill1438.jpg
+      icon: /icon/client-skills/icon.skill1438.png
       level: '7'
       name: Иммобилус
       selection_id: '2.7_3'

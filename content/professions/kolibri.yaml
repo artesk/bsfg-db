@@ -4359,7 +4359,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. атаки магии: 5%'
-      icon: /icon/Icon4/guard_giantscrl_of_ench_ag.jpg
+      icon: /icon/client-skills/icon4.l2icon.guard_giantscrl_of_ench_ag.png
       level: '1'
       name: Сущность магии
       selection_id: ''

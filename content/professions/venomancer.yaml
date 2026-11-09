@@ -4882,7 +4882,7 @@ profession:
         text: Отменяет регенерацию здоровья
       - kind: value
         text: Отменяет регенерацию боевого духа
-      icon: /icon/Icon4/tof_area_buff.jpg
+      icon: /icon/client-skills/icon4.l2icon.tof_area_buff.png
       level: '1'
       name: Гемотоксин
       selection_id: ''

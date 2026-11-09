@@ -4748,7 +4748,7 @@ profession:
         text: 'Сила магического умения: 1000'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/berserker_revival.jpg
+      icon: /icon/client-skills/icon4.l2icon.berserker_revival.png
       level: '1'
       name: Идеальное зелье
       selection_id: ''

@@ -2350,7 +2350,7 @@ profession:
         на небольшой промежуток времени. Если враг, находясь под этим замедлением, использует умение *Святой
         щит* и его аналоги, то он будет парализован.
       effects: []
-      icon: /icon/s12959.jpg
+      icon: /icon/client-skills/bsfg.s12959.png
       level: '1'
       name: Тайный прием
       selection_id: ''
@@ -2367,7 +2367,7 @@ profession:
         на небольшой промежуток времени. Если враг, находясь под этим замедлением, использует умение *Святой
         щит* и его аналоги, то он будет парализован.
       effects: []
-      icon: /icon/s12959.jpg
+      icon: /icon/client-skills/bsfg.s12959.png
       level: '2'
       name: Тайный прием
       selection_id: ''
@@ -2384,7 +2384,7 @@ profession:
         на небольшой промежуток времени. Если враг, находясь под этим замедлением, использует умение *Святой
         щит* и его аналоги, то он будет парализован.
       effects: []
-      icon: /icon/s12959.jpg
+      icon: /icon/client-skills/bsfg.s12959.png
       level: '3'
       name: Тайный прием
       selection_id: ''
@@ -2401,7 +2401,7 @@ profession:
         на небольшой промежуток времени. Если враг, находясь под этим замедлением, использует умение *Святой
         щит* и его аналоги, то он будет парализован.
       effects: []
-      icon: /icon/s12959.jpg
+      icon: /icon/client-skills/bsfg.s12959.png
       level: '4'
       name: Тайный прием
       selection_id: ''
@@ -2418,7 +2418,7 @@ profession:
         на небольшой промежуток времени. Если враг, находясь под этим замедлением, использует умение *Святой
         щит* и его аналоги, то он будет парализован.
       effects: []
-      icon: /icon/s12959.jpg
+      icon: /icon/client-skills/bsfg.s12959.png
       level: '5'
       name: Тайный прием
       selection_id: ''
@@ -2435,7 +2435,7 @@ profession:
         на небольшой промежуток времени. Если враг, находясь под этим замедлением, использует умение *Святой
         щит* и его аналоги, то он будет парализован.
       effects: []
-      icon: /icon/s12959.jpg
+      icon: /icon/client-skills/bsfg.s12959.png
       level: '6'
       name: Тайный прием
       selection_id: ''
@@ -2452,7 +2452,7 @@ profession:
         на небольшой промежуток времени. Если враг, находясь под этим замедлением, использует умение *Святой
         щит* и его аналоги, то он будет парализован.
       effects: []
-      icon: /icon/s12959.jpg
+      icon: /icon/client-skills/bsfg.s12959.png
       level: '7'
       name: Тайный прием
       selection_id: ''
@@ -2471,7 +2471,7 @@ profession:
         text: 'Сила умения: 10000'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/s12961.jpg
+      icon: /icon/client-skills/bsfg.s12961.png
       level: '1'
       name: Смертельный выпад
       selection_id: ''
@@ -2491,7 +2491,7 @@ profession:
         text: 'Сила умения: 20000'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/s12961.jpg
+      icon: /icon/client-skills/bsfg.s12961.png
       level: '2'
       name: Смертельный выпад
       selection_id: ''
@@ -2511,7 +2511,7 @@ profession:
         text: 'Сила умения: 45000'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/s12961.jpg
+      icon: /icon/client-skills/bsfg.s12961.png
       level: '3'
       name: Смертельный выпад
       selection_id: ''
@@ -2531,7 +2531,7 @@ profession:
         text: 'Сила умения: 90000'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/s12961.jpg
+      icon: /icon/client-skills/bsfg.s12961.png
       level: '4'
       name: Смертельный выпад
       selection_id: ''
@@ -2551,7 +2551,7 @@ profession:
         text: 'Сила умения: 150000'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/s12961.jpg
+      icon: /icon/client-skills/bsfg.s12961.png
       level: '5'
       name: Смертельный выпад
       selection_id: ''
@@ -2571,7 +2571,7 @@ profession:
         text: 'Сила умения: 200000'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/s12961.jpg
+      icon: /icon/client-skills/bsfg.s12961.png
       level: '6'
       name: Смертельный выпад
       selection_id: ''
@@ -2591,7 +2591,7 @@ profession:
         text: 'Сила умения: 300000'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s12961.jpg
+      icon: /icon/client-skills/bsfg.s12961.png
       level: '7'
       name: Смертельный выпад
       selection_id: ''
@@ -2611,7 +2611,7 @@ profession:
         text: 'Сила умения: 10000'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/s12962.jpg
+      icon: /icon/client-skills/bsfg.s12962.png
       level: '1'
       name: Подлый удар
       selection_id: ''
@@ -2631,7 +2631,7 @@ profession:
         text: 'Сила умения: 20000'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/s12962.jpg
+      icon: /icon/client-skills/bsfg.s12962.png
       level: '2'
       name: Подлый удар
       selection_id: ''
@@ -2651,7 +2651,7 @@ profession:
         text: 'Сила умения: 45000'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/s12962.jpg
+      icon: /icon/client-skills/bsfg.s12962.png
       level: '3'
       name: Подлый удар
       selection_id: ''
@@ -2671,7 +2671,7 @@ profession:
         text: 'Сила умения: 90000'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/s12962.jpg
+      icon: /icon/client-skills/bsfg.s12962.png
       level: '4'
       name: Подлый удар
       selection_id: ''
@@ -2691,7 +2691,7 @@ profession:
         text: 'Сила умения: 150000'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/s12962.jpg
+      icon: /icon/client-skills/bsfg.s12962.png
       level: '5'
       name: Подлый удар
       selection_id: ''
@@ -2711,7 +2711,7 @@ profession:
         text: 'Сила умения: 200000'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/s12962.jpg
+      icon: /icon/client-skills/bsfg.s12962.png
       level: '6'
       name: Подлый удар
       selection_id: ''
@@ -2731,7 +2731,7 @@ profession:
         text: 'Сила умения: 300000'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s12962.jpg
+      icon: /icon/client-skills/bsfg.s12962.png
       level: '7'
       name: Подлый удар
       selection_id: ''
@@ -2757,7 +2757,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -9ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12963.jpg
+      icon: /icon/client-skills/bsfg.s12963.png
       level: '1'
       name: Бросок кинжала
       selection_id: ''
@@ -2783,7 +2783,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -10ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12963.jpg
+      icon: /icon/client-skills/bsfg.s12963.png
       level: '2'
       name: Бросок кинжала
       selection_id: ''
@@ -2809,7 +2809,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -11ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12963.jpg
+      icon: /icon/client-skills/bsfg.s12963.png
       level: '3'
       name: Бросок кинжала
       selection_id: ''
@@ -2835,7 +2835,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -12ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12963.jpg
+      icon: /icon/client-skills/bsfg.s12963.png
       level: '4'
       name: Бросок кинжала
       selection_id: ''
@@ -2861,7 +2861,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -13ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12963.jpg
+      icon: /icon/client-skills/bsfg.s12963.png
       level: '5'
       name: Бросок кинжала
       selection_id: ''
@@ -2887,7 +2887,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -14ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12963.jpg
+      icon: /icon/client-skills/bsfg.s12963.png
       level: '6'
       name: Бросок кинжала
       selection_id: ''
@@ -2913,7 +2913,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -15ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12963.jpg
+      icon: /icon/client-skills/bsfg.s12963.png
       level: '7'
       name: Бросок кинжала
       selection_id: ''
@@ -2943,7 +2943,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 9ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 260ед.'
-      icon: /icon/s12967.jpg
+      icon: /icon/client-skills/bsfg.s12967.png
       level: '1'
       name: Путешественник
       selection_id: ''
@@ -2969,7 +2969,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 10ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 300ед.'
-      icon: /icon/s12967.jpg
+      icon: /icon/client-skills/bsfg.s12967.png
       level: '2'
       name: Путешественник
       selection_id: ''
@@ -2995,7 +2995,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 11ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 340ед.'
-      icon: /icon/s12967.jpg
+      icon: /icon/client-skills/bsfg.s12967.png
       level: '3'
       name: Путешественник
       selection_id: ''
@@ -3021,7 +3021,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 12ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 380ед.'
-      icon: /icon/s12967.jpg
+      icon: /icon/client-skills/bsfg.s12967.png
       level: '4'
       name: Путешественник
       selection_id: ''
@@ -3047,7 +3047,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 13ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 420ед.'
-      icon: /icon/s12967.jpg
+      icon: /icon/client-skills/bsfg.s12967.png
       level: '5'
       name: Путешественник
       selection_id: ''
@@ -3073,7 +3073,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 14ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 460ед.'
-      icon: /icon/s12967.jpg
+      icon: /icon/client-skills/bsfg.s12967.png
       level: '6'
       name: Путешественник
       selection_id: ''
@@ -3099,7 +3099,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 15ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
-      icon: /icon/s12967.jpg
+      icon: /icon/client-skills/bsfg.s12967.png
       level: '7'
       name: Путешественник
       selection_id: ''
@@ -4637,7 +4637,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '1'
       name: Доблесть Убийц
       selection_id: ''
@@ -4655,7 +4655,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '2'
       name: Доблесть Убийц
       selection_id: ''
@@ -4673,7 +4673,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '3'
       name: Доблесть Убийц
       selection_id: ''
@@ -4691,7 +4691,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '4'
       name: Доблесть Убийц
       selection_id: ''
@@ -4709,7 +4709,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '5'
       name: Доблесть Убийц
       selection_id: ''
@@ -4727,7 +4727,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '6'
       name: Доблесть Убийц
       selection_id: ''
@@ -4745,7 +4745,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '7'
       name: Доблесть Убийц
       selection_id: ''
@@ -4763,7 +4763,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '8'
       name: Доблесть Убийц
       selection_id: ''
@@ -4781,7 +4781,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '9'
       name: Доблесть Убийц
       selection_id: ''
@@ -4799,7 +4799,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '10'
       name: Доблесть Убийц
       selection_id: ''
@@ -4817,7 +4817,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '11'
       name: Доблесть Убийц
       selection_id: ''
@@ -4835,7 +4835,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '12'
       name: Доблесть Убийц
       selection_id: ''
@@ -4853,7 +4853,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '13'
       name: Доблесть Убийц
       selection_id: ''
@@ -4871,7 +4871,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '14'
       name: Доблесть Убийц
       selection_id: ''
@@ -4889,7 +4889,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '15'
       name: Доблесть Убийц
       selection_id: ''
@@ -4907,7 +4907,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '16'
       name: Доблесть Убийц
       selection_id: ''
@@ -4925,7 +4925,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '17'
       name: Доблесть Убийц
       selection_id: ''
@@ -4943,7 +4943,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '18'
       name: Доблесть Убийц
       selection_id: ''
@@ -4961,7 +4961,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '19'
       name: Доблесть Убийц
       selection_id: ''
@@ -4979,7 +4979,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '20'
       name: Доблесть Убийц
       selection_id: ''
@@ -5383,7 +5383,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал): 5%'
       - kind: value
         text: 'Шанс получения предметов с монстров: 2%'
-      icon: /icon/Icon4/s_assassin_armor_change.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_assassin_armor_change.png
       level: '1'
       name: Опытный искатель
       selection_id: ''
@@ -5406,7 +5406,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 9ед.'
-      icon: /icon/s12977.jpg
+      icon: /icon/client-skills/bsfg.s12977.png
       level: '1'
       name: Жажда наживы
       selection_id: '2.1_0'
@@ -5428,7 +5428,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 9ед.'
-      icon: /icon/s13003.jpg
+      icon: /icon/client-skills/bsfg.s13003.png
       level: '1'
       name: Жажда наживы
       selection_id: '2.1_1'
@@ -5448,7 +5448,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 9ед.'
-      icon: /icon/s13016.jpg
+      icon: /icon/client-skills/bsfg.s13016.png
       level: '1'
       name: Жажда наживы
       selection_id: '2.1_2'
@@ -5468,7 +5468,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 10ед.'
-      icon: /icon/s12977.jpg
+      icon: /icon/client-skills/bsfg.s12977.png
       level: '2'
       name: Жажда наживы
       selection_id: '2.1_3'
@@ -5490,7 +5490,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 10ед.'
-      icon: /icon/s13003.jpg
+      icon: /icon/client-skills/bsfg.s13003.png
       level: '2'
       name: Жажда наживы
       selection_id: '2.1_4'
@@ -5510,7 +5510,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 10ед.'
-      icon: /icon/s13016.jpg
+      icon: /icon/client-skills/bsfg.s13016.png
       level: '2'
       name: Жажда наживы
       selection_id: '2.1_5'
@@ -5530,7 +5530,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 11ед.'
-      icon: /icon/s12977.jpg
+      icon: /icon/client-skills/bsfg.s12977.png
       level: '3'
       name: Жажда наживы
       selection_id: '2.1_1'
@@ -5552,7 +5552,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 11ед.'
-      icon: /icon/s13003.jpg
+      icon: /icon/client-skills/bsfg.s13003.png
       level: '3'
       name: Жажда наживы
       selection_id: '2.1_2'
@@ -5572,7 +5572,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 11ед.'
-      icon: /icon/s13016.jpg
+      icon: /icon/client-skills/bsfg.s13016.png
       level: '3'
       name: Жажда наживы
       selection_id: '2.1_3'
@@ -5592,7 +5592,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 12ед.'
-      icon: /icon/s12977.jpg
+      icon: /icon/client-skills/bsfg.s12977.png
       level: '4'
       name: Жажда наживы
       selection_id: '2.1_1'
@@ -5614,7 +5614,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 12ед.'
-      icon: /icon/s13003.jpg
+      icon: /icon/client-skills/bsfg.s13003.png
       level: '4'
       name: Жажда наживы
       selection_id: '2.1_2'
@@ -5634,7 +5634,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 12ед.'
-      icon: /icon/s13016.jpg
+      icon: /icon/client-skills/bsfg.s13016.png
       level: '4'
       name: Жажда наживы
       selection_id: '2.1_3'
@@ -5654,7 +5654,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 13ед.'
-      icon: /icon/s12977.jpg
+      icon: /icon/client-skills/bsfg.s12977.png
       level: '5'
       name: Жажда наживы
       selection_id: '2.1_1'
@@ -5676,7 +5676,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 13ед.'
-      icon: /icon/s13003.jpg
+      icon: /icon/client-skills/bsfg.s13003.png
       level: '5'
       name: Жажда наживы
       selection_id: '2.1_2'
@@ -5696,7 +5696,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 13ед.'
-      icon: /icon/s13016.jpg
+      icon: /icon/client-skills/bsfg.s13016.png
       level: '5'
       name: Жажда наживы
       selection_id: '2.1_3'
@@ -5716,7 +5716,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 14ед.'
-      icon: /icon/s12977.jpg
+      icon: /icon/client-skills/bsfg.s12977.png
       level: '6'
       name: Жажда наживы
       selection_id: '2.1_1'
@@ -5738,7 +5738,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 14ед.'
-      icon: /icon/s13003.jpg
+      icon: /icon/client-skills/bsfg.s13003.png
       level: '6'
       name: Жажда наживы
       selection_id: '2.1_2'
@@ -5758,7 +5758,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 14ед.'
-      icon: /icon/s13016.jpg
+      icon: /icon/client-skills/bsfg.s13016.png
       level: '6'
       name: Жажда наживы
       selection_id: '2.1_3'
@@ -5778,7 +5778,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 15ед.'
-      icon: /icon/s12977.jpg
+      icon: /icon/client-skills/bsfg.s12977.png
       level: '7'
       name: Жажда наживы
       selection_id: '2.1_1'
@@ -5800,7 +5800,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 15ед.'
-      icon: /icon/s13003.jpg
+      icon: /icon/client-skills/bsfg.s13003.png
       level: '7'
       name: Жажда наживы
       selection_id: '2.1_2'
@@ -5820,7 +5820,7 @@ profession:
         text: 'Бонус продажи в магазин: 5%'
       - kind: value
         text: 'Бонус получаемого жалования: 15ед.'
-      icon: /icon/s13016.jpg
+      icon: /icon/client-skills/bsfg.s13016.png
       level: '7'
       name: Жажда наживы
       selection_id: '2.1_3'
@@ -5836,7 +5836,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s12980.jpg
+      icon: /icon/client-skills/bsfg.s12980.png
       level: '1'
       name: Чувство смерти
       selection_id: '2.2_1'
@@ -5852,7 +5852,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13005.jpg
+      icon: /icon/client-skills/bsfg.s13005.png
       level: '1'
       name: Чувство смерти
       selection_id: '2.2_2'
@@ -5868,7 +5868,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13018.jpg
+      icon: /icon/client-skills/bsfg.s13018.png
       level: '1'
       name: Чувство смерти
       selection_id: '2.2_3'
@@ -5884,7 +5884,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s12980.jpg
+      icon: /icon/client-skills/bsfg.s12980.png
       level: '2'
       name: Чувство смерти
       selection_id: '2.2_1'
@@ -5900,7 +5900,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13005.jpg
+      icon: /icon/client-skills/bsfg.s13005.png
       level: '2'
       name: Чувство смерти
       selection_id: '2.2_2'
@@ -5916,7 +5916,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13018.jpg
+      icon: /icon/client-skills/bsfg.s13018.png
       level: '2'
       name: Чувство смерти
       selection_id: '2.2_3'
@@ -5932,7 +5932,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s12980.jpg
+      icon: /icon/client-skills/bsfg.s12980.png
       level: '3'
       name: Чувство смерти
       selection_id: '2.2_1'
@@ -5948,7 +5948,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13005.jpg
+      icon: /icon/client-skills/bsfg.s13005.png
       level: '3'
       name: Чувство смерти
       selection_id: '2.2_2'
@@ -5964,7 +5964,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13018.jpg
+      icon: /icon/client-skills/bsfg.s13018.png
       level: '3'
       name: Чувство смерти
       selection_id: '2.2_3'
@@ -5980,7 +5980,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s12980.jpg
+      icon: /icon/client-skills/bsfg.s12980.png
       level: '4'
       name: Чувство смерти
       selection_id: '2.2_1'
@@ -5996,7 +5996,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13005.jpg
+      icon: /icon/client-skills/bsfg.s13005.png
       level: '4'
       name: Чувство смерти
       selection_id: '2.2_2'
@@ -6012,7 +6012,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13018.jpg
+      icon: /icon/client-skills/bsfg.s13018.png
       level: '4'
       name: Чувство смерти
       selection_id: '2.2_3'
@@ -6028,7 +6028,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s12980.jpg
+      icon: /icon/client-skills/bsfg.s12980.png
       level: '5'
       name: Чувство смерти
       selection_id: '2.2_1'
@@ -6044,7 +6044,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13005.jpg
+      icon: /icon/client-skills/bsfg.s13005.png
       level: '5'
       name: Чувство смерти
       selection_id: '2.2_2'
@@ -6060,7 +6060,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13018.jpg
+      icon: /icon/client-skills/bsfg.s13018.png
       level: '5'
       name: Чувство смерти
       selection_id: '2.2_3'
@@ -6076,7 +6076,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s12980.jpg
+      icon: /icon/client-skills/bsfg.s12980.png
       level: '6'
       name: Чувство смерти
       selection_id: '2.2_1'
@@ -6092,7 +6092,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13005.jpg
+      icon: /icon/client-skills/bsfg.s13005.png
       level: '6'
       name: Чувство смерти
       selection_id: '2.2_2'
@@ -6108,7 +6108,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13018.jpg
+      icon: /icon/client-skills/bsfg.s13018.png
       level: '6'
       name: Чувство смерти
       selection_id: '2.2_3'
@@ -6124,7 +6124,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s12980.jpg
+      icon: /icon/client-skills/bsfg.s12980.png
       level: '7'
       name: Чувство смерти
       selection_id: '2.2_1'
@@ -6140,7 +6140,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13005.jpg
+      icon: /icon/client-skills/bsfg.s13005.png
       level: '7'
       name: Чувство смерти
       selection_id: '2.2_2'
@@ -6156,7 +6156,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 30 сек.'
-      icon: /icon/s13018.jpg
+      icon: /icon/client-skills/bsfg.s13018.png
       level: '7'
       name: Чувство смерти
       selection_id: '2.2_3'
@@ -6175,7 +6175,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12971.jpg
+      icon: /icon/client-skills/bsfg.s12971.png
       level: '1'
       name: Маскировка
       selection_id: '2.3_1'
@@ -6197,7 +6197,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12997.jpg
+      icon: /icon/client-skills/bsfg.s12997.png
       level: '1'
       name: Маскировка
       selection_id: '2.3_2'
@@ -6218,7 +6218,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 4 сек.'
-      icon: /icon/s13010.jpg
+      icon: /icon/client-skills/bsfg.s13010.png
       level: '1'
       name: Маскировка
       selection_id: '2.3_3'
@@ -6241,7 +6241,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12971.jpg
+      icon: /icon/client-skills/bsfg.s12971.png
       level: '2'
       name: Маскировка
       selection_id: '2.3_1'
@@ -6263,7 +6263,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12997.jpg
+      icon: /icon/client-skills/bsfg.s12997.png
       level: '2'
       name: Маскировка
       selection_id: '2.3_2'
@@ -6284,7 +6284,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 4 сек.'
-      icon: /icon/s13010.jpg
+      icon: /icon/client-skills/bsfg.s13010.png
       level: '2'
       name: Маскировка
       selection_id: '2.3_3'
@@ -6307,7 +6307,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12971.jpg
+      icon: /icon/client-skills/bsfg.s12971.png
       level: '3'
       name: Маскировка
       selection_id: '2.3_1'
@@ -6329,7 +6329,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12997.jpg
+      icon: /icon/client-skills/bsfg.s12997.png
       level: '3'
       name: Маскировка
       selection_id: '2.3_2'
@@ -6350,7 +6350,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 4 сек.'
-      icon: /icon/s13010.jpg
+      icon: /icon/client-skills/bsfg.s13010.png
       level: '3'
       name: Маскировка
       selection_id: '2.3_3'
@@ -6373,7 +6373,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12971.jpg
+      icon: /icon/client-skills/bsfg.s12971.png
       level: '4'
       name: Маскировка
       selection_id: '2.3_1'
@@ -6395,7 +6395,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12997.jpg
+      icon: /icon/client-skills/bsfg.s12997.png
       level: '4'
       name: Маскировка
       selection_id: '2.3_2'
@@ -6416,7 +6416,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 4 сек.'
-      icon: /icon/s13010.jpg
+      icon: /icon/client-skills/bsfg.s13010.png
       level: '4'
       name: Маскировка
       selection_id: '2.3_3'
@@ -6439,7 +6439,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12971.jpg
+      icon: /icon/client-skills/bsfg.s12971.png
       level: '5'
       name: Маскировка
       selection_id: '2.3_1'
@@ -6461,7 +6461,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12997.jpg
+      icon: /icon/client-skills/bsfg.s12997.png
       level: '5'
       name: Маскировка
       selection_id: '2.3_2'
@@ -6482,7 +6482,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 4 сек.'
-      icon: /icon/s13010.jpg
+      icon: /icon/client-skills/bsfg.s13010.png
       level: '5'
       name: Маскировка
       selection_id: '2.3_3'
@@ -6505,7 +6505,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12971.jpg
+      icon: /icon/client-skills/bsfg.s12971.png
       level: '6'
       name: Маскировка
       selection_id: '2.3_1'
@@ -6527,7 +6527,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12997.jpg
+      icon: /icon/client-skills/bsfg.s12997.png
       level: '6'
       name: Маскировка
       selection_id: '2.3_2'
@@ -6548,7 +6548,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 4 сек.'
-      icon: /icon/s13010.jpg
+      icon: /icon/client-skills/bsfg.s13010.png
       level: '6'
       name: Маскировка
       selection_id: '2.3_3'
@@ -6571,7 +6571,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12971.jpg
+      icon: /icon/client-skills/bsfg.s12971.png
       level: '7'
       name: Маскировка
       selection_id: '2.3_1'
@@ -6593,7 +6593,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/s12997.jpg
+      icon: /icon/client-skills/bsfg.s12997.png
       level: '7'
       name: Маскировка
       selection_id: '2.3_2'
@@ -6614,7 +6614,7 @@ profession:
         text: 'Удар из невидимости:'
       - kind: value
         text: 'Оглушение: 4 сек.'
-      icon: /icon/s13010.jpg
+      icon: /icon/client-skills/bsfg.s13010.png
       level: '7'
       name: Маскировка
       selection_id: '2.3_3'
@@ -6638,7 +6638,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s12985.jpg
+      icon: /icon/client-skills/bsfg.s12985.png
       level: '1'
       name: Парализующий прокол
       selection_id: '2.4_1'
@@ -6662,7 +6662,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13007.jpg
+      icon: /icon/client-skills/bsfg.s13007.png
       level: '1'
       name: Парализующий прокол
       selection_id: '2.4_2'
@@ -6688,7 +6688,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13020.jpg
+      icon: /icon/client-skills/bsfg.s13020.png
       level: '1'
       name: Парализующий прокол
       selection_id: '2.4_3'
@@ -6712,7 +6712,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s12985.jpg
+      icon: /icon/client-skills/bsfg.s12985.png
       level: '2'
       name: Парализующий прокол
       selection_id: '2.4_1'
@@ -6736,7 +6736,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13007.jpg
+      icon: /icon/client-skills/bsfg.s13007.png
       level: '2'
       name: Парализующий прокол
       selection_id: '2.4_2'
@@ -6762,7 +6762,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13020.jpg
+      icon: /icon/client-skills/bsfg.s13020.png
       level: '2'
       name: Парализующий прокол
       selection_id: '2.4_3'
@@ -6786,7 +6786,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s12985.jpg
+      icon: /icon/client-skills/bsfg.s12985.png
       level: '3'
       name: Парализующий прокол
       selection_id: '2.4_1'
@@ -6810,7 +6810,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13007.jpg
+      icon: /icon/client-skills/bsfg.s13007.png
       level: '3'
       name: Парализующий прокол
       selection_id: '2.4_2'
@@ -6836,7 +6836,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13020.jpg
+      icon: /icon/client-skills/bsfg.s13020.png
       level: '3'
       name: Парализующий прокол
       selection_id: '2.4_3'
@@ -6860,7 +6860,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s12985.jpg
+      icon: /icon/client-skills/bsfg.s12985.png
       level: '4'
       name: Парализующий прокол
       selection_id: '2.4_1'
@@ -6884,7 +6884,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13007.jpg
+      icon: /icon/client-skills/bsfg.s13007.png
       level: '4'
       name: Парализующий прокол
       selection_id: '2.4_2'
@@ -6910,7 +6910,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13020.jpg
+      icon: /icon/client-skills/bsfg.s13020.png
       level: '4'
       name: Парализующий прокол
       selection_id: '2.4_3'
@@ -6934,7 +6934,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s12985.jpg
+      icon: /icon/client-skills/bsfg.s12985.png
       level: '5'
       name: Парализующий прокол
       selection_id: '2.4_1'
@@ -6958,7 +6958,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13007.jpg
+      icon: /icon/client-skills/bsfg.s13007.png
       level: '5'
       name: Парализующий прокол
       selection_id: '2.4_2'
@@ -6984,7 +6984,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13020.jpg
+      icon: /icon/client-skills/bsfg.s13020.png
       level: '5'
       name: Парализующий прокол
       selection_id: '2.4_3'
@@ -7008,7 +7008,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s12985.jpg
+      icon: /icon/client-skills/bsfg.s12985.png
       level: '6'
       name: Парализующий прокол
       selection_id: '2.4_1'
@@ -7032,7 +7032,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13007.jpg
+      icon: /icon/client-skills/bsfg.s13007.png
       level: '6'
       name: Парализующий прокол
       selection_id: '2.4_2'
@@ -7058,7 +7058,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13020.jpg
+      icon: /icon/client-skills/bsfg.s13020.png
       level: '6'
       name: Парализующий прокол
       selection_id: '2.4_3'
@@ -7082,7 +7082,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s12985.jpg
+      icon: /icon/client-skills/bsfg.s12985.png
       level: '7'
       name: Парализующий прокол
       selection_id: '2.4_1'
@@ -7106,7 +7106,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13007.jpg
+      icon: /icon/client-skills/bsfg.s13007.png
       level: '7'
       name: Парализующий прокол
       selection_id: '2.4_2'
@@ -7132,7 +7132,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Действие паралича: 3 сек.'
-      icon: /icon/s13020.jpg
+      icon: /icon/client-skills/bsfg.s13020.png
       level: '7'
       name: Парализующий прокол
       selection_id: '2.4_3'
@@ -7167,7 +7167,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 40000ед.'
-      icon: /icon/s12973.jpg
+      icon: /icon/client-skills/bsfg.s12973.png
       level: '1'
       name: Воткнуть кинжал
       selection_id: '2.5_1'
@@ -7202,7 +7202,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 40000ед.'
-      icon: /icon/s12999.jpg
+      icon: /icon/client-skills/bsfg.s12999.png
       level: '1'
       name: Воткнуть кинжал
       selection_id: '2.5_2'
@@ -7234,7 +7234,7 @@ profession:
         text: 'Физическая защита (Любая броня): 52000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 52000ед.'
-      icon: /icon/s13012.jpg
+      icon: /icon/client-skills/bsfg.s13012.png
       level: '1'
       name: Воткнуть кинжал
       selection_id: '2.5_3'
@@ -7269,7 +7269,7 @@ profession:
         text: 'Физическая защита (Любая броня): 50000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 50000ед.'
-      icon: /icon/s12973.jpg
+      icon: /icon/client-skills/bsfg.s12973.png
       level: '2'
       name: Воткнуть кинжал
       selection_id: '2.5_1'
@@ -7304,7 +7304,7 @@ profession:
         text: 'Физическая защита (Любая броня): 50000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 50000ед.'
-      icon: /icon/s12999.jpg
+      icon: /icon/client-skills/bsfg.s12999.png
       level: '2'
       name: Воткнуть кинжал
       selection_id: '2.5_2'
@@ -7336,7 +7336,7 @@ profession:
         text: 'Физическая защита (Любая броня): 65000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 65000ед.'
-      icon: /icon/s13012.jpg
+      icon: /icon/client-skills/bsfg.s13012.png
       level: '2'
       name: Воткнуть кинжал
       selection_id: '2.5_3'
@@ -7371,7 +7371,7 @@ profession:
         text: 'Физическая защита (Любая броня): 60000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 60000ед.'
-      icon: /icon/s12973.jpg
+      icon: /icon/client-skills/bsfg.s12973.png
       level: '3'
       name: Воткнуть кинжал
       selection_id: '2.5_1'
@@ -7406,7 +7406,7 @@ profession:
         text: 'Физическая защита (Любая броня): 60000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 60000ед.'
-      icon: /icon/s12999.jpg
+      icon: /icon/client-skills/bsfg.s12999.png
       level: '3'
       name: Воткнуть кинжал
       selection_id: '2.5_2'
@@ -7438,7 +7438,7 @@ profession:
         text: 'Физическая защита (Любая броня): 78000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 78000ед.'
-      icon: /icon/s13012.jpg
+      icon: /icon/client-skills/bsfg.s13012.png
       level: '3'
       name: Воткнуть кинжал
       selection_id: '2.5_3'
@@ -7473,7 +7473,7 @@ profession:
         text: 'Физическая защита (Любая броня): 70000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 70000ед.'
-      icon: /icon/s12973.jpg
+      icon: /icon/client-skills/bsfg.s12973.png
       level: '4'
       name: Воткнуть кинжал
       selection_id: '2.5_1'
@@ -7508,7 +7508,7 @@ profession:
         text: 'Физическая защита (Любая броня): 70000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 70000ед.'
-      icon: /icon/s12999.jpg
+      icon: /icon/client-skills/bsfg.s12999.png
       level: '4'
       name: Воткнуть кинжал
       selection_id: '2.5_2'
@@ -7540,7 +7540,7 @@ profession:
         text: 'Физическая защита (Любая броня): 91000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 91000ед.'
-      icon: /icon/s13012.jpg
+      icon: /icon/client-skills/bsfg.s13012.png
       level: '4'
       name: Воткнуть кинжал
       selection_id: '2.5_3'
@@ -7575,7 +7575,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 80000ед.'
-      icon: /icon/s12973.jpg
+      icon: /icon/client-skills/bsfg.s12973.png
       level: '5'
       name: Воткнуть кинжал
       selection_id: '2.5_1'
@@ -7610,7 +7610,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 80000ед.'
-      icon: /icon/s12999.jpg
+      icon: /icon/client-skills/bsfg.s12999.png
       level: '5'
       name: Воткнуть кинжал
       selection_id: '2.5_2'
@@ -7642,7 +7642,7 @@ profession:
         text: 'Физическая защита (Любая броня): 104000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 104000ед.'
-      icon: /icon/s13012.jpg
+      icon: /icon/client-skills/bsfg.s13012.png
       level: '5'
       name: Воткнуть кинжал
       selection_id: '2.5_3'
@@ -7677,7 +7677,7 @@ profession:
         text: 'Физическая защита (Любая броня): 90000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 90000ед.'
-      icon: /icon/s12973.jpg
+      icon: /icon/client-skills/bsfg.s12973.png
       level: '6'
       name: Воткнуть кинжал
       selection_id: '2.5_1'
@@ -7712,7 +7712,7 @@ profession:
         text: 'Физическая защита (Любая броня): 90000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 90000ед.'
-      icon: /icon/s12999.jpg
+      icon: /icon/client-skills/bsfg.s12999.png
       level: '6'
       name: Воткнуть кинжал
       selection_id: '2.5_2'
@@ -7744,7 +7744,7 @@ profession:
         text: 'Физическая защита (Любая броня): 117000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 117000ед.'
-      icon: /icon/s13012.jpg
+      icon: /icon/client-skills/bsfg.s13012.png
       level: '6'
       name: Воткнуть кинжал
       selection_id: '2.5_3'
@@ -7779,7 +7779,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/s12973.jpg
+      icon: /icon/client-skills/bsfg.s12973.png
       level: '7'
       name: Воткнуть кинжал
       selection_id: '2.5_1'
@@ -7814,7 +7814,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/s12999.jpg
+      icon: /icon/client-skills/bsfg.s12999.png
       level: '7'
       name: Воткнуть кинжал
       selection_id: '2.5_2'
@@ -7846,7 +7846,7 @@ profession:
         text: 'Физическая защита (Любая броня): 130000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 130000ед.'
-      icon: /icon/s13012.jpg
+      icon: /icon/client-skills/bsfg.s13012.png
       level: '7'
       name: Воткнуть кинжал
       selection_id: '2.5_3'
@@ -7874,7 +7874,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s12978.jpg
+      icon: /icon/client-skills/bsfg.s12978.png
       level: '1'
       name: Алиби
       selection_id: '2.6_1'
@@ -7898,7 +7898,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13004.jpg
+      icon: /icon/client-skills/bsfg.s13004.png
       level: '1'
       name: Алиби
       selection_id: '2.6_2'
@@ -7924,7 +7924,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13017.jpg
+      icon: /icon/client-skills/bsfg.s13017.png
       level: '1'
       name: Алиби
       selection_id: '2.6_3'
@@ -7948,7 +7948,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s12978.jpg
+      icon: /icon/client-skills/bsfg.s12978.png
       level: '2'
       name: Алиби
       selection_id: '2.6_1'
@@ -7972,7 +7972,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13004.jpg
+      icon: /icon/client-skills/bsfg.s13004.png
       level: '2'
       name: Алиби
       selection_id: '2.6_2'
@@ -7998,7 +7998,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13017.jpg
+      icon: /icon/client-skills/bsfg.s13017.png
       level: '2'
       name: Алиби
       selection_id: '2.6_3'
@@ -8022,7 +8022,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s12978.jpg
+      icon: /icon/client-skills/bsfg.s12978.png
       level: '3'
       name: Алиби
       selection_id: '2.6_1'
@@ -8046,7 +8046,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13004.jpg
+      icon: /icon/client-skills/bsfg.s13004.png
       level: '3'
       name: Алиби
       selection_id: '2.6_2'
@@ -8072,7 +8072,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13017.jpg
+      icon: /icon/client-skills/bsfg.s13017.png
       level: '3'
       name: Алиби
       selection_id: '2.6_3'
@@ -8096,7 +8096,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s12978.jpg
+      icon: /icon/client-skills/bsfg.s12978.png
       level: '4'
       name: Алиби
       selection_id: '2.6_1'
@@ -8120,7 +8120,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13004.jpg
+      icon: /icon/client-skills/bsfg.s13004.png
       level: '4'
       name: Алиби
       selection_id: '2.6_2'
@@ -8146,7 +8146,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13017.jpg
+      icon: /icon/client-skills/bsfg.s13017.png
       level: '4'
       name: Алиби
       selection_id: '2.6_3'
@@ -8170,7 +8170,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s12978.jpg
+      icon: /icon/client-skills/bsfg.s12978.png
       level: '5'
       name: Алиби
       selection_id: '2.6_1'
@@ -8194,7 +8194,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13004.jpg
+      icon: /icon/client-skills/bsfg.s13004.png
       level: '5'
       name: Алиби
       selection_id: '2.6_2'
@@ -8220,7 +8220,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13017.jpg
+      icon: /icon/client-skills/bsfg.s13017.png
       level: '5'
       name: Алиби
       selection_id: '2.6_3'
@@ -8244,7 +8244,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s12978.jpg
+      icon: /icon/client-skills/bsfg.s12978.png
       level: '6'
       name: Алиби
       selection_id: '2.6_1'
@@ -8268,7 +8268,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13004.jpg
+      icon: /icon/client-skills/bsfg.s13004.png
       level: '6'
       name: Алиби
       selection_id: '2.6_2'
@@ -8294,7 +8294,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13017.jpg
+      icon: /icon/client-skills/bsfg.s13017.png
       level: '6'
       name: Алиби
       selection_id: '2.6_3'
@@ -8318,7 +8318,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s12978.jpg
+      icon: /icon/client-skills/bsfg.s12978.png
       level: '7'
       name: Алиби
       selection_id: '2.6_1'
@@ -8342,7 +8342,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13004.jpg
+      icon: /icon/client-skills/bsfg.s13004.png
       level: '7'
       name: Алиби
       selection_id: '2.6_2'
@@ -8368,7 +8368,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 150000ед.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 150000ед.'
-      icon: /icon/s13017.jpg
+      icon: /icon/client-skills/bsfg.s13017.png
       level: '7'
       name: Алиби
       selection_id: '2.6_3'
@@ -8380,7 +8380,7 @@ profession:
     - branch: one
       description: Усиление, при котором все физические автоатаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s12988.jpg
+      icon: /icon/client-skills/bsfg.s12988.png
       level: '1'
       name: Ультиматум убийцы
       selection_id: '2.7_1'
@@ -8396,7 +8396,7 @@ profession:
     - branch: two
       description: Усиление, при котором все магические атаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s13008.jpg
+      icon: /icon/client-skills/bsfg.s13008.png
       level: '1'
       name: Ультиматум убийцы
       selection_id: '2.7_2'
@@ -8415,7 +8415,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/s13009.jpg
+      icon: /icon/client-skills/bsfg.s13009.png
       level: '1'
       name: Ультиматум убийцы
       selection_id: '2.7_3'
@@ -8431,7 +8431,7 @@ profession:
     - branch: one
       description: Усиление, при котором все физические автоатаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s12988.jpg
+      icon: /icon/client-skills/bsfg.s12988.png
       level: '2'
       name: Ультиматум убийцы
       selection_id: '2.7_1'
@@ -8447,7 +8447,7 @@ profession:
     - branch: two
       description: Усиление, при котором все магические атаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s13008.jpg
+      icon: /icon/client-skills/bsfg.s13008.png
       level: '2'
       name: Ультиматум убийцы
       selection_id: '2.7_2'
@@ -8466,7 +8466,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/s13009.jpg
+      icon: /icon/client-skills/bsfg.s13009.png
       level: '2'
       name: Ультиматум убийцы
       selection_id: '2.7_3'
@@ -8482,7 +8482,7 @@ profession:
     - branch: one
       description: Усиление, при котором все физические автоатаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s12988.jpg
+      icon: /icon/client-skills/bsfg.s12988.png
       level: '3'
       name: Ультиматум убийцы
       selection_id: '2.7_1'
@@ -8498,7 +8498,7 @@ profession:
     - branch: two
       description: Усиление, при котором все магические атаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s13008.jpg
+      icon: /icon/client-skills/bsfg.s13008.png
       level: '3'
       name: Ультиматум убийцы
       selection_id: '2.7_2'
@@ -8517,7 +8517,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/s13009.jpg
+      icon: /icon/client-skills/bsfg.s13009.png
       level: '3'
       name: Ультиматум убийцы
       selection_id: '2.7_3'
@@ -8533,7 +8533,7 @@ profession:
     - branch: one
       description: Усиление, при котором все физические автоатаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s12988.jpg
+      icon: /icon/client-skills/bsfg.s12988.png
       level: '4'
       name: Ультиматум убийцы
       selection_id: '2.7_1'
@@ -8549,7 +8549,7 @@ profession:
     - branch: two
       description: Усиление, при котором все магические атаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s13008.jpg
+      icon: /icon/client-skills/bsfg.s13008.png
       level: '4'
       name: Ультиматум убийцы
       selection_id: '2.7_2'
@@ -8568,7 +8568,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/s13009.jpg
+      icon: /icon/client-skills/bsfg.s13009.png
       level: '4'
       name: Ультиматум убийцы
       selection_id: '2.7_3'
@@ -8584,7 +8584,7 @@ profession:
     - branch: one
       description: Усиление, при котором все физические автоатаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s12988.jpg
+      icon: /icon/client-skills/bsfg.s12988.png
       level: '5'
       name: Ультиматум убийцы
       selection_id: '2.7_1'
@@ -8600,7 +8600,7 @@ profession:
     - branch: two
       description: Усиление, при котором все магические атаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s13008.jpg
+      icon: /icon/client-skills/bsfg.s13008.png
       level: '5'
       name: Ультиматум убийцы
       selection_id: '2.7_2'
@@ -8619,7 +8619,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/s13009.jpg
+      icon: /icon/client-skills/bsfg.s13009.png
       level: '5'
       name: Ультиматум убийцы
       selection_id: '2.7_3'
@@ -8635,7 +8635,7 @@ profession:
     - branch: one
       description: Усиление, при котором все физические автоатаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s12988.jpg
+      icon: /icon/client-skills/bsfg.s12988.png
       level: '6'
       name: Ультиматум убийцы
       selection_id: '2.7_1'
@@ -8651,7 +8651,7 @@ profession:
     - branch: two
       description: Усиление, при котором все магические атаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s13008.jpg
+      icon: /icon/client-skills/bsfg.s13008.png
       level: '6'
       name: Ультиматум убийцы
       selection_id: '2.7_2'
@@ -8670,7 +8670,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/s13009.jpg
+      icon: /icon/client-skills/bsfg.s13009.png
       level: '6'
       name: Ультиматум убийцы
       selection_id: '2.7_3'
@@ -8686,7 +8686,7 @@ profession:
     - branch: one
       description: Усиление, при котором все физические автоатаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s12988.jpg
+      icon: /icon/client-skills/bsfg.s12988.png
       level: '7'
       name: Ультиматум убийцы
       selection_id: '2.7_1'
@@ -8702,7 +8702,7 @@ profession:
     - branch: two
       description: Усиление, при котором все магические атаки будут промахиваться по Вам.
       effects: []
-      icon: /icon/s13008.jpg
+      icon: /icon/client-skills/bsfg.s13008.png
       level: '7'
       name: Ультиматум убийцы
       selection_id: '2.7_2'
@@ -8721,7 +8721,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/s13009.jpg
+      icon: /icon/client-skills/bsfg.s13009.png
       level: '7'
       name: Ультиматум убийцы
       selection_id: '2.7_3'

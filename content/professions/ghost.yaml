@@ -3064,7 +3064,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 9%'
-      icon: /icon/skill1911.jpg
+      icon: /icon/client-skills/icon.skill1911.png
       level: '1'
       name: Уловка убийцы
       selection_id: ''
@@ -3079,7 +3079,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 10%'
-      icon: /icon/skill1911.jpg
+      icon: /icon/client-skills/icon.skill1911.png
       level: '2'
       name: Уловка убийцы
       selection_id: ''
@@ -3094,7 +3094,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 11%'
-      icon: /icon/skill1911.jpg
+      icon: /icon/client-skills/icon.skill1911.png
       level: '3'
       name: Уловка убийцы
       selection_id: ''
@@ -3109,7 +3109,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 12%'
-      icon: /icon/skill1911.jpg
+      icon: /icon/client-skills/icon.skill1911.png
       level: '4'
       name: Уловка убийцы
       selection_id: ''
@@ -3124,7 +3124,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 13%'
-      icon: /icon/skill1911.jpg
+      icon: /icon/client-skills/icon.skill1911.png
       level: '5'
       name: Уловка убийцы
       selection_id: ''
@@ -3139,7 +3139,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 14%'
-      icon: /icon/skill1911.jpg
+      icon: /icon/client-skills/icon.skill1911.png
       level: '6'
       name: Уловка убийцы
       selection_id: ''
@@ -3160,7 +3160,7 @@ profession:
         text: 'Время действия: 7 сек.'
       - kind: value
         text: 'Магическая защита (Легкая броня): 15%'
-      icon: /icon/skill1911.jpg
+      icon: /icon/client-skills/icon.skill1911.png
       level: '7'
       name: Уловка убийцы
       selection_id: ''
@@ -4565,7 +4565,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '1'
       name: Доблесть Убийц
       selection_id: ''
@@ -4583,7 +4583,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '2'
       name: Доблесть Убийц
       selection_id: ''
@@ -4601,7 +4601,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '3'
       name: Доблесть Убийц
       selection_id: ''
@@ -4619,7 +4619,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '4'
       name: Доблесть Убийц
       selection_id: ''
@@ -4637,7 +4637,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '5'
       name: Доблесть Убийц
       selection_id: ''
@@ -4655,7 +4655,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '6'
       name: Доблесть Убийц
       selection_id: ''
@@ -4673,7 +4673,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '7'
       name: Доблесть Убийц
       selection_id: ''
@@ -4691,7 +4691,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '8'
       name: Доблесть Убийц
       selection_id: ''
@@ -4709,7 +4709,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '9'
       name: Доблесть Убийц
       selection_id: ''
@@ -4727,7 +4727,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '10'
       name: Доблесть Убийц
       selection_id: ''
@@ -4745,7 +4745,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '11'
       name: Доблесть Убийц
       selection_id: ''
@@ -4763,7 +4763,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '12'
       name: Доблесть Убийц
       selection_id: ''
@@ -4781,7 +4781,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '13'
       name: Доблесть Убийц
       selection_id: ''
@@ -4799,7 +4799,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '14'
       name: Доблесть Убийц
       selection_id: ''
@@ -4817,7 +4817,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '15'
       name: Доблесть Убийц
       selection_id: ''
@@ -4835,7 +4835,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '16'
       name: Доблесть Убийц
       selection_id: ''
@@ -4853,7 +4853,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '17'
       name: Доблесть Убийц
       selection_id: ''
@@ -4871,7 +4871,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '18'
       name: Доблесть Убийц
       selection_id: ''
@@ -4889,7 +4889,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '19'
       name: Доблесть Убийц
       selection_id: ''
@@ -4907,7 +4907,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '20'
       name: Доблесть Убийц
       selection_id: ''
@@ -5335,7 +5335,7 @@ profession:
         критических ударов на 10%. Повторное использование погурзит врага в мир теней на 10 секунд. Пассивно:
         при убийстве вражеского игрока сбрасывает откат *Мира теней*.'
       effects: []
-      icon: /icon/Icon4/born_to_be_death.jpg
+      icon: /icon/client-skills/icon4.l2icon.born_to_be_death.png
       level: '1'
       name: Мир теней
       selection_id: ''
@@ -6677,7 +6677,7 @@ profession:
         text: 'Если запас здоровья противника меньше 50%:'
       - kind: value
         text: 'Паралич: 3 сек.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '1'
       name: Призрачная атака
       selection_id: '2.4_1'
@@ -6701,7 +6701,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '1'
       name: Призрачная атака
       selection_id: '2.4_2'
@@ -6725,7 +6725,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '1'
       name: Призрачная атака
       selection_id: '2.4_3'
@@ -6753,7 +6753,7 @@ profession:
         text: 'Если запас здоровья противника меньше 50%:'
       - kind: value
         text: 'Паралич: 3 сек.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '2'
       name: Призрачная атака
       selection_id: '2.4_1'
@@ -6777,7 +6777,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Фиксированный урон: 1400ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '2'
       name: Призрачная атака
       selection_id: '2.4_2'
@@ -6801,7 +6801,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Фиксированный урон: 1400ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '2'
       name: Призрачная атака
       selection_id: '2.4_3'
@@ -6829,7 +6829,7 @@ profession:
         text: 'Если запас здоровья противника меньше 50%:'
       - kind: value
         text: 'Паралич: 3 сек.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '3'
       name: Призрачная атака
       selection_id: '2.4_1'
@@ -6853,7 +6853,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Фиксированный урон: 1600ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '3'
       name: Призрачная атака
       selection_id: '2.4_2'
@@ -6877,7 +6877,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Фиксированный урон: 1600ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '3'
       name: Призрачная атака
       selection_id: '2.4_3'
@@ -6905,7 +6905,7 @@ profession:
         text: 'Если запас здоровья противника меньше 50%:'
       - kind: value
         text: 'Паралич: 3 сек.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '4'
       name: Призрачная атака
       selection_id: '2.4_1'
@@ -6929,7 +6929,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Фиксированный урон: 1800ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '4'
       name: Призрачная атака
       selection_id: '2.4_2'
@@ -6953,7 +6953,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Фиксированный урон: 1800ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '4'
       name: Призрачная атака
       selection_id: '2.4_3'
@@ -6981,7 +6981,7 @@ profession:
         text: 'Если запас здоровья противника меньше 50%:'
       - kind: value
         text: 'Паралич: 3 сек.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '5'
       name: Призрачная атака
       selection_id: '2.4_1'
@@ -7005,7 +7005,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Фиксированный урон: 2000ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '5'
       name: Призрачная атака
       selection_id: '2.4_2'
@@ -7029,7 +7029,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Фиксированный урон: 2000ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '5'
       name: Призрачная атака
       selection_id: '2.4_3'
@@ -7057,7 +7057,7 @@ profession:
         text: 'Если запас здоровья противника меньше 50%:'
       - kind: value
         text: 'Паралич: 3 сек.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '6'
       name: Призрачная атака
       selection_id: '2.4_1'
@@ -7081,7 +7081,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Фиксированный урон: 2200ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '6'
       name: Призрачная атака
       selection_id: '2.4_2'
@@ -7105,7 +7105,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Фиксированный урон: 2200ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '6'
       name: Призрачная атака
       selection_id: '2.4_3'
@@ -7137,7 +7137,7 @@ profession:
         text: 'Если запас здоровья противника меньше 50%:'
       - kind: value
         text: 'Паралич: 3 сек.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '7'
       name: Призрачная атака
       selection_id: '2.4_1'
@@ -7161,7 +7161,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 2400ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '7'
       name: Призрачная атака
       selection_id: '2.4_2'
@@ -7185,7 +7185,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 2400ед.'
-      icon: /icon/skill1559.jpg
+      icon: /icon/client-skills/icon.skill1559.png
       level: '7'
       name: Призрачная атака
       selection_id: '2.4_3'
@@ -7201,7 +7201,7 @@ profession:
     - branch: one
       description: Позволяет создать щит из маны, который поглотит следующих 4 урона. Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '1'
       name: Щит из маны
       selection_id: '2.5_1'
@@ -7216,7 +7216,7 @@ profession:
     - branch: two
       description: Позволяет создать щит из маны, который поглотит следующих 3 урона. Средний откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '1'
       name: Щит из маны
       selection_id: '2.5_2'
@@ -7232,7 +7232,7 @@ profession:
       description: Позволяет создать щит из маны, который поглотит следующих 2 урона. Не требует ману.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '1'
       name: Щит из маны
       selection_id: '2.5_3'
@@ -7247,7 +7247,7 @@ profession:
     - branch: one
       description: Позволяет создать щит из маны, который поглотит следующих 4 урона. Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '2'
       name: Щит из маны
       selection_id: '2.5_1'
@@ -7262,7 +7262,7 @@ profession:
     - branch: two
       description: Позволяет создать щит из маны, который поглотит следующих 3 урона. Средний откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '2'
       name: Щит из маны
       selection_id: '2.5_2'
@@ -7278,7 +7278,7 @@ profession:
       description: Позволяет создать щит из маны, который поглотит следующих 2 урона. Не требует ману.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '2'
       name: Щит из маны
       selection_id: '2.5_3'
@@ -7293,7 +7293,7 @@ profession:
     - branch: one
       description: Позволяет создать щит из маны, который поглотит следующих 4 урона. Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '3'
       name: Щит из маны
       selection_id: '2.5_1'
@@ -7308,7 +7308,7 @@ profession:
     - branch: two
       description: Позволяет создать щит из маны, который поглотит следующих 3 урона. Средний откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '3'
       name: Щит из маны
       selection_id: '2.5_2'
@@ -7324,7 +7324,7 @@ profession:
       description: Позволяет создать щит из маны, который поглотит следующих 2 урона. Не требует ману.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '3'
       name: Щит из маны
       selection_id: '2.5_3'
@@ -7339,7 +7339,7 @@ profession:
     - branch: one
       description: Позволяет создать щит из маны, который поглотит следующих 4 урона. Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '4'
       name: Щит из маны
       selection_id: '2.5_1'
@@ -7354,7 +7354,7 @@ profession:
     - branch: two
       description: Позволяет создать щит из маны, который поглотит следующих 3 урона. Средний откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '4'
       name: Щит из маны
       selection_id: '2.5_2'
@@ -7370,7 +7370,7 @@ profession:
       description: Позволяет создать щит из маны, который поглотит следующих 2 урона. Не требует ману.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '4'
       name: Щит из маны
       selection_id: '2.5_3'
@@ -7385,7 +7385,7 @@ profession:
     - branch: one
       description: Позволяет создать щит из маны, который поглотит следующих 4 урона. Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '5'
       name: Щит из маны
       selection_id: '2.5_1'
@@ -7400,7 +7400,7 @@ profession:
     - branch: two
       description: Позволяет создать щит из маны, который поглотит следующих 3 урона. Средний откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '5'
       name: Щит из маны
       selection_id: '2.5_2'
@@ -7416,7 +7416,7 @@ profession:
       description: Позволяет создать щит из маны, который поглотит следующих 2 урона. Не требует ману.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '5'
       name: Щит из маны
       selection_id: '2.5_3'
@@ -7431,7 +7431,7 @@ profession:
     - branch: one
       description: Позволяет создать щит из маны, который поглотит следующих 4 урона. Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '6'
       name: Щит из маны
       selection_id: '2.5_1'
@@ -7446,7 +7446,7 @@ profession:
     - branch: two
       description: Позволяет создать щит из маны, который поглотит следующих 3 урона. Средний откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '6'
       name: Щит из маны
       selection_id: '2.5_2'
@@ -7462,7 +7462,7 @@ profession:
       description: Позволяет создать щит из маны, который поглотит следующих 2 урона. Не требует ману.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '6'
       name: Щит из маны
       selection_id: '2.5_3'
@@ -7483,7 +7483,7 @@ profession:
         text: 'Магическая защита (Легкая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 15 сек.'
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '7'
       name: Щит из маны
       selection_id: '2.5_1'
@@ -7498,7 +7498,7 @@ profession:
     - branch: two
       description: Позволяет создать щит из маны, который поглотит следующих 3 урона. Средний откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '7'
       name: Щит из маны
       selection_id: '2.5_2'
@@ -7514,7 +7514,7 @@ profession:
       description: Позволяет создать щит из маны, который поглотит следующих 2 урона. Не требует ману.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill6319.jpg
+      icon: /icon/client-skills/icon.skill6319.png
       level: '7'
       name: Щит из маны
       selection_id: '2.5_3'
@@ -7534,7 +7534,7 @@ profession:
         text: 'Фиксированный урон: 3000ед.'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '1'
       name: Зеркальное отражение
       selection_id: '2.6_1'
@@ -7559,7 +7559,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '1'
       name: Зеркальное отражение
       selection_id: '2.6_2'
@@ -7587,7 +7587,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '1'
       name: Зеркальное отражение
       selection_id: '2.6_3'
@@ -7609,7 +7609,7 @@ profession:
         text: 'Фиксированный урон: 3750ед.'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '2'
       name: Зеркальное отражение
       selection_id: '2.6_1'
@@ -7634,7 +7634,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '2'
       name: Зеркальное отражение
       selection_id: '2.6_2'
@@ -7662,7 +7662,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '2'
       name: Зеркальное отражение
       selection_id: '2.6_3'
@@ -7684,7 +7684,7 @@ profession:
         text: 'Фиксированный урон: 4500ед.'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '3'
       name: Зеркальное отражение
       selection_id: '2.6_1'
@@ -7709,7 +7709,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '3'
       name: Зеркальное отражение
       selection_id: '2.6_2'
@@ -7737,7 +7737,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '3'
       name: Зеркальное отражение
       selection_id: '2.6_3'
@@ -7759,7 +7759,7 @@ profession:
         text: 'Фиксированный урон: 5250ед.'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '4'
       name: Зеркальное отражение
       selection_id: '2.6_1'
@@ -7784,7 +7784,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '4'
       name: Зеркальное отражение
       selection_id: '2.6_2'
@@ -7812,7 +7812,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '4'
       name: Зеркальное отражение
       selection_id: '2.6_3'
@@ -7834,7 +7834,7 @@ profession:
         text: 'Фиксированный урон: 6000ед.'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '5'
       name: Зеркальное отражение
       selection_id: '2.6_1'
@@ -7859,7 +7859,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '5'
       name: Зеркальное отражение
       selection_id: '2.6_2'
@@ -7887,7 +7887,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '5'
       name: Зеркальное отражение
       selection_id: '2.6_3'
@@ -7909,7 +7909,7 @@ profession:
         text: 'Фиксированный урон: 6750ед.'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '6'
       name: Зеркальное отражение
       selection_id: '2.6_1'
@@ -7934,7 +7934,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '6'
       name: Зеркальное отражение
       selection_id: '2.6_2'
@@ -7962,7 +7962,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '6'
       name: Зеркальное отражение
       selection_id: '2.6_3'
@@ -7984,7 +7984,7 @@ profession:
         text: 'Фиксированный урон: 7500ед.'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '7'
       name: Зеркальное отражение
       selection_id: '2.6_1'
@@ -8009,7 +8009,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '7'
       name: Зеркальное отражение
       selection_id: '2.6_2'
@@ -8037,7 +8037,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '7'
       name: Зеркальное отражение
       selection_id: '2.6_3'

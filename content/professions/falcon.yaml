@@ -802,7 +802,7 @@ profession:
         text: 'Задержка между выстрелами (Легкая броня): -65%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0473.jpg
+      icon: /icon/client-skills/icon.skill0473.png
       level: '1'
       name: Арбалестер
       selection_id: ''
@@ -825,7 +825,7 @@ profession:
         text: 'Задержка между выстрелами (Легкая броня): -70%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0473.jpg
+      icon: /icon/client-skills/icon.skill0473.png
       level: '2'
       name: Арбалестер
       selection_id: ''
@@ -848,7 +848,7 @@ profession:
         text: 'Задержка между выстрелами (Легкая броня): -75%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0473.jpg
+      icon: /icon/client-skills/icon.skill0473.png
       level: '3'
       name: Арбалестер
       selection_id: ''
@@ -871,7 +871,7 @@ profession:
         text: 'Задержка между выстрелами (Легкая броня): -80%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0473.jpg
+      icon: /icon/client-skills/icon.skill0473.png
       level: '4'
       name: Арбалестер
       selection_id: ''
@@ -894,7 +894,7 @@ profession:
         text: 'Задержка между выстрелами (Легкая броня): -85%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0473.jpg
+      icon: /icon/client-skills/icon.skill0473.png
       level: '5'
       name: Арбалестер
       selection_id: ''
@@ -917,7 +917,7 @@ profession:
         text: 'Задержка между выстрелами (Легкая броня): -90%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0473.jpg
+      icon: /icon/client-skills/icon.skill0473.png
       level: '6'
       name: Арбалестер
       selection_id: ''
@@ -940,7 +940,7 @@ profession:
         text: 'Задержка между выстрелами (Легкая броня): -95%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0473.jpg
+      icon: /icon/client-skills/icon.skill0473.png
       level: '7'
       name: Арбалестер
       selection_id: ''
@@ -1226,7 +1226,7 @@ profession:
         text: 'Эффект вампиризма:'
       - kind: value
         text: 'Здоровье: 2000ед.'
-      icon: /icon/skill0506.jpg
+      icon: /icon/client-skills/icon.skill0506.png
       level: '1'
       name: Заряд вампира
       selection_id: ''
@@ -1243,7 +1243,7 @@ profession:
         text: 'Эффект вампиризма:'
       - kind: value
         text: 'Здоровье: 2250ед.'
-      icon: /icon/skill0506.jpg
+      icon: /icon/client-skills/icon.skill0506.png
       level: '2'
       name: Заряд вампира
       selection_id: ''
@@ -1260,7 +1260,7 @@ profession:
         text: 'Эффект вампиризма:'
       - kind: value
         text: 'Здоровье: 2500ед.'
-      icon: /icon/skill0506.jpg
+      icon: /icon/client-skills/icon.skill0506.png
       level: '3'
       name: Заряд вампира
       selection_id: ''
@@ -1277,7 +1277,7 @@ profession:
         text: 'Эффект вампиризма:'
       - kind: value
         text: 'Здоровье: 2750ед.'
-      icon: /icon/skill0506.jpg
+      icon: /icon/client-skills/icon.skill0506.png
       level: '4'
       name: Заряд вампира
       selection_id: ''
@@ -1294,7 +1294,7 @@ profession:
         text: 'Эффект вампиризма:'
       - kind: value
         text: 'Здоровье: 3000ед.'
-      icon: /icon/skill0506.jpg
+      icon: /icon/client-skills/icon.skill0506.png
       level: '5'
       name: Заряд вампира
       selection_id: ''
@@ -1311,7 +1311,7 @@ profession:
         text: 'Эффект вампиризма:'
       - kind: value
         text: 'Здоровье: 3250ед.'
-      icon: /icon/skill0506.jpg
+      icon: /icon/client-skills/icon.skill0506.png
       level: '6'
       name: Заряд вампира
       selection_id: ''
@@ -1328,7 +1328,7 @@ profession:
         text: 'Эффект вампиризма:'
       - kind: value
         text: 'Здоровье: 3500ед.'
-      icon: /icon/skill0506.jpg
+      icon: /icon/client-skills/icon.skill0506.png
       level: '7'
       name: Заряд вампира
       selection_id: ''
@@ -2903,7 +2903,7 @@ profession:
         text: 'Скорость атаки с оружием (Арбалет): 1%'
       - kind: value
         text: 'Сила крит. урона с оружием (Арбалет): 1%'
-      icon: /icon/skill10762.jpg
+      icon: /icon/client-skills/icon.skill10762.png
       level: '1'
       name: Месть сокола
       selection_id: ''
@@ -2931,7 +2931,7 @@ profession:
         text: 'Скорость атаки с оружием (Арбалет): 2%'
       - kind: value
         text: 'Сила крит. урона с оружием (Арбалет): 2%'
-      icon: /icon/skill10762.jpg
+      icon: /icon/client-skills/icon.skill10762.png
       level: '2'
       name: Месть сокола
       selection_id: ''
@@ -2959,7 +2959,7 @@ profession:
         text: 'Скорость атаки с оружием (Арбалет): 3%'
       - kind: value
         text: 'Сила крит. урона с оружием (Арбалет): 3%'
-      icon: /icon/skill10762.jpg
+      icon: /icon/client-skills/icon.skill10762.png
       level: '3'
       name: Месть сокола
       selection_id: ''
@@ -2987,7 +2987,7 @@ profession:
         text: 'Скорость атаки с оружием (Арбалет): 4%'
       - kind: value
         text: 'Сила крит. урона с оружием (Арбалет): 4%'
-      icon: /icon/skill10762.jpg
+      icon: /icon/client-skills/icon.skill10762.png
       level: '4'
       name: Месть сокола
       selection_id: ''
@@ -3015,7 +3015,7 @@ profession:
         text: 'Скорость атаки с оружием (Арбалет): 5%'
       - kind: value
         text: 'Сила крит. урона с оружием (Арбалет): 5%'
-      icon: /icon/skill10762.jpg
+      icon: /icon/client-skills/icon.skill10762.png
       level: '5'
       name: Месть сокола
       selection_id: ''
@@ -3043,7 +3043,7 @@ profession:
         text: 'Скорость атаки с оружием (Арбалет): 6%'
       - kind: value
         text: 'Сила крит. урона с оружием (Арбалет): 6%'
-      icon: /icon/skill10762.jpg
+      icon: /icon/client-skills/icon.skill10762.png
       level: '6'
       name: Месть сокола
       selection_id: ''
@@ -3071,7 +3071,7 @@ profession:
         text: 'Скорость атаки с оружием (Арбалет): 7%'
       - kind: value
         text: 'Сила крит. урона с оружием (Арбалет): 7%'
-      icon: /icon/skill10762.jpg
+      icon: /icon/client-skills/icon.skill10762.png
       level: '7'
       name: Месть сокола
       selection_id: ''
@@ -3091,7 +3091,7 @@ profession:
         text: 'Сила физического умения: 112'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '1'
       name: Двойной выстрел
       selection_id: ''
@@ -3115,7 +3115,7 @@ profession:
         text: 'Сила физического умения: 115'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '2'
       name: Двойной выстрел
       selection_id: ''
@@ -3139,7 +3139,7 @@ profession:
         text: 'Сила физического умения: 118'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '3'
       name: Двойной выстрел
       selection_id: ''
@@ -3163,7 +3163,7 @@ profession:
         text: 'Сила физического умения: 121'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '4'
       name: Двойной выстрел
       selection_id: ''
@@ -3187,7 +3187,7 @@ profession:
         text: 'Сила физического умения: 124'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '5'
       name: Двойной выстрел
       selection_id: ''
@@ -3211,7 +3211,7 @@ profession:
         text: 'Сила физического умения: 127'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '6'
       name: Двойной выстрел
       selection_id: ''
@@ -3235,7 +3235,7 @@ profession:
         text: 'Сила физического умения: 130'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0019.jpg
+      icon: /icon/client-skills/icon.skill0019.png
       level: '7'
       name: Двойной выстрел
       selection_id: ''
@@ -4353,7 +4353,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '1'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4367,7 +4367,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '2'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4381,7 +4381,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '3'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4395,7 +4395,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '4'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4409,7 +4409,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '5'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4423,7 +4423,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '6'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4437,7 +4437,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '7'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4451,7 +4451,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '8'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4465,7 +4465,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '9'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4479,7 +4479,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '10'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4493,7 +4493,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '11'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4507,7 +4507,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '12'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4521,7 +4521,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '13'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4535,7 +4535,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '14'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4549,7 +4549,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '15'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4563,7 +4563,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '16'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4577,7 +4577,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '17'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4591,7 +4591,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '18'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4605,7 +4605,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '19'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4619,7 +4619,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '20'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4920,7 +4920,7 @@ profession:
         text: 'Физическая атака (Арбалет): 8%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10955.jpg
+      icon: /icon/client-skills/icon.skill10955.png
       level: '1'
       name: Сокол
       selection_id: ''
@@ -4941,7 +4941,7 @@ profession:
         text: 'Физическая атака (Арбалет): 10%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10955.jpg
+      icon: /icon/client-skills/icon.skill10955.png
       level: '2'
       name: Сокол
       selection_id: ''
@@ -4962,7 +4962,7 @@ profession:
         text: 'Физическая атака (Арбалет): 12%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10955.jpg
+      icon: /icon/client-skills/icon.skill10955.png
       level: '3'
       name: Сокол
       selection_id: ''
@@ -4983,7 +4983,7 @@ profession:
         text: 'Физическая атака (Арбалет): 14%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10955.jpg
+      icon: /icon/client-skills/icon.skill10955.png
       level: '4'
       name: Сокол
       selection_id: ''
@@ -5004,7 +5004,7 @@ profession:
         text: 'Физическая атака (Арбалет): 16%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10955.jpg
+      icon: /icon/client-skills/icon.skill10955.png
       level: '5'
       name: Сокол
       selection_id: ''
@@ -5025,7 +5025,7 @@ profession:
         text: 'Физическая атака (Арбалет): 18%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10955.jpg
+      icon: /icon/client-skills/icon.skill10955.png
       level: '6'
       name: Сокол
       selection_id: ''
@@ -5046,7 +5046,7 @@ profession:
         text: 'Физическая атака (Арбалет): 20%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10955.jpg
+      icon: /icon/client-skills/icon.skill10955.png
       level: '7'
       name: Сокол
       selection_id: ''
@@ -5060,7 +5060,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Арбалет): 15%'
-      icon: /icon/Icon4/skill30951.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill30951.png
       level: '1'
       name: Стальные когти
       selection_id: ''
@@ -5084,7 +5084,7 @@ profession:
         text: 'Физическая атака (Все): 9%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '1'
       name: Сапсан
       selection_id: '2.1_0'
@@ -5111,7 +5111,7 @@ profession:
         text: 'Магическая защита (Любая броня): 9%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '1'
       name: Сапсан
       selection_id: '2.1_1'
@@ -5140,7 +5140,7 @@ profession:
         text: 'Магическая защита (Любая броня): 5%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '1'
       name: Сапсан
       selection_id: '2.1_2'
@@ -5165,7 +5165,7 @@ profession:
         text: 'Физическая атака (Все): 10%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '2'
       name: Сапсан
       selection_id: '2.1_3'
@@ -5192,7 +5192,7 @@ profession:
         text: 'Магическая защита (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '2'
       name: Сапсан
       selection_id: '2.1_4'
@@ -5221,7 +5221,7 @@ profession:
         text: 'Магическая защита (Любая броня): 5.5%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '2'
       name: Сапсан
       selection_id: '2.1_5'
@@ -5246,7 +5246,7 @@ profession:
         text: 'Физическая атака (Все): 11%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '3'
       name: Сапсан
       selection_id: '2.1_1'
@@ -5273,7 +5273,7 @@ profession:
         text: 'Магическая защита (Любая броня): 11%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '3'
       name: Сапсан
       selection_id: '2.1_2'
@@ -5302,7 +5302,7 @@ profession:
         text: 'Магическая защита (Любая броня): 6%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '3'
       name: Сапсан
       selection_id: '2.1_3'
@@ -5327,7 +5327,7 @@ profession:
         text: 'Физическая атака (Все): 12%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '4'
       name: Сапсан
       selection_id: '2.1_1'
@@ -5354,7 +5354,7 @@ profession:
         text: 'Магическая защита (Любая броня): 12%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '4'
       name: Сапсан
       selection_id: '2.1_2'
@@ -5383,7 +5383,7 @@ profession:
         text: 'Магическая защита (Любая броня): 6.5%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '4'
       name: Сапсан
       selection_id: '2.1_3'
@@ -5408,7 +5408,7 @@ profession:
         text: 'Физическая атака (Все): 13%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '5'
       name: Сапсан
       selection_id: '2.1_1'
@@ -5435,7 +5435,7 @@ profession:
         text: 'Магическая защита (Любая броня): 13%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '5'
       name: Сапсан
       selection_id: '2.1_2'
@@ -5464,7 +5464,7 @@ profession:
         text: 'Магическая защита (Любая броня): 7%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '5'
       name: Сапсан
       selection_id: '2.1_3'
@@ -5489,7 +5489,7 @@ profession:
         text: 'Физическая атака (Все): 14%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '6'
       name: Сапсан
       selection_id: '2.1_1'
@@ -5516,7 +5516,7 @@ profession:
         text: 'Магическая защита (Любая броня): 14%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '6'
       name: Сапсан
       selection_id: '2.1_2'
@@ -5545,7 +5545,7 @@ profession:
         text: 'Магическая защита (Любая броня): 7.5%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '6'
       name: Сапсан
       selection_id: '2.1_3'
@@ -5570,7 +5570,7 @@ profession:
         text: 'Физическая атака (Все): 15%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '7'
       name: Сапсан
       selection_id: '2.1_1'
@@ -5597,7 +5597,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '7'
       name: Сапсан
       selection_id: '2.1_2'
@@ -5626,7 +5626,7 @@ profession:
         text: 'Магическая защита (Любая броня): 8%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill0499.jpg
+      icon: /icon/client-skills/icon.skill0499.png
       level: '7'
       name: Сапсан
       selection_id: '2.1_3'
@@ -5667,7 +5667,7 @@ profession:
         text: 'Здоровье: 400ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '1'
       name: Защитный прием
       selection_id: '2.2_1'
@@ -5704,7 +5704,7 @@ profession:
         text: 'Боевой дух: 500'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '1'
       name: Защитный прием
       selection_id: '2.2_2'
@@ -5743,7 +5743,7 @@ profession:
         text: 'Здоровье: 250ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '1'
       name: Защитный прием
       selection_id: '2.2_3'
@@ -5780,7 +5780,7 @@ profession:
         text: 'Здоровье: 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '2'
       name: Защитный прием
       selection_id: '2.2_1'
@@ -5817,7 +5817,7 @@ profession:
         text: 'Боевой дух: 625'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '2'
       name: Защитный прием
       selection_id: '2.2_2'
@@ -5856,7 +5856,7 @@ profession:
         text: 'Здоровье: 300ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '2'
       name: Защитный прием
       selection_id: '2.2_3'
@@ -5893,7 +5893,7 @@ profession:
         text: 'Здоровье: 600ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '3'
       name: Защитный прием
       selection_id: '2.2_1'
@@ -5930,7 +5930,7 @@ profession:
         text: 'Боевой дух: 750'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '3'
       name: Защитный прием
       selection_id: '2.2_2'
@@ -5969,7 +5969,7 @@ profession:
         text: 'Здоровье: 350ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '3'
       name: Защитный прием
       selection_id: '2.2_3'
@@ -6006,7 +6006,7 @@ profession:
         text: 'Здоровье: 700ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '4'
       name: Защитный прием
       selection_id: '2.2_1'
@@ -6043,7 +6043,7 @@ profession:
         text: 'Боевой дух: 875'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '4'
       name: Защитный прием
       selection_id: '2.2_2'
@@ -6082,7 +6082,7 @@ profession:
         text: 'Здоровье: 400ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '4'
       name: Защитный прием
       selection_id: '2.2_3'
@@ -6119,7 +6119,7 @@ profession:
         text: 'Здоровье: 800ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '5'
       name: Защитный прием
       selection_id: '2.2_1'
@@ -6156,7 +6156,7 @@ profession:
         text: 'Боевой дух: 1000'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '5'
       name: Защитный прием
       selection_id: '2.2_2'
@@ -6195,7 +6195,7 @@ profession:
         text: 'Здоровье: 450ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '5'
       name: Защитный прием
       selection_id: '2.2_3'
@@ -6232,7 +6232,7 @@ profession:
         text: 'Здоровье: 900ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '6'
       name: Защитный прием
       selection_id: '2.2_1'
@@ -6269,7 +6269,7 @@ profession:
         text: 'Боевой дух: 1125'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '6'
       name: Защитный прием
       selection_id: '2.2_2'
@@ -6308,7 +6308,7 @@ profession:
         text: 'Здоровье: 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '6'
       name: Защитный прием
       selection_id: '2.2_3'
@@ -6345,7 +6345,7 @@ profession:
         text: 'Здоровье: 1000ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '7'
       name: Защитный прием
       selection_id: '2.2_1'
@@ -6382,7 +6382,7 @@ profession:
         text: 'Боевой дух: 1250'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '7'
       name: Защитный прием
       selection_id: '2.2_2'
@@ -6421,7 +6421,7 @@ profession:
         text: 'Здоровье: 550ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/dual_a_refdmg.jpg
+      icon: /icon/client-skills/icon.dual_a_refdmg.png
       level: '7'
       name: Защитный прием
       selection_id: '2.2_3'
@@ -7704,7 +7704,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 9%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '1'
       name: Дух убийцы
       selection_id: '2.5_1'
@@ -7732,7 +7732,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 9%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '1'
       name: Дух убийцы
       selection_id: '2.5_2'
@@ -7760,7 +7760,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 9%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '1'
       name: Дух убийцы
       selection_id: '2.5_3'
@@ -7790,7 +7790,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 10%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '2'
       name: Дух убийцы
       selection_id: '2.5_1'
@@ -7818,7 +7818,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 10%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '2'
       name: Дух убийцы
       selection_id: '2.5_2'
@@ -7846,7 +7846,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 10%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '2'
       name: Дух убийцы
       selection_id: '2.5_3'
@@ -7876,7 +7876,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 11%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '3'
       name: Дух убийцы
       selection_id: '2.5_1'
@@ -7904,7 +7904,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 11%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '3'
       name: Дух убийцы
       selection_id: '2.5_2'
@@ -7932,7 +7932,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 11%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '3'
       name: Дух убийцы
       selection_id: '2.5_3'
@@ -7962,7 +7962,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 12%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '4'
       name: Дух убийцы
       selection_id: '2.5_1'
@@ -7990,7 +7990,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 12%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '4'
       name: Дух убийцы
       selection_id: '2.5_2'
@@ -8018,7 +8018,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 12%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '4'
       name: Дух убийцы
       selection_id: '2.5_3'
@@ -8048,7 +8048,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 13%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '5'
       name: Дух убийцы
       selection_id: '2.5_1'
@@ -8076,7 +8076,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 13%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '5'
       name: Дух убийцы
       selection_id: '2.5_2'
@@ -8104,7 +8104,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 13%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '5'
       name: Дух убийцы
       selection_id: '2.5_3'
@@ -8134,7 +8134,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 14%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '6'
       name: Дух убийцы
       selection_id: '2.5_1'
@@ -8162,7 +8162,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 14%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '6'
       name: Дух убийцы
       selection_id: '2.5_2'
@@ -8190,7 +8190,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 14%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '6'
       name: Дух убийцы
       selection_id: '2.5_3'
@@ -8220,7 +8220,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 15%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '7'
       name: Дух убийцы
       selection_id: '2.5_1'
@@ -8248,7 +8248,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 15%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '7'
       name: Дух убийцы
       selection_id: '2.5_2'
@@ -8276,7 +8276,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 15%'
       - kind: value
         text: 'Время действия: 60 сек.'
-      icon: /icon/skill0521.jpg
+      icon: /icon/client-skills/icon.skill0521.png
       level: '7'
       name: Дух убийцы
       selection_id: '2.5_3'
@@ -8305,7 +8305,7 @@ profession:
         text: 'Физическая атака (Все): 12%'
       - kind: value
         text: 'Физическая защита (Любая броня): 13%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '1'
       name: Предсмертный раш
       selection_id: '2.6_1'
@@ -8334,7 +8334,7 @@ profession:
         text: 'Физическая атака (Все): 12%'
       - kind: value
         text: 'Физическая защита (Любая броня): 13%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '1'
       name: Предсмертный раш
       selection_id: '2.6_2'
@@ -8362,7 +8362,7 @@ profession:
         text: 'Физическая атака (Все): 12%'
       - kind: value
         text: 'Физическая защита (Любая броня): 13%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '1'
       name: Предсмертный раш
       selection_id: '2.6_3'
@@ -8391,7 +8391,7 @@ profession:
         text: 'Физическая атака (Все): 15%'
       - kind: value
         text: 'Физическая защита (Любая броня): 15%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '2'
       name: Предсмертный раш
       selection_id: '2.6_1'
@@ -8420,7 +8420,7 @@ profession:
         text: 'Физическая атака (Все): 15%'
       - kind: value
         text: 'Физическая защита (Любая броня): 15%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '2'
       name: Предсмертный раш
       selection_id: '2.6_2'
@@ -8448,7 +8448,7 @@ profession:
         text: 'Физическая атака (Все): 15%'
       - kind: value
         text: 'Физическая защита (Любая броня): 15%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '2'
       name: Предсмертный раш
       selection_id: '2.6_3'
@@ -8477,7 +8477,7 @@ profession:
         text: 'Физическая атака (Все): 18%'
       - kind: value
         text: 'Физическая защита (Любая броня): 17%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '3'
       name: Предсмертный раш
       selection_id: '2.6_1'
@@ -8506,7 +8506,7 @@ profession:
         text: 'Физическая атака (Все): 18%'
       - kind: value
         text: 'Физическая защита (Любая броня): 17%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '3'
       name: Предсмертный раш
       selection_id: '2.6_2'
@@ -8534,7 +8534,7 @@ profession:
         text: 'Физическая атака (Все): 18%'
       - kind: value
         text: 'Физическая защита (Любая броня): 17%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '3'
       name: Предсмертный раш
       selection_id: '2.6_3'
@@ -8563,7 +8563,7 @@ profession:
         text: 'Физическая атака (Все): 21%'
       - kind: value
         text: 'Физическая защита (Любая броня): 19%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '4'
       name: Предсмертный раш
       selection_id: '2.6_1'
@@ -8592,7 +8592,7 @@ profession:
         text: 'Физическая атака (Все): 21%'
       - kind: value
         text: 'Физическая защита (Любая броня): 19%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '4'
       name: Предсмертный раш
       selection_id: '2.6_2'
@@ -8620,7 +8620,7 @@ profession:
         text: 'Физическая атака (Все): 21%'
       - kind: value
         text: 'Физическая защита (Любая броня): 19%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '4'
       name: Предсмертный раш
       selection_id: '2.6_3'
@@ -8649,7 +8649,7 @@ profession:
         text: 'Физическая атака (Все): 24%'
       - kind: value
         text: 'Физическая защита (Любая броня): 21%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '5'
       name: Предсмертный раш
       selection_id: '2.6_1'
@@ -8678,7 +8678,7 @@ profession:
         text: 'Физическая атака (Все): 24%'
       - kind: value
         text: 'Физическая защита (Любая броня): 21%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '5'
       name: Предсмертный раш
       selection_id: '2.6_2'
@@ -8706,7 +8706,7 @@ profession:
         text: 'Физическая атака (Все): 24%'
       - kind: value
         text: 'Физическая защита (Любая броня): 21%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '5'
       name: Предсмертный раш
       selection_id: '2.6_3'
@@ -8735,7 +8735,7 @@ profession:
         text: 'Физическая атака (Все): 27%'
       - kind: value
         text: 'Физическая защита (Любая броня): 23%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '6'
       name: Предсмертный раш
       selection_id: '2.6_1'
@@ -8764,7 +8764,7 @@ profession:
         text: 'Физическая атака (Все): 27%'
       - kind: value
         text: 'Физическая защита (Любая броня): 23%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '6'
       name: Предсмертный раш
       selection_id: '2.6_2'
@@ -8792,7 +8792,7 @@ profession:
         text: 'Физическая атака (Все): 27%'
       - kind: value
         text: 'Физическая защита (Любая броня): 23%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '6'
       name: Предсмертный раш
       selection_id: '2.6_3'
@@ -8821,7 +8821,7 @@ profession:
         text: 'Физическая атака (Все): 30%'
       - kind: value
         text: 'Физическая защита (Любая броня): 25%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '7'
       name: Предсмертный раш
       selection_id: '2.6_1'
@@ -8850,7 +8850,7 @@ profession:
         text: 'Физическая атака (Все): 30%'
       - kind: value
         text: 'Физическая защита (Любая броня): 25%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '7'
       name: Предсмертный раш
       selection_id: '2.6_2'
@@ -8878,7 +8878,7 @@ profession:
         text: 'Физическая атака (Все): 30%'
       - kind: value
         text: 'Физическая защита (Любая броня): 25%'
-      icon: /icon/skill0112.jpg
+      icon: /icon/client-skills/icon.skill0112.png
       level: '7'
       name: Предсмертный раш
       selection_id: '2.6_3'

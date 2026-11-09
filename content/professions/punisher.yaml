@@ -4793,7 +4793,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '1'
       name: Доблесть Убийц
       selection_id: ''
@@ -4811,7 +4811,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '2'
       name: Доблесть Убийц
       selection_id: ''
@@ -4829,7 +4829,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '3'
       name: Доблесть Убийц
       selection_id: ''
@@ -4847,7 +4847,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '4'
       name: Доблесть Убийц
       selection_id: ''
@@ -4865,7 +4865,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '5'
       name: Доблесть Убийц
       selection_id: ''
@@ -4883,7 +4883,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '6'
       name: Доблесть Убийц
       selection_id: ''
@@ -4901,7 +4901,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '7'
       name: Доблесть Убийц
       selection_id: ''
@@ -4919,7 +4919,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '8'
       name: Доблесть Убийц
       selection_id: ''
@@ -4937,7 +4937,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '9'
       name: Доблесть Убийц
       selection_id: ''
@@ -4955,7 +4955,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '10'
       name: Доблесть Убийц
       selection_id: ''
@@ -4973,7 +4973,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '11'
       name: Доблесть Убийц
       selection_id: ''
@@ -4991,7 +4991,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '12'
       name: Доблесть Убийц
       selection_id: ''
@@ -5009,7 +5009,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '13'
       name: Доблесть Убийц
       selection_id: ''
@@ -5027,7 +5027,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '14'
       name: Доблесть Убийц
       selection_id: ''
@@ -5045,7 +5045,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '15'
       name: Доблесть Убийц
       selection_id: ''
@@ -5063,7 +5063,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '16'
       name: Доблесть Убийц
       selection_id: ''
@@ -5081,7 +5081,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '17'
       name: Доблесть Убийц
       selection_id: ''
@@ -5099,7 +5099,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '18'
       name: Доблесть Убийц
       selection_id: ''
@@ -5117,7 +5117,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '19'
       name: Доблесть Убийц
       selection_id: ''
@@ -5135,7 +5135,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '20'
       name: Доблесть Убийц
       selection_id: ''
@@ -5589,7 +5589,7 @@ profession:
     - branch: base
       description: Атакуя врагов умениями Вы дополнительно будете наносить 4000 фиксированного урона.
       effects: []
-      icon: /icon/Icon4/s_spearhead.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_spearhead.png
       level: '1'
       name: Бритва
       selection_id: ''
@@ -8095,7 +8095,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 400ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '1'
       name: Тренировка
       selection_id: '2.7_1'
@@ -8120,7 +8120,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 400ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '1'
       name: Тренировка
       selection_id: '2.7_2'
@@ -8147,7 +8147,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 250ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 250ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '1'
       name: Тренировка
       selection_id: '2.7_3'
@@ -8172,7 +8172,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 450ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '2'
       name: Тренировка
       selection_id: '2.7_1'
@@ -8197,7 +8197,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 450ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '2'
       name: Тренировка
       selection_id: '2.7_2'
@@ -8224,7 +8224,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 275ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 275ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '2'
       name: Тренировка
       selection_id: '2.7_3'
@@ -8249,7 +8249,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 500ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '3'
       name: Тренировка
       selection_id: '2.7_1'
@@ -8274,7 +8274,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '3'
       name: Тренировка
       selection_id: '2.7_2'
@@ -8301,7 +8301,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 300ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 300ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '3'
       name: Тренировка
       selection_id: '2.7_3'
@@ -8326,7 +8326,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 550ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '4'
       name: Тренировка
       selection_id: '2.7_1'
@@ -8351,7 +8351,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 550ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '4'
       name: Тренировка
       selection_id: '2.7_2'
@@ -8378,7 +8378,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 325ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 325ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '4'
       name: Тренировка
       selection_id: '2.7_3'
@@ -8403,7 +8403,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 600ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '5'
       name: Тренировка
       selection_id: '2.7_1'
@@ -8428,7 +8428,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 600ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '5'
       name: Тренировка
       selection_id: '2.7_2'
@@ -8455,7 +8455,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 350ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 350ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '5'
       name: Тренировка
       selection_id: '2.7_3'
@@ -8480,7 +8480,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 650ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '6'
       name: Тренировка
       selection_id: '2.7_1'
@@ -8505,7 +8505,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 650ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '6'
       name: Тренировка
       selection_id: '2.7_2'
@@ -8532,7 +8532,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 375ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 375ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '6'
       name: Тренировка
       selection_id: '2.7_3'
@@ -8557,7 +8557,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 700ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '7'
       name: Тренировка
       selection_id: '2.7_1'
@@ -8582,7 +8582,7 @@ profession:
         text: 'Время действия: 172800 сек.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 700ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '7'
       name: Тренировка
       selection_id: '2.7_2'
@@ -8609,7 +8609,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 400ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 400ед.'
-      icon: /icon/skill30547.jpg
+      icon: /icon/client-skills/icon.skill30547.png
       level: '7'
       name: Тренировка
       selection_id: '2.7_3'

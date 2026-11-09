@@ -2855,7 +2855,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/skill0453.jpg
+      icon: /icon/client-skills/icon.skill0453.png
       level: '1'
       name: Электрическое проклятие
       selection_id: ''
@@ -2875,7 +2875,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1500ед.'
-      icon: /icon/skill0453.jpg
+      icon: /icon/client-skills/icon.skill0453.png
       level: '2'
       name: Электрическое проклятие
       selection_id: ''
@@ -2895,7 +2895,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1800ед.'
-      icon: /icon/skill0453.jpg
+      icon: /icon/client-skills/icon.skill0453.png
       level: '3'
       name: Электрическое проклятие
       selection_id: ''
@@ -2915,7 +2915,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2100ед.'
-      icon: /icon/skill0453.jpg
+      icon: /icon/client-skills/icon.skill0453.png
       level: '4'
       name: Электрическое проклятие
       selection_id: ''
@@ -2935,7 +2935,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2400ед.'
-      icon: /icon/skill0453.jpg
+      icon: /icon/client-skills/icon.skill0453.png
       level: '5'
       name: Электрическое проклятие
       selection_id: ''
@@ -2955,7 +2955,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2700ед.'
-      icon: /icon/skill0453.jpg
+      icon: /icon/client-skills/icon.skill0453.png
       level: '6'
       name: Электрическое проклятие
       selection_id: ''
@@ -2975,7 +2975,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill0453.jpg
+      icon: /icon/client-skills/icon.skill0453.png
       level: '7'
       name: Электрическое проклятие
       selection_id: ''
@@ -3013,7 +3013,7 @@ profession:
         text: 'Магическая атака (Любая броня): 40%'
       - kind: value
         text: 'Шанс крит. атаки магии: 4ед.'
-      icon: /icon/skill1345.jpg
+      icon: /icon/client-skills/icon.skill1345.png
       level: '1'
       name: Техномания
       selection_id: ''
@@ -3046,7 +3046,7 @@ profession:
         text: 'Магическая атака (Любая броня): 50%'
       - kind: value
         text: 'Шанс крит. атаки магии: 5ед.'
-      icon: /icon/skill1345.jpg
+      icon: /icon/client-skills/icon.skill1345.png
       level: '2'
       name: Техномания
       selection_id: ''
@@ -3079,7 +3079,7 @@ profession:
         text: 'Магическая атака (Любая броня): 60%'
       - kind: value
         text: 'Шанс крит. атаки магии: 6ед.'
-      icon: /icon/skill1345.jpg
+      icon: /icon/client-skills/icon.skill1345.png
       level: '3'
       name: Техномания
       selection_id: ''
@@ -3112,7 +3112,7 @@ profession:
         text: 'Магическая атака (Любая броня): 70%'
       - kind: value
         text: 'Шанс крит. атаки магии: 7ед.'
-      icon: /icon/skill1345.jpg
+      icon: /icon/client-skills/icon.skill1345.png
       level: '4'
       name: Техномания
       selection_id: ''
@@ -3145,7 +3145,7 @@ profession:
         text: 'Магическая атака (Любая броня): 80%'
       - kind: value
         text: 'Шанс крит. атаки магии: 8ед.'
-      icon: /icon/skill1345.jpg
+      icon: /icon/client-skills/icon.skill1345.png
       level: '5'
       name: Техномания
       selection_id: ''
@@ -3178,7 +3178,7 @@ profession:
         text: 'Магическая атака (Любая броня): 90%'
       - kind: value
         text: 'Шанс крит. атаки магии: 9ед.'
-      icon: /icon/skill1345.jpg
+      icon: /icon/client-skills/icon.skill1345.png
       level: '6'
       name: Техномания
       selection_id: ''
@@ -3211,7 +3211,7 @@ profession:
         text: 'Магическая атака (Любая броня): 100%'
       - kind: value
         text: 'Шанс крит. атаки магии: 10ед.'
-      icon: /icon/skill1345.jpg
+      icon: /icon/client-skills/icon.skill1345.png
       level: '7'
       name: Техномания
       selection_id: ''
@@ -4124,7 +4124,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -4138,7 +4138,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -4152,7 +4152,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -4166,7 +4166,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -4180,7 +4180,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -4194,7 +4194,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -4208,7 +4208,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -4222,7 +4222,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -4236,7 +4236,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -4250,7 +4250,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -4264,7 +4264,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -4278,7 +4278,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -4292,7 +4292,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -4306,7 +4306,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -4320,7 +4320,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -4334,7 +4334,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -4348,7 +4348,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4362,7 +4362,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4376,7 +4376,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4390,7 +4390,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4861,7 +4861,7 @@ profession:
         text: 'Сила магического умения: 1300'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/s_force_hate.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_force_hate.png
       level: '1'
       name: Власть грома
       selection_id: ''
@@ -4887,7 +4887,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '1'
       name: Электрическая стрела
       selection_id: '2.1_0'
@@ -4910,7 +4910,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '1'
       name: Электрическая стрела
       selection_id: '2.1_1'
@@ -4933,7 +4933,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '1'
       name: Электрическая стрела
       selection_id: '2.1_2'
@@ -4956,7 +4956,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '2'
       name: Электрическая стрела
       selection_id: '2.1_3'
@@ -4979,7 +4979,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '2'
       name: Электрическая стрела
       selection_id: '2.1_4'
@@ -5002,7 +5002,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '2'
       name: Электрическая стрела
       selection_id: '2.1_5'
@@ -5025,7 +5025,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '3'
       name: Электрическая стрела
       selection_id: '2.1_1'
@@ -5048,7 +5048,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '3'
       name: Электрическая стрела
       selection_id: '2.1_2'
@@ -5071,7 +5071,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '3'
       name: Электрическая стрела
       selection_id: '2.1_3'
@@ -5094,7 +5094,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '4'
       name: Электрическая стрела
       selection_id: '2.1_1'
@@ -5117,7 +5117,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '4'
       name: Электрическая стрела
       selection_id: '2.1_2'
@@ -5140,7 +5140,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '4'
       name: Электрическая стрела
       selection_id: '2.1_3'
@@ -5163,7 +5163,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '5'
       name: Электрическая стрела
       selection_id: '2.1_1'
@@ -5186,7 +5186,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '5'
       name: Электрическая стрела
       selection_id: '2.1_2'
@@ -5209,7 +5209,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '5'
       name: Электрическая стрела
       selection_id: '2.1_3'
@@ -5232,7 +5232,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '6'
       name: Электрическая стрела
       selection_id: '2.1_1'
@@ -5255,7 +5255,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '6'
       name: Электрическая стрела
       selection_id: '2.1_2'
@@ -5278,7 +5278,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '6'
       name: Электрическая стрела
       selection_id: '2.1_3'
@@ -5301,7 +5301,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '7'
       name: Электрическая стрела
       selection_id: '2.1_1'
@@ -5324,7 +5324,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '7'
       name: Электрическая стрела
       selection_id: '2.1_2'
@@ -5347,7 +5347,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Паралич: 1 сек.'
-      icon: /icon/skill0361.jpg
+      icon: /icon/client-skills/icon.skill0361.png
       level: '7'
       name: Электрическая стрела
       selection_id: '2.1_3'

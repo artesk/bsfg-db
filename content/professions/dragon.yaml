@@ -811,7 +811,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2800ед.'
-      icon: /icon/skill0134.jpg
+      icon: /icon/client-skills/icon.skill0134.png
       level: '1'
       name: Гипноз
       selection_id: ''
@@ -830,7 +830,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill0134.jpg
+      icon: /icon/client-skills/icon.skill0134.png
       level: '2'
       name: Гипноз
       selection_id: ''
@@ -849,7 +849,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3200ед.'
-      icon: /icon/skill0134.jpg
+      icon: /icon/client-skills/icon.skill0134.png
       level: '3'
       name: Гипноз
       selection_id: ''
@@ -868,7 +868,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3400ед.'
-      icon: /icon/skill0134.jpg
+      icon: /icon/client-skills/icon.skill0134.png
       level: '4'
       name: Гипноз
       selection_id: ''
@@ -887,7 +887,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3600ед.'
-      icon: /icon/skill0134.jpg
+      icon: /icon/client-skills/icon.skill0134.png
       level: '5'
       name: Гипноз
       selection_id: ''
@@ -906,7 +906,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3800ед.'
-      icon: /icon/skill0134.jpg
+      icon: /icon/client-skills/icon.skill0134.png
       level: '6'
       name: Гипноз
       selection_id: ''
@@ -925,7 +925,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 4000ед.'
-      icon: /icon/skill0134.jpg
+      icon: /icon/client-skills/icon.skill0134.png
       level: '7'
       name: Гипноз
       selection_id: ''
@@ -1065,7 +1065,7 @@ profession:
         text: 'Сила физического умения: 250'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '1'
       name: Оглушающая рапира
       selection_id: ''
@@ -1085,7 +1085,7 @@ profession:
         text: 'Сила физического умения: 260'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '2'
       name: Оглушающая рапира
       selection_id: ''
@@ -1105,7 +1105,7 @@ profession:
         text: 'Сила физического умения: 270'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '3'
       name: Оглушающая рапира
       selection_id: ''
@@ -1125,7 +1125,7 @@ profession:
         text: 'Сила физического умения: 280'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '4'
       name: Оглушающая рапира
       selection_id: ''
@@ -1145,7 +1145,7 @@ profession:
         text: 'Сила физического умения: 290'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '5'
       name: Оглушающая рапира
       selection_id: ''
@@ -1165,7 +1165,7 @@ profession:
         text: 'Сила физического умения: 300'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '6'
       name: Оглушающая рапира
       selection_id: ''
@@ -1185,7 +1185,7 @@ profession:
         text: 'Сила физического умения: 310'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '7'
       name: Оглушающая рапира
       selection_id: ''
@@ -5144,7 +5144,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '1'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5166,7 +5166,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '2'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5188,7 +5188,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '3'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5210,7 +5210,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '4'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5232,7 +5232,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '5'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5254,7 +5254,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '6'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5276,7 +5276,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '7'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5298,7 +5298,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '8'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5320,7 +5320,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '9'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5342,7 +5342,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '10'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5364,7 +5364,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '11'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5386,7 +5386,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '12'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5408,7 +5408,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '13'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5430,7 +5430,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '14'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5452,7 +5452,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '15'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5474,7 +5474,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '16'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5496,7 +5496,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '17'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5518,7 +5518,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '18'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5540,7 +5540,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '19'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5562,7 +5562,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '20'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5861,7 +5861,7 @@ profession:
         text: 'Максимум здоровья: 3%'
       - kind: value
         text: 'Максимум боевого духа: 3%'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '1'
       name: Дракон
       selection_id: ''
@@ -5879,7 +5879,7 @@ profession:
         text: 'Максимум здоровья: 5%'
       - kind: value
         text: 'Максимум боевого духа: 5%'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '2'
       name: Дракон
       selection_id: ''
@@ -5897,7 +5897,7 @@ profession:
         text: 'Максимум здоровья: 7%'
       - kind: value
         text: 'Максимум боевого духа: 7%'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '3'
       name: Дракон
       selection_id: ''
@@ -5915,7 +5915,7 @@ profession:
         text: 'Максимум здоровья: 9%'
       - kind: value
         text: 'Максимум боевого духа: 9%'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '4'
       name: Дракон
       selection_id: ''
@@ -5933,7 +5933,7 @@ profession:
         text: 'Максимум здоровья: 11%'
       - kind: value
         text: 'Максимум боевого духа: 11%'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '5'
       name: Дракон
       selection_id: ''
@@ -5951,7 +5951,7 @@ profession:
         text: 'Максимум здоровья: 13%'
       - kind: value
         text: 'Максимум боевого духа: 13%'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '6'
       name: Дракон
       selection_id: ''
@@ -5977,7 +5977,7 @@ profession:
         text: 'Максимум здоровья: 15%'
       - kind: value
         text: 'Максимум боевого духа: 15%'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '7'
       name: Дракон
       selection_id: ''
@@ -5994,7 +5994,7 @@ profession:
         text: 'Сила физического умения: 450'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/s_dragon_weapon_earth.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_dragon_weapon_earth.png
       level: '1'
       name: Пепельное дыхание
       selection_id: ''
@@ -6030,7 +6030,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '1'
       name: Дыхание дракона
       selection_id: '2.1_0'
@@ -6064,7 +6064,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '1'
       name: Дыхание дракона
       selection_id: '2.1_1'
@@ -6095,7 +6095,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Запрет использовать умения и магию: 2 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '1'
       name: Дыхание дракона
       selection_id: '2.1_2'
@@ -6129,7 +6129,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '2'
       name: Дыхание дракона
       selection_id: '2.1_3'
@@ -6163,7 +6163,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '2'
       name: Дыхание дракона
       selection_id: '2.1_4'
@@ -6194,7 +6194,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Запрет использовать умения и магию: 2 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '2'
       name: Дыхание дракона
       selection_id: '2.1_5'
@@ -6228,7 +6228,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '3'
       name: Дыхание дракона
       selection_id: '2.1_1'
@@ -6262,7 +6262,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '3'
       name: Дыхание дракона
       selection_id: '2.1_2'
@@ -6293,7 +6293,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Запрет использовать умения и магию: 2 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '3'
       name: Дыхание дракона
       selection_id: '2.1_3'
@@ -6327,7 +6327,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '4'
       name: Дыхание дракона
       selection_id: '2.1_1'
@@ -6361,7 +6361,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '4'
       name: Дыхание дракона
       selection_id: '2.1_2'
@@ -6392,7 +6392,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Запрет использовать умения и магию: 2 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '4'
       name: Дыхание дракона
       selection_id: '2.1_3'
@@ -6426,7 +6426,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '5'
       name: Дыхание дракона
       selection_id: '2.1_1'
@@ -6460,7 +6460,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '5'
       name: Дыхание дракона
       selection_id: '2.1_2'
@@ -6491,7 +6491,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Запрет использовать умения и магию: 2 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '5'
       name: Дыхание дракона
       selection_id: '2.1_3'
@@ -6525,7 +6525,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '6'
       name: Дыхание дракона
       selection_id: '2.1_1'
@@ -6559,7 +6559,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '6'
       name: Дыхание дракона
       selection_id: '2.1_2'
@@ -6590,7 +6590,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Запрет использовать умения и магию: 2 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '6'
       name: Дыхание дракона
       selection_id: '2.1_3'
@@ -6624,7 +6624,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '7'
       name: Дыхание дракона
       selection_id: '2.1_1'
@@ -6658,7 +6658,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '7'
       name: Дыхание дракона
       selection_id: '2.1_2'
@@ -6689,7 +6689,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Запрет использовать умения и магию: 2 сек.'
-      icon: /icon/skill4289.jpg
+      icon: /icon/client-skills/icon.skill4289.png
       level: '7'
       name: Дыхание дракона
       selection_id: '2.1_3'
@@ -6714,7 +6714,7 @@ profession:
         text: 'Скорость атаки (Любая броня): -18%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): -18%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '1'
       name: Взлет дракона
       selection_id: '2.2_1'
@@ -6734,7 +6734,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 10ед.'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '1'
       name: Взлет дракона
       selection_id: '2.2_2'
@@ -6756,7 +6756,7 @@ profession:
         text: 'Время до повторного использования физических умений: 30%'
       - kind: value
         text: 'Время до повторного использования магических умений: 30%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '1'
       name: Взлет дракона
       selection_id: '2.2_3'
@@ -6781,7 +6781,7 @@ profession:
         text: 'Скорость атаки (Любая броня): -20%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): -20%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '2'
       name: Взлет дракона
       selection_id: '2.2_1'
@@ -6801,7 +6801,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 10ед.'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '2'
       name: Взлет дракона
       selection_id: '2.2_2'
@@ -6823,7 +6823,7 @@ profession:
         text: 'Время до повторного использования физических умений: 35%'
       - kind: value
         text: 'Время до повторного использования магических умений: 35%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '2'
       name: Взлет дракона
       selection_id: '2.2_3'
@@ -6848,7 +6848,7 @@ profession:
         text: 'Скорость атаки (Любая броня): -22%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): -22%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '3'
       name: Взлет дракона
       selection_id: '2.2_1'
@@ -6868,7 +6868,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 10ед.'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '3'
       name: Взлет дракона
       selection_id: '2.2_2'
@@ -6890,7 +6890,7 @@ profession:
         text: 'Время до повторного использования физических умений: 40%'
       - kind: value
         text: 'Время до повторного использования магических умений: 40%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '3'
       name: Взлет дракона
       selection_id: '2.2_3'
@@ -6915,7 +6915,7 @@ profession:
         text: 'Скорость атаки (Любая броня): -24%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): -24%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '4'
       name: Взлет дракона
       selection_id: '2.2_1'
@@ -6935,7 +6935,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 10ед.'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '4'
       name: Взлет дракона
       selection_id: '2.2_2'
@@ -6957,7 +6957,7 @@ profession:
         text: 'Время до повторного использования физических умений: 45%'
       - kind: value
         text: 'Время до повторного использования магических умений: 45%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '4'
       name: Взлет дракона
       selection_id: '2.2_3'
@@ -6982,7 +6982,7 @@ profession:
         text: 'Скорость атаки (Любая броня): -26%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): -26%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '5'
       name: Взлет дракона
       selection_id: '2.2_1'
@@ -7002,7 +7002,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 10ед.'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '5'
       name: Взлет дракона
       selection_id: '2.2_2'
@@ -7024,7 +7024,7 @@ profession:
         text: 'Время до повторного использования физических умений: 50%'
       - kind: value
         text: 'Время до повторного использования магических умений: 50%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '5'
       name: Взлет дракона
       selection_id: '2.2_3'
@@ -7049,7 +7049,7 @@ profession:
         text: 'Скорость атаки (Любая броня): -28%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): -28%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '6'
       name: Взлет дракона
       selection_id: '2.2_1'
@@ -7069,7 +7069,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 10ед.'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '6'
       name: Взлет дракона
       selection_id: '2.2_2'
@@ -7091,7 +7091,7 @@ profession:
         text: 'Время до повторного использования физических умений: 55%'
       - kind: value
         text: 'Время до повторного использования магических умений: 55%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '6'
       name: Взлет дракона
       selection_id: '2.2_3'
@@ -7116,7 +7116,7 @@ profession:
         text: 'Скорость атаки (Любая броня): -30%'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): -30%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '7'
       name: Взлет дракона
       selection_id: '2.2_1'
@@ -7136,7 +7136,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 10ед.'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '7'
       name: Взлет дракона
       selection_id: '2.2_2'
@@ -7158,7 +7158,7 @@ profession:
         text: 'Время до повторного использования физических умений: 60%'
       - kind: value
         text: 'Время до повторного использования магических умений: 60%'
-      icon: /icon/skill1469.jpg
+      icon: /icon/client-skills/icon.skill1469.png
       level: '7'
       name: Взлет дракона
       selection_id: '2.2_3'
@@ -7970,7 +7970,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '1'
       name: Шкура дракона
       selection_id: '2.5_1'
@@ -7985,7 +7985,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '1'
       name: Шкура дракона
       selection_id: '2.5_2'
@@ -8000,7 +8000,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '1'
       name: Шкура дракона
       selection_id: '2.5_3'
@@ -8016,7 +8016,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '2'
       name: Шкура дракона
       selection_id: '2.5_1'
@@ -8031,7 +8031,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '2'
       name: Шкура дракона
       selection_id: '2.5_2'
@@ -8046,7 +8046,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '2'
       name: Шкура дракона
       selection_id: '2.5_3'
@@ -8062,7 +8062,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '3'
       name: Шкура дракона
       selection_id: '2.5_1'
@@ -8077,7 +8077,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '3'
       name: Шкура дракона
       selection_id: '2.5_2'
@@ -8092,7 +8092,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '3'
       name: Шкура дракона
       selection_id: '2.5_3'
@@ -8108,7 +8108,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '4'
       name: Шкура дракона
       selection_id: '2.5_1'
@@ -8123,7 +8123,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '4'
       name: Шкура дракона
       selection_id: '2.5_2'
@@ -8138,7 +8138,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '4'
       name: Шкура дракона
       selection_id: '2.5_3'
@@ -8154,7 +8154,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '5'
       name: Шкура дракона
       selection_id: '2.5_1'
@@ -8169,7 +8169,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '5'
       name: Шкура дракона
       selection_id: '2.5_2'
@@ -8184,7 +8184,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '5'
       name: Шкура дракона
       selection_id: '2.5_3'
@@ -8200,7 +8200,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '6'
       name: Шкура дракона
       selection_id: '2.5_1'
@@ -8215,7 +8215,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '6'
       name: Шкура дракона
       selection_id: '2.5_2'
@@ -8230,7 +8230,7 @@ profession:
       effects:
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '6'
       name: Шкура дракона
       selection_id: '2.5_3'
@@ -8254,7 +8254,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '7'
       name: Шкура дракона
       selection_id: '2.5_1'
@@ -8275,7 +8275,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '7'
       name: Шкура дракона
       selection_id: '2.5_2'
@@ -8294,7 +8294,7 @@ profession:
         text: 'Фиксированный урон: 8000ед.'
       - kind: value
         text: 'Время до повтороного использования: 60 сек.'
-      icon: /icon/skill11126.jpg
+      icon: /icon/client-skills/icon.skill11126.png
       level: '7'
       name: Шкура дракона
       selection_id: '2.5_3'
@@ -8316,7 +8316,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 17%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '1'
       name: Символ дракона
       selection_id: '2.6_1'
@@ -8338,7 +8338,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 17%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '1'
       name: Символ дракона
       selection_id: '2.6_2'
@@ -8360,7 +8360,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 17%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '1'
       name: Символ дракона
       selection_id: '2.6_3'
@@ -8382,7 +8382,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 20%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '2'
       name: Символ дракона
       selection_id: '2.6_1'
@@ -8404,7 +8404,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 20%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '2'
       name: Символ дракона
       selection_id: '2.6_2'
@@ -8426,7 +8426,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 20%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '2'
       name: Символ дракона
       selection_id: '2.6_3'
@@ -8448,7 +8448,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 23%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '3'
       name: Символ дракона
       selection_id: '2.6_1'
@@ -8470,7 +8470,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 23%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '3'
       name: Символ дракона
       selection_id: '2.6_2'
@@ -8492,7 +8492,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 23%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '3'
       name: Символ дракона
       selection_id: '2.6_3'
@@ -8514,7 +8514,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 26%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '4'
       name: Символ дракона
       selection_id: '2.6_1'
@@ -8536,7 +8536,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 26%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '4'
       name: Символ дракона
       selection_id: '2.6_2'
@@ -8558,7 +8558,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 26%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '4'
       name: Символ дракона
       selection_id: '2.6_3'
@@ -8580,7 +8580,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 29%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '5'
       name: Символ дракона
       selection_id: '2.6_1'
@@ -8602,7 +8602,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 29%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '5'
       name: Символ дракона
       selection_id: '2.6_2'
@@ -8624,7 +8624,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 29%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '5'
       name: Символ дракона
       selection_id: '2.6_3'
@@ -8646,7 +8646,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 32%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '6'
       name: Символ дракона
       selection_id: '2.6_1'
@@ -8668,7 +8668,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 32%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '6'
       name: Символ дракона
       selection_id: '2.6_2'
@@ -8690,7 +8690,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 32%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '6'
       name: Символ дракона
       selection_id: '2.6_3'
@@ -8712,7 +8712,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 35%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '7'
       name: Символ дракона
       selection_id: '2.6_1'
@@ -8734,7 +8734,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 35%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '7'
       name: Символ дракона
       selection_id: '2.6_2'
@@ -8756,7 +8756,7 @@ profession:
       - kind: value
         text: 'Снижение урона от оружия (Кинжал, Острый топор, Коготь, Короткий лук, Длинный лук, Ружье,
           Арбалет, Варп-Арбалет): 35%'
-      icon: /icon/skill0088.jpg
+      icon: /icon/client-skills/icon.skill0088.png
       level: '7'
       name: Символ дракона
       selection_id: '2.6_3'

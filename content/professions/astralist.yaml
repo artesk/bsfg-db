@@ -450,7 +450,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/escape_gate.jpg
+      icon: /icon/client-skills/bsfg.escape_gate.png
       level: '1'
       name: Вызов врат
       selection_id: ''
@@ -463,7 +463,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/escape_gate.jpg
+      icon: /icon/client-skills/bsfg.escape_gate.png
       level: '2'
       name: Вызов врат
       selection_id: ''
@@ -477,7 +477,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/escape_gate.jpg
+      icon: /icon/client-skills/bsfg.escape_gate.png
       level: '3'
       name: Вызов врат
       selection_id: ''
@@ -491,7 +491,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/escape_gate.jpg
+      icon: /icon/client-skills/bsfg.escape_gate.png
       level: '4'
       name: Вызов врат
       selection_id: ''
@@ -505,7 +505,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/escape_gate.jpg
+      icon: /icon/client-skills/bsfg.escape_gate.png
       level: '5'
       name: Вызов врат
       selection_id: ''
@@ -519,7 +519,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/escape_gate.jpg
+      icon: /icon/client-skills/bsfg.escape_gate.png
       level: '6'
       name: Вызов врат
       selection_id: ''
@@ -533,7 +533,7 @@ profession:
     - branch: base
       description: Вызывает врата, способные вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/escape_gate.jpg
+      icon: /icon/client-skills/bsfg.escape_gate.png
       level: '7'
       name: Вызов врат
       selection_id: ''
@@ -558,7 +558,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Боевой дух: 1200'
-      icon: /icon/skill1015.jpg
+      icon: /icon/client-skills/icon.skill1015.png
       level: '1'
       name: Боевой дух
       selection_id: ''
@@ -585,7 +585,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Боевой дух: 1500'
-      icon: /icon/skill1015.jpg
+      icon: /icon/client-skills/icon.skill1015.png
       level: '2'
       name: Боевой дух
       selection_id: ''
@@ -612,7 +612,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Боевой дух: 1800'
-      icon: /icon/skill1015.jpg
+      icon: /icon/client-skills/icon.skill1015.png
       level: '3'
       name: Боевой дух
       selection_id: ''
@@ -639,7 +639,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Боевой дух: 2100'
-      icon: /icon/skill1015.jpg
+      icon: /icon/client-skills/icon.skill1015.png
       level: '4'
       name: Боевой дух
       selection_id: ''
@@ -666,7 +666,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Боевой дух: 2400'
-      icon: /icon/skill1015.jpg
+      icon: /icon/client-skills/icon.skill1015.png
       level: '5'
       name: Боевой дух
       selection_id: ''
@@ -693,7 +693,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Боевой дух: 2700'
-      icon: /icon/skill1015.jpg
+      icon: /icon/client-skills/icon.skill1015.png
       level: '6'
       name: Боевой дух
       selection_id: ''
@@ -720,7 +720,7 @@ profession:
         text: 'Урон по сооружениям: 13000'
       - kind: value
         text: 'Боевой дух: 3000'
-      icon: /icon/skill1015.jpg
+      icon: /icon/client-skills/icon.skill1015.png
       level: '7'
       name: Боевой дух
       selection_id: ''
@@ -739,7 +739,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 145ед.'
-      icon: /icon/skill1218.jpg
+      icon: /icon/client-skills/icon.skill1218.png
       level: '1'
       name: Боевая поддержка
       selection_id: ''
@@ -759,7 +759,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 172ед.'
-      icon: /icon/skill1218.jpg
+      icon: /icon/client-skills/icon.skill1218.png
       level: '2'
       name: Боевая поддержка
       selection_id: ''
@@ -779,7 +779,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 200ед.'
-      icon: /icon/skill1218.jpg
+      icon: /icon/client-skills/icon.skill1218.png
       level: '3'
       name: Боевая поддержка
       selection_id: ''
@@ -799,7 +799,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 227ед.'
-      icon: /icon/skill1218.jpg
+      icon: /icon/client-skills/icon.skill1218.png
       level: '4'
       name: Боевая поддержка
       selection_id: ''
@@ -819,7 +819,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 241ед.'
-      icon: /icon/skill1218.jpg
+      icon: /icon/client-skills/icon.skill1218.png
       level: '5'
       name: Боевая поддержка
       selection_id: ''
@@ -839,7 +839,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 259ед.'
-      icon: /icon/skill1218.jpg
+      icon: /icon/client-skills/icon.skill1218.png
       level: '6'
       name: Боевая поддержка
       selection_id: ''
@@ -859,7 +859,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 273ед.'
-      icon: /icon/skill1218.jpg
+      icon: /icon/client-skills/icon.skill1218.png
       level: '7'
       name: Боевая поддержка
       selection_id: ''
@@ -3138,7 +3138,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill11784.jpg
+      icon: /icon/client-skills/icon.skill11784.png
       level: '1'
       name: Воскрешение
       selection_id: ''
@@ -3162,7 +3162,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill11784.jpg
+      icon: /icon/client-skills/icon.skill11784.png
       level: '2'
       name: Воскрешение
       selection_id: ''
@@ -3186,7 +3186,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill11784.jpg
+      icon: /icon/client-skills/icon.skill11784.png
       level: '3'
       name: Воскрешение
       selection_id: ''
@@ -3210,7 +3210,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill11784.jpg
+      icon: /icon/client-skills/icon.skill11784.png
       level: '4'
       name: Воскрешение
       selection_id: ''
@@ -3234,7 +3234,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill11784.jpg
+      icon: /icon/client-skills/icon.skill11784.png
       level: '5'
       name: Воскрешение
       selection_id: ''
@@ -3258,7 +3258,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill11784.jpg
+      icon: /icon/client-skills/icon.skill11784.png
       level: '6'
       name: Воскрешение
       selection_id: ''
@@ -3282,7 +3282,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill11784.jpg
+      icon: /icon/client-skills/icon.skill11784.png
       level: '7'
       name: Воскрешение
       selection_id: ''
@@ -3541,7 +3541,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '1'
       name: Боевая стойка
       selection_id: ''
@@ -3569,7 +3569,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '2'
       name: Боевая стойка
       selection_id: ''
@@ -3597,7 +3597,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '3'
       name: Боевая стойка
       selection_id: ''
@@ -3625,7 +3625,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '4'
       name: Боевая стойка
       selection_id: ''
@@ -3653,7 +3653,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '5'
       name: Боевая стойка
       selection_id: ''
@@ -3681,7 +3681,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '6'
       name: Боевая стойка
       selection_id: ''
@@ -3709,7 +3709,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '7'
       name: Боевая стойка
       selection_id: ''
@@ -3732,7 +3732,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '1'
       name: Стойка поддержки
       selection_id: ''
@@ -3756,7 +3756,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '2'
       name: Стойка поддержки
       selection_id: ''
@@ -3780,7 +3780,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '3'
       name: Стойка поддержки
       selection_id: ''
@@ -3804,7 +3804,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '4'
       name: Стойка поддержки
       selection_id: ''
@@ -3828,7 +3828,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '5'
       name: Стойка поддержки
       selection_id: ''
@@ -3852,7 +3852,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '6'
       name: Стойка поддержки
       selection_id: ''
@@ -3876,7 +3876,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '7'
       name: Стойка поддержки
       selection_id: ''
@@ -3986,7 +3986,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '1'
       name: Туман уклонения
       selection_id: ''
@@ -4005,7 +4005,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '2'
       name: Туман уклонения
       selection_id: ''
@@ -4024,7 +4024,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '3'
       name: Туман уклонения
       selection_id: ''
@@ -4043,7 +4043,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '4'
       name: Туман уклонения
       selection_id: ''
@@ -4062,7 +4062,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '5'
       name: Туман уклонения
       selection_id: ''
@@ -4081,7 +4081,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '6'
       name: Туман уклонения
       selection_id: ''
@@ -4100,7 +4100,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '7'
       name: Туман уклонения
       selection_id: ''
@@ -4953,7 +4953,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '1'
       name: Доблесть Менталистов
       selection_id: ''
@@ -4971,7 +4971,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '2'
       name: Доблесть Менталистов
       selection_id: ''
@@ -4989,7 +4989,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '3'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5007,7 +5007,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '4'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5025,7 +5025,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '5'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5043,7 +5043,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '6'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5061,7 +5061,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '7'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5079,7 +5079,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '8'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5097,7 +5097,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '9'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5115,7 +5115,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '10'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5133,7 +5133,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '11'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5151,7 +5151,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '12'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5169,7 +5169,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '13'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5187,7 +5187,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '14'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5205,7 +5205,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '15'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5223,7 +5223,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '16'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5241,7 +5241,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '17'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5259,7 +5259,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '18'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5277,7 +5277,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '19'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5295,7 +5295,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '20'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5596,7 +5596,7 @@ profession:
         text: 'Физическая защита (Любая броня): 19%'
       - kind: value
         text: 'Магическая защита (Любая броня): 19%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '1'
       name: Астралист
       selection_id: ''
@@ -5616,7 +5616,7 @@ profession:
         text: 'Физическая защита (Любая броня): 21%'
       - kind: value
         text: 'Магическая защита (Любая броня): 21%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '2'
       name: Астралист
       selection_id: ''
@@ -5636,7 +5636,7 @@ profession:
         text: 'Физическая защита (Любая броня): 23%'
       - kind: value
         text: 'Магическая защита (Любая броня): 23%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '3'
       name: Астралист
       selection_id: ''
@@ -5656,7 +5656,7 @@ profession:
         text: 'Физическая защита (Любая броня): 25%'
       - kind: value
         text: 'Магическая защита (Любая броня): 25%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '4'
       name: Астралист
       selection_id: ''
@@ -5676,7 +5676,7 @@ profession:
         text: 'Физическая защита (Любая броня): 27%'
       - kind: value
         text: 'Магическая защита (Любая броня): 27%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '5'
       name: Астралист
       selection_id: ''
@@ -5696,7 +5696,7 @@ profession:
         text: 'Физическая защита (Любая броня): 29%'
       - kind: value
         text: 'Магическая защита (Любая броня): 29%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '6'
       name: Астралист
       selection_id: ''
@@ -5716,7 +5716,7 @@ profession:
         text: 'Физическая защита (Любая броня): 31%'
       - kind: value
         text: 'Магическая защита (Любая броня): 31%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '7'
       name: Астралист
       selection_id: ''
@@ -5733,7 +5733,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 50'
       - kind: value
         text: 'Боевой дух: 4200ед.'
-      icon: /icon/Icon4/trigger_priest_heirophant_buff1.jpg
+      icon: /icon/client-skills/icon4.l2icon.trigger_priest_heirophant_buff1.png
       level: '1'
       name: Астральное смещение
       selection_id: ''
@@ -5820,7 +5820,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему использовать умения и
         магию, а также замедляя.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '1'
       name: Астральный стазис
       selection_id: ''
@@ -5830,7 +5830,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему использовать умения и
         магию, а также замедляя.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '2'
       name: Астральный стазис
       selection_id: ''
@@ -5840,7 +5840,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему использовать умения и
         магию, а также замедляя.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '3'
       name: Астральный стазис
       selection_id: ''
@@ -5850,7 +5850,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему использовать умения и
         магию, а также замедляя.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '4'
       name: Астральный стазис
       selection_id: ''
@@ -5860,7 +5860,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему использовать умения и
         магию, а также замедляя.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '5'
       name: Астральный стазис
       selection_id: ''
@@ -5870,7 +5870,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему использовать умения и
         магию, а также замедляя.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '6'
       name: Астральный стазис
       selection_id: ''
@@ -5880,7 +5880,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему использовать умения и
         магию, а также замедляя.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '7'
       name: Астральный стазис
       selection_id: ''
@@ -5901,7 +5901,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '1'
       name: Магия звездочета
       selection_id: '2.1_0'
@@ -5925,7 +5925,7 @@ profession:
         text: 'Сила восстановления боевого духа: 15%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '1'
       name: Магия звездочета
       selection_id: '2.1_1'
@@ -5953,7 +5953,7 @@ profession:
         text: 'Сила восстановления боевого духа: 8%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '1'
       name: Магия звездочета
       selection_id: '2.1_2'
@@ -5977,7 +5977,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '2'
       name: Магия звездочета
       selection_id: '2.1_3'
@@ -6001,7 +6001,7 @@ profession:
         text: 'Сила восстановления боевого духа: 15%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '2'
       name: Магия звездочета
       selection_id: '2.1_4'
@@ -6029,7 +6029,7 @@ profession:
         text: 'Сила восстановления боевого духа: 8%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '2'
       name: Магия звездочета
       selection_id: '2.1_5'
@@ -6053,7 +6053,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '3'
       name: Магия звездочета
       selection_id: '2.1_1'
@@ -6077,7 +6077,7 @@ profession:
         text: 'Сила восстановления боевого духа: 15%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '3'
       name: Магия звездочета
       selection_id: '2.1_2'
@@ -6105,7 +6105,7 @@ profession:
         text: 'Сила восстановления боевого духа: 8%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '3'
       name: Магия звездочета
       selection_id: '2.1_3'
@@ -6129,7 +6129,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '4'
       name: Магия звездочета
       selection_id: '2.1_1'
@@ -6153,7 +6153,7 @@ profession:
         text: 'Сила восстановления боевого духа: 15%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '4'
       name: Магия звездочета
       selection_id: '2.1_2'
@@ -6181,7 +6181,7 @@ profession:
         text: 'Сила восстановления боевого духа: 8%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '4'
       name: Магия звездочета
       selection_id: '2.1_3'
@@ -6205,7 +6205,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '5'
       name: Магия звездочета
       selection_id: '2.1_1'
@@ -6229,7 +6229,7 @@ profession:
         text: 'Сила восстановления боевого духа: 15%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '5'
       name: Магия звездочета
       selection_id: '2.1_2'
@@ -6257,7 +6257,7 @@ profession:
         text: 'Сила восстановления боевого духа: 8%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '5'
       name: Магия звездочета
       selection_id: '2.1_3'
@@ -6281,7 +6281,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '6'
       name: Магия звездочета
       selection_id: '2.1_1'
@@ -6305,7 +6305,7 @@ profession:
         text: 'Сила восстановления боевого духа: 15%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '6'
       name: Магия звездочета
       selection_id: '2.1_2'
@@ -6333,7 +6333,7 @@ profession:
         text: 'Сила восстановления боевого духа: 8%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '6'
       name: Магия звездочета
       selection_id: '2.1_3'
@@ -6357,7 +6357,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '7'
       name: Магия звездочета
       selection_id: '2.1_1'
@@ -6381,7 +6381,7 @@ profession:
         text: 'Сила восстановления боевого духа: 15%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '7'
       name: Магия звездочета
       selection_id: '2.1_2'
@@ -6409,7 +6409,7 @@ profession:
         text: 'Сила восстановления боевого духа: 8%'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill463.jpg
+      icon: /icon/client-skills/bsfg.skill463.png
       level: '7'
       name: Магия звездочета
       selection_id: '2.1_3'
@@ -6438,7 +6438,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 400ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '1'
       name: Астральная атака
       selection_id: '2.2_1'
@@ -6468,7 +6468,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 400ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '1'
       name: Астральная атака
       selection_id: '2.2_2'
@@ -6498,7 +6498,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 400ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '1'
       name: Астральная атака
       selection_id: '2.2_3'
@@ -6528,7 +6528,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '2'
       name: Астральная атака
       selection_id: '2.2_1'
@@ -6558,7 +6558,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '2'
       name: Астральная атака
       selection_id: '2.2_2'
@@ -6588,7 +6588,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '2'
       name: Астральная атака
       selection_id: '2.2_3'
@@ -6618,7 +6618,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 600ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '3'
       name: Астральная атака
       selection_id: '2.2_1'
@@ -6648,7 +6648,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 600ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '3'
       name: Астральная атака
       selection_id: '2.2_2'
@@ -6678,7 +6678,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 600ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '3'
       name: Астральная атака
       selection_id: '2.2_3'
@@ -6708,7 +6708,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 700ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '4'
       name: Астральная атака
       selection_id: '2.2_1'
@@ -6738,7 +6738,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 700ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '4'
       name: Астральная атака
       selection_id: '2.2_2'
@@ -6768,7 +6768,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 700ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '4'
       name: Астральная атака
       selection_id: '2.2_3'
@@ -6798,7 +6798,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 800ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '5'
       name: Астральная атака
       selection_id: '2.2_1'
@@ -6828,7 +6828,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 800ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '5'
       name: Астральная атака
       selection_id: '2.2_2'
@@ -6858,7 +6858,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 800ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '5'
       name: Астральная атака
       selection_id: '2.2_3'
@@ -6888,7 +6888,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 900ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '6'
       name: Астральная атака
       selection_id: '2.2_1'
@@ -6918,7 +6918,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 900ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '6'
       name: Астральная атака
       selection_id: '2.2_2'
@@ -6948,7 +6948,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 900ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '6'
       name: Астральная атака
       selection_id: '2.2_3'
@@ -6978,7 +6978,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 1000ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '7'
       name: Астральная атака
       selection_id: '2.2_1'
@@ -7008,7 +7008,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 1000ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '7'
       name: Астральная атака
       selection_id: '2.2_2'
@@ -7038,7 +7038,7 @@ profession:
         text: 'Если Астралист находится в астрале:'
       - kind: value
         text: 'Лечение: 1000ед.'
-      icon: /icon/skill479.jpg
+      icon: /icon/client-skills/bsfg.skill479.png
       level: '7'
       name: Астральная атака
       selection_id: '2.2_3'
@@ -7070,7 +7070,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '1'
       name: Астромагия
       selection_id: '2.3_1'
@@ -7103,7 +7103,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '1'
       name: Астромагия
       selection_id: '2.3_2'
@@ -7138,7 +7138,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '1'
       name: Астромагия
       selection_id: '2.3_3'
@@ -7169,7 +7169,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '2'
       name: Астромагия
       selection_id: '2.3_1'
@@ -7203,7 +7203,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '2'
       name: Астромагия
       selection_id: '2.3_2'
@@ -7238,7 +7238,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '2'
       name: Астромагия
       selection_id: '2.3_3'
@@ -7269,7 +7269,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '3'
       name: Астромагия
       selection_id: '2.3_1'
@@ -7303,7 +7303,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '3'
       name: Астромагия
       selection_id: '2.3_2'
@@ -7338,7 +7338,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '3'
       name: Астромагия
       selection_id: '2.3_3'
@@ -7369,7 +7369,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '4'
       name: Астромагия
       selection_id: '2.3_1'
@@ -7403,7 +7403,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '4'
       name: Астромагия
       selection_id: '2.3_2'
@@ -7438,7 +7438,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '4'
       name: Астромагия
       selection_id: '2.3_3'
@@ -7469,7 +7469,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '5'
       name: Астромагия
       selection_id: '2.3_1'
@@ -7503,7 +7503,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '5'
       name: Астромагия
       selection_id: '2.3_2'
@@ -7538,7 +7538,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '5'
       name: Астромагия
       selection_id: '2.3_3'
@@ -7569,7 +7569,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '6'
       name: Астромагия
       selection_id: '2.3_1'
@@ -7603,7 +7603,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '6'
       name: Астромагия
       selection_id: '2.3_2'
@@ -7638,7 +7638,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '6'
       name: Астромагия
       selection_id: '2.3_3'
@@ -7669,7 +7669,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '7'
       name: Астромагия
       selection_id: '2.3_1'
@@ -7703,7 +7703,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '7'
       name: Астромагия
       selection_id: '2.3_2'
@@ -7738,7 +7738,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill468.jpg
+      icon: /icon/client-skills/bsfg.skill468.png
       level: '7'
       name: Астромагия
       selection_id: '2.3_3'
@@ -7765,7 +7765,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 1200ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '1'
       name: Выход из астрала
       selection_id: '2.4_1'
@@ -7792,7 +7792,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 1200ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '1'
       name: Выход из астрала
       selection_id: '2.4_2'
@@ -7821,7 +7821,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 1200ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '1'
       name: Выход из астрала
       selection_id: '2.4_3'
@@ -7848,7 +7848,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 1500ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '2'
       name: Выход из астрала
       selection_id: '2.4_1'
@@ -7875,7 +7875,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 1500ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '2'
       name: Выход из астрала
       selection_id: '2.4_2'
@@ -7904,7 +7904,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 1500ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '2'
       name: Выход из астрала
       selection_id: '2.4_3'
@@ -7931,7 +7931,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 1800ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '3'
       name: Выход из астрала
       selection_id: '2.4_1'
@@ -7958,7 +7958,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 1800ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '3'
       name: Выход из астрала
       selection_id: '2.4_2'
@@ -7987,7 +7987,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 1800ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '3'
       name: Выход из астрала
       selection_id: '2.4_3'
@@ -8014,7 +8014,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 2100ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '4'
       name: Выход из астрала
       selection_id: '2.4_1'
@@ -8041,7 +8041,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 2100ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '4'
       name: Выход из астрала
       selection_id: '2.4_2'
@@ -8070,7 +8070,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 2100ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '4'
       name: Выход из астрала
       selection_id: '2.4_3'
@@ -8097,7 +8097,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 2400ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '5'
       name: Выход из астрала
       selection_id: '2.4_1'
@@ -8124,7 +8124,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 2400ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '5'
       name: Выход из астрала
       selection_id: '2.4_2'
@@ -8153,7 +8153,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 2400ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '5'
       name: Выход из астрала
       selection_id: '2.4_3'
@@ -8180,7 +8180,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 2700ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '6'
       name: Выход из астрала
       selection_id: '2.4_1'
@@ -8207,7 +8207,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 2700ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '6'
       name: Выход из астрала
       selection_id: '2.4_2'
@@ -8236,7 +8236,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 2700ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '6'
       name: Выход из астрала
       selection_id: '2.4_3'
@@ -8263,7 +8263,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 3000ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '7'
       name: Выход из астрала
       selection_id: '2.4_1'
@@ -8290,7 +8290,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 3000ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '7'
       name: Выход из астрала
       selection_id: '2.4_2'
@@ -8319,7 +8319,7 @@ profession:
         text: 'Вне астрала:'
       - kind: value
         text: 'Лечение: 3000ед.'
-      icon: /icon/skill490.jpg
+      icon: /icon/client-skills/bsfg.skill490.png
       level: '7'
       name: Выход из астрала
       selection_id: '2.4_3'
@@ -8340,7 +8340,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -42%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '1'
       name: Астрал
       selection_id: '2.5_1'
@@ -8363,7 +8363,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -42%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '1'
       name: Астрал
       selection_id: '2.5_2'
@@ -8386,7 +8386,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -42%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '1'
       name: Астрал
       selection_id: '2.5_3'
@@ -8409,7 +8409,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -40%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '2'
       name: Астрал
       selection_id: '2.5_1'
@@ -8432,7 +8432,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -40%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '2'
       name: Астрал
       selection_id: '2.5_2'
@@ -8455,7 +8455,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -40%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '2'
       name: Астрал
       selection_id: '2.5_3'
@@ -8478,7 +8478,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -38%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '3'
       name: Астрал
       selection_id: '2.5_1'
@@ -8501,7 +8501,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -38%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '3'
       name: Астрал
       selection_id: '2.5_2'
@@ -8524,7 +8524,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -38%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '3'
       name: Астрал
       selection_id: '2.5_3'
@@ -8547,7 +8547,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -36%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '4'
       name: Астрал
       selection_id: '2.5_1'
@@ -8570,7 +8570,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -36%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '4'
       name: Астрал
       selection_id: '2.5_2'
@@ -8593,7 +8593,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -36%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '4'
       name: Астрал
       selection_id: '2.5_3'
@@ -8616,7 +8616,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -34%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '5'
       name: Астрал
       selection_id: '2.5_1'
@@ -8639,7 +8639,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -34%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '5'
       name: Астрал
       selection_id: '2.5_2'
@@ -8662,7 +8662,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -34%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '5'
       name: Астрал
       selection_id: '2.5_3'
@@ -8685,7 +8685,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -32%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '6'
       name: Астрал
       selection_id: '2.5_1'
@@ -8708,7 +8708,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -32%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '6'
       name: Астрал
       selection_id: '2.5_2'
@@ -8731,7 +8731,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -32%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '6'
       name: Астрал
       selection_id: '2.5_3'
@@ -8754,7 +8754,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -30%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '7'
       name: Астрал
       selection_id: '2.5_1'
@@ -8777,7 +8777,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -30%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '7'
       name: Астрал
       selection_id: '2.5_2'
@@ -8800,7 +8800,7 @@ profession:
         text: 'Физическая защита (Любая броня): 80%'
       - kind: value
         text: 'Магическая защита (Любая броня): -30%'
-      icon: /icon/bless_of_soul.jpg
+      icon: /icon/client-skills/bsfg.bless_of_soul.png
       level: '7'
       name: Астрал
       selection_id: '2.5_3'
@@ -8829,7 +8829,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '1'
       name: Астральные связи
       selection_id: '2.6_1'
@@ -8856,7 +8856,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '1'
       name: Астральные связи
       selection_id: '2.6_2'
@@ -8883,7 +8883,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '1'
       name: Астральные связи
       selection_id: '2.6_3'
@@ -8910,7 +8910,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '2'
       name: Астральные связи
       selection_id: '2.6_1'
@@ -8937,7 +8937,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '2'
       name: Астральные связи
       selection_id: '2.6_2'
@@ -8964,7 +8964,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '2'
       name: Астральные связи
       selection_id: '2.6_3'
@@ -8991,7 +8991,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '3'
       name: Астральные связи
       selection_id: '2.6_1'
@@ -9018,7 +9018,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '3'
       name: Астральные связи
       selection_id: '2.6_2'
@@ -9045,7 +9045,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '3'
       name: Астральные связи
       selection_id: '2.6_3'
@@ -9072,7 +9072,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '4'
       name: Астральные связи
       selection_id: '2.6_1'
@@ -9099,7 +9099,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '4'
       name: Астральные связи
       selection_id: '2.6_2'
@@ -9126,7 +9126,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '4'
       name: Астральные связи
       selection_id: '2.6_3'
@@ -9153,7 +9153,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '5'
       name: Астральные связи
       selection_id: '2.6_1'
@@ -9180,7 +9180,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '5'
       name: Астральные связи
       selection_id: '2.6_2'
@@ -9207,7 +9207,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '5'
       name: Астральные связи
       selection_id: '2.6_3'
@@ -9234,7 +9234,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '6'
       name: Астральные связи
       selection_id: '2.6_1'
@@ -9261,7 +9261,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '6'
       name: Астральные связи
       selection_id: '2.6_2'
@@ -9288,7 +9288,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '6'
       name: Астральные связи
       selection_id: '2.6_3'
@@ -9315,7 +9315,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '7'
       name: Астральные связи
       selection_id: '2.6_1'
@@ -9342,7 +9342,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '7'
       name: Астральные связи
       selection_id: '2.6_2'
@@ -9369,7 +9369,7 @@ profession:
         text: 'Магическая защита (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/skill457.jpg
+      icon: /icon/client-skills/bsfg.skill457.png
       level: '7'
       name: Астральные связи
       selection_id: '2.6_3'
@@ -9395,7 +9395,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '1'
       name: Астральный взрыв
       selection_id: '2.7_1'
@@ -9422,7 +9422,7 @@ profession:
         text: 'Физическая защита (Любая броня): 11%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '1'
       name: Астральный взрыв
       selection_id: '2.7_2'
@@ -9449,7 +9449,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 3ед.'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '1'
       name: Астральный взрыв
       selection_id: '2.7_3'
@@ -9476,7 +9476,7 @@ profession:
         text: 'Магическая защита (Любая броня): 24%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '2'
       name: Астральный взрыв
       selection_id: '2.7_1'
@@ -9503,7 +9503,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '2'
       name: Астральный взрыв
       selection_id: '2.7_2'
@@ -9530,7 +9530,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 5ед.'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '2'
       name: Астральный взрыв
       selection_id: '2.7_3'
@@ -9557,7 +9557,7 @@ profession:
         text: 'Магическая защита (Любая броня): 28%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '3'
       name: Астральный взрыв
       selection_id: '2.7_1'
@@ -9584,7 +9584,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '3'
       name: Астральный взрыв
       selection_id: '2.7_2'
@@ -9611,7 +9611,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 7ед.'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '3'
       name: Астральный взрыв
       selection_id: '2.7_3'
@@ -9638,7 +9638,7 @@ profession:
         text: 'Магическая защита (Любая броня): 32%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '4'
       name: Астральный взрыв
       selection_id: '2.7_1'
@@ -9665,7 +9665,7 @@ profession:
         text: 'Физическая защита (Любая броня): 17%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '4'
       name: Астральный взрыв
       selection_id: '2.7_2'
@@ -9692,7 +9692,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 9ед.'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '4'
       name: Астральный взрыв
       selection_id: '2.7_3'
@@ -9719,7 +9719,7 @@ profession:
         text: 'Магическая защита (Любая броня): 36%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '5'
       name: Астральный взрыв
       selection_id: '2.7_1'
@@ -9746,7 +9746,7 @@ profession:
         text: 'Физическая защита (Любая броня): 19%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '5'
       name: Астральный взрыв
       selection_id: '2.7_2'
@@ -9773,7 +9773,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 11ед.'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '5'
       name: Астральный взрыв
       selection_id: '2.7_3'
@@ -9800,7 +9800,7 @@ profession:
         text: 'Магическая защита (Любая броня): 40%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '6'
       name: Астральный взрыв
       selection_id: '2.7_1'
@@ -9827,7 +9827,7 @@ profession:
         text: 'Физическая защита (Любая броня): 21%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '6'
       name: Астральный взрыв
       selection_id: '2.7_2'
@@ -9854,7 +9854,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 13ед.'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '6'
       name: Астральный взрыв
       selection_id: '2.7_3'
@@ -9881,7 +9881,7 @@ profession:
         text: 'Магическая защита (Любая броня): 44%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '7'
       name: Астральный взрыв
       selection_id: '2.7_1'
@@ -9908,7 +9908,7 @@ profession:
         text: 'Физическая защита (Любая броня): 23%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '7'
       name: Астральный взрыв
       selection_id: '2.7_2'
@@ -9935,7 +9935,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 15ед.'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill478.jpg
+      icon: /icon/client-skills/bsfg.skill478.png
       level: '7'
       name: Астральный взрыв
       selection_id: '2.7_3'

@@ -2749,7 +2749,7 @@ profession:
         text: 'Бонус усиления:'
       - kind: value
         text: 'Физическая атака (Парные мечи): 18%'
-      icon: /icon/skill30005.jpg
+      icon: /icon/client-skills/icon.skill30005.png
       level: '1'
       name: Лицом к лицу
       selection_id: ''
@@ -2774,7 +2774,7 @@ profession:
         text: 'Бонус усиления:'
       - kind: value
         text: 'Физическая атака (Парные мечи): 20%'
-      icon: /icon/skill30005.jpg
+      icon: /icon/client-skills/icon.skill30005.png
       level: '2'
       name: Лицом к лицу
       selection_id: ''
@@ -2799,7 +2799,7 @@ profession:
         text: 'Бонус усиления:'
       - kind: value
         text: 'Физическая атака (Парные мечи): 22%'
-      icon: /icon/skill30005.jpg
+      icon: /icon/client-skills/icon.skill30005.png
       level: '3'
       name: Лицом к лицу
       selection_id: ''
@@ -2824,7 +2824,7 @@ profession:
         text: 'Бонус усиления:'
       - kind: value
         text: 'Физическая атака (Парные мечи): 24%'
-      icon: /icon/skill30005.jpg
+      icon: /icon/client-skills/icon.skill30005.png
       level: '4'
       name: Лицом к лицу
       selection_id: ''
@@ -2849,7 +2849,7 @@ profession:
         text: 'Бонус усиления:'
       - kind: value
         text: 'Физическая атака (Парные мечи): 26%'
-      icon: /icon/skill30005.jpg
+      icon: /icon/client-skills/icon.skill30005.png
       level: '5'
       name: Лицом к лицу
       selection_id: ''
@@ -2874,7 +2874,7 @@ profession:
         text: 'Бонус усиления:'
       - kind: value
         text: 'Физическая атака (Парные мечи): 28%'
-      icon: /icon/skill30005.jpg
+      icon: /icon/client-skills/icon.skill30005.png
       level: '6'
       name: Лицом к лицу
       selection_id: ''
@@ -2899,7 +2899,7 @@ profession:
         text: 'Бонус усиления:'
       - kind: value
         text: 'Физическая атака (Парные мечи): 30%'
-      icon: /icon/skill30005.jpg
+      icon: /icon/client-skills/icon.skill30005.png
       level: '7'
       name: Лицом к лицу
       selection_id: ''
@@ -4418,7 +4418,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '1'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4436,7 +4436,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '2'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4454,7 +4454,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '3'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4472,7 +4472,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '4'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4490,7 +4490,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '5'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4508,7 +4508,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '6'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4526,7 +4526,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '7'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4544,7 +4544,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '8'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4562,7 +4562,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '9'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4580,7 +4580,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '10'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4598,7 +4598,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '11'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4616,7 +4616,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '12'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4634,7 +4634,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '13'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4652,7 +4652,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '14'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4670,7 +4670,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '15'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4688,7 +4688,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '16'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4706,7 +4706,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '17'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4724,7 +4724,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '18'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4742,7 +4742,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '19'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4760,7 +4760,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '20'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5228,7 +5228,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 10ед.'
       - kind: value
         text: 'Максимальное значение скорости бега: 51'
-      icon: /icon/Icon4/s_tricker_speed_up.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_speed_up.png
       level: '1'
       name: Раш
       selection_id: ''
@@ -5837,7 +5837,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум здоровья: 3%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '1'
       name: Стремление к жизни
       selection_id: '2.2_1'
@@ -5869,7 +5869,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум боевого духа: 3%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '1'
       name: Стремление к жизни
       selection_id: '2.2_2'
@@ -5903,7 +5903,7 @@ profession:
         text: 'Максимум здоровья: 2%'
       - kind: value
         text: 'Максимум боевого духа: 2%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '1'
       name: Стремление к жизни
       selection_id: '2.2_3'
@@ -5935,7 +5935,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум здоровья: 5%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '2'
       name: Стремление к жизни
       selection_id: '2.2_1'
@@ -5967,7 +5967,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум боевого духа: 5%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '2'
       name: Стремление к жизни
       selection_id: '2.2_2'
@@ -6001,7 +6001,7 @@ profession:
         text: 'Максимум здоровья: 3%'
       - kind: value
         text: 'Максимум боевого духа: 3%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '2'
       name: Стремление к жизни
       selection_id: '2.2_3'
@@ -6033,7 +6033,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум здоровья: 7%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '3'
       name: Стремление к жизни
       selection_id: '2.2_1'
@@ -6065,7 +6065,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум боевого духа: 7%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '3'
       name: Стремление к жизни
       selection_id: '2.2_2'
@@ -6099,7 +6099,7 @@ profession:
         text: 'Максимум здоровья: 4%'
       - kind: value
         text: 'Максимум боевого духа: 4%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '3'
       name: Стремление к жизни
       selection_id: '2.2_3'
@@ -6131,7 +6131,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум здоровья: 9%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '4'
       name: Стремление к жизни
       selection_id: '2.2_1'
@@ -6163,7 +6163,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум боевого духа: 9%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '4'
       name: Стремление к жизни
       selection_id: '2.2_2'
@@ -6197,7 +6197,7 @@ profession:
         text: 'Максимум здоровья: 5%'
       - kind: value
         text: 'Максимум боевого духа: 5%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '4'
       name: Стремление к жизни
       selection_id: '2.2_3'
@@ -6229,7 +6229,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум здоровья: 11%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '5'
       name: Стремление к жизни
       selection_id: '2.2_1'
@@ -6261,7 +6261,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум боевого духа: 11%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '5'
       name: Стремление к жизни
       selection_id: '2.2_2'
@@ -6295,7 +6295,7 @@ profession:
         text: 'Максимум здоровья: 6%'
       - kind: value
         text: 'Максимум боевого духа: 6%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '5'
       name: Стремление к жизни
       selection_id: '2.2_3'
@@ -6327,7 +6327,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум здоровья: 13%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '6'
       name: Стремление к жизни
       selection_id: '2.2_1'
@@ -6359,7 +6359,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум боевого духа: 13%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '6'
       name: Стремление к жизни
       selection_id: '2.2_2'
@@ -6393,7 +6393,7 @@ profession:
         text: 'Максимум здоровья: 7%'
       - kind: value
         text: 'Максимум боевого духа: 7%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '6'
       name: Стремление к жизни
       selection_id: '2.2_3'
@@ -6425,7 +6425,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум здоровья: 15%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '7'
       name: Стремление к жизни
       selection_id: '2.2_1'
@@ -6457,7 +6457,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Максимум боевого духа: 15%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '7'
       name: Стремление к жизни
       selection_id: '2.2_2'
@@ -6491,7 +6491,7 @@ profession:
         text: 'Максимум здоровья: 8%'
       - kind: value
         text: 'Максимум боевого духа: 8%'
-      icon: /icon/skill11503.jpg
+      icon: /icon/client-skills/icon.skill11503.png
       level: '7'
       name: Стремление к жизни
       selection_id: '2.2_3'
@@ -7432,7 +7432,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '1'
       name: Ярость
       selection_id: '2.5_1'
@@ -7452,7 +7452,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '1'
       name: Ярость
       selection_id: '2.5_2'
@@ -7472,7 +7472,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '1'
       name: Ярость
       selection_id: '2.5_3'
@@ -7492,7 +7492,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '2'
       name: Ярость
       selection_id: '2.5_1'
@@ -7512,7 +7512,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '2'
       name: Ярость
       selection_id: '2.5_2'
@@ -7532,7 +7532,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '2'
       name: Ярость
       selection_id: '2.5_3'
@@ -7552,7 +7552,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '3'
       name: Ярость
       selection_id: '2.5_1'
@@ -7572,7 +7572,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '3'
       name: Ярость
       selection_id: '2.5_2'
@@ -7592,7 +7592,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '3'
       name: Ярость
       selection_id: '2.5_3'
@@ -7612,7 +7612,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '4'
       name: Ярость
       selection_id: '2.5_1'
@@ -7632,7 +7632,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '4'
       name: Ярость
       selection_id: '2.5_2'
@@ -7652,7 +7652,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '4'
       name: Ярость
       selection_id: '2.5_3'
@@ -7672,7 +7672,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '5'
       name: Ярость
       selection_id: '2.5_1'
@@ -7692,7 +7692,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '5'
       name: Ярость
       selection_id: '2.5_2'
@@ -7712,7 +7712,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '5'
       name: Ярость
       selection_id: '2.5_3'
@@ -7732,7 +7732,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '6'
       name: Ярость
       selection_id: '2.5_1'
@@ -7752,7 +7752,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '6'
       name: Ярость
       selection_id: '2.5_2'
@@ -7772,7 +7772,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '6'
       name: Ярость
       selection_id: '2.5_3'
@@ -7792,7 +7792,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '7'
       name: Ярость
       selection_id: '2.5_1'
@@ -7812,7 +7812,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '7'
       name: Ярость
       selection_id: '2.5_2'
@@ -7832,7 +7832,7 @@ profession:
         text: 'Физическая атака (Парные мечи): 35%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '7'
       name: Ярость
       selection_id: '2.5_3'
@@ -8232,7 +8232,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Физическая атака (Парные мечи): 9%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '1'
       name: Неудержимость
       selection_id: '2.7_1'
@@ -8251,7 +8251,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Шанс критического урона: 17%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '1'
       name: Неудержимость
       selection_id: '2.7_2'
@@ -8273,7 +8273,7 @@ profession:
         text: 'Шанс критического урона: 8%'
       - kind: value
         text: 'Физическая атака (Парные мечи): 3%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '1'
       name: Неудержимость
       selection_id: '2.7_3'
@@ -8292,7 +8292,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Физическая атака (Парные мечи): 10%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '2'
       name: Неудержимость
       selection_id: '2.7_1'
@@ -8311,7 +8311,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Шанс критического урона: 20%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '2'
       name: Неудержимость
       selection_id: '2.7_2'
@@ -8333,7 +8333,7 @@ profession:
         text: 'Шанс критического урона: 10%'
       - kind: value
         text: 'Физическая атака (Парные мечи): 3.5%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '2'
       name: Неудержимость
       selection_id: '2.7_3'
@@ -8352,7 +8352,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Физическая атака (Парные мечи): 11%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '3'
       name: Неудержимость
       selection_id: '2.7_1'
@@ -8371,7 +8371,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Шанс критического урона: 23%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '3'
       name: Неудержимость
       selection_id: '2.7_2'
@@ -8393,7 +8393,7 @@ profession:
         text: 'Шанс критического урона: 12%'
       - kind: value
         text: 'Физическая атака (Парные мечи): 4%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '3'
       name: Неудержимость
       selection_id: '2.7_3'
@@ -8412,7 +8412,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Физическая атака (Парные мечи): 12%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '4'
       name: Неудержимость
       selection_id: '2.7_1'
@@ -8431,7 +8431,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Шанс критического урона: 26%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '4'
       name: Неудержимость
       selection_id: '2.7_2'
@@ -8453,7 +8453,7 @@ profession:
         text: 'Шанс критического урона: 14%'
       - kind: value
         text: 'Физическая атака (Парные мечи): 4.5%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '4'
       name: Неудержимость
       selection_id: '2.7_3'
@@ -8472,7 +8472,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Физическая атака (Парные мечи): 13%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '5'
       name: Неудержимость
       selection_id: '2.7_1'
@@ -8491,7 +8491,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Шанс критического урона: 29%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '5'
       name: Неудержимость
       selection_id: '2.7_2'
@@ -8513,7 +8513,7 @@ profession:
         text: 'Шанс критического урона: 16%'
       - kind: value
         text: 'Физическая атака (Парные мечи): 5%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '5'
       name: Неудержимость
       selection_id: '2.7_3'
@@ -8532,7 +8532,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Физическая атака (Парные мечи): 14%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '6'
       name: Неудержимость
       selection_id: '2.7_1'
@@ -8551,7 +8551,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Шанс критического урона: 32%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '6'
       name: Неудержимость
       selection_id: '2.7_2'
@@ -8573,7 +8573,7 @@ profession:
         text: 'Шанс критического урона: 18%'
       - kind: value
         text: 'Физическая атака (Парные мечи): 5.5%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '6'
       name: Неудержимость
       selection_id: '2.7_3'
@@ -8592,7 +8592,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Физическая атака (Парные мечи): 15%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '7'
       name: Неудержимость
       selection_id: '2.7_1'
@@ -8611,7 +8611,7 @@ profession:
         text: 'Время действия: 5 сек.'
       - kind: value
         text: 'Шанс критического урона: 35%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '7'
       name: Неудержимость
       selection_id: '2.7_2'
@@ -8633,7 +8633,7 @@ profession:
         text: 'Шанс критического урона: 20%'
       - kind: value
         text: 'Физическая атака (Парные мечи): 6%'
-      icon: /icon/skill19205.jpg
+      icon: /icon/client-skills/icon.skill19205.png
       level: '7'
       name: Неудержимость
       selection_id: '2.7_3'

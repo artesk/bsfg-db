@@ -2751,7 +2751,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 260'
-      icon: /icon/skill0920.jpg
+      icon: /icon/client-skills/icon.skill0920.png
       level: '1'
       name: Разлом
       selection_id: ''
@@ -2770,7 +2770,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 275'
-      icon: /icon/skill0920.jpg
+      icon: /icon/client-skills/icon.skill0920.png
       level: '2'
       name: Разлом
       selection_id: ''
@@ -2789,7 +2789,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 290'
-      icon: /icon/skill0920.jpg
+      icon: /icon/client-skills/icon.skill0920.png
       level: '3'
       name: Разлом
       selection_id: ''
@@ -2808,7 +2808,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 305'
-      icon: /icon/skill0920.jpg
+      icon: /icon/client-skills/icon.skill0920.png
       level: '4'
       name: Разлом
       selection_id: ''
@@ -2827,7 +2827,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 320'
-      icon: /icon/skill0920.jpg
+      icon: /icon/client-skills/icon.skill0920.png
       level: '5'
       name: Разлом
       selection_id: ''
@@ -2846,7 +2846,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 335'
-      icon: /icon/skill0920.jpg
+      icon: /icon/client-skills/icon.skill0920.png
       level: '6'
       name: Разлом
       selection_id: ''
@@ -2871,7 +2871,7 @@ profession:
         text: 'Магическая защита (Любая броня): -15%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0920.jpg
+      icon: /icon/client-skills/icon.skill0920.png
       level: '7'
       name: Разлом
       selection_id: ''
@@ -4503,7 +4503,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '1'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4521,7 +4521,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '2'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4539,7 +4539,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '3'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4557,7 +4557,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '4'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4575,7 +4575,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '5'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4593,7 +4593,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '6'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4611,7 +4611,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '7'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4629,7 +4629,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '8'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4647,7 +4647,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '9'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4665,7 +4665,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '10'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4683,7 +4683,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '11'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4701,7 +4701,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '12'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4719,7 +4719,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '13'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4737,7 +4737,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '14'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4755,7 +4755,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '15'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4773,7 +4773,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '16'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4791,7 +4791,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '17'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4809,7 +4809,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '18'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4827,7 +4827,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '19'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4845,7 +4845,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '20'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5388,7 +5388,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/Icon4/ev_sylph_bless.jpg
+      icon: /icon/client-skills/icon4.l2icon.ev_sylph_bless.png
       level: '1'
       name: Воля к жизни
       selection_id: ''
@@ -5415,7 +5415,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill1510.jpg
+      icon: /icon/client-skills/icon.skill1510.png
       level: '1'
       name: Ассист
       selection_id: '2.1_0'
@@ -5473,7 +5473,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill1510.jpg
+      icon: /icon/client-skills/icon.skill1510.png
       level: '2'
       name: Ассист
       selection_id: '2.1_3'
@@ -5531,7 +5531,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill1510.jpg
+      icon: /icon/client-skills/icon.skill1510.png
       level: '3'
       name: Ассист
       selection_id: '2.1_1'
@@ -5589,7 +5589,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill1510.jpg
+      icon: /icon/client-skills/icon.skill1510.png
       level: '4'
       name: Ассист
       selection_id: '2.1_1'
@@ -5647,7 +5647,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill1510.jpg
+      icon: /icon/client-skills/icon.skill1510.png
       level: '5'
       name: Ассист
       selection_id: '2.1_1'
@@ -5705,7 +5705,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill1510.jpg
+      icon: /icon/client-skills/icon.skill1510.png
       level: '6'
       name: Ассист
       selection_id: '2.1_1'
@@ -5763,7 +5763,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill1510.jpg
+      icon: /icon/client-skills/icon.skill1510.png
       level: '7'
       name: Ассист
       selection_id: '2.1_1'
@@ -5849,7 +5849,7 @@ profession:
       description: 'Время от времени Филин получает усиление на один удар: если враг первее ударит Филина,
         то его защита снизится на 6%; если Филин первее ударит врага, то его защита увеличится на 6%.'
       effects: []
-      icon: /icon/s13158.jpg
+      icon: /icon/client-skills/bsfg.s13158.png
       level: '1'
       name: Проклятие защиты
       selection_id: '2.2_2'
@@ -5896,7 +5896,7 @@ profession:
       description: 'Время от времени Филин получает усиление на один удар: если враг первее ударит Филина,
         то его защита снизится на 8%; если Филин первее ударит врага, то его защита увеличится на 8%.'
       effects: []
-      icon: /icon/s13158.jpg
+      icon: /icon/client-skills/bsfg.s13158.png
       level: '2'
       name: Проклятие защиты
       selection_id: '2.2_2'
@@ -5943,7 +5943,7 @@ profession:
       description: 'Время от времени Филин получает усиление на один удар: если враг первее ударит Филина,
         то его защита снизится на 10%; если Филин первее ударит врага, то его защита увеличится на 10%.'
       effects: []
-      icon: /icon/s13158.jpg
+      icon: /icon/client-skills/bsfg.s13158.png
       level: '3'
       name: Проклятие защиты
       selection_id: '2.2_2'
@@ -5990,7 +5990,7 @@ profession:
       description: 'Время от времени Филин получает усиление на один удар: если враг первее ударит Филина,
         то его защита снизится на 12%; если Филин первее ударит врага, то его защита увеличится на 12%.'
       effects: []
-      icon: /icon/s13158.jpg
+      icon: /icon/client-skills/bsfg.s13158.png
       level: '4'
       name: Проклятие защиты
       selection_id: '2.2_2'
@@ -6037,7 +6037,7 @@ profession:
       description: 'Время от времени Филин получает усиление на один удар: если враг первее ударит Филина,
         то его защита снизится на 14%; если Филин первее ударит врага, то его защита увеличится на 14%.'
       effects: []
-      icon: /icon/s13158.jpg
+      icon: /icon/client-skills/bsfg.s13158.png
       level: '5'
       name: Проклятие защиты
       selection_id: '2.2_2'
@@ -6084,7 +6084,7 @@ profession:
       description: 'Время от времени Филин получает усиление на один удар: если враг первее ударит Филина,
         то его защита снизится на 16%; если Филин первее ударит врага, то его защита увеличится на 16%.'
       effects: []
-      icon: /icon/s13158.jpg
+      icon: /icon/client-skills/bsfg.s13158.png
       level: '6'
       name: Проклятие защиты
       selection_id: '2.2_2'
@@ -6131,7 +6131,7 @@ profession:
       description: 'Время от времени Филин получает усиление на один удар: если враг первее ударит Филина,
         то его защита снизится на 18%; если Филин первее ударит врага, то его защита увеличится на 18%.'
       effects: []
-      icon: /icon/s13158.jpg
+      icon: /icon/client-skills/bsfg.s13158.png
       level: '7'
       name: Проклятие защиты
       selection_id: '2.2_2'
@@ -6163,7 +6163,7 @@ profession:
         text: 'Магическая защита (Любая броня): 1%'
       - kind: value
         text: 'Меткость (Все): 28ед.'
-      icon: /icon/skill0500.jpg
+      icon: /icon/client-skills/icon.skill0500.png
       level: '1'
       name: Комбо стойка
       selection_id: '2.3_1'
@@ -6190,7 +6190,7 @@ profession:
         text: 'Магическая защита (Любая броня): 3%'
       - kind: value
         text: 'Меткость (Все): 28ед.'
-      icon: /icon/s13140.jpg
+      icon: /icon/client-skills/bsfg.s13140.png
       level: '1'
       name: Защитная стойка
       selection_id: '2.3_2'
@@ -6215,7 +6215,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 9%'
       - kind: value
         text: 'Меткость (Все): 28ед.'
-      icon: /icon/s13146.jpg
+      icon: /icon/client-skills/bsfg.s13146.png
       level: '1'
       name: Атакующая стойка
       selection_id: '2.3_3'
@@ -6238,7 +6238,7 @@ profession:
         text: 'Магическая защита (Любая броня): 3%'
       - kind: value
         text: 'Меткость (Все): 30ед.'
-      icon: /icon/skill0500.jpg
+      icon: /icon/client-skills/icon.skill0500.png
       level: '2'
       name: Комбо стойка
       selection_id: '2.3_1'
@@ -6265,7 +6265,7 @@ profession:
         text: 'Магическая защита (Любая броня): 5%'
       - kind: value
         text: 'Меткость (Все): 30ед.'
-      icon: /icon/s13140.jpg
+      icon: /icon/client-skills/bsfg.s13140.png
       level: '2'
       name: Защитная стойка
       selection_id: '2.3_2'
@@ -6290,7 +6290,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 10%'
       - kind: value
         text: 'Меткость (Все): 30ед.'
-      icon: /icon/s13146.jpg
+      icon: /icon/client-skills/bsfg.s13146.png
       level: '2'
       name: Атакующая стойка
       selection_id: '2.3_3'
@@ -6313,7 +6313,7 @@ profession:
         text: 'Магическая защита (Любая броня): 5%'
       - kind: value
         text: 'Меткость (Все): 32ед.'
-      icon: /icon/skill0500.jpg
+      icon: /icon/client-skills/icon.skill0500.png
       level: '3'
       name: Комбо стойка
       selection_id: '2.3_1'
@@ -6340,7 +6340,7 @@ profession:
         text: 'Магическая защита (Любая броня): 7%'
       - kind: value
         text: 'Меткость (Все): 32ед.'
-      icon: /icon/s13140.jpg
+      icon: /icon/client-skills/bsfg.s13140.png
       level: '3'
       name: Защитная стойка
       selection_id: '2.3_2'
@@ -6365,7 +6365,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 11%'
       - kind: value
         text: 'Меткость (Все): 32ед.'
-      icon: /icon/s13146.jpg
+      icon: /icon/client-skills/bsfg.s13146.png
       level: '3'
       name: Атакующая стойка
       selection_id: '2.3_3'
@@ -6388,7 +6388,7 @@ profession:
         text: 'Магическая защита (Любая броня): 7%'
       - kind: value
         text: 'Меткость (Все): 34ед.'
-      icon: /icon/skill0500.jpg
+      icon: /icon/client-skills/icon.skill0500.png
       level: '4'
       name: Комбо стойка
       selection_id: '2.3_1'
@@ -6415,7 +6415,7 @@ profession:
         text: 'Магическая защита (Любая броня): 9%'
       - kind: value
         text: 'Меткость (Все): 34ед.'
-      icon: /icon/s13140.jpg
+      icon: /icon/client-skills/bsfg.s13140.png
       level: '4'
       name: Защитная стойка
       selection_id: '2.3_2'
@@ -6440,7 +6440,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 12%'
       - kind: value
         text: 'Меткость (Все): 34ед.'
-      icon: /icon/s13146.jpg
+      icon: /icon/client-skills/bsfg.s13146.png
       level: '4'
       name: Атакующая стойка
       selection_id: '2.3_3'
@@ -6463,7 +6463,7 @@ profession:
         text: 'Магическая защита (Любая броня): 9%'
       - kind: value
         text: 'Меткость (Все): 36ед.'
-      icon: /icon/skill0500.jpg
+      icon: /icon/client-skills/icon.skill0500.png
       level: '5'
       name: Комбо стойка
       selection_id: '2.3_1'
@@ -6490,7 +6490,7 @@ profession:
         text: 'Магическая защита (Любая броня): 11%'
       - kind: value
         text: 'Меткость (Все): 36ед.'
-      icon: /icon/s13140.jpg
+      icon: /icon/client-skills/bsfg.s13140.png
       level: '5'
       name: Защитная стойка
       selection_id: '2.3_2'
@@ -6515,7 +6515,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 13%'
       - kind: value
         text: 'Меткость (Все): 36ед.'
-      icon: /icon/s13146.jpg
+      icon: /icon/client-skills/bsfg.s13146.png
       level: '5'
       name: Атакующая стойка
       selection_id: '2.3_3'
@@ -6538,7 +6538,7 @@ profession:
         text: 'Магическая защита (Любая броня): 11%'
       - kind: value
         text: 'Меткость (Все): 38ед.'
-      icon: /icon/skill0500.jpg
+      icon: /icon/client-skills/icon.skill0500.png
       level: '6'
       name: Комбо стойка
       selection_id: '2.3_1'
@@ -6565,7 +6565,7 @@ profession:
         text: 'Магическая защита (Любая броня): 13%'
       - kind: value
         text: 'Меткость (Все): 38ед.'
-      icon: /icon/s13140.jpg
+      icon: /icon/client-skills/bsfg.s13140.png
       level: '6'
       name: Защитная стойка
       selection_id: '2.3_2'
@@ -6590,7 +6590,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 14%'
       - kind: value
         text: 'Меткость (Все): 38ед.'
-      icon: /icon/s13146.jpg
+      icon: /icon/client-skills/bsfg.s13146.png
       level: '6'
       name: Атакующая стойка
       selection_id: '2.3_3'
@@ -6613,7 +6613,7 @@ profession:
         text: 'Магическая защита (Любая броня): 13%'
       - kind: value
         text: 'Меткость (Все): 40ед.'
-      icon: /icon/skill0500.jpg
+      icon: /icon/client-skills/icon.skill0500.png
       level: '7'
       name: Комбо стойка
       selection_id: '2.3_1'
@@ -6640,7 +6640,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Меткость (Все): 40ед.'
-      icon: /icon/s13140.jpg
+      icon: /icon/client-skills/bsfg.s13140.png
       level: '7'
       name: Защитная стойка
       selection_id: '2.3_2'
@@ -6665,7 +6665,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 15%'
       - kind: value
         text: 'Меткость (Все): 40ед.'
-      icon: /icon/s13146.jpg
+      icon: /icon/client-skills/bsfg.s13146.png
       level: '7'
       name: Атакующая стойка
       selection_id: '2.3_3'
@@ -6707,7 +6707,7 @@ profession:
         text: 'Физическая защита (Любая броня): 18%'
       - kind: value
         text: 'Максимум здоровья: 10%'
-      icon: /icon/s13150.jpg
+      icon: /icon/client-skills/bsfg.s13150.png
       level: '1'
       name: Оперение филина
       selection_id: '2.4_2'
@@ -6726,7 +6726,7 @@ profession:
         text: 'Физическая защита (Любая броня): 8%'
       - kind: value
         text: 'Максимум здоровья: 10%'
-      icon: /icon/s13151.jpg
+      icon: /icon/client-skills/bsfg.s13151.png
       level: '1'
       name: Оперение филина
       selection_id: '2.4_3'
@@ -6764,7 +6764,7 @@ profession:
         text: 'Физическая защита (Любая броня): 20%'
       - kind: value
         text: 'Максимум здоровья: 15%'
-      icon: /icon/s13150.jpg
+      icon: /icon/client-skills/bsfg.s13150.png
       level: '2'
       name: Оперение филина
       selection_id: '2.4_2'
@@ -6783,7 +6783,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Максимум здоровья: 15%'
-      icon: /icon/s13151.jpg
+      icon: /icon/client-skills/bsfg.s13151.png
       level: '2'
       name: Оперение филина
       selection_id: '2.4_3'
@@ -6821,7 +6821,7 @@ profession:
         text: 'Физическая защита (Любая броня): 22%'
       - kind: value
         text: 'Максимум здоровья: 20%'
-      icon: /icon/s13150.jpg
+      icon: /icon/client-skills/bsfg.s13150.png
       level: '3'
       name: Оперение филина
       selection_id: '2.4_2'
@@ -6840,7 +6840,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Максимум здоровья: 20%'
-      icon: /icon/s13151.jpg
+      icon: /icon/client-skills/bsfg.s13151.png
       level: '3'
       name: Оперение филина
       selection_id: '2.4_3'
@@ -6878,7 +6878,7 @@ profession:
         text: 'Физическая защита (Любая броня): 24%'
       - kind: value
         text: 'Максимум здоровья: 25%'
-      icon: /icon/s13150.jpg
+      icon: /icon/client-skills/bsfg.s13150.png
       level: '4'
       name: Оперение филина
       selection_id: '2.4_2'
@@ -6897,7 +6897,7 @@ profession:
         text: 'Физическая защита (Любая броня): 14%'
       - kind: value
         text: 'Максимум здоровья: 25%'
-      icon: /icon/s13151.jpg
+      icon: /icon/client-skills/bsfg.s13151.png
       level: '4'
       name: Оперение филина
       selection_id: '2.4_3'
@@ -6935,7 +6935,7 @@ profession:
         text: 'Физическая защита (Любая броня): 26%'
       - kind: value
         text: 'Максимум здоровья: 30%'
-      icon: /icon/s13150.jpg
+      icon: /icon/client-skills/bsfg.s13150.png
       level: '5'
       name: Оперение филина
       selection_id: '2.4_2'
@@ -6954,7 +6954,7 @@ profession:
         text: 'Физическая защита (Любая броня): 16%'
       - kind: value
         text: 'Максимум здоровья: 30%'
-      icon: /icon/s13151.jpg
+      icon: /icon/client-skills/bsfg.s13151.png
       level: '5'
       name: Оперение филина
       selection_id: '2.4_3'
@@ -6992,7 +6992,7 @@ profession:
         text: 'Физическая защита (Любая броня): 28%'
       - kind: value
         text: 'Максимум здоровья: 35%'
-      icon: /icon/s13150.jpg
+      icon: /icon/client-skills/bsfg.s13150.png
       level: '6'
       name: Оперение филина
       selection_id: '2.4_2'
@@ -7011,7 +7011,7 @@ profession:
         text: 'Физическая защита (Любая броня): 18%'
       - kind: value
         text: 'Максимум здоровья: 35%'
-      icon: /icon/s13151.jpg
+      icon: /icon/client-skills/bsfg.s13151.png
       level: '6'
       name: Оперение филина
       selection_id: '2.4_3'
@@ -7049,7 +7049,7 @@ profession:
         text: 'Физическая защита (Любая броня): 30%'
       - kind: value
         text: 'Максимум здоровья: 40%'
-      icon: /icon/s13150.jpg
+      icon: /icon/client-skills/bsfg.s13150.png
       level: '7'
       name: Оперение филина
       selection_id: '2.4_2'
@@ -7068,7 +7068,7 @@ profession:
         text: 'Физическая защита (Любая броня): 20%'
       - kind: value
         text: 'Максимум здоровья: 40%'
-      icon: /icon/s13151.jpg
+      icon: /icon/client-skills/bsfg.s13151.png
       level: '7'
       name: Оперение филина
       selection_id: '2.4_3'
@@ -7082,7 +7082,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '1'
       name: Подножка филина
       selection_id: '2.5_1'
@@ -7100,7 +7100,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13136.jpg
+      icon: /icon/client-skills/bsfg.s13136.png
       level: '1'
       name: Наскок филина
       selection_id: '2.5_2'
@@ -7119,7 +7119,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13138.jpg
+      icon: /icon/client-skills/bsfg.s13138.png
       level: '1'
       name: Перемещение филина
       selection_id: '2.5_3'
@@ -7137,7 +7137,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '2'
       name: Подножка филина
       selection_id: '2.5_1'
@@ -7155,7 +7155,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13136.jpg
+      icon: /icon/client-skills/bsfg.s13136.png
       level: '2'
       name: Наскок филина
       selection_id: '2.5_2'
@@ -7174,7 +7174,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13138.jpg
+      icon: /icon/client-skills/bsfg.s13138.png
       level: '2'
       name: Перемещение филина
       selection_id: '2.5_3'
@@ -7192,7 +7192,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '3'
       name: Подножка филина
       selection_id: '2.5_1'
@@ -7210,7 +7210,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13136.jpg
+      icon: /icon/client-skills/bsfg.s13136.png
       level: '3'
       name: Наскок филина
       selection_id: '2.5_2'
@@ -7229,7 +7229,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13138.jpg
+      icon: /icon/client-skills/bsfg.s13138.png
       level: '3'
       name: Перемещение филина
       selection_id: '2.5_3'
@@ -7247,7 +7247,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '4'
       name: Подножка филина
       selection_id: '2.5_1'
@@ -7265,7 +7265,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13136.jpg
+      icon: /icon/client-skills/bsfg.s13136.png
       level: '4'
       name: Наскок филина
       selection_id: '2.5_2'
@@ -7284,7 +7284,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13138.jpg
+      icon: /icon/client-skills/bsfg.s13138.png
       level: '4'
       name: Перемещение филина
       selection_id: '2.5_3'
@@ -7302,7 +7302,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '5'
       name: Подножка филина
       selection_id: '2.5_1'
@@ -7320,7 +7320,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13136.jpg
+      icon: /icon/client-skills/bsfg.s13136.png
       level: '5'
       name: Наскок филина
       selection_id: '2.5_2'
@@ -7339,7 +7339,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13138.jpg
+      icon: /icon/client-skills/bsfg.s13138.png
       level: '5'
       name: Перемещение филина
       selection_id: '2.5_3'
@@ -7357,7 +7357,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '6'
       name: Подножка филина
       selection_id: '2.5_1'
@@ -7375,7 +7375,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13136.jpg
+      icon: /icon/client-skills/bsfg.s13136.png
       level: '6'
       name: Наскок филина
       selection_id: '2.5_2'
@@ -7394,7 +7394,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13138.jpg
+      icon: /icon/client-skills/bsfg.s13138.png
       level: '6'
       name: Перемещение филина
       selection_id: '2.5_3'
@@ -7412,7 +7412,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '7'
       name: Подножка филина
       selection_id: '2.5_1'
@@ -7430,7 +7430,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13136.jpg
+      icon: /icon/client-skills/bsfg.s13136.png
       level: '7'
       name: Наскок филина
       selection_id: '2.5_2'
@@ -7449,7 +7449,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: 30'
-      icon: /icon/s13138.jpg
+      icon: /icon/client-skills/bsfg.s13138.png
       level: '7'
       name: Перемещение филина
       selection_id: '2.5_3'
@@ -7489,7 +7489,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает физическую атаку на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус атаки.
       effects: []
-      icon: /icon/s13166.jpg
+      icon: /icon/client-skills/bsfg.s13166.png
       level: '1'
       name: Серия силы арканы
       selection_id: '2.6_2'
@@ -7505,7 +7505,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает скорость атаки на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус скорости атаки.
       effects: []
-      icon: /icon/s13168.jpg
+      icon: /icon/client-skills/bsfg.s13168.png
       level: '1'
       name: Серия скорости арканы
       selection_id: '2.6_3'
@@ -7544,7 +7544,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает физическую атаку на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус атаки.
       effects: []
-      icon: /icon/s13166.jpg
+      icon: /icon/client-skills/bsfg.s13166.png
       level: '2'
       name: Серия силы арканы
       selection_id: '2.6_2'
@@ -7560,7 +7560,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает скорость атаки на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус скорости атаки.
       effects: []
-      icon: /icon/s13168.jpg
+      icon: /icon/client-skills/bsfg.s13168.png
       level: '2'
       name: Серия скорости арканы
       selection_id: '2.6_3'
@@ -7599,7 +7599,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает физическую атаку на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус атаки.
       effects: []
-      icon: /icon/s13166.jpg
+      icon: /icon/client-skills/bsfg.s13166.png
       level: '3'
       name: Серия силы арканы
       selection_id: '2.6_2'
@@ -7615,7 +7615,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает скорость атаки на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус скорости атаки.
       effects: []
-      icon: /icon/s13168.jpg
+      icon: /icon/client-skills/bsfg.s13168.png
       level: '3'
       name: Серия скорости арканы
       selection_id: '2.6_3'
@@ -7654,7 +7654,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает физическую атаку на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус атаки.
       effects: []
-      icon: /icon/s13166.jpg
+      icon: /icon/client-skills/bsfg.s13166.png
       level: '4'
       name: Серия силы арканы
       selection_id: '2.6_2'
@@ -7670,7 +7670,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает скорость атаки на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус скорости атаки.
       effects: []
-      icon: /icon/s13168.jpg
+      icon: /icon/client-skills/bsfg.s13168.png
       level: '4'
       name: Серия скорости арканы
       selection_id: '2.6_3'
@@ -7709,7 +7709,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает физическую атаку на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус атаки.
       effects: []
-      icon: /icon/s13166.jpg
+      icon: /icon/client-skills/bsfg.s13166.png
       level: '5'
       name: Серия силы арканы
       selection_id: '2.6_2'
@@ -7725,7 +7725,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает скорость атаки на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус скорости атаки.
       effects: []
-      icon: /icon/s13168.jpg
+      icon: /icon/client-skills/bsfg.s13168.png
       level: '5'
       name: Серия скорости арканы
       selection_id: '2.6_3'
@@ -7764,7 +7764,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает физическую атаку на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус атаки.
       effects: []
-      icon: /icon/s13166.jpg
+      icon: /icon/client-skills/bsfg.s13166.png
       level: '6'
       name: Серия силы арканы
       selection_id: '2.6_2'
@@ -7780,7 +7780,7 @@ profession:
       description: Открыть серию ударов, которая увеличивает скорость атаки на несколько следующих ударов.
         Чем меньше остается ударов, тем больше бонус скорости атаки.
       effects: []
-      icon: /icon/s13168.jpg
+      icon: /icon/client-skills/bsfg.s13168.png
       level: '6'
       name: Серия скорости арканы
       selection_id: '2.6_3'
@@ -7823,7 +7823,7 @@ profession:
         text: 'Максимальный бонус:'
       - kind: value
         text: 'Физическая атака (Все): 15%'
-      icon: /icon/s13166.jpg
+      icon: /icon/client-skills/bsfg.s13166.png
       level: '7'
       name: Серия силы арканы
       selection_id: '2.6_2'
@@ -7843,7 +7843,7 @@ profession:
         text: 'Максимальный бонус:'
       - kind: value
         text: 'Скорость атаки (Любая броня): 20%'
-      icon: /icon/s13168.jpg
+      icon: /icon/client-skills/bsfg.s13168.png
       level: '7'
       name: Серия скорости арканы
       selection_id: '2.6_3'
@@ -7862,7 +7862,7 @@ profession:
       effects:
       - kind: value
         text: 'Количество маны: 3ед.'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '1'
       name: Комбо оглушение
       selection_id: '2.7_1'
@@ -7892,7 +7892,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Обездвиживание, запрет использовать умения и магию: 3 сек.'
-      icon: /icon/s13152.jpg
+      icon: /icon/client-skills/bsfg.s13152.png
       level: '1'
       name: Серия унижения
       selection_id: '2.7_2'
@@ -7920,7 +7920,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13155.jpg
+      icon: /icon/client-skills/bsfg.s13155.png
       level: '1'
       name: Серия оглушения
       selection_id: '2.7_3'
@@ -7939,7 +7939,7 @@ profession:
       effects:
       - kind: value
         text: 'Количество маны: 3ед.'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '2'
       name: Комбо оглушение
       selection_id: '2.7_1'
@@ -7969,7 +7969,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Обездвиживание, запрет использовать умения и магию: 3 сек.'
-      icon: /icon/s13152.jpg
+      icon: /icon/client-skills/bsfg.s13152.png
       level: '2'
       name: Серия унижения
       selection_id: '2.7_2'
@@ -7997,7 +7997,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13155.jpg
+      icon: /icon/client-skills/bsfg.s13155.png
       level: '2'
       name: Серия оглушения
       selection_id: '2.7_3'
@@ -8016,7 +8016,7 @@ profession:
       effects:
       - kind: value
         text: 'Количество маны: 3ед.'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '3'
       name: Комбо оглушение
       selection_id: '2.7_1'
@@ -8046,7 +8046,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Обездвиживание, запрет использовать умения и магию: 3 сек.'
-      icon: /icon/s13152.jpg
+      icon: /icon/client-skills/bsfg.s13152.png
       level: '3'
       name: Серия унижения
       selection_id: '2.7_2'
@@ -8074,7 +8074,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13155.jpg
+      icon: /icon/client-skills/bsfg.s13155.png
       level: '3'
       name: Серия оглушения
       selection_id: '2.7_3'
@@ -8093,7 +8093,7 @@ profession:
       effects:
       - kind: value
         text: 'Количество маны: 3ед.'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '4'
       name: Комбо оглушение
       selection_id: '2.7_1'
@@ -8123,7 +8123,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Обездвиживание, запрет использовать умения и магию: 3 сек.'
-      icon: /icon/s13152.jpg
+      icon: /icon/client-skills/bsfg.s13152.png
       level: '4'
       name: Серия унижения
       selection_id: '2.7_2'
@@ -8151,7 +8151,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13155.jpg
+      icon: /icon/client-skills/bsfg.s13155.png
       level: '4'
       name: Серия оглушения
       selection_id: '2.7_3'
@@ -8170,7 +8170,7 @@ profession:
       effects:
       - kind: value
         text: 'Количество маны: 3ед.'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '5'
       name: Комбо оглушение
       selection_id: '2.7_1'
@@ -8200,7 +8200,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Обездвиживание, запрет использовать умения и магию: 3 сек.'
-      icon: /icon/s13152.jpg
+      icon: /icon/client-skills/bsfg.s13152.png
       level: '5'
       name: Серия унижения
       selection_id: '2.7_2'
@@ -8228,7 +8228,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13155.jpg
+      icon: /icon/client-skills/bsfg.s13155.png
       level: '5'
       name: Серия оглушения
       selection_id: '2.7_3'
@@ -8247,7 +8247,7 @@ profession:
       effects:
       - kind: value
         text: 'Количество маны: 3ед.'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '6'
       name: Комбо оглушение
       selection_id: '2.7_1'
@@ -8277,7 +8277,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Обездвиживание, запрет использовать умения и магию: 3 сек.'
-      icon: /icon/s13152.jpg
+      icon: /icon/client-skills/bsfg.s13152.png
       level: '6'
       name: Серия унижения
       selection_id: '2.7_2'
@@ -8305,7 +8305,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13155.jpg
+      icon: /icon/client-skills/bsfg.s13155.png
       level: '6'
       name: Серия оглушения
       selection_id: '2.7_3'
@@ -8324,7 +8324,7 @@ profession:
       effects:
       - kind: value
         text: 'Количество маны: 3ед.'
-      icon: /icon/skill0452.jpg
+      icon: /icon/client-skills/icon.skill0452.png
       level: '7'
       name: Комбо оглушение
       selection_id: '2.7_1'
@@ -8354,7 +8354,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Обездвиживание, запрет использовать умения и магию: 3 сек.'
-      icon: /icon/s13152.jpg
+      icon: /icon/client-skills/bsfg.s13152.png
       level: '7'
       name: Серия унижения
       selection_id: '2.7_2'
@@ -8382,7 +8382,7 @@ profession:
         text: 'Третий удар:'
       - kind: value
         text: 'Оглушение: 2 сек.'
-      icon: /icon/s13155.jpg
+      icon: /icon/client-skills/bsfg.s13155.png
       level: '7'
       name: Серия оглушения
       selection_id: '2.7_3'

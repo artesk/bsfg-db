@@ -2446,7 +2446,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 14%'
       - kind: value
         text: 'Физическая атака (Пара молотов): 22%'
-      icon: /icon/skill1610.jpg
+      icon: /icon/client-skills/icon.skill1610.png
       level: '1'
       name: Критическая регенерация
       selection_id: ''
@@ -2471,7 +2471,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 15%'
       - kind: value
         text: 'Физическая атака (Пара молотов): 25%'
-      icon: /icon/skill1610.jpg
+      icon: /icon/client-skills/icon.skill1610.png
       level: '2'
       name: Критическая регенерация
       selection_id: ''
@@ -2496,7 +2496,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 16%'
       - kind: value
         text: 'Физическая атака (Пара молотов): 28%'
-      icon: /icon/skill1610.jpg
+      icon: /icon/client-skills/icon.skill1610.png
       level: '3'
       name: Критическая регенерация
       selection_id: ''
@@ -2521,7 +2521,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 17%'
       - kind: value
         text: 'Физическая атака (Пара молотов): 31%'
-      icon: /icon/skill1610.jpg
+      icon: /icon/client-skills/icon.skill1610.png
       level: '4'
       name: Критическая регенерация
       selection_id: ''
@@ -2546,7 +2546,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 18%'
       - kind: value
         text: 'Физическая атака (Пара молотов): 34%'
-      icon: /icon/skill1610.jpg
+      icon: /icon/client-skills/icon.skill1610.png
       level: '5'
       name: Критическая регенерация
       selection_id: ''
@@ -2571,7 +2571,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 19%'
       - kind: value
         text: 'Физическая атака (Пара молотов): 37%'
-      icon: /icon/skill1610.jpg
+      icon: /icon/client-skills/icon.skill1610.png
       level: '6'
       name: Критическая регенерация
       selection_id: ''
@@ -2596,7 +2596,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 20%'
       - kind: value
         text: 'Физическая атака (Пара молотов): 40%'
-      icon: /icon/skill1610.jpg
+      icon: /icon/client-skills/icon.skill1610.png
       level: '7'
       name: Критическая регенерация
       selection_id: ''
@@ -4938,7 +4938,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '1'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4956,7 +4956,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '2'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4974,7 +4974,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '3'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4992,7 +4992,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '4'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5010,7 +5010,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '5'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5028,7 +5028,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '6'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5046,7 +5046,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '7'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5064,7 +5064,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '8'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5082,7 +5082,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '9'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5100,7 +5100,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '10'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5118,7 +5118,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '11'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5136,7 +5136,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '12'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5154,7 +5154,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '13'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5172,7 +5172,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '14'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5190,7 +5190,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '15'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5208,7 +5208,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '16'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5226,7 +5226,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '17'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5244,7 +5244,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '18'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5262,7 +5262,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '19'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5280,7 +5280,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '20'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5578,7 +5578,7 @@ profession:
         text: 'Физическая атака (Все): 40%'
       - kind: value
         text: 'Максимум боевого духа: 3%'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '1'
       name: Крушитель
       selection_id: ''
@@ -5596,7 +5596,7 @@ profession:
         text: 'Физическая атака (Все): 50%'
       - kind: value
         text: 'Максимум боевого духа: 5%'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '2'
       name: Крушитель
       selection_id: ''
@@ -5614,7 +5614,7 @@ profession:
         text: 'Физическая атака (Все): 60%'
       - kind: value
         text: 'Максимум боевого духа: 7%'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '3'
       name: Крушитель
       selection_id: ''
@@ -5632,7 +5632,7 @@ profession:
         text: 'Физическая атака (Все): 70%'
       - kind: value
         text: 'Максимум боевого духа: 9%'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '4'
       name: Крушитель
       selection_id: ''
@@ -5650,7 +5650,7 @@ profession:
         text: 'Физическая атака (Все): 80%'
       - kind: value
         text: 'Максимум боевого духа: 11%'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '5'
       name: Крушитель
       selection_id: ''
@@ -5668,7 +5668,7 @@ profession:
         text: 'Физическая атака (Все): 90%'
       - kind: value
         text: 'Максимум боевого духа: 13%'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '6'
       name: Крушитель
       selection_id: ''
@@ -5686,7 +5686,7 @@ profession:
         text: 'Физическая атака (Все): 100%'
       - kind: value
         text: 'Максимум боевого духа: 15%'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '7'
       name: Крушитель
       selection_id: ''
@@ -5704,7 +5704,7 @@ profession:
         text: 'Шанс критического урона: 20%'
       - kind: value
         text: 'Сила крит. удара: 5%'
-      icon: /icon/Icon4/s_tricker_power_up.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_power_up.png
       level: '1'
       name: Безудержная ярость
       selection_id: ''
@@ -7438,7 +7438,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 3%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 7%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '1'
       name: Бешенство
       selection_id: '2.5_1'
@@ -7457,7 +7457,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 4%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 4%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '1'
       name: Бешенство
       selection_id: '2.5_2'
@@ -7479,7 +7479,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 4%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 4%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '1'
       name: Бешенство
       selection_id: '2.5_3'
@@ -7499,7 +7499,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 5%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 10%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '2'
       name: Бешенство
       selection_id: '2.5_1'
@@ -7518,7 +7518,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 5%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 5%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '2'
       name: Бешенство
       selection_id: '2.5_2'
@@ -7540,7 +7540,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 5%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 5%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '2'
       name: Бешенство
       selection_id: '2.5_3'
@@ -7560,7 +7560,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 7%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 13%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '3'
       name: Бешенство
       selection_id: '2.5_1'
@@ -7579,7 +7579,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 6%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 6%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '3'
       name: Бешенство
       selection_id: '2.5_2'
@@ -7601,7 +7601,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 6%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 6%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '3'
       name: Бешенство
       selection_id: '2.5_3'
@@ -7621,7 +7621,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 9%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 16%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '4'
       name: Бешенство
       selection_id: '2.5_1'
@@ -7640,7 +7640,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 7%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 7%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '4'
       name: Бешенство
       selection_id: '2.5_2'
@@ -7662,7 +7662,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 7%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 7%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '4'
       name: Бешенство
       selection_id: '2.5_3'
@@ -7682,7 +7682,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 11%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 19%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '5'
       name: Бешенство
       selection_id: '2.5_1'
@@ -7701,7 +7701,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 8%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 8%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '5'
       name: Бешенство
       selection_id: '2.5_2'
@@ -7723,7 +7723,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 8%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 8%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '5'
       name: Бешенство
       selection_id: '2.5_3'
@@ -7743,7 +7743,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 13%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 22%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '6'
       name: Бешенство
       selection_id: '2.5_1'
@@ -7762,7 +7762,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 9%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 9%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '6'
       name: Бешенство
       selection_id: '2.5_2'
@@ -7784,7 +7784,7 @@ profession:
         text: 'Физическая защита (Легкая броня): 9%'
       - kind: value
         text: 'Магическая защита (Легкая броня): 9%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '6'
       name: Бешенство
       selection_id: '2.5_3'
@@ -7808,7 +7808,7 @@ profession:
         text: 'Эффект вокруг:'
       - kind: value
         text: 'Фиксированный урон: 1600ед.'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '7'
       name: Бешенство
       selection_id: '2.5_1'
@@ -7831,7 +7831,7 @@ profession:
         text: 'Эффект вокруг:'
       - kind: value
         text: 'Фиксированный урон: 1600ед.'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '7'
       name: Бешенство
       selection_id: '2.5_2'
@@ -7857,7 +7857,7 @@ profession:
         text: 'Эффект вокруг:'
       - kind: value
         text: 'Фиксированный урон: 1600ед.'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '7'
       name: Бешенство
       selection_id: '2.5_3'

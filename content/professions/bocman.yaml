@@ -825,7 +825,7 @@ profession:
         text: 'Магическая атака (Любая броня): 157%'
       - kind: value
         text: 'Сила крит. атаки магии: 60%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '1'
       name: Пиратская мораль
       selection_id: ''
@@ -841,7 +841,7 @@ profession:
         text: 'Магическая атака (Любая броня): 183%'
       - kind: value
         text: 'Сила крит. атаки магии: 70%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '2'
       name: Пиратская мораль
       selection_id: ''
@@ -857,7 +857,7 @@ profession:
         text: 'Магическая атака (Любая броня): 210%'
       - kind: value
         text: 'Сила крит. атаки магии: 80%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '3'
       name: Пиратская мораль
       selection_id: ''
@@ -873,7 +873,7 @@ profession:
         text: 'Магическая атака (Любая броня): 236%'
       - kind: value
         text: 'Сила крит. атаки магии: 90%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '4'
       name: Пиратская мораль
       selection_id: ''
@@ -889,7 +889,7 @@ profession:
         text: 'Магическая атака (Любая броня): 262%'
       - kind: value
         text: 'Сила крит. атаки магии: 100%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '5'
       name: Пиратская мораль
       selection_id: ''
@@ -905,7 +905,7 @@ profession:
         text: 'Магическая атака (Любая броня): 288%'
       - kind: value
         text: 'Сила крит. атаки магии: 110%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '6'
       name: Пиратская мораль
       selection_id: ''
@@ -921,7 +921,7 @@ profession:
         text: 'Магическая атака (Любая броня): 315%'
       - kind: value
         text: 'Сила крит. атаки магии: 120%'
-      icon: /icon/skill1520.jpg
+      icon: /icon/client-skills/icon.skill1520.png
       level: '7'
       name: Пиратская мораль
       selection_id: ''
@@ -2661,7 +2661,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -32%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0354.jpg
+      icon: /icon/client-skills/icon.skill0354.png
       level: '1'
       name: Кандалы
       selection_id: ''
@@ -2683,7 +2683,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -35%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0354.jpg
+      icon: /icon/client-skills/icon.skill0354.png
       level: '2'
       name: Кандалы
       selection_id: ''
@@ -2705,7 +2705,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -38%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0354.jpg
+      icon: /icon/client-skills/icon.skill0354.png
       level: '3'
       name: Кандалы
       selection_id: ''
@@ -2727,7 +2727,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -41%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0354.jpg
+      icon: /icon/client-skills/icon.skill0354.png
       level: '4'
       name: Кандалы
       selection_id: ''
@@ -2749,7 +2749,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -44%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0354.jpg
+      icon: /icon/client-skills/icon.skill0354.png
       level: '5'
       name: Кандалы
       selection_id: ''
@@ -2771,7 +2771,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -47%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0354.jpg
+      icon: /icon/client-skills/icon.skill0354.png
       level: '6'
       name: Кандалы
       selection_id: ''
@@ -2793,7 +2793,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -50%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0354.jpg
+      icon: /icon/client-skills/icon.skill0354.png
       level: '7'
       name: Кандалы
       selection_id: ''
@@ -2820,7 +2820,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill0406.jpg
+      icon: /icon/client-skills/icon.skill0406.png
       level: '1'
       name: Спасательный круг
       selection_id: ''
@@ -2847,7 +2847,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill0406.jpg
+      icon: /icon/client-skills/icon.skill0406.png
       level: '2'
       name: Спасательный круг
       selection_id: ''
@@ -2874,7 +2874,7 @@ profession:
         text: 'Физическая защита (Любая броня): 18%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill0406.jpg
+      icon: /icon/client-skills/icon.skill0406.png
       level: '3'
       name: Спасательный круг
       selection_id: ''
@@ -2901,7 +2901,7 @@ profession:
         text: 'Физическая защита (Любая броня): 21%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill0406.jpg
+      icon: /icon/client-skills/icon.skill0406.png
       level: '4'
       name: Спасательный круг
       selection_id: ''
@@ -2928,7 +2928,7 @@ profession:
         text: 'Физическая защита (Любая броня): 24%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill0406.jpg
+      icon: /icon/client-skills/icon.skill0406.png
       level: '5'
       name: Спасательный круг
       selection_id: ''
@@ -2955,7 +2955,7 @@ profession:
         text: 'Физическая защита (Любая броня): 27%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill0406.jpg
+      icon: /icon/client-skills/icon.skill0406.png
       level: '6'
       name: Спасательный круг
       selection_id: ''
@@ -2982,7 +2982,7 @@ profession:
         text: 'Физическая защита (Любая броня): 30%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill0406.jpg
+      icon: /icon/client-skills/icon.skill0406.png
       level: '7'
       name: Спасательный круг
       selection_id: ''
@@ -3815,7 +3815,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -3829,7 +3829,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -3843,7 +3843,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -3857,7 +3857,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -3871,7 +3871,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -3885,7 +3885,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -3899,7 +3899,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -3913,7 +3913,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -3927,7 +3927,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -3941,7 +3941,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -3955,7 +3955,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -3969,7 +3969,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -3983,7 +3983,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -3997,7 +3997,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -4011,7 +4011,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -4025,7 +4025,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -4039,7 +4039,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4053,7 +4053,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4067,7 +4067,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4081,7 +4081,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4541,7 +4541,7 @@ profession:
         text: 'Магическая атака (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '1'
       name: Авторитет боцмана
       selection_id: '2.1_0'
@@ -4567,7 +4567,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 4%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '1'
       name: Авторитет боцмана
       selection_id: '2.1_1'
@@ -4596,7 +4596,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 2%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '1'
       name: Авторитет боцмана
       selection_id: '2.1_2'
@@ -4622,7 +4622,7 @@ profession:
         text: 'Магическая атака (Любая броня): 11%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '2'
       name: Авторитет боцмана
       selection_id: '2.1_3'
@@ -4648,7 +4648,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '2'
       name: Авторитет боцмана
       selection_id: '2.1_4'
@@ -4677,7 +4677,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 2.5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '2'
       name: Авторитет боцмана
       selection_id: '2.1_5'
@@ -4703,7 +4703,7 @@ profession:
         text: 'Магическая атака (Любая броня): 12%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '3'
       name: Авторитет боцмана
       selection_id: '2.1_1'
@@ -4729,7 +4729,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 6%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '3'
       name: Авторитет боцмана
       selection_id: '2.1_2'
@@ -4758,7 +4758,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 3%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '3'
       name: Авторитет боцмана
       selection_id: '2.1_3'
@@ -4784,7 +4784,7 @@ profession:
         text: 'Магическая атака (Любая броня): 13%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '4'
       name: Авторитет боцмана
       selection_id: '2.1_1'
@@ -4810,7 +4810,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 7%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '4'
       name: Авторитет боцмана
       selection_id: '2.1_2'
@@ -4839,7 +4839,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 3.5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '4'
       name: Авторитет боцмана
       selection_id: '2.1_3'
@@ -4865,7 +4865,7 @@ profession:
         text: 'Магическая атака (Любая броня): 14%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '5'
       name: Авторитет боцмана
       selection_id: '2.1_1'
@@ -4891,7 +4891,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 8%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '5'
       name: Авторитет боцмана
       selection_id: '2.1_2'
@@ -4920,7 +4920,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 4%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '5'
       name: Авторитет боцмана
       selection_id: '2.1_3'
@@ -4946,7 +4946,7 @@ profession:
         text: 'Магическая атака (Любая броня): 15%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '6'
       name: Авторитет боцмана
       selection_id: '2.1_1'
@@ -4972,7 +4972,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 9%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '6'
       name: Авторитет боцмана
       selection_id: '2.1_2'
@@ -5001,7 +5001,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 4.5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '6'
       name: Авторитет боцмана
       selection_id: '2.1_3'
@@ -5027,7 +5027,7 @@ profession:
         text: 'Магическая атака (Любая броня): 16%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '7'
       name: Авторитет боцмана
       selection_id: '2.1_1'
@@ -5053,7 +5053,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '7'
       name: Авторитет боцмана
       selection_id: '2.1_2'
@@ -5082,7 +5082,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill6280.jpg
+      icon: /icon/client-skills/icon.skill6280.png
       level: '7'
       name: Авторитет боцмана
       selection_id: '2.1_3'
@@ -5690,7 +5690,7 @@ profession:
         text: 'Магическая защита (Любая броня): -10%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '1'
       name: Пиратская сабля
       selection_id: '2.3_1'
@@ -5710,7 +5710,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 400ед.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '1'
       name: Пиратская сабля
       selection_id: '2.3_2'
@@ -5736,7 +5736,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '1'
       name: Пиратская сабля
       selection_id: '2.3_3'
@@ -5758,7 +5758,7 @@ profession:
         text: 'Магическая защита (Любая броня): -12%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '2'
       name: Пиратская сабля
       selection_id: '2.3_1'
@@ -5778,7 +5778,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 500ед.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '2'
       name: Пиратская сабля
       selection_id: '2.3_2'
@@ -5804,7 +5804,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '2'
       name: Пиратская сабля
       selection_id: '2.3_3'
@@ -5826,7 +5826,7 @@ profession:
         text: 'Магическая защита (Любая броня): -14%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '3'
       name: Пиратская сабля
       selection_id: '2.3_1'
@@ -5846,7 +5846,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 600ед.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '3'
       name: Пиратская сабля
       selection_id: '2.3_2'
@@ -5872,7 +5872,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '3'
       name: Пиратская сабля
       selection_id: '2.3_3'
@@ -5894,7 +5894,7 @@ profession:
         text: 'Магическая защита (Любая броня): -16%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '4'
       name: Пиратская сабля
       selection_id: '2.3_1'
@@ -5914,7 +5914,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 700ед.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '4'
       name: Пиратская сабля
       selection_id: '2.3_2'
@@ -5940,7 +5940,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '4'
       name: Пиратская сабля
       selection_id: '2.3_3'
@@ -5962,7 +5962,7 @@ profession:
         text: 'Магическая защита (Любая броня): -18%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '5'
       name: Пиратская сабля
       selection_id: '2.3_1'
@@ -5982,7 +5982,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 800ед.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '5'
       name: Пиратская сабля
       selection_id: '2.3_2'
@@ -6008,7 +6008,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '5'
       name: Пиратская сабля
       selection_id: '2.3_3'
@@ -6030,7 +6030,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '6'
       name: Пиратская сабля
       selection_id: '2.3_1'
@@ -6050,7 +6050,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 900ед.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '6'
       name: Пиратская сабля
       selection_id: '2.3_2'
@@ -6076,7 +6076,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '6'
       name: Пиратская сабля
       selection_id: '2.3_3'
@@ -6098,7 +6098,7 @@ profession:
         text: 'Магическая защита (Любая броня): -22%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '7'
       name: Пиратская сабля
       selection_id: '2.3_1'
@@ -6118,7 +6118,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1000ед.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '7'
       name: Пиратская сабля
       selection_id: '2.3_2'
@@ -6144,7 +6144,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill10502.jpg
+      icon: /icon/client-skills/icon.skill10502.png
       level: '7'
       name: Пиратская сабля
       selection_id: '2.3_3'

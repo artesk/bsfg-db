@@ -323,7 +323,7 @@ profession:
         text: 'Сила умения: 10000'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0263.jpg
+      icon: /icon/client-skills/icon.skill0263.png
       level: '1'
       name: Выпад юнги
       selection_id: ''
@@ -344,7 +344,7 @@ profession:
         text: 'Сила умения: 22000'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0263.jpg
+      icon: /icon/client-skills/icon.skill0263.png
       level: '2'
       name: Выпад юнги
       selection_id: ''
@@ -365,7 +365,7 @@ profession:
         text: 'Сила умения: 65000'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0263.jpg
+      icon: /icon/client-skills/icon.skill0263.png
       level: '3'
       name: Выпад юнги
       selection_id: ''
@@ -386,7 +386,7 @@ profession:
         text: 'Сила умения: 90000'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0263.jpg
+      icon: /icon/client-skills/icon.skill0263.png
       level: '4'
       name: Выпад юнги
       selection_id: ''
@@ -407,7 +407,7 @@ profession:
         text: 'Сила умения: 145000'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0263.jpg
+      icon: /icon/client-skills/icon.skill0263.png
       level: '5'
       name: Выпад юнги
       selection_id: ''
@@ -428,7 +428,7 @@ profession:
         text: 'Сила умения: 185000'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0263.jpg
+      icon: /icon/client-skills/icon.skill0263.png
       level: '6'
       name: Выпад юнги
       selection_id: ''
@@ -449,7 +449,7 @@ profession:
         text: 'Сила умения: 220000'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill0263.jpg
+      icon: /icon/client-skills/icon.skill0263.png
       level: '7'
       name: Выпад юнги
       selection_id: ''
@@ -627,7 +627,7 @@ profession:
         text: 'Эффект от умения *Секретный прием*:'
       - kind: value
         text: 'Фиксированный урон: 1600ед.'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '1'
       name: Обманный прием
       selection_id: ''
@@ -651,7 +651,7 @@ profession:
         text: 'Эффект от умения *Секретный прием*:'
       - kind: value
         text: 'Фиксированный урон: 2000ед.'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '2'
       name: Обманный прием
       selection_id: ''
@@ -675,7 +675,7 @@ profession:
         text: 'Эффект от умения *Секретный прием*:'
       - kind: value
         text: 'Фиксированный урон: 2400ед.'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '3'
       name: Обманный прием
       selection_id: ''
@@ -699,7 +699,7 @@ profession:
         text: 'Эффект от умения *Секретный прием*:'
       - kind: value
         text: 'Фиксированный урон: 2800ед.'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '4'
       name: Обманный прием
       selection_id: ''
@@ -723,7 +723,7 @@ profession:
         text: 'Эффект от умения *Секретный прием*:'
       - kind: value
         text: 'Фиксированный урон: 3200ед.'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '5'
       name: Обманный прием
       selection_id: ''
@@ -747,7 +747,7 @@ profession:
         text: 'Эффект от умения *Секретный прием*:'
       - kind: value
         text: 'Фиксированный урон: 3600ед.'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '6'
       name: Обманный прием
       selection_id: ''
@@ -771,7 +771,7 @@ profession:
         text: 'Эффект от умения *Секретный прием*:'
       - kind: value
         text: 'Фиксированный урон: 4000ед.'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '7'
       name: Обманный прием
       selection_id: ''
@@ -790,7 +790,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Кинжал, Острый топор, Коготь): 70%'
-      icon: /icon/skill0497.jpg
+      icon: /icon/client-skills/icon.skill0497.png
       level: '1'
       name: Острое оружие
       selection_id: ''
@@ -805,7 +805,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Кинжал, Острый топор, Коготь): 85%'
-      icon: /icon/skill0497.jpg
+      icon: /icon/client-skills/icon.skill0497.png
       level: '2'
       name: Острое оружие
       selection_id: ''
@@ -820,7 +820,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Кинжал, Острый топор, Коготь): 100%'
-      icon: /icon/skill0497.jpg
+      icon: /icon/client-skills/icon.skill0497.png
       level: '3'
       name: Острое оружие
       selection_id: ''
@@ -835,7 +835,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Кинжал, Острый топор, Коготь): 115%'
-      icon: /icon/skill0497.jpg
+      icon: /icon/client-skills/icon.skill0497.png
       level: '4'
       name: Острое оружие
       selection_id: ''
@@ -850,7 +850,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Кинжал, Острый топор, Коготь): 130%'
-      icon: /icon/skill0497.jpg
+      icon: /icon/client-skills/icon.skill0497.png
       level: '5'
       name: Острое оружие
       selection_id: ''
@@ -865,7 +865,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Кинжал, Острый топор, Коготь): 145%'
-      icon: /icon/skill0497.jpg
+      icon: /icon/client-skills/icon.skill0497.png
       level: '6'
       name: Острое оружие
       selection_id: ''
@@ -880,7 +880,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Кинжал, Острый топор, Коготь): 160%'
-      icon: /icon/skill0497.jpg
+      icon: /icon/client-skills/icon.skill0497.png
       level: '7'
       name: Острое оружие
       selection_id: ''
@@ -2643,7 +2643,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0510.jpg
+      icon: /icon/client-skills/icon.skill0510.png
       level: '1'
       name: Искусный бросок
       selection_id: ''
@@ -2667,7 +2667,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0510.jpg
+      icon: /icon/client-skills/icon.skill0510.png
       level: '2'
       name: Искусный бросок
       selection_id: ''
@@ -2691,7 +2691,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0510.jpg
+      icon: /icon/client-skills/icon.skill0510.png
       level: '3'
       name: Искусный бросок
       selection_id: ''
@@ -2715,7 +2715,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0510.jpg
+      icon: /icon/client-skills/icon.skill0510.png
       level: '4'
       name: Искусный бросок
       selection_id: ''
@@ -2739,7 +2739,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0510.jpg
+      icon: /icon/client-skills/icon.skill0510.png
       level: '5'
       name: Искусный бросок
       selection_id: ''
@@ -2763,7 +2763,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0510.jpg
+      icon: /icon/client-skills/icon.skill0510.png
       level: '6'
       name: Искусный бросок
       selection_id: ''
@@ -2787,7 +2787,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0510.jpg
+      icon: /icon/client-skills/icon.skill0510.png
       level: '7'
       name: Искусный бросок
       selection_id: ''
@@ -2810,7 +2810,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '1'
       name: Сбитие с толку
       selection_id: ''
@@ -2833,7 +2833,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '2'
       name: Сбитие с толку
       selection_id: ''
@@ -2856,7 +2856,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '3'
       name: Сбитие с толку
       selection_id: ''
@@ -2879,7 +2879,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '4'
       name: Сбитие с толку
       selection_id: ''
@@ -2902,7 +2902,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '5'
       name: Сбитие с толку
       selection_id: ''
@@ -2925,7 +2925,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '6'
       name: Сбитие с толку
       selection_id: ''
@@ -2948,7 +2948,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Шанс отменить цель противника: 100%'
-      icon: /icon/skill0358.jpg
+      icon: /icon/client-skills/icon.skill0358.png
       level: '7'
       name: Сбитие с толку
       selection_id: ''
@@ -3115,7 +3115,7 @@ profession:
         text: 'Снижение фиксированного урона: -70%'
       - kind: value
         text: 'Скорость передвижения (Легкая броня): 4ед.'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '1'
       name: Мастерство выживания
       selection_id: ''
@@ -3131,7 +3131,7 @@ profession:
         text: 'Снижение фиксированного урона: -75%'
       - kind: value
         text: 'Скорость передвижения (Легкая броня): 5ед.'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '2'
       name: Мастерство выживания
       selection_id: ''
@@ -3147,7 +3147,7 @@ profession:
         text: 'Снижение фиксированного урона: -80%'
       - kind: value
         text: 'Скорость передвижения (Легкая броня): 6ед.'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '3'
       name: Мастерство выживания
       selection_id: ''
@@ -3163,7 +3163,7 @@ profession:
         text: 'Снижение фиксированного урона: -85%'
       - kind: value
         text: 'Скорость передвижения (Легкая броня): 7ед.'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '4'
       name: Мастерство выживания
       selection_id: ''
@@ -3179,7 +3179,7 @@ profession:
         text: 'Снижение фиксированного урона: -90%'
       - kind: value
         text: 'Скорость передвижения (Легкая броня): 8ед.'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '5'
       name: Мастерство выживания
       selection_id: ''
@@ -3195,7 +3195,7 @@ profession:
         text: 'Снижение фиксированного урона: -95%'
       - kind: value
         text: 'Скорость передвижения (Легкая броня): 9ед.'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '6'
       name: Мастерство выживания
       selection_id: ''
@@ -3211,7 +3211,7 @@ profession:
         text: 'Снижение фиксированного урона: -100%'
       - kind: value
         text: 'Скорость передвижения (Легкая броня): 10ед.'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '7'
       name: Мастерство выживания
       selection_id: ''
@@ -4616,7 +4616,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '1'
       name: Доблесть Убийц
       selection_id: ''
@@ -4634,7 +4634,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '2'
       name: Доблесть Убийц
       selection_id: ''
@@ -4652,7 +4652,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '3'
       name: Доблесть Убийц
       selection_id: ''
@@ -4670,7 +4670,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '4'
       name: Доблесть Убийц
       selection_id: ''
@@ -4688,7 +4688,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '5'
       name: Доблесть Убийц
       selection_id: ''
@@ -4706,7 +4706,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '6'
       name: Доблесть Убийц
       selection_id: ''
@@ -4724,7 +4724,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '7'
       name: Доблесть Убийц
       selection_id: ''
@@ -4742,7 +4742,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '8'
       name: Доблесть Убийц
       selection_id: ''
@@ -4760,7 +4760,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '9'
       name: Доблесть Убийц
       selection_id: ''
@@ -4778,7 +4778,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '10'
       name: Доблесть Убийц
       selection_id: ''
@@ -4796,7 +4796,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '11'
       name: Доблесть Убийц
       selection_id: ''
@@ -4814,7 +4814,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '12'
       name: Доблесть Убийц
       selection_id: ''
@@ -4832,7 +4832,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '13'
       name: Доблесть Убийц
       selection_id: ''
@@ -4850,7 +4850,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '14'
       name: Доблесть Убийц
       selection_id: ''
@@ -4868,7 +4868,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '15'
       name: Доблесть Убийц
       selection_id: ''
@@ -4886,7 +4886,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '16'
       name: Доблесть Убийц
       selection_id: ''
@@ -4904,7 +4904,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '17'
       name: Доблесть Убийц
       selection_id: ''
@@ -4922,7 +4922,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '18'
       name: Доблесть Убийц
       selection_id: ''
@@ -4940,7 +4940,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '19'
       name: Доблесть Убийц
       selection_id: ''
@@ -4958,7 +4958,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '20'
       name: Доблесть Убийц
       selection_id: ''
@@ -5781,7 +5781,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 12%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '1'
       name: Секретный прием
       selection_id: '2.2_1'
@@ -5806,7 +5806,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 12%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '1'
       name: Секретный прием
       selection_id: '2.2_2'
@@ -5847,7 +5847,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 15%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '2'
       name: Секретный прием
       selection_id: '2.2_1'
@@ -5872,7 +5872,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 15%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '2'
       name: Секретный прием
       selection_id: '2.2_2'
@@ -5913,7 +5913,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 18%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '3'
       name: Секретный прием
       selection_id: '2.2_1'
@@ -5938,7 +5938,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 18%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '3'
       name: Секретный прием
       selection_id: '2.2_2'
@@ -5979,7 +5979,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 21%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '4'
       name: Секретный прием
       selection_id: '2.2_1'
@@ -6004,7 +6004,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 21%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '4'
       name: Секретный прием
       selection_id: '2.2_2'
@@ -6045,7 +6045,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 24%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '5'
       name: Секретный прием
       selection_id: '2.2_1'
@@ -6070,7 +6070,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 24%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '5'
       name: Секретный прием
       selection_id: '2.2_2'
@@ -6111,7 +6111,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 27%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '6'
       name: Секретный прием
       selection_id: '2.2_1'
@@ -6136,7 +6136,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 27%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '6'
       name: Секретный прием
       selection_id: '2.2_2'
@@ -6177,7 +6177,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 30%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '7'
       name: Секретный прием
       selection_id: '2.2_1'
@@ -6202,7 +6202,7 @@ profession:
         text: 'Сила крит. урона с оружием (Кинжал, Острый топор, Коготь): 30%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '7'
       name: Секретный прием
       selection_id: '2.2_2'
@@ -6687,7 +6687,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '1'
       name: Ловкач
       selection_id: '2.4_1'
@@ -6711,7 +6711,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '1'
       name: Ловкач
       selection_id: '2.4_2'
@@ -6735,7 +6735,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '1'
       name: Ловкач
       selection_id: '2.4_3'
@@ -6759,7 +6759,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '2'
       name: Ловкач
       selection_id: '2.4_1'
@@ -6783,7 +6783,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '2'
       name: Ловкач
       selection_id: '2.4_2'
@@ -6807,7 +6807,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '2'
       name: Ловкач
       selection_id: '2.4_3'
@@ -6831,7 +6831,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '3'
       name: Ловкач
       selection_id: '2.4_1'
@@ -6855,7 +6855,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '3'
       name: Ловкач
       selection_id: '2.4_2'
@@ -6879,7 +6879,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '3'
       name: Ловкач
       selection_id: '2.4_3'
@@ -6903,7 +6903,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '4'
       name: Ловкач
       selection_id: '2.4_1'
@@ -6927,7 +6927,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '4'
       name: Ловкач
       selection_id: '2.4_2'
@@ -6951,7 +6951,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '4'
       name: Ловкач
       selection_id: '2.4_3'
@@ -6975,7 +6975,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '5'
       name: Ловкач
       selection_id: '2.4_1'
@@ -6999,7 +6999,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '5'
       name: Ловкач
       selection_id: '2.4_2'
@@ -7023,7 +7023,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '5'
       name: Ловкач
       selection_id: '2.4_3'
@@ -7047,7 +7047,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '6'
       name: Ловкач
       selection_id: '2.4_1'
@@ -7071,7 +7071,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '6'
       name: Ловкач
       selection_id: '2.4_2'
@@ -7095,7 +7095,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '6'
       name: Ловкач
       selection_id: '2.4_3'
@@ -7119,7 +7119,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '7'
       name: Ловкач
       selection_id: '2.4_1'
@@ -7143,7 +7143,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '7'
       name: Ловкач
       selection_id: '2.4_2'
@@ -7167,7 +7167,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10805.jpg
+      icon: /icon/client-skills/icon.skill10805.png
       level: '7'
       name: Ловкач
       selection_id: '2.4_3'
@@ -7179,7 +7179,7 @@ profession:
     - branch: one
       description: Юнга бросает приманку, которая манит противников к себе в течении 2 секунд.
       effects: []
-      icon: /icon/skill0629.jpg
+      icon: /icon/client-skills/icon.skill0629.png
       level: '1'
       name: Приманка
       selection_id: '2.5_1'
@@ -7194,7 +7194,7 @@ profession:
     - branch: two
       description: Юнга бросает во врагов вокруг себя ловушки, которые приковывают их к земле на 3 секунды.
       effects: []
-      icon: /icon/skill0471.jpg
+      icon: /icon/client-skills/icon.skill0471.png
       level: '1'
       name: Ловушка
       selection_id: '2.5_2'
@@ -7229,7 +7229,7 @@ profession:
     - branch: one
       description: Юнга бросает приманку, которая манит противников к себе в течении 2 секунд.
       effects: []
-      icon: /icon/skill0629.jpg
+      icon: /icon/client-skills/icon.skill0629.png
       level: '2'
       name: Приманка
       selection_id: '2.5_1'
@@ -7244,7 +7244,7 @@ profession:
     - branch: two
       description: Юнга бросает во врагов вокруг себя ловушки, которые приковывают их к земле на 3 секунды.
       effects: []
-      icon: /icon/skill0471.jpg
+      icon: /icon/client-skills/icon.skill0471.png
       level: '2'
       name: Ловушка
       selection_id: '2.5_2'
@@ -7279,7 +7279,7 @@ profession:
     - branch: one
       description: Юнга бросает приманку, которая манит противников к себе в течении 2 секунд.
       effects: []
-      icon: /icon/skill0629.jpg
+      icon: /icon/client-skills/icon.skill0629.png
       level: '3'
       name: Приманка
       selection_id: '2.5_1'
@@ -7294,7 +7294,7 @@ profession:
     - branch: two
       description: Юнга бросает во врагов вокруг себя ловушки, которые приковывают их к земле на 3 секунды.
       effects: []
-      icon: /icon/skill0471.jpg
+      icon: /icon/client-skills/icon.skill0471.png
       level: '3'
       name: Ловушка
       selection_id: '2.5_2'
@@ -7329,7 +7329,7 @@ profession:
     - branch: one
       description: Юнга бросает приманку, которая манит противников к себе в течении 2 секунд.
       effects: []
-      icon: /icon/skill0629.jpg
+      icon: /icon/client-skills/icon.skill0629.png
       level: '4'
       name: Приманка
       selection_id: '2.5_1'
@@ -7344,7 +7344,7 @@ profession:
     - branch: two
       description: Юнга бросает во врагов вокруг себя ловушки, которые приковывают их к земле на 3 секунды.
       effects: []
-      icon: /icon/skill0471.jpg
+      icon: /icon/client-skills/icon.skill0471.png
       level: '4'
       name: Ловушка
       selection_id: '2.5_2'
@@ -7379,7 +7379,7 @@ profession:
     - branch: one
       description: Юнга бросает приманку, которая манит противников к себе в течении 2 секунд.
       effects: []
-      icon: /icon/skill0629.jpg
+      icon: /icon/client-skills/icon.skill0629.png
       level: '5'
       name: Приманка
       selection_id: '2.5_1'
@@ -7394,7 +7394,7 @@ profession:
     - branch: two
       description: Юнга бросает во врагов вокруг себя ловушки, которые приковывают их к земле на 3 секунды.
       effects: []
-      icon: /icon/skill0471.jpg
+      icon: /icon/client-skills/icon.skill0471.png
       level: '5'
       name: Ловушка
       selection_id: '2.5_2'
@@ -7429,7 +7429,7 @@ profession:
     - branch: one
       description: Юнга бросает приманку, которая манит противников к себе в течении 2 секунд.
       effects: []
-      icon: /icon/skill0629.jpg
+      icon: /icon/client-skills/icon.skill0629.png
       level: '6'
       name: Приманка
       selection_id: '2.5_1'
@@ -7444,7 +7444,7 @@ profession:
     - branch: two
       description: Юнга бросает во врагов вокруг себя ловушки, которые приковывают их к земле на 3 секунды.
       effects: []
-      icon: /icon/skill0471.jpg
+      icon: /icon/client-skills/icon.skill0471.png
       level: '6'
       name: Ловушка
       selection_id: '2.5_2'
@@ -7479,7 +7479,7 @@ profession:
     - branch: one
       description: Юнга бросает приманку, которая манит противников к себе в течении 2 секунд.
       effects: []
-      icon: /icon/skill0629.jpg
+      icon: /icon/client-skills/icon.skill0629.png
       level: '7'
       name: Приманка
       selection_id: '2.5_1'
@@ -7494,7 +7494,7 @@ profession:
     - branch: two
       description: Юнга бросает во врагов вокруг себя ловушки, которые приковывают их к земле на 3 секунды.
       effects: []
-      icon: /icon/skill0471.jpg
+      icon: /icon/client-skills/icon.skill0471.png
       level: '7'
       name: Ловушка
       selection_id: '2.5_2'

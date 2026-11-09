@@ -3143,7 +3143,7 @@ profession:
         text: 'Сила крит. удара: 12%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 2%'
-      icon: /icon/skill1617.jpg
+      icon: /icon/client-skills/icon.skill1617.png
       level: '1'
       name: Состояние здоровья
       selection_id: ''
@@ -3199,7 +3199,7 @@ profession:
         text: 'Сила крит. удара: 15%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 5%'
-      icon: /icon/skill1617.jpg
+      icon: /icon/client-skills/icon.skill1617.png
       level: '2'
       name: Состояние здоровья
       selection_id: ''
@@ -3255,7 +3255,7 @@ profession:
         text: 'Сила крит. удара: 18%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 8%'
-      icon: /icon/skill1617.jpg
+      icon: /icon/client-skills/icon.skill1617.png
       level: '3'
       name: Состояние здоровья
       selection_id: ''
@@ -3311,7 +3311,7 @@ profession:
         text: 'Сила крит. удара: 21%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 11%'
-      icon: /icon/skill1617.jpg
+      icon: /icon/client-skills/icon.skill1617.png
       level: '4'
       name: Состояние здоровья
       selection_id: ''
@@ -3367,7 +3367,7 @@ profession:
         text: 'Сила крит. удара: 24%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 14%'
-      icon: /icon/skill1617.jpg
+      icon: /icon/client-skills/icon.skill1617.png
       level: '5'
       name: Состояние здоровья
       selection_id: ''
@@ -3423,7 +3423,7 @@ profession:
         text: 'Сила крит. удара: 27%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 17%'
-      icon: /icon/skill1617.jpg
+      icon: /icon/client-skills/icon.skill1617.png
       level: '6'
       name: Состояние здоровья
       selection_id: ''
@@ -3479,7 +3479,7 @@ profession:
         text: 'Сила крит. удара: 30%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 20%'
-      icon: /icon/skill1617.jpg
+      icon: /icon/client-skills/icon.skill1617.png
       level: '7'
       name: Состояние здоровья
       selection_id: ''
@@ -4558,7 +4558,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 8%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '1'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4576,7 +4576,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '2'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4594,7 +4594,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 12%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '3'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4612,7 +4612,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 14%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '4'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4630,7 +4630,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 16%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '5'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4648,7 +4648,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '6'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4666,7 +4666,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '7'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4684,7 +4684,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '8'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4702,7 +4702,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '9'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4720,7 +4720,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '10'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4738,7 +4738,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 26%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '11'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4756,7 +4756,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '12'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4774,7 +4774,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 28%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '13'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4792,7 +4792,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 29%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '14'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4810,7 +4810,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '15'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4828,7 +4828,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 31%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '16'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4846,7 +4846,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 32%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '17'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4864,7 +4864,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '18'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4882,7 +4882,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 34%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '19'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4900,7 +4900,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '20'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5339,7 +5339,7 @@ profession:
         text: 'Магическая защита (Любая броня): 5%'
       - kind: value
         text: 'Физическая защита (Любая броня): 5%'
-      icon: /icon/Icon4/gold_stone.jpg
+      icon: /icon/client-skills/icon4.l2icon.gold_stone.png
       level: '1'
       name: Главнокомандующий
       selection_id: ''
@@ -6236,7 +6236,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '1'
       name: Цепкий наконечник
       selection_id: '2.3_1'
@@ -6255,7 +6255,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '1'
       name: Цепкий наконечник
       selection_id: '2.3_2'
@@ -6274,7 +6274,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '1'
       name: Цепкий наконечник
       selection_id: '2.3_3'
@@ -6293,7 +6293,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '2'
       name: Цепкий наконечник
       selection_id: '2.3_1'
@@ -6312,7 +6312,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '2'
       name: Цепкий наконечник
       selection_id: '2.3_2'
@@ -6331,7 +6331,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '2'
       name: Цепкий наконечник
       selection_id: '2.3_3'
@@ -6350,7 +6350,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '3'
       name: Цепкий наконечник
       selection_id: '2.3_1'
@@ -6369,7 +6369,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '3'
       name: Цепкий наконечник
       selection_id: '2.3_2'
@@ -6388,7 +6388,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '3'
       name: Цепкий наконечник
       selection_id: '2.3_3'
@@ -6407,7 +6407,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '4'
       name: Цепкий наконечник
       selection_id: '2.3_1'
@@ -6426,7 +6426,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '4'
       name: Цепкий наконечник
       selection_id: '2.3_2'
@@ -6445,7 +6445,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '4'
       name: Цепкий наконечник
       selection_id: '2.3_3'
@@ -6464,7 +6464,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '5'
       name: Цепкий наконечник
       selection_id: '2.3_1'
@@ -6483,7 +6483,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '5'
       name: Цепкий наконечник
       selection_id: '2.3_2'
@@ -6502,7 +6502,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '5'
       name: Цепкий наконечник
       selection_id: '2.3_3'
@@ -6521,7 +6521,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '6'
       name: Цепкий наконечник
       selection_id: '2.3_1'
@@ -6540,7 +6540,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '6'
       name: Цепкий наконечник
       selection_id: '2.3_2'
@@ -6559,7 +6559,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '6'
       name: Цепкий наконечник
       selection_id: '2.3_3'
@@ -6578,7 +6578,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '7'
       name: Цепкий наконечник
       selection_id: '2.3_1'
@@ -6597,7 +6597,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '7'
       name: Цепкий наконечник
       selection_id: '2.3_2'
@@ -6616,7 +6616,7 @@ profession:
       effects:
       - kind: value
         text: 'Оглушение: 1 сек.'
-      icon: /icon/skill11863.jpg
+      icon: /icon/client-skills/icon.skill11863.png
       level: '7'
       name: Цепкий наконечник
       selection_id: '2.3_3'
@@ -6638,7 +6638,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Тяжелые воины): 14%'
       - kind: value
         text: 'Увеличение урона по классу профессий (Рыцари): 14%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '1'
       name: Орден могущества
       selection_id: '2.4_1'
@@ -6657,7 +6657,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 14%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 4%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '1'
       name: Орден могущества
       selection_id: '2.4_2'
@@ -6677,7 +6677,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 14%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 3%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '1'
       name: Орден могущества
       selection_id: '2.4_3'
@@ -6695,7 +6695,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Тяжелые воины): 15%'
       - kind: value
         text: 'Увеличение урона по классу профессий (Рыцари): 15%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '2'
       name: Орден могущества
       selection_id: '2.4_1'
@@ -6714,7 +6714,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 15%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 5%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '2'
       name: Орден могущества
       selection_id: '2.4_2'
@@ -6734,7 +6734,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 15%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 3.5%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '2'
       name: Орден могущества
       selection_id: '2.4_3'
@@ -6752,7 +6752,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Тяжелые воины): 16%'
       - kind: value
         text: 'Увеличение урона по классу профессий (Рыцари): 16%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '3'
       name: Орден могущества
       selection_id: '2.4_1'
@@ -6771,7 +6771,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 16%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 6%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '3'
       name: Орден могущества
       selection_id: '2.4_2'
@@ -6791,7 +6791,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 16%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 4%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '3'
       name: Орден могущества
       selection_id: '2.4_3'
@@ -6809,7 +6809,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Тяжелые воины): 17%'
       - kind: value
         text: 'Увеличение урона по классу профессий (Рыцари): 17%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '4'
       name: Орден могущества
       selection_id: '2.4_1'
@@ -6828,7 +6828,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 17%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 7%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '4'
       name: Орден могущества
       selection_id: '2.4_2'
@@ -6848,7 +6848,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 17%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 4.5%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '4'
       name: Орден могущества
       selection_id: '2.4_3'
@@ -6866,7 +6866,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Тяжелые воины): 18%'
       - kind: value
         text: 'Увеличение урона по классу профессий (Рыцари): 18%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '5'
       name: Орден могущества
       selection_id: '2.4_1'
@@ -6885,7 +6885,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 18%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 8%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '5'
       name: Орден могущества
       selection_id: '2.4_2'
@@ -6905,7 +6905,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 18%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 5%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '5'
       name: Орден могущества
       selection_id: '2.4_3'
@@ -6923,7 +6923,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Тяжелые воины): 19%'
       - kind: value
         text: 'Увеличение урона по классу профессий (Рыцари): 19%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '6'
       name: Орден могущества
       selection_id: '2.4_1'
@@ -6942,7 +6942,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 19%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 9%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '6'
       name: Орден могущества
       selection_id: '2.4_2'
@@ -6962,7 +6962,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 19%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 5.5%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '6'
       name: Орден могущества
       selection_id: '2.4_3'
@@ -6980,7 +6980,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Тяжелые воины): 20%'
       - kind: value
         text: 'Увеличение урона по классу профессий (Рыцари): 20%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '7'
       name: Орден могущества
       selection_id: '2.4_1'
@@ -6999,7 +6999,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 20%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 10%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '7'
       name: Орден могущества
       selection_id: '2.4_2'
@@ -7019,7 +7019,7 @@ profession:
         text: 'Увеличение урона по классу профессий (Рыцари): 20%'
       - kind: value
         text: 'Физическая атака (Меч, Молот, Пика(Алебарда)): 6%'
-      icon: /icon/skill11843.jpg
+      icon: /icon/client-skills/icon.skill11843.png
       level: '7'
       name: Орден могущества
       selection_id: '2.4_3'
@@ -7032,7 +7032,7 @@ profession:
       description: Вы обездвиживаете врага на 2 секунды, после чего он будет замедлен еще на 3 секунды.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '1'
       name: Тяжелые оковы
       selection_id: '2.5_1'
@@ -7050,7 +7050,7 @@ profession:
       description: Вы обездвиживаете врага на 3 секунды, после чего он будет замедлен еще на 3 секунды.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '1'
       name: Тяжелые оковы
       selection_id: '2.5_2'
@@ -7068,7 +7068,7 @@ profession:
       description: Вы обездвиживаете врага на 4 секунды, после чего он будет замедлен еще на 4 секунды.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '1'
       name: Тяжелые оковы
       selection_id: '2.5_3'
@@ -7086,7 +7086,7 @@ profession:
       description: Вы обездвиживаете врага на 2 секунды, после чего он будет замедлен еще на 3 секунды.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '2'
       name: Тяжелые оковы
       selection_id: '2.5_1'
@@ -7104,7 +7104,7 @@ profession:
       description: Вы обездвиживаете врага на 3 секунды, после чего он будет замедлен еще на 3 секунды.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '2'
       name: Тяжелые оковы
       selection_id: '2.5_2'
@@ -7122,7 +7122,7 @@ profession:
       description: Вы обездвиживаете врага на 4 секунды, после чего он будет замедлен еще на 4 секунды.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '2'
       name: Тяжелые оковы
       selection_id: '2.5_3'
@@ -7140,7 +7140,7 @@ profession:
       description: Вы обездвиживаете врага на 2 секунды, после чего он будет замедлен еще на 3 секунды.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '3'
       name: Тяжелые оковы
       selection_id: '2.5_1'
@@ -7158,7 +7158,7 @@ profession:
       description: Вы обездвиживаете врага на 3 секунды, после чего он будет замедлен еще на 3 секунды.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '3'
       name: Тяжелые оковы
       selection_id: '2.5_2'
@@ -7176,7 +7176,7 @@ profession:
       description: Вы обездвиживаете врага на 4 секунды, после чего он будет замедлен еще на 4 секунды.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '3'
       name: Тяжелые оковы
       selection_id: '2.5_3'
@@ -7194,7 +7194,7 @@ profession:
       description: Вы обездвиживаете врага на 2 секунды, после чего он будет замедлен еще на 3 секунды.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '4'
       name: Тяжелые оковы
       selection_id: '2.5_1'
@@ -7212,7 +7212,7 @@ profession:
       description: Вы обездвиживаете врага на 3 секунды, после чего он будет замедлен еще на 3 секунды.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '4'
       name: Тяжелые оковы
       selection_id: '2.5_2'
@@ -7230,7 +7230,7 @@ profession:
       description: Вы обездвиживаете врага на 4 секунды, после чего он будет замедлен еще на 4 секунды.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '4'
       name: Тяжелые оковы
       selection_id: '2.5_3'
@@ -7248,7 +7248,7 @@ profession:
       description: Вы обездвиживаете врага на 2 секунды, после чего он будет замедлен еще на 3 секунды.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '5'
       name: Тяжелые оковы
       selection_id: '2.5_1'
@@ -7266,7 +7266,7 @@ profession:
       description: Вы обездвиживаете врага на 3 секунды, после чего он будет замедлен еще на 3 секунды.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '5'
       name: Тяжелые оковы
       selection_id: '2.5_2'
@@ -7284,7 +7284,7 @@ profession:
       description: Вы обездвиживаете врага на 4 секунды, после чего он будет замедлен еще на 4 секунды.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '5'
       name: Тяжелые оковы
       selection_id: '2.5_3'
@@ -7302,7 +7302,7 @@ profession:
       description: Вы обездвиживаете врага на 2 секунды, после чего он будет замедлен еще на 3 секунды.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '6'
       name: Тяжелые оковы
       selection_id: '2.5_1'
@@ -7320,7 +7320,7 @@ profession:
       description: Вы обездвиживаете врага на 3 секунды, после чего он будет замедлен еще на 3 секунды.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '6'
       name: Тяжелые оковы
       selection_id: '2.5_2'
@@ -7338,7 +7338,7 @@ profession:
       description: Вы обездвиживаете врага на 4 секунды, после чего он будет замедлен еще на 4 секунды.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '6'
       name: Тяжелые оковы
       selection_id: '2.5_3'
@@ -7356,7 +7356,7 @@ profession:
       description: Вы обездвиживаете врага на 2 секунды, после чего он будет замедлен еще на 3 секунды.
         Быстрый откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '7'
       name: Тяжелые оковы
       selection_id: '2.5_1'
@@ -7374,7 +7374,7 @@ profession:
       description: Вы обездвиживаете врага на 3 секунды, после чего он будет замедлен еще на 3 секунды.
         Средний откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '7'
       name: Тяжелые оковы
       selection_id: '2.5_2'
@@ -7392,7 +7392,7 @@ profession:
       description: Вы обездвиживаете врага на 4 секунды, после чего он будет замедлен еще на 4 секунды.
         Долгий откат умения.
       effects: []
-      icon: /icon/skill1508.jpg
+      icon: /icon/client-skills/icon.skill1508.png
       level: '7'
       name: Тяжелые оковы
       selection_id: '2.5_3'
@@ -7413,7 +7413,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум здоровья: 4%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '1'
       name: Орден выносливости
       selection_id: '2.6_1'
@@ -7429,7 +7429,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум боевого духа: 4%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '1'
       name: Орден выносливости
       selection_id: '2.6_2'
@@ -7447,7 +7447,7 @@ profession:
         text: 'Максимум боевого духа: 2.5%'
       - kind: value
         text: 'Максимум здоровья: 2.5%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '1'
       name: Орден выносливости
       selection_id: '2.6_3'
@@ -7463,7 +7463,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум здоровья: 5%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '2'
       name: Орден выносливости
       selection_id: '2.6_1'
@@ -7479,7 +7479,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум боевого духа: 5%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '2'
       name: Орден выносливости
       selection_id: '2.6_2'
@@ -7497,7 +7497,7 @@ profession:
         text: 'Максимум боевого духа: 2.5%'
       - kind: value
         text: 'Максимум здоровья: 2.5%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '2'
       name: Орден выносливости
       selection_id: '2.6_3'
@@ -7513,7 +7513,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум здоровья: 6%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '3'
       name: Орден выносливости
       selection_id: '2.6_1'
@@ -7529,7 +7529,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум боевого духа: 6%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '3'
       name: Орден выносливости
       selection_id: '2.6_2'
@@ -7547,7 +7547,7 @@ profession:
         text: 'Максимум боевого духа: 3%'
       - kind: value
         text: 'Максимум здоровья: 3%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '3'
       name: Орден выносливости
       selection_id: '2.6_3'
@@ -7563,7 +7563,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум здоровья: 7%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '4'
       name: Орден выносливости
       selection_id: '2.6_1'
@@ -7579,7 +7579,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум боевого духа: 7%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '4'
       name: Орден выносливости
       selection_id: '2.6_2'
@@ -7597,7 +7597,7 @@ profession:
         text: 'Максимум боевого духа: 3.5%'
       - kind: value
         text: 'Максимум здоровья: 3.5%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '4'
       name: Орден выносливости
       selection_id: '2.6_3'
@@ -7613,7 +7613,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум здоровья: 8%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '5'
       name: Орден выносливости
       selection_id: '2.6_1'
@@ -7629,7 +7629,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум боевого духа: 8%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '5'
       name: Орден выносливости
       selection_id: '2.6_2'
@@ -7647,7 +7647,7 @@ profession:
         text: 'Максимум боевого духа: 4%'
       - kind: value
         text: 'Максимум здоровья: 4%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '5'
       name: Орден выносливости
       selection_id: '2.6_3'
@@ -7663,7 +7663,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум здоровья: 9%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '6'
       name: Орден выносливости
       selection_id: '2.6_1'
@@ -7679,7 +7679,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум боевого духа: 9%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '6'
       name: Орден выносливости
       selection_id: '2.6_2'
@@ -7697,7 +7697,7 @@ profession:
         text: 'Максимум боевого духа: 4.5%'
       - kind: value
         text: 'Максимум здоровья: 4.5%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '6'
       name: Орден выносливости
       selection_id: '2.6_3'
@@ -7713,7 +7713,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум здоровья: 10%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '7'
       name: Орден выносливости
       selection_id: '2.6_1'
@@ -7729,7 +7729,7 @@ profession:
       effects:
       - kind: value
         text: 'Максимум боевого духа: 10%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '7'
       name: Орден выносливости
       selection_id: '2.6_2'
@@ -7747,7 +7747,7 @@ profession:
         text: 'Максимум боевого духа: 5%'
       - kind: value
         text: 'Максимум здоровья: 5%'
-      icon: /icon/skill19201.jpg
+      icon: /icon/client-skills/icon.skill19201.png
       level: '7'
       name: Орден выносливости
       selection_id: '2.6_3'

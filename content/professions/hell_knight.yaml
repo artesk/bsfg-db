@@ -2206,7 +2206,7 @@ profession:
         text: 'Эффект от умения *Рыцарь ада*:'
       - kind: value
         text: 'Здоровье: 5000ед.'
-      icon: /icon/skill5076_b.jpg
+      icon: /icon/client-skills/icon.skill5076_b.png
       level: '1'
       name: Адский удар
       selection_id: ''
@@ -2230,7 +2230,7 @@ profession:
         text: 'Эффект от умения *Рыцарь ада*:'
       - kind: value
         text: 'Здоровье: 5000ед.'
-      icon: /icon/skill5076_b.jpg
+      icon: /icon/client-skills/icon.skill5076_b.png
       level: '2'
       name: Адский удар
       selection_id: ''
@@ -2254,7 +2254,7 @@ profession:
         text: 'Эффект от умения *Рыцарь ада*:'
       - kind: value
         text: 'Здоровье: 5000ед.'
-      icon: /icon/skill5076_b.jpg
+      icon: /icon/client-skills/icon.skill5076_b.png
       level: '3'
       name: Адский удар
       selection_id: ''
@@ -2278,7 +2278,7 @@ profession:
         text: 'Эффект от умения *Рыцарь ада*:'
       - kind: value
         text: 'Здоровье: 5000ед.'
-      icon: /icon/skill5076_b.jpg
+      icon: /icon/client-skills/icon.skill5076_b.png
       level: '4'
       name: Адский удар
       selection_id: ''
@@ -2302,7 +2302,7 @@ profession:
         text: 'Эффект от умения *Рыцарь ада*:'
       - kind: value
         text: 'Здоровье: 5000ед.'
-      icon: /icon/skill5076_b.jpg
+      icon: /icon/client-skills/icon.skill5076_b.png
       level: '5'
       name: Адский удар
       selection_id: ''
@@ -2326,7 +2326,7 @@ profession:
         text: 'Эффект от умения *Рыцарь ада*:'
       - kind: value
         text: 'Здоровье: 5000ед.'
-      icon: /icon/skill5076_b.jpg
+      icon: /icon/client-skills/icon.skill5076_b.png
       level: '6'
       name: Адский удар
       selection_id: ''
@@ -2350,7 +2350,7 @@ profession:
         text: 'Эффект от умения *Рыцарь ада*:'
       - kind: value
         text: 'Здоровье: 5000ед.'
-      icon: /icon/skill5076_b.jpg
+      icon: /icon/client-skills/icon.skill5076_b.png
       level: '7'
       name: Адский удар
       selection_id: ''
@@ -3288,7 +3288,7 @@ profession:
         text: 'Физическая атака (Все): 12%'
       - kind: value
         text: 'Магическая защита (Роба): 8%'
-      icon: /icon/skill14279.jpg
+      icon: /icon/client-skills/icon.skill14279.png
       level: '1'
       name: Обличие демона
       selection_id: ''
@@ -3319,7 +3319,7 @@ profession:
         text: 'Физическая атака (Все): 15%'
       - kind: value
         text: 'Магическая защита (Роба): 10%'
-      icon: /icon/skill14279.jpg
+      icon: /icon/client-skills/icon.skill14279.png
       level: '2'
       name: Обличие демона
       selection_id: ''
@@ -3350,7 +3350,7 @@ profession:
         text: 'Физическая атака (Все): 18%'
       - kind: value
         text: 'Магическая защита (Роба): 12%'
-      icon: /icon/skill14279.jpg
+      icon: /icon/client-skills/icon.skill14279.png
       level: '3'
       name: Обличие демона
       selection_id: ''
@@ -3381,7 +3381,7 @@ profession:
         text: 'Физическая атака (Все): 21%'
       - kind: value
         text: 'Магическая защита (Роба): 14%'
-      icon: /icon/skill14279.jpg
+      icon: /icon/client-skills/icon.skill14279.png
       level: '4'
       name: Обличие демона
       selection_id: ''
@@ -3412,7 +3412,7 @@ profession:
         text: 'Физическая атака (Все): 24%'
       - kind: value
         text: 'Магическая защита (Роба): 16%'
-      icon: /icon/skill14279.jpg
+      icon: /icon/client-skills/icon.skill14279.png
       level: '5'
       name: Обличие демона
       selection_id: ''
@@ -3443,7 +3443,7 @@ profession:
         text: 'Физическая атака (Все): 27%'
       - kind: value
         text: 'Магическая защита (Роба): 18%'
-      icon: /icon/skill14279.jpg
+      icon: /icon/client-skills/icon.skill14279.png
       level: '6'
       name: Обличие демона
       selection_id: ''
@@ -3474,7 +3474,7 @@ profession:
         text: 'Физическая атака (Все): 30%'
       - kind: value
         text: 'Магическая защита (Роба): 20%'
-      icon: /icon/skill14279.jpg
+      icon: /icon/client-skills/icon.skill14279.png
       level: '7'
       name: Обличие демона
       selection_id: ''
@@ -4448,7 +4448,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 8%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '1'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4466,7 +4466,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '2'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4484,7 +4484,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 12%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '3'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4502,7 +4502,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 14%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '4'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4520,7 +4520,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 16%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '5'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4538,7 +4538,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '6'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4556,7 +4556,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '7'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4574,7 +4574,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '8'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4592,7 +4592,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '9'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4610,7 +4610,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '10'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4628,7 +4628,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 26%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '11'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4646,7 +4646,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '12'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4664,7 +4664,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 28%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '13'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4682,7 +4682,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 29%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '14'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4700,7 +4700,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '15'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4718,7 +4718,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 31%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '16'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4736,7 +4736,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 32%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '17'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4754,7 +4754,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '18'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4772,7 +4772,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 34%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '19'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4790,7 +4790,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '20'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5245,7 +5245,7 @@ profession:
         text: 'Урон по сооружениям: 1500'
       - kind: value
         text: 'Восстановление здоровья: -10%'
-      icon: /icon/Icon4/flame_blast.jpg
+      icon: /icon/client-skills/icon4.l2icon.flame_blast.png
       level: '1'
       name: Чистилище
       selection_id: ''
@@ -8311,7 +8311,7 @@ profession:
         text: 'Физическая защита (Роба): 4%'
       - kind: value
         text: 'Максимум здоровья: 2%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '1'
       name: Призыв демона
       selection_id: '2.7_1'
@@ -8336,7 +8336,7 @@ profession:
         text: 'Физическая защита (Роба): 4%'
       - kind: value
         text: 'Максимум здоровья: 2%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '1'
       name: Призыв демона
       selection_id: '2.7_2'
@@ -8354,7 +8354,7 @@ profession:
         умения и получить за это усиление, которое увеличит физическую атаку на 8%, физическую защиту
         на 9% и максимальный запас жизненных сил на 4%.
       effects: []
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '1'
       name: Призыв демона
       selection_id: '2.7_3'
@@ -8378,7 +8378,7 @@ profession:
         text: 'Физическая защита (Роба): 4.5%'
       - kind: value
         text: 'Максимум здоровья: 3%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '2'
       name: Призыв демона
       selection_id: '2.7_1'
@@ -8403,7 +8403,7 @@ profession:
         text: 'Физическая защита (Роба): 4.5%'
       - kind: value
         text: 'Максимум здоровья: 3%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '2'
       name: Призыв демона
       selection_id: '2.7_2'
@@ -8421,7 +8421,7 @@ profession:
         умения и получить за это усиление, которое увеличит физическую атаку на 10%, физическую защиту
         на 10% и максимальный запас жизненных сил на 5%.
       effects: []
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '2'
       name: Призыв демона
       selection_id: '2.7_3'
@@ -8445,7 +8445,7 @@ profession:
         text: 'Физическая защита (Роба): 5%'
       - kind: value
         text: 'Максимум здоровья: 4%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '3'
       name: Призыв демона
       selection_id: '2.7_1'
@@ -8470,7 +8470,7 @@ profession:
         text: 'Физическая защита (Роба): 5%'
       - kind: value
         text: 'Максимум здоровья: 4%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '3'
       name: Призыв демона
       selection_id: '2.7_2'
@@ -8488,7 +8488,7 @@ profession:
         умения и получить за это усиление, которое увеличит физическую атаку на 12%, физическую защиту
         на 11% и максимальный запас жизненных сил на 6%.
       effects: []
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '3'
       name: Призыв демона
       selection_id: '2.7_3'
@@ -8512,7 +8512,7 @@ profession:
         text: 'Физическая защита (Роба): 5.5%'
       - kind: value
         text: 'Максимум здоровья: 5%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '4'
       name: Призыв демона
       selection_id: '2.7_1'
@@ -8537,7 +8537,7 @@ profession:
         text: 'Физическая защита (Роба): 5.5%'
       - kind: value
         text: 'Максимум здоровья: 5%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '4'
       name: Призыв демона
       selection_id: '2.7_2'
@@ -8555,7 +8555,7 @@ profession:
         умения и получить за это усиление, которое увеличит физическую атаку на 14%, физическую защиту
         на 12% и максимальный запас жизненных сил на 7%.
       effects: []
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '4'
       name: Призыв демона
       selection_id: '2.7_3'
@@ -8579,7 +8579,7 @@ profession:
         text: 'Физическая защита (Роба): 6%'
       - kind: value
         text: 'Максимум здоровья: 6%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '5'
       name: Призыв демона
       selection_id: '2.7_1'
@@ -8604,7 +8604,7 @@ profession:
         text: 'Физическая защита (Роба): 6%'
       - kind: value
         text: 'Максимум здоровья: 6%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '5'
       name: Призыв демона
       selection_id: '2.7_2'
@@ -8622,7 +8622,7 @@ profession:
         умения и получить за это усиление, которое увеличит физическую атаку на 16%, физическую защиту
         на 13% и максимальный запас жизненных сил на 8%.
       effects: []
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '5'
       name: Призыв демона
       selection_id: '2.7_3'
@@ -8646,7 +8646,7 @@ profession:
         text: 'Физическая защита (Роба): 6.5%'
       - kind: value
         text: 'Максимум здоровья: 7%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '6'
       name: Призыв демона
       selection_id: '2.7_1'
@@ -8671,7 +8671,7 @@ profession:
         text: 'Физическая защита (Роба): 6.5%'
       - kind: value
         text: 'Максимум здоровья: 7%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '6'
       name: Призыв демона
       selection_id: '2.7_2'
@@ -8689,7 +8689,7 @@ profession:
         умения и получить за это усиление, которое увеличит физическую атаку на 18%, физическую защиту
         на 14% и максимальный запас жизненных сил на 9%.
       effects: []
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '6'
       name: Призыв демона
       selection_id: '2.7_3'
@@ -8713,7 +8713,7 @@ profession:
         text: 'Физическая защита (Роба): 7%'
       - kind: value
         text: 'Максимум здоровья: 8%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '7'
       name: Призыв демона
       selection_id: '2.7_1'
@@ -8738,7 +8738,7 @@ profession:
         text: 'Физическая защита (Роба): 7%'
       - kind: value
         text: 'Максимум здоровья: 8%'
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '7'
       name: Призыв демона
       selection_id: '2.7_2'
@@ -8756,7 +8756,7 @@ profession:
         умения и получить за это усиление, которое увеличит физическую атаку на 20%, физическую защиту
         на 15% и максимальный запас жизненных сил на 10%.
       effects: []
-      icon: /icon/skill14289.jpg
+      icon: /icon/client-skills/icon.skill14289.png
       level: '7'
       name: Призыв демона
       selection_id: '2.7_3'

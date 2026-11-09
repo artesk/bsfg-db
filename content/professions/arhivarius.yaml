@@ -2627,7 +2627,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Обездвиживание: 2 сек.'
-      icon: /icon/power_of_storm.jpg
+      icon: /icon/client-skills/icon.power_of_storm.png
       level: '1'
       name: Магический всплеск
       selection_id: ''
@@ -2649,7 +2649,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Обездвиживание: 2 сек.'
-      icon: /icon/power_of_storm.jpg
+      icon: /icon/client-skills/icon.power_of_storm.png
       level: '2'
       name: Магический всплеск
       selection_id: ''
@@ -2671,7 +2671,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Обездвиживание: 2 сек.'
-      icon: /icon/power_of_storm.jpg
+      icon: /icon/client-skills/icon.power_of_storm.png
       level: '3'
       name: Магический всплеск
       selection_id: ''
@@ -2693,7 +2693,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Обездвиживание: 2 сек.'
-      icon: /icon/power_of_storm.jpg
+      icon: /icon/client-skills/icon.power_of_storm.png
       level: '4'
       name: Магический всплеск
       selection_id: ''
@@ -2715,7 +2715,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Обездвиживание: 2 сек.'
-      icon: /icon/power_of_storm.jpg
+      icon: /icon/client-skills/icon.power_of_storm.png
       level: '5'
       name: Магический всплеск
       selection_id: ''
@@ -2737,7 +2737,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Обездвиживание: 2 сек.'
-      icon: /icon/power_of_storm.jpg
+      icon: /icon/client-skills/icon.power_of_storm.png
       level: '6'
       name: Магический всплеск
       selection_id: ''
@@ -2759,7 +2759,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Обездвиживание: 2 сек.'
-      icon: /icon/power_of_storm.jpg
+      icon: /icon/client-skills/icon.power_of_storm.png
       level: '7'
       name: Магический всплеск
       selection_id: ''
@@ -2781,7 +2781,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 2 сек.'
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '1'
       name: Сокрушение
       selection_id: ''
@@ -2803,7 +2803,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Сбитие с ног: 2 сек.'
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '2'
       name: Сокрушение
       selection_id: ''
@@ -2825,7 +2825,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Сбитие с ног: 2 сек.'
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '3'
       name: Сокрушение
       selection_id: ''
@@ -2847,7 +2847,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Сбитие с ног: 2 сек.'
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '4'
       name: Сокрушение
       selection_id: ''
@@ -2869,7 +2869,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Сбитие с ног: 2 сек.'
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '5'
       name: Сокрушение
       selection_id: ''
@@ -2891,7 +2891,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Сбитие с ног: 2 сек.'
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '6'
       name: Сокрушение
       selection_id: ''
@@ -2913,7 +2913,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Сбитие с ног: 2 сек.'
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '7'
       name: Сокрушение
       selection_id: ''
@@ -3065,7 +3065,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 2000ед.'
-      icon: /icon/skill0401.jpg
+      icon: /icon/client-skills/icon.skill0401.png
       level: '1'
       name: Грехопадение
       selection_id: ''
@@ -3083,7 +3083,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 2500ед.'
-      icon: /icon/skill0401.jpg
+      icon: /icon/client-skills/icon.skill0401.png
       level: '2'
       name: Грехопадение
       selection_id: ''
@@ -3101,7 +3101,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 3000ед.'
-      icon: /icon/skill0401.jpg
+      icon: /icon/client-skills/icon.skill0401.png
       level: '3'
       name: Грехопадение
       selection_id: ''
@@ -3119,7 +3119,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 3500ед.'
-      icon: /icon/skill0401.jpg
+      icon: /icon/client-skills/icon.skill0401.png
       level: '4'
       name: Грехопадение
       selection_id: ''
@@ -3137,7 +3137,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 4000ед.'
-      icon: /icon/skill0401.jpg
+      icon: /icon/client-skills/icon.skill0401.png
       level: '5'
       name: Грехопадение
       selection_id: ''
@@ -3155,7 +3155,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 4500ед.'
-      icon: /icon/skill0401.jpg
+      icon: /icon/client-skills/icon.skill0401.png
       level: '6'
       name: Грехопадение
       selection_id: ''
@@ -3173,7 +3173,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 5000ед.'
-      icon: /icon/skill0401.jpg
+      icon: /icon/client-skills/icon.skill0401.png
       level: '7'
       name: Грехопадение
       selection_id: ''
@@ -3872,7 +3872,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -3886,7 +3886,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -3900,7 +3900,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -3914,7 +3914,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -3928,7 +3928,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -3942,7 +3942,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -3956,7 +3956,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -3970,7 +3970,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -3984,7 +3984,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -3998,7 +3998,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -4012,7 +4012,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -4026,7 +4026,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -4040,7 +4040,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -4054,7 +4054,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -4068,7 +4068,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -4082,7 +4082,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -4096,7 +4096,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4110,7 +4110,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4124,7 +4124,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4138,7 +4138,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4440,7 +4440,7 @@ profession:
         text: 'Физическая защита (Роба): 3%'
       - kind: value
         text: 'Магическая защита (Роба): 3%'
-      icon: /icon/dual_a_mblock.jpg
+      icon: /icon/client-skills/icon.dual_a_mblock.png
       level: '1'
       name: Архивариус
       selection_id: ''
@@ -4463,7 +4463,7 @@ profession:
         text: 'Физическая защита (Роба): 5%'
       - kind: value
         text: 'Магическая защита (Роба): 5%'
-      icon: /icon/dual_a_mblock.jpg
+      icon: /icon/client-skills/icon.dual_a_mblock.png
       level: '2'
       name: Архивариус
       selection_id: ''
@@ -4487,7 +4487,7 @@ profession:
         text: 'Физическая защита (Роба): 7%'
       - kind: value
         text: 'Магическая защита (Роба): 7%'
-      icon: /icon/dual_a_mblock.jpg
+      icon: /icon/client-skills/icon.dual_a_mblock.png
       level: '3'
       name: Архивариус
       selection_id: ''
@@ -4511,7 +4511,7 @@ profession:
         text: 'Физическая защита (Роба): 9%'
       - kind: value
         text: 'Магическая защита (Роба): 9%'
-      icon: /icon/dual_a_mblock.jpg
+      icon: /icon/client-skills/icon.dual_a_mblock.png
       level: '4'
       name: Архивариус
       selection_id: ''
@@ -4535,7 +4535,7 @@ profession:
         text: 'Физическая защита (Роба): 11%'
       - kind: value
         text: 'Магическая защита (Роба): 11%'
-      icon: /icon/dual_a_mblock.jpg
+      icon: /icon/client-skills/icon.dual_a_mblock.png
       level: '5'
       name: Архивариус
       selection_id: ''
@@ -4559,7 +4559,7 @@ profession:
         text: 'Физическая защита (Роба): 13%'
       - kind: value
         text: 'Магическая защита (Роба): 13%'
-      icon: /icon/dual_a_mblock.jpg
+      icon: /icon/client-skills/icon.dual_a_mblock.png
       level: '6'
       name: Архивариус
       selection_id: ''
@@ -4583,7 +4583,7 @@ profession:
         text: 'Физическая защита (Роба): 15%'
       - kind: value
         text: 'Магическая защита (Роба): 15%'
-      icon: /icon/dual_a_mblock.jpg
+      icon: /icon/client-skills/icon.dual_a_mblock.png
       level: '7'
       name: Архивариус
       selection_id: ''
@@ -4605,7 +4605,7 @@ profession:
         text: 'Физическая защита (Роба): 150000ед.'
       - kind: value
         text: 'Магическая защита (Роба): 150000ед.'
-      icon: /icon/Icon4/c_forgotten_power_giant1.jpg
+      icon: /icon/client-skills/icon4.l2icon.c_forgotten_power_giant1.png
       level: '1'
       name: Оккультный трактат
       selection_id: ''
@@ -5607,7 +5607,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 8%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '1'
       name: Архив Гула
       selection_id: '2.3_1'
@@ -5622,7 +5622,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 8%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '1'
       name: Архив Гула
       selection_id: '2.3_2'
@@ -5637,7 +5637,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 8%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '1'
       name: Архив Гула
       selection_id: '2.3_3'
@@ -5652,7 +5652,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 10%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '2'
       name: Архив Гула
       selection_id: '2.3_1'
@@ -5667,7 +5667,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 10%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '2'
       name: Архив Гула
       selection_id: '2.3_2'
@@ -5682,7 +5682,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 10%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '2'
       name: Архив Гула
       selection_id: '2.3_3'
@@ -5697,7 +5697,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 12%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '3'
       name: Архив Гула
       selection_id: '2.3_1'
@@ -5712,7 +5712,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 12%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '3'
       name: Архив Гула
       selection_id: '2.3_2'
@@ -5727,7 +5727,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 12%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '3'
       name: Архив Гула
       selection_id: '2.3_3'
@@ -5742,7 +5742,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 14%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '4'
       name: Архив Гула
       selection_id: '2.3_1'
@@ -5757,7 +5757,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 14%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '4'
       name: Архив Гула
       selection_id: '2.3_2'
@@ -5772,7 +5772,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 14%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '4'
       name: Архив Гула
       selection_id: '2.3_3'
@@ -5787,7 +5787,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 16%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '5'
       name: Архив Гула
       selection_id: '2.3_1'
@@ -5802,7 +5802,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 16%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '5'
       name: Архив Гула
       selection_id: '2.3_2'
@@ -5817,7 +5817,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 16%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '5'
       name: Архив Гула
       selection_id: '2.3_3'
@@ -5832,7 +5832,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 18%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '6'
       name: Архив Гула
       selection_id: '2.3_1'
@@ -5847,7 +5847,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 18%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '6'
       name: Архив Гула
       selection_id: '2.3_2'
@@ -5862,7 +5862,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 18%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '6'
       name: Архив Гула
       selection_id: '2.3_3'
@@ -5877,7 +5877,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 20%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '7'
       name: Архив Гула
       selection_id: '2.3_1'
@@ -5892,7 +5892,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 20%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '7'
       name: Архив Гула
       selection_id: '2.3_2'
@@ -5907,7 +5907,7 @@ profession:
       effects:
       - kind: value
         text: 'Магический вампиризм: 20%'
-      icon: /icon/skill0116.jpg
+      icon: /icon/client-skills/icon.skill0116.png
       level: '7'
       name: Архив Гула
       selection_id: '2.3_3'
@@ -7306,7 +7306,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '1'
       name: Архив Супербия
       selection_id: '2.7_1'
@@ -7323,7 +7323,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         отравлять врагов.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '1'
       name: Архив Супербия
       selection_id: '2.7_2'
@@ -7340,7 +7340,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам и отравлять их.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '1'
       name: Архив Супербия
       selection_id: '2.7_3'
@@ -7357,7 +7357,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '2'
       name: Архив Супербия
       selection_id: '2.7_1'
@@ -7374,7 +7374,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         отравлять врагов.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '2'
       name: Архив Супербия
       selection_id: '2.7_2'
@@ -7391,7 +7391,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам и отравлять их.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '2'
       name: Архив Супербия
       selection_id: '2.7_3'
@@ -7408,7 +7408,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '3'
       name: Архив Супербия
       selection_id: '2.7_1'
@@ -7425,7 +7425,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         отравлять врагов.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '3'
       name: Архив Супербия
       selection_id: '2.7_2'
@@ -7442,7 +7442,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам и отравлять их.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '3'
       name: Архив Супербия
       selection_id: '2.7_3'
@@ -7459,7 +7459,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '4'
       name: Архив Супербия
       selection_id: '2.7_1'
@@ -7476,7 +7476,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         отравлять врагов.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '4'
       name: Архив Супербия
       selection_id: '2.7_2'
@@ -7493,7 +7493,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам и отравлять их.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '4'
       name: Архив Супербия
       selection_id: '2.7_3'
@@ -7510,7 +7510,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '5'
       name: Архив Супербия
       selection_id: '2.7_1'
@@ -7527,7 +7527,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         отравлять врагов.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '5'
       name: Архив Супербия
       selection_id: '2.7_2'
@@ -7544,7 +7544,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам и отравлять их.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '5'
       name: Архив Супербия
       selection_id: '2.7_3'
@@ -7561,7 +7561,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '6'
       name: Архив Супербия
       selection_id: '2.7_1'
@@ -7578,7 +7578,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         отравлять врагов.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '6'
       name: Архив Супербия
       selection_id: '2.7_2'
@@ -7595,7 +7595,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам и отравлять их.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '6'
       name: Архив Супербия
       selection_id: '2.7_3'
@@ -7612,7 +7612,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '7'
       name: Архив Супербия
       selection_id: '2.7_1'
@@ -7629,7 +7629,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         отравлять врагов.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '7'
       name: Архив Супербия
       selection_id: '2.7_2'
@@ -7646,7 +7646,7 @@ profession:
       description: На небольшой промежуток времени увеличивает силу умения *Гнев*. Также это умение будет
         наносить фиксированный урон врагам и отравлять их.
       effects: []
-      icon: /icon/skill0512.jpg
+      icon: /icon/client-skills/icon.skill0512.png
       level: '7'
       name: Архив Супербия
       selection_id: '2.7_3'

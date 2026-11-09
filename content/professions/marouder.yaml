@@ -2206,7 +2206,7 @@ profession:
         text: 'Сила физического умения: 200'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/s12292.jpg
+      icon: /icon/client-skills/bsfg.s12292.png
       level: '1'
       name: Злобный удар
       selection_id: ''
@@ -2226,7 +2226,7 @@ profession:
         text: 'Сила физического умения: 210'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/s12292.jpg
+      icon: /icon/client-skills/bsfg.s12292.png
       level: '2'
       name: Злобный удар
       selection_id: ''
@@ -2246,7 +2246,7 @@ profession:
         text: 'Сила физического умения: 220'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/s12292.jpg
+      icon: /icon/client-skills/bsfg.s12292.png
       level: '3'
       name: Злобный удар
       selection_id: ''
@@ -2266,7 +2266,7 @@ profession:
         text: 'Сила физического умения: 230'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/s12292.jpg
+      icon: /icon/client-skills/bsfg.s12292.png
       level: '4'
       name: Злобный удар
       selection_id: ''
@@ -2286,7 +2286,7 @@ profession:
         text: 'Сила физического умения: 240'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/s12292.jpg
+      icon: /icon/client-skills/bsfg.s12292.png
       level: '5'
       name: Злобный удар
       selection_id: ''
@@ -2306,7 +2306,7 @@ profession:
         text: 'Сила физического умения: 250'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/s12292.jpg
+      icon: /icon/client-skills/bsfg.s12292.png
       level: '6'
       name: Злобный удар
       selection_id: ''
@@ -2352,7 +2352,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -15%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/s12292.jpg
+      icon: /icon/client-skills/bsfg.s12292.png
       level: '7'
       name: Злобный удар
       selection_id: ''
@@ -2388,7 +2388,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Время действия: 2 сек.'
-      icon: /icon/s12293.jpg
+      icon: /icon/client-skills/bsfg.s12293.png
       level: '1'
       name: Подлый бросок
       selection_id: ''
@@ -2424,7 +2424,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Время действия: 2 сек.'
-      icon: /icon/s12293.jpg
+      icon: /icon/client-skills/bsfg.s12293.png
       level: '2'
       name: Подлый бросок
       selection_id: ''
@@ -2460,7 +2460,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Время действия: 2 сек.'
-      icon: /icon/s12293.jpg
+      icon: /icon/client-skills/bsfg.s12293.png
       level: '3'
       name: Подлый бросок
       selection_id: ''
@@ -2496,7 +2496,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Время действия: 2 сек.'
-      icon: /icon/s12293.jpg
+      icon: /icon/client-skills/bsfg.s12293.png
       level: '4'
       name: Подлый бросок
       selection_id: ''
@@ -2532,7 +2532,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Время действия: 2 сек.'
-      icon: /icon/s12293.jpg
+      icon: /icon/client-skills/bsfg.s12293.png
       level: '5'
       name: Подлый бросок
       selection_id: ''
@@ -2568,7 +2568,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Время действия: 2 сек.'
-      icon: /icon/s12293.jpg
+      icon: /icon/client-skills/bsfg.s12293.png
       level: '6'
       name: Подлый бросок
       selection_id: ''
@@ -2626,7 +2626,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -15%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/s12293.jpg
+      icon: /icon/client-skills/bsfg.s12293.png
       level: '7'
       name: Подлый бросок
       selection_id: ''
@@ -2653,7 +2653,7 @@ profession:
         text: 'Магическая защита (Любая броня): 35%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12296.jpg
+      icon: /icon/client-skills/bsfg.s12296.png
       level: '1'
       name: Яростный выпад
       selection_id: ''
@@ -2680,7 +2680,7 @@ profession:
         text: 'Магическая защита (Любая броня): 35%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12296.jpg
+      icon: /icon/client-skills/bsfg.s12296.png
       level: '2'
       name: Яростный выпад
       selection_id: ''
@@ -2707,7 +2707,7 @@ profession:
         text: 'Магическая защита (Любая броня): 35%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12296.jpg
+      icon: /icon/client-skills/bsfg.s12296.png
       level: '3'
       name: Яростный выпад
       selection_id: ''
@@ -2734,7 +2734,7 @@ profession:
         text: 'Магическая защита (Любая броня): 35%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12296.jpg
+      icon: /icon/client-skills/bsfg.s12296.png
       level: '4'
       name: Яростный выпад
       selection_id: ''
@@ -2761,7 +2761,7 @@ profession:
         text: 'Магическая защита (Любая броня): 35%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12296.jpg
+      icon: /icon/client-skills/bsfg.s12296.png
       level: '5'
       name: Яростный выпад
       selection_id: ''
@@ -2788,7 +2788,7 @@ profession:
         text: 'Магическая защита (Любая броня): 35%'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/s12296.jpg
+      icon: /icon/client-skills/bsfg.s12296.png
       level: '6'
       name: Яростный выпад
       selection_id: ''
@@ -2837,7 +2837,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -15%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/s12296.jpg
+      icon: /icon/client-skills/bsfg.s12296.png
       level: '7'
       name: Яростный выпад
       selection_id: ''
@@ -2874,7 +2874,7 @@ profession:
         text: 'Шанс критического урона: 80ед.'
       - kind: value
         text: 'Меткость (Все): 6ед.'
-      icon: /icon/s12298.jpg
+      icon: /icon/client-skills/bsfg.s12298.png
       level: '1'
       name: Злоба
       selection_id: ''
@@ -2907,7 +2907,7 @@ profession:
         text: 'Шанс критического урона: 80ед.'
       - kind: value
         text: 'Меткость (Все): 7ед.'
-      icon: /icon/s12298.jpg
+      icon: /icon/client-skills/bsfg.s12298.png
       level: '2'
       name: Злоба
       selection_id: ''
@@ -2940,7 +2940,7 @@ profession:
         text: 'Шанс критического урона: 80ед.'
       - kind: value
         text: 'Меткость (Все): 8ед.'
-      icon: /icon/s12298.jpg
+      icon: /icon/client-skills/bsfg.s12298.png
       level: '3'
       name: Злоба
       selection_id: ''
@@ -2973,7 +2973,7 @@ profession:
         text: 'Шанс критического урона: 80ед.'
       - kind: value
         text: 'Меткость (Все): 9ед.'
-      icon: /icon/s12298.jpg
+      icon: /icon/client-skills/bsfg.s12298.png
       level: '4'
       name: Злоба
       selection_id: ''
@@ -3006,7 +3006,7 @@ profession:
         text: 'Шанс критического урона: 80ед.'
       - kind: value
         text: 'Меткость (Все): 10ед.'
-      icon: /icon/s12298.jpg
+      icon: /icon/client-skills/bsfg.s12298.png
       level: '5'
       name: Злоба
       selection_id: ''
@@ -3039,7 +3039,7 @@ profession:
         text: 'Шанс критического урона: 80ед.'
       - kind: value
         text: 'Меткость (Все): 11ед.'
-      icon: /icon/s12298.jpg
+      icon: /icon/client-skills/bsfg.s12298.png
       level: '6'
       name: Злоба
       selection_id: ''
@@ -3072,7 +3072,7 @@ profession:
         text: 'Шанс критического урона: 80ед.'
       - kind: value
         text: 'Меткость (Все): 12ед.'
-      icon: /icon/s12298.jpg
+      icon: /icon/client-skills/bsfg.s12298.png
       level: '7'
       name: Злоба
       selection_id: ''
@@ -3093,7 +3093,7 @@ profession:
         text: 'Физическая атака (Все): 60%'
       - kind: value
         text: 'Время действия: 3600 сек.'
-      icon: /icon/s12301.jpg
+      icon: /icon/client-skills/bsfg.s12301.png
       level: '1'
       name: Бешенство
       selection_id: ''
@@ -3118,7 +3118,7 @@ profession:
         text: 'Физическая атака (Все): 60%'
       - kind: value
         text: 'Время действия: 3600 сек.'
-      icon: /icon/s12301.jpg
+      icon: /icon/client-skills/bsfg.s12301.png
       level: '2'
       name: Бешенство
       selection_id: ''
@@ -3143,7 +3143,7 @@ profession:
         text: 'Физическая атака (Все): 60%'
       - kind: value
         text: 'Время действия: 3600 сек.'
-      icon: /icon/s12301.jpg
+      icon: /icon/client-skills/bsfg.s12301.png
       level: '3'
       name: Бешенство
       selection_id: ''
@@ -3168,7 +3168,7 @@ profession:
         text: 'Физическая атака (Все): 60%'
       - kind: value
         text: 'Время действия: 3600 сек.'
-      icon: /icon/s12301.jpg
+      icon: /icon/client-skills/bsfg.s12301.png
       level: '4'
       name: Бешенство
       selection_id: ''
@@ -3193,7 +3193,7 @@ profession:
         text: 'Физическая атака (Все): 60%'
       - kind: value
         text: 'Время действия: 3600 сек.'
-      icon: /icon/s12301.jpg
+      icon: /icon/client-skills/bsfg.s12301.png
       level: '5'
       name: Бешенство
       selection_id: ''
@@ -3218,7 +3218,7 @@ profession:
         text: 'Физическая атака (Все): 60%'
       - kind: value
         text: 'Время действия: 3600 сек.'
-      icon: /icon/s12301.jpg
+      icon: /icon/client-skills/bsfg.s12301.png
       level: '6'
       name: Бешенство
       selection_id: ''
@@ -3243,7 +3243,7 @@ profession:
         text: 'Физическая атака (Все): 60%'
       - kind: value
         text: 'Время действия: 3600 сек.'
-      icon: /icon/s12301.jpg
+      icon: /icon/client-skills/bsfg.s12301.png
       level: '7'
       name: Бешенство
       selection_id: ''
@@ -4796,7 +4796,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '1'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4814,7 +4814,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '2'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4832,7 +4832,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '3'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4850,7 +4850,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '4'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4868,7 +4868,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '5'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4886,7 +4886,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '6'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4904,7 +4904,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '7'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4922,7 +4922,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '8'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4940,7 +4940,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '9'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4958,7 +4958,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '10'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4976,7 +4976,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '11'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4994,7 +4994,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '12'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5012,7 +5012,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '13'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5030,7 +5030,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '14'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5048,7 +5048,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '15'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5066,7 +5066,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '16'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5084,7 +5084,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '17'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5102,7 +5102,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '18'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5120,7 +5120,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '19'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5138,7 +5138,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '20'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5583,7 +5583,7 @@ profession:
         text: 'Физический урон в PVP: 10%'
       - kind: value
         text: 'Сила физических умений в PVP: 10%'
-      icon: /icon/Icon4/war_roar_master.jpg
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
       level: '1'
       name: Абсолютная ярость
       selection_id: ''
@@ -5620,7 +5620,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12330.jpg
+      icon: /icon/client-skills/bsfg.s12330.png
       level: '1'
       name: Отмщение
       selection_id: '2.1_0'
@@ -5652,7 +5652,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12335.jpg
+      icon: /icon/client-skills/bsfg.s12335.png
       level: '1'
       name: Отмщение
       selection_id: '2.1_1'
@@ -5686,7 +5686,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12339.jpg
+      icon: /icon/client-skills/bsfg.s12339.png
       level: '1'
       name: Отмщение
       selection_id: '2.1_2'
@@ -5718,7 +5718,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12330.jpg
+      icon: /icon/client-skills/bsfg.s12330.png
       level: '2'
       name: Отмщение
       selection_id: '2.1_3'
@@ -5750,7 +5750,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12335.jpg
+      icon: /icon/client-skills/bsfg.s12335.png
       level: '2'
       name: Отмщение
       selection_id: '2.1_4'
@@ -5784,7 +5784,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12339.jpg
+      icon: /icon/client-skills/bsfg.s12339.png
       level: '2'
       name: Отмщение
       selection_id: '2.1_5'
@@ -5816,7 +5816,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12330.jpg
+      icon: /icon/client-skills/bsfg.s12330.png
       level: '3'
       name: Отмщение
       selection_id: '2.1_1'
@@ -5848,7 +5848,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12335.jpg
+      icon: /icon/client-skills/bsfg.s12335.png
       level: '3'
       name: Отмщение
       selection_id: '2.1_2'
@@ -5882,7 +5882,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12339.jpg
+      icon: /icon/client-skills/bsfg.s12339.png
       level: '3'
       name: Отмщение
       selection_id: '2.1_3'
@@ -5914,7 +5914,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12330.jpg
+      icon: /icon/client-skills/bsfg.s12330.png
       level: '4'
       name: Отмщение
       selection_id: '2.1_1'
@@ -5946,7 +5946,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12335.jpg
+      icon: /icon/client-skills/bsfg.s12335.png
       level: '4'
       name: Отмщение
       selection_id: '2.1_2'
@@ -5980,7 +5980,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12339.jpg
+      icon: /icon/client-skills/bsfg.s12339.png
       level: '4'
       name: Отмщение
       selection_id: '2.1_3'
@@ -6012,7 +6012,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12330.jpg
+      icon: /icon/client-skills/bsfg.s12330.png
       level: '5'
       name: Отмщение
       selection_id: '2.1_1'
@@ -6044,7 +6044,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12335.jpg
+      icon: /icon/client-skills/bsfg.s12335.png
       level: '5'
       name: Отмщение
       selection_id: '2.1_2'
@@ -6078,7 +6078,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12339.jpg
+      icon: /icon/client-skills/bsfg.s12339.png
       level: '5'
       name: Отмщение
       selection_id: '2.1_3'
@@ -6110,7 +6110,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12330.jpg
+      icon: /icon/client-skills/bsfg.s12330.png
       level: '6'
       name: Отмщение
       selection_id: '2.1_1'
@@ -6142,7 +6142,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12335.jpg
+      icon: /icon/client-skills/bsfg.s12335.png
       level: '6'
       name: Отмщение
       selection_id: '2.1_2'
@@ -6176,7 +6176,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12339.jpg
+      icon: /icon/client-skills/bsfg.s12339.png
       level: '6'
       name: Отмщение
       selection_id: '2.1_3'
@@ -6208,7 +6208,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12330.jpg
+      icon: /icon/client-skills/bsfg.s12330.png
       level: '7'
       name: Отмщение
       selection_id: '2.1_1'
@@ -6240,7 +6240,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12335.jpg
+      icon: /icon/client-skills/bsfg.s12335.png
       level: '7'
       name: Отмщение
       selection_id: '2.1_2'
@@ -6274,7 +6274,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повтороного использования: 26 сек.'
-      icon: /icon/s12339.jpg
+      icon: /icon/client-skills/bsfg.s12339.png
       level: '7'
       name: Отмщение
       selection_id: '2.1_3'
@@ -6295,7 +6295,7 @@ profession:
         text: 'Защита от магических атак в спину: 12%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 1ед.'
-      icon: /icon/s_maroder_07.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_07.png
       level: '1'
       name: Панцирь
       selection_id: '2.2_1'
@@ -6316,7 +6316,7 @@ profession:
         text: 'Физическая защита (Любая броня): 4%'
       - kind: value
         text: 'Магическая защита (Любая броня): 4%'
-      icon: /icon/s_maroder_08.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_08.png
       level: '1'
       name: Панцирь
       selection_id: '2.2_2'
@@ -6335,7 +6335,7 @@ profession:
         text: 'Защита от магических атак в спину: 12%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 100ед.'
-      icon: /icon/s_maroder_09.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_09.png
       level: '1'
       name: Панцирь
       selection_id: '2.2_3'
@@ -6354,7 +6354,7 @@ profession:
         text: 'Защита от магических атак в спину: 15%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 2ед.'
-      icon: /icon/s_maroder_07.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_07.png
       level: '2'
       name: Панцирь
       selection_id: '2.2_1'
@@ -6375,7 +6375,7 @@ profession:
         text: 'Физическая защита (Любая броня): 4.5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 4.5%'
-      icon: /icon/s_maroder_08.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_08.png
       level: '2'
       name: Панцирь
       selection_id: '2.2_2'
@@ -6394,7 +6394,7 @@ profession:
         text: 'Защита от магических атак в спину: 15%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 150ед.'
-      icon: /icon/s_maroder_09.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_09.png
       level: '2'
       name: Панцирь
       selection_id: '2.2_3'
@@ -6413,7 +6413,7 @@ profession:
         text: 'Защита от магических атак в спину: 18%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 3ед.'
-      icon: /icon/s_maroder_07.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_07.png
       level: '3'
       name: Панцирь
       selection_id: '2.2_1'
@@ -6434,7 +6434,7 @@ profession:
         text: 'Физическая защита (Любая броня): 5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 5%'
-      icon: /icon/s_maroder_08.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_08.png
       level: '3'
       name: Панцирь
       selection_id: '2.2_2'
@@ -6453,7 +6453,7 @@ profession:
         text: 'Защита от магических атак в спину: 18%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 200ед.'
-      icon: /icon/s_maroder_09.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_09.png
       level: '3'
       name: Панцирь
       selection_id: '2.2_3'
@@ -6472,7 +6472,7 @@ profession:
         text: 'Защита от магических атак в спину: 21%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 4ед.'
-      icon: /icon/s_maroder_07.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_07.png
       level: '4'
       name: Панцирь
       selection_id: '2.2_1'
@@ -6493,7 +6493,7 @@ profession:
         text: 'Физическая защита (Любая броня): 5.5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 5.5%'
-      icon: /icon/s_maroder_08.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_08.png
       level: '4'
       name: Панцирь
       selection_id: '2.2_2'
@@ -6512,7 +6512,7 @@ profession:
         text: 'Защита от магических атак в спину: 21%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 250ед.'
-      icon: /icon/s_maroder_09.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_09.png
       level: '4'
       name: Панцирь
       selection_id: '2.2_3'
@@ -6531,7 +6531,7 @@ profession:
         text: 'Защита от магических атак в спину: 24%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 5ед.'
-      icon: /icon/s_maroder_07.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_07.png
       level: '5'
       name: Панцирь
       selection_id: '2.2_1'
@@ -6552,7 +6552,7 @@ profession:
         text: 'Физическая защита (Любая броня): 6%'
       - kind: value
         text: 'Магическая защита (Любая броня): 6%'
-      icon: /icon/s_maroder_08.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_08.png
       level: '5'
       name: Панцирь
       selection_id: '2.2_2'
@@ -6571,7 +6571,7 @@ profession:
         text: 'Защита от магических атак в спину: 24%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 300ед.'
-      icon: /icon/s_maroder_09.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_09.png
       level: '5'
       name: Панцирь
       selection_id: '2.2_3'
@@ -6590,7 +6590,7 @@ profession:
         text: 'Защита от магических атак в спину: 27%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 6ед.'
-      icon: /icon/s_maroder_07.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_07.png
       level: '6'
       name: Панцирь
       selection_id: '2.2_1'
@@ -6611,7 +6611,7 @@ profession:
         text: 'Физическая защита (Любая броня): 6.5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 6.5%'
-      icon: /icon/s_maroder_08.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_08.png
       level: '6'
       name: Панцирь
       selection_id: '2.2_2'
@@ -6630,7 +6630,7 @@ profession:
         text: 'Защита от магических атак в спину: 27%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 350ед.'
-      icon: /icon/s_maroder_09.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_09.png
       level: '6'
       name: Панцирь
       selection_id: '2.2_3'
@@ -6649,7 +6649,7 @@ profession:
         text: 'Защита от магических атак в спину: 30%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 7ед.'
-      icon: /icon/s_maroder_07.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_07.png
       level: '7'
       name: Панцирь
       selection_id: '2.2_1'
@@ -6670,7 +6670,7 @@ profession:
         text: 'Физическая защита (Любая броня): 7%'
       - kind: value
         text: 'Магическая защита (Любая броня): 7%'
-      icon: /icon/s_maroder_08.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_08.png
       level: '7'
       name: Панцирь
       selection_id: '2.2_2'
@@ -6689,7 +6689,7 @@ profession:
         text: 'Защита от магических атак в спину: 30%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 400ед.'
-      icon: /icon/s_maroder_09.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_09.png
       level: '7'
       name: Панцирь
       selection_id: '2.2_3'
@@ -6718,7 +6718,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '1'
       name: Ярость мародера
       selection_id: '2.3_1'
@@ -6747,7 +6747,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '1'
       name: Ярость мародера
       selection_id: '2.3_2'
@@ -6776,7 +6776,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '1'
       name: Ярость мародера
       selection_id: '2.3_3'
@@ -6805,7 +6805,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '2'
       name: Ярость мародера
       selection_id: '2.3_1'
@@ -6834,7 +6834,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '2'
       name: Ярость мародера
       selection_id: '2.3_2'
@@ -6863,7 +6863,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '2'
       name: Ярость мародера
       selection_id: '2.3_3'
@@ -6892,7 +6892,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '3'
       name: Ярость мародера
       selection_id: '2.3_1'
@@ -6921,7 +6921,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '3'
       name: Ярость мародера
       selection_id: '2.3_2'
@@ -6950,7 +6950,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '3'
       name: Ярость мародера
       selection_id: '2.3_3'
@@ -6979,7 +6979,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '4'
       name: Ярость мародера
       selection_id: '2.3_1'
@@ -7008,7 +7008,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '4'
       name: Ярость мародера
       selection_id: '2.3_2'
@@ -7037,7 +7037,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '4'
       name: Ярость мародера
       selection_id: '2.3_3'
@@ -7066,7 +7066,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '5'
       name: Ярость мародера
       selection_id: '2.3_1'
@@ -7095,7 +7095,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '5'
       name: Ярость мародера
       selection_id: '2.3_2'
@@ -7124,7 +7124,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '5'
       name: Ярость мародера
       selection_id: '2.3_3'
@@ -7153,7 +7153,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '6'
       name: Ярость мародера
       selection_id: '2.3_1'
@@ -7182,7 +7182,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '6'
       name: Ярость мародера
       selection_id: '2.3_2'
@@ -7211,7 +7211,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '6'
       name: Ярость мародера
       selection_id: '2.3_3'
@@ -7240,7 +7240,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '7'
       name: Ярость мародера
       selection_id: '2.3_1'
@@ -7269,7 +7269,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '7'
       name: Ярость мародера
       selection_id: '2.3_2'
@@ -7298,7 +7298,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 500ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/restoration_impact.jpg
+      icon: /icon/client-skills/bsfg.restoration_impact.png
       level: '7'
       name: Ярость мародера
       selection_id: '2.3_3'
@@ -7312,7 +7312,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения замедлят противника на 30%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '1'
       name: Безумство мародера
       selection_id: '2.4_1'
@@ -7329,7 +7329,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят защиту противника на 4%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '1'
       name: Безумство мародера
       selection_id: '2.4_2'
@@ -7347,7 +7347,7 @@ profession:
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят скорость атаки и скорость
         чтения заклинаний противника на 20%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '1'
       name: Безумство мародера
       selection_id: '2.4_3'
@@ -7364,7 +7364,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения замедлят противника на 40%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '2'
       name: Безумство мародера
       selection_id: '2.4_1'
@@ -7381,7 +7381,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят защиту противника на 5%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '2'
       name: Безумство мародера
       selection_id: '2.4_2'
@@ -7399,7 +7399,7 @@ profession:
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят скорость атаки и скорость
         чтения заклинаний противника на 25%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '2'
       name: Безумство мародера
       selection_id: '2.4_3'
@@ -7416,7 +7416,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения замедлят противника на 50%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '3'
       name: Безумство мародера
       selection_id: '2.4_1'
@@ -7433,7 +7433,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят защиту противника на 6%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '3'
       name: Безумство мародера
       selection_id: '2.4_2'
@@ -7451,7 +7451,7 @@ profession:
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят скорость атаки и скорость
         чтения заклинаний противника на 30%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '3'
       name: Безумство мародера
       selection_id: '2.4_3'
@@ -7468,7 +7468,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения замедлят противника на 60%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '4'
       name: Безумство мародера
       selection_id: '2.4_1'
@@ -7485,7 +7485,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят защиту противника на 7%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '4'
       name: Безумство мародера
       selection_id: '2.4_2'
@@ -7503,7 +7503,7 @@ profession:
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят скорость атаки и скорость
         чтения заклинаний противника на 35%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '4'
       name: Безумство мародера
       selection_id: '2.4_3'
@@ -7520,7 +7520,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения замедлят противника на 70%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '5'
       name: Безумство мародера
       selection_id: '2.4_1'
@@ -7537,7 +7537,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят защиту противника на 8%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '5'
       name: Безумство мародера
       selection_id: '2.4_2'
@@ -7555,7 +7555,7 @@ profession:
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят скорость атаки и скорость
         чтения заклинаний противника на 40%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '5'
       name: Безумство мародера
       selection_id: '2.4_3'
@@ -7572,7 +7572,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения замедлят противника на 80%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '6'
       name: Безумство мародера
       selection_id: '2.4_1'
@@ -7589,7 +7589,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят защиту противника на 9%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '6'
       name: Безумство мародера
       selection_id: '2.4_2'
@@ -7607,7 +7607,7 @@ profession:
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят скорость атаки и скорость
         чтения заклинаний противника на 45%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '6'
       name: Безумство мародера
       selection_id: '2.4_3'
@@ -7624,7 +7624,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения замедлят противника на 90%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '7'
       name: Безумство мародера
       selection_id: '2.4_1'
@@ -7641,7 +7641,7 @@ profession:
         умение усилить. *Злобный удар* наносет дополнительный урон, *Подлый бросок* притянет врага к себе,
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят защиту противника на 10%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '7'
       name: Безумство мародера
       selection_id: '2.4_2'
@@ -7659,7 +7659,7 @@ profession:
         *Яростный выпад* соберет врагов вокруг себя. Также эти умения снизят скорость атаки и скорость
         чтения заклинаний противника на 50%.
       effects: []
-      icon: /icon/s12312.jpg
+      icon: /icon/client-skills/bsfg.s12312.png
       level: '7'
       name: Безумство мародера
       selection_id: '2.4_3'
@@ -7692,7 +7692,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 4 сек.'
-      icon: /icon/s_maroder_04.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_04.png
       level: '1'
       name: Беззаконие
       selection_id: '2.5_1'
@@ -7725,7 +7725,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 5 сек.'
-      icon: /icon/s_maroder_05.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_05.png
       level: '1'
       name: Беззаконие
       selection_id: '2.5_2'
@@ -7758,7 +7758,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 3 сек.'
-      icon: /icon/s_maroder_06.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_06.png
       level: '1'
       name: Беззаконие
       selection_id: '2.5_3'
@@ -7791,7 +7791,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 4 сек.'
-      icon: /icon/s_maroder_04.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_04.png
       level: '2'
       name: Беззаконие
       selection_id: '2.5_1'
@@ -7824,7 +7824,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 5 сек.'
-      icon: /icon/s_maroder_05.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_05.png
       level: '2'
       name: Беззаконие
       selection_id: '2.5_2'
@@ -7857,7 +7857,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 3 сек.'
-      icon: /icon/s_maroder_06.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_06.png
       level: '2'
       name: Беззаконие
       selection_id: '2.5_3'
@@ -7890,7 +7890,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 4 сек.'
-      icon: /icon/s_maroder_04.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_04.png
       level: '3'
       name: Беззаконие
       selection_id: '2.5_1'
@@ -7923,7 +7923,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 5 сек.'
-      icon: /icon/s_maroder_05.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_05.png
       level: '3'
       name: Беззаконие
       selection_id: '2.5_2'
@@ -7956,7 +7956,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 3 сек.'
-      icon: /icon/s_maroder_06.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_06.png
       level: '3'
       name: Беззаконие
       selection_id: '2.5_3'
@@ -7989,7 +7989,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 4 сек.'
-      icon: /icon/s_maroder_04.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_04.png
       level: '4'
       name: Беззаконие
       selection_id: '2.5_1'
@@ -8022,7 +8022,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 5 сек.'
-      icon: /icon/s_maroder_05.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_05.png
       level: '4'
       name: Беззаконие
       selection_id: '2.5_2'
@@ -8055,7 +8055,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 3 сек.'
-      icon: /icon/s_maroder_06.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_06.png
       level: '4'
       name: Беззаконие
       selection_id: '2.5_3'
@@ -8088,7 +8088,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 4 сек.'
-      icon: /icon/s_maroder_04.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_04.png
       level: '5'
       name: Беззаконие
       selection_id: '2.5_1'
@@ -8121,7 +8121,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 5 сек.'
-      icon: /icon/s_maroder_05.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_05.png
       level: '5'
       name: Беззаконие
       selection_id: '2.5_2'
@@ -8154,7 +8154,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 3 сек.'
-      icon: /icon/s_maroder_06.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_06.png
       level: '5'
       name: Беззаконие
       selection_id: '2.5_3'
@@ -8187,7 +8187,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 4 сек.'
-      icon: /icon/s_maroder_04.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_04.png
       level: '6'
       name: Беззаконие
       selection_id: '2.5_1'
@@ -8220,7 +8220,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 5 сек.'
-      icon: /icon/s_maroder_05.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_05.png
       level: '6'
       name: Беззаконие
       selection_id: '2.5_2'
@@ -8253,7 +8253,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 3 сек.'
-      icon: /icon/s_maroder_06.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_06.png
       level: '6'
       name: Беззаконие
       selection_id: '2.5_3'
@@ -8286,7 +8286,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 4 сек.'
-      icon: /icon/s_maroder_04.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_04.png
       level: '7'
       name: Беззаконие
       selection_id: '2.5_1'
@@ -8319,7 +8319,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 5 сек.'
-      icon: /icon/s_maroder_05.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_05.png
       level: '7'
       name: Беззаконие
       selection_id: '2.5_2'
@@ -8352,7 +8352,7 @@ profession:
         text: 'Шанс украсть оружие: 25%'
       - kind: value
         text: 'Потеря контроля: 3 сек.'
-      icon: /icon/s_maroder_06.jpg
+      icon: /icon/client-skills/bsfg.s_maroder_06.png
       level: '7'
       name: Беззаконие
       selection_id: '2.5_3'
@@ -8371,7 +8371,7 @@ profession:
         text: 'Физическая атака (Все): -100%'
       - kind: value
         text: 'Фиксированный урон: 600ед.'
-      icon: /icon/s12303.jpg
+      icon: /icon/client-skills/bsfg.s12303.png
       level: '1'
       name: Выбить оружие
       selection_id: '2.6_1'
@@ -8397,7 +8397,7 @@ profession:
         text: Отменяет регенерацию здоровья
       - kind: value
         text: Отменяет регенерацию боевого духа
-      icon: /icon/s12304.jpg
+      icon: /icon/client-skills/bsfg.s12304.png
       level: '1'
       name: Выбить оружие
       selection_id: '2.6_2'
@@ -8416,7 +8416,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Все): -100%'
-      icon: /icon/s12305.jpg
+      icon: /icon/client-skills/bsfg.s12305.png
       level: '1'
       name: Выбить оружие
       selection_id: '2.6_3'
@@ -8437,7 +8437,7 @@ profession:
         text: 'Физическая атака (Все): -100%'
       - kind: value
         text: 'Фиксированный урон: 750ед.'
-      icon: /icon/s12303.jpg
+      icon: /icon/client-skills/bsfg.s12303.png
       level: '2'
       name: Выбить оружие
       selection_id: '2.6_1'
@@ -8463,7 +8463,7 @@ profession:
         text: Отменяет регенерацию здоровья
       - kind: value
         text: Отменяет регенерацию боевого духа
-      icon: /icon/s12304.jpg
+      icon: /icon/client-skills/bsfg.s12304.png
       level: '2'
       name: Выбить оружие
       selection_id: '2.6_2'
@@ -8482,7 +8482,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Все): -100%'
-      icon: /icon/s12305.jpg
+      icon: /icon/client-skills/bsfg.s12305.png
       level: '2'
       name: Выбить оружие
       selection_id: '2.6_3'
@@ -8503,7 +8503,7 @@ profession:
         text: 'Физическая атака (Все): -100%'
       - kind: value
         text: 'Фиксированный урон: 900ед.'
-      icon: /icon/s12303.jpg
+      icon: /icon/client-skills/bsfg.s12303.png
       level: '3'
       name: Выбить оружие
       selection_id: '2.6_1'
@@ -8529,7 +8529,7 @@ profession:
         text: Отменяет регенерацию здоровья
       - kind: value
         text: Отменяет регенерацию боевого духа
-      icon: /icon/s12304.jpg
+      icon: /icon/client-skills/bsfg.s12304.png
       level: '3'
       name: Выбить оружие
       selection_id: '2.6_2'
@@ -8548,7 +8548,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Все): -100%'
-      icon: /icon/s12305.jpg
+      icon: /icon/client-skills/bsfg.s12305.png
       level: '3'
       name: Выбить оружие
       selection_id: '2.6_3'
@@ -8569,7 +8569,7 @@ profession:
         text: 'Физическая атака (Все): -100%'
       - kind: value
         text: 'Фиксированный урон: 1050ед.'
-      icon: /icon/s12303.jpg
+      icon: /icon/client-skills/bsfg.s12303.png
       level: '4'
       name: Выбить оружие
       selection_id: '2.6_1'
@@ -8595,7 +8595,7 @@ profession:
         text: Отменяет регенерацию здоровья
       - kind: value
         text: Отменяет регенерацию боевого духа
-      icon: /icon/s12304.jpg
+      icon: /icon/client-skills/bsfg.s12304.png
       level: '4'
       name: Выбить оружие
       selection_id: '2.6_2'
@@ -8614,7 +8614,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Все): -100%'
-      icon: /icon/s12305.jpg
+      icon: /icon/client-skills/bsfg.s12305.png
       level: '4'
       name: Выбить оружие
       selection_id: '2.6_3'
@@ -8635,7 +8635,7 @@ profession:
         text: 'Физическая атака (Все): -100%'
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/s12303.jpg
+      icon: /icon/client-skills/bsfg.s12303.png
       level: '5'
       name: Выбить оружие
       selection_id: '2.6_1'
@@ -8661,7 +8661,7 @@ profession:
         text: Отменяет регенерацию здоровья
       - kind: value
         text: Отменяет регенерацию боевого духа
-      icon: /icon/s12304.jpg
+      icon: /icon/client-skills/bsfg.s12304.png
       level: '5'
       name: Выбить оружие
       selection_id: '2.6_2'
@@ -8680,7 +8680,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Все): -100%'
-      icon: /icon/s12305.jpg
+      icon: /icon/client-skills/bsfg.s12305.png
       level: '5'
       name: Выбить оружие
       selection_id: '2.6_3'
@@ -8701,7 +8701,7 @@ profession:
         text: 'Физическая атака (Все): -100%'
       - kind: value
         text: 'Фиксированный урон: 1350ед.'
-      icon: /icon/s12303.jpg
+      icon: /icon/client-skills/bsfg.s12303.png
       level: '6'
       name: Выбить оружие
       selection_id: '2.6_1'
@@ -8727,7 +8727,7 @@ profession:
         text: Отменяет регенерацию здоровья
       - kind: value
         text: Отменяет регенерацию боевого духа
-      icon: /icon/s12304.jpg
+      icon: /icon/client-skills/bsfg.s12304.png
       level: '6'
       name: Выбить оружие
       selection_id: '2.6_2'
@@ -8746,7 +8746,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Все): -100%'
-      icon: /icon/s12305.jpg
+      icon: /icon/client-skills/bsfg.s12305.png
       level: '6'
       name: Выбить оружие
       selection_id: '2.6_3'
@@ -8767,7 +8767,7 @@ profession:
         text: 'Физическая атака (Все): -100%'
       - kind: value
         text: 'Фиксированный урон: 1500ед.'
-      icon: /icon/s12303.jpg
+      icon: /icon/client-skills/bsfg.s12303.png
       level: '7'
       name: Выбить оружие
       selection_id: '2.6_1'
@@ -8793,7 +8793,7 @@ profession:
         text: Отменяет регенерацию здоровья
       - kind: value
         text: Отменяет регенерацию боевого духа
-      icon: /icon/s12304.jpg
+      icon: /icon/client-skills/bsfg.s12304.png
       level: '7'
       name: Выбить оружие
       selection_id: '2.6_2'
@@ -8812,7 +8812,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Все): -100%'
-      icon: /icon/s12305.jpg
+      icon: /icon/client-skills/bsfg.s12305.png
       level: '7'
       name: Выбить оружие
       selection_id: '2.6_3'
@@ -8835,7 +8835,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Магическая защита (Любая броня): 13%'
-      icon: /icon/s12306.jpg
+      icon: /icon/client-skills/bsfg.s12306.png
       level: '1'
       name: Выдержка мародера
       selection_id: '2.7_1'
@@ -8853,7 +8853,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Магическая защита (Любая броня): 13%'
-      icon: /icon/s12308.jpg
+      icon: /icon/client-skills/bsfg.s12308.png
       level: '1'
       name: Выдержка мародера
       selection_id: '2.7_2'
@@ -8871,7 +8871,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Магическая защита (Любая броня): 13%'
-      icon: /icon/s12310.jpg
+      icon: /icon/client-skills/bsfg.s12310.png
       level: '1'
       name: Выдержка мародера
       selection_id: '2.7_3'
@@ -8889,7 +8889,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Магическая защита (Любая броня): 15%'
-      icon: /icon/s12306.jpg
+      icon: /icon/client-skills/bsfg.s12306.png
       level: '2'
       name: Выдержка мародера
       selection_id: '2.7_1'
@@ -8907,7 +8907,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Магическая защита (Любая броня): 15%'
-      icon: /icon/s12308.jpg
+      icon: /icon/client-skills/bsfg.s12308.png
       level: '2'
       name: Выдержка мародера
       selection_id: '2.7_2'
@@ -8925,7 +8925,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Магическая защита (Любая броня): 15%'
-      icon: /icon/s12310.jpg
+      icon: /icon/client-skills/bsfg.s12310.png
       level: '2'
       name: Выдержка мародера
       selection_id: '2.7_3'
@@ -8943,7 +8943,7 @@ profession:
         text: 'Физическая защита (Любая броня): 14%'
       - kind: value
         text: 'Магическая защита (Любая броня): 18%'
-      icon: /icon/s12306.jpg
+      icon: /icon/client-skills/bsfg.s12306.png
       level: '3'
       name: Выдержка мародера
       selection_id: '2.7_1'
@@ -8961,7 +8961,7 @@ profession:
         text: 'Физическая защита (Любая броня): 14%'
       - kind: value
         text: 'Магическая защита (Любая броня): 18%'
-      icon: /icon/s12308.jpg
+      icon: /icon/client-skills/bsfg.s12308.png
       level: '3'
       name: Выдержка мародера
       selection_id: '2.7_2'
@@ -8979,7 +8979,7 @@ profession:
         text: 'Физическая защита (Любая броня): 14%'
       - kind: value
         text: 'Магическая защита (Любая броня): 18%'
-      icon: /icon/s12310.jpg
+      icon: /icon/client-skills/bsfg.s12310.png
       level: '3'
       name: Выдержка мародера
       selection_id: '2.7_3'
@@ -8997,7 +8997,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Магическая защита (Любая броня): 21%'
-      icon: /icon/s12306.jpg
+      icon: /icon/client-skills/bsfg.s12306.png
       level: '4'
       name: Выдержка мародера
       selection_id: '2.7_1'
@@ -9015,7 +9015,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Магическая защита (Любая броня): 21%'
-      icon: /icon/s12308.jpg
+      icon: /icon/client-skills/bsfg.s12308.png
       level: '4'
       name: Выдержка мародера
       selection_id: '2.7_2'
@@ -9033,7 +9033,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Магическая защита (Любая броня): 21%'
-      icon: /icon/s12310.jpg
+      icon: /icon/client-skills/bsfg.s12310.png
       level: '4'
       name: Выдержка мародера
       selection_id: '2.7_3'
@@ -9051,7 +9051,7 @@ profession:
         text: 'Физическая защита (Любая броня): 16%'
       - kind: value
         text: 'Магическая защита (Любая броня): 24%'
-      icon: /icon/s12306.jpg
+      icon: /icon/client-skills/bsfg.s12306.png
       level: '5'
       name: Выдержка мародера
       selection_id: '2.7_1'
@@ -9069,7 +9069,7 @@ profession:
         text: 'Физическая защита (Любая броня): 16%'
       - kind: value
         text: 'Магическая защита (Любая броня): 24%'
-      icon: /icon/s12308.jpg
+      icon: /icon/client-skills/bsfg.s12308.png
       level: '5'
       name: Выдержка мародера
       selection_id: '2.7_2'
@@ -9087,7 +9087,7 @@ profession:
         text: 'Физическая защита (Любая броня): 16%'
       - kind: value
         text: 'Магическая защита (Любая броня): 24%'
-      icon: /icon/s12310.jpg
+      icon: /icon/client-skills/bsfg.s12310.png
       level: '5'
       name: Выдержка мародера
       selection_id: '2.7_3'
@@ -9105,7 +9105,7 @@ profession:
         text: 'Физическая защита (Любая броня): 17%'
       - kind: value
         text: 'Магическая защита (Любая броня): 27%'
-      icon: /icon/s12306.jpg
+      icon: /icon/client-skills/bsfg.s12306.png
       level: '6'
       name: Выдержка мародера
       selection_id: '2.7_1'
@@ -9123,7 +9123,7 @@ profession:
         text: 'Физическая защита (Любая броня): 17%'
       - kind: value
         text: 'Магическая защита (Любая броня): 27%'
-      icon: /icon/s12308.jpg
+      icon: /icon/client-skills/bsfg.s12308.png
       level: '6'
       name: Выдержка мародера
       selection_id: '2.7_2'
@@ -9141,7 +9141,7 @@ profession:
         text: 'Физическая защита (Любая броня): 17%'
       - kind: value
         text: 'Магическая защита (Любая броня): 27%'
-      icon: /icon/s12310.jpg
+      icon: /icon/client-skills/bsfg.s12310.png
       level: '6'
       name: Выдержка мародера
       selection_id: '2.7_3'
@@ -9159,7 +9159,7 @@ profession:
         text: 'Физическая защита (Любая броня): 18%'
       - kind: value
         text: 'Магическая защита (Любая броня): 30%'
-      icon: /icon/s12306.jpg
+      icon: /icon/client-skills/bsfg.s12306.png
       level: '7'
       name: Выдержка мародера
       selection_id: '2.7_1'
@@ -9177,7 +9177,7 @@ profession:
         text: 'Физическая защита (Любая броня): 18%'
       - kind: value
         text: 'Магическая защита (Любая броня): 30%'
-      icon: /icon/s12308.jpg
+      icon: /icon/client-skills/bsfg.s12308.png
       level: '7'
       name: Выдержка мародера
       selection_id: '2.7_2'
@@ -9195,7 +9195,7 @@ profession:
         text: 'Физическая защита (Любая броня): 18%'
       - kind: value
         text: 'Магическая защита (Любая броня): 30%'
-      icon: /icon/s12310.jpg
+      icon: /icon/client-skills/bsfg.s12310.png
       level: '7'
       name: Выдержка мародера
       selection_id: '2.7_3'

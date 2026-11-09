@@ -1000,7 +1000,7 @@ profession:
         text: 'Фиксированный урон: 1200ед.'
       - kind: value
         text: 'Урон по сооружениям: 16000'
-      icon: /icon/s5184.jpg
+      icon: /icon/client-skills/bsfg.s5184.png
       level: '1'
       name: Удар щитом
       selection_id: ''
@@ -1027,7 +1027,7 @@ profession:
         text: 'Фиксированный урон: 1200ед.'
       - kind: value
         text: 'Урон по сооружениям: 16000'
-      icon: /icon/s5184.jpg
+      icon: /icon/client-skills/bsfg.s5184.png
       level: '2'
       name: Удар щитом
       selection_id: ''
@@ -1054,7 +1054,7 @@ profession:
         text: 'Фиксированный урон: 1200ед.'
       - kind: value
         text: 'Урон по сооружениям: 16000'
-      icon: /icon/s5184.jpg
+      icon: /icon/client-skills/bsfg.s5184.png
       level: '3'
       name: Удар щитом
       selection_id: ''
@@ -1081,7 +1081,7 @@ profession:
         text: 'Фиксированный урон: 1200ед.'
       - kind: value
         text: 'Урон по сооружениям: 16000'
-      icon: /icon/s5184.jpg
+      icon: /icon/client-skills/bsfg.s5184.png
       level: '4'
       name: Удар щитом
       selection_id: ''
@@ -1108,7 +1108,7 @@ profession:
         text: 'Фиксированный урон: 1200ед.'
       - kind: value
         text: 'Урон по сооружениям: 16000'
-      icon: /icon/s5184.jpg
+      icon: /icon/client-skills/bsfg.s5184.png
       level: '5'
       name: Удар щитом
       selection_id: ''
@@ -1135,7 +1135,7 @@ profession:
         text: 'Фиксированный урон: 1200ед.'
       - kind: value
         text: 'Урон по сооружениям: 16000'
-      icon: /icon/s5184.jpg
+      icon: /icon/client-skills/bsfg.s5184.png
       level: '6'
       name: Удар щитом
       selection_id: ''
@@ -1162,7 +1162,7 @@ profession:
         text: 'Фиксированный урон: 1200ед.'
       - kind: value
         text: 'Урон по сооружениям: 16000'
-      icon: /icon/s5184.jpg
+      icon: /icon/client-skills/bsfg.s5184.png
       level: '7'
       name: Удар щитом
       selection_id: ''
@@ -1186,7 +1186,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 12%'
       - kind: value
         text: 'Меткость (Молот): 25ед.'
-      icon: /icon/s5186.jpg
+      icon: /icon/client-skills/bsfg.s5186.png
       level: '1'
       name: Жажда крови
       selection_id: ''
@@ -1209,7 +1209,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 15%'
       - kind: value
         text: 'Меткость (Молот): 50ед.'
-      icon: /icon/s5186.jpg
+      icon: /icon/client-skills/bsfg.s5186.png
       level: '2'
       name: Жажда крови
       selection_id: ''
@@ -1232,7 +1232,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 18%'
       - kind: value
         text: 'Меткость (Молот): 75ед.'
-      icon: /icon/s5186.jpg
+      icon: /icon/client-skills/bsfg.s5186.png
       level: '3'
       name: Жажда крови
       selection_id: ''
@@ -1255,7 +1255,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 21%'
       - kind: value
         text: 'Меткость (Молот): 100ед.'
-      icon: /icon/s5186.jpg
+      icon: /icon/client-skills/bsfg.s5186.png
       level: '4'
       name: Жажда крови
       selection_id: ''
@@ -1278,7 +1278,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 24%'
       - kind: value
         text: 'Меткость (Молот): 125ед.'
-      icon: /icon/s5186.jpg
+      icon: /icon/client-skills/bsfg.s5186.png
       level: '5'
       name: Жажда крови
       selection_id: ''
@@ -1301,7 +1301,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 27%'
       - kind: value
         text: 'Меткость (Молот): 150ед.'
-      icon: /icon/s5186.jpg
+      icon: /icon/client-skills/bsfg.s5186.png
       level: '6'
       name: Жажда крови
       selection_id: ''
@@ -1324,7 +1324,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 30%'
       - kind: value
         text: 'Меткость (Молот): 175ед.'
-      icon: /icon/s5186.jpg
+      icon: /icon/client-skills/bsfg.s5186.png
       level: '7'
       name: Жажда крови
       selection_id: ''
@@ -1344,7 +1344,7 @@ profession:
         text: 'Сила физического умения: 250'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/s5250.jpg
+      icon: /icon/client-skills/bsfg.s5250.png
       level: '1'
       name: Оглушение щитом
       selection_id: ''
@@ -1365,7 +1365,7 @@ profession:
         text: 'Сила физического умения: 260'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/s5250.jpg
+      icon: /icon/client-skills/bsfg.s5250.png
       level: '2'
       name: Оглушение щитом
       selection_id: ''
@@ -1386,7 +1386,7 @@ profession:
         text: 'Сила физического умения: 270'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/s5250.jpg
+      icon: /icon/client-skills/bsfg.s5250.png
       level: '3'
       name: Оглушение щитом
       selection_id: ''
@@ -1407,7 +1407,7 @@ profession:
         text: 'Сила физического умения: 280'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/s5250.jpg
+      icon: /icon/client-skills/bsfg.s5250.png
       level: '4'
       name: Оглушение щитом
       selection_id: ''
@@ -1428,7 +1428,7 @@ profession:
         text: 'Сила физического умения: 290'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/s5250.jpg
+      icon: /icon/client-skills/bsfg.s5250.png
       level: '5'
       name: Оглушение щитом
       selection_id: ''
@@ -1449,7 +1449,7 @@ profession:
         text: 'Сила физического умения: 300'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/s5250.jpg
+      icon: /icon/client-skills/bsfg.s5250.png
       level: '6'
       name: Оглушение щитом
       selection_id: ''
@@ -1470,7 +1470,7 @@ profession:
         text: 'Сила физического умения: 310'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s5250.jpg
+      icon: /icon/client-skills/bsfg.s5250.png
       level: '7'
       name: Оглушение щитом
       selection_id: ''
@@ -3383,7 +3383,7 @@ profession:
         text: 'Физическая защита (Любая броня): 5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 8%'
-      icon: /icon/skill1916.jpg
+      icon: /icon/client-skills/icon.skill1916.png
       level: '1'
       name: Бугай
       selection_id: ''
@@ -3402,7 +3402,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/skill1916.jpg
+      icon: /icon/client-skills/icon.skill1916.png
       level: '2'
       name: Бугай
       selection_id: ''
@@ -3421,7 +3421,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Магическая защита (Любая броня): 12%'
-      icon: /icon/skill1916.jpg
+      icon: /icon/client-skills/icon.skill1916.png
       level: '3'
       name: Бугай
       selection_id: ''
@@ -3440,7 +3440,7 @@ profession:
         text: 'Физическая защита (Любая броня): 25%'
       - kind: value
         text: 'Магическая защита (Любая броня): 14%'
-      icon: /icon/skill1916.jpg
+      icon: /icon/client-skills/icon.skill1916.png
       level: '4'
       name: Бугай
       selection_id: ''
@@ -3459,7 +3459,7 @@ profession:
         text: 'Физическая защита (Любая броня): 35%'
       - kind: value
         text: 'Магическая защита (Любая броня): 16%'
-      icon: /icon/skill1916.jpg
+      icon: /icon/client-skills/icon.skill1916.png
       level: '5'
       name: Бугай
       selection_id: ''
@@ -3478,7 +3478,7 @@ profession:
         text: 'Физическая защита (Любая броня): 45%'
       - kind: value
         text: 'Магическая защита (Любая броня): 18%'
-      icon: /icon/skill1916.jpg
+      icon: /icon/client-skills/icon.skill1916.png
       level: '6'
       name: Бугай
       selection_id: ''
@@ -3503,7 +3503,7 @@ profession:
         text: 'Физическая защита (Любая броня): 55%'
       - kind: value
         text: 'Магическая защита (Любая броня): 20%'
-      icon: /icon/skill1916.jpg
+      icon: /icon/client-skills/icon.skill1916.png
       level: '7'
       name: Бугай
       selection_id: ''
@@ -4911,7 +4911,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '1'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4933,7 +4933,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '2'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4955,7 +4955,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '3'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4977,7 +4977,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '4'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4999,7 +4999,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '5'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5021,7 +5021,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '6'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5043,7 +5043,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '7'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5065,7 +5065,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '8'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5087,7 +5087,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '9'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5109,7 +5109,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '10'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5131,7 +5131,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '11'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5153,7 +5153,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '12'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5175,7 +5175,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '13'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5197,7 +5197,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '14'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5219,7 +5219,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '15'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5241,7 +5241,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '16'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5263,7 +5263,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '17'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5285,7 +5285,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '18'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5307,7 +5307,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '19'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5329,7 +5329,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '20'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5630,7 +5630,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 23%'
       - kind: value
         text: 'Максимум здоровья: 6%'
-      icon: /icon/skill19152.jpg
+      icon: /icon/client-skills/icon.skill19152.png
       level: '1'
       name: Громила
       selection_id: ''
@@ -5650,7 +5650,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 27%'
       - kind: value
         text: 'Максимум здоровья: 8%'
-      icon: /icon/skill19152.jpg
+      icon: /icon/client-skills/icon.skill19152.png
       level: '2'
       name: Громила
       selection_id: ''
@@ -5670,7 +5670,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 29%'
       - kind: value
         text: 'Максимум здоровья: 10%'
-      icon: /icon/skill19152.jpg
+      icon: /icon/client-skills/icon.skill19152.png
       level: '3'
       name: Громила
       selection_id: ''
@@ -5690,7 +5690,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 32%'
       - kind: value
         text: 'Максимум здоровья: 12%'
-      icon: /icon/skill19152.jpg
+      icon: /icon/client-skills/icon.skill19152.png
       level: '4'
       name: Громила
       selection_id: ''
@@ -5710,7 +5710,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 33%'
       - kind: value
         text: 'Максимум здоровья: 14%'
-      icon: /icon/skill19152.jpg
+      icon: /icon/client-skills/icon.skill19152.png
       level: '5'
       name: Громила
       selection_id: ''
@@ -5730,7 +5730,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 35%'
       - kind: value
         text: 'Максимум здоровья: 15%'
-      icon: /icon/skill19152.jpg
+      icon: /icon/client-skills/icon.skill19152.png
       level: '6'
       name: Громила
       selection_id: ''
@@ -5752,7 +5752,7 @@ profession:
         text: 'Физическая атака при использовании одноручного оружия (Молот): 37%'
       - kind: value
         text: 'Максимум здоровья: 17%'
-      icon: /icon/skill19152.jpg
+      icon: /icon/client-skills/icon.skill19152.png
       level: '7'
       name: Громила
       selection_id: ''
@@ -5764,7 +5764,7 @@ profession:
     - branch: base
       description: Ваши атаки будут снижать физическую защиту на 10%.
       effects: []
-      icon: /icon/Icon4/s_range_armor_crush.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_range_armor_crush.png
       level: '1'
       name: Костедробитель
       selection_id: ''
@@ -5780,7 +5780,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 10 секунд, быстрый откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '1'
       name: Жиробас
       selection_id: '2.1_0'
@@ -5796,7 +5796,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 14 секунд, средний откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '1'
       name: Жиробас
       selection_id: '2.1_1'
@@ -5812,7 +5812,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 17 секунд, долгий откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '1'
       name: Жиробас
       selection_id: '2.1_2'
@@ -5828,7 +5828,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 10 секунд, быстрый откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '2'
       name: Жиробас
       selection_id: '2.1_3'
@@ -5844,7 +5844,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 14 секунд, средний откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '2'
       name: Жиробас
       selection_id: '2.1_4'
@@ -5860,7 +5860,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 17 секунд, долгий откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '2'
       name: Жиробас
       selection_id: '2.1_5'
@@ -5876,7 +5876,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 10 секунд, быстрый откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '3'
       name: Жиробас
       selection_id: '2.1_1'
@@ -5892,7 +5892,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 14 секунд, средний откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '3'
       name: Жиробас
       selection_id: '2.1_2'
@@ -5908,7 +5908,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 17 секунд, долгий откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '3'
       name: Жиробас
       selection_id: '2.1_3'
@@ -5924,7 +5924,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 10 секунд, быстрый откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '4'
       name: Жиробас
       selection_id: '2.1_1'
@@ -5940,7 +5940,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 14 секунд, средний откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '4'
       name: Жиробас
       selection_id: '2.1_2'
@@ -5956,7 +5956,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 17 секунд, долгий откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '4'
       name: Жиробас
       selection_id: '2.1_3'
@@ -5972,7 +5972,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 10 секунд, быстрый откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '5'
       name: Жиробас
       selection_id: '2.1_1'
@@ -5988,7 +5988,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 14 секунд, средний откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '5'
       name: Жиробас
       selection_id: '2.1_2'
@@ -6004,7 +6004,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 17 секунд, долгий откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '5'
       name: Жиробас
       selection_id: '2.1_3'
@@ -6020,7 +6020,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 10 секунд, быстрый откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '6'
       name: Жиробас
       selection_id: '2.1_1'
@@ -6036,7 +6036,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 14 секунд, средний откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '6'
       name: Жиробас
       selection_id: '2.1_2'
@@ -6052,7 +6052,7 @@ profession:
       description: 'Громила быстро восстанавливает жизненные силы, пока не получит любой урон. Свирепый
         орк: урон не остнавливает действие умения. Время действия 17 секунд, долгий откат умения.'
       effects: []
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '6'
       name: Жиробас
       selection_id: '2.1_3'
@@ -6070,7 +6070,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 4000ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '7'
       name: Жиробас
       selection_id: '2.1_1'
@@ -6088,7 +6088,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 4000ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '7'
       name: Жиробас
       selection_id: '2.1_2'
@@ -6106,7 +6106,7 @@ profession:
       effects:
       - kind: value
         text: 'Лечение: 4000ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '7'
       name: Жиробас
       selection_id: '2.1_3'
@@ -6132,7 +6132,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '1'
       name: Дружеские объятия
       selection_id: '2.2_1'
@@ -6160,7 +6160,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '1'
       name: Дружеские объятия
       selection_id: '2.2_2'
@@ -6188,7 +6188,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '1'
       name: Дружеские объятия
       selection_id: '2.2_3'
@@ -6216,7 +6216,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '2'
       name: Дружеские объятия
       selection_id: '2.2_1'
@@ -6244,7 +6244,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '2'
       name: Дружеские объятия
       selection_id: '2.2_2'
@@ -6272,7 +6272,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '2'
       name: Дружеские объятия
       selection_id: '2.2_3'
@@ -6300,7 +6300,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '3'
       name: Дружеские объятия
       selection_id: '2.2_1'
@@ -6328,7 +6328,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '3'
       name: Дружеские объятия
       selection_id: '2.2_2'
@@ -6356,7 +6356,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '3'
       name: Дружеские объятия
       selection_id: '2.2_3'
@@ -6384,7 +6384,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '4'
       name: Дружеские объятия
       selection_id: '2.2_1'
@@ -6412,7 +6412,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '4'
       name: Дружеские объятия
       selection_id: '2.2_2'
@@ -6440,7 +6440,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '4'
       name: Дружеские объятия
       selection_id: '2.2_3'
@@ -6468,7 +6468,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '5'
       name: Дружеские объятия
       selection_id: '2.2_1'
@@ -6496,7 +6496,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '5'
       name: Дружеские объятия
       selection_id: '2.2_2'
@@ -6524,7 +6524,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '5'
       name: Дружеские объятия
       selection_id: '2.2_3'
@@ -6552,7 +6552,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '6'
       name: Дружеские объятия
       selection_id: '2.2_1'
@@ -6580,7 +6580,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '6'
       name: Дружеские объятия
       selection_id: '2.2_2'
@@ -6608,7 +6608,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '6'
       name: Дружеские объятия
       selection_id: '2.2_3'
@@ -6636,7 +6636,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '7'
       name: Дружеские объятия
       selection_id: '2.2_1'
@@ -6664,7 +6664,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '7'
       name: Дружеские объятия
       selection_id: '2.2_2'
@@ -6692,7 +6692,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill6274.jpg
+      icon: /icon/client-skills/icon.skill6274.png
       level: '7'
       name: Дружеские объятия
       selection_id: '2.2_3'
@@ -6716,7 +6716,7 @@ profession:
         text: 'Магическая защита (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита (Любая броня): 6%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '1'
       name: Броня орды
       selection_id: '2.3_1'
@@ -6735,7 +6735,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 6%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '1'
       name: Броня орды
       selection_id: '2.3_2'
@@ -6754,7 +6754,7 @@ profession:
         text: 'Магическая защита (Любая броня): 16%'
       - kind: value
         text: 'Физическая защита (Любая броня): 6%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '1'
       name: Броня орды
       selection_id: '2.3_3'
@@ -6773,7 +6773,7 @@ profession:
         text: 'Магическая защита (Любая броня): 12%'
       - kind: value
         text: 'Физическая защита (Любая броня): 7%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '2'
       name: Броня орды
       selection_id: '2.3_1'
@@ -6792,7 +6792,7 @@ profession:
         text: 'Магическая защита (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита (Любая броня): 7%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '2'
       name: Броня орды
       selection_id: '2.3_2'
@@ -6811,7 +6811,7 @@ profession:
         text: 'Магическая защита (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита (Любая броня): 7%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '2'
       name: Броня орды
       selection_id: '2.3_3'
@@ -6830,7 +6830,7 @@ profession:
         text: 'Магическая защита (Любая броня): 14%'
       - kind: value
         text: 'Физическая защита (Любая броня): 8%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '3'
       name: Броня орды
       selection_id: '2.3_1'
@@ -6849,7 +6849,7 @@ profession:
         text: 'Магическая защита (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита (Любая броня): 8%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '3'
       name: Броня орды
       selection_id: '2.3_2'
@@ -6868,7 +6868,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 8%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '3'
       name: Броня орды
       selection_id: '2.3_3'
@@ -6887,7 +6887,7 @@ profession:
         text: 'Магическая защита (Любая броня): 16%'
       - kind: value
         text: 'Физическая защита (Любая броня): 9%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '4'
       name: Броня орды
       selection_id: '2.3_1'
@@ -6906,7 +6906,7 @@ profession:
         text: 'Магическая защита (Любая броня): 26%'
       - kind: value
         text: 'Физическая защита (Любая броня): 9%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '4'
       name: Броня орды
       selection_id: '2.3_2'
@@ -6925,7 +6925,7 @@ profession:
         text: 'Магическая защита (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита (Любая броня): 9%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '4'
       name: Броня орды
       selection_id: '2.3_3'
@@ -6944,7 +6944,7 @@ profession:
         text: 'Магическая защита (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита (Любая броня): 10%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '5'
       name: Броня орды
       selection_id: '2.3_1'
@@ -6963,7 +6963,7 @@ profession:
         text: 'Магическая защита (Любая броня): 28%'
       - kind: value
         text: 'Физическая защита (Любая броня): 10%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '5'
       name: Броня орды
       selection_id: '2.3_2'
@@ -6982,7 +6982,7 @@ profession:
         text: 'Магическая защита (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита (Любая броня): 10%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '5'
       name: Броня орды
       selection_id: '2.3_3'
@@ -7001,7 +7001,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 11%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '6'
       name: Броня орды
       selection_id: '2.3_1'
@@ -7020,7 +7020,7 @@ profession:
         text: 'Магическая защита (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита (Любая броня): 11%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '6'
       name: Броня орды
       selection_id: '2.3_2'
@@ -7039,7 +7039,7 @@ profession:
         text: 'Магическая защита (Любая броня): 26%'
       - kind: value
         text: 'Физическая защита (Любая броня): 11%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '6'
       name: Броня орды
       selection_id: '2.3_3'
@@ -7058,7 +7058,7 @@ profession:
         text: 'Магическая защита (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита (Любая броня): 12%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '7'
       name: Броня орды
       selection_id: '2.3_1'
@@ -7077,7 +7077,7 @@ profession:
         text: 'Магическая защита (Любая броня): 32%'
       - kind: value
         text: 'Физическая защита (Любая броня): 12%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '7'
       name: Броня орды
       selection_id: '2.3_2'
@@ -7096,7 +7096,7 @@ profession:
         text: 'Магическая защита (Любая броня): 28%'
       - kind: value
         text: 'Физическая защита (Любая броня): 12%'
-      icon: /icon/skill1246.jpg
+      icon: /icon/client-skills/icon.skill1246.png
       level: '7'
       name: Броня орды
       selection_id: '2.3_3'
@@ -8336,7 +8336,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '1'
       name: Пролом черепушек
       selection_id: '2.6_1'
@@ -8355,7 +8355,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '1'
       name: Пролом черепушек
       selection_id: '2.6_2'
@@ -8374,7 +8374,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '1'
       name: Пролом черепушек
       selection_id: '2.6_3'
@@ -8393,7 +8393,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '2'
       name: Пролом черепушек
       selection_id: '2.6_1'
@@ -8412,7 +8412,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '2'
       name: Пролом черепушек
       selection_id: '2.6_2'
@@ -8431,7 +8431,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '2'
       name: Пролом черепушек
       selection_id: '2.6_3'
@@ -8450,7 +8450,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '3'
       name: Пролом черепушек
       selection_id: '2.6_1'
@@ -8469,7 +8469,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '3'
       name: Пролом черепушек
       selection_id: '2.6_2'
@@ -8488,7 +8488,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '3'
       name: Пролом черепушек
       selection_id: '2.6_3'
@@ -8507,7 +8507,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '4'
       name: Пролом черепушек
       selection_id: '2.6_1'
@@ -8526,7 +8526,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '4'
       name: Пролом черепушек
       selection_id: '2.6_2'
@@ -8545,7 +8545,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '4'
       name: Пролом черепушек
       selection_id: '2.6_3'
@@ -8564,7 +8564,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '5'
       name: Пролом черепушек
       selection_id: '2.6_1'
@@ -8583,7 +8583,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '5'
       name: Пролом черепушек
       selection_id: '2.6_2'
@@ -8602,7 +8602,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '5'
       name: Пролом черепушек
       selection_id: '2.6_3'
@@ -8621,7 +8621,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '6'
       name: Пролом черепушек
       selection_id: '2.6_1'
@@ -8640,7 +8640,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '6'
       name: Пролом черепушек
       selection_id: '2.6_2'
@@ -8659,7 +8659,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '6'
       name: Пролом черепушек
       selection_id: '2.6_3'
@@ -8678,7 +8678,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '7'
       name: Пролом черепушек
       selection_id: '2.6_1'
@@ -8697,7 +8697,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '7'
       name: Пролом черепушек
       selection_id: '2.6_2'
@@ -8716,7 +8716,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия усиления: 30 сек.'
-      icon: /icon/skill1400.jpg
+      icon: /icon/client-skills/icon.skill1400.png
       level: '7'
       name: Пролом черепушек
       selection_id: '2.6_3'
@@ -8735,7 +8735,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 44000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '1'
       name: Месть
       selection_id: '2.7_1'
@@ -8755,7 +8755,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 49500'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '1'
       name: Месть
       selection_id: '2.7_2'
@@ -8776,7 +8776,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 55000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '1'
       name: Месть
       selection_id: '2.7_3'
@@ -8797,7 +8797,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 55000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '2'
       name: Месть
       selection_id: '2.7_1'
@@ -8817,7 +8817,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 63250'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '2'
       name: Месть
       selection_id: '2.7_2'
@@ -8838,7 +8838,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 71500'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '2'
       name: Месть
       selection_id: '2.7_3'
@@ -8859,7 +8859,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 66000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '3'
       name: Месть
       selection_id: '2.7_1'
@@ -8879,7 +8879,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 77000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '3'
       name: Месть
       selection_id: '2.7_2'
@@ -8900,7 +8900,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 88000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '3'
       name: Месть
       selection_id: '2.7_3'
@@ -8921,7 +8921,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 77000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '4'
       name: Месть
       selection_id: '2.7_1'
@@ -8941,7 +8941,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 90750'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '4'
       name: Месть
       selection_id: '2.7_2'
@@ -8962,7 +8962,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 104500'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '4'
       name: Месть
       selection_id: '2.7_3'
@@ -8983,7 +8983,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 88000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '5'
       name: Месть
       selection_id: '2.7_1'
@@ -9003,7 +9003,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 104500'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '5'
       name: Месть
       selection_id: '2.7_2'
@@ -9024,7 +9024,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 121000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '5'
       name: Месть
       selection_id: '2.7_3'
@@ -9045,7 +9045,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 99000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '6'
       name: Месть
       selection_id: '2.7_1'
@@ -9065,7 +9065,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 118250'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '6'
       name: Месть
       selection_id: '2.7_2'
@@ -9086,7 +9086,7 @@ profession:
       effects:
       - kind: value
         text: 'Бонус атаки от умения: 132000'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '6'
       name: Месть
       selection_id: '2.7_3'
@@ -9117,7 +9117,7 @@ profession:
         text: 'Здоровье в секунду: -800'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '7'
       name: Месть
       selection_id: '2.7_1'
@@ -9147,7 +9147,7 @@ profession:
         text: 'Здоровье в секунду: -800'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '7'
       name: Месть
       selection_id: '2.7_2'
@@ -9178,7 +9178,7 @@ profession:
         text: 'Здоровье в секунду: -800'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill0284.jpg
+      icon: /icon/client-skills/icon.skill0284.png
       level: '7'
       name: Месть
       selection_id: '2.7_3'

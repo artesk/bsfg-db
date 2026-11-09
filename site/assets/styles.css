@@ -522,13 +522,22 @@ body::before {
   -webkit-line-clamp: 5;
 }
 
-.profession-nav {
+.profession-level-filter, .profession-nav {
   padding: 18px;
   border: 1px solid #35343b;
   border-top: 0;
-  border-radius: 0 0 7px 7px;
   background: #0e0f13;
 }
+
+.profession-level-filter { display: grid; gap: 7px; }
+.profession-level-filter label { font-size: 13px; font-weight: 650; }
+.profession-level-filter select {
+  width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
+  background: var(--surface-2); color: var(--text);
+}
+.profession-level-filter select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.profession-level-filter p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.4; }
+.profession-nav { border-radius: 0 0 7px 7px; }
 
 .profession-nav > span {
   display: block;

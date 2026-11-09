@@ -17,6 +17,7 @@ const BRANCH_LABELS = {
   two: "Ветка II",
   three: "Ветка III",
 };
+const SKILL_LEVEL_KEY = "bsfg-skill-level";
 
 const ENCHANT_PAGES = new Map([
   ["/specifications/enchant-skills", {
@@ -370,7 +371,20 @@ function renderSectionTabs(sections) {
   const tabs = document.querySelector("#section-tabs");
   const search = document.querySelector("#skill-search");
   const activeTitle = document.querySelector("#active-section-title");
+  const skillLevel = document.querySelector("#profession-skill-level");
+  const levels = new Set(sections.flatMap(({ entries }) => entries.map(({ level }) => level)));
+  let savedLevel = "";
+  try {
+    const value = localStorage.getItem(SKILL_LEVEL_KEY);
+    if (/^[1-9]\d*$/.test(value)) savedLevel = value;
+  } catch { /* The selector also works when browser storage is unavailable. */ }
+  if (savedLevel) levels.add(savedLevel);
+  for (const level of [...levels].sort((a, b) => Number(a) - Number(b))) {
+    skillLevel.add(new Option(level, level));
+  }
+  skillLevel.value = savedLevel;
   let activeSection = 0;
+  let applyLevel;
 
   sections.forEach((section, index) => {
     const button = el("button", "section-tab");
@@ -395,9 +409,16 @@ function renderSectionTabs(sections) {
   const refresh = () => {
     const section = sections[activeSection];
     activeTitle.textContent = section.title;
-    renderSkills(section, search.value);
+    applyLevel = renderSkills(section, search.value);
+    applyLevel(skillLevel.value);
   };
   search.addEventListener("input", refresh);
+  skillLevel.addEventListener("change", () => {
+    applyLevel(skillLevel.value);
+    try {
+      localStorage.setItem(SKILL_LEVEL_KEY, skillLevel.value);
+    } catch { /* Keep the selection for the current page. */ }
+  });
   refresh();
 }
 
@@ -433,6 +454,7 @@ function renderSkills(section, queryValue) {
   const list = document.querySelector("#skills-list");
   const empty = document.querySelector("#empty-skills");
   const query = normalize(queryValue.trim());
+  const levelSwitchers = [];
   list.replaceChildren();
   const grouped = groupSkills(section.entries)
     .filter(({ rows }) => !query || rows.some((row) => normalize(row.name).includes(query)));
@@ -459,12 +481,15 @@ function renderSkills(section, queryValue) {
       );
       branchBlock.append(branchHeading);
       const sortedRows = [...branchRows].sort((a, b) => Number(a.level) - Number(b.level));
-      branchBlock.append(renderLevelSwitcher(sortedRows, branchName, branch));
+      const { panel, setLevel } = renderLevelSwitcher(sortedRows, branchName, branch);
+      branchBlock.append(panel);
+      levelSwitchers.push(setLevel);
       content.append(branchBlock);
     }
     details.append(content);
     list.append(details);
   });
+  return (level) => { for (const setLevel of levelSwitchers) setLevel(level); };
 }
 
 function renderLevelSwitcher(rows, skillName, branch) {
@@ -480,32 +505,41 @@ function renderLevelSwitcher(rows, skillName, branch) {
   );
   const levelContent = el("div", "level-detail");
   const buttons = [];
+  let selectedIndex = -1;
 
-  const selectLevel = (row, activeButton) => {
+  const selectLevel = (index) => {
+    if (index === selectedIndex) return;
+    selectedIndex = index;
+    const row = rows[index];
     current.value = row.level;
     current.textContent = row.level;
     for (const button of buttons) {
-      const selected = button === activeButton;
+      const selected = button === buttons[index];
       button.setAttribute("aria-pressed", String(selected));
       button.classList.toggle("is-selected", selected);
     }
     levelContent.replaceChildren(renderLevel(row));
   };
 
-  for (const row of rows) {
+  for (const [index, row] of rows.entries()) {
     const button = el("button", "level-option", row.level);
     button.type = "button";
     button.setAttribute("aria-pressed", "false");
     button.title = "Показать уровень " + row.level;
-    button.addEventListener("click", () => selectLevel(row, button));
+    button.addEventListener("click", () => selectLevel(index));
     buttons.push(button);
     options.append(button);
   }
 
   switcher.append(el("span", "level-switcher-label", "Уровень:"), current, options);
   panel.append(switcher, levelContent);
-  selectLevel(rows.at(-1), buttons.at(-1));
-  return panel;
+  return {
+    panel,
+    setLevel(level) {
+      const index = level ? rows.findLastIndex((row) => Number(row.level) <= Number(level)) : rows.length - 1;
+      selectLevel(Math.max(0, index));
+    },
+  };
 }
 
 function renderLevel(row) {

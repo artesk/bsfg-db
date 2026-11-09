@@ -49,7 +49,12 @@ const PROGRESSION_PAGES = new Map([
   ["/specifications/sibyl-cards", {
     title: "Карты Сивиллы", label: "Карта",
     intro: "Пассивные бонусы и условия срабатывания карт. Числовые параметры приведены в объёме клиентских подсказок.",
-    cardCatalog: true,
+    catalog: {heading: "Каталог карт", all: "Все карты"},
+  }],
+  ["/specifications/artifacts", {
+    title: "Артефакты", label: "Эффект",
+    intro: "Расовые бонусы за владение артефактами и победу в войне в пустыне муравьёв. Числа приведены там, где их указывает клиент.",
+    catalog: {heading: "Эффекты артефактов", all: "Все эффекты"},
   }],
   ["/specifications/guild-skills", {
     title: "Умения гильдии", label: "Умение", level: "Уровень", effect: "Бонус по слепку",
@@ -1058,9 +1063,10 @@ function renderProgressionPage(path, page, data) {
     document.querySelector("#progression-release").parentElement.append(
       ". Числовые бонусы взяты из ", link, ".");
   }
-  if (page.cardCatalog) {
-    document.querySelector("#progression-table-heading").textContent = "Каталог карт";
-    results.classList.add("sibyl-card-grid");
+  const {catalog} = page;
+  if (catalog) {
+    document.querySelector("#progression-table-heading").textContent = catalog.heading;
+    results.classList.add("progression-catalog-grid");
   }
   if (page.kinds) {
     document.querySelector("#progression-kind-field").hidden = false;
@@ -1081,7 +1087,7 @@ function renderProgressionPage(path, page, data) {
       }
     }
     if (select.value === "all") {
-      results.replaceChildren(...matches.map(({group}) => renderSibylCard(group)));
+      results.replaceChildren(...matches.map(({group}) => renderProgressionCatalogCard(group)));
       return;
     }
     const entry = matches.find(({index}) => index === select.value);
@@ -1090,8 +1096,8 @@ function renderProgressionPage(path, page, data) {
       return;
     }
     const {group, label} = entry;
-    if (page.cardCatalog) {
-      results.replaceChildren(renderSibylCard(group));
+    if (catalog) {
+      results.replaceChildren(renderProgressionCatalogCard(group));
       return;
     }
     const idKey = group.levels[0].item_id ? "item_id" : "effect_id";
@@ -1147,7 +1153,7 @@ function renderProgressionPage(path, page, data) {
         || group.levels.some(row => normalize(row.effect).includes(query)
           || String(row.item_id ?? "").includes(query))));
     const options = matches.map(({index, label}) => new Option(label, index));
-    if (page.cardCatalog && options.length) options.unshift(new Option("Все карты", "all"));
+    if (catalog && options.length) options.unshift(new Option(catalog.all, "all"));
     select.replaceChildren(...options);
     select.disabled = matches.length === 0;
     if (matches.some(({index}) => index === selected)) select.value = selected;
@@ -1172,23 +1178,26 @@ function renderProgressionPage(path, page, data) {
   filterGroups();
 }
 
-function renderSibylCard(group) {
-  const card = el("article", "enchant-card progression-card sibyl-card");
+function renderProgressionCatalogCard(group) {
+  const card = el("article", "enchant-card progression-card progression-catalog-card");
   const heading = el("header", "progression-card-heading");
   const [first] = group.levels;
-  const last = group.levels.at(-1);
-  const levelRange = first.level === last.level ? "Уровень " + first.level : "Уровни " + first.level + "–" + last.level;
   const title = el("div");
-  const meta = el("div", "sibyl-card-meta");
-  meta.append(el("span", "", levelRange), el("span", "", "ID карты " + group.closed_item_id));
-  title.append(el("h3", "", group.name), meta);
+  title.append(el("h3", "", group.name));
+  if (group.closed_item_id) {
+    const last = group.levels.at(-1);
+    const levelRange = first.level === last.level ? "Уровень " + first.level : "Уровни " + first.level + "–" + last.level;
+    const meta = el("div", "sibyl-card-meta");
+    meta.append(el("span", "", levelRange), el("span", "", "ID карты " + group.closed_item_id));
+    title.append(meta);
+  }
   heading.append(renderIcon(localIconUrl(group.icon), group.name, "branch-icon"), title);
   card.append(heading);
 
   if (group.levels.every(row => row.effect === first.effect)) {
-    card.append(el("p", "sibyl-card-effect progression-effect", first.effect));
+    card.append(el("p", "progression-catalog-effect progression-effect", first.effect));
   } else {
-    const effects = el("dl", "sibyl-card-effect sibyl-card-levels");
+    const effects = el("dl", "progression-catalog-effect sibyl-card-levels");
     for (const row of group.levels) {
       effects.append(el("dt", "", "Уровень " + row.level), el("dd", "progression-effect", row.effect));
     }

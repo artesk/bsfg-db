@@ -28,6 +28,7 @@ PROGRESSION_PAGES = {
     "military-service": None,
     "boss-trophies": "item_id",
     "sibyl-cards": None,
+    "artifacts": None,
     "guild-skills": None,
 }
 SERVICE_SLOTS = {"critical-power", "critical-chance", "attack", "speed"}
@@ -396,6 +397,7 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
     military = page == "military-service"
     trophies = page == "boss-trophies"
     sibyl_cards = page == "sibyl-cards"
+    artifacts = page == "artifacts"
     guild_skills = page == "guild-skills"
     slots: set[tuple[str, str]] = set()
     trophy_kinds: set[str] = set()
@@ -417,18 +419,18 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
         key: str | int = name
         if "icon" in group:
             require_string(group, "icon", path, location)
-        if military or sibyl_cards or guild_skills:
+        if military or sibyl_cards or artifacts or guild_skills:
             key = group.get("skill_id")
             if type(key) is not int or key < 1:
                 fail(path, f"{location}.skill_id", "ожидался положительный ID умения")
-        if sibyl_cards:
+        if sibyl_cards or artifacts or guild_skills:
             require_string(group, "icon", path, location)
+        if sibyl_cards:
             item_id = group.get("closed_item_id")
             if type(item_id) is not int or item_id < 1 or item_id in record_ids:
                 fail(path, f"{location}.closed_item_id", "ожидался уникальный положительный ID закрытой карты")
             record_ids.add(item_id)
         if guild_skills:
-            require_string(group, "icon", path, location)
             require_string(group, "description", path, location)
             if "note" in group:
                 require_string(group, "note", path, location)
@@ -461,6 +463,8 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
         levels = require_list(group.get("levels"), path, f"{location}.levels")
         if not levels:
             fail(path, f"{location}.levels", "нужен хотя бы один уровень")
+        if artifacts and len(levels) != 1:
+            fail(path, f"{location}.levels", "ожидался один эффект артефакта")
         for level, value in enumerate(levels, start=1):
             row_path = f"{location}.levels[{level - 1}]"
             row = require_mapping(value, path, row_path)
@@ -697,7 +701,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
     for page, data in progression.items():
         for group in data["groups"]:
             if group.get("icon") not in available_icons:
-                if page in {"boss-trophies", "sibyl-cards", "guild-skills"}:
+                if page in {"boss-trophies", "sibyl-cards", "artifacts", "guild-skills"}:
                     fail(content / "specifications" / f"{page}.yaml", group["name"], "файл иконки не найден")
                 group.pop("icon", None)
         write_json(output / "specifications" / f"{page}.json", data)

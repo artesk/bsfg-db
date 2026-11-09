@@ -27,6 +27,7 @@ PROGRESSION_PAGES = {
     "equipment-properties": "effect_id",
     "military-service": None,
     "boss-trophies": "item_id",
+    "sibyl-cards": None,
 }
 SERVICE_SLOTS = {"critical-power", "critical-chance", "attack", "speed"}
 TROPHY_KINDS = {"base", "combined", "relic"}
@@ -390,6 +391,7 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
         fail(path, "groups", "нужна хотя бы одна группа")
     military = page == "military-service"
     trophies = page == "boss-trophies"
+    sibyl_cards = page == "sibyl-cards"
     slots: set[tuple[str, str]] = set()
     trophy_kinds: set[str] = set()
     group_keys: set[str | int] = set()
@@ -408,10 +410,17 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
         key: str | int = name
         if "icon" in group:
             require_string(group, "icon", path, location)
-        if military:
+        if military or sibyl_cards:
             key = group.get("skill_id")
             if type(key) is not int or key < 1:
                 fail(path, f"{location}.skill_id", "ожидался положительный ID умения")
+        if sibyl_cards:
+            require_string(group, "icon", path, location)
+            item_id = group.get("closed_item_id")
+            if type(item_id) is not int or item_id < 1 or item_id in record_ids:
+                fail(path, f"{location}.closed_item_id", "ожидался уникальный положительный ID закрытой карты")
+            record_ids.add(item_id)
+        if military:
             kind = require_string(group, "kind", path, location)
             if kind not in {"award", "medal"}:
                 fail(path, f"{location}.kind", "ожидались награды или медали")
@@ -614,8 +623,8 @@ def build(content: Path, output: Path) -> tuple[int, int]:
     for page, data in progression.items():
         for group in data["groups"]:
             if group.get("icon") not in available_icons:
-                if page == "boss-trophies":
-                    fail(content / "specifications/boss-trophies.yaml", group["name"], "файл иконки не найден")
+                if page in {"boss-trophies", "sibyl-cards"}:
+                    fail(content / "specifications" / f"{page}.yaml", group["name"], "файл иконки не найден")
                 group.pop("icon", None)
         write_json(output / "specifications" / f"{page}.json", data)
     for page, data in gear.items():

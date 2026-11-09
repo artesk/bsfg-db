@@ -45,6 +45,11 @@ const PROGRESSION_PAGES = new Map([
     label: "Трофей", level: "Уровень", effect: "Пассивный эффект",
     kinds: {base: "Базовые", combined: "Объединённые", relic: "Реликтовые"},
   }],
+  ["/specifications/sibyl-cards", {
+    title: "Карты Сивиллы", label: "Карта", level: "Уровни", effect: "Бонусы и эффекты",
+    intro: "Пассивные бонусы и условия срабатывания карт. Числовые параметры приведены в объёме клиентских подсказок.",
+    compactLevels: true,
+  }],
   ["/specifications/equipment-properties", {
     title: "Свойства экипировки", intro: "Найдите свойство и сравните его значения по уровням.", label: "Свойство", level: "Уровень",
   }],
@@ -684,7 +689,12 @@ function renderProgressionPage(path, page, data) {
     const table = createEnchantTable(label, columns);
     if (!showLevel) table.classList.add("progression-unleveled");
     const body = table.createTBody();
-    for (const row of group.levels) {
+    const firstLevel = group.levels[0];
+    const lastLevel = group.levels.at(-1);
+    const sameEffect = page.compactLevels && !showId && group.levels.length > 1
+      && group.levels.every(row => row.effect === firstLevel.effect);
+    const levels = sameEffect ? [{...firstLevel, level: firstLevel.level + "–" + lastLevel.level}] : group.levels;
+    for (const row of levels) {
       const entry = body.insertRow();
       if (showLevel) {
         const level = el("th", "", row.level);
@@ -709,6 +719,7 @@ function renderProgressionPage(path, page, data) {
     const selected = select.value;
     const matches = groups.filter(({group, label}) => (!page.kinds || group.kind === kind.value)
       && (normalize(label).includes(query) || normalize(group.active?.effect).includes(query)
+        || String(group.closed_item_id ?? "").includes(query)
         || group.levels.some(row => normalize(row.effect).includes(query)
           || String(row.item_id ?? "").includes(query))));
     select.replaceChildren(...matches.map(({index, label}) => new Option(label, index)));

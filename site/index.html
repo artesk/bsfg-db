@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=specifications-directory">
+  <link rel="stylesheet" href="assets/styles.css?v=home-world-map">
 </head>
 <body>
   <header class="site-header">
@@ -35,48 +35,68 @@
   </template>
 
   <template id="home-template">
-    <section class="hero">
-      <h1>База знаний BSFG</h1>
-      <p class="hero-copy">Справочник по профессиям, умениям, характеристикам и экипировке Battles for Glory.</p>
-    </section>
-    <div class="home-grid">
-      <div class="directory-grid">
-        <a class="directory-link" href="#/professions">
-          <h2>Профессии</h2>
-          <p>Каталог по фракциям и классам с описаниями, умениями и ветками развития.</p>
-        </a>
-        <a class="directory-link" href="#/specifications">
-          <h2>Характеристики</h2>
-          <p>Заточка, свойства экипировки, знамёна, реликвии и военная служба.</p>
-        </a>
-        <a class="directory-link" href="#/items/equipment">
-          <h2>Экипировка</h2>
-          <p>Комплекты брони, украшения, щиты и другие предметы по рангам.</p>
-        </a>
-        <a class="directory-link" href="#/items/weapons">
-          <h2>Оружие</h2>
-          <p>Характеристики, эффекты и рецепты оружия по типам и рангам.</p>
-        </a>
-        <a class="directory-link" href="#/guides">
-          <h2>Гайды</h2>
-          <p>Руководства по строительству и игровым механикам.</p>
-        </a>
-        <a class="directory-link" href="#/map">
-          <h2>Интерактивная карта</h2>
-          <p>Боссы, города, аванпосты, книги секретов и точки сбора ресурсов.</p>
-        </a>
-      </div>
-      <section class="home-stream" aria-labelledby="home-stream-title">
-        <h2 id="home-stream-title">Автострим BSFG</h2>
-        <div class="stream-screen">
+    <article class="home-page">
+      <header class="home-hero">
+        <div class="home-hero-content">
+          <h1>База знаний BSFG</h1>
+          <p class="hero-copy">Справочник по Battles for Glory</p>
+          <a class="home-map-action" href="#/map">Открыть карту мира</a>
+          <p class="home-map-description">Боссы, города, аванпосты и ресурсы</p>
+        </div>
+        <img class="home-hero-map" src="assets/map/home-worldmap.jpg" alt="">
+      </header>
+      <div class="home-content">
+        <nav class="home-directory" aria-labelledby="home-directory-heading">
+          <h2 id="home-directory-heading">Разделы справочника</h2>
+          <div class="home-directory-grid">
+            <a class="directory-link home-link" href="#/professions">
+              <div>
+                <h3>Профессии</h3>
+                <p>Каталог по фракциям и классам с описаниями, умениями и ветками развития.</p>
+              </div>
+            </a>
+            <a class="directory-link home-link" href="#/specifications">
+              <div>
+                <h3>Характеристики</h3>
+                <p>Заточка, свойства экипировки, знамёна, реликвии и военная служба.</p>
+              </div>
+            </a>
+            <a class="directory-link home-link" href="#/items/equipment">
+              <div>
+                <h3>Экипировка</h3>
+                <p>Комплекты брони, украшения, щиты и другие предметы по рангам.</p>
+              </div>
+            </a>
+            <a class="directory-link home-link" href="#/items/weapons">
+              <div>
+                <h3>Оружие</h3>
+                <p>Характеристики, эффекты и рецепты оружия по типам и рангам.</p>
+              </div>
+            </a>
+            <a class="directory-link home-link" href="#/items/pit-boss-jewelry">
+              <div>
+                <h3>Бижутерия Пит-боссов</h3>
+                <p>Украшения по боссам, рангам и качеству.</p>
+              </div>
+            </a>
+            <a class="directory-link home-link" href="#/guides">
+              <div>
+                <h3>Гайды</h3>
+                <p>Руководства по строительству и игровым механикам.</p>
+              </div>
+            </a>
+          </div>
+        </nav>
+        <section class="home-stream" aria-labelledby="home-stream-title">
+          <h2 id="home-stream-title">Автострим BSFG</h2>
+          <a class="stream-link" href="https://www.bsfg.online/streams/" target="_blank" rel="noopener">Стримы на сайте BSFG ↗</a>
+          <button class="stream-play" type="button">Смотреть эфир</button>
+          <p class="stream-status" role="status"></p>
           <video aria-labelledby="home-stream-title" playsinline preload="none"
             data-src="https://stream.bsfg-public.com/hls/stream/index.m3u8?cookieCheck=1"></video>
-          <button class="stream-play" type="button">Смотреть эфир</button>
-        </div>
-        <p class="stream-status" role="status"></p>
-        <a class="stream-link" href="https://www.bsfg.online/streams/" target="_blank" rel="noopener">Стримы на сайте BSFG ↗</a>
-      </section>
-    </div>
+        </section>
+      </div>
+    </article>
   </template>
 
   <template id="world-map-template">

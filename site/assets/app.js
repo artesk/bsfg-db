@@ -78,11 +78,22 @@ const GEAR_CATALOGS = new Map([
   ["/items/equipment", {
     title: "Экипировка", navigationLabel: "Виды экипировки", categories: EQUIPMENT_CATEGORIES,
     intro: "Комплекты, базовые характеристики, эффекты и рецепты из клиента BSFG.",
+    featuredCategories: ["heavy", "light", "robe", "robe-legion", "form", "shields", "jewelry", "bracelets", "talismans"],
     related: [["/items/pit-boss-jewelry", "Бижутерия Пит-боссов"], ["/specifications/boss-trophies", "Трофеи боссов"]],
   }],
   ["/items/weapons", {
     title: "Оружие", navigationLabel: "Типы оружия", categories: WEAPON_CATEGORIES,
     intro: "Базовые характеристики, эффекты оружия и заточки, рецепты из клиента BSFG.",
+    categoryGroups: [
+      ["Ближний бой", [
+        "two-handed-swords", "one-handed-swords", "daggers", "two-handed-hammers",
+        "twin-swords", "ancient-swords", "paired-daggers", "one-handed-hammers", "steam-hammers", "sharp-axes",
+        "halberds", "knuckles", "claw", "rapier", "rapier-with-symbol", "paired-rapiers",
+      ], 4],
+      ["Дальний бой", ["crossbows", "warp-crossbows", "long-bows", "short-bows", "shotguns"]],
+      ["Магическое оружие", ["rod", "rod-symbol", "stick"]],
+    ],
+    previewStats: ["pAttack", "mAttack", "pAttackSpeed", "pCritical"],
     related: [],
   }],
 ]);
@@ -94,6 +105,7 @@ const EQUIPMENT_STATS = {
   pavoid: "Физ. уклонение", mavoid: "Маг. уклонение",
   random_damage: "Разброс урона", soulshot_count: "Заряды души", spiritshot_count: "Заряды духа",
 };
+const EQUIPMENT_STAT_FORMAT = new Intl.NumberFormat("ru-RU", { maximumFractionDigits: 4 });
 const MILITARY_SLOTS = [
   ["critical-power", "Сила критического удара"],
   ["critical-chance", "Шанс критического удара"],
@@ -356,13 +368,12 @@ function renderProfession(catalogItem, exported) {
   document.querySelector("#crumb-title").textContent = profession.title;
   document.querySelector("#profession-title").textContent = profession.title;
   document.querySelector("#profession-class").textContent = raceName(profession.title_classes);
-  document.querySelector("#profession-summary").textContent = profession.descriptions[0] || "";
   const avatar = renderIcon(catalogItem.icon, profession.title, "profession-avatar");
   avatar.id = "profession-avatar";
   document.querySelector("#profession-avatar").replaceWith(avatar);
   const descriptions = document.querySelector("#profession-descriptions");
-  descriptions.append(el("h2", "", "Описание профессии"));
   for (const paragraph of profession.descriptions) descriptions.append(el("p", "", paragraph));
+  descriptions.parentElement.hidden = !profession.descriptions.length;
 
   renderSectionTabs(profession.sections);
 }
@@ -387,21 +398,16 @@ function renderSectionTabs(sections) {
   let applyLevel;
 
   sections.forEach((section, index) => {
-    const button = el("button", "section-tab");
+    const button = el("button", "section-tab", section.title);
     button.type = "button";
     button.setAttribute("role", "tab");
     button.setAttribute("aria-selected", String(index === 0));
-    button.append(
-      el("span", "tab-index", String(index + 1).padStart(2, "0")),
-      el("span", "tab-copy", section.title),
-    );
     button.addEventListener("click", () => {
       activeSection = index;
       for (const tab of tabs.children) {
         tab.setAttribute("aria-selected", String(tab === button));
       }
       refresh();
-      document.querySelector(".skills-shell").scrollIntoView({ behavior: "smooth", block: "start" });
     });
     tabs.append(button);
   });
@@ -470,39 +476,31 @@ function renderSkills(section, queryValue) {
     details.append(summary);
 
     const content = el("div", "skill-content");
-    for (const [branch, branchRows] of groupBy(rows, "branch")) {
-      const branchBlock = el("section", "branch-block");
-      const branchHeading = el("div", "branch-heading");
-      const branchName = branchRows[0].name;
-      const branchLabel = BRANCH_LABELS[branch] || branch;
-      branchHeading.append(
-        renderIcon(localIconUrl(branchRows.find((row) => row.icon)?.icon), branchName, "branch-icon"),
-        el("h3", "", branchName === name ? branchLabel : branchLabel + " · " + branchName),
-      );
-      branchBlock.append(branchHeading);
-      const sortedRows = [...branchRows].sort((a, b) => Number(a.level) - Number(b.level));
-      const { panel, setLevel } = renderLevelSwitcher(sortedRows, branchName, branch);
-      branchBlock.append(panel);
-      levelSwitchers.push(setLevel);
-      content.append(branchBlock);
-    }
+    const branches = [...groupBy(rows, "branch").values()];
+    for (const branchRows of branches) branchRows.sort((a, b) => Number(a.level) - Number(b.level));
+    const levels = [...new Set(rows.map((row) => row.level))].sort((a, b) => Number(a) - Number(b));
+    const { panel, setLevel } = renderLevelSwitcher(levels, name, (level) => {
+      const selected = branches.map((branchRows) => branchRows.findLast((row) =>
+        Number(row.level) <= Number(level)
+      ) || branchRows[0]);
+      if (selected.length > 1) return renderBranchComparison(name, selected, level);
+      const [row] = selected;
+      return row.branch === "base" ? renderLevel(row) : renderBranch(name, row, level);
+    });
+    content.append(panel);
+    levelSwitchers.push(setLevel);
     details.append(content);
     list.append(details);
   });
   return (level) => { for (const setLevel of levelSwitchers) setLevel(level); };
 }
 
-function renderLevelSwitcher(rows, skillName, branch) {
+function renderLevelSwitcher(levels, skillName, renderSelection) {
   const panel = el("div", "level-panel");
   const switcher = el("div", "level-switcher");
-  const current = el("output", "level-current");
-  current.setAttribute("aria-live", "polite");
   const options = el("div", "level-options");
   options.setAttribute("role", "group");
-  options.setAttribute(
-    "aria-label",
-    "Уровень умения «" + skillName + "», " + (BRANCH_LABELS[branch] || branch)
-  );
+  options.setAttribute("aria-label", "Уровень умения «" + skillName + "»");
   const levelContent = el("div", "level-detail");
   const buttons = [];
   let selectedIndex = -1;
@@ -510,36 +508,103 @@ function renderLevelSwitcher(rows, skillName, branch) {
   const selectLevel = (index) => {
     if (index === selectedIndex) return;
     selectedIndex = index;
-    const row = rows[index];
-    current.value = row.level;
-    current.textContent = row.level;
     for (const button of buttons) {
       const selected = button === buttons[index];
       button.setAttribute("aria-pressed", String(selected));
       button.classList.toggle("is-selected", selected);
     }
-    levelContent.replaceChildren(renderLevel(row));
+    levelContent.replaceChildren(renderSelection(levels[index]));
   };
 
-  for (const [index, row] of rows.entries()) {
-    const button = el("button", "level-option", row.level);
+  for (const [index, level] of levels.entries()) {
+    const button = el("button", "level-option", level);
     button.type = "button";
     button.setAttribute("aria-pressed", "false");
-    button.title = "Показать уровень " + row.level;
+    button.title = "Показать уровень " + level;
     button.addEventListener("click", () => selectLevel(index));
     buttons.push(button);
     options.append(button);
   }
 
-  switcher.append(el("span", "level-switcher-label", "Уровень:"), current, options);
+  switcher.append(el("span", "level-switcher-label", "Уровень умения"), options);
   panel.append(switcher, levelContent);
   return {
     panel,
     setLevel(level) {
-      const index = level ? rows.findLastIndex((row) => Number(row.level) <= Number(level)) : rows.length - 1;
+      const index = level ? levels.findLastIndex((value) => Number(value) <= Number(level)) : levels.length - 1;
       selectLevel(Math.max(0, index));
     },
   };
+}
+
+function renderBranch(skillName, row, level, metrics) {
+  const block = el("section", "branch-block");
+  const heading = el("div", "branch-heading");
+  const label = BRANCH_LABELS[row.branch] || row.branch;
+  heading.append(
+    renderIcon(localIconUrl(row.icon), row.name, "branch-icon"),
+    el("h4", "", row.name === skillName ? label : label + " · " + row.name),
+  );
+  if (row.level !== level) heading.append(el("span", "branch-level", "Уровень " + row.level));
+  block.append(heading, renderLevel(row));
+  if (metrics) {
+    const list = el("dl", "branch-metrics");
+    list.append(
+      el("dt", "", "Фиксированный урон"), el("dd", "", metrics.damage),
+      el("dt", "", "Отравление"), el("dd", "", metrics.poison),
+    );
+    block.append(list);
+  }
+  return block;
+}
+
+function parseRetaliation(description) {
+  // These three source descriptions explicitly enumerate every extra effect.
+  const prefix = "Увеличивает критические повреждения магией. Когда повреждения нанесенные адепту превысили половину жизненных сил его магические атаки будут ";
+  if (!description?.startsWith(prefix)) return null;
+  const effect = description.slice(prefix.length);
+  const damageOnly = effect.match(/^наносить дополнительно (\d+) фиксированного урона противникам\.$/);
+  const poison = effect.match(/^дополнительно отравлять противников(?: и наносить им (\d+) фиксированного урона)?\. Сила отравления (\d+(?:[.,]\d+)?)%\.$/);
+  if (!damageOnly && !poison) return null;
+  const damage = damageOnly?.[1] || poison?.[1];
+  return {
+    damage: damage ? Number(damage).toLocaleString("ru-RU") : "—",
+    poison: poison ? poison[2].replace(".", ",") + "%" : "—",
+  };
+}
+
+function renderBranchComparison(skillName, rows, level) {
+  const [first] = rows;
+  const specifications = (first.specifications || []).filter((value) =>
+    rows.every((row) => row.specifications?.includes(value))
+  );
+  const hasGroupedEffects = rows.some((row) =>
+    row.effects_from_archive || row.effects?.some((effect) => effect.kind === "group")
+  );
+  const effects = hasGroupedEffects ? [] : (first.effects || []).filter((effect) =>
+    rows.every((row) => row.effects?.some((item) => item.kind === effect.kind && item.text === effect.text))
+  );
+  const metrics = rows.map((row) => parseRetaliation(row.description));
+  const hasRetaliationMetrics = metrics.every(Boolean);
+  const sharedDescription = hasRetaliationMetrics
+    ? "Когда полученный адептом урон превышает половину его запаса здоровья, его магические атаки получают дополнительный эффект."
+    : "";
+  const comparison = el("div", "branch-comparison");
+  if (specifications.length || effects.length || sharedDescription) {
+    const shared = el("div", "branch-common");
+    shared.append(el("h3", "", "Общее для веток"), renderLevel({ description: sharedDescription, specifications, effects }));
+    comparison.append(shared);
+  }
+  const grid = el("div", "branch-grid");
+  for (const [index, row] of rows.entries()) {
+    grid.append(renderBranch(skillName, {
+      ...row,
+      specifications: row.specifications?.filter((value) => !specifications.includes(value)),
+      effects: row.effects?.filter((effect) => !effects.some((item) => item.kind === effect.kind && item.text === effect.text)),
+    }, level, hasRetaliationMetrics ? metrics[index] : null));
+  }
+  comparison.append(el("h3", "branch-comparison-title", "Сравнение веток"), grid);
+  return comparison;
 }
 
 function renderLevel(row) {
@@ -680,18 +745,9 @@ function renderEquipment(path, catalog, category, data) {
   document.querySelector("#equipment-release").textContent = data.client_release;
   document.querySelector("#equipment-category-title").textContent = catalog.categories[category];
   const navigation = document.querySelector("#equipment-categories");
-  navigation.setAttribute("aria-label", catalog.navigationLabel);
-  for (const [key, label] of Object.entries(catalog.categories)) {
-    const link = el("a", "class-option", label);
-    link.href = "#" + path + "/" + key;
-    if (key === category) link.setAttribute("aria-current", "page");
-    navigation.append(link);
-  }
-  for (const [relatedPath, label] of catalog.related) {
-    const link = el("a", "class-option", label);
-    link.href = "#" + relatedPath;
-    navigation.append(link);
-  }
+  const dialog = document.querySelector("#equipment-dialog");
+  const search = document.querySelector("#equipment-search");
+  renderEquipmentNavigation(navigation, path, catalog, category, data.items);
 
   const items = new Map(data.items.map(item => [item.id, item]));
   const sets = (data.sets || []).filter(group => group.category === category);
@@ -710,7 +766,6 @@ function renderEquipment(path, catalog, category, data) {
     if (present.has(value)) rank.append(new Option(value || "Без ранга", value));
   }
 
-  const search = document.querySelector("#equipment-search");
   const results = document.querySelector("#equipment-results");
   const counter = document.querySelector("#equipment-count");
   const refresh = () => {
@@ -720,7 +775,7 @@ function renderEquipment(path, catalog, category, data) {
       if (rank.value !== "all" && variants[0].items[0].rank !== rank.value) continue;
       const match = variants.find(variant => variant.items.some(item =>
         normalize(item.name + " " + (item.label || "")).includes(query) || String(item.id) === query));
-      if (match) matches.push(renderEquipmentEntry(variants, match));
+      if (match) matches.push(renderEquipmentPreview(variants, match, dialog, catalog.previewStats));
     }
     results.replaceChildren(...matches);
     counter.textContent = matches.length ? "Показано " + matches.length : "Совпадений нет.";
@@ -728,6 +783,72 @@ function renderEquipment(path, catalog, category, data) {
   search.addEventListener("input", refresh);
   rank.addEventListener("change", refresh);
   refresh();
+}
+
+function renderEquipmentNavigation(navigation, path, catalog, category, items) {
+  navigation.setAttribute("aria-label", catalog.navigationLabel);
+  const links = new Map();
+  for (const [key, label] of Object.entries(catalog.categories)) {
+    const link = el("a", "class-option");
+    link.href = "#" + path + "/" + key;
+    if (key === category) link.setAttribute("aria-current", "page");
+    const icon = items.find(item => item.category === key && item.icon)?.icon;
+    link.append(renderIcon(localIconUrl(icon), label, "branch-icon equipment-category-icon"));
+    link.append(label);
+    links.set(key, link);
+  }
+  navigation.append(el("h2", "", catalog.categoryGroups ? catalog.navigationLabel : "Категории"));
+  const groups = catalog.categoryGroups || [["", catalog.featuredCategories]];
+  const picker = el("label", "progression-field equipment-category-picker");
+  const select = el("select");
+  for (const [name, keys, visibleCount = keys.length] of groups) {
+    const list = el("div", "equipment-category-links");
+    const additional = el("div", "equipment-category-links");
+    const options = name ? el("optgroup") : select;
+    if (name) {
+      options.label = name;
+      select.append(options);
+      const group = el("div", "equipment-category-group");
+      group.append(el("h3", "", name), list);
+      if (keys.length > visibleCount) {
+        const more = el("details", "equipment-group-more");
+        more.open = keys.indexOf(category) >= visibleCount;
+        more.append(el("summary", "", "Другие типы"), additional);
+        group.append(more);
+      }
+      navigation.append(group);
+    } else {
+      navigation.append(list);
+    }
+    for (const [index, key] of keys.entries()) {
+      const destination = index < visibleCount ? list : additional;
+      destination.append(links.get(key));
+      options.append(new Option(catalog.categories[key], path + "/" + key));
+      links.delete(key);
+    }
+  }
+
+  const extra = el("div", "equipment-category-links");
+  for (const [key, link] of links) {
+    extra.append(link);
+    select.add(new Option(catalog.categories[key], path + "/" + key));
+  }
+  for (const [relatedPath, label] of catalog.related) {
+    const link = el("a", "class-option", label);
+    link.href = "#" + relatedPath;
+    extra.append(link);
+    select.add(new Option(label, relatedPath));
+  }
+  if (extra.childElementCount) {
+    const more = el("details", "equipment-more-categories");
+    more.open = links.has(category);
+    more.append(el("summary", "", "Другие категории"), extra);
+    navigation.append(more);
+  }
+  select.value = path + "/" + category;
+  select.addEventListener("change", () => { location.hash = select.value; });
+  picker.append(el("span", "", catalog.categoryGroups ? "Тип оружия" : "Категория"), select);
+  navigation.append(picker);
 }
 
 function groupEquipmentSets(sets, itemsById) {
@@ -743,19 +864,95 @@ function groupEquipmentSets(sets, itemsById) {
   return [...groups.values()];
 }
 
-function renderEquipmentEntry(variants, entry) {
-  if (!entry.set) return renderEquipmentItem(entry.items[0]);
-  const section = el("section", "enchant-card equipment-set");
-  const heading = el("header", "equipment-set-heading");
+function renderEquipmentPreview(variants, entry, dialog, statKeys) {
   const [first] = entry.items;
-  heading.append(el("h3", "", first.name), el("span", "", "Комплект · " + first.rank));
-  section.append(heading);
+  const card = el("article", "enchant-card equipment-preview");
+  const header = el("header");
+  const identity = el("div");
+  const heading = el("div", "equipment-preview-heading");
+  heading.append(el("h3", "", first.name), el("span", "equipment-rank", first.rank || "Без ранга"));
+  const subtitle = el("p", "equipment-preview-meta");
+  const icons = el("ul", "equipment-preview-icons");
+  const actions = el("div", "equipment-preview-actions");
+  const viewLabel = statKeys ? "Подробнее" : (entry.set ? "Смотреть комплект" : "Смотреть предмет");
+  const view = el("button", "class-option equipment-preview-view", viewLabel);
+  const recipes = el("button", "class-option equipment-preview-recipes",
+    statKeys && first.recipes?.length === 1 ? "Рецепт" : "Рецепты");
+  for (const button of [view, recipes]) {
+    button.type = "button";
+    button.setAttribute("aria-label", button.textContent + " — " + first.name);
+    button.setAttribute("aria-haspopup", "dialog");
+  }
+  let active = entry;
+  const updatePreview = (variant) => {
+    active = variant;
+    const item = variant.items[0];
+    subtitle.textContent = (variant.set ? ["Комплект", item.label] : [item.slot, item.label, "ID " + item.id])
+      .filter(Boolean).join(" · ");
+    icons.replaceChildren(...variant.items.map(piece => {
+      const icon = el("li");
+      icon.title = piece.name;
+      icon.append(
+        renderIcon(localIconUrl(piece.icon), piece.name, "branch-icon equipment-preview-icon"),
+        el("span", "visually-hidden", piece.name),
+      );
+      return icon;
+    }));
+    recipes.hidden = !variant.items.some(piece => piece.recipes?.length);
+  };
+  const open = (showRecipes) => {
+    dialog.querySelector("#equipment-dialog-title").textContent = first.name;
+    const details = active.set
+      ? renderEquipmentSet(variants, active, showRecipes, updatePreview)
+      : renderEquipmentItem(active.items[0], showRecipes);
+    dialog.querySelector(".equipment-dialog-content").replaceChildren(details);
+    dialog.addEventListener("close", () => {
+      const trigger = showRecipes && !recipes.hidden ? recipes : view;
+      trigger.focus({ preventScroll: true });
+    }, { once: true });
+    dialog.showModal();
+    dialog.scrollTop = 0;
+  };
+  view.addEventListener("click", () => open(false));
+  recipes.addEventListener("click", () => open(true));
+  actions.append(view, recipes);
+  identity.append(heading, subtitle);
+  if (statKeys) {
+    card.classList.add("weapon-preview");
+    icons.setAttribute("aria-hidden", "true");
+    header.append(icons, identity);
+    card.append(header, renderWeaponPreviewStats(first, statKeys), actions);
+  } else {
+    header.append(identity);
+    card.append(header, icons, actions);
+  }
+  updatePreview(entry);
+  return card;
+}
 
+function renderWeaponPreviewStats(item, statKeys) {
+  const stats = el("dl", "weapon-preview-stats");
+  for (const key of statKeys) {
+    const value = item.stats?.[key];
+    if (value === undefined) continue;
+    const metric = el("div");
+    metric.append(
+      el("dt", "", EQUIPMENT_STATS[key]),
+      el("dd", "", EQUIPMENT_STAT_FORMAT.format(value)),
+    );
+    stats.append(metric);
+  }
+  stats.hidden = !stats.childElementCount;
+  return stats;
+}
+
+function renderEquipmentSet(variants, entry, showRecipes, onVariantChange) {
+  const section = el("div", "equipment-set");
   const content = el("div");
   const showVariant = (variant) => {
     const notes = variant.set.effects.map(effect => el("p", "equipment-set-note", effect));
     const pieces = el("div", "equipment-pieces");
-    pieces.append(...variant.items.map(renderEquipmentItem));
+    pieces.append(...variant.items.map(item => renderEquipmentItem(item, showRecipes)));
     content.replaceChildren(...notes, pieces);
   };
   if (variants.length > 1) {
@@ -769,7 +966,11 @@ function renderEquipmentEntry(variants, entry) {
       select.add(new Option(label, index));
     });
     select.selectedIndex = variants.indexOf(entry);
-    select.addEventListener("change", () => showVariant(variants[select.selectedIndex]));
+    select.addEventListener("change", () => {
+      const variant = variants[select.selectedIndex];
+      showVariant(variant);
+      onVariantChange(variant);
+    });
     field.append(el("span", "", "Вариант комплекта"), select);
     section.append(field);
   }
@@ -778,7 +979,7 @@ function renderEquipmentEntry(variants, entry) {
   return section;
 }
 
-function renderEquipmentItem(item) {
+function renderEquipmentItem(item, showRecipes = false) {
   const card = el("article", "enchant-card equipment-item");
   card.dataset.itemId = item.id;
   const heading = el("header", "enchant-heading");
@@ -787,7 +988,7 @@ function renderEquipmentItem(item) {
   card.append(heading);
   const stats = el("dl", "jewelry-stats equipment-stats");
   for (const [key, value] of Object.entries(item.stats || {})) {
-    stats.append(el("dt", "", EQUIPMENT_STATS[key]), el("dd", "", value.toLocaleString("ru-RU", {maximumFractionDigits: 4})));
+    stats.append(el("dt", "", EQUIPMENT_STATS[key]), el("dd", "", EQUIPMENT_STAT_FORMAT.format(value)));
   }
   if (stats.childElementCount) card.append(stats);
   if (item.effects?.length || item.enchant_effect) {
@@ -800,6 +1001,7 @@ function renderEquipmentItem(item) {
   }
   if (item.recipes?.length) {
     const details = el("details", "equipment-details");
+    details.open = showRecipes;
     details.append(el("summary", "", "Рецепты"));
     for (const recipe of item.recipes) {
       details.append(el("p", "", "Рецепт " + recipe.id + " · уровень " + recipe.level

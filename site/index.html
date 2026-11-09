@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=be84335">
+  <link rel="stylesheet" href="assets/styles.css?v=weapon-armory">
 </head>
 <body>
   <header class="site-header">
@@ -115,28 +115,42 @@
   </template>
 
   <template id="equipment-template">
-    <article class="enchant-page">
-      <header class="hero">
-        <h1 id="equipment-title"></h1>
-        <p id="equipment-intro" class="hero-copy"></p>
-      </header>
+    <article class="enchant-page equipment-catalog">
       <nav id="equipment-categories" class="equipment-categories"></nav>
-      <div class="progression-toolbar equipment-toolbar">
-        <label class="progression-field">
-          <span>Ранг</span>
-          <select id="equipment-rank"></select>
-        </label>
-        <label class="progression-field">
-          <span>Название, пометка или ID</span>
-          <input id="equipment-search" type="search" autocomplete="off">
-        </label>
+      <div class="equipment-content">
+        <header class="hero">
+          <h1 id="equipment-title"></h1>
+          <p id="equipment-intro" class="hero-copy"></p>
+        </header>
+        <div class="progression-toolbar equipment-toolbar">
+          <label class="progression-field">
+            <span>Ранг</span>
+            <select id="equipment-rank"></select>
+          </label>
+          <label class="progression-field equipment-search-field">
+            <span class="visually-hidden">Название, пометка или ID</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+            <input id="equipment-search" type="search" placeholder="Название, пометка или ID" autocomplete="off">
+          </label>
+        </div>
+        <section aria-labelledby="equipment-category-title">
+          <div class="equipment-category-heading">
+            <h2 id="equipment-category-title" class="enchant-title"></h2>
+            <p id="equipment-count" class="equipment-count" role="status"></p>
+          </div>
+          <div id="equipment-results" class="equipment-results"></div>
+        </section>
+        <p class="enchant-source">Данные клиента BSFG <span id="equipment-release"></span>. Каталог показывает характеристики базового предмета и рецепты, записанные в клиенте.</p>
       </div>
-      <section aria-labelledby="equipment-category-title">
-        <h2 id="equipment-category-title" class="enchant-title"></h2>
-        <p id="equipment-count" class="equipment-count" role="status"></p>
-        <div id="equipment-results" class="equipment-results"></div>
-      </section>
-      <p class="enchant-source">Данные клиента BSFG <span id="equipment-release"></span>. Каталог показывает характеристики базового предмета и рецепты, записанные в клиенте.</p>
+      <dialog id="equipment-dialog" class="equipment-dialog" aria-labelledby="equipment-dialog-title">
+        <header class="equipment-dialog-heading">
+          <h2 id="equipment-dialog-title" class="enchant-title"></h2>
+          <form method="dialog">
+            <button class="class-option" type="submit" autofocus>Закрыть</button>
+          </form>
+        </header>
+        <div class="equipment-dialog-content"></div>
+      </dialog>
     </article>
   </template>
 
@@ -337,36 +351,28 @@
         <a href="#/professions">Все профессии</a><span>/</span><span id="crumb-title" aria-current="page"></span>
       </nav>
       <div class="profession-layout">
-        <aside class="profession-sidebar">
-          <div class="profile-sticky">
-            <section class="profession-profile">
-              <div id="profession-avatar" class="profession-avatar"></div>
-              <div class="profession-heading">
-                <p id="profession-class" class="eyebrow"></p>
-                <h1 id="profession-title"></h1>
-                <p id="profession-summary"></p>
-              </div>
-            </section>
-            <div class="profession-level-filter">
-              <label for="profession-skill-level">Уровень всех умений</label>
-              <select id="profession-skill-level" aria-describedby="profession-skill-level-hint">
-                <option value="">Максимальный</option>
-              </select>
-              <p id="profession-skill-level-hint">Если уровня нет, показывается ближайший меньший или минимальный.</p>
-            </div>
-            <nav class="profession-nav" aria-label="Разделы профессии">
-              <span>Разделы умений</span>
-              <div id="section-tabs" class="section-tabs" role="tablist"></div>
-            </nav>
+        <header class="profession-profile">
+          <div id="profession-avatar" class="profession-avatar"></div>
+          <div class="profession-heading">
+            <p id="profession-class" class="eyebrow"></p>
+            <h1 id="profession-title"></h1>
+            <details class="profession-description">
+              <summary>О профессии</summary>
+              <div id="profession-descriptions"></div>
+            </details>
           </div>
-          <section id="profession-descriptions" class="description-panel"></section>
-        </aside>
-        <section class="skills-shell">
+          <div class="profession-level-filter">
+            <label for="profession-skill-level">Уровень всех умений</label>
+            <select id="profession-skill-level" aria-describedby="profession-skill-level-hint">
+              <option value="">Максимальный</option>
+            </select>
+            <p id="profession-skill-level-hint">Если уровня нет, показывается ближайший меньший или минимальный.</p>
+          </div>
+        </header>
+        <section class="skills-shell" aria-labelledby="active-section-title">
+          <h2 id="active-section-title" class="visually-hidden">Умения и уровни</h2>
           <div class="skills-heading">
-            <div>
-              <p class="eyebrow">Полная карточка</p>
-              <h2 id="active-section-title">Умения и уровни</h2>
-            </div>
+            <div id="section-tabs" class="section-tabs" role="tablist" aria-label="Разделы умений"></div>
             <label class="search-box compact">
               <span class="visually-hidden">Найти умение</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
@@ -381,6 +387,6 @@
   </template>
 
   <script src="assets/map.js" defer></script>
-  <script src="assets/app.js?v=be84335" defer></script>
+  <script src="assets/app.js?v=weapon-armory" defer></script>
 </body>
 </html>

@@ -125,15 +125,34 @@ function mountWorldMap(root, data) {
   }
 
   const fitScale = () => Math.min(viewport.clientWidth / data.width, viewport.clientHeight / data.height);
-  function zoomTo(nextScale, x, y) {
-    const centerX = x ?? (viewport.scrollLeft + viewport.clientWidth / 2 - stage.offsetLeft) / scale;
-    const centerY = y ?? (viewport.scrollTop + viewport.clientHeight / 2) / scale;
+  function zoomTo(nextScale, x, y, anchor) {
+    const mapX = x ?? (viewport.scrollLeft + viewport.clientWidth / 2 - stage.offsetLeft) / scale;
+    const mapY = y ?? (viewport.scrollTop + viewport.clientHeight / 2) / scale;
     scale = Math.min(3, Math.max(fitScale(), nextScale));
     stage.style.width = data.width * scale + "px";
     stage.style.setProperty("--map-marker-scale", Math.max(0.55, Math.min(1, scale)));
-    viewport.scrollLeft = stage.offsetLeft + centerX * scale - viewport.clientWidth / 2;
-    viewport.scrollTop = centerY * scale - viewport.clientHeight / 2;
+    viewport.scrollLeft = stage.offsetLeft + mapX * scale - (anchor?.x ?? viewport.clientWidth / 2);
+    viewport.scrollTop = mapY * scale - (anchor?.y ?? viewport.clientHeight / 2);
   }
+
+  viewport.addEventListener("wheel", (event) => {
+    const { deltaMode, deltaY } = event;
+    if (event.ctrlKey || event.metaKey || !deltaY) return;
+    event.preventDefault();
+    const bounds = viewport.getBoundingClientRect();
+    const mapBounds = stage.getBoundingClientRect();
+    const anchor = {
+      x: event.clientX - bounds.left - viewport.clientLeft,
+      y: event.clientY - bounds.top - viewport.clientTop,
+    };
+    const x = (event.clientX - mapBounds.left) / scale;
+    const y = (event.clientY - mapBounds.top) / scale;
+    let delta = deltaY;
+    if (deltaMode === WheelEvent.DOM_DELTA_LINE) delta *= 16;
+    if (deltaMode === WheelEvent.DOM_DELTA_PAGE) delta *= viewport.clientHeight;
+    const step = Math.max(-150, Math.min(150, delta));
+    zoomTo(scale * Math.exp(-step / 500), x, y, anchor);
+  }, { passive: false });
 
   root.querySelector("#map-zoom-in").addEventListener("click", () => zoomTo(scale * 1.35));
   root.querySelector("#map-zoom-out").addEventListener("click", () => zoomTo(scale / 1.35));

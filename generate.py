@@ -169,14 +169,17 @@ def validate_entry(
         fail(path, f"{location}.effects_from_archive", "ожидалось логическое значение")
     require_string_list(entry, "specifications", path, location)
 
-    effects = require_list(entry.get("effects"), path, f"{location}.effects")
-    for effect_index, effect_value in enumerate(effects):
-        effect_location = f"{location}.effects[{effect_index}]"
-        effect = require_mapping(effect_value, path, effect_location)
-        kind = require_string(effect, "kind", path, effect_location)
-        if kind not in {"value", "group"}:
-            fail(path, f"{effect_location}.kind", f"неизвестный тип эффекта: {kind}")
-        require_string(effect, "text", path, effect_location)
+    if entry.get("effects_from_archive") and "archived_effects" in entry:
+        fail(path, location, "архивные эффекты должны храниться одним способом")
+    for field in ("effects", "archived_effects"):
+        value = entry.get(field, [] if field == "archived_effects" else None)
+        for index, effect_value in enumerate(require_list(value, path, f"{location}.{field}")):
+            effect_location = f"{location}.{field}[{index}]"
+            effect = require_mapping(effect_value, path, effect_location)
+            kind = require_string(effect, "kind", path, effect_location)
+            if kind not in {"value", "group"}:
+                fail(path, f"{effect_location}.kind", f"неизвестный тип эффекта: {kind}")
+            require_string(effect, "text", path, effect_location)
     return entry
 
 

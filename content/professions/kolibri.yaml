@@ -3578,9 +3578,9 @@ profession:
         в бою с вражескими игроками на 10%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 10%'
+        text: 'Магическая защита в PVP: 10%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 10%'
+        text: 'Физическая защита в PVP: 10%'
       icon: /icon/icon_mob_armor8.jpg
       level: '1'
       name: Доблесть Чародеев
@@ -3590,15 +3590,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 15% и физическую защиту
         в бою с вражескими игроками на 15%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 15%'
+        text: 'Магическая защита в PVP: 15%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 15%'
+        text: 'Физическая защита в PVP: 15%'
       icon: /icon/icon_mob_armor8.jpg
       level: '2'
       name: Доблесть Чародеев
@@ -3608,15 +3607,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 18% и физическую защиту
         в бою с вражескими игроками на 18%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 18%'
+        text: 'Магическая защита в PVP: 18%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 18%'
+        text: 'Физическая защита в PVP: 18%'
       icon: /icon/icon_mob_armor8.jpg
       level: '3'
       name: Доблесть Чародеев
@@ -3626,15 +3624,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 21% и физическую защиту
         в бою с вражескими игроками на 21%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 21%'
+        text: 'Магическая защита в PVP: 21%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 21%'
+        text: 'Физическая защита в PVP: 21%'
       icon: /icon/icon_mob_armor8.jpg
       level: '4'
       name: Доблесть Чародеев
@@ -3644,15 +3641,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 24% и физическую защиту
         в бою с вражескими игроками на 25%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 24%'
+        text: 'Магическая защита в PVP: 24%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 24%'
+        text: 'Физическая защита в PVP: 25%'
       icon: /icon/icon_mob_armor8.jpg
       level: '5'
       name: Доблесть Чародеев
@@ -3662,15 +3658,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 27% и физическую защиту
         в бою с вражескими игроками на 45%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 27%'
+        text: 'Магическая защита в PVP: 27%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 27%'
+        text: 'Физическая защита в PVP: 45%'
       icon: /icon/icon_mob_armor8.jpg
       level: '6'
       name: Доблесть Чародеев
@@ -3680,15 +3675,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 30% и физическую защиту
         в бою с вражескими игроками на 65%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 30%'
+        text: 'Магическая защита в PVP: 30%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 30%'
+        text: 'Физическая защита в PVP: 65%'
       icon: /icon/icon_mob_armor8.jpg
       level: '7'
       name: Доблесть Чародеев
@@ -3698,15 +3692,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 33% и физическую защиту
         в бою с вражескими игроками на 66%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 33%'
+        text: 'Магическая защита в PVP: 33%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 33%'
+        text: 'Физическая защита в PVP: 66%'
       icon: /icon/icon_mob_armor8.jpg
       level: '8'
       name: Доблесть Чародеев
@@ -3716,15 +3709,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 36% и физическую защиту
         в бою с вражескими игроками на 67%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 36%'
+        text: 'Магическая защита в PVP: 36%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 36%'
+        text: 'Физическая защита в PVP: 67%'
       icon: /icon/icon_mob_armor8.jpg
       level: '9'
       name: Доблесть Чародеев
@@ -3734,15 +3726,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 39% и физическую защиту
         в бою с вражескими игроками на 68%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 39%'
+        text: 'Магическая защита в PVP: 39%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 39%'
+        text: 'Физическая защита в PVP: 68%'
       icon: /icon/icon_mob_armor8.jpg
       level: '10'
       name: Доблесть Чародеев
@@ -3752,15 +3743,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 42% и физическую защиту
         в бою с вражескими игроками на 69%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 42%'
+        text: 'Магическая защита в PVP: 42%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 42%'
+        text: 'Физическая защита в PVP: 69%'
       icon: /icon/icon_mob_armor8.jpg
       level: '11'
       name: Доблесть Чародеев
@@ -3770,15 +3760,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 43% и физическую защиту
         в бою с вражескими игроками на 70%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 43%'
+        text: 'Магическая защита в PVP: 43%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 43%'
+        text: 'Физическая защита в PVP: 70%'
       icon: /icon/icon_mob_armor8.jpg
       level: '12'
       name: Доблесть Чародеев
@@ -3788,15 +3777,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 44% и физическую защиту
         в бою с вражескими игроками на 71%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 44%'
+        text: 'Магическая защита в PVP: 44%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 44%'
+        text: 'Физическая защита в PVP: 71%'
       icon: /icon/icon_mob_armor8.jpg
       level: '13'
       name: Доблесть Чародеев
@@ -3806,15 +3794,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 45% и физическую защиту
         в бою с вражескими игроками на 72%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 45%'
+        text: 'Магическая защита в PVP: 45%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 45%'
+        text: 'Физическая защита в PVP: 72%'
       icon: /icon/icon_mob_armor8.jpg
       level: '14'
       name: Доблесть Чародеев
@@ -3824,15 +3811,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 46% и физическую защиту
         в бою с вражескими игроками на 73%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 46%'
+        text: 'Магическая защита в PVP: 46%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 46%'
+        text: 'Физическая защита в PVP: 73%'
       icon: /icon/icon_mob_armor8.jpg
       level: '15'
       name: Доблесть Чародеев
@@ -3842,15 +3828,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 47% и физическую защиту
         в бою с вражескими игроками на 74%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 47%'
+        text: 'Магическая защита в PVP: 47%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 47%'
+        text: 'Физическая защита в PVP: 74%'
       icon: /icon/icon_mob_armor8.jpg
       level: '16'
       name: Доблесть Чародеев
@@ -3860,15 +3845,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 48% и физическую защиту
         в бою с вражескими игроками на 75%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 48%'
+        text: 'Магическая защита в PVP: 48%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 48%'
+        text: 'Физическая защита в PVP: 75%'
       icon: /icon/icon_mob_armor8.jpg
       level: '17'
       name: Доблесть Чародеев
@@ -3878,15 +3862,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 49% и физическую защиту
         в бою с вражескими игроками на 76%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 49%'
+        text: 'Магическая защита в PVP: 49%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 49%'
+        text: 'Физическая защита в PVP: 76%'
       icon: /icon/icon_mob_armor8.jpg
       level: '18'
       name: Доблесть Чародеев
@@ -3896,15 +3879,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 50% и физическую защиту
         в бою с вражескими игроками на 77%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 50%'
+        text: 'Магическая защита в PVP: 50%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 50%'
+        text: 'Физическая защита в PVP: 77%'
       icon: /icon/icon_mob_armor8.jpg
       level: '19'
       name: Доблесть Чародеев
@@ -3914,15 +3896,14 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает магическую защиту в бою с вражескими игроками на 55% и физическую защиту
         в бою с вражескими игроками на 78%.
       effects:
       - kind: value
-        text: 'Магическая защита в PVP (Любая броня): 55%'
+        text: 'Магическая защита в PVP: 55%'
       - kind: value
-        text: 'Физическая защита в PVP (Любая броня): 55%'
+        text: 'Физическая защита в PVP: 78%'
       icon: /icon/icon_mob_armor8.jpg
       level: '20'
       name: Доблесть Чародеев
@@ -3932,7 +3913,6 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23097
-      effects_from_archive: true
     - branch: base
       description: Увеличивает максимальный запас маны.
       effects:

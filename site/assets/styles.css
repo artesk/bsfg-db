@@ -108,7 +108,6 @@ h1 {
   border: 1px solid #695044;
   border-radius: 5px;
   object-fit: cover;
-  image-rendering: pixelated;
 }
 .specifications-link h3 { margin: 0; font: 500 clamp(20px, 2vw, 24px)/1.12 Georgia, serif; }
 .specifications-link p { grid-column: 1 / -1; margin: 0; font-size: 14px; }

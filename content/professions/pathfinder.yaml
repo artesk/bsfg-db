@@ -484,7 +484,7 @@ profession:
         text: 'Сила умения: 10000'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '1'
       name: Смертельный выпад
       selection_id: ''
@@ -504,7 +504,7 @@ profession:
         text: 'Сила умения: 20000'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '2'
       name: Смертельный выпад
       selection_id: ''
@@ -524,7 +524,7 @@ profession:
         text: 'Сила умения: 45000'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '3'
       name: Смертельный выпад
       selection_id: ''
@@ -544,7 +544,7 @@ profession:
         text: 'Сила умения: 90000'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '4'
       name: Смертельный выпад
       selection_id: ''
@@ -564,7 +564,7 @@ profession:
         text: 'Сила умения: 150000'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '5'
       name: Смертельный выпад
       selection_id: ''
@@ -584,7 +584,7 @@ profession:
         text: 'Сила умения: 200000'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '6'
       name: Смертельный выпад
       selection_id: ''
@@ -614,7 +614,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0321.jpg
+      icon: /icon/client-skills/icon.skill0321.png
       level: '7'
       name: Смертельный выпад
       selection_id: ''
@@ -634,7 +634,7 @@ profession:
         text: 'Сила умения: 10000'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '1'
       name: Подлый удар
       selection_id: ''
@@ -654,7 +654,7 @@ profession:
         text: 'Сила умения: 20000'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '2'
       name: Подлый удар
       selection_id: ''
@@ -674,7 +674,7 @@ profession:
         text: 'Сила умения: 45000'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '3'
       name: Подлый удар
       selection_id: ''
@@ -694,7 +694,7 @@ profession:
         text: 'Сила умения: 90000'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '4'
       name: Подлый удар
       selection_id: ''
@@ -714,7 +714,7 @@ profession:
         text: 'Сила умения: 150000'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '5'
       name: Подлый удар
       selection_id: ''
@@ -734,7 +734,7 @@ profession:
         text: 'Сила умения: 200000'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '6'
       name: Подлый удар
       selection_id: ''
@@ -760,7 +760,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -30%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0355.jpg
+      icon: /icon/client-skills/icon.skill0355.png
       level: '7'
       name: Подлый удар
       selection_id: ''
@@ -780,7 +780,7 @@ profession:
         text: 'Сила умения: 8000'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0409.jpg
+      icon: /icon/client-skills/icon.skill0409.png
       level: '1'
       name: Бросок ножа
       selection_id: ''
@@ -800,7 +800,7 @@ profession:
         text: 'Сила умения: 19000'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0409.jpg
+      icon: /icon/client-skills/icon.skill0409.png
       level: '2'
       name: Бросок ножа
       selection_id: ''
@@ -820,7 +820,7 @@ profession:
         text: 'Сила умения: 40000'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0409.jpg
+      icon: /icon/client-skills/icon.skill0409.png
       level: '3'
       name: Бросок ножа
       selection_id: ''
@@ -840,7 +840,7 @@ profession:
         text: 'Сила умения: 76000'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0409.jpg
+      icon: /icon/client-skills/icon.skill0409.png
       level: '4'
       name: Бросок ножа
       selection_id: ''
@@ -860,7 +860,7 @@ profession:
         text: 'Сила умения: 115000'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0409.jpg
+      icon: /icon/client-skills/icon.skill0409.png
       level: '5'
       name: Бросок ножа
       selection_id: ''
@@ -880,7 +880,7 @@ profession:
         text: 'Сила умения: 145000'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0409.jpg
+      icon: /icon/client-skills/icon.skill0409.png
       level: '6'
       name: Бросок ножа
       selection_id: ''
@@ -900,7 +900,7 @@ profession:
         text: 'Сила умения: 176000'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill0409.jpg
+      icon: /icon/client-skills/icon.skill0409.png
       level: '7'
       name: Бросок ножа
       selection_id: ''
@@ -2958,7 +2958,7 @@ profession:
         text: 'Эффект паралича:'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10542_1.jpg
+      icon: /icon/client-skills/icon.skill10542_1.png
       level: '1'
       name: Запрещенный прием
       selection_id: ''
@@ -2985,7 +2985,7 @@ profession:
         text: 'Эффект паралича:'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10542_1.jpg
+      icon: /icon/client-skills/icon.skill10542_1.png
       level: '2'
       name: Запрещенный прием
       selection_id: ''
@@ -3012,7 +3012,7 @@ profession:
         text: 'Эффект паралича:'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10542_1.jpg
+      icon: /icon/client-skills/icon.skill10542_1.png
       level: '3'
       name: Запрещенный прием
       selection_id: ''
@@ -3039,7 +3039,7 @@ profession:
         text: 'Эффект паралича:'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10542_1.jpg
+      icon: /icon/client-skills/icon.skill10542_1.png
       level: '4'
       name: Запрещенный прием
       selection_id: ''
@@ -3066,7 +3066,7 @@ profession:
         text: 'Эффект паралича:'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10542_1.jpg
+      icon: /icon/client-skills/icon.skill10542_1.png
       level: '5'
       name: Запрещенный прием
       selection_id: ''
@@ -3093,7 +3093,7 @@ profession:
         text: 'Эффект паралича:'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10542_1.jpg
+      icon: /icon/client-skills/icon.skill10542_1.png
       level: '6'
       name: Запрещенный прием
       selection_id: ''
@@ -3120,7 +3120,7 @@ profession:
         text: 'Эффект паралича:'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill10542_1.jpg
+      icon: /icon/client-skills/icon.skill10542_1.png
       level: '7'
       name: Запрещенный прием
       selection_id: ''
@@ -4752,7 +4752,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '1'
       name: Доблесть Убийц
       selection_id: ''
@@ -4770,7 +4770,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '2'
       name: Доблесть Убийц
       selection_id: ''
@@ -4788,7 +4788,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '3'
       name: Доблесть Убийц
       selection_id: ''
@@ -4806,7 +4806,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '4'
       name: Доблесть Убийц
       selection_id: ''
@@ -4824,7 +4824,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '5'
       name: Доблесть Убийц
       selection_id: ''
@@ -4842,7 +4842,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '6'
       name: Доблесть Убийц
       selection_id: ''
@@ -4860,7 +4860,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '7'
       name: Доблесть Убийц
       selection_id: ''
@@ -4878,7 +4878,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '8'
       name: Доблесть Убийц
       selection_id: ''
@@ -4896,7 +4896,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '9'
       name: Доблесть Убийц
       selection_id: ''
@@ -4914,7 +4914,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '10'
       name: Доблесть Убийц
       selection_id: ''
@@ -4932,7 +4932,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '11'
       name: Доблесть Убийц
       selection_id: ''
@@ -4950,7 +4950,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '12'
       name: Доблесть Убийц
       selection_id: ''
@@ -4968,7 +4968,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '13'
       name: Доблесть Убийц
       selection_id: ''
@@ -4986,7 +4986,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '14'
       name: Доблесть Убийц
       selection_id: ''
@@ -5004,7 +5004,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '15'
       name: Доблесть Убийц
       selection_id: ''
@@ -5022,7 +5022,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '16'
       name: Доблесть Убийц
       selection_id: ''
@@ -5040,7 +5040,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '17'
       name: Доблесть Убийц
       selection_id: ''
@@ -5058,7 +5058,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '18'
       name: Доблесть Убийц
       selection_id: ''
@@ -5076,7 +5076,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '19'
       name: Доблесть Убийц
       selection_id: ''
@@ -5094,7 +5094,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor2.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor2.png
       level: '20'
       name: Доблесть Убийц
       selection_id: ''
@@ -5394,7 +5394,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 24ед.'
       - kind: value
         text: 'Сила крит. урона с оружием (Кинжал): 10%'
-      icon: /icon/skill10505.jpg
+      icon: /icon/client-skills/icon.skill10505.png
       level: '1'
       name: Следопыт
       selection_id: ''
@@ -5413,7 +5413,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 26ед.'
       - kind: value
         text: 'Сила крит. урона с оружием (Кинжал): 13%'
-      icon: /icon/skill10505.jpg
+      icon: /icon/client-skills/icon.skill10505.png
       level: '2'
       name: Следопыт
       selection_id: ''
@@ -5432,7 +5432,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 28ед.'
       - kind: value
         text: 'Сила крит. урона с оружием (Кинжал): 16%'
-      icon: /icon/skill10505.jpg
+      icon: /icon/client-skills/icon.skill10505.png
       level: '3'
       name: Следопыт
       selection_id: ''
@@ -5451,7 +5451,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 30ед.'
       - kind: value
         text: 'Сила крит. урона с оружием (Кинжал): 19%'
-      icon: /icon/skill10505.jpg
+      icon: /icon/client-skills/icon.skill10505.png
       level: '4'
       name: Следопыт
       selection_id: ''
@@ -5470,7 +5470,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 32ед.'
       - kind: value
         text: 'Сила крит. урона с оружием (Кинжал): 22%'
-      icon: /icon/skill10505.jpg
+      icon: /icon/client-skills/icon.skill10505.png
       level: '5'
       name: Следопыт
       selection_id: ''
@@ -5489,7 +5489,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 34ед.'
       - kind: value
         text: 'Сила крит. урона с оружием (Кинжал): 25%'
-      icon: /icon/skill10505.jpg
+      icon: /icon/client-skills/icon.skill10505.png
       level: '6'
       name: Следопыт
       selection_id: ''
@@ -5520,7 +5520,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 15ед.'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill10505.jpg
+      icon: /icon/client-skills/icon.skill10505.png
       level: '7'
       name: Следопыт
       selection_id: ''
@@ -5534,7 +5534,7 @@ profession:
         невидимости Вы получаете усиление, пари котором Ваша следующая атака оглушит противника на 6 секунд.
         Вы не сможете избегать смерти постоянно.
       effects: []
-      icon: /icon/Icon4/final_secret_khavatari.jpg
+      icon: /icon/client-skills/icon4.l2icon.final_secret_khavatari.png
       level: '1'
       name: Второй шанс
       selection_id: ''
@@ -6617,7 +6617,7 @@ profession:
         text: 'Уклонение (Легкая броня): 4ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 21%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '1'
       name: Мастерство следопыта
       selection_id: '2.3_1'
@@ -6640,7 +6640,7 @@ profession:
         text: 'Уклонение (Легкая броня): 4ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 21%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '1'
       name: Мастерство следопыта
       selection_id: '2.3_2'
@@ -6665,7 +6665,7 @@ profession:
         text: 'Уклонение (Легкая броня): 4ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 21%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '1'
       name: Мастерство следопыта
       selection_id: '2.3_3'
@@ -6688,7 +6688,7 @@ profession:
         text: 'Уклонение (Легкая броня): 5ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 25%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '2'
       name: Мастерство следопыта
       selection_id: '2.3_1'
@@ -6711,7 +6711,7 @@ profession:
         text: 'Уклонение (Легкая броня): 5ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 25%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '2'
       name: Мастерство следопыта
       selection_id: '2.3_2'
@@ -6736,7 +6736,7 @@ profession:
         text: 'Уклонение (Легкая броня): 5ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 25%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '2'
       name: Мастерство следопыта
       selection_id: '2.3_3'
@@ -6759,7 +6759,7 @@ profession:
         text: 'Уклонение (Легкая броня): 6ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 29%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '3'
       name: Мастерство следопыта
       selection_id: '2.3_1'
@@ -6782,7 +6782,7 @@ profession:
         text: 'Уклонение (Легкая броня): 6ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 29%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '3'
       name: Мастерство следопыта
       selection_id: '2.3_2'
@@ -6807,7 +6807,7 @@ profession:
         text: 'Уклонение (Легкая броня): 6ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 29%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '3'
       name: Мастерство следопыта
       selection_id: '2.3_3'
@@ -6830,7 +6830,7 @@ profession:
         text: 'Уклонение (Легкая броня): 7ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 33%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '4'
       name: Мастерство следопыта
       selection_id: '2.3_1'
@@ -6853,7 +6853,7 @@ profession:
         text: 'Уклонение (Легкая броня): 7ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 33%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '4'
       name: Мастерство следопыта
       selection_id: '2.3_2'
@@ -6878,7 +6878,7 @@ profession:
         text: 'Уклонение (Легкая броня): 7ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 33%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '4'
       name: Мастерство следопыта
       selection_id: '2.3_3'
@@ -6901,7 +6901,7 @@ profession:
         text: 'Уклонение (Легкая броня): 8ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 37%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '5'
       name: Мастерство следопыта
       selection_id: '2.3_1'
@@ -6924,7 +6924,7 @@ profession:
         text: 'Уклонение (Легкая броня): 8ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 37%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '5'
       name: Мастерство следопыта
       selection_id: '2.3_2'
@@ -6949,7 +6949,7 @@ profession:
         text: 'Уклонение (Легкая броня): 8ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 37%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '5'
       name: Мастерство следопыта
       selection_id: '2.3_3'
@@ -6972,7 +6972,7 @@ profession:
         text: 'Уклонение (Легкая броня): 9ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 41%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '6'
       name: Мастерство следопыта
       selection_id: '2.3_1'
@@ -6995,7 +6995,7 @@ profession:
         text: 'Уклонение (Легкая броня): 9ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 41%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '6'
       name: Мастерство следопыта
       selection_id: '2.3_2'
@@ -7020,7 +7020,7 @@ profession:
         text: 'Уклонение (Легкая броня): 9ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 41%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '6'
       name: Мастерство следопыта
       selection_id: '2.3_3'
@@ -7043,7 +7043,7 @@ profession:
         text: 'Уклонение (Легкая броня): 10ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 45%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '7'
       name: Мастерство следопыта
       selection_id: '2.3_1'
@@ -7066,7 +7066,7 @@ profession:
         text: 'Уклонение (Легкая броня): 10ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 45%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '7'
       name: Мастерство следопыта
       selection_id: '2.3_2'
@@ -7091,7 +7091,7 @@ profession:
         text: 'Уклонение (Легкая броня): 10ед.'
       - kind: value
         text: 'Снижение урона от оружия (Короткий лук, Длинный лук, Ружье, Арбалет, Варп-Арбалет): 45%'
-      icon: /icon/skill0922.jpg
+      icon: /icon/client-skills/icon.skill0922.png
       level: '7'
       name: Мастерство следопыта
       selection_id: '2.3_3'
@@ -7105,7 +7105,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Средняя дистанция применения, средний
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '1'
       name: Разоружающий прием
       selection_id: '2.4_1'
@@ -7124,7 +7124,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Короткая дистанция применения, быстрый
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '1'
       name: Разоружающий прием
       selection_id: '2.4_2'
@@ -7143,7 +7143,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Большая дистанция применения, долгий
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '1'
       name: Разоружающий прием
       selection_id: '2.4_3'
@@ -7162,7 +7162,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Средняя дистанция применения, средний
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '2'
       name: Разоружающий прием
       selection_id: '2.4_1'
@@ -7181,7 +7181,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Короткая дистанция применения, быстрый
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '2'
       name: Разоружающий прием
       selection_id: '2.4_2'
@@ -7200,7 +7200,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Большая дистанция применения, долгий
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '2'
       name: Разоружающий прием
       selection_id: '2.4_3'
@@ -7219,7 +7219,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Средняя дистанция применения, средний
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '3'
       name: Разоружающий прием
       selection_id: '2.4_1'
@@ -7238,7 +7238,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Короткая дистанция применения, быстрый
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '3'
       name: Разоружающий прием
       selection_id: '2.4_2'
@@ -7257,7 +7257,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Большая дистанция применения, долгий
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '3'
       name: Разоружающий прием
       selection_id: '2.4_3'
@@ -7276,7 +7276,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Средняя дистанция применения, средний
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '4'
       name: Разоружающий прием
       selection_id: '2.4_1'
@@ -7295,7 +7295,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Короткая дистанция применения, быстрый
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '4'
       name: Разоружающий прием
       selection_id: '2.4_2'
@@ -7314,7 +7314,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Большая дистанция применения, долгий
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '4'
       name: Разоружающий прием
       selection_id: '2.4_3'
@@ -7333,7 +7333,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Средняя дистанция применения, средний
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '5'
       name: Разоружающий прием
       selection_id: '2.4_1'
@@ -7352,7 +7352,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Короткая дистанция применения, быстрый
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '5'
       name: Разоружающий прием
       selection_id: '2.4_2'
@@ -7371,7 +7371,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Большая дистанция применения, долгий
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '5'
       name: Разоружающий прием
       selection_id: '2.4_3'
@@ -7390,7 +7390,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Средняя дистанция применения, средний
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '6'
       name: Разоружающий прием
       selection_id: '2.4_1'
@@ -7409,7 +7409,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Короткая дистанция применения, быстрый
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '6'
       name: Разоружающий прием
       selection_id: '2.4_2'
@@ -7428,7 +7428,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Большая дистанция применения, долгий
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '6'
       name: Разоружающий прием
       selection_id: '2.4_3'
@@ -7447,7 +7447,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Средняя дистанция применения, средний
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '7'
       name: Разоружающий прием
       selection_id: '2.4_1'
@@ -7466,7 +7466,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Короткая дистанция применения, быстрый
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '7'
       name: Разоружающий прием
       selection_id: '2.4_2'
@@ -7485,7 +7485,7 @@ profession:
         или магические заклинания на короткий промежуток времени. Большая дистанция применения, долгий
         откат умения.
       effects: []
-      icon: /icon/skill5601.jpg
+      icon: /icon/client-skills/icon.skill5601.png
       level: '7'
       name: Разоружающий прием
       selection_id: '2.4_3'
@@ -8342,7 +8342,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -60ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '1'
       name: Воровство скорости
       selection_id: '2.7_1'
@@ -8362,7 +8362,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -60ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '1'
       name: Воровство скорости
       selection_id: '2.7_2'
@@ -8382,7 +8382,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -60ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '1'
       name: Воровство скорости
       selection_id: '2.7_3'
@@ -8402,7 +8402,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -70ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '2'
       name: Воровство скорости
       selection_id: '2.7_1'
@@ -8422,7 +8422,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -70ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '2'
       name: Воровство скорости
       selection_id: '2.7_2'
@@ -8442,7 +8442,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -70ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '2'
       name: Воровство скорости
       selection_id: '2.7_3'
@@ -8462,7 +8462,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -80ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '3'
       name: Воровство скорости
       selection_id: '2.7_1'
@@ -8482,7 +8482,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -80ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '3'
       name: Воровство скорости
       selection_id: '2.7_2'
@@ -8502,7 +8502,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -80ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '3'
       name: Воровство скорости
       selection_id: '2.7_3'
@@ -8522,7 +8522,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -90ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '4'
       name: Воровство скорости
       selection_id: '2.7_1'
@@ -8542,7 +8542,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -90ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '4'
       name: Воровство скорости
       selection_id: '2.7_2'
@@ -8562,7 +8562,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -90ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '4'
       name: Воровство скорости
       selection_id: '2.7_3'
@@ -8582,7 +8582,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -100ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '5'
       name: Воровство скорости
       selection_id: '2.7_1'
@@ -8602,7 +8602,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -100ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '5'
       name: Воровство скорости
       selection_id: '2.7_2'
@@ -8622,7 +8622,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -100ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '5'
       name: Воровство скорости
       selection_id: '2.7_3'
@@ -8642,7 +8642,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -110ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '6'
       name: Воровство скорости
       selection_id: '2.7_1'
@@ -8662,7 +8662,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -110ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '6'
       name: Воровство скорости
       selection_id: '2.7_2'
@@ -8682,7 +8682,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): -110ед.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '6'
       name: Воровство скорости
       selection_id: '2.7_3'
@@ -8708,7 +8708,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '7'
       name: Воровство скорости
       selection_id: '2.7_1'
@@ -8734,7 +8734,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '7'
       name: Воровство скорости
       selection_id: '2.7_2'
@@ -8760,7 +8760,7 @@ profession:
         text: 'Скорость передвижения (Легкая броня): 20ед.'
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill10527.jpg
+      icon: /icon/client-skills/icon.skill10527.png
       level: '7'
       name: Воровство скорости
       selection_id: '2.7_3'

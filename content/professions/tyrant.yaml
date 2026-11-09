@@ -775,7 +775,7 @@ profession:
       description: Выстрелы в противников, которые находятся рядом с лучником будут выпускать облако замешательства,
         отравляющее и замедляющее противников.
       effects: []
-      icon: /icon/skill6815.jpg
+      icon: /icon/client-skills/icon.skill6815.png
       level: '1'
       name: Облако замешательства
       selection_id: ''
@@ -788,7 +788,7 @@ profession:
       description: Выстрелы в противников, которые находятся рядом с лучником будут выпускать облако замешательства,
         отравляющее и замедляющее противников.
       effects: []
-      icon: /icon/skill6815.jpg
+      icon: /icon/client-skills/icon.skill6815.png
       level: '2'
       name: Облако замешательства
       selection_id: ''
@@ -801,7 +801,7 @@ profession:
       description: Выстрелы в противников, которые находятся рядом с лучником будут выпускать облако замешательства,
         отравляющее и замедляющее противников.
       effects: []
-      icon: /icon/skill6815.jpg
+      icon: /icon/client-skills/icon.skill6815.png
       level: '3'
       name: Облако замешательства
       selection_id: ''
@@ -814,7 +814,7 @@ profession:
       description: Выстрелы в противников, которые находятся рядом с лучником будут выпускать облако замешательства,
         отравляющее и замедляющее противников.
       effects: []
-      icon: /icon/skill6815.jpg
+      icon: /icon/client-skills/icon.skill6815.png
       level: '4'
       name: Облако замешательства
       selection_id: ''
@@ -827,7 +827,7 @@ profession:
       description: Выстрелы в противников, которые находятся рядом с лучником будут выпускать облако замешательства,
         отравляющее и замедляющее противников.
       effects: []
-      icon: /icon/skill6815.jpg
+      icon: /icon/client-skills/icon.skill6815.png
       level: '5'
       name: Облако замешательства
       selection_id: ''
@@ -840,7 +840,7 @@ profession:
       description: Выстрелы в противников, которые находятся рядом с лучником будут выпускать облако замешательства,
         отравляющее и замедляющее противников.
       effects: []
-      icon: /icon/skill6815.jpg
+      icon: /icon/client-skills/icon.skill6815.png
       level: '6'
       name: Облако замешательства
       selection_id: ''
@@ -867,7 +867,7 @@ profession:
         text: 'Время действия: 4 сек.'
       - kind: value
         text: 'Время до повторного использования: 12 сек.'
-      icon: /icon/skill6815.jpg
+      icon: /icon/client-skills/icon.skill6815.png
       level: '7'
       name: Облако замешательства
       selection_id: ''
@@ -880,7 +880,7 @@ profession:
       description: Следующие 4 выстрела нанесут больше физических повреждений, а также нанесут фиксированный
         урон. Сила умения будет увеличена, если Тиран начинает терять жизненные силы.
       effects: []
-      icon: /icon/skill4276_new.jpg
+      icon: /icon/client-skills/icon.skill4276_new.png
       level: '1'
       name: Силовой выстрел
       selection_id: ''
@@ -896,7 +896,7 @@ profession:
       description: Следующие 4 выстрела нанесут больше физических повреждений, а также нанесут фиксированный
         урон. Сила умения будет увеличена, если Тиран начинает терять жизненные силы.
       effects: []
-      icon: /icon/skill4276_new.jpg
+      icon: /icon/client-skills/icon.skill4276_new.png
       level: '2'
       name: Силовой выстрел
       selection_id: ''
@@ -912,7 +912,7 @@ profession:
       description: Следующие 4 выстрела нанесут больше физических повреждений, а также нанесут фиксированный
         урон. Сила умения будет увеличена, если Тиран начинает терять жизненные силы.
       effects: []
-      icon: /icon/skill4276_new.jpg
+      icon: /icon/client-skills/icon.skill4276_new.png
       level: '3'
       name: Силовой выстрел
       selection_id: ''
@@ -928,7 +928,7 @@ profession:
       description: Следующие 4 выстрела нанесут больше физических повреждений, а также нанесут фиксированный
         урон. Сила умения будет увеличена, если Тиран начинает терять жизненные силы.
       effects: []
-      icon: /icon/skill4276_new.jpg
+      icon: /icon/client-skills/icon.skill4276_new.png
       level: '4'
       name: Силовой выстрел
       selection_id: ''
@@ -944,7 +944,7 @@ profession:
       description: Следующие 4 выстрела нанесут больше физических повреждений, а также нанесут фиксированный
         урон. Сила умения будет увеличена, если Тиран начинает терять жизненные силы.
       effects: []
-      icon: /icon/skill4276_new.jpg
+      icon: /icon/client-skills/icon.skill4276_new.png
       level: '5'
       name: Силовой выстрел
       selection_id: ''
@@ -960,7 +960,7 @@ profession:
       description: Следующие 4 выстрела нанесут больше физических повреждений, а также нанесут фиксированный
         урон. Сила умения будет увеличена, если Тиран начинает терять жизненные силы.
       effects: []
-      icon: /icon/skill4276_new.jpg
+      icon: /icon/client-skills/icon.skill4276_new.png
       level: '6'
       name: Силовой выстрел
       selection_id: ''
@@ -988,7 +988,7 @@ profession:
         text: 'Физическая атака (Короткий лук, Длинный лук): 22%'
       - kind: value
         text: 'Фиксированный урон: 2000ед.'
-      icon: /icon/skill4276_new.jpg
+      icon: /icon/client-skills/icon.skill4276_new.png
       level: '7'
       name: Силовой выстрел
       selection_id: ''
@@ -2716,7 +2716,7 @@ profession:
         text: 'Максимум здоровья: 15%'
       - kind: value
         text: 'Максимум здоровья: 5000ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '1'
       name: Здоровье мастера лука
       selection_id: ''
@@ -2732,7 +2732,7 @@ profession:
         text: 'Максимум здоровья: 25%'
       - kind: value
         text: 'Максимум здоровья: 7500ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '2'
       name: Здоровье мастера лука
       selection_id: ''
@@ -2748,7 +2748,7 @@ profession:
         text: 'Максимум здоровья: 40%'
       - kind: value
         text: 'Максимум здоровья: 10000ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '3'
       name: Здоровье мастера лука
       selection_id: ''
@@ -2764,7 +2764,7 @@ profession:
         text: 'Максимум здоровья: 55%'
       - kind: value
         text: 'Максимум здоровья: 10000ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '4'
       name: Здоровье мастера лука
       selection_id: ''
@@ -2780,7 +2780,7 @@ profession:
         text: 'Максимум здоровья: 70%'
       - kind: value
         text: 'Максимум здоровья: 10000ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '5'
       name: Здоровье мастера лука
       selection_id: ''
@@ -2796,7 +2796,7 @@ profession:
         text: 'Максимум здоровья: 85%'
       - kind: value
         text: 'Максимум здоровья: 10000ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '6'
       name: Здоровье мастера лука
       selection_id: ''
@@ -2812,7 +2812,7 @@ profession:
         text: 'Максимум здоровья: 100%'
       - kind: value
         text: 'Максимум здоровья: 10000ед.'
-      icon: /icon/skill0295.jpg
+      icon: /icon/client-skills/icon.skill0295.png
       level: '7'
       name: Здоровье мастера лука
       selection_id: ''
@@ -3855,7 +3855,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '1'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3869,7 +3869,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '2'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3883,7 +3883,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '3'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3897,7 +3897,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '4'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3911,7 +3911,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '5'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3925,7 +3925,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '6'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3939,7 +3939,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '7'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3953,7 +3953,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '8'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3967,7 +3967,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '9'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3981,7 +3981,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '10'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3995,7 +3995,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '11'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4009,7 +4009,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '12'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4023,7 +4023,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '13'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4037,7 +4037,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '14'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4051,7 +4051,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '15'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4065,7 +4065,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '16'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4079,7 +4079,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '17'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4093,7 +4093,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '18'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4107,7 +4107,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '19'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4121,7 +4121,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '20'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4537,7 +4537,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Физическая атака (Все): -99%'
-      icon: /icon/Icon4/s_mass_ensnare.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_mass_ensnare.png
       level: '1'
       name: Подавление
       selection_id: ''
@@ -4570,7 +4570,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '1'
       name: Стрелы боли
       selection_id: '2.1_0'
@@ -4600,7 +4600,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '1'
       name: Стрелы боли
       selection_id: '2.1_1'
@@ -4630,7 +4630,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '1'
       name: Стрелы боли
       selection_id: '2.1_2'
@@ -4660,7 +4660,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '2'
       name: Стрелы боли
       selection_id: '2.1_3'
@@ -4690,7 +4690,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '2'
       name: Стрелы боли
       selection_id: '2.1_4'
@@ -4720,7 +4720,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '2'
       name: Стрелы боли
       selection_id: '2.1_5'
@@ -4750,7 +4750,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '3'
       name: Стрелы боли
       selection_id: '2.1_1'
@@ -4780,7 +4780,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '3'
       name: Стрелы боли
       selection_id: '2.1_2'
@@ -4810,7 +4810,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '3'
       name: Стрелы боли
       selection_id: '2.1_3'
@@ -4840,7 +4840,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '4'
       name: Стрелы боли
       selection_id: '2.1_1'
@@ -4870,7 +4870,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '4'
       name: Стрелы боли
       selection_id: '2.1_2'
@@ -4900,7 +4900,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '4'
       name: Стрелы боли
       selection_id: '2.1_3'
@@ -4930,7 +4930,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '5'
       name: Стрелы боли
       selection_id: '2.1_1'
@@ -4960,7 +4960,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '5'
       name: Стрелы боли
       selection_id: '2.1_2'
@@ -4990,7 +4990,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '5'
       name: Стрелы боли
       selection_id: '2.1_3'
@@ -5020,7 +5020,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '6'
       name: Стрелы боли
       selection_id: '2.1_1'
@@ -5050,7 +5050,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '6'
       name: Стрелы боли
       selection_id: '2.1_2'
@@ -5080,7 +5080,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '6'
       name: Стрелы боли
       selection_id: '2.1_3'
@@ -5110,7 +5110,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '7'
       name: Стрелы боли
       selection_id: '2.1_1'
@@ -5140,7 +5140,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '7'
       name: Стрелы боли
       selection_id: '2.1_2'
@@ -5170,7 +5170,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0987.jpg
+      icon: /icon/client-skills/icon.skill0987.png
       level: '7'
       name: Стрелы боли
       selection_id: '2.1_3'
@@ -6441,7 +6441,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 3ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '1'
       name: Оглушающая стрела
       selection_id: '2.5_1'
@@ -6456,7 +6456,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 3ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '1'
       name: Оглушающая стрела
       selection_id: '2.5_2'
@@ -6468,7 +6468,7 @@ profession:
     - branch: three
       description: Тиран заряжает массивную стрелу, которая оглушит противника при выстреле на 3 секунды.
       effects: []
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '1'
       name: Оглушающая стрела
       selection_id: '2.5_3'
@@ -6487,7 +6487,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 4ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '2'
       name: Оглушающая стрела
       selection_id: '2.5_1'
@@ -6502,7 +6502,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 4ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '2'
       name: Оглушающая стрела
       selection_id: '2.5_2'
@@ -6514,7 +6514,7 @@ profession:
     - branch: three
       description: Тиран заряжает массивную стрелу, которая оглушит противника при выстреле на 3 секунды.
       effects: []
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '2'
       name: Оглушающая стрела
       selection_id: '2.5_3'
@@ -6533,7 +6533,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 5ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '3'
       name: Оглушающая стрела
       selection_id: '2.5_1'
@@ -6548,7 +6548,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 5ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '3'
       name: Оглушающая стрела
       selection_id: '2.5_2'
@@ -6560,7 +6560,7 @@ profession:
     - branch: three
       description: Тиран заряжает массивную стрелу, которая оглушит противника при выстреле на 3 секунды.
       effects: []
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '3'
       name: Оглушающая стрела
       selection_id: '2.5_3'
@@ -6579,7 +6579,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 6ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '4'
       name: Оглушающая стрела
       selection_id: '2.5_1'
@@ -6594,7 +6594,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 6ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '4'
       name: Оглушающая стрела
       selection_id: '2.5_2'
@@ -6606,7 +6606,7 @@ profession:
     - branch: three
       description: Тиран заряжает массивную стрелу, которая оглушит противника при выстреле на 3 секунды.
       effects: []
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '4'
       name: Оглушающая стрела
       selection_id: '2.5_3'
@@ -6625,7 +6625,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 7ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '5'
       name: Оглушающая стрела
       selection_id: '2.5_1'
@@ -6640,7 +6640,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 7ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '5'
       name: Оглушающая стрела
       selection_id: '2.5_2'
@@ -6652,7 +6652,7 @@ profession:
     - branch: three
       description: Тиран заряжает массивную стрелу, которая оглушит противника при выстреле на 3 секунды.
       effects: []
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '5'
       name: Оглушающая стрела
       selection_id: '2.5_3'
@@ -6671,7 +6671,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 8ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '6'
       name: Оглушающая стрела
       selection_id: '2.5_1'
@@ -6686,7 +6686,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 8ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '6'
       name: Оглушающая стрела
       selection_id: '2.5_2'
@@ -6698,7 +6698,7 @@ profession:
     - branch: three
       description: Тиран заряжает массивную стрелу, которая оглушит противника при выстреле на 3 секунды.
       effects: []
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '6'
       name: Оглушающая стрела
       selection_id: '2.5_3'
@@ -6717,7 +6717,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 9ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '7'
       name: Оглушающая стрела
       selection_id: '2.5_1'
@@ -6732,7 +6732,7 @@ profession:
       effects:
       - kind: value
         text: 'Меткость (Короткий лук, Длинный лук): 9ед.'
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '7'
       name: Оглушающая стрела
       selection_id: '2.5_2'
@@ -6744,7 +6744,7 @@ profession:
     - branch: three
       description: Тиран заряжает массивную стрелу, которая оглушит противника при выстреле на 3 секунды.
       effects: []
-      icon: /icon/skill10760.jpg
+      icon: /icon/client-skills/icon.skill10760.png
       level: '7'
       name: Оглушающая стрела
       selection_id: '2.5_3'
@@ -7196,7 +7196,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 6%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '1'
       name: Агония
       selection_id: '2.7_1'
@@ -7211,7 +7211,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 2%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '1'
       name: Агония
       selection_id: '2.7_2'
@@ -7228,7 +7228,7 @@ profession:
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 3%'
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 0.8%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '1'
       name: Агония
       selection_id: '2.7_3'
@@ -7243,7 +7243,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 7%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '2'
       name: Агония
       selection_id: '2.7_1'
@@ -7258,7 +7258,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 3%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '2'
       name: Агония
       selection_id: '2.7_2'
@@ -7275,7 +7275,7 @@ profession:
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 3.5%'
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 1.5%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '2'
       name: Агония
       selection_id: '2.7_3'
@@ -7290,7 +7290,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 8%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '3'
       name: Агония
       selection_id: '2.7_1'
@@ -7305,7 +7305,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 4%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '3'
       name: Агония
       selection_id: '2.7_2'
@@ -7322,7 +7322,7 @@ profession:
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 4%'
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 2.2%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '3'
       name: Агония
       selection_id: '2.7_3'
@@ -7337,7 +7337,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 9%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '4'
       name: Агония
       selection_id: '2.7_1'
@@ -7352,7 +7352,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 5%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '4'
       name: Агония
       selection_id: '2.7_2'
@@ -7369,7 +7369,7 @@ profession:
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 4.5%'
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 2.9%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '4'
       name: Агония
       selection_id: '2.7_3'
@@ -7384,7 +7384,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 10%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '5'
       name: Агония
       selection_id: '2.7_1'
@@ -7399,7 +7399,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 6%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '5'
       name: Агония
       selection_id: '2.7_2'
@@ -7416,7 +7416,7 @@ profession:
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 5%'
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 3.6%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '5'
       name: Агония
       selection_id: '2.7_3'
@@ -7431,7 +7431,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 11%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '6'
       name: Агония
       selection_id: '2.7_1'
@@ -7446,7 +7446,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 7%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '6'
       name: Агония
       selection_id: '2.7_2'
@@ -7463,7 +7463,7 @@ profession:
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 5.5%'
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 4.3%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '6'
       name: Агония
       selection_id: '2.7_3'
@@ -7478,7 +7478,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 12%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '7'
       name: Агония
       selection_id: '2.7_1'
@@ -7493,7 +7493,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 8%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '7'
       name: Агония
       selection_id: '2.7_2'
@@ -7510,7 +7510,7 @@ profession:
         text: 'Сила крит. урона с оружием (Короткий лук, Длинный лук): 6%'
       - kind: value
         text: 'Физическая атака (Короткий лук, Длинный лук): 5%'
-      icon: /icon/skill1452.jpg
+      icon: /icon/client-skills/icon.skill1452.png
       level: '7'
       name: Агония
       selection_id: '2.7_3'

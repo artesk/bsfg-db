@@ -259,7 +259,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -268,7 +268,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -277,7 +277,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 18%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -286,7 +286,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 21%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -295,7 +295,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 24%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -304,7 +304,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 27%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -313,7 +313,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -322,7 +322,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 33%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -331,7 +331,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 36%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -340,7 +340,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 39%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -349,7 +349,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 42%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -358,7 +358,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 43%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -367,7 +367,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 44%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -376,7 +376,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 45%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -385,7 +385,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 46%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -394,7 +394,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 47%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -403,7 +403,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 48%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -412,7 +412,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 49%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -421,7 +421,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 50%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -430,7 +430,7 @@ profession:
     - branch: base
       description: Увеличивает защиту в бою с вражескими игроками магических профессий на 55%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -565,7 +565,7 @@ profession:
     - branch: base
       description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon442.png
       level: '1'
       name: Астролиз
       selection_id: ''
@@ -574,7 +574,7 @@ profession:
     - branch: base
       description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon442.png
       level: '2'
       name: Астролиз
       selection_id: ''
@@ -583,7 +583,7 @@ profession:
     - branch: base
       description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon442.png
       level: '3'
       name: Астролиз
       selection_id: ''
@@ -592,7 +592,7 @@ profession:
     - branch: base
       description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon442.png
       level: '4'
       name: Астролиз
       selection_id: ''
@@ -601,7 +601,7 @@ profession:
     - branch: base
       description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon442.png
       level: '5'
       name: Астролиз
       selection_id: ''
@@ -610,7 +610,7 @@ profession:
     - branch: base
       description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon442.png
       level: '6'
       name: Астролиз
       selection_id: ''
@@ -619,7 +619,7 @@ profession:
     - branch: base
       description: Вы мгновенно наносите урон врагу. Можно использовать 3 умения подряд.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon442.png
       level: '7'
       name: Астролиз
       selection_id: ''
@@ -630,7 +630,7 @@ profession:
         невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 60, скорость атаки и скорость
         чтения заклинаний на 20%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_winter_skin.png
       level: '1'
       name: Горизонт событий
       selection_id: ''
@@ -641,7 +641,7 @@ profession:
         невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 65, скорость атаки и скорость
         чтения заклинаний на 25%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_winter_skin.png
       level: '2'
       name: Горизонт событий
       selection_id: ''
@@ -652,7 +652,7 @@ profession:
         невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 70, скорость атаки и скорость
         чтения заклинаний на 30%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_winter_skin.png
       level: '3'
       name: Горизонт событий
       selection_id: ''
@@ -663,7 +663,7 @@ profession:
         невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 75, скорость атаки и скорость
         чтения заклинаний на 35%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_winter_skin.png
       level: '4'
       name: Горизонт событий
       selection_id: ''
@@ -674,7 +674,7 @@ profession:
         невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 80, скорость атаки и скорость
         чтения заклинаний на 40%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_winter_skin.png
       level: '5'
       name: Горизонт событий
       selection_id: ''
@@ -685,7 +685,7 @@ profession:
         невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 90, скорость атаки и скорость
         чтения заклинаний на 45%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_winter_skin.png
       level: '6'
       name: Горизонт событий
       selection_id: ''
@@ -696,7 +696,7 @@ profession:
         невидимости Вы проклинаете врагов вокруг, снижая их скорость бега на 100, скорость атаки и скорость
         чтения заклинаний на 50%. В невидимости Вы быстро восстанавливаете жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_winter_skin.png
       level: '7'
       name: Горизонт событий
       selection_id: ''
@@ -706,7 +706,7 @@ profession:
       description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
         бою, то враг получит звездный порез.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '1'
       name: Звездный покров
       selection_id: ''
@@ -716,7 +716,7 @@ profession:
       description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
         бою, то враг получит звездный порез.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '2'
       name: Звездный покров
       selection_id: ''
@@ -726,7 +726,7 @@ profession:
       description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
         бою, то враг получит звездный порез.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '3'
       name: Звездный покров
       selection_id: ''
@@ -736,7 +736,7 @@ profession:
       description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
         бою, то враг получит звездный порез.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '4'
       name: Звездный покров
       selection_id: ''
@@ -746,7 +746,7 @@ profession:
       description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
         бою, то враг получит звездный порез.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '5'
       name: Звездный покров
       selection_id: ''
@@ -756,7 +756,7 @@ profession:
       description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
         бою, то враг получит звездный порез.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '6'
       name: Звездный покров
       selection_id: ''
@@ -766,7 +766,7 @@ profession:
       description: Увеличивает защиту от профессий, атакующих на расстоянии. Если Вам нанесут урон в ближнем
         бою, то враг получит звездный порез.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '7'
       name: Звездный покров
       selection_id: ''
@@ -776,7 +776,7 @@ profession:
       description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
         и парализует его.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.relieve_aka_manaf1.png
       level: '1'
       name: Сингулярность
       selection_id: ''
@@ -786,7 +786,7 @@ profession:
       description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
         и парализует его.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.relieve_aka_manaf1.png
       level: '2'
       name: Сингулярность
       selection_id: ''
@@ -796,7 +796,7 @@ profession:
       description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
         и парализует его.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.relieve_aka_manaf1.png
       level: '3'
       name: Сингулярность
       selection_id: ''
@@ -806,7 +806,7 @@ profession:
       description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
         и парализует его.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.relieve_aka_manaf1.png
       level: '4'
       name: Сингулярность
       selection_id: ''
@@ -816,7 +816,7 @@ profession:
       description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
         и парализует его.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.relieve_aka_manaf1.png
       level: '5'
       name: Сингулярность
       selection_id: ''
@@ -826,7 +826,7 @@ profession:
       description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
         и парализует его.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.relieve_aka_manaf1.png
       level: '6'
       name: Сингулярность
       selection_id: ''
@@ -836,7 +836,7 @@ profession:
       description: Вы замедляете противника, после чего наносите ему удар, который нанесет ему повреждения
         и парализует его.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.relieve_aka_manaf1.png
       level: '7'
       name: Сингулярность
       selection_id: ''
@@ -845,7 +845,7 @@ profession:
     - branch: base
       description: Наносит урон противнику.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_mystic_burst_relic.png
       level: '1'
       name: Звездная вспышка
       selection_id: ''
@@ -854,7 +854,7 @@ profession:
     - branch: base
       description: Наносит урон противнику.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_mystic_burst_relic.png
       level: '2'
       name: Звездная вспышка
       selection_id: ''
@@ -863,7 +863,7 @@ profession:
     - branch: base
       description: Наносит урон противнику.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_mystic_burst_relic.png
       level: '3'
       name: Звездная вспышка
       selection_id: ''
@@ -872,7 +872,7 @@ profession:
     - branch: base
       description: Наносит урон противнику.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_mystic_burst_relic.png
       level: '4'
       name: Звездная вспышка
       selection_id: ''
@@ -881,7 +881,7 @@ profession:
     - branch: base
       description: Наносит урон противнику.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_mystic_burst_relic.png
       level: '5'
       name: Звездная вспышка
       selection_id: ''
@@ -890,7 +890,7 @@ profession:
     - branch: base
       description: Наносит урон противнику.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_mystic_burst_relic.png
       level: '6'
       name: Звездная вспышка
       selection_id: ''
@@ -899,7 +899,7 @@ profession:
     - branch: base
       description: Наносит урон противнику.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_mystic_burst_relic.png
       level: '7'
       name: Звездная вспышка
       selection_id: ''
@@ -909,7 +909,7 @@ profession:
       description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
         вспышка* по проклятому врагу, то она нанесет усиленный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_briar_lance.png
       level: '1'
       name: Гравитационная метка
       selection_id: ''
@@ -919,7 +919,7 @@ profession:
       description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
         вспышка* по проклятому врагу, то она нанесет усиленный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_briar_lance.png
       level: '2'
       name: Гравитационная метка
       selection_id: ''
@@ -929,7 +929,7 @@ profession:
       description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
         вспышка* по проклятому врагу, то она нанесет усиленный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_briar_lance.png
       level: '3'
       name: Гравитационная метка
       selection_id: ''
@@ -939,7 +939,7 @@ profession:
       description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
         вспышка* по проклятому врагу, то она нанесет усиленный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_briar_lance.png
       level: '4'
       name: Гравитационная метка
       selection_id: ''
@@ -949,7 +949,7 @@ profession:
       description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
         вспышка* по проклятому врагу, то она нанесет усиленный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_briar_lance.png
       level: '5'
       name: Гравитационная метка
       selection_id: ''
@@ -959,7 +959,7 @@ profession:
       description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
         вспышка* по проклятому врагу, то она нанесет усиленный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_briar_lance.png
       level: '6'
       name: Гравитационная метка
       selection_id: ''
@@ -969,7 +969,7 @@ profession:
       description: Наносит фиксированный урон противнику и проклинает его. Если использовать *Звездная
         вспышка* по проклятому врагу, то она нанесет усиленный урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_briar_lance.png
       level: '7'
       name: Гравитационная метка
       selection_id: ''
@@ -979,7 +979,7 @@ profession:
       description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
         лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob15.png
       level: '1'
       name: Астромания
       selection_id: ''
@@ -989,7 +989,7 @@ profession:
       description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
         лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob15.png
       level: '2'
       name: Астромания
       selection_id: ''
@@ -999,7 +999,7 @@ profession:
       description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
         лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob15.png
       level: '3'
       name: Астромания
       selection_id: ''
@@ -1009,7 +1009,7 @@ profession:
       description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
         лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob15.png
       level: '4'
       name: Астромания
       selection_id: ''
@@ -1019,7 +1019,7 @@ profession:
       description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
         лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob15.png
       level: '5'
       name: Астромания
       selection_id: ''
@@ -1029,7 +1029,7 @@ profession:
       description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
         лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob15.png
       level: '6'
       name: Астромания
       selection_id: ''
@@ -1039,7 +1039,7 @@ profession:
       description: Увеличивает магическую атаку и шанс нанести критический удар. Атакую врага лицом к
         лицу Вы сжигаете его магическую защиту. Атакуя врага в спину Вы наносите звездные разрезы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob15.png
       level: '7'
       name: Астромания
       selection_id: ''
@@ -1049,7 +1049,7 @@ profession:
       description: Увеличивает магическую атаку на 35% и силу критических атак магией на 15%. Вне боя
         Астромант быстро восстанавливает жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_master.png
       level: '1'
       name: Астромант
       selection_id: ''
@@ -1059,7 +1059,7 @@ profession:
       description: Увеличивает магическую атаку на 40% и силу критических атак магией на 17%. Вне боя
         Астромант быстро восстанавливает жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_master.png
       level: '2'
       name: Астромант
       selection_id: ''
@@ -1069,7 +1069,7 @@ profession:
       description: Увеличивает магическую атаку на 45% и силу критических атак магией на 19%. Вне боя
         Астромант быстро восстанавливает жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_master.png
       level: '3'
       name: Астромант
       selection_id: ''
@@ -1079,7 +1079,7 @@ profession:
       description: Увеличивает магическую атаку на 50% и силу критических атак магией на 21%. Вне боя
         Астромант быстро восстанавливает жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_master.png
       level: '4'
       name: Астромант
       selection_id: ''
@@ -1089,7 +1089,7 @@ profession:
       description: Увеличивает магическую атаку на 55% и силу критических атак магией на 23%. Вне боя
         Астромант быстро восстанавливает жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_master.png
       level: '5'
       name: Астромант
       selection_id: ''
@@ -1099,7 +1099,7 @@ profession:
       description: Увеличивает магическую атаку на 60% и силу критических атак магией на 25%. Вне боя
         Астромант быстро восстанавливает жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_master.png
       level: '6'
       name: Астромант
       selection_id: ''
@@ -1109,7 +1109,7 @@ profession:
       description: Увеличивает магическую атаку на 65% и силу критических атак магией на 27%. Вне боя
         Астромант быстро восстанавливает жизненные силы и боевой дух.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_master.png
       level: '7'
       name: Астромант
       selection_id: ''
@@ -1386,7 +1386,7 @@ profession:
     - branch: one
       description: Увеличивает магическую атаку на 9%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '1'
       name: Звездный катализ
       selection_id: ''
@@ -1396,7 +1396,7 @@ profession:
     - branch: one
       description: Увеличивает магическую атаку на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '2'
       name: Звездный катализ
       selection_id: ''
@@ -1406,7 +1406,7 @@ profession:
     - branch: one
       description: Увеличивает магическую атаку на 11%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '3'
       name: Звездный катализ
       selection_id: ''
@@ -1416,7 +1416,7 @@ profession:
     - branch: one
       description: Увеличивает магическую атаку на 12%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '4'
       name: Звездный катализ
       selection_id: ''
@@ -1426,7 +1426,7 @@ profession:
     - branch: one
       description: Увеличивает магическую атаку на 13%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '5'
       name: Звездный катализ
       selection_id: ''
@@ -1436,7 +1436,7 @@ profession:
     - branch: one
       description: Увеличивает магическую атаку на 14%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '6'
       name: Звездный катализ
       selection_id: ''
@@ -1446,7 +1446,7 @@ profession:
     - branch: one
       description: Увеличивает магическую атаку на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '7'
       name: Звездный катализ
       selection_id: ''
@@ -1456,7 +1456,7 @@ profession:
     - branch: two
       description: Увеличивает силу критических атак магией на 7%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '1'
       name: Звездный катализ
       selection_id: ''
@@ -1466,7 +1466,7 @@ profession:
     - branch: two
       description: Увеличивает силу критических атак магией на 7.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '2'
       name: Звездный катализ
       selection_id: ''
@@ -1476,7 +1476,7 @@ profession:
     - branch: two
       description: Увеличивает силу критических атак магией на 8%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '3'
       name: Звездный катализ
       selection_id: ''
@@ -1486,7 +1486,7 @@ profession:
     - branch: two
       description: Увеличивает силу критических атак магией на 8.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '4'
       name: Звездный катализ
       selection_id: ''
@@ -1496,7 +1496,7 @@ profession:
     - branch: two
       description: Увеличивает силу критических атак магией на 9%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '5'
       name: Звездный катализ
       selection_id: ''
@@ -1506,7 +1506,7 @@ profession:
     - branch: two
       description: Увеличивает силу критических атак магией на 9.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '6'
       name: Звездный катализ
       selection_id: ''
@@ -1516,7 +1516,7 @@ profession:
     - branch: two
       description: Увеличивает силу критических атак магией на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '7'
       name: Звездный катализ
       selection_id: ''
@@ -1526,7 +1526,7 @@ profession:
     - branch: three
       description: Увеличивает магическую атаку на 5% и силу критических атак магией на 3%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '1'
       name: Звездный катализ
       selection_id: ''
@@ -1536,7 +1536,7 @@ profession:
     - branch: three
       description: Увеличивает магическую атаку на 5.5% и силу критических атак магией на 3.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '2'
       name: Звездный катализ
       selection_id: ''
@@ -1546,7 +1546,7 @@ profession:
     - branch: three
       description: Увеличивает магическую атаку на 6% и силу критических атак магией на 4%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '3'
       name: Звездный катализ
       selection_id: ''
@@ -1556,7 +1556,7 @@ profession:
     - branch: three
       description: Увеличивает магическую атаку на 6.5% и силу критических атак магией на 4.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '4'
       name: Звездный катализ
       selection_id: ''
@@ -1566,7 +1566,7 @@ profession:
     - branch: three
       description: Увеличивает магическую атаку на 7% и силу критических атак магией на 5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '5'
       name: Звездный катализ
       selection_id: ''
@@ -1576,7 +1576,7 @@ profession:
     - branch: three
       description: Увеличивает магическую атаку на 7.5% и силу критических атак магией на 5.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '6'
       name: Звездный катализ
       selection_id: ''
@@ -1586,7 +1586,7 @@ profession:
     - branch: three
       description: Увеличивает магическую атаку на 8% и силу критических атак магией на 6%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_origin_center_1.png
       level: '7'
       name: Звездный катализ
       selection_id: ''
@@ -1597,7 +1597,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Быстрый откат умения, короткое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '1'
       name: Космический шип
       selection_id: ''
@@ -1608,7 +1608,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Быстрый откат умения, короткое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '2'
       name: Космический шип
       selection_id: ''
@@ -1619,7 +1619,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Быстрый откат умения, короткое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '3'
       name: Космический шип
       selection_id: ''
@@ -1630,7 +1630,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Быстрый откат умения, короткое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '4'
       name: Космический шип
       selection_id: ''
@@ -1641,7 +1641,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Быстрый откат умения, короткое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '5'
       name: Космический шип
       selection_id: ''
@@ -1652,7 +1652,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Быстрый откат умения, короткое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '6'
       name: Космический шип
       selection_id: ''
@@ -1663,7 +1663,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Быстрый откат умения, короткое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '7'
       name: Космический шип
       selection_id: ''
@@ -1674,7 +1674,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Средний откат умения, среднее расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '1'
       name: Космический шип
       selection_id: ''
@@ -1685,7 +1685,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Средний откат умения, среднее расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '2'
       name: Космический шип
       selection_id: ''
@@ -1696,7 +1696,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Средний откат умения, среднее расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '3'
       name: Космический шип
       selection_id: ''
@@ -1707,7 +1707,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Средний откат умения, среднее расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '4'
       name: Космический шип
       selection_id: ''
@@ -1718,7 +1718,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Средний откат умения, среднее расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '5'
       name: Космический шип
       selection_id: ''
@@ -1729,7 +1729,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Средний откат умения, среднее расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '6'
       name: Космический шип
       selection_id: ''
@@ -1740,7 +1740,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Средний откат умения, среднее расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '7'
       name: Космический шип
       selection_id: ''
@@ -1751,7 +1751,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Долгий откат умения, большое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '1'
       name: Космический шип
       selection_id: ''
@@ -1762,7 +1762,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Долгий откат умения, большое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '2'
       name: Космический шип
       selection_id: ''
@@ -1773,7 +1773,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Долгий откат умения, большое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '3'
       name: Космический шип
       selection_id: ''
@@ -1784,7 +1784,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Долгий откат умения, большое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '4'
       name: Космический шип
       selection_id: ''
@@ -1795,7 +1795,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Долгий откат умения, большое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '5'
       name: Космический шип
       selection_id: ''
@@ -1806,7 +1806,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Долгий откат умения, большое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '6'
       name: Космический шип
       selection_id: ''
@@ -1817,7 +1817,7 @@ profession:
       description: Наносит урон магией космоса с большого расстояния и на мгновение парализует врага.
         Долгий откат умения, большое расстояние.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob24.png
       level: '7'
       name: Космический шип
       selection_id: ''
@@ -1828,7 +1828,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         3 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '1'
       name: Квантовый скачок
       selection_id: ''
@@ -1839,7 +1839,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         3 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '2'
       name: Квантовый скачок
       selection_id: ''
@@ -1850,7 +1850,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         3 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '3'
       name: Квантовый скачок
       selection_id: ''
@@ -1861,7 +1861,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         3 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '4'
       name: Квантовый скачок
       selection_id: ''
@@ -1872,7 +1872,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         3 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '5'
       name: Квантовый скачок
       selection_id: ''
@@ -1883,7 +1883,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         3 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '6'
       name: Квантовый скачок
       selection_id: ''
@@ -1894,7 +1894,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         3 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '7'
       name: Квантовый скачок
       selection_id: ''
@@ -1905,7 +1905,7 @@ profession:
       description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
         3 отскока без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '1'
       name: Квантовый скачок
       selection_id: ''
@@ -1916,7 +1916,7 @@ profession:
       description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
         3 отскока без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '2'
       name: Квантовый скачок
       selection_id: ''
@@ -1927,7 +1927,7 @@ profession:
       description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
         3 отскока без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '3'
       name: Квантовый скачок
       selection_id: ''
@@ -1938,7 +1938,7 @@ profession:
       description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
         3 отскока без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '4'
       name: Квантовый скачок
       selection_id: ''
@@ -1949,7 +1949,7 @@ profession:
       description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
         3 отскока без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '5'
       name: Квантовый скачок
       selection_id: ''
@@ -1960,7 +1960,7 @@ profession:
       description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
         3 отскока без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '6'
       name: Квантовый скачок
       selection_id: ''
@@ -1971,7 +1971,7 @@ profession:
       description: Вы совершаете отскок от врага и наносите урон врагам перед собой. Вы можете совершить
         3 отскока без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '7'
       name: Квантовый скачок
       selection_id: ''
@@ -1982,7 +1982,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         2 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '1'
       name: Квантовый скачок
       selection_id: ''
@@ -1993,7 +1993,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         2 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '2'
       name: Квантовый скачок
       selection_id: ''
@@ -2004,7 +2004,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         2 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '3'
       name: Квантовый скачок
       selection_id: ''
@@ -2015,7 +2015,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         2 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '4'
       name: Квантовый скачок
       selection_id: ''
@@ -2026,7 +2026,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         2 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '5'
       name: Квантовый скачок
       selection_id: ''
@@ -2037,7 +2037,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         2 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '6'
       name: Квантовый скачок
       selection_id: ''
@@ -2048,7 +2048,7 @@ profession:
       description: Вы совершаете рывок к противнику и наносите урон врагам позади себя. Вы можете совершить
         2 рывка без задержки. Во время использования Вы неуязвимы.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon.skill_i.skill1504.png
       level: '7'
       name: Квантовый скачок
       selection_id: ''
@@ -2061,7 +2061,7 @@ profession:
         урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
         откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '1'
       name: Плазменный всплеск
       selection_id: ''
@@ -2074,7 +2074,7 @@ profession:
         урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
         откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '2'
       name: Плазменный всплеск
       selection_id: ''
@@ -2087,7 +2087,7 @@ profession:
         урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
         откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '3'
       name: Плазменный всплеск
       selection_id: ''
@@ -2100,7 +2100,7 @@ profession:
         урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
         откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '4'
       name: Плазменный всплеск
       selection_id: ''
@@ -2113,7 +2113,7 @@ profession:
         урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
         откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '5'
       name: Плазменный всплеск
       selection_id: ''
@@ -2126,7 +2126,7 @@ profession:
         урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
         откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '6'
       name: Плазменный всплеск
       selection_id: ''
@@ -2139,7 +2139,7 @@ profession:
         урон в небольшой области и поджигает выживших противников. Короткая дистанция умения, быстрый
         откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '7'
       name: Плазменный всплеск
       selection_id: ''
@@ -2151,7 +2151,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '1'
       name: Плазменный всплеск
       selection_id: ''
@@ -2163,7 +2163,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '2'
       name: Плазменный всплеск
       selection_id: ''
@@ -2175,7 +2175,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '3'
       name: Плазменный всплеск
       selection_id: ''
@@ -2187,7 +2187,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '4'
       name: Плазменный всплеск
       selection_id: ''
@@ -2199,7 +2199,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '5'
       name: Плазменный всплеск
       selection_id: ''
@@ -2211,7 +2211,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '6'
       name: Плазменный всплеск
       selection_id: ''
@@ -2223,7 +2223,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Средняя дистанция умения, средний откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '7'
       name: Плазменный всплеск
       selection_id: ''
@@ -2235,7 +2235,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '1'
       name: Плазменный всплеск
       selection_id: ''
@@ -2247,7 +2247,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '2'
       name: Плазменный всплеск
       selection_id: ''
@@ -2259,7 +2259,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '3'
       name: Плазменный всплеск
       selection_id: ''
@@ -2271,7 +2271,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '4'
       name: Плазменный всплеск
       selection_id: ''
@@ -2283,7 +2283,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '5'
       name: Плазменный всплеск
       selection_id: ''
@@ -2295,7 +2295,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '6'
       name: Плазменный всплеск
       selection_id: ''
@@ -2307,7 +2307,7 @@ profession:
         секунды ядро детонирует, вызывая мощнейший плазменный всплеск, который наносит сильный массовый
         урон в небольшой области и поджигает выживших противников. Большая дистанция умения, долгий откат.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_storm_new.png
       level: '7'
       name: Плазменный всплеск
       selection_id: ''
@@ -2318,7 +2318,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 4% жизенных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '1'
       name: Благословение Ориона
       selection_id: ''
@@ -2329,7 +2329,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 5% жизенных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '2'
       name: Благословение Ориона
       selection_id: ''
@@ -2340,7 +2340,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 6% жизенных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '3'
       name: Благословение Ориона
       selection_id: ''
@@ -2351,7 +2351,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 7% жизенных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '4'
       name: Благословение Ориона
       selection_id: ''
@@ -2362,7 +2362,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 8% жизенных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '5'
       name: Благословение Ориона
       selection_id: ''
@@ -2373,7 +2373,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 9% жизенных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '6'
       name: Благословение Ориона
       selection_id: ''
@@ -2384,7 +2384,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 10% жизенных сил.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '7'
       name: Благословение Ориона
       selection_id: ''
@@ -2395,7 +2395,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 4% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '1'
       name: Благословение Ориона
       selection_id: ''
@@ -2406,7 +2406,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 5% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '2'
       name: Благословение Ориона
       selection_id: ''
@@ -2417,7 +2417,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 6% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '3'
       name: Благословение Ориона
       selection_id: ''
@@ -2428,7 +2428,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 7% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '4'
       name: Благословение Ориона
       selection_id: ''
@@ -2439,7 +2439,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 8% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '5'
       name: Благословение Ориона
       selection_id: ''
@@ -2450,7 +2450,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 9% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '6'
       name: Благословение Ориона
       selection_id: ''
@@ -2461,7 +2461,7 @@ profession:
       description: Вы наносите урон противнику и накладываете усиление на себя и союзников вокруг, при
         котором следующая атака нанесет дополнительный урон и восстановит 10% боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '7'
       name: Благословение Ориона
       selection_id: ''
@@ -2473,7 +2473,7 @@ profession:
         котором следующая атака нанесет дополнительный урон и восстановит по 3% жизненных сил и боевого
         духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '1'
       name: Благословение Ориона
       selection_id: ''
@@ -2485,7 +2485,7 @@ profession:
         котором следующая атака нанесет дополнительный урон и восстановит по 3.5% жизненных сил и боевого
         духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '2'
       name: Благословение Ориона
       selection_id: ''
@@ -2497,7 +2497,7 @@ profession:
         котором следующая атака нанесет дополнительный урон и восстановит по 4% жизненных сил и боевого
         духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '3'
       name: Благословение Ориона
       selection_id: ''
@@ -2509,7 +2509,7 @@ profession:
         котором следующая атака нанесет дополнительный урон и восстановит по 4.5% жизненных сил и боевого
         духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '4'
       name: Благословение Ориона
       selection_id: ''
@@ -2521,7 +2521,7 @@ profession:
         котором следующая атака нанесет дополнительный урон и восстановит по 5% жизненных сил и боевого
         духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '5'
       name: Благословение Ориона
       selection_id: ''
@@ -2533,7 +2533,7 @@ profession:
         котором следующая атака нанесет дополнительный урон и восстановит по 5.5% жизненных сил и боевого
         духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '6'
       name: Благословение Ориона
       selection_id: ''
@@ -2545,7 +2545,7 @@ profession:
         котором следующая атака нанесет дополнительный урон и восстановит по 6% жизненных сил и боевого
         духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_reflect_illusion2.png
       level: '7'
       name: Благословение Ориона
       selection_id: ''
@@ -2556,7 +2556,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 20% и силу критического удара магией на 11%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '1'
       name: Критическая масса
       selection_id: ''
@@ -2567,7 +2567,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 25% и силу критического удара магией на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '2'
       name: Критическая масса
       selection_id: ''
@@ -2578,7 +2578,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 30% и силу критического удара магией на 19%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '3'
       name: Критическая масса
       selection_id: ''
@@ -2589,7 +2589,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 35% и силу критического удара магией на 23%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '4'
       name: Критическая масса
       selection_id: ''
@@ -2600,7 +2600,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 40% и силу критического удара магией на 27%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '5'
       name: Критическая масса
       selection_id: ''
@@ -2611,7 +2611,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 45% и силу критического удара магией на 31%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '6'
       name: Критическая масса
       selection_id: ''
@@ -2622,7 +2622,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 50% и силу критического удара магией на 35%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '7'
       name: Критическая масса
       selection_id: ''
@@ -2633,7 +2633,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 20%, силу критического удара магией на 6% и шанс нанести его на 1%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '1'
       name: Критическая масса
       selection_id: ''
@@ -2644,7 +2644,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 25%, силу критического удара магией на 8% и шанс нанести его на 2%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '2'
       name: Критическая масса
       selection_id: ''
@@ -2655,7 +2655,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 30%, силу критического удара магией на 10% и шанс нанести его на 3%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '3'
       name: Критическая масса
       selection_id: ''
@@ -2666,7 +2666,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 35%, силу критического удара магией на 12% и шанс нанести его на 4%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '4'
       name: Критическая масса
       selection_id: ''
@@ -2677,7 +2677,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 40%, силу критического удара магией на 14% и шанс нанести его на 5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '5'
       name: Критическая масса
       selection_id: ''
@@ -2688,7 +2688,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 45%, силу критического удара магией на 16% и шанс нанести его на 6%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '6'
       name: Критическая масса
       selection_id: ''
@@ -2699,7 +2699,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 50%, силу критического удара магией на 18% и шанс нанести его на 7%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '7'
       name: Критическая масса
       selection_id: ''
@@ -2710,7 +2710,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 20%, скорость чтения заклинаний на 9% и силу критического удара магией на 9%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '1'
       name: Критическая масса
       selection_id: ''
@@ -2721,7 +2721,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 25%, скорость чтения заклинаний на 10% и силу критического удара магией на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '2'
       name: Критическая масса
       selection_id: ''
@@ -2732,7 +2732,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 30%, скорость чтения заклинаний на 11% и силу критического удара магией на 11%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '3'
       name: Критическая масса
       selection_id: ''
@@ -2743,7 +2743,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 35%, скорость чтения заклинаний на 12% и силу критического удара магией на 12%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '4'
       name: Критическая масса
       selection_id: ''
@@ -2754,7 +2754,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 40%, скорость чтения заклинаний на 13% и силу критического удара магией на 13%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '5'
       name: Критическая масса
       selection_id: ''
@@ -2765,7 +2765,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 45%, скорость чтения заклинаний на 14% и силу критического удара магией на 14%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '6'
       name: Критическая масса
       selection_id: ''
@@ -2776,7 +2776,7 @@ profession:
       description: Вы приносите свои жизненные силы в жертву. Взамен Вы увеличите свою магическую атаку
         на 50%, скорость чтения заклинаний на 15% и силу критического удара магией на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
       level: '7'
       name: Критическая масса
       selection_id: ''

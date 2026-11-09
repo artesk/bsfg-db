@@ -418,7 +418,7 @@ categories:
       effects:
       - 'Если здоровье меньше 30%, бонус физической защиты: 16%'
   - name: Быстрые руки
-    icon: /icon/skill6151_1.jpg
+    icon: /icon/client-skills/bsfg.skill6151_1.png
     description: Увеличивает скорость атаки.
     levels:
     - level: 1
@@ -522,7 +522,7 @@ categories:
       effects:
       - 'Снижение фиксированного урона: -15%'
   - name: Финальная защита
-    icon: /icon/skill10017.jpg
+    icon: /icon/client-skills/bsfg.skill10017.png
     description: Увеличивает физическую защиту если здоровье начало стремительно уменьшаться.
     levels:
     - level: 1
@@ -672,7 +672,7 @@ categories:
 - title: Бег
   skills:
   - name: Бег
-    icon: /icon/skill1504.jpg
+    icon: /icon/client-skills/bsfg.skill1504.png
     description: Увеличивает скорость бега.
     levels:
     - level: 1
@@ -706,7 +706,7 @@ categories:
       effects:
       - 'Скорость передвижения (Любая броня): 14ед.'
   - name: Откат
-    icon: /icon/skill1435.jpg
+    icon: /icon/client-skills/bsfg.skill1435.png
     description: Уменьшает откат умений и магии.
     levels:
     - level: 1
@@ -750,7 +750,7 @@ categories:
       - 'Время до повторного использования физических умений: -22%'
       - 'Время до повторного использования магических умений: -22%'
   - name: Уворот
-    icon: /icon/skill0139.jpg
+    icon: /icon/client-skills/bsfg.skill0139.png
     description: Позволяет полностью увернуться от критической атаки противника.
     levels:
     - level: 1
@@ -952,7 +952,7 @@ categories:
       - 'Вампиризм: 12%'
       - 'Магический вампиризм: 10%'
   - name: Здоровье
-    icon: /icon/s66.jpg
+    icon: /icon/client-skills/bsfg.s66.png
     description: Увеличивает запас здоровья.
     levels:
     - level: 1
@@ -991,7 +991,7 @@ categories:
       - 'Максимум здоровья: 7000ед.'
       - 'Максимум здоровья: 6%'
   - name: Регенерация
-    icon: /icon/s67.jpg
+    icon: /icon/client-skills/bsfg.s67.png
     description: Увеличивает регенерацию здоровья.
     levels:
     - level: 1

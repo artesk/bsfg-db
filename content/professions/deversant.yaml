@@ -564,7 +564,7 @@ profession:
         text: 'Сила физического умения: 210'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver2.jpg
+      icon: /icon/client-skills/bsfg.diver2.png
       level: '1'
       name: Хлопушка
       selection_id: ''
@@ -585,7 +585,7 @@ profession:
         text: 'Сила физического умения: 225'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver2.jpg
+      icon: /icon/client-skills/bsfg.diver2.png
       level: '2'
       name: Хлопушка
       selection_id: ''
@@ -606,7 +606,7 @@ profession:
         text: 'Сила физического умения: 240'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver2.jpg
+      icon: /icon/client-skills/bsfg.diver2.png
       level: '3'
       name: Хлопушка
       selection_id: ''
@@ -627,7 +627,7 @@ profession:
         text: 'Сила физического умения: 255'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver2.jpg
+      icon: /icon/client-skills/bsfg.diver2.png
       level: '4'
       name: Хлопушка
       selection_id: ''
@@ -648,7 +648,7 @@ profession:
         text: 'Сила физического умения: 270'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver2.jpg
+      icon: /icon/client-skills/bsfg.diver2.png
       level: '5'
       name: Хлопушка
       selection_id: ''
@@ -669,7 +669,7 @@ profession:
         text: 'Сила физического умения: 285'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver2.jpg
+      icon: /icon/client-skills/bsfg.diver2.png
       level: '6'
       name: Хлопушка
       selection_id: ''
@@ -708,7 +708,7 @@ profession:
         text: 'Сила физического умения: 315'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver2.jpg
+      icon: /icon/client-skills/bsfg.diver2.png
       level: '7'
       name: Хлопушка
       selection_id: ''
@@ -729,7 +729,7 @@ profession:
         text: 'Сила физического умения: 210'
       - kind: value
         text: 'Перемещение от цели на: 170'
-      icon: /icon/diver3.jpg
+      icon: /icon/client-skills/bsfg.diver3.png
       level: '1'
       name: Шахид
       selection_id: ''
@@ -750,7 +750,7 @@ profession:
         text: 'Сила физического умения: 220'
       - kind: value
         text: 'Перемещение от цели на: 175'
-      icon: /icon/diver3.jpg
+      icon: /icon/client-skills/bsfg.diver3.png
       level: '2'
       name: Шахид
       selection_id: ''
@@ -771,7 +771,7 @@ profession:
         text: 'Сила физического умения: 230'
       - kind: value
         text: 'Перемещение от цели на: 180'
-      icon: /icon/diver3.jpg
+      icon: /icon/client-skills/bsfg.diver3.png
       level: '3'
       name: Шахид
       selection_id: ''
@@ -792,7 +792,7 @@ profession:
         text: 'Сила физического умения: 240'
       - kind: value
         text: 'Перемещение от цели на: 185'
-      icon: /icon/diver3.jpg
+      icon: /icon/client-skills/bsfg.diver3.png
       level: '4'
       name: Шахид
       selection_id: ''
@@ -813,7 +813,7 @@ profession:
         text: 'Сила физического умения: 250'
       - kind: value
         text: 'Перемещение от цели на: 190'
-      icon: /icon/diver3.jpg
+      icon: /icon/client-skills/bsfg.diver3.png
       level: '5'
       name: Шахид
       selection_id: ''
@@ -834,7 +834,7 @@ profession:
         text: 'Сила физического умения: 260'
       - kind: value
         text: 'Перемещение от цели на: 195'
-      icon: /icon/diver3.jpg
+      icon: /icon/client-skills/bsfg.diver3.png
       level: '6'
       name: Шахид
       selection_id: ''
@@ -873,7 +873,7 @@ profession:
         text: 'Сила физического умения: 320'
       - kind: value
         text: 'Перемещение от цели на: 250'
-      icon: /icon/diver3.jpg
+      icon: /icon/client-skills/bsfg.diver3.png
       level: '7'
       name: Шахид
       selection_id: ''
@@ -1083,7 +1083,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Ружье): 6%'
-      icon: /icon/diver5.jpg
+      icon: /icon/client-skills/bsfg.diver5.png
       level: '1'
       name: Диверсия
       selection_id: ''
@@ -1103,7 +1103,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Ружье): 7%'
-      icon: /icon/diver5.jpg
+      icon: /icon/client-skills/bsfg.diver5.png
       level: '2'
       name: Диверсия
       selection_id: ''
@@ -1123,7 +1123,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Ружье): 8%'
-      icon: /icon/diver5.jpg
+      icon: /icon/client-skills/bsfg.diver5.png
       level: '3'
       name: Диверсия
       selection_id: ''
@@ -1143,7 +1143,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Ружье): 9%'
-      icon: /icon/diver5.jpg
+      icon: /icon/client-skills/bsfg.diver5.png
       level: '4'
       name: Диверсия
       selection_id: ''
@@ -1163,7 +1163,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Ружье): 10%'
-      icon: /icon/diver5.jpg
+      icon: /icon/client-skills/bsfg.diver5.png
       level: '5'
       name: Диверсия
       selection_id: ''
@@ -1183,7 +1183,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Ружье): 11%'
-      icon: /icon/diver5.jpg
+      icon: /icon/client-skills/bsfg.diver5.png
       level: '6'
       name: Диверсия
       selection_id: ''
@@ -1203,7 +1203,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Ружье): 12%'
-      icon: /icon/diver5.jpg
+      icon: /icon/client-skills/bsfg.diver5.png
       level: '7'
       name: Диверсия
       selection_id: ''
@@ -4119,7 +4119,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '1'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4133,7 +4133,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '2'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4147,7 +4147,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '3'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4161,7 +4161,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '4'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4175,7 +4175,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '5'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4189,7 +4189,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '6'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4203,7 +4203,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '7'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4217,7 +4217,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '8'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4231,7 +4231,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '9'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4245,7 +4245,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '10'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4259,7 +4259,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '11'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4273,7 +4273,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '12'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4287,7 +4287,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '13'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4301,7 +4301,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '14'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4315,7 +4315,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '15'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4329,7 +4329,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '16'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4343,7 +4343,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '17'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4357,7 +4357,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '18'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4371,7 +4371,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '19'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4385,7 +4385,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '20'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4687,7 +4687,7 @@ profession:
         text: 'Магическая защита (Любая броня): 9%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 4%'
-      icon: /icon/skill19203.jpg
+      icon: /icon/client-skills/icon.skill19203.png
       level: '1'
       name: Диверсант
       selection_id: ''
@@ -4709,7 +4709,7 @@ profession:
         text: 'Магическая защита (Любая броня): 10%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 5%'
-      icon: /icon/skill19203.jpg
+      icon: /icon/client-skills/icon.skill19203.png
       level: '2'
       name: Диверсант
       selection_id: ''
@@ -4731,7 +4731,7 @@ profession:
         text: 'Магическая защита (Любая броня): 11%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 6%'
-      icon: /icon/skill19203.jpg
+      icon: /icon/client-skills/icon.skill19203.png
       level: '3'
       name: Диверсант
       selection_id: ''
@@ -4753,7 +4753,7 @@ profession:
         text: 'Магическая защита (Любая броня): 12%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 7%'
-      icon: /icon/skill19203.jpg
+      icon: /icon/client-skills/icon.skill19203.png
       level: '4'
       name: Диверсант
       selection_id: ''
@@ -4775,7 +4775,7 @@ profession:
         text: 'Магическая защита (Любая броня): 13%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 8%'
-      icon: /icon/skill19203.jpg
+      icon: /icon/client-skills/icon.skill19203.png
       level: '5'
       name: Диверсант
       selection_id: ''
@@ -4797,7 +4797,7 @@ profession:
         text: 'Магическая защита (Любая броня): 14%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 9%'
-      icon: /icon/skill19203.jpg
+      icon: /icon/client-skills/icon.skill19203.png
       level: '6'
       name: Диверсант
       selection_id: ''
@@ -4825,7 +4825,7 @@ profession:
         text: 'Магическая защита (Любая броня): 15%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 10%'
-      icon: /icon/skill19203.jpg
+      icon: /icon/client-skills/icon.skill19203.png
       level: '7'
       name: Диверсант
       selection_id: ''
@@ -4841,7 +4841,7 @@ profession:
         text: 'Сила физического умения: 350'
       - kind: value
         text: 'Урон по сооружениям: 10000'
-      icon: /icon/Icon4/skill32048.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill32048.png
       level: '1'
       name: Детонация
       selection_id: ''
@@ -4863,7 +4863,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 10%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '1'
       name: Навык диверсанта
       selection_id: '2.1_0'
@@ -4878,7 +4878,7 @@ profession:
       effects:
       - kind: value
         text: 'Регенерация здоровья: 300ед.'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '1'
       name: Навык диверсанта
       selection_id: '2.1_1'
@@ -4894,7 +4894,7 @@ profession:
         text: 'Физическая защита (Любая броня): 5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 5%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '1'
       name: Навык диверсанта
       selection_id: '2.1_2'
@@ -4908,7 +4908,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 11%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '2'
       name: Навык диверсанта
       selection_id: '2.1_3'
@@ -4923,7 +4923,7 @@ profession:
       effects:
       - kind: value
         text: 'Регенерация здоровья: 325ед.'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '2'
       name: Навык диверсанта
       selection_id: '2.1_4'
@@ -4939,7 +4939,7 @@ profession:
         text: 'Физическая защита (Любая броня): 5.5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 5.5%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '2'
       name: Навык диверсанта
       selection_id: '2.1_5'
@@ -4953,7 +4953,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 12%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '3'
       name: Навык диверсанта
       selection_id: '2.1_1'
@@ -4968,7 +4968,7 @@ profession:
       effects:
       - kind: value
         text: 'Регенерация здоровья: 350ед.'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '3'
       name: Навык диверсанта
       selection_id: '2.1_2'
@@ -4984,7 +4984,7 @@ profession:
         text: 'Физическая защита (Любая броня): 6%'
       - kind: value
         text: 'Магическая защита (Любая броня): 6%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '3'
       name: Навык диверсанта
       selection_id: '2.1_3'
@@ -4998,7 +4998,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 13%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '4'
       name: Навык диверсанта
       selection_id: '2.1_1'
@@ -5013,7 +5013,7 @@ profession:
       effects:
       - kind: value
         text: 'Регенерация здоровья: 375ед.'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '4'
       name: Навык диверсанта
       selection_id: '2.1_2'
@@ -5029,7 +5029,7 @@ profession:
         text: 'Физическая защита (Любая броня): 6.5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 6.5%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '4'
       name: Навык диверсанта
       selection_id: '2.1_3'
@@ -5043,7 +5043,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 14%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '5'
       name: Навык диверсанта
       selection_id: '2.1_1'
@@ -5058,7 +5058,7 @@ profession:
       effects:
       - kind: value
         text: 'Регенерация здоровья: 400ед.'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '5'
       name: Навык диверсанта
       selection_id: '2.1_2'
@@ -5074,7 +5074,7 @@ profession:
         text: 'Физическая защита (Любая броня): 7%'
       - kind: value
         text: 'Магическая защита (Любая броня): 7%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '5'
       name: Навык диверсанта
       selection_id: '2.1_3'
@@ -5088,7 +5088,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 15%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '6'
       name: Навык диверсанта
       selection_id: '2.1_1'
@@ -5103,7 +5103,7 @@ profession:
       effects:
       - kind: value
         text: 'Регенерация здоровья: 425ед.'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '6'
       name: Навык диверсанта
       selection_id: '2.1_2'
@@ -5119,7 +5119,7 @@ profession:
         text: 'Физическая защита (Любая броня): 7.5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 7.5%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '6'
       name: Навык диверсанта
       selection_id: '2.1_3'
@@ -5133,7 +5133,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Легкая броня): 16%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '7'
       name: Навык диверсанта
       selection_id: '2.1_1'
@@ -5148,7 +5148,7 @@ profession:
       effects:
       - kind: value
         text: 'Регенерация здоровья: 450ед.'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '7'
       name: Навык диверсанта
       selection_id: '2.1_2'
@@ -5164,7 +5164,7 @@ profession:
         text: 'Физическая защита (Любая броня): 8%'
       - kind: value
         text: 'Магическая защита (Любая броня): 8%'
-      icon: /icon/diver11.jpg
+      icon: /icon/client-skills/bsfg.diver11.png
       level: '7'
       name: Навык диверсанта
       selection_id: '2.1_3'
@@ -5194,7 +5194,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '1'
       name: Подрыв
       selection_id: '2.2_1'
@@ -5228,7 +5228,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '1'
       name: Подрыв
       selection_id: '2.2_2'
@@ -5262,7 +5262,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '1'
       name: Подрыв
       selection_id: '2.2_3'
@@ -5296,7 +5296,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '2'
       name: Подрыв
       selection_id: '2.2_1'
@@ -5330,7 +5330,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '2'
       name: Подрыв
       selection_id: '2.2_2'
@@ -5364,7 +5364,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '2'
       name: Подрыв
       selection_id: '2.2_3'
@@ -5398,7 +5398,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '3'
       name: Подрыв
       selection_id: '2.2_1'
@@ -5432,7 +5432,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '3'
       name: Подрыв
       selection_id: '2.2_2'
@@ -5466,7 +5466,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '3'
       name: Подрыв
       selection_id: '2.2_3'
@@ -5500,7 +5500,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '4'
       name: Подрыв
       selection_id: '2.2_1'
@@ -5534,7 +5534,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '4'
       name: Подрыв
       selection_id: '2.2_2'
@@ -5568,7 +5568,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '4'
       name: Подрыв
       selection_id: '2.2_3'
@@ -5602,7 +5602,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '5'
       name: Подрыв
       selection_id: '2.2_1'
@@ -5636,7 +5636,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '5'
       name: Подрыв
       selection_id: '2.2_2'
@@ -5670,7 +5670,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '5'
       name: Подрыв
       selection_id: '2.2_3'
@@ -5704,7 +5704,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '6'
       name: Подрыв
       selection_id: '2.2_1'
@@ -5738,7 +5738,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '6'
       name: Подрыв
       selection_id: '2.2_2'
@@ -5772,7 +5772,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '6'
       name: Подрыв
       selection_id: '2.2_3'
@@ -5806,7 +5806,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '7'
       name: Подрыв
       selection_id: '2.2_1'
@@ -5840,7 +5840,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '7'
       name: Подрыв
       selection_id: '2.2_2'
@@ -5874,7 +5874,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Время действия: 20 сек.'
-      icon: /icon/diver7.jpg
+      icon: /icon/client-skills/bsfg.diver7.png
       level: '7'
       name: Подрыв
       selection_id: '2.2_3'
@@ -5896,7 +5896,7 @@ profession:
         text: 'Сила физического умения: 300'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '1'
       name: Бомбардировка
       selection_id: '2.3_1'
@@ -5919,7 +5919,7 @@ profession:
         text: 'Сила физического умения: 265'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '1'
       name: Бомбардировка
       selection_id: '2.3_2'
@@ -5942,7 +5942,7 @@ profession:
         text: 'Сила физического умения: 235'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '1'
       name: Бомбардировка
       selection_id: '2.3_3'
@@ -5965,7 +5965,7 @@ profession:
         text: 'Сила физического умения: 310'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '2'
       name: Бомбардировка
       selection_id: '2.3_1'
@@ -5988,7 +5988,7 @@ profession:
         text: 'Сила физического умения: 275'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '2'
       name: Бомбардировка
       selection_id: '2.3_2'
@@ -6011,7 +6011,7 @@ profession:
         text: 'Сила физического умения: 245'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '2'
       name: Бомбардировка
       selection_id: '2.3_3'
@@ -6034,7 +6034,7 @@ profession:
         text: 'Сила физического умения: 320'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '3'
       name: Бомбардировка
       selection_id: '2.3_1'
@@ -6057,7 +6057,7 @@ profession:
         text: 'Сила физического умения: 285'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '3'
       name: Бомбардировка
       selection_id: '2.3_2'
@@ -6080,7 +6080,7 @@ profession:
         text: 'Сила физического умения: 255'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '3'
       name: Бомбардировка
       selection_id: '2.3_3'
@@ -6103,7 +6103,7 @@ profession:
         text: 'Сила физического умения: 330'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '4'
       name: Бомбардировка
       selection_id: '2.3_1'
@@ -6126,7 +6126,7 @@ profession:
         text: 'Сила физического умения: 295'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '4'
       name: Бомбардировка
       selection_id: '2.3_2'
@@ -6149,7 +6149,7 @@ profession:
         text: 'Сила физического умения: 265'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '4'
       name: Бомбардировка
       selection_id: '2.3_3'
@@ -6172,7 +6172,7 @@ profession:
         text: 'Сила физического умения: 340'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '5'
       name: Бомбардировка
       selection_id: '2.3_1'
@@ -6195,7 +6195,7 @@ profession:
         text: 'Сила физического умения: 305'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '5'
       name: Бомбардировка
       selection_id: '2.3_2'
@@ -6218,7 +6218,7 @@ profession:
         text: 'Сила физического умения: 275'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '5'
       name: Бомбардировка
       selection_id: '2.3_3'
@@ -6241,7 +6241,7 @@ profession:
         text: 'Сила физического умения: 350'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '6'
       name: Бомбардировка
       selection_id: '2.3_1'
@@ -6264,7 +6264,7 @@ profession:
         text: 'Сила физического умения: 315'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '6'
       name: Бомбардировка
       selection_id: '2.3_2'
@@ -6287,7 +6287,7 @@ profession:
         text: 'Сила физического умения: 285'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '6'
       name: Бомбардировка
       selection_id: '2.3_3'
@@ -6318,7 +6318,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '7'
       name: Бомбардировка
       selection_id: '2.3_1'
@@ -6349,7 +6349,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '7'
       name: Бомбардировка
       selection_id: '2.3_2'
@@ -6380,7 +6380,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -80%'
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/diver9.jpg
+      icon: /icon/client-skills/bsfg.diver9.png
       level: '7'
       name: Бомбардировка
       selection_id: '2.3_3'
@@ -6400,7 +6400,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 1ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '1'
       name: Погоня
       selection_id: '2.4_1'
@@ -6415,7 +6415,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 1ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '1'
       name: Погоня
       selection_id: '2.4_2'
@@ -6430,7 +6430,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 1ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '1'
       name: Погоня
       selection_id: '2.4_3'
@@ -6445,7 +6445,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 2ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '2'
       name: Погоня
       selection_id: '2.4_1'
@@ -6460,7 +6460,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 2ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '2'
       name: Погоня
       selection_id: '2.4_2'
@@ -6475,7 +6475,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 2ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '2'
       name: Погоня
       selection_id: '2.4_3'
@@ -6490,7 +6490,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 3ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '3'
       name: Погоня
       selection_id: '2.4_1'
@@ -6505,7 +6505,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 3ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '3'
       name: Погоня
       selection_id: '2.4_2'
@@ -6520,7 +6520,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 3ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '3'
       name: Погоня
       selection_id: '2.4_3'
@@ -6535,7 +6535,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 4ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '4'
       name: Погоня
       selection_id: '2.4_1'
@@ -6550,7 +6550,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 4ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '4'
       name: Погоня
       selection_id: '2.4_2'
@@ -6565,7 +6565,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 4ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '4'
       name: Погоня
       selection_id: '2.4_3'
@@ -6580,7 +6580,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 5ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '5'
       name: Погоня
       selection_id: '2.4_1'
@@ -6595,7 +6595,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 5ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '5'
       name: Погоня
       selection_id: '2.4_2'
@@ -6610,7 +6610,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 5ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '5'
       name: Погоня
       selection_id: '2.4_3'
@@ -6625,7 +6625,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 6ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '6'
       name: Погоня
       selection_id: '2.4_1'
@@ -6640,7 +6640,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 6ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '6'
       name: Погоня
       selection_id: '2.4_2'
@@ -6655,7 +6655,7 @@ profession:
       effects:
       - kind: value
         text: 'Скорость передвижения (Любая броня): 6ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '6'
       name: Погоня
       selection_id: '2.4_3'
@@ -6674,7 +6674,7 @@ profession:
         text: 'Фиксированный урон: 2700ед.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 7ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '7'
       name: Погоня
       selection_id: '2.4_1'
@@ -6699,7 +6699,7 @@ profession:
         text: 'Время действия: 3 сек.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 7ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '7'
       name: Погоня
       selection_id: '2.4_2'
@@ -6720,7 +6720,7 @@ profession:
         text: 'Время действия: 2 сек.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 7ед.'
-      icon: /icon/diver8.jpg
+      icon: /icon/client-skills/bsfg.diver8.png
       level: '7'
       name: Погоня
       selection_id: '2.4_3'
@@ -6741,7 +6741,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '1'
       name: Осадная защита
       selection_id: '2.5_1'
@@ -6764,7 +6764,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '1'
       name: Осадная защита
       selection_id: '2.5_2'
@@ -6787,7 +6787,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '1'
       name: Осадная защита
       selection_id: '2.5_3'
@@ -6812,7 +6812,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '2'
       name: Осадная защита
       selection_id: '2.5_1'
@@ -6835,7 +6835,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '2'
       name: Осадная защита
       selection_id: '2.5_2'
@@ -6858,7 +6858,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '2'
       name: Осадная защита
       selection_id: '2.5_3'
@@ -6883,7 +6883,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '3'
       name: Осадная защита
       selection_id: '2.5_1'
@@ -6906,7 +6906,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '3'
       name: Осадная защита
       selection_id: '2.5_2'
@@ -6929,7 +6929,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '3'
       name: Осадная защита
       selection_id: '2.5_3'
@@ -6954,7 +6954,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '4'
       name: Осадная защита
       selection_id: '2.5_1'
@@ -6977,7 +6977,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '4'
       name: Осадная защита
       selection_id: '2.5_2'
@@ -7000,7 +7000,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '4'
       name: Осадная защита
       selection_id: '2.5_3'
@@ -7025,7 +7025,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '5'
       name: Осадная защита
       selection_id: '2.5_1'
@@ -7048,7 +7048,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '5'
       name: Осадная защита
       selection_id: '2.5_2'
@@ -7071,7 +7071,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '5'
       name: Осадная защита
       selection_id: '2.5_3'
@@ -7096,7 +7096,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '6'
       name: Осадная защита
       selection_id: '2.5_1'
@@ -7119,7 +7119,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '6'
       name: Осадная защита
       selection_id: '2.5_2'
@@ -7142,7 +7142,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '6'
       name: Осадная защита
       selection_id: '2.5_3'
@@ -7167,7 +7167,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '7'
       name: Осадная защита
       selection_id: '2.5_1'
@@ -7190,7 +7190,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '7'
       name: Осадная защита
       selection_id: '2.5_2'
@@ -7213,7 +7213,7 @@ profession:
         text: 'Если рядом больше 10 противников:'
       - kind: value
         text: 'Неуязвимость: 5 сек.'
-      icon: /icon/diver12.jpg
+      icon: /icon/client-skills/bsfg.diver12.png
       level: '7'
       name: Осадная защита
       selection_id: '2.5_3'
@@ -7230,7 +7230,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При повторном использовании взрывчатка будет
         подорвана и оглушит ближних к цели противников на 3 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '1'
       name: Установка цели
       selection_id: '2.6_1'
@@ -7247,7 +7247,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При следующем выстреле взрывчатка будет прикреплена
         к врагу, взорвавшись через 2 секунды она оглушит ближних к цели противников на 4 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '1'
       name: Установка цели
       selection_id: '2.6_2'
@@ -7268,7 +7268,7 @@ profession:
         text: 'При повторном использовании:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '1'
       name: Установка цели
       selection_id: '2.6_3'
@@ -7285,7 +7285,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При повторном использовании взрывчатка будет
         подорвана и оглушит ближних к цели противников на 3 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '2'
       name: Установка цели
       selection_id: '2.6_1'
@@ -7302,7 +7302,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При следующем выстреле взрывчатка будет прикреплена
         к врагу, взорвавшись через 2 секунды она оглушит ближних к цели противников на 4 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '2'
       name: Установка цели
       selection_id: '2.6_2'
@@ -7323,7 +7323,7 @@ profession:
         text: 'При повторном использовании:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '2'
       name: Установка цели
       selection_id: '2.6_3'
@@ -7340,7 +7340,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При повторном использовании взрывчатка будет
         подорвана и оглушит ближних к цели противников на 3 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '3'
       name: Установка цели
       selection_id: '2.6_1'
@@ -7357,7 +7357,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При следующем выстреле взрывчатка будет прикреплена
         к врагу, взорвавшись через 2 секунды она оглушит ближних к цели противников на 4 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '3'
       name: Установка цели
       selection_id: '2.6_2'
@@ -7378,7 +7378,7 @@ profession:
         text: 'При повторном использовании:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '3'
       name: Установка цели
       selection_id: '2.6_3'
@@ -7395,7 +7395,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При повторном использовании взрывчатка будет
         подорвана и оглушит ближних к цели противников на 3 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '4'
       name: Установка цели
       selection_id: '2.6_1'
@@ -7412,7 +7412,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При следующем выстреле взрывчатка будет прикреплена
         к врагу, взорвавшись через 2 секунды она оглушит ближних к цели противников на 4 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '4'
       name: Установка цели
       selection_id: '2.6_2'
@@ -7433,7 +7433,7 @@ profession:
         text: 'При повторном использовании:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '4'
       name: Установка цели
       selection_id: '2.6_3'
@@ -7450,7 +7450,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При повторном использовании взрывчатка будет
         подорвана и оглушит ближних к цели противников на 3 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '5'
       name: Установка цели
       selection_id: '2.6_1'
@@ -7467,7 +7467,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При следующем выстреле взрывчатка будет прикреплена
         к врагу, взорвавшись через 2 секунды она оглушит ближних к цели противников на 4 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '5'
       name: Установка цели
       selection_id: '2.6_2'
@@ -7488,7 +7488,7 @@ profession:
         text: 'При повторном использовании:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '5'
       name: Установка цели
       selection_id: '2.6_3'
@@ -7505,7 +7505,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При повторном использовании взрывчатка будет
         подорвана и оглушит ближних к цели противников на 3 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '6'
       name: Установка цели
       selection_id: '2.6_1'
@@ -7522,7 +7522,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При следующем выстреле взрывчатка будет прикреплена
         к врагу, взорвавшись через 2 секунды она оглушит ближних к цели противников на 4 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '6'
       name: Установка цели
       selection_id: '2.6_2'
@@ -7543,7 +7543,7 @@ profession:
         text: 'При повторном использовании:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '6'
       name: Установка цели
       selection_id: '2.6_3'
@@ -7568,7 +7568,7 @@ profession:
         text: 'Время до повтороного использования: 55 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 30 сек.'
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '7'
       name: Установка цели
       selection_id: '2.6_1'
@@ -7585,7 +7585,7 @@ profession:
       description: Диверсант заряжает патрон со взрывчаткой. При следующем выстреле взрывчатка будет прикреплена
         к врагу, взорвавшись через 2 секунды она оглушит ближних к цели противников на 4 секунды.
       effects: []
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '7'
       name: Установка цели
       selection_id: '2.6_2'
@@ -7606,7 +7606,7 @@ profession:
         text: 'При повторном использовании:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver6.jpg
+      icon: /icon/client-skills/bsfg.diver6.png
       level: '7'
       name: Установка цели
       selection_id: '2.6_3'
@@ -7623,7 +7623,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 1200 фиксированного урона сразу
         нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '1'
       name: Разрывные патроны
       selection_id: '2.7_1'
@@ -7639,7 +7639,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят ожоги, силой 1.8%, сразу нескольким
         противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '1'
       name: Разрывные патроны
       selection_id: '2.7_2'
@@ -7655,7 +7655,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 600 фиксированного урона и ожоги,
         силой 0.4%, сразу нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '1'
       name: Разрывные патроны
       selection_id: '2.7_3'
@@ -7671,7 +7671,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 1500 фиксированного урона сразу
         нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '2'
       name: Разрывные патроны
       selection_id: '2.7_1'
@@ -7687,7 +7687,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят ожоги, силой 2%, сразу нескольким
         противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '2'
       name: Разрывные патроны
       selection_id: '2.7_2'
@@ -7703,7 +7703,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 750 фиксированного урона и ожоги,
         силой 0.5%, сразу нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '2'
       name: Разрывные патроны
       selection_id: '2.7_3'
@@ -7719,7 +7719,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 1800 фиксированного урона сразу
         нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '3'
       name: Разрывные патроны
       selection_id: '2.7_1'
@@ -7735,7 +7735,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят ожоги, силой 2.2%, сразу нескольким
         противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '3'
       name: Разрывные патроны
       selection_id: '2.7_2'
@@ -7751,7 +7751,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 900 фиксированного урона и ожоги,
         силой 0.6%, сразу нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '3'
       name: Разрывные патроны
       selection_id: '2.7_3'
@@ -7767,7 +7767,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 2100 фиксированного урона сразу
         нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '4'
       name: Разрывные патроны
       selection_id: '2.7_1'
@@ -7783,7 +7783,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят ожоги, силой 2.4%, сразу нескольким
         противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '4'
       name: Разрывные патроны
       selection_id: '2.7_2'
@@ -7799,7 +7799,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 1050 фиксированного урона и ожоги,
         силой 0.7%, сразу нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '4'
       name: Разрывные патроны
       selection_id: '2.7_3'
@@ -7815,7 +7815,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 2400 фиксированного урона сразу
         нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '5'
       name: Разрывные патроны
       selection_id: '2.7_1'
@@ -7831,7 +7831,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят ожоги, силой 2.6%, сразу нескольким
         противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '5'
       name: Разрывные патроны
       selection_id: '2.7_2'
@@ -7847,7 +7847,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 1200 фиксированного урона и ожоги,
         силой 0.8%, сразу нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '5'
       name: Разрывные патроны
       selection_id: '2.7_3'
@@ -7863,7 +7863,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 2700 фиксированного урона сразу
         нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '6'
       name: Разрывные патроны
       selection_id: '2.7_1'
@@ -7879,7 +7879,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят ожоги, силой 2.8%, сразу нескольким
         противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '6'
       name: Разрывные патроны
       selection_id: '2.7_2'
@@ -7895,7 +7895,7 @@ profession:
       description: Диверсант использует особые патроны, которые наносят 1350 фиксированного урона и ожоги,
         силой 0.9%, сразу нескольким противникам вокруг цели атаки. Первый разрывной патрон оглушит противника.
       effects: []
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '6'
       name: Разрывные патроны
       selection_id: '2.7_3'
@@ -7915,7 +7915,7 @@ profession:
         text: 'Первый патрон:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '7'
       name: Разрывные патроны
       selection_id: '2.7_1'
@@ -7943,7 +7943,7 @@ profession:
         text: 'Первый патрон:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '7'
       name: Разрывные патроны
       selection_id: '2.7_2'
@@ -7973,7 +7973,7 @@ profession:
         text: 'Первый патрон:'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/diver10.jpg
+      icon: /icon/client-skills/bsfg.diver10.png
       level: '7'
       name: Разрывные патроны
       selection_id: '2.7_3'

@@ -4777,7 +4777,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '1'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4795,7 +4795,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '2'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4813,7 +4813,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '3'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4831,7 +4831,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '4'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4849,7 +4849,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '5'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4867,7 +4867,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '6'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4885,7 +4885,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '7'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4903,7 +4903,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '8'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4921,7 +4921,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '9'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4939,7 +4939,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '10'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4957,7 +4957,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '11'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4975,7 +4975,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '12'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -4993,7 +4993,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '13'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5011,7 +5011,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '14'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5029,7 +5029,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '15'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5047,7 +5047,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '16'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5065,7 +5065,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '17'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5083,7 +5083,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '18'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5101,7 +5101,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '19'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5119,7 +5119,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor9.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '20'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -5575,7 +5575,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 500'
-      icon: /icon/Icon4/fafurion_dual_dagger_i01.jpg
+      icon: /icon/client-skills/icon4.l2icon.fafurion_dual_dagger_i01.png
       level: '1'
       name: Разброс перьев
       selection_id: ''
@@ -5608,7 +5608,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 4%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 1ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '1'
       name: Скорость стрижа
       selection_id: '2.1_0'
@@ -5633,7 +5633,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 2%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 4ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '1'
       name: Скорость стрижа
       selection_id: '2.1_1'
@@ -5656,7 +5656,7 @@ profession:
         text: 'Время действия: 3 сек.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 9ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '1'
       name: Скорость стрижа
       selection_id: '2.1_2'
@@ -5681,7 +5681,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 5%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 2ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '2'
       name: Скорость стрижа
       selection_id: '2.1_3'
@@ -5706,7 +5706,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 2.5%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 5ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '2'
       name: Скорость стрижа
       selection_id: '2.1_4'
@@ -5729,7 +5729,7 @@ profession:
         text: 'Время действия: 3 сек.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 10ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '2'
       name: Скорость стрижа
       selection_id: '2.1_5'
@@ -5754,7 +5754,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 6%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 2ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '3'
       name: Скорость стрижа
       selection_id: '2.1_1'
@@ -5779,7 +5779,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 3%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 6ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '3'
       name: Скорость стрижа
       selection_id: '2.1_2'
@@ -5802,7 +5802,7 @@ profession:
         text: 'Время действия: 3 сек.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 11ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '3'
       name: Скорость стрижа
       selection_id: '2.1_3'
@@ -5827,7 +5827,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 7%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 3ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '4'
       name: Скорость стрижа
       selection_id: '2.1_1'
@@ -5852,7 +5852,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 3.5%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 7ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '4'
       name: Скорость стрижа
       selection_id: '2.1_2'
@@ -5875,7 +5875,7 @@ profession:
         text: 'Время действия: 3 сек.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 12ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '4'
       name: Скорость стрижа
       selection_id: '2.1_3'
@@ -5900,7 +5900,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 8%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 4ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '5'
       name: Скорость стрижа
       selection_id: '2.1_1'
@@ -5925,7 +5925,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 4%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 8ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '5'
       name: Скорость стрижа
       selection_id: '2.1_2'
@@ -5948,7 +5948,7 @@ profession:
         text: 'Время действия: 3 сек.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 13ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '5'
       name: Скорость стрижа
       selection_id: '2.1_3'
@@ -5973,7 +5973,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 9%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 4ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '6'
       name: Скорость стрижа
       selection_id: '2.1_1'
@@ -5998,7 +5998,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 4.5%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 9ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '6'
       name: Скорость стрижа
       selection_id: '2.1_2'
@@ -6021,7 +6021,7 @@ profession:
         text: 'Время действия: 3 сек.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 14ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '6'
       name: Скорость стрижа
       selection_id: '2.1_3'
@@ -6046,7 +6046,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 10%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 5ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '7'
       name: Скорость стрижа
       selection_id: '2.1_1'
@@ -6071,7 +6071,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 5%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 10ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '7'
       name: Скорость стрижа
       selection_id: '2.1_2'
@@ -6094,7 +6094,7 @@ profession:
         text: 'Время действия: 3 сек.'
       - kind: value
         text: 'Скорость передвижения (Любая броня): 15ед.'
-      icon: /icon/skill10504.jpg
+      icon: /icon/client-skills/icon.skill10504.png
       level: '7'
       name: Скорость стрижа
       selection_id: '2.1_3'
@@ -6113,7 +6113,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 1000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '1'
       name: Атака с небес
       selection_id: '2.2_1'
@@ -6137,7 +6137,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 1000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '1'
       name: Атака с небес
       selection_id: '2.2_2'
@@ -6161,7 +6161,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 1000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '1'
       name: Атака с небес
       selection_id: '2.2_3'
@@ -6185,7 +6185,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 1500ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '2'
       name: Атака с небес
       selection_id: '2.2_1'
@@ -6209,7 +6209,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 1500ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '2'
       name: Атака с небес
       selection_id: '2.2_2'
@@ -6233,7 +6233,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 1500ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '2'
       name: Атака с небес
       selection_id: '2.2_3'
@@ -6257,7 +6257,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 2000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '3'
       name: Атака с небес
       selection_id: '2.2_1'
@@ -6281,7 +6281,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 2000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '3'
       name: Атака с небес
       selection_id: '2.2_2'
@@ -6305,7 +6305,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 2000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '3'
       name: Атака с небес
       selection_id: '2.2_3'
@@ -6329,7 +6329,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 2500ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '4'
       name: Атака с небес
       selection_id: '2.2_1'
@@ -6353,7 +6353,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 2500ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '4'
       name: Атака с небес
       selection_id: '2.2_2'
@@ -6377,7 +6377,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 2500ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '4'
       name: Атака с небес
       selection_id: '2.2_3'
@@ -6401,7 +6401,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '5'
       name: Атака с небес
       selection_id: '2.2_1'
@@ -6425,7 +6425,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '5'
       name: Атака с небес
       selection_id: '2.2_2'
@@ -6449,7 +6449,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '5'
       name: Атака с небес
       selection_id: '2.2_3'
@@ -6473,7 +6473,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 3500ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '6'
       name: Атака с небес
       selection_id: '2.2_1'
@@ -6497,7 +6497,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 3500ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '6'
       name: Атака с небес
       selection_id: '2.2_2'
@@ -6521,7 +6521,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 3500ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '6'
       name: Атака с небес
       selection_id: '2.2_3'
@@ -6545,7 +6545,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 4000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '7'
       name: Атака с небес
       selection_id: '2.2_1'
@@ -6569,7 +6569,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 4000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '7'
       name: Атака с небес
       selection_id: '2.2_2'
@@ -6593,7 +6593,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Фиксированный урон: 4000ед.'
-      icon: /icon/skill10781.jpg
+      icon: /icon/client-skills/icon.skill10781.png
       level: '7'
       name: Атака с небес
       selection_id: '2.2_3'
@@ -6623,7 +6623,7 @@ profession:
         text: 'Время до повторного использования: 92 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '1'
       name: Ответная атака
       selection_id: '2.3_1'
@@ -6651,7 +6651,7 @@ profession:
         text: 'Время до повторного использования: 92 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '1'
       name: Ответная атака
       selection_id: '2.3_2'
@@ -6682,7 +6682,7 @@ profession:
         text: 'Время до повторного использования: 92 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '1'
       name: Ответная атака
       selection_id: '2.3_3'
@@ -6710,7 +6710,7 @@ profession:
         text: 'Время до повторного использования: 90 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '2'
       name: Ответная атака
       selection_id: '2.3_1'
@@ -6738,7 +6738,7 @@ profession:
         text: 'Время до повторного использования: 90 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '2'
       name: Ответная атака
       selection_id: '2.3_2'
@@ -6769,7 +6769,7 @@ profession:
         text: 'Время до повторного использования: 90 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '2'
       name: Ответная атака
       selection_id: '2.3_3'
@@ -6797,7 +6797,7 @@ profession:
         text: 'Время до повторного использования: 88 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '3'
       name: Ответная атака
       selection_id: '2.3_1'
@@ -6825,7 +6825,7 @@ profession:
         text: 'Время до повторного использования: 88 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '3'
       name: Ответная атака
       selection_id: '2.3_2'
@@ -6856,7 +6856,7 @@ profession:
         text: 'Время до повторного использования: 88 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '3'
       name: Ответная атака
       selection_id: '2.3_3'
@@ -6884,7 +6884,7 @@ profession:
         text: 'Время до повторного использования: 86 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '4'
       name: Ответная атака
       selection_id: '2.3_1'
@@ -6912,7 +6912,7 @@ profession:
         text: 'Время до повторного использования: 86 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '4'
       name: Ответная атака
       selection_id: '2.3_2'
@@ -6943,7 +6943,7 @@ profession:
         text: 'Время до повторного использования: 86 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '4'
       name: Ответная атака
       selection_id: '2.3_3'
@@ -6971,7 +6971,7 @@ profession:
         text: 'Время до повторного использования: 84 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '5'
       name: Ответная атака
       selection_id: '2.3_1'
@@ -6999,7 +6999,7 @@ profession:
         text: 'Время до повторного использования: 84 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '5'
       name: Ответная атака
       selection_id: '2.3_2'
@@ -7030,7 +7030,7 @@ profession:
         text: 'Время до повторного использования: 84 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '5'
       name: Ответная атака
       selection_id: '2.3_3'
@@ -7058,7 +7058,7 @@ profession:
         text: 'Время до повторного использования: 82 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '6'
       name: Ответная атака
       selection_id: '2.3_1'
@@ -7086,7 +7086,7 @@ profession:
         text: 'Время до повторного использования: 82 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '6'
       name: Ответная атака
       selection_id: '2.3_2'
@@ -7117,7 +7117,7 @@ profession:
         text: 'Время до повторного использования: 82 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '6'
       name: Ответная атака
       selection_id: '2.3_3'
@@ -7145,7 +7145,7 @@ profession:
         text: 'Время до повторного использования: 80 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '7'
       name: Ответная атака
       selection_id: '2.3_1'
@@ -7173,7 +7173,7 @@ profession:
         text: 'Время до повторного использования: 80 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '7'
       name: Ответная атака
       selection_id: '2.3_2'
@@ -7204,7 +7204,7 @@ profession:
         text: 'Время до повторного использования: 80 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 45 сек.'
-      icon: /icon/skill1344.jpg
+      icon: /icon/client-skills/icon.skill1344.png
       level: '7'
       name: Ответная атака
       selection_id: '2.3_3'
@@ -7231,7 +7231,7 @@ profession:
         text: 'Максимум здоровья: 3%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 220ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '1'
       name: Стремление к жизни
       selection_id: '2.4_1'
@@ -7255,7 +7255,7 @@ profession:
         text: 'Максимум здоровья: 3%'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 220ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '1'
       name: Стремление к жизни
       selection_id: '2.4_2'
@@ -7281,7 +7281,7 @@ profession:
         text: 'Регенерация боевого духа (Любая броня): 130ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 130ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '1'
       name: Стремление к жизни
       selection_id: '2.4_3'
@@ -7305,7 +7305,7 @@ profession:
         text: 'Максимум здоровья: 5%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 250ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '2'
       name: Стремление к жизни
       selection_id: '2.4_1'
@@ -7329,7 +7329,7 @@ profession:
         text: 'Максимум здоровья: 5%'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 250ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '2'
       name: Стремление к жизни
       selection_id: '2.4_2'
@@ -7355,7 +7355,7 @@ profession:
         text: 'Регенерация боевого духа (Любая броня): 145ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 145ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '2'
       name: Стремление к жизни
       selection_id: '2.4_3'
@@ -7379,7 +7379,7 @@ profession:
         text: 'Максимум здоровья: 7%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 280ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '3'
       name: Стремление к жизни
       selection_id: '2.4_1'
@@ -7403,7 +7403,7 @@ profession:
         text: 'Максимум здоровья: 7%'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 280ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '3'
       name: Стремление к жизни
       selection_id: '2.4_2'
@@ -7429,7 +7429,7 @@ profession:
         text: 'Регенерация боевого духа (Любая броня): 160ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 160ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '3'
       name: Стремление к жизни
       selection_id: '2.4_3'
@@ -7453,7 +7453,7 @@ profession:
         text: 'Максимум здоровья: 9%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 310ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '4'
       name: Стремление к жизни
       selection_id: '2.4_1'
@@ -7477,7 +7477,7 @@ profession:
         text: 'Максимум здоровья: 9%'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 310ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '4'
       name: Стремление к жизни
       selection_id: '2.4_2'
@@ -7503,7 +7503,7 @@ profession:
         text: 'Регенерация боевого духа (Любая броня): 175ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 175ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '4'
       name: Стремление к жизни
       selection_id: '2.4_3'
@@ -7527,7 +7527,7 @@ profession:
         text: 'Максимум здоровья: 11%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 340ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '5'
       name: Стремление к жизни
       selection_id: '2.4_1'
@@ -7551,7 +7551,7 @@ profession:
         text: 'Максимум здоровья: 11%'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 340ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '5'
       name: Стремление к жизни
       selection_id: '2.4_2'
@@ -7577,7 +7577,7 @@ profession:
         text: 'Регенерация боевого духа (Любая броня): 190ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 190ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '5'
       name: Стремление к жизни
       selection_id: '2.4_3'
@@ -7601,7 +7601,7 @@ profession:
         text: 'Максимум здоровья: 13%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 370ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '6'
       name: Стремление к жизни
       selection_id: '2.4_1'
@@ -7625,7 +7625,7 @@ profession:
         text: 'Максимум здоровья: 13%'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 370ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '6'
       name: Стремление к жизни
       selection_id: '2.4_2'
@@ -7651,7 +7651,7 @@ profession:
         text: 'Регенерация боевого духа (Любая броня): 205ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 205ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '6'
       name: Стремление к жизни
       selection_id: '2.4_3'
@@ -7675,7 +7675,7 @@ profession:
         text: 'Максимум здоровья: 15%'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 400ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '7'
       name: Стремление к жизни
       selection_id: '2.4_1'
@@ -7699,7 +7699,7 @@ profession:
         text: 'Максимум здоровья: 15%'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 400ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '7'
       name: Стремление к жизни
       selection_id: '2.4_2'
@@ -7725,7 +7725,7 @@ profession:
         text: 'Регенерация боевого духа (Любая броня): 220ед.'
       - kind: value
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 220ед.'
-      icon: /icon/skill10318.jpg
+      icon: /icon/client-skills/icon.skill10318.png
       level: '7'
       name: Стремление к жизни
       selection_id: '2.4_3'

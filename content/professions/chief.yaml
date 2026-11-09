@@ -4465,7 +4465,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 8%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '1'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4483,7 +4483,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '2'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4501,7 +4501,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 12%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '3'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4519,7 +4519,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 14%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '4'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4537,7 +4537,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 16%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '5'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4555,7 +4555,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '6'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4573,7 +4573,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '7'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4591,7 +4591,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '8'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4609,7 +4609,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '9'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4627,7 +4627,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '10'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4645,7 +4645,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 26%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '11'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4663,7 +4663,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '12'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4681,7 +4681,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 28%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '13'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4699,7 +4699,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 29%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '14'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4717,7 +4717,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '15'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4735,7 +4735,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 31%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '16'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4753,7 +4753,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 32%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '17'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4771,7 +4771,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '18'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4789,7 +4789,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 34%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '19'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4807,7 +4807,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '20'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5238,7 +5238,7 @@ profession:
         text: 'Физический урон в PVP: 4%'
       - kind: value
         text: 'Сила физических умений в PVP: 4%'
-      icon: /icon/Icon4/hero_stump.jpg
+      icon: /icon/client-skills/icon4.l2icon.hero_stump.png
       level: '1'
       name: Лидерство
       selection_id: ''

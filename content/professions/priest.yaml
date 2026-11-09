@@ -3424,7 +3424,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '1'
       name: Боевая стойка
       selection_id: ''
@@ -3452,7 +3452,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '2'
       name: Боевая стойка
       selection_id: ''
@@ -3480,7 +3480,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '3'
       name: Боевая стойка
       selection_id: ''
@@ -3508,7 +3508,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '4'
       name: Боевая стойка
       selection_id: ''
@@ -3536,7 +3536,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '5'
       name: Боевая стойка
       selection_id: ''
@@ -3564,7 +3564,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '6'
       name: Боевая стойка
       selection_id: ''
@@ -3592,7 +3592,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '7'
       name: Боевая стойка
       selection_id: ''
@@ -3615,7 +3615,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '1'
       name: Стойка поддержки
       selection_id: ''
@@ -3639,7 +3639,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '2'
       name: Стойка поддержки
       selection_id: ''
@@ -3663,7 +3663,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '3'
       name: Стойка поддержки
       selection_id: ''
@@ -3687,7 +3687,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '4'
       name: Стойка поддержки
       selection_id: ''
@@ -3711,7 +3711,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '5'
       name: Стойка поддержки
       selection_id: ''
@@ -3735,7 +3735,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '6'
       name: Стойка поддержки
       selection_id: ''
@@ -3759,7 +3759,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '7'
       name: Стойка поддержки
       selection_id: ''
@@ -3869,7 +3869,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '1'
       name: Туман защиты
       selection_id: ''
@@ -3888,7 +3888,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '2'
       name: Туман защиты
       selection_id: ''
@@ -3907,7 +3907,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '3'
       name: Туман защиты
       selection_id: ''
@@ -3926,7 +3926,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '4'
       name: Туман защиты
       selection_id: ''
@@ -3945,7 +3945,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '5'
       name: Туман защиты
       selection_id: ''
@@ -3964,7 +3964,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '6'
       name: Туман защиты
       selection_id: ''
@@ -3983,7 +3983,7 @@ profession:
       effects:
       - kind: value
         text: 'Получение урона от класса (Любой): -99%'
-      icon: /icon/Icon4/skill11760_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill11760_a.png
       level: '7'
       name: Туман защиты
       selection_id: ''
@@ -4705,7 +4705,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '1'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4723,7 +4723,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '2'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4741,7 +4741,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '3'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4759,7 +4759,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '4'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4777,7 +4777,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '5'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4795,7 +4795,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '6'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4813,7 +4813,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '7'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4831,7 +4831,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '8'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4849,7 +4849,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '9'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4867,7 +4867,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '10'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4885,7 +4885,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '11'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4903,7 +4903,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '12'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4921,7 +4921,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '13'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4939,7 +4939,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '14'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4957,7 +4957,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '15'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4975,7 +4975,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '16'
       name: Доблесть Лекарей
       selection_id: ''
@@ -4993,7 +4993,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '17'
       name: Доблесть Лекарей
       selection_id: ''
@@ -5011,7 +5011,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '18'
       name: Доблесть Лекарей
       selection_id: ''
@@ -5029,7 +5029,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '19'
       name: Доблесть Лекарей
       selection_id: ''
@@ -5047,7 +5047,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor1.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor1.png
       level: '20'
       name: Доблесть Лекарей
       selection_id: ''
@@ -5481,7 +5481,7 @@ profession:
       description: Длань господня позволяет практически полностью заблокировать 3 следующих удара по членам
         Вашей группы.
       effects: []
-      icon: /icon/Icon4/tz_holy_cage1.jpg
+      icon: /icon/client-skills/icon4.l2icon.tz_holy_cage1.png
       level: '1'
       name: Длань господня
       selection_id: ''
@@ -5568,7 +5568,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает эффективность
         лечения и восстановления боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '1'
       name: Святая мудрость
       selection_id: ''
@@ -5578,7 +5578,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает эффективность
         лечения и восстановления боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '2'
       name: Святая мудрость
       selection_id: ''
@@ -5588,7 +5588,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает эффективность
         лечения и восстановления боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '3'
       name: Святая мудрость
       selection_id: ''
@@ -5598,7 +5598,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает эффективность
         лечения и восстановления боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '4'
       name: Святая мудрость
       selection_id: ''
@@ -5608,7 +5608,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает эффективность
         лечения и восстановления боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '5'
       name: Святая мудрость
       selection_id: ''
@@ -5618,7 +5618,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает эффективность
         лечения и восстановления боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '6'
       name: Святая мудрость
       selection_id: ''
@@ -5628,7 +5628,7 @@ profession:
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает эффективность
         лечения и восстановления боевого духа.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio2.png
       level: '7'
       name: Святая мудрость
       selection_id: ''

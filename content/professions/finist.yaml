@@ -3267,7 +3267,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 2%'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '1'
       name: Сила ветров
       selection_id: ''
@@ -3289,7 +3289,7 @@ profession:
         text: 'Шанс крит. атаки магии: 11ед.'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 2.5%'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '2'
       name: Сила ветров
       selection_id: ''
@@ -3311,7 +3311,7 @@ profession:
         text: 'Шанс крит. атаки магии: 12ед.'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 3%'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '3'
       name: Сила ветров
       selection_id: ''
@@ -3333,7 +3333,7 @@ profession:
         text: 'Шанс крит. атаки магии: 13ед.'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 3.5%'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '4'
       name: Сила ветров
       selection_id: ''
@@ -3355,7 +3355,7 @@ profession:
         text: 'Шанс крит. атаки магии: 14ед.'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 4%'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '5'
       name: Сила ветров
       selection_id: ''
@@ -3377,7 +3377,7 @@ profession:
         text: 'Шанс крит. атаки магии: 15ед.'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 4.5%'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '6'
       name: Сила ветров
       selection_id: ''
@@ -3405,7 +3405,7 @@ profession:
         text: 'Шанс крит. атаки магии: 16ед.'
       - kind: value
         text: 'Скорость чтения заклинаний (Любая броня): 5%'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '7'
       name: Сила ветров
       selection_id: ''
@@ -4010,7 +4010,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -4024,7 +4024,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -4038,7 +4038,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -4052,7 +4052,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -4066,7 +4066,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -4080,7 +4080,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -4094,7 +4094,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -4108,7 +4108,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -4122,7 +4122,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -4136,7 +4136,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -4150,7 +4150,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -4164,7 +4164,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -4178,7 +4178,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -4192,7 +4192,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -4206,7 +4206,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -4220,7 +4220,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -4234,7 +4234,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4248,7 +4248,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4262,7 +4262,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4276,7 +4276,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4720,7 +4720,7 @@ profession:
         text: 'Сила магического умения: 1200'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/s_saint_recovery.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
       level: '1'
       name: Циклон
       selection_id: ''
@@ -4740,7 +4740,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 1500 боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '1'
       name: Усыпляющая пыль
       selection_id: '2.1_0'
@@ -4758,7 +4758,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 1150 жизненных сил.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '1'
       name: Усыпляющая пыль
       selection_id: '2.1_1'
@@ -4776,7 +4776,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину по 700 жизненных сил и боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '1'
       name: Усыпляющая пыль
       selection_id: '2.1_2'
@@ -4794,7 +4794,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 1700 боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '2'
       name: Усыпляющая пыль
       selection_id: '2.1_3'
@@ -4812,7 +4812,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 1350 жизненных сил.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '2'
       name: Усыпляющая пыль
       selection_id: '2.1_4'
@@ -4830,7 +4830,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину по 800 жизненных сил и боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '2'
       name: Усыпляющая пыль
       selection_id: '2.1_5'
@@ -4848,7 +4848,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 1900 боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '3'
       name: Усыпляющая пыль
       selection_id: '2.1_1'
@@ -4866,7 +4866,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 1550 жизненных сил.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '3'
       name: Усыпляющая пыль
       selection_id: '2.1_2'
@@ -4884,7 +4884,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину по 900 жизненных сил и боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '3'
       name: Усыпляющая пыль
       selection_id: '2.1_3'
@@ -4902,7 +4902,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 2100 боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '4'
       name: Усыпляющая пыль
       selection_id: '2.1_1'
@@ -4920,7 +4920,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 1750 жизненных сил.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '4'
       name: Усыпляющая пыль
       selection_id: '2.1_2'
@@ -4938,7 +4938,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину по 1000 жизненных сил и боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '4'
       name: Усыпляющая пыль
       selection_id: '2.1_3'
@@ -4956,7 +4956,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 2300 боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '5'
       name: Усыпляющая пыль
       selection_id: '2.1_1'
@@ -4974,7 +4974,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 1950 жизненных сил.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '5'
       name: Усыпляющая пыль
       selection_id: '2.1_2'
@@ -4992,7 +4992,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину по 1100 жизненных сил и боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '5'
       name: Усыпляющая пыль
       selection_id: '2.1_3'
@@ -5010,7 +5010,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 2500 боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '6'
       name: Усыпляющая пыль
       selection_id: '2.1_1'
@@ -5028,7 +5028,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 2150 жизненных сил.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '6'
       name: Усыпляющая пыль
       selection_id: '2.1_2'
@@ -5046,7 +5046,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину по 1200 жизненных сил и боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '6'
       name: Усыпляющая пыль
       selection_id: '2.1_3'
@@ -5064,7 +5064,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 2700 боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '7'
       name: Усыпляющая пыль
       selection_id: '2.1_1'
@@ -5082,7 +5082,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину 2350 жизненных сил.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '7'
       name: Усыпляющая пыль
       selection_id: '2.1_2'
@@ -5100,7 +5100,7 @@ profession:
       description: Финист использует пыль, которая усыпляет противника и дает команду помощнику отменить
         атаку и фиксированно восстановить хозяину по 1300 жизненных сил и боевого духа.
       effects: []
-      icon: /icon/skill0792.jpg
+      icon: /icon/client-skills/icon.skill0792.png
       level: '7'
       name: Усыпляющая пыль
       selection_id: '2.1_3'
@@ -6102,7 +6102,7 @@ profession:
         text: 'Шанс крит. атаки магии: 10ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 10%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '1'
       name: Спасение финиста
       selection_id: '2.4_1'
@@ -6119,7 +6119,7 @@ profession:
       description: Финист превращает своего помощника в камень, делая его неуязвимым на 3 секунды. Сам
         финист также становится неуязвимым на 3 секунды.
       effects: []
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '1'
       name: Спасение финиста
       selection_id: '2.4_2'
@@ -6141,7 +6141,7 @@ profession:
         text: 'Шанс крит. атаки магии: 2ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 4%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '1'
       name: Спасение финиста
       selection_id: '2.4_3'
@@ -6163,7 +6163,7 @@ profession:
         text: 'Шанс крит. атаки магии: 11ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 12%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '2'
       name: Спасение финиста
       selection_id: '2.4_1'
@@ -6180,7 +6180,7 @@ profession:
       description: Финист превращает своего помощника в камень, делая его неуязвимым на 3 секунды. Сам
         финист также становится неуязвимым на 3 секунды.
       effects: []
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '2'
       name: Спасение финиста
       selection_id: '2.4_2'
@@ -6202,7 +6202,7 @@ profession:
         text: 'Шанс крит. атаки магии: 3ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 5%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '2'
       name: Спасение финиста
       selection_id: '2.4_3'
@@ -6224,7 +6224,7 @@ profession:
         text: 'Шанс крит. атаки магии: 12ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 14%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '3'
       name: Спасение финиста
       selection_id: '2.4_1'
@@ -6241,7 +6241,7 @@ profession:
       description: Финист превращает своего помощника в камень, делая его неуязвимым на 3 секунды. Сам
         финист также становится неуязвимым на 3 секунды.
       effects: []
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '3'
       name: Спасение финиста
       selection_id: '2.4_2'
@@ -6263,7 +6263,7 @@ profession:
         text: 'Шанс крит. атаки магии: 4ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 6%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '3'
       name: Спасение финиста
       selection_id: '2.4_3'
@@ -6285,7 +6285,7 @@ profession:
         text: 'Шанс крит. атаки магии: 13ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 16%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '4'
       name: Спасение финиста
       selection_id: '2.4_1'
@@ -6302,7 +6302,7 @@ profession:
       description: Финист превращает своего помощника в камень, делая его неуязвимым на 3 секунды. Сам
         финист также становится неуязвимым на 3 секунды.
       effects: []
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '4'
       name: Спасение финиста
       selection_id: '2.4_2'
@@ -6324,7 +6324,7 @@ profession:
         text: 'Шанс крит. атаки магии: 5ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 7%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '4'
       name: Спасение финиста
       selection_id: '2.4_3'
@@ -6346,7 +6346,7 @@ profession:
         text: 'Шанс крит. атаки магии: 14ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 18%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '5'
       name: Спасение финиста
       selection_id: '2.4_1'
@@ -6363,7 +6363,7 @@ profession:
       description: Финист превращает своего помощника в камень, делая его неуязвимым на 3 секунды. Сам
         финист также становится неуязвимым на 3 секунды.
       effects: []
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '5'
       name: Спасение финиста
       selection_id: '2.4_2'
@@ -6385,7 +6385,7 @@ profession:
         text: 'Шанс крит. атаки магии: 6ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 8%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '5'
       name: Спасение финиста
       selection_id: '2.4_3'
@@ -6407,7 +6407,7 @@ profession:
         text: 'Шанс крит. атаки магии: 15ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 20%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '6'
       name: Спасение финиста
       selection_id: '2.4_1'
@@ -6424,7 +6424,7 @@ profession:
       description: Финист превращает своего помощника в камень, делая его неуязвимым на 3 секунды. Сам
         финист также становится неуязвимым на 3 секунды.
       effects: []
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '6'
       name: Спасение финиста
       selection_id: '2.4_2'
@@ -6446,7 +6446,7 @@ profession:
         text: 'Шанс крит. атаки магии: 7ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 9%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '6'
       name: Спасение финиста
       selection_id: '2.4_3'
@@ -6468,7 +6468,7 @@ profession:
         text: 'Шанс крит. атаки магии: 16ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 21%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '7'
       name: Спасение финиста
       selection_id: '2.4_1'
@@ -6485,7 +6485,7 @@ profession:
       description: Финист превращает своего помощника в камень, делая его неуязвимым на 3 секунды. Сам
         финист также становится неуязвимым на 3 секунды.
       effects: []
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '7'
       name: Спасение финиста
       selection_id: '2.4_2'
@@ -6507,7 +6507,7 @@ profession:
         text: 'Шанс крит. атаки магии: 8ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 10%'
-      icon: /icon/skill1355.jpg
+      icon: /icon/client-skills/icon.skill1355.png
       level: '7'
       name: Спасение финиста
       selection_id: '2.4_3'
@@ -6527,7 +6527,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '1'
       name: Поступь ветра
       selection_id: '2.5_1'
@@ -6546,7 +6546,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '1'
       name: Поступь ветра
       selection_id: '2.5_2'
@@ -6566,7 +6566,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '1'
       name: Поступь ветра
       selection_id: '2.5_3'
@@ -6585,7 +6585,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '2'
       name: Поступь ветра
       selection_id: '2.5_1'
@@ -6604,7 +6604,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '2'
       name: Поступь ветра
       selection_id: '2.5_2'
@@ -6624,7 +6624,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '2'
       name: Поступь ветра
       selection_id: '2.5_3'
@@ -6643,7 +6643,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '3'
       name: Поступь ветра
       selection_id: '2.5_1'
@@ -6662,7 +6662,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '3'
       name: Поступь ветра
       selection_id: '2.5_2'
@@ -6682,7 +6682,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '3'
       name: Поступь ветра
       selection_id: '2.5_3'
@@ -6701,7 +6701,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '4'
       name: Поступь ветра
       selection_id: '2.5_1'
@@ -6720,7 +6720,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '4'
       name: Поступь ветра
       selection_id: '2.5_2'
@@ -6740,7 +6740,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '4'
       name: Поступь ветра
       selection_id: '2.5_3'
@@ -6759,7 +6759,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '5'
       name: Поступь ветра
       selection_id: '2.5_1'
@@ -6778,7 +6778,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '5'
       name: Поступь ветра
       selection_id: '2.5_2'
@@ -6798,7 +6798,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '5'
       name: Поступь ветра
       selection_id: '2.5_3'
@@ -6817,7 +6817,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '6'
       name: Поступь ветра
       selection_id: '2.5_1'
@@ -6836,7 +6836,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '6'
       name: Поступь ветра
       selection_id: '2.5_2'
@@ -6856,7 +6856,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение к цели на расстояние до нее: -500'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '6'
       name: Поступь ветра
       selection_id: '2.5_3'
@@ -6883,7 +6883,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '7'
       name: Поступь ветра
       selection_id: '2.5_1'
@@ -6912,7 +6912,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '7'
       name: Поступь ветра
       selection_id: '2.5_2'
@@ -6944,7 +6944,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill1204.jpg
+      icon: /icon/client-skills/icon.skill1204.png
       level: '7'
       name: Поступь ветра
       selection_id: '2.5_3'
@@ -6960,7 +6960,7 @@ profession:
     - branch: one
       description: Призыв помощника финиста на помощь. Помощник атакует противников магическими ударами.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '1'
       name: Призыв финиста
       selection_id: '2.6_1'
@@ -6975,7 +6975,7 @@ profession:
     - branch: two
       description: Призыв помощника финиста на помощь. Помощник наносит ожоги противникам.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '1'
       name: Призыв финиста
       selection_id: '2.6_2'
@@ -6993,7 +6993,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 3%'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '1'
       name: Призыв финиста
       selection_id: '2.6_3'
@@ -7009,7 +7009,7 @@ profession:
     - branch: one
       description: Призыв помощника финиста на помощь. Помощник атакует противников магическими ударами.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '2'
       name: Призыв финиста
       selection_id: '2.6_1'
@@ -7024,7 +7024,7 @@ profession:
     - branch: two
       description: Призыв помощника финиста на помощь. Помощник наносит ожоги противникам.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '2'
       name: Призыв финиста
       selection_id: '2.6_2'
@@ -7042,7 +7042,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 3.5%'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '2'
       name: Призыв финиста
       selection_id: '2.6_3'
@@ -7058,7 +7058,7 @@ profession:
     - branch: one
       description: Призыв помощника финиста на помощь. Помощник атакует противников магическими ударами.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '3'
       name: Призыв финиста
       selection_id: '2.6_1'
@@ -7073,7 +7073,7 @@ profession:
     - branch: two
       description: Призыв помощника финиста на помощь. Помощник наносит ожоги противникам.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '3'
       name: Призыв финиста
       selection_id: '2.6_2'
@@ -7091,7 +7091,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 4%'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '3'
       name: Призыв финиста
       selection_id: '2.6_3'
@@ -7107,7 +7107,7 @@ profession:
     - branch: one
       description: Призыв помощника финиста на помощь. Помощник атакует противников магическими ударами.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '4'
       name: Призыв финиста
       selection_id: '2.6_1'
@@ -7122,7 +7122,7 @@ profession:
     - branch: two
       description: Призыв помощника финиста на помощь. Помощник наносит ожоги противникам.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '4'
       name: Призыв финиста
       selection_id: '2.6_2'
@@ -7140,7 +7140,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 4.5%'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '4'
       name: Призыв финиста
       selection_id: '2.6_3'
@@ -7156,7 +7156,7 @@ profession:
     - branch: one
       description: Призыв помощника финиста на помощь. Помощник атакует противников магическими ударами.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '5'
       name: Призыв финиста
       selection_id: '2.6_1'
@@ -7171,7 +7171,7 @@ profession:
     - branch: two
       description: Призыв помощника финиста на помощь. Помощник наносит ожоги противникам.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '5'
       name: Призыв финиста
       selection_id: '2.6_2'
@@ -7189,7 +7189,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 5%'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '5'
       name: Призыв финиста
       selection_id: '2.6_3'
@@ -7205,7 +7205,7 @@ profession:
     - branch: one
       description: Призыв помощника финиста на помощь. Помощник атакует противников магическими ударами.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '6'
       name: Призыв финиста
       selection_id: '2.6_1'
@@ -7220,7 +7220,7 @@ profession:
     - branch: two
       description: Призыв помощника финиста на помощь. Помощник наносит ожоги противникам.
       effects: []
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '6'
       name: Призыв финиста
       selection_id: '2.6_2'
@@ -7238,7 +7238,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака (Любая броня): 5.5%'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '6'
       name: Призыв финиста
       selection_id: '2.6_3'
@@ -7256,7 +7256,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая атака существа: 300'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '7'
       name: Призыв финиста
       selection_id: '2.6_1'
@@ -7279,7 +7279,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '7'
       name: Призыв финиста
       selection_id: '2.6_2'
@@ -7303,7 +7303,7 @@ profession:
         text: 'Время действия: 3 сек.'
       - kind: value
         text: 'Магическая атака (Любая броня): 6%'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '7'
       name: Призыв финиста
       selection_id: '2.6_3'

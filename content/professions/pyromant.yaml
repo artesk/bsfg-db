@@ -2211,7 +2211,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/skill1230.jpg
+      icon: /icon/client-skills/icon.skill1230.png
       level: '1'
       name: Огненное проклятие
       selection_id: ''
@@ -2231,7 +2231,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1500ед.'
-      icon: /icon/skill1230.jpg
+      icon: /icon/client-skills/icon.skill1230.png
       level: '2'
       name: Огненное проклятие
       selection_id: ''
@@ -2251,7 +2251,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1800ед.'
-      icon: /icon/skill1230.jpg
+      icon: /icon/client-skills/icon.skill1230.png
       level: '3'
       name: Огненное проклятие
       selection_id: ''
@@ -2271,7 +2271,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2100ед.'
-      icon: /icon/skill1230.jpg
+      icon: /icon/client-skills/icon.skill1230.png
       level: '4'
       name: Огненное проклятие
       selection_id: ''
@@ -2291,7 +2291,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2400ед.'
-      icon: /icon/skill1230.jpg
+      icon: /icon/client-skills/icon.skill1230.png
       level: '5'
       name: Огненное проклятие
       selection_id: ''
@@ -2311,7 +2311,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2700ед.'
-      icon: /icon/skill1230.jpg
+      icon: /icon/client-skills/icon.skill1230.png
       level: '6'
       name: Огненное проклятие
       selection_id: ''
@@ -2331,7 +2331,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill1230.jpg
+      icon: /icon/client-skills/icon.skill1230.png
       level: '7'
       name: Огненное проклятие
       selection_id: ''
@@ -2353,7 +2353,7 @@ profession:
         text: 'Магическая атака (Любая броня): 40%'
       - kind: value
         text: 'Шанс крит. атаки магии: 4ед.'
-      icon: /icon/skill0771.jpg
+      icon: /icon/client-skills/icon.skill0771.png
       level: '1'
       name: Пиромания
       selection_id: ''
@@ -2370,7 +2370,7 @@ profession:
         text: 'Магическая атака (Любая броня): 50%'
       - kind: value
         text: 'Шанс крит. атаки магии: 5ед.'
-      icon: /icon/skill0771.jpg
+      icon: /icon/client-skills/icon.skill0771.png
       level: '2'
       name: Пиромания
       selection_id: ''
@@ -2387,7 +2387,7 @@ profession:
         text: 'Магическая атака (Любая броня): 60%'
       - kind: value
         text: 'Шанс крит. атаки магии: 6ед.'
-      icon: /icon/skill0771.jpg
+      icon: /icon/client-skills/icon.skill0771.png
       level: '3'
       name: Пиромания
       selection_id: ''
@@ -2404,7 +2404,7 @@ profession:
         text: 'Магическая атака (Любая броня): 70%'
       - kind: value
         text: 'Шанс крит. атаки магии: 7ед.'
-      icon: /icon/skill0771.jpg
+      icon: /icon/client-skills/icon.skill0771.png
       level: '4'
       name: Пиромания
       selection_id: ''
@@ -2421,7 +2421,7 @@ profession:
         text: 'Магическая атака (Любая броня): 80%'
       - kind: value
         text: 'Шанс крит. атаки магии: 8ед.'
-      icon: /icon/skill0771.jpg
+      icon: /icon/client-skills/icon.skill0771.png
       level: '5'
       name: Пиромания
       selection_id: ''
@@ -2438,7 +2438,7 @@ profession:
         text: 'Магическая атака (Любая броня): 90%'
       - kind: value
         text: 'Шанс крит. атаки магии: 9ед.'
-      icon: /icon/skill0771.jpg
+      icon: /icon/client-skills/icon.skill0771.png
       level: '6'
       name: Пиромания
       selection_id: ''
@@ -2455,7 +2455,7 @@ profession:
         text: 'Магическая атака (Любая броня): 100%'
       - kind: value
         text: 'Шанс крит. атаки магии: 10ед.'
-      icon: /icon/skill0771.jpg
+      icon: /icon/client-skills/icon.skill0771.png
       level: '7'
       name: Пиромания
       selection_id: ''
@@ -2852,7 +2852,7 @@ profession:
         text: 'Сила магического умения: 150'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '1'
       name: Подобно фениксу
       selection_id: ''
@@ -2882,7 +2882,7 @@ profession:
         text: 'Сила магического умения: 250'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '2'
       name: Подобно фениксу
       selection_id: ''
@@ -2912,7 +2912,7 @@ profession:
         text: 'Сила магического умения: 375'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '3'
       name: Подобно фениксу
       selection_id: ''
@@ -2942,7 +2942,7 @@ profession:
         text: 'Сила магического умения: 465'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '4'
       name: Подобно фениксу
       selection_id: ''
@@ -2972,7 +2972,7 @@ profession:
         text: 'Сила магического умения: 565'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '5'
       name: Подобно фениксу
       selection_id: ''
@@ -3002,7 +3002,7 @@ profession:
         text: 'Сила магического умения: 660'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '6'
       name: Подобно фениксу
       selection_id: ''
@@ -3032,7 +3032,7 @@ profession:
         text: 'Сила магического умения: 750'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill0438.jpg
+      icon: /icon/client-skills/icon.skill0438.png
       level: '7'
       name: Подобно фениксу
       selection_id: ''
@@ -3069,7 +3069,7 @@ profession:
         text: 'Получение урона от класса (Чародеи): -4%'
       - kind: value
         text: 'Получение урона от класса (Менталисты): -4%'
-      icon: /icon/skill0536.jpg
+      icon: /icon/client-skills/icon.skill0536.png
       level: '1'
       name: Огненный покров
       selection_id: ''
@@ -3102,7 +3102,7 @@ profession:
         text: 'Получение урона от класса (Чародеи): -5%'
       - kind: value
         text: 'Получение урона от класса (Менталисты): -5%'
-      icon: /icon/skill0536.jpg
+      icon: /icon/client-skills/icon.skill0536.png
       level: '2'
       name: Огненный покров
       selection_id: ''
@@ -3135,7 +3135,7 @@ profession:
         text: 'Получение урона от класса (Чародеи): -6%'
       - kind: value
         text: 'Получение урона от класса (Менталисты): -6%'
-      icon: /icon/skill0536.jpg
+      icon: /icon/client-skills/icon.skill0536.png
       level: '3'
       name: Огненный покров
       selection_id: ''
@@ -3168,7 +3168,7 @@ profession:
         text: 'Получение урона от класса (Чародеи): -7%'
       - kind: value
         text: 'Получение урона от класса (Менталисты): -7%'
-      icon: /icon/skill0536.jpg
+      icon: /icon/client-skills/icon.skill0536.png
       level: '4'
       name: Огненный покров
       selection_id: ''
@@ -3201,7 +3201,7 @@ profession:
         text: 'Получение урона от класса (Чародеи): -8%'
       - kind: value
         text: 'Получение урона от класса (Менталисты): -8%'
-      icon: /icon/skill0536.jpg
+      icon: /icon/client-skills/icon.skill0536.png
       level: '5'
       name: Огненный покров
       selection_id: ''
@@ -3234,7 +3234,7 @@ profession:
         text: 'Получение урона от класса (Чародеи): -9%'
       - kind: value
         text: 'Получение урона от класса (Менталисты): -9%'
-      icon: /icon/skill0536.jpg
+      icon: /icon/client-skills/icon.skill0536.png
       level: '6'
       name: Огненный покров
       selection_id: ''
@@ -3267,7 +3267,7 @@ profession:
         text: 'Получение урона от класса (Чародеи): -10%'
       - kind: value
         text: 'Получение урона от класса (Менталисты): -10%'
-      icon: /icon/skill0536.jpg
+      icon: /icon/client-skills/icon.skill0536.png
       level: '7'
       name: Огненный покров
       selection_id: ''
@@ -3963,7 +3963,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -3977,7 +3977,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -3991,7 +3991,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -4005,7 +4005,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -4019,7 +4019,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -4033,7 +4033,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -4047,7 +4047,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -4061,7 +4061,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -4075,7 +4075,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -4089,7 +4089,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -4103,7 +4103,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -4117,7 +4117,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -4131,7 +4131,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -4145,7 +4145,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -4159,7 +4159,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -4173,7 +4173,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -4187,7 +4187,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4201,7 +4201,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4215,7 +4215,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4229,7 +4229,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4534,7 +4534,7 @@ profession:
         text: 'Магическая атака (Любая броня): 35%'
       - kind: value
         text: 'Сила крит. атаки магии: 15%'
-      icon: /icon/dark_kain.jpg
+      icon: /icon/client-skills/icon.dark_kain.png
       level: '1'
       name: Пиромант
       selection_id: ''
@@ -4559,7 +4559,7 @@ profession:
         text: 'Магическая атака (Любая броня): 40%'
       - kind: value
         text: 'Сила крит. атаки магии: 17%'
-      icon: /icon/dark_kain.jpg
+      icon: /icon/client-skills/icon.dark_kain.png
       level: '2'
       name: Пиромант
       selection_id: ''
@@ -4584,7 +4584,7 @@ profession:
         text: 'Магическая атака (Любая броня): 45%'
       - kind: value
         text: 'Сила крит. атаки магии: 19%'
-      icon: /icon/dark_kain.jpg
+      icon: /icon/client-skills/icon.dark_kain.png
       level: '3'
       name: Пиромант
       selection_id: ''
@@ -4609,7 +4609,7 @@ profession:
         text: 'Магическая атака (Любая броня): 50%'
       - kind: value
         text: 'Сила крит. атаки магии: 21%'
-      icon: /icon/dark_kain.jpg
+      icon: /icon/client-skills/icon.dark_kain.png
       level: '4'
       name: Пиромант
       selection_id: ''
@@ -4634,7 +4634,7 @@ profession:
         text: 'Магическая атака (Любая броня): 55%'
       - kind: value
         text: 'Сила крит. атаки магии: 23%'
-      icon: /icon/dark_kain.jpg
+      icon: /icon/client-skills/icon.dark_kain.png
       level: '5'
       name: Пиромант
       selection_id: ''
@@ -4659,7 +4659,7 @@ profession:
         text: 'Магическая атака (Любая броня): 60%'
       - kind: value
         text: 'Сила крит. атаки магии: 25%'
-      icon: /icon/dark_kain.jpg
+      icon: /icon/client-skills/icon.dark_kain.png
       level: '6'
       name: Пиромант
       selection_id: ''
@@ -4684,7 +4684,7 @@ profession:
         text: 'Магическая атака (Любая броня): 55%'
       - kind: value
         text: 'Сила крит. атаки магии: 27%'
-      icon: /icon/dark_kain.jpg
+      icon: /icon/client-skills/icon.dark_kain.png
       level: '7'
       name: Пиромант
       selection_id: ''
@@ -4701,7 +4701,7 @@ profession:
         text: 'Сила магического умения: 1300'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/flame_blast2.jpg
+      icon: /icon/client-skills/icon4.l2icon.flame_blast2.png
       level: '1'
       name: Власть огня
       selection_id: ''
@@ -5208,7 +5208,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 150'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '1'
       name: Пламенные стопы
       selection_id: '2.2_1'
@@ -5229,7 +5229,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 150'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '1'
       name: Пламенные стопы
       selection_id: '2.2_2'
@@ -5250,7 +5250,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 150'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '1'
       name: Пламенные стопы
       selection_id: '2.2_3'
@@ -5271,7 +5271,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '2'
       name: Пламенные стопы
       selection_id: '2.2_1'
@@ -5292,7 +5292,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '2'
       name: Пламенные стопы
       selection_id: '2.2_2'
@@ -5313,7 +5313,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '2'
       name: Пламенные стопы
       selection_id: '2.2_3'
@@ -5334,7 +5334,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 375'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '3'
       name: Пламенные стопы
       selection_id: '2.2_1'
@@ -5355,7 +5355,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 375'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '3'
       name: Пламенные стопы
       selection_id: '2.2_2'
@@ -5376,7 +5376,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 375'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '3'
       name: Пламенные стопы
       selection_id: '2.2_3'
@@ -5397,7 +5397,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 465'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '4'
       name: Пламенные стопы
       selection_id: '2.2_1'
@@ -5418,7 +5418,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 465'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '4'
       name: Пламенные стопы
       selection_id: '2.2_2'
@@ -5439,7 +5439,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 465'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '4'
       name: Пламенные стопы
       selection_id: '2.2_3'
@@ -5460,7 +5460,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 565'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '5'
       name: Пламенные стопы
       selection_id: '2.2_1'
@@ -5481,7 +5481,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 565'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '5'
       name: Пламенные стопы
       selection_id: '2.2_2'
@@ -5502,7 +5502,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 565'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '5'
       name: Пламенные стопы
       selection_id: '2.2_3'
@@ -5523,7 +5523,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 660'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '6'
       name: Пламенные стопы
       selection_id: '2.2_1'
@@ -5544,7 +5544,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 660'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '6'
       name: Пламенные стопы
       selection_id: '2.2_2'
@@ -5565,7 +5565,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 660'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '6'
       name: Пламенные стопы
       selection_id: '2.2_3'
@@ -5586,7 +5586,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 750'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '7'
       name: Пламенные стопы
       selection_id: '2.2_1'
@@ -5607,7 +5607,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 750'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '7'
       name: Пламенные стопы
       selection_id: '2.2_2'
@@ -5628,7 +5628,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 750'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '7'
       name: Пламенные стопы
       selection_id: '2.2_3'

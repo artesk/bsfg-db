@@ -2555,7 +2555,7 @@ profession:
         text: 'Сила магического умения: 150'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/m_mystery_brain.jpg
+      icon: /icon/client-skills/icon.m_mystery_brain.png
       level: '1'
       name: Чистый воздух
       selection_id: ''
@@ -2586,7 +2586,7 @@ profession:
         text: 'Сила магического умения: 250'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/m_mystery_brain.jpg
+      icon: /icon/client-skills/icon.m_mystery_brain.png
       level: '2'
       name: Чистый воздух
       selection_id: ''
@@ -2617,7 +2617,7 @@ profession:
         text: 'Сила магического умения: 375'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/m_mystery_brain.jpg
+      icon: /icon/client-skills/icon.m_mystery_brain.png
       level: '3'
       name: Чистый воздух
       selection_id: ''
@@ -2648,7 +2648,7 @@ profession:
         text: 'Сила магического умения: 465'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/m_mystery_brain.jpg
+      icon: /icon/client-skills/icon.m_mystery_brain.png
       level: '4'
       name: Чистый воздух
       selection_id: ''
@@ -2679,7 +2679,7 @@ profession:
         text: 'Сила магического умения: 565'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/m_mystery_brain.jpg
+      icon: /icon/client-skills/icon.m_mystery_brain.png
       level: '5'
       name: Чистый воздух
       selection_id: ''
@@ -2710,7 +2710,7 @@ profession:
         text: 'Сила магического умения: 660'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/m_mystery_brain.jpg
+      icon: /icon/client-skills/icon.m_mystery_brain.png
       level: '6'
       name: Чистый воздух
       selection_id: ''
@@ -2741,7 +2741,7 @@ profession:
         text: 'Сила магического умения: 750'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/m_mystery_brain.jpg
+      icon: /icon/client-skills/icon.m_mystery_brain.png
       level: '7'
       name: Чистый воздух
       selection_id: ''
@@ -2781,7 +2781,7 @@ profession:
         text: 'Получение урона от класса (Менталисты): -4%'
       - kind: value
         text: 'Магическая защита (Любая броня): 8%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '1'
       name: Воздушный покров
       selection_id: ''
@@ -2816,7 +2816,7 @@ profession:
         text: 'Получение урона от класса (Менталисты): -5%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '2'
       name: Воздушный покров
       selection_id: ''
@@ -2851,7 +2851,7 @@ profession:
         text: 'Получение урона от класса (Менталисты): -6%'
       - kind: value
         text: 'Магическая защита (Любая броня): 12%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '3'
       name: Воздушный покров
       selection_id: ''
@@ -2886,7 +2886,7 @@ profession:
         text: 'Получение урона от класса (Менталисты): -7%'
       - kind: value
         text: 'Магическая защита (Любая броня): 14%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '4'
       name: Воздушный покров
       selection_id: ''
@@ -2921,7 +2921,7 @@ profession:
         text: 'Получение урона от класса (Менталисты): -8%'
       - kind: value
         text: 'Магическая защита (Любая броня): 16%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '5'
       name: Воздушный покров
       selection_id: ''
@@ -2956,7 +2956,7 @@ profession:
         text: 'Получение урона от класса (Менталисты): -9%'
       - kind: value
         text: 'Магическая защита (Любая броня): 18%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '6'
       name: Воздушный покров
       selection_id: ''
@@ -2991,7 +2991,7 @@ profession:
         text: 'Получение урона от класса (Менталисты): -10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 20%'
-      icon: /icon/iconskill30516.jpg
+      icon: /icon/client-skills/icon.iconskill30516.png
       level: '7'
       name: Воздушный покров
       selection_id: ''
@@ -3188,7 +3188,7 @@ profession:
         text: 'Сила магического умения: 200'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '1'
       name: Ветряной разрез
       selection_id: ''
@@ -3213,7 +3213,7 @@ profession:
         text: 'Сила магического умения: 350'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '2'
       name: Ветряной разрез
       selection_id: ''
@@ -3238,7 +3238,7 @@ profession:
         text: 'Сила магического умения: 520'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '3'
       name: Ветряной разрез
       selection_id: ''
@@ -3263,7 +3263,7 @@ profession:
         text: 'Сила магического умения: 610'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '4'
       name: Ветряной разрез
       selection_id: ''
@@ -3288,7 +3288,7 @@ profession:
         text: 'Сила магического умения: 750'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '5'
       name: Ветряной разрез
       selection_id: ''
@@ -3313,7 +3313,7 @@ profession:
         text: 'Сила магического умения: 880'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '6'
       name: Ветряной разрез
       selection_id: ''
@@ -3338,7 +3338,7 @@ profession:
         text: 'Сила магического умения: 1000'
       - kind: value
         text: 'Урон по сооружениям: 13000'
-      icon: /icon/skill0776.jpg
+      icon: /icon/client-skills/icon.skill0776.png
       level: '7'
       name: Ветряной разрез
       selection_id: ''
@@ -4317,7 +4317,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -4331,7 +4331,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -4345,7 +4345,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -4359,7 +4359,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -4373,7 +4373,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -4387,7 +4387,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -4401,7 +4401,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -4415,7 +4415,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -4429,7 +4429,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -4443,7 +4443,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -4457,7 +4457,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -4471,7 +4471,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -4485,7 +4485,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -4499,7 +4499,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -4513,7 +4513,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -4527,7 +4527,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -4541,7 +4541,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4555,7 +4555,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4569,7 +4569,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4583,7 +4583,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -5055,7 +5055,7 @@ profession:
         text: 'Сила магического умения: 1300'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/s_lightning_tempest.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_tempest.png
       level: '1'
       name: Власть ветра
       selection_id: ''
@@ -6501,7 +6501,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 150'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '1'
       name: Попутный ветер
       selection_id: '2.4_1'
@@ -6530,7 +6530,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 150'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '1'
       name: Попутный ветер
       selection_id: '2.4_2'
@@ -6560,7 +6560,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 150'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '1'
       name: Попутный ветер
       selection_id: '2.4_3'
@@ -6589,7 +6589,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '2'
       name: Попутный ветер
       selection_id: '2.4_1'
@@ -6618,7 +6618,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '2'
       name: Попутный ветер
       selection_id: '2.4_2'
@@ -6648,7 +6648,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '2'
       name: Попутный ветер
       selection_id: '2.4_3'
@@ -6677,7 +6677,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 375'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '3'
       name: Попутный ветер
       selection_id: '2.4_1'
@@ -6706,7 +6706,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 375'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '3'
       name: Попутный ветер
       selection_id: '2.4_2'
@@ -6736,7 +6736,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 375'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '3'
       name: Попутный ветер
       selection_id: '2.4_3'
@@ -6765,7 +6765,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 465'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '4'
       name: Попутный ветер
       selection_id: '2.4_1'
@@ -6794,7 +6794,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 465'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '4'
       name: Попутный ветер
       selection_id: '2.4_2'
@@ -6824,7 +6824,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 465'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '4'
       name: Попутный ветер
       selection_id: '2.4_3'
@@ -6853,7 +6853,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 565'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '5'
       name: Попутный ветер
       selection_id: '2.4_1'
@@ -6882,7 +6882,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 565'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '5'
       name: Попутный ветер
       selection_id: '2.4_2'
@@ -6912,7 +6912,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 565'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '5'
       name: Попутный ветер
       selection_id: '2.4_3'
@@ -6941,7 +6941,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 660'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '6'
       name: Попутный ветер
       selection_id: '2.4_1'
@@ -6970,7 +6970,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 660'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '6'
       name: Попутный ветер
       selection_id: '2.4_2'
@@ -7000,7 +7000,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 660'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '6'
       name: Попутный ветер
       selection_id: '2.4_3'
@@ -7029,7 +7029,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 750'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '7'
       name: Попутный ветер
       selection_id: '2.4_1'
@@ -7058,7 +7058,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 750'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '7'
       name: Попутный ветер
       selection_id: '2.4_2'
@@ -7088,7 +7088,7 @@ profession:
         text: 'Доп урон для магических классов:'
       - kind: value
         text: 'Сила магического умения: 750'
-      icon: /icon/skill1291.jpg
+      icon: /icon/client-skills/icon.skill1291.png
       level: '7'
       name: Попутный ветер
       selection_id: '2.4_3'
@@ -7109,7 +7109,7 @@ profession:
         text: 'Сила магического умения: 400'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '1'
       name: Торнадо
       selection_id: '2.5_1'
@@ -7131,7 +7131,7 @@ profession:
         text: 'Сила магического умения: 400'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '1'
       name: Торнадо
       selection_id: '2.5_2'
@@ -7153,7 +7153,7 @@ profession:
         text: 'Сила магического умения: 400'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '1'
       name: Торнадо
       selection_id: '2.5_3'
@@ -7175,7 +7175,7 @@ profession:
         text: 'Сила магического умения: 500'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '2'
       name: Торнадо
       selection_id: '2.5_1'
@@ -7197,7 +7197,7 @@ profession:
         text: 'Сила магического умения: 500'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '2'
       name: Торнадо
       selection_id: '2.5_2'
@@ -7219,7 +7219,7 @@ profession:
         text: 'Сила магического умения: 500'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '2'
       name: Торнадо
       selection_id: '2.5_3'
@@ -7241,7 +7241,7 @@ profession:
         text: 'Сила магического умения: 600'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '3'
       name: Торнадо
       selection_id: '2.5_1'
@@ -7263,7 +7263,7 @@ profession:
         text: 'Сила магического умения: 600'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '3'
       name: Торнадо
       selection_id: '2.5_2'
@@ -7285,7 +7285,7 @@ profession:
         text: 'Сила магического умения: 600'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '3'
       name: Торнадо
       selection_id: '2.5_3'
@@ -7307,7 +7307,7 @@ profession:
         text: 'Сила магического умения: 700'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '4'
       name: Торнадо
       selection_id: '2.5_1'
@@ -7329,7 +7329,7 @@ profession:
         text: 'Сила магического умения: 700'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '4'
       name: Торнадо
       selection_id: '2.5_2'
@@ -7351,7 +7351,7 @@ profession:
         text: 'Сила магического умения: 700'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '4'
       name: Торнадо
       selection_id: '2.5_3'
@@ -7373,7 +7373,7 @@ profession:
         text: 'Сила магического умения: 800'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '5'
       name: Торнадо
       selection_id: '2.5_1'
@@ -7395,7 +7395,7 @@ profession:
         text: 'Сила магического умения: 800'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '5'
       name: Торнадо
       selection_id: '2.5_2'
@@ -7417,7 +7417,7 @@ profession:
         text: 'Сила магического умения: 800'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '5'
       name: Торнадо
       selection_id: '2.5_3'
@@ -7439,7 +7439,7 @@ profession:
         text: 'Сила магического умения: 900'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '6'
       name: Торнадо
       selection_id: '2.5_1'
@@ -7461,7 +7461,7 @@ profession:
         text: 'Сила магического умения: 900'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '6'
       name: Торнадо
       selection_id: '2.5_2'
@@ -7483,7 +7483,7 @@ profession:
         text: 'Сила магического умения: 900'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '6'
       name: Торнадо
       selection_id: '2.5_3'
@@ -7505,7 +7505,7 @@ profession:
         text: 'Сила магического умения: 1000'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '7'
       name: Торнадо
       selection_id: '2.5_1'
@@ -7527,7 +7527,7 @@ profession:
         text: 'Сила магического умения: 1000'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '7'
       name: Торнадо
       selection_id: '2.5_2'
@@ -7549,7 +7549,7 @@ profession:
         text: 'Сила магического умения: 1000'
       - kind: value
         text: 'Перемещение от цели на: 70'
-      icon: /icon/skill1458.jpg
+      icon: /icon/client-skills/icon.skill1458.png
       level: '7'
       name: Торнадо
       selection_id: '2.5_3'
@@ -7878,7 +7878,7 @@ profession:
         text: 'Дальность магического умения: 110ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 4%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '1'
       name: Управление ветром
       selection_id: '2.7_1'
@@ -7894,7 +7894,7 @@ profession:
         text: 'Дальность магического умения: 70ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 8%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '1'
       name: Управление ветром
       selection_id: '2.7_2'
@@ -7910,7 +7910,7 @@ profession:
         text: 'Дальность магического умения: 50ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 10%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '1'
       name: Управление ветром
       selection_id: '2.7_3'
@@ -7926,7 +7926,7 @@ profession:
         text: 'Дальность магического умения: 125ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 5%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '2'
       name: Управление ветром
       selection_id: '2.7_1'
@@ -7942,7 +7942,7 @@ profession:
         text: 'Дальность магического умения: 85ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 9.5%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '2'
       name: Управление ветром
       selection_id: '2.7_2'
@@ -7958,7 +7958,7 @@ profession:
         text: 'Дальность магического умения: 65ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 12%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '2'
       name: Управление ветром
       selection_id: '2.7_3'
@@ -7974,7 +7974,7 @@ profession:
         text: 'Дальность магического умения: 140ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 6%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '3'
       name: Управление ветром
       selection_id: '2.7_1'
@@ -7990,7 +7990,7 @@ profession:
         text: 'Дальность магического умения: 100ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 11%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '3'
       name: Управление ветром
       selection_id: '2.7_2'
@@ -8006,7 +8006,7 @@ profession:
         text: 'Дальность магического умения: 80ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 14%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '3'
       name: Управление ветром
       selection_id: '2.7_3'
@@ -8022,7 +8022,7 @@ profession:
         text: 'Дальность магического умения: 155ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 7%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '4'
       name: Управление ветром
       selection_id: '2.7_1'
@@ -8038,7 +8038,7 @@ profession:
         text: 'Дальность магического умения: 115ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 12.5%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '4'
       name: Управление ветром
       selection_id: '2.7_2'
@@ -8054,7 +8054,7 @@ profession:
         text: 'Дальность магического умения: 95ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 16%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '4'
       name: Управление ветром
       selection_id: '2.7_3'
@@ -8070,7 +8070,7 @@ profession:
         text: 'Дальность магического умения: 170ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 8%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '5'
       name: Управление ветром
       selection_id: '2.7_1'
@@ -8086,7 +8086,7 @@ profession:
         text: 'Дальность магического умения: 130ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 14%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '5'
       name: Управление ветром
       selection_id: '2.7_2'
@@ -8102,7 +8102,7 @@ profession:
         text: 'Дальность магического умения: 110ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 18%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '5'
       name: Управление ветром
       selection_id: '2.7_3'
@@ -8118,7 +8118,7 @@ profession:
         text: 'Дальность магического умения: 185ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 9%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '6'
       name: Управление ветром
       selection_id: '2.7_1'
@@ -8134,7 +8134,7 @@ profession:
         text: 'Дальность магического умения: 145ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 15.5%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '6'
       name: Управление ветром
       selection_id: '2.7_2'
@@ -8150,7 +8150,7 @@ profession:
         text: 'Дальность магического умения: 125ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 20%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '6'
       name: Управление ветром
       selection_id: '2.7_3'
@@ -8166,7 +8166,7 @@ profession:
         text: 'Дальность магического умения: 200ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 10%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '7'
       name: Управление ветром
       selection_id: '2.7_1'
@@ -8182,7 +8182,7 @@ profession:
         text: 'Дальность магического умения: 160ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 17%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '7'
       name: Управление ветром
       selection_id: '2.7_2'
@@ -8198,7 +8198,7 @@ profession:
         text: 'Дальность магического умения: 140ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 22%'
-      icon: /icon/skill0466.jpg
+      icon: /icon/client-skills/icon.skill0466.png
       level: '7'
       name: Управление ветром
       selection_id: '2.7_3'

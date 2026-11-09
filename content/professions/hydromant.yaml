@@ -2981,7 +2981,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1200ед.'
-      icon: /icon/skill10106.jpg
+      icon: /icon/client-skills/icon.skill10106.png
       level: '1'
       name: Водное проклятие
       selection_id: ''
@@ -3001,7 +3001,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1500ед.'
-      icon: /icon/skill10106.jpg
+      icon: /icon/client-skills/icon.skill10106.png
       level: '2'
       name: Водное проклятие
       selection_id: ''
@@ -3021,7 +3021,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 1800ед.'
-      icon: /icon/skill10106.jpg
+      icon: /icon/client-skills/icon.skill10106.png
       level: '3'
       name: Водное проклятие
       selection_id: ''
@@ -3041,7 +3041,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2100ед.'
-      icon: /icon/skill10106.jpg
+      icon: /icon/client-skills/icon.skill10106.png
       level: '4'
       name: Водное проклятие
       selection_id: ''
@@ -3061,7 +3061,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2400ед.'
-      icon: /icon/skill10106.jpg
+      icon: /icon/client-skills/icon.skill10106.png
       level: '5'
       name: Водное проклятие
       selection_id: ''
@@ -3081,7 +3081,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 2700ед.'
-      icon: /icon/skill10106.jpg
+      icon: /icon/client-skills/icon.skill10106.png
       level: '6'
       name: Водное проклятие
       selection_id: ''
@@ -3101,7 +3101,7 @@ profession:
       effects:
       - kind: value
         text: 'Фиксированный урон: 3000ед.'
-      icon: /icon/skill10106.jpg
+      icon: /icon/client-skills/icon.skill10106.png
       level: '7'
       name: Водное проклятие
       selection_id: ''
@@ -4033,7 +4033,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '1'
       name: Доблесть Магов
       selection_id: ''
@@ -4047,7 +4047,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '2'
       name: Доблесть Магов
       selection_id: ''
@@ -4061,7 +4061,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '3'
       name: Доблесть Магов
       selection_id: ''
@@ -4075,7 +4075,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '4'
       name: Доблесть Магов
       selection_id: ''
@@ -4089,7 +4089,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '5'
       name: Доблесть Магов
       selection_id: ''
@@ -4103,7 +4103,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '6'
       name: Доблесть Магов
       selection_id: ''
@@ -4117,7 +4117,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '7'
       name: Доблесть Магов
       selection_id: ''
@@ -4131,7 +4131,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '8'
       name: Доблесть Магов
       selection_id: ''
@@ -4145,7 +4145,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '9'
       name: Доблесть Магов
       selection_id: ''
@@ -4159,7 +4159,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '10'
       name: Доблесть Магов
       selection_id: ''
@@ -4173,7 +4173,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '11'
       name: Доблесть Магов
       selection_id: ''
@@ -4187,7 +4187,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '12'
       name: Доблесть Магов
       selection_id: ''
@@ -4201,7 +4201,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '13'
       name: Доблесть Магов
       selection_id: ''
@@ -4215,7 +4215,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '14'
       name: Доблесть Магов
       selection_id: ''
@@ -4229,7 +4229,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '15'
       name: Доблесть Магов
       selection_id: ''
@@ -4243,7 +4243,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '16'
       name: Доблесть Магов
       selection_id: ''
@@ -4257,7 +4257,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '17'
       name: Доблесть Магов
       selection_id: ''
@@ -4271,7 +4271,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '18'
       name: Доблесть Магов
       selection_id: ''
@@ -4285,7 +4285,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '19'
       name: Доблесть Магов
       selection_id: ''
@@ -4299,7 +4299,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor12.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor12.png
       level: '20'
       name: Доблесть Магов
       selection_id: ''
@@ -4604,7 +4604,7 @@ profession:
         text: 'Магическая атака (Любая броня): 35%'
       - kind: value
         text: 'Сила крит. атаки магии: 15%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '1'
       name: Гидромант
       selection_id: ''
@@ -4629,7 +4629,7 @@ profession:
         text: 'Магическая атака (Любая броня): 40%'
       - kind: value
         text: 'Сила крит. атаки магии: 17%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '2'
       name: Гидромант
       selection_id: ''
@@ -4654,7 +4654,7 @@ profession:
         text: 'Магическая атака (Любая броня): 45%'
       - kind: value
         text: 'Сила крит. атаки магии: 19%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '3'
       name: Гидромант
       selection_id: ''
@@ -4679,7 +4679,7 @@ profession:
         text: 'Магическая атака (Любая броня): 50%'
       - kind: value
         text: 'Сила крит. атаки магии: 21%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '4'
       name: Гидромант
       selection_id: ''
@@ -4704,7 +4704,7 @@ profession:
         text: 'Магическая атака (Любая броня): 55%'
       - kind: value
         text: 'Сила крит. атаки магии: 23%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '5'
       name: Гидромант
       selection_id: ''
@@ -4729,7 +4729,7 @@ profession:
         text: 'Магическая атака (Любая броня): 60%'
       - kind: value
         text: 'Сила крит. атаки магии: 25%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '6'
       name: Гидромант
       selection_id: ''
@@ -4754,7 +4754,7 @@ profession:
         text: 'Магическая атака (Любая броня): 65%'
       - kind: value
         text: 'Сила крит. атаки магии: 27%'
-      icon: /icon/skill10543.jpg
+      icon: /icon/client-skills/icon.skill10543.png
       level: '7'
       name: Гидромант
       selection_id: ''
@@ -4771,7 +4771,7 @@ profession:
         text: 'Сила магического умения: 1300'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/s_aquatic_oath.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_aquatic_oath.png
       level: '1'
       name: Власть воды
       selection_id: ''
@@ -5278,7 +5278,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 150'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '1'
       name: Бурный поток
       selection_id: '2.2_1'
@@ -5299,7 +5299,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 150'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '1'
       name: Бурный поток
       selection_id: '2.2_2'
@@ -5320,7 +5320,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 150'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '1'
       name: Бурный поток
       selection_id: '2.2_3'
@@ -5341,7 +5341,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '2'
       name: Бурный поток
       selection_id: '2.2_1'
@@ -5362,7 +5362,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '2'
       name: Бурный поток
       selection_id: '2.2_2'
@@ -5383,7 +5383,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 250'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '2'
       name: Бурный поток
       selection_id: '2.2_3'
@@ -5404,7 +5404,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 375'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '3'
       name: Бурный поток
       selection_id: '2.2_1'
@@ -5425,7 +5425,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 375'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '3'
       name: Бурный поток
       selection_id: '2.2_2'
@@ -5446,7 +5446,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 375'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '3'
       name: Бурный поток
       selection_id: '2.2_3'
@@ -5467,7 +5467,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 465'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '4'
       name: Бурный поток
       selection_id: '2.2_1'
@@ -5488,7 +5488,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 465'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '4'
       name: Бурный поток
       selection_id: '2.2_2'
@@ -5509,7 +5509,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 465'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '4'
       name: Бурный поток
       selection_id: '2.2_3'
@@ -5530,7 +5530,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 565'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '5'
       name: Бурный поток
       selection_id: '2.2_1'
@@ -5551,7 +5551,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 565'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '5'
       name: Бурный поток
       selection_id: '2.2_2'
@@ -5572,7 +5572,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 565'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '5'
       name: Бурный поток
       selection_id: '2.2_3'
@@ -5593,7 +5593,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 660'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '6'
       name: Бурный поток
       selection_id: '2.2_1'
@@ -5614,7 +5614,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 660'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '6'
       name: Бурный поток
       selection_id: '2.2_2'
@@ -5635,7 +5635,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 660'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '6'
       name: Бурный поток
       selection_id: '2.2_3'
@@ -5656,7 +5656,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 750'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '7'
       name: Бурный поток
       selection_id: '2.2_1'
@@ -5677,7 +5677,7 @@ profession:
         text: 'Перемещение от цели на: 450'
       - kind: value
         text: 'Сила магического умения: 750'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '7'
       name: Бурный поток
       selection_id: '2.2_2'
@@ -5698,7 +5698,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 100'
       - kind: value
         text: 'Сила магического умения: 750'
-      icon: /icon/skill0821.jpg
+      icon: /icon/client-skills/icon.skill0821.png
       level: '7'
       name: Бурный поток
       selection_id: '2.2_3'
@@ -7258,7 +7258,7 @@ profession:
         text: 'Дальность магического умения: 110ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 4%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '1'
       name: Управление водой
       selection_id: '2.6_1'
@@ -7274,7 +7274,7 @@ profession:
         text: 'Дальность магического умения: 70ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 8%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '1'
       name: Управление водой
       selection_id: '2.6_2'
@@ -7290,7 +7290,7 @@ profession:
         text: 'Дальность магического умения: 50ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 10%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '1'
       name: Управление водой
       selection_id: '2.6_3'
@@ -7306,7 +7306,7 @@ profession:
         text: 'Дальность магического умения: 125ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 5%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '2'
       name: Управление водой
       selection_id: '2.6_1'
@@ -7322,7 +7322,7 @@ profession:
         text: 'Дальность магического умения: 85ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 9.5%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '2'
       name: Управление водой
       selection_id: '2.6_2'
@@ -7338,7 +7338,7 @@ profession:
         text: 'Дальность магического умения: 65ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 12%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '2'
       name: Управление водой
       selection_id: '2.6_3'
@@ -7354,7 +7354,7 @@ profession:
         text: 'Дальность магического умения: 140ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 6%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '3'
       name: Управление водой
       selection_id: '2.6_1'
@@ -7370,7 +7370,7 @@ profession:
         text: 'Дальность магического умения: 100ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 11%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '3'
       name: Управление водой
       selection_id: '2.6_2'
@@ -7386,7 +7386,7 @@ profession:
         text: 'Дальность магического умения: 80ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 14%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '3'
       name: Управление водой
       selection_id: '2.6_3'
@@ -7402,7 +7402,7 @@ profession:
         text: 'Дальность магического умения: 155ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 7%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '4'
       name: Управление водой
       selection_id: '2.6_1'
@@ -7418,7 +7418,7 @@ profession:
         text: 'Дальность магического умения: 115ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 12.5%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '4'
       name: Управление водой
       selection_id: '2.6_2'
@@ -7434,7 +7434,7 @@ profession:
         text: 'Дальность магического умения: 95ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 16%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '4'
       name: Управление водой
       selection_id: '2.6_3'
@@ -7450,7 +7450,7 @@ profession:
         text: 'Дальность магического умения: 170ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 8%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '5'
       name: Управление водой
       selection_id: '2.6_1'
@@ -7466,7 +7466,7 @@ profession:
         text: 'Дальность магического умения: 130ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 14%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '5'
       name: Управление водой
       selection_id: '2.6_2'
@@ -7482,7 +7482,7 @@ profession:
         text: 'Дальность магического умения: 110ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 18%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '5'
       name: Управление водой
       selection_id: '2.6_3'
@@ -7498,7 +7498,7 @@ profession:
         text: 'Дальность магического умения: 185ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 9%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '6'
       name: Управление водой
       selection_id: '2.6_1'
@@ -7514,7 +7514,7 @@ profession:
         text: 'Дальность магического умения: 145ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 15.5%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '6'
       name: Управление водой
       selection_id: '2.6_2'
@@ -7530,7 +7530,7 @@ profession:
         text: 'Дальность магического умения: 125ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 20%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '6'
       name: Управление водой
       selection_id: '2.6_3'
@@ -7546,7 +7546,7 @@ profession:
         text: 'Дальность магического умения: 200ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 10%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '7'
       name: Управление водой
       selection_id: '2.6_1'
@@ -7562,7 +7562,7 @@ profession:
         text: 'Дальность магического умения: 160ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 17%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '7'
       name: Управление водой
       selection_id: '2.6_2'
@@ -7578,7 +7578,7 @@ profession:
         text: 'Дальность магического умения: 140ед.'
       - kind: value
         text: 'Магическая атака (Любая броня): 22%'
-      icon: /icon/skill1071.jpg
+      icon: /icon/client-skills/icon.skill1071.png
       level: '7'
       name: Управление водой
       selection_id: '2.6_3'

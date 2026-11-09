@@ -3022,7 +3022,7 @@ profession:
       description: Следующие 8 ударов по противнику будут наносить массовый урон. Отменяет усиление от
         умений *Мощные удары*, *Кровожадные удары* и *Неистовые удары*.
       effects: []
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '1'
       name: Размашистые удары
       selection_id: ''
@@ -3038,7 +3038,7 @@ profession:
       description: Следующие 10 ударов по противнику будут наносить массовый урон. Отменяет усиление от
         умений *Мощные удары*, *Кровожадные удары* и *Неистовые удары*.
       effects: []
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '2'
       name: Размашистые удары
       selection_id: ''
@@ -3054,7 +3054,7 @@ profession:
       description: Следующие 12 ударов по противнику будут наносить массовый урон. Отменяет усиление от
         умений *Мощные удары*, *Кровожадные удары* и *Неистовые удары*.
       effects: []
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '3'
       name: Размашистые удары
       selection_id: ''
@@ -3070,7 +3070,7 @@ profession:
       description: Следующие 14 ударов по противнику будут наносить массовый урон. Отменяет усиление от
         умений *Мощные удары*, *Кровожадные удары* и *Неистовые удары*.
       effects: []
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '4'
       name: Размашистые удары
       selection_id: ''
@@ -3086,7 +3086,7 @@ profession:
       description: Следующие 16 ударов по противнику будут наносить массовый урон. Отменяет усиление от
         умений *Мощные удары*, *Кровожадные удары* и *Неистовые удары*.
       effects: []
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '5'
       name: Размашистые удары
       selection_id: ''
@@ -3102,7 +3102,7 @@ profession:
       description: Следующие 18 ударов по противнику будут наносить массовый урон. Отменяет усиление от
         умений *Мощные удары*, *Кровожадные удары* и *Неистовые удары*.
       effects: []
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '6'
       name: Размашистые удары
       selection_id: ''
@@ -3118,7 +3118,7 @@ profession:
       description: Следующие 20 ударов по противнику будут наносить массовый урон. Отменяет усиление от
         умений *Мощные удары*, *Кровожадные удары* и *Неистовые удары*.
       effects: []
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '7'
       name: Размашистые удары
       selection_id: ''
@@ -4348,7 +4348,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '1'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4366,7 +4366,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '2'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4384,7 +4384,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '3'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4402,7 +4402,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '4'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4420,7 +4420,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '5'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4438,7 +4438,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '6'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4456,7 +4456,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '7'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4474,7 +4474,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '8'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4492,7 +4492,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '9'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4510,7 +4510,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '10'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4528,7 +4528,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '11'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4546,7 +4546,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '12'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4564,7 +4564,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '13'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4582,7 +4582,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '14'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4600,7 +4600,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '15'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4618,7 +4618,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '16'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4636,7 +4636,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '17'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4654,7 +4654,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '18'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4672,7 +4672,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '19'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4690,7 +4690,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '20'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5166,7 +5166,7 @@ profession:
       description: Когда Ваши жизненные силу отпускаются ниже 50% Вы получаете усиление защиты на 20%
         и урон по вражеским игрокам на 20%.
       effects: []
-      icon: /icon/Icon4/fist_of_fury_human_new.jpg
+      icon: /icon/client-skills/icon4.l2icon.fist_of_fury_human_new.png
       level: '1'
       name: Исступление
       selection_id: ''
@@ -5186,7 +5186,7 @@ profession:
         text: 'Магическая атака (Любая броня): 8%'
       - kind: value
         text: 'Физическая атака (Все): 8%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '1'
       name: Воинственный клич
       selection_id: '2.1_0'
@@ -5206,7 +5206,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 10%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 10%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '1'
       name: Воинственный клич
       selection_id: '2.1_1'
@@ -5231,7 +5231,7 @@ profession:
         text: 'Магическая атака (Любая броня): 5%'
       - kind: value
         text: 'Физическая атака (Все): 5%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '1'
       name: Воинственный клич
       selection_id: '2.1_2'
@@ -5252,7 +5252,7 @@ profession:
         text: 'Магическая атака (Любая броня): 9%'
       - kind: value
         text: 'Физическая атака (Все): 9%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '2'
       name: Воинственный клич
       selection_id: '2.1_3'
@@ -5272,7 +5272,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 11%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 11%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '2'
       name: Воинственный клич
       selection_id: '2.1_4'
@@ -5297,7 +5297,7 @@ profession:
         text: 'Магическая атака (Любая броня): 5.5%'
       - kind: value
         text: 'Физическая атака (Все): 5.5%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '2'
       name: Воинственный клич
       selection_id: '2.1_5'
@@ -5318,7 +5318,7 @@ profession:
         text: 'Магическая атака (Любая броня): 10%'
       - kind: value
         text: 'Физическая атака (Все): 10%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '3'
       name: Воинственный клич
       selection_id: '2.1_1'
@@ -5338,7 +5338,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 12%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 12%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '3'
       name: Воинственный клич
       selection_id: '2.1_2'
@@ -5363,7 +5363,7 @@ profession:
         text: 'Магическая атака (Любая броня): 6%'
       - kind: value
         text: 'Физическая атака (Все): 6%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '3'
       name: Воинственный клич
       selection_id: '2.1_3'
@@ -5384,7 +5384,7 @@ profession:
         text: 'Магическая атака (Любая броня): 11%'
       - kind: value
         text: 'Физическая атака (Все): 11%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '4'
       name: Воинственный клич
       selection_id: '2.1_1'
@@ -5404,7 +5404,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 13%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 13%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '4'
       name: Воинственный клич
       selection_id: '2.1_2'
@@ -5429,7 +5429,7 @@ profession:
         text: 'Магическая атака (Любая броня): 6.5%'
       - kind: value
         text: 'Физическая атака (Все): 6.5%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '4'
       name: Воинственный клич
       selection_id: '2.1_3'
@@ -5450,7 +5450,7 @@ profession:
         text: 'Магическая атака (Любая броня): 12%'
       - kind: value
         text: 'Физическая атака (Все): 12%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '5'
       name: Воинственный клич
       selection_id: '2.1_1'
@@ -5470,7 +5470,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 14%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 14%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '5'
       name: Воинственный клич
       selection_id: '2.1_2'
@@ -5495,7 +5495,7 @@ profession:
         text: 'Магическая атака (Любая броня): 7%'
       - kind: value
         text: 'Физическая атака (Все): 7%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '5'
       name: Воинственный клич
       selection_id: '2.1_3'
@@ -5516,7 +5516,7 @@ profession:
         text: 'Магическая атака (Любая броня): 13%'
       - kind: value
         text: 'Физическая атака (Все): 13%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '6'
       name: Воинственный клич
       selection_id: '2.1_1'
@@ -5536,7 +5536,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 15%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 15%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '6'
       name: Воинственный клич
       selection_id: '2.1_2'
@@ -5561,7 +5561,7 @@ profession:
         text: 'Магическая атака (Любая броня): 7.5%'
       - kind: value
         text: 'Физическая атака (Все): 7.5%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '6'
       name: Воинственный клич
       selection_id: '2.1_3'
@@ -5582,7 +5582,7 @@ profession:
         text: 'Магическая атака (Любая броня): 14%'
       - kind: value
         text: 'Физическая атака (Все): 14%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '7'
       name: Воинственный клич
       selection_id: '2.1_1'
@@ -5602,7 +5602,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): 16%'
       - kind: value
         text: 'Скорость атаки (Любая броня): 16%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '7'
       name: Воинственный клич
       selection_id: '2.1_2'
@@ -5627,7 +5627,7 @@ profession:
         text: 'Магическая атака (Любая броня): 8%'
       - kind: value
         text: 'Физическая атака (Все): 8%'
-      icon: /icon/skill11560.jpg
+      icon: /icon/client-skills/icon.skill11560.png
       level: '7'
       name: Воинственный клич
       selection_id: '2.1_3'
@@ -7771,7 +7771,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '1'
       name: Толстая кожа
       selection_id: '2.7_1'
@@ -7794,7 +7794,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '1'
       name: Толстая кожа
       selection_id: '2.7_2'
@@ -7817,7 +7817,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '1'
       name: Толстая кожа
       selection_id: '2.7_3'
@@ -7840,7 +7840,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '2'
       name: Толстая кожа
       selection_id: '2.7_1'
@@ -7863,7 +7863,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '2'
       name: Толстая кожа
       selection_id: '2.7_2'
@@ -7886,7 +7886,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '2'
       name: Толстая кожа
       selection_id: '2.7_3'
@@ -7909,7 +7909,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '3'
       name: Толстая кожа
       selection_id: '2.7_1'
@@ -7932,7 +7932,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '3'
       name: Толстая кожа
       selection_id: '2.7_2'
@@ -7955,7 +7955,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '3'
       name: Толстая кожа
       selection_id: '2.7_3'
@@ -7978,7 +7978,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '4'
       name: Толстая кожа
       selection_id: '2.7_1'
@@ -8001,7 +8001,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '4'
       name: Толстая кожа
       selection_id: '2.7_2'
@@ -8024,7 +8024,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '4'
       name: Толстая кожа
       selection_id: '2.7_3'
@@ -8047,7 +8047,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '5'
       name: Толстая кожа
       selection_id: '2.7_1'
@@ -8070,7 +8070,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '5'
       name: Толстая кожа
       selection_id: '2.7_2'
@@ -8093,7 +8093,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '5'
       name: Толстая кожа
       selection_id: '2.7_3'
@@ -8116,7 +8116,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '6'
       name: Толстая кожа
       selection_id: '2.7_1'
@@ -8139,7 +8139,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '6'
       name: Толстая кожа
       selection_id: '2.7_2'
@@ -8162,7 +8162,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '6'
       name: Толстая кожа
       selection_id: '2.7_3'
@@ -8185,7 +8185,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '7'
       name: Толстая кожа
       selection_id: '2.7_1'
@@ -8208,7 +8208,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '7'
       name: Толстая кожа
       selection_id: '2.7_2'
@@ -8231,7 +8231,7 @@ profession:
         text: 'Магическая защита (Любая броня): 250%'
       - kind: value
         text: 'Скорость передвижения (Любая броня): -50%'
-      icon: /icon/skill10274.jpg
+      icon: /icon/client-skills/icon.skill10274.png
       level: '7'
       name: Толстая кожа
       selection_id: '2.7_3'

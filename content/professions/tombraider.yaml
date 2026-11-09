@@ -2205,7 +2205,7 @@ profession:
         text: 'Сила физического умения: 120'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill0029.jpg
+      icon: /icon/client-skills/icon.skill0029.png
       level: '1'
       name: Двойной удар
       selection_id: ''
@@ -2227,7 +2227,7 @@ profession:
         text: 'Сила физического умения: 130'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill0029.jpg
+      icon: /icon/client-skills/icon.skill0029.png
       level: '2'
       name: Двойной удар
       selection_id: ''
@@ -2249,7 +2249,7 @@ profession:
         text: 'Сила физического умения: 140'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill0029.jpg
+      icon: /icon/client-skills/icon.skill0029.png
       level: '3'
       name: Двойной удар
       selection_id: ''
@@ -2271,7 +2271,7 @@ profession:
         text: 'Сила физического умения: 150'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill0029.jpg
+      icon: /icon/client-skills/icon.skill0029.png
       level: '4'
       name: Двойной удар
       selection_id: ''
@@ -2293,7 +2293,7 @@ profession:
         text: 'Сила физического умения: 160'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill0029.jpg
+      icon: /icon/client-skills/icon.skill0029.png
       level: '5'
       name: Двойной удар
       selection_id: ''
@@ -2315,7 +2315,7 @@ profession:
         text: 'Сила физического умения: 170'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill0029.jpg
+      icon: /icon/client-skills/icon.skill0029.png
       level: '6'
       name: Двойной удар
       selection_id: ''
@@ -2337,7 +2337,7 @@ profession:
         text: 'Сила физического умения: 180'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill0029.jpg
+      icon: /icon/client-skills/icon.skill0029.png
       level: '7'
       name: Двойной удар
       selection_id: ''
@@ -2499,7 +2499,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 3 сек.'
-      icon: /icon/skill0120.jpg
+      icon: /icon/client-skills/icon.skill0120.png
       level: '1'
       name: Опрокидывающий удар
       selection_id: ''
@@ -2521,7 +2521,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Сбитие с ног: 3 сек.'
-      icon: /icon/skill0120.jpg
+      icon: /icon/client-skills/icon.skill0120.png
       level: '2'
       name: Опрокидывающий удар
       selection_id: ''
@@ -2543,7 +2543,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Сбитие с ног: 3 сек.'
-      icon: /icon/skill0120.jpg
+      icon: /icon/client-skills/icon.skill0120.png
       level: '3'
       name: Опрокидывающий удар
       selection_id: ''
@@ -2565,7 +2565,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Сбитие с ног: 3 сек.'
-      icon: /icon/skill0120.jpg
+      icon: /icon/client-skills/icon.skill0120.png
       level: '4'
       name: Опрокидывающий удар
       selection_id: ''
@@ -2587,7 +2587,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Сбитие с ног: 3 сек.'
-      icon: /icon/skill0120.jpg
+      icon: /icon/client-skills/icon.skill0120.png
       level: '5'
       name: Опрокидывающий удар
       selection_id: ''
@@ -2609,7 +2609,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Сбитие с ног: 3 сек.'
-      icon: /icon/skill0120.jpg
+      icon: /icon/client-skills/icon.skill0120.png
       level: '6'
       name: Опрокидывающий удар
       selection_id: ''
@@ -2631,7 +2631,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Сбитие с ног: 3 сек.'
-      icon: /icon/skill0120.jpg
+      icon: /icon/client-skills/icon.skill0120.png
       level: '7'
       name: Опрокидывающий удар
       selection_id: ''
@@ -2951,7 +2951,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 30%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 22%'
-      icon: /icon/Karma.jpg
+      icon: /icon/client-skills/icon.karma.png
       level: '1'
       name: Мумификация
       selection_id: ''
@@ -2973,7 +2973,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 35%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 25%'
-      icon: /icon/Karma.jpg
+      icon: /icon/client-skills/icon.karma.png
       level: '2'
       name: Мумификация
       selection_id: ''
@@ -2995,7 +2995,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 40%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 28%'
-      icon: /icon/Karma.jpg
+      icon: /icon/client-skills/icon.karma.png
       level: '3'
       name: Мумификация
       selection_id: ''
@@ -3017,7 +3017,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 45%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 31%'
-      icon: /icon/Karma.jpg
+      icon: /icon/client-skills/icon.karma.png
       level: '4'
       name: Мумификация
       selection_id: ''
@@ -3039,7 +3039,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 50%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 34%'
-      icon: /icon/Karma.jpg
+      icon: /icon/client-skills/icon.karma.png
       level: '5'
       name: Мумификация
       selection_id: ''
@@ -3061,7 +3061,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 55%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 37%'
-      icon: /icon/Karma.jpg
+      icon: /icon/client-skills/icon.karma.png
       level: '6'
       name: Мумификация
       selection_id: ''
@@ -3083,7 +3083,7 @@ profession:
         text: 'Магическая защита (Тяжелая броня): 60%'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 40%'
-      icon: /icon/Karma.jpg
+      icon: /icon/client-skills/icon.karma.png
       level: '7'
       name: Мумификация
       selection_id: ''
@@ -4057,7 +4057,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 8%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '1'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4075,7 +4075,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '2'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4093,7 +4093,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 12%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '3'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4111,7 +4111,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 14%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '4'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4129,7 +4129,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 16%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '5'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4147,7 +4147,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '6'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4165,7 +4165,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '7'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4183,7 +4183,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '8'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4201,7 +4201,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '9'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4219,7 +4219,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '10'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4237,7 +4237,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 26%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '11'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4255,7 +4255,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '12'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4273,7 +4273,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 28%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '13'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4291,7 +4291,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 29%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '14'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4309,7 +4309,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '15'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4327,7 +4327,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 31%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '16'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4345,7 +4345,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 32%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '17'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4363,7 +4363,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '18'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4381,7 +4381,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 34%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '19'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4399,7 +4399,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '20'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4893,7 +4893,7 @@ profession:
         text: 'Сила физического умения: 500'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/dye_con_step_00.jpg
+      icon: /icon/client-skills/icon4.l2icon.dye_con_step_00.png
       level: '1'
       name: Забытое проклятие
       selection_id: ''
@@ -4923,7 +4923,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '1'
       name: Каменная эгида
       selection_id: '2.1_0'
@@ -4960,7 +4960,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '1'
       name: Каменная эгида
       selection_id: '2.1_1'
@@ -4997,7 +4997,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '1'
       name: Каменная эгида
       selection_id: '2.1_2'
@@ -5024,7 +5024,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '2'
       name: Каменная эгида
       selection_id: '2.1_3'
@@ -5061,7 +5061,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '2'
       name: Каменная эгида
       selection_id: '2.1_4'
@@ -5098,7 +5098,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '2'
       name: Каменная эгида
       selection_id: '2.1_5'
@@ -5125,7 +5125,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '3'
       name: Каменная эгида
       selection_id: '2.1_1'
@@ -5162,7 +5162,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '3'
       name: Каменная эгида
       selection_id: '2.1_2'
@@ -5199,7 +5199,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '3'
       name: Каменная эгида
       selection_id: '2.1_3'
@@ -5226,7 +5226,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '4'
       name: Каменная эгида
       selection_id: '2.1_1'
@@ -5263,7 +5263,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '4'
       name: Каменная эгида
       selection_id: '2.1_2'
@@ -5300,7 +5300,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '4'
       name: Каменная эгида
       selection_id: '2.1_3'
@@ -5327,7 +5327,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '5'
       name: Каменная эгида
       selection_id: '2.1_1'
@@ -5364,7 +5364,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '5'
       name: Каменная эгида
       selection_id: '2.1_2'
@@ -5401,7 +5401,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '5'
       name: Каменная эгида
       selection_id: '2.1_3'
@@ -5428,7 +5428,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '6'
       name: Каменная эгида
       selection_id: '2.1_1'
@@ -5465,7 +5465,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '6'
       name: Каменная эгида
       selection_id: '2.1_2'
@@ -5502,7 +5502,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '6'
       name: Каменная эгида
       selection_id: '2.1_3'
@@ -5529,7 +5529,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '7'
       name: Каменная эгида
       selection_id: '2.1_1'
@@ -5566,7 +5566,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '7'
       name: Каменная эгида
       selection_id: '2.1_2'
@@ -5603,7 +5603,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/skill1358.jpg
+      icon: /icon/client-skills/icon.skill1358.png
       level: '7'
       name: Каменная эгида
       selection_id: '2.1_3'
@@ -5626,7 +5626,7 @@ profession:
         text: 'После 2х рывков:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '1'
       name: Рывок
       selection_id: '2.2_1'
@@ -5648,7 +5648,7 @@ profession:
         text: 'После 3х рывков:'
       - kind: value
         text: 'Время действия: 50 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '1'
       name: Рывок
       selection_id: '2.2_2'
@@ -5670,7 +5670,7 @@ profession:
         text: 'После 4х рывков:'
       - kind: value
         text: 'Время действия: 70 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '1'
       name: Рывок
       selection_id: '2.2_3'
@@ -5692,7 +5692,7 @@ profession:
         text: 'После 2х рывков:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '2'
       name: Рывок
       selection_id: '2.2_1'
@@ -5714,7 +5714,7 @@ profession:
         text: 'После 3х рывков:'
       - kind: value
         text: 'Время действия: 50 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '2'
       name: Рывок
       selection_id: '2.2_2'
@@ -5736,7 +5736,7 @@ profession:
         text: 'После 4х рывков:'
       - kind: value
         text: 'Время действия: 70 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '2'
       name: Рывок
       selection_id: '2.2_3'
@@ -5758,7 +5758,7 @@ profession:
         text: 'После 2х рывков:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '3'
       name: Рывок
       selection_id: '2.2_1'
@@ -5780,7 +5780,7 @@ profession:
         text: 'После 3х рывков:'
       - kind: value
         text: 'Время действия: 50 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '3'
       name: Рывок
       selection_id: '2.2_2'
@@ -5802,7 +5802,7 @@ profession:
         text: 'После 4х рывков:'
       - kind: value
         text: 'Время действия: 70 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '3'
       name: Рывок
       selection_id: '2.2_3'
@@ -5824,7 +5824,7 @@ profession:
         text: 'После 2х рывков:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '4'
       name: Рывок
       selection_id: '2.2_1'
@@ -5846,7 +5846,7 @@ profession:
         text: 'После 3х рывков:'
       - kind: value
         text: 'Время действия: 50 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '4'
       name: Рывок
       selection_id: '2.2_2'
@@ -5868,7 +5868,7 @@ profession:
         text: 'После 4х рывков:'
       - kind: value
         text: 'Время действия: 70 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '4'
       name: Рывок
       selection_id: '2.2_3'
@@ -5890,7 +5890,7 @@ profession:
         text: 'После 2х рывков:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '5'
       name: Рывок
       selection_id: '2.2_1'
@@ -5912,7 +5912,7 @@ profession:
         text: 'После 3х рывков:'
       - kind: value
         text: 'Время действия: 50 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '5'
       name: Рывок
       selection_id: '2.2_2'
@@ -5934,7 +5934,7 @@ profession:
         text: 'После 4х рывков:'
       - kind: value
         text: 'Время действия: 70 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '5'
       name: Рывок
       selection_id: '2.2_3'
@@ -5956,7 +5956,7 @@ profession:
         text: 'После 2х рывков:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '6'
       name: Рывок
       selection_id: '2.2_1'
@@ -5978,7 +5978,7 @@ profession:
         text: 'После 3х рывков:'
       - kind: value
         text: 'Время действия: 50 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '6'
       name: Рывок
       selection_id: '2.2_2'
@@ -6000,7 +6000,7 @@ profession:
         text: 'После 4х рывков:'
       - kind: value
         text: 'Время действия: 70 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '6'
       name: Рывок
       selection_id: '2.2_3'
@@ -6022,7 +6022,7 @@ profession:
         text: 'После 2х рывков:'
       - kind: value
         text: 'Время до повторного использования: 35 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '7'
       name: Рывок
       selection_id: '2.2_1'
@@ -6044,7 +6044,7 @@ profession:
         text: 'После 3х рывков:'
       - kind: value
         text: 'Время действия: 50 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '7'
       name: Рывок
       selection_id: '2.2_2'
@@ -6066,7 +6066,7 @@ profession:
         text: 'После 4х рывков:'
       - kind: value
         text: 'Время действия: 70 сек.'
-      icon: /icon/skill19162.jpg
+      icon: /icon/client-skills/icon.skill19162.png
       level: '7'
       name: Рывок
       selection_id: '2.2_3'
@@ -6643,7 +6643,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 5%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 5%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '1'
       name: Поиск наживы
       selection_id: '2.4_1'
@@ -6662,7 +6662,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 32ед.'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 8%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '1'
       name: Поиск наживы
       selection_id: '2.4_2'
@@ -6681,7 +6681,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 32ед.'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 8%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '1'
       name: Поиск наживы
       selection_id: '2.4_3'
@@ -6702,7 +6702,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 6%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 6%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '2'
       name: Поиск наживы
       selection_id: '2.4_1'
@@ -6721,7 +6721,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 35ед.'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 10%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '2'
       name: Поиск наживы
       selection_id: '2.4_2'
@@ -6740,7 +6740,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 35ед.'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 10%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '2'
       name: Поиск наживы
       selection_id: '2.4_3'
@@ -6761,7 +6761,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 7%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 7%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '3'
       name: Поиск наживы
       selection_id: '2.4_1'
@@ -6780,7 +6780,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 38ед.'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 12%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '3'
       name: Поиск наживы
       selection_id: '2.4_2'
@@ -6799,7 +6799,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 38ед.'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 12%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '3'
       name: Поиск наживы
       selection_id: '2.4_3'
@@ -6820,7 +6820,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 8%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 8%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '4'
       name: Поиск наживы
       selection_id: '2.4_1'
@@ -6839,7 +6839,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 41ед.'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 14%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '4'
       name: Поиск наживы
       selection_id: '2.4_2'
@@ -6858,7 +6858,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 41ед.'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 14%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '4'
       name: Поиск наживы
       selection_id: '2.4_3'
@@ -6879,7 +6879,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 9%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 9%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '5'
       name: Поиск наживы
       selection_id: '2.4_1'
@@ -6898,7 +6898,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 44ед.'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 16%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '5'
       name: Поиск наживы
       selection_id: '2.4_2'
@@ -6917,7 +6917,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 44ед.'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 16%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '5'
       name: Поиск наживы
       selection_id: '2.4_3'
@@ -6938,7 +6938,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 10%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 10%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '6'
       name: Поиск наживы
       selection_id: '2.4_1'
@@ -6957,7 +6957,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 47ед.'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 18%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '6'
       name: Поиск наживы
       selection_id: '2.4_2'
@@ -6976,7 +6976,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 47ед.'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 18%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '6'
       name: Поиск наживы
       selection_id: '2.4_3'
@@ -6997,7 +6997,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 11%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 11%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '7'
       name: Поиск наживы
       selection_id: '2.4_1'
@@ -7016,7 +7016,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 50ед.'
       - kind: value
         text: 'Физическая защита (Тяжелая броня): 20%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '7'
       name: Поиск наживы
       selection_id: '2.4_2'
@@ -7035,7 +7035,7 @@ profession:
         text: 'Скорость передвижения (Тяжелая броня): 50ед.'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 20%'
-      icon: /icon/skill10700.jpg
+      icon: /icon/client-skills/icon.skill10700.png
       level: '7'
       name: Поиск наживы
       selection_id: '2.4_3'
@@ -7847,7 +7847,7 @@ profession:
         text: 'Время до повторного использования: 200 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '1'
       name: Скрижаль жизни
       selection_id: '2.7_1'
@@ -7874,7 +7874,7 @@ profession:
         text: 'Время до повторного использования: 200 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '1'
       name: Скрижаль жизни
       selection_id: '2.7_2'
@@ -7903,7 +7903,7 @@ profession:
         text: 'Время до повторного использования: 200 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '1'
       name: Скрижаль жизни
       selection_id: '2.7_3'
@@ -7928,7 +7928,7 @@ profession:
         text: 'Время до повторного использования: 195 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '2'
       name: Скрижаль жизни
       selection_id: '2.7_1'
@@ -7955,7 +7955,7 @@ profession:
         text: 'Время до повторного использования: 195 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '2'
       name: Скрижаль жизни
       selection_id: '2.7_2'
@@ -7984,7 +7984,7 @@ profession:
         text: 'Время до повторного использования: 195 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '2'
       name: Скрижаль жизни
       selection_id: '2.7_3'
@@ -8009,7 +8009,7 @@ profession:
         text: 'Время до повторного использования: 190 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '3'
       name: Скрижаль жизни
       selection_id: '2.7_1'
@@ -8036,7 +8036,7 @@ profession:
         text: 'Время до повторного использования: 190 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '3'
       name: Скрижаль жизни
       selection_id: '2.7_2'
@@ -8065,7 +8065,7 @@ profession:
         text: 'Время до повторного использования: 190 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '3'
       name: Скрижаль жизни
       selection_id: '2.7_3'
@@ -8090,7 +8090,7 @@ profession:
         text: 'Время до повторного использования: 185 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '4'
       name: Скрижаль жизни
       selection_id: '2.7_1'
@@ -8117,7 +8117,7 @@ profession:
         text: 'Время до повторного использования: 185 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '4'
       name: Скрижаль жизни
       selection_id: '2.7_2'
@@ -8146,7 +8146,7 @@ profession:
         text: 'Время до повторного использования: 185 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '4'
       name: Скрижаль жизни
       selection_id: '2.7_3'
@@ -8171,7 +8171,7 @@ profession:
         text: 'Время до повторного использования: 180 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '5'
       name: Скрижаль жизни
       selection_id: '2.7_1'
@@ -8198,7 +8198,7 @@ profession:
         text: 'Время до повторного использования: 180 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '5'
       name: Скрижаль жизни
       selection_id: '2.7_2'
@@ -8227,7 +8227,7 @@ profession:
         text: 'Время до повторного использования: 180 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '5'
       name: Скрижаль жизни
       selection_id: '2.7_3'
@@ -8252,7 +8252,7 @@ profession:
         text: 'Время до повторного использования: 175 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '6'
       name: Скрижаль жизни
       selection_id: '2.7_1'
@@ -8279,7 +8279,7 @@ profession:
         text: 'Время до повторного использования: 175 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '6'
       name: Скрижаль жизни
       selection_id: '2.7_2'
@@ -8308,7 +8308,7 @@ profession:
         text: 'Время до повторного использования: 175 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '6'
       name: Скрижаль жизни
       selection_id: '2.7_3'
@@ -8333,7 +8333,7 @@ profession:
         text: 'Время до повторного использования: 170 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '7'
       name: Скрижаль жизни
       selection_id: '2.7_1'
@@ -8360,7 +8360,7 @@ profession:
         text: 'Время до повторного использования: 170 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '7'
       name: Скрижаль жизни
       selection_id: '2.7_2'
@@ -8389,7 +8389,7 @@ profession:
         text: 'Время до повторного использования: 170 сек.'
       - kind: value
         text: 'Минимальное время до повторного использования: 120 сек.'
-      icon: /icon/skill1354.jpg
+      icon: /icon/client-skills/icon.skill1354.png
       level: '7'
       name: Скрижаль жизни
       selection_id: '2.7_3'

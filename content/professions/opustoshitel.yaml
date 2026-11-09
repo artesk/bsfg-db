@@ -359,7 +359,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 10% и физическую защиту
         в бою с вражескими игроками на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '1'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -369,7 +369,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 15% и физическую защиту
         в бою с вражескими игроками на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '2'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -379,7 +379,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 18% и физическую защиту
         в бою с вражескими игроками на 18%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '3'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -389,7 +389,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 21% и физическую защиту
         в бою с вражескими игроками на 21%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '4'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -399,7 +399,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 24% и физическую защиту
         в бою с вражескими игроками на 25%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '5'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -409,7 +409,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 27% и физическую защиту
         в бою с вражескими игроками на 45%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '6'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -419,7 +419,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 30% и физическую защиту
         в бою с вражескими игроками на 65%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '7'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -429,7 +429,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 33% и физическую защиту
         в бою с вражескими игроками на 66%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '8'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -439,7 +439,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 36% и физическую защиту
         в бою с вражескими игроками на 67%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '9'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -449,7 +449,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 39% и физическую защиту
         в бою с вражескими игроками на 68%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '10'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -459,7 +459,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 42% и физическую защиту
         в бою с вражескими игроками на 69%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '11'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -469,7 +469,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 43% и физическую защиту
         в бою с вражескими игроками на 70%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '12'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -479,7 +479,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 44% и физическую защиту
         в бою с вражескими игроками на 71%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '13'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -489,7 +489,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 45% и физическую защиту
         в бою с вражескими игроками на 72%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '14'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -499,7 +499,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 46% и физическую защиту
         в бою с вражескими игроками на 73%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '15'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -509,7 +509,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 47% и физическую защиту
         в бою с вражескими игроками на 74%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '16'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -519,7 +519,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 48% и физическую защиту
         в бою с вражескими игроками на 75%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '17'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -529,7 +529,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 49% и физическую защиту
         в бою с вражескими игроками на 76%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '18'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -539,7 +539,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 50% и физическую защиту
         в бою с вражескими игроками на 77%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '19'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -549,7 +549,7 @@ profession:
       description: Увеличивает магическую защиту в бою с вражескими игроками на 55% и физическую защиту
         в бою с вражескими игроками на 78%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/bsfg.icon_mob_armor9.png
       level: '20'
       name: Доблесть Мастеров Войны
       selection_id: ''
@@ -622,7 +622,7 @@ profession:
       description: Увеличивает магическую защиту на 10%. Время от времени древний артефакт заряжает Ваше
         оружие эфирными патронами, которые усиливают Ваши умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aegis_gun.png
       level: '1'
       name: Древний артефакт
       selection_id: ''
@@ -632,7 +632,7 @@ profession:
       description: Увеличивает магическую защиту на 13%. Время от времени древний артефакт заряжает Ваше
         оружие эфирными патронами, которые усиливают Ваши умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aegis_gun.png
       level: '2'
       name: Древний артефакт
       selection_id: ''
@@ -642,7 +642,7 @@ profession:
       description: Увеличивает магическую защиту на 16%. Время от времени древний артефакт заряжает Ваше
         оружие эфирными патронами, которые усиливают Ваши умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aegis_gun.png
       level: '3'
       name: Древний артефакт
       selection_id: ''
@@ -652,7 +652,7 @@ profession:
       description: Увеличивает магическую защиту на 19%. Время от времени древний артефакт заряжает Ваше
         оружие эфирными патронами, которые усиливают Ваши умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aegis_gun.png
       level: '4'
       name: Древний артефакт
       selection_id: ''
@@ -662,7 +662,7 @@ profession:
       description: Увеличивает магическую защиту на 21%. Время от времени древний артефакт заряжает Ваше
         оружие эфирными патронами, которые усиливают Ваши умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aegis_gun.png
       level: '5'
       name: Древний артефакт
       selection_id: ''
@@ -672,7 +672,7 @@ profession:
       description: Увеличивает магическую защиту на 23%. Время от времени древний артефакт заряжает Ваше
         оружие эфирными патронами, которые усиливают Ваши умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aegis_gun.png
       level: '6'
       name: Древний артефакт
       selection_id: ''
@@ -682,7 +682,7 @@ profession:
       description: Увеличивает магическую защиту на 25%. Время от времени древний артефакт заряжает Ваше
         оружие эфирными патронами, которые усиливают Ваши умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aegis_gun.png
       level: '7'
       name: Древний артефакт
       selection_id: ''
@@ -693,7 +693,7 @@ profession:
         значение скорости атаки, сокращает задержку между выстрелами, по истечении усиления дает еще 3
         эфирных патрона.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.final_sonic_slash.png
       level: '1'
       name: Заряд эфира
       selection_id: ''
@@ -704,7 +704,7 @@ profession:
         значение скорости атаки, сокращает задержку между выстрелами, по истечении усиления дает еще 3
         эфирных патрона.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.final_sonic_slash.png
       level: '2'
       name: Заряд эфира
       selection_id: ''
@@ -715,7 +715,7 @@ profession:
         значение скорости атаки, сокращает задержку между выстрелами, по истечении усиления дает еще 3
         эфирных патрона.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.final_sonic_slash.png
       level: '3'
       name: Заряд эфира
       selection_id: ''
@@ -726,7 +726,7 @@ profession:
         значение скорости атаки, сокращает задержку между выстрелами, по истечении усиления дает еще 3
         эфирных патрона.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.final_sonic_slash.png
       level: '4'
       name: Заряд эфира
       selection_id: ''
@@ -737,7 +737,7 @@ profession:
         значение скорости атаки, сокращает задержку между выстрелами, по истечении усиления дает еще 3
         эфирных патрона.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.final_sonic_slash.png
       level: '5'
       name: Заряд эфира
       selection_id: ''
@@ -748,7 +748,7 @@ profession:
         значение скорости атаки, сокращает задержку между выстрелами, по истечении усиления дает еще 3
         эфирных патрона.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.final_sonic_slash.png
       level: '6'
       name: Заряд эфира
       selection_id: ''
@@ -759,7 +759,7 @@ profession:
         значение скорости атаки, сокращает задержку между выстрелами, по истечении усиления дает еще 3
         эфирных патрона.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.final_sonic_slash.png
       level: '7'
       name: Заряд эфира
       selection_id: ''
@@ -768,7 +768,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с ружьем и силу критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
       level: '1'
       name: Утерянный контроль
       selection_id: ''
@@ -777,7 +777,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с ружьем и силу критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
       level: '2'
       name: Утерянный контроль
       selection_id: ''
@@ -786,7 +786,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с ружьем и силу критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
       level: '3'
       name: Утерянный контроль
       selection_id: ''
@@ -795,7 +795,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с ружьем и силу критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
       level: '4'
       name: Утерянный контроль
       selection_id: ''
@@ -804,7 +804,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с ружьем и силу критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
       level: '5'
       name: Утерянный контроль
       selection_id: ''
@@ -813,7 +813,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с ружьем и силу критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
       level: '6'
       name: Утерянный контроль
       selection_id: ''
@@ -822,7 +822,7 @@ profession:
     - branch: base
       description: Увеличивает физическую атаку с ружьем и силу критических атак.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
       level: '7'
       name: Утерянный контроль
       selection_id: ''
@@ -832,7 +832,7 @@ profession:
       description: Вы быстро перемещаетесь к противнику. Если у Вас был эфирный патрон, то Вы его тратите
         и дополнительно наносите урон врагу.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sonic_rush_contender.png
       level: '1'
       name: Смещение в пространстве
       selection_id: ''
@@ -842,7 +842,7 @@ profession:
       description: Вы быстро перемещаетесь к противнику. Если у Вас был эфирный патрон, то Вы его тратите
         и дополнительно наносите урон врагу.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sonic_rush_contender.png
       level: '2'
       name: Смещение в пространстве
       selection_id: ''
@@ -852,7 +852,7 @@ profession:
       description: Вы быстро перемещаетесь к противнику. Если у Вас был эфирный патрон, то Вы его тратите
         и дополнительно наносите урон врагу.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sonic_rush_contender.png
       level: '3'
       name: Смещение в пространстве
       selection_id: ''
@@ -862,7 +862,7 @@ profession:
       description: Вы быстро перемещаетесь к противнику. Если у Вас был эфирный патрон, то Вы его тратите
         и дополнительно наносите урон врагу.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sonic_rush_contender.png
       level: '4'
       name: Смещение в пространстве
       selection_id: ''
@@ -872,7 +872,7 @@ profession:
       description: Вы быстро перемещаетесь к противнику. Если у Вас был эфирный патрон, то Вы его тратите
         и дополнительно наносите урон врагу.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sonic_rush_contender.png
       level: '5'
       name: Смещение в пространстве
       selection_id: ''
@@ -882,7 +882,7 @@ profession:
       description: Вы быстро перемещаетесь к противнику. Если у Вас был эфирный патрон, то Вы его тратите
         и дополнительно наносите урон врагу.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sonic_rush_contender.png
       level: '6'
       name: Смещение в пространстве
       selection_id: ''
@@ -892,7 +892,7 @@ profession:
       description: Вы быстро перемещаетесь к противнику. Если у Вас был эфирный патрон, то Вы его тратите
         и дополнительно наносите урон врагу.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.sonic_rush_contender.png
       level: '7'
       name: Смещение в пространстве
       selection_id: ''
@@ -902,7 +902,7 @@ profession:
       description: Выстрел в противника, который наносит массовый урон. Если у Вас был эфирный патрон,
         то Вы его тратите и дополнительно на мгновение собьете врагов с ног.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.essential_fatal_smash.png
       level: '1'
       name: Взрыв эфира
       selection_id: ''
@@ -912,7 +912,7 @@ profession:
       description: Выстрел в противника, который наносит массовый урон. Если у Вас был эфирный патрон,
         то Вы его тратите и дополнительно на мгновение собьете врагов с ног.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.essential_fatal_smash.png
       level: '2'
       name: Взрыв эфира
       selection_id: ''
@@ -922,7 +922,7 @@ profession:
       description: Выстрел в противника, который наносит массовый урон. Если у Вас был эфирный патрон,
         то Вы его тратите и дополнительно на мгновение собьете врагов с ног.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.essential_fatal_smash.png
       level: '3'
       name: Взрыв эфира
       selection_id: ''
@@ -932,7 +932,7 @@ profession:
       description: Выстрел в противника, который наносит массовый урон. Если у Вас был эфирный патрон,
         то Вы его тратите и дополнительно на мгновение собьете врагов с ног.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.essential_fatal_smash.png
       level: '4'
       name: Взрыв эфира
       selection_id: ''
@@ -942,7 +942,7 @@ profession:
       description: Выстрел в противника, который наносит массовый урон. Если у Вас был эфирный патрон,
         то Вы его тратите и дополнительно на мгновение собьете врагов с ног.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.essential_fatal_smash.png
       level: '5'
       name: Взрыв эфира
       selection_id: ''
@@ -952,7 +952,7 @@ profession:
       description: Выстрел в противника, который наносит массовый урон. Если у Вас был эфирный патрон,
         то Вы его тратите и дополнительно на мгновение собьете врагов с ног.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.essential_fatal_smash.png
       level: '6'
       name: Взрыв эфира
       selection_id: ''
@@ -962,7 +962,7 @@ profession:
       description: Выстрел в противника, который наносит массовый урон. Если у Вас был эфирный патрон,
         то Вы его тратите и дополнительно на мгновение собьете врагов с ног.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.essential_fatal_smash.png
       level: '7'
       name: Взрыв эфира
       selection_id: ''
@@ -972,7 +972,7 @@ profession:
       description: Вы используете древнее ружье и жертвуя своим здоровьем и боевым духом усиливаете себя.
         Увеличивает скорость атаки, силу критических атак и шанс нанести критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_queens_garden_buff1.png
       level: '1'
       name: Режим усиления
       selection_id: ''
@@ -982,7 +982,7 @@ profession:
       description: Вы используете древнее ружье и жертвуя своим здоровьем и боевым духом усиливаете себя.
         Увеличивает скорость атаки, силу критических атак и шанс нанести критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_queens_garden_buff1.png
       level: '2'
       name: Режим усиления
       selection_id: ''
@@ -992,7 +992,7 @@ profession:
       description: Вы используете древнее ружье и жертвуя своим здоровьем и боевым духом усиливаете себя.
         Увеличивает скорость атаки, силу критических атак и шанс нанести критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_queens_garden_buff1.png
       level: '3'
       name: Режим усиления
       selection_id: ''
@@ -1002,7 +1002,7 @@ profession:
       description: Вы используете древнее ружье и жертвуя своим здоровьем и боевым духом усиливаете себя.
         Увеличивает скорость атаки, силу критических атак и шанс нанести критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_queens_garden_buff1.png
       level: '4'
       name: Режим усиления
       selection_id: ''
@@ -1012,7 +1012,7 @@ profession:
       description: Вы используете древнее ружье и жертвуя своим здоровьем и боевым духом усиливаете себя.
         Увеличивает скорость атаки, силу критических атак и шанс нанести критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_queens_garden_buff1.png
       level: '5'
       name: Режим усиления
       selection_id: ''
@@ -1022,7 +1022,7 @@ profession:
       description: Вы используете древнее ружье и жертвуя своим здоровьем и боевым духом усиливаете себя.
         Увеличивает скорость атаки, силу критических атак и шанс нанести критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_queens_garden_buff1.png
       level: '6'
       name: Режим усиления
       selection_id: ''
@@ -1032,7 +1032,7 @@ profession:
       description: Вы используете древнее ружье и жертвуя своим здоровьем и боевым духом усиливаете себя.
         Увеличивает скорость атаки, силу критических атак и шанс нанести критический удар.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_queens_garden_buff1.png
       level: '7'
       name: Режим усиления
       selection_id: ''
@@ -1042,7 +1042,7 @@ profession:
       description: Увеличивает физическую атаку. Время от времени Вы будете получать усиление, при котором
         после следующего удара по Вам произойдет выброс эфира и враг получит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blood_link1.png
       level: '1'
       name: Выброс эфира
       selection_id: ''
@@ -1052,7 +1052,7 @@ profession:
       description: Увеличивает физическую атаку. Время от времени Вы будете получать усиление, при котором
         после следующего удара по Вам произойдет выброс эфира и враг получит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blood_link1.png
       level: '2'
       name: Выброс эфира
       selection_id: ''
@@ -1062,7 +1062,7 @@ profession:
       description: Увеличивает физическую атаку. Время от времени Вы будете получать усиление, при котором
         после следующего удара по Вам произойдет выброс эфира и враг получит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blood_link1.png
       level: '3'
       name: Выброс эфира
       selection_id: ''
@@ -1072,7 +1072,7 @@ profession:
       description: Увеличивает физическую атаку. Время от времени Вы будете получать усиление, при котором
         после следующего удара по Вам произойдет выброс эфира и враг получит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blood_link1.png
       level: '4'
       name: Выброс эфира
       selection_id: ''
@@ -1082,7 +1082,7 @@ profession:
       description: Увеличивает физическую атаку. Время от времени Вы будете получать усиление, при котором
         после следующего удара по Вам произойдет выброс эфира и враг получит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blood_link1.png
       level: '5'
       name: Выброс эфира
       selection_id: ''
@@ -1092,7 +1092,7 @@ profession:
       description: Увеличивает физическую атаку. Время от времени Вы будете получать усиление, при котором
         после следующего удара по Вам произойдет выброс эфира и враг получит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blood_link1.png
       level: '6'
       name: Выброс эфира
       selection_id: ''
@@ -1102,7 +1102,7 @@ profession:
       description: Увеличивает физическую атаку. Время от времени Вы будете получать усиление, при котором
         после следующего удара по Вам произойдет выброс эфира и враг получит урон.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.blood_link1.png
       level: '7'
       name: Выброс эфира
       selection_id: ''
@@ -1112,7 +1112,7 @@ profession:
       description: Увеличивает защиту на 8%, физическую атаку на 50% и скорость атаки на 4%. Убивая вражеских
         игроков Вы заряжаете эфирные патроны до максимума.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.absolute_revenge.png
       level: '1'
       name: Опустошитель
       selection_id: ''
@@ -1122,7 +1122,7 @@ profession:
       description: Увеличивает защиту на 10%, физическую атаку на 55% и скорость атаки на 5%. Убивая вражеских
         игроков Вы заряжаете эфирные патроны до максимума.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.absolute_revenge.png
       level: '2'
       name: Опустошитель
       selection_id: ''
@@ -1132,7 +1132,7 @@ profession:
       description: Увеличивает защиту на 12%, физическую атаку на 60% и скорость атаки на 6%. Убивая вражеских
         игроков Вы заряжаете эфирные патроны до максимума.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.absolute_revenge.png
       level: '3'
       name: Опустошитель
       selection_id: ''
@@ -1142,7 +1142,7 @@ profession:
       description: Увеличивает защиту на 14%, физическую атаку на 65% и скорость атаки на 7%. Убивая вражеских
         игроков Вы заряжаете эфирные патроны до максимума.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.absolute_revenge.png
       level: '4'
       name: Опустошитель
       selection_id: ''
@@ -1152,7 +1152,7 @@ profession:
       description: Увеличивает защиту на 16%, физическую атаку на 70% и скорость атаки на 8%. Убивая вражеских
         игроков Вы заряжаете эфирные патроны до максимума.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.absolute_revenge.png
       level: '5'
       name: Опустошитель
       selection_id: ''
@@ -1162,7 +1162,7 @@ profession:
       description: Увеличивает защиту на 18%, физическую атаку на 75% и скорость атаки на 9%. Убивая вражеских
         игроков Вы заряжаете эфирные патроны до максимума.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.absolute_revenge.png
       level: '6'
       name: Опустошитель
       selection_id: ''
@@ -1172,7 +1172,7 @@ profession:
       description: Увеличивает защиту на 20%, физическую атаку на 80% и скорость атаки на 10%. Убивая
         вражеских игроков Вы заряжаете эфирные патроны до максимума.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.absolute_revenge.png
       level: '7'
       name: Опустошитель
       selection_id: ''
@@ -1182,7 +1182,7 @@ profession:
       description: Каждые 80 секунд Опустошитель создаёт защитный барьер, полностью поглощающий следующие
         3 удара. Пока барьер не действует, получаемый урон от классов дальнего боя снижен на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.unbreakable_sonic.png
       level: '1'
       name: Эфирный барьер
       selection_id: ''
@@ -1192,7 +1192,7 @@ profession:
       description: Каждые 80 секунд Опустошитель создаёт защитный барьер, полностью поглощающий следующие
         3 удара. Пока барьер не действует, получаемый урон от классов дальнего боя снижен на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.unbreakable_sonic.png
       level: '2'
       name: Эфирный барьер
       selection_id: ''
@@ -1202,7 +1202,7 @@ profession:
       description: Каждые 80 секунд Опустошитель создаёт защитный барьер, полностью поглощающий следующие
         3 удара. Пока барьер не действует, получаемый урон от классов дальнего боя снижен на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.unbreakable_sonic.png
       level: '3'
       name: Эфирный барьер
       selection_id: ''
@@ -1212,7 +1212,7 @@ profession:
       description: Каждые 80 секунд Опустошитель создаёт защитный барьер, полностью поглощающий следующие
         3 удара. Пока барьер не действует, получаемый урон от классов дальнего боя снижен на 22%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.unbreakable_sonic.png
       level: '4'
       name: Эфирный барьер
       selection_id: ''
@@ -1222,7 +1222,7 @@ profession:
       description: Каждые 80 секунд Опустошитель создаёт защитный барьер, полностью поглощающий следующие
         3 удара. Пока барьер не действует, получаемый урон от классов дальнего боя снижен на 25%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.unbreakable_sonic.png
       level: '5'
       name: Эфирный барьер
       selection_id: ''
@@ -1237,7 +1237,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Быстрый откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '1'
       name: Эфирное ружье
       selection_id: ''
@@ -1250,7 +1250,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Быстрый откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '2'
       name: Эфирное ружье
       selection_id: ''
@@ -1263,7 +1263,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Быстрый откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '3'
       name: Эфирное ружье
       selection_id: ''
@@ -1276,7 +1276,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Быстрый откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '4'
       name: Эфирное ружье
       selection_id: ''
@@ -1289,7 +1289,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Быстрый откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '5'
       name: Эфирное ружье
       selection_id: ''
@@ -1302,7 +1302,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Быстрый откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '6'
       name: Эфирное ружье
       selection_id: ''
@@ -1315,7 +1315,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Быстрый откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '7'
       name: Эфирное ружье
       selection_id: ''
@@ -1328,7 +1328,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Средний откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '1'
       name: Эфирное ружье
       selection_id: ''
@@ -1341,7 +1341,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Средний откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '2'
       name: Эфирное ружье
       selection_id: ''
@@ -1354,7 +1354,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Средний откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '3'
       name: Эфирное ружье
       selection_id: ''
@@ -1367,7 +1367,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Средний откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '4'
       name: Эфирное ружье
       selection_id: ''
@@ -1380,7 +1380,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Средний откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '5'
       name: Эфирное ружье
       selection_id: ''
@@ -1393,7 +1393,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Средний откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '6'
       name: Эфирное ружье
       selection_id: ''
@@ -1406,7 +1406,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Средний откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '7'
       name: Эфирное ружье
       selection_id: ''
@@ -1419,7 +1419,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Долгий откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '1'
       name: Эфирное ружье
       selection_id: ''
@@ -1432,7 +1432,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Долгий откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '2'
       name: Эфирное ружье
       selection_id: ''
@@ -1445,7 +1445,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Долгий откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '3'
       name: Эфирное ружье
       selection_id: ''
@@ -1458,7 +1458,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Долгий откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '4'
       name: Эфирное ружье
       selection_id: ''
@@ -1471,7 +1471,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Долгий откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '5'
       name: Эфирное ружье
       selection_id: ''
@@ -1484,7 +1484,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Долгий откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '6'
       name: Эфирное ружье
       selection_id: ''
@@ -1497,7 +1497,7 @@ profession:
         повторно, то нанесете большой урон на большом расстоянии врагу и собьете его с ног. Долгий откат
         умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.trigger_kill_effect_immortal.png
       level: '7'
       name: Эфирное ружье
       selection_id: ''
@@ -1508,7 +1508,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Быстрый откат умения, короткая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '1'
       name: Пространственный гарпун
       selection_id: ''
@@ -1519,7 +1519,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Быстрый откат умения, короткая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '2'
       name: Пространственный гарпун
       selection_id: ''
@@ -1530,7 +1530,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Быстрый откат умения, короткая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '3'
       name: Пространственный гарпун
       selection_id: ''
@@ -1541,7 +1541,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Быстрый откат умения, короткая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '4'
       name: Пространственный гарпун
       selection_id: ''
@@ -1552,7 +1552,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Быстрый откат умения, короткая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '5'
       name: Пространственный гарпун
       selection_id: ''
@@ -1563,7 +1563,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Быстрый откат умения, короткая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '6'
       name: Пространственный гарпун
       selection_id: ''
@@ -1574,7 +1574,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Быстрый откат умения, короткая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '7'
       name: Пространственный гарпун
       selection_id: ''
@@ -1585,7 +1585,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Средний откат умения, средняя дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '1'
       name: Пространственный гарпун
       selection_id: ''
@@ -1596,7 +1596,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Средний откат умения, средняя дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '2'
       name: Пространственный гарпун
       selection_id: ''
@@ -1607,7 +1607,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Средний откат умения, средняя дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '3'
       name: Пространственный гарпун
       selection_id: ''
@@ -1618,7 +1618,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Средний откат умения, средняя дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '4'
       name: Пространственный гарпун
       selection_id: ''
@@ -1629,7 +1629,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Средний откат умения, средняя дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '5'
       name: Пространственный гарпун
       selection_id: ''
@@ -1640,7 +1640,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Средний откат умения, средняя дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '6'
       name: Пространственный гарпун
       selection_id: ''
@@ -1651,7 +1651,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Средний откат умения, средняя дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '7'
       name: Пространственный гарпун
       selection_id: ''
@@ -1662,7 +1662,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Долгий откат умения, большая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '1'
       name: Пространственный гарпун
       selection_id: ''
@@ -1673,7 +1673,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Долгий откат умения, большая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '2'
       name: Пространственный гарпун
       selection_id: ''
@@ -1684,7 +1684,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Долгий откат умения, большая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '3'
       name: Пространственный гарпун
       selection_id: ''
@@ -1695,7 +1695,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Долгий откат умения, большая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '4'
       name: Пространственный гарпун
       selection_id: ''
@@ -1706,7 +1706,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Долгий откат умения, большая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '5'
       name: Пространственный гарпун
       selection_id: ''
@@ -1717,7 +1717,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Долгий откат умения, большая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '6'
       name: Пространственный гарпун
       selection_id: ''
@@ -1728,7 +1728,7 @@ profession:
       description: Вы притягиваете врага к себе. Если у Вас был эфирный патрон, то Вы его тратите и дополнительно
         сильно замедлите цель. Долгий откат умения, большая дистанция притяжки.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shilen_tempest.png
       level: '7'
       name: Пространственный гарпун
       selection_id: ''
@@ -1738,7 +1738,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 4% и физическую защиту на 5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '1'
       name: Щит из эфира
       selection_id: ''
@@ -1748,7 +1748,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 8.3% и физическую защиту на 6.7%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '2'
       name: Щит из эфира
       selection_id: ''
@@ -1758,7 +1758,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 12.7% и физическую защиту на 8.3%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '3'
       name: Щит из эфира
       selection_id: ''
@@ -1768,7 +1768,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 17% и физическую защиту на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '4'
       name: Щит из эфира
       selection_id: ''
@@ -1778,7 +1778,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 21.3% и физическую защиту на 11.7%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '5'
       name: Щит из эфира
       selection_id: ''
@@ -1788,7 +1788,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 25.7% и физическую защиту на 13.3%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '6'
       name: Щит из эфира
       selection_id: ''
@@ -1798,7 +1798,7 @@ profession:
     - branch: one
       description: Увеличивает физическую атаку на 30% и физическую защиту на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '7'
       name: Щит из эфира
       selection_id: ''
@@ -1808,7 +1808,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 4% и магическую защиту на 5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '1'
       name: Щит из эфира
       selection_id: ''
@@ -1818,7 +1818,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 8.3% и магическую защиту на 7.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '2'
       name: Щит из эфира
       selection_id: ''
@@ -1828,7 +1828,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 12.7% и магическую защиту на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '3'
       name: Щит из эфира
       selection_id: ''
@@ -1838,7 +1838,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 17% и магическую защиту на 12.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '4'
       name: Щит из эфира
       selection_id: ''
@@ -1848,7 +1848,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 21.3% и магическую защиту на 15%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '5'
       name: Щит из эфира
       selection_id: ''
@@ -1858,7 +1858,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 25.7% и магическую защиту на 17.5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '6'
       name: Щит из эфира
       selection_id: ''
@@ -1868,7 +1868,7 @@ profession:
     - branch: two
       description: Увеличивает физическую атаку на 30% и магическую защиту на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '7'
       name: Щит из эфира
       selection_id: ''
@@ -1879,7 +1879,7 @@ profession:
       description: Увеличивает физическую атаку на 4%, физическую защиту на 3% и магическую защиту на
         5%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '1'
       name: Щит из эфира
       selection_id: ''
@@ -1890,7 +1890,7 @@ profession:
       description: Увеличивает физическую атаку на 8.3%, физическую защиту на 4% и магическую защиту на
         6%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '2'
       name: Щит из эфира
       selection_id: ''
@@ -1901,7 +1901,7 @@ profession:
       description: Увеличивает физическую атаку на 12.7%, физическую защиту на 5% и магическую защиту
         на 7%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '3'
       name: Щит из эфира
       selection_id: ''
@@ -1912,7 +1912,7 @@ profession:
       description: Увеличивает физическую атаку на 17%, физическую защиту на 6% и магическую защиту на
         8%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '4'
       name: Щит из эфира
       selection_id: ''
@@ -1923,7 +1923,7 @@ profession:
       description: Увеличивает физическую атаку на 21.3%, физическую защиту на 7% и магическую защиту
         на 9%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '5'
       name: Щит из эфира
       selection_id: ''
@@ -1934,7 +1934,7 @@ profession:
       description: Увеличивает физическую атаку на 25.7%, физическую защиту на 8% и магическую защиту
         на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '6'
       name: Щит из эфира
       selection_id: ''
@@ -1945,7 +1945,7 @@ profession:
       description: Увеличивает физическую атаку на 30%, физическую защиту на 9% и магическую защиту на
         11%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.elemental_star_fire_i00.png
       level: '7'
       name: Щит из эфира
       selection_id: ''
@@ -1956,7 +1956,7 @@ profession:
       description: Увеличивает силу физических умений на 10%, шанс нанести критический удар умением на
         5% и силу критического удара умением на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '1'
       name: Апгрейд
       selection_id: ''
@@ -1967,7 +1967,7 @@ profession:
       description: Увеличивает силу физических умений на 12.5%, шанс нанести критический удар умением
         на 8% и силу критического удара умением на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '2'
       name: Апгрейд
       selection_id: ''
@@ -1978,7 +1978,7 @@ profession:
       description: Увеличивает силу физических умений на 15%, шанс нанести критический удар умением на
         12% и силу критического удара умением на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '3'
       name: Апгрейд
       selection_id: ''
@@ -1989,7 +1989,7 @@ profession:
       description: Увеличивает силу физических умений на 17.5%, шанс нанести критический удар умением
         на 15% и силу критического удара умением на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '4'
       name: Апгрейд
       selection_id: ''
@@ -2000,7 +2000,7 @@ profession:
       description: Увеличивает силу физических умений на 20%, шанс нанести критический удар умением на
         18% и силу критического удара умением на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '5'
       name: Апгрейд
       selection_id: ''
@@ -2011,7 +2011,7 @@ profession:
       description: Увеличивает силу физических умений на 22.5%, шанс нанести критический удар умением
         на 22% и силу критического удара умением на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '6'
       name: Апгрейд
       selection_id: ''
@@ -2022,7 +2022,7 @@ profession:
       description: Увеличивает силу физических умений на 25%, шанс нанести критический удар умением на
         25% и силу критического удара умением на 10%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '7'
       name: Апгрейд
       selection_id: ''
@@ -2033,7 +2033,7 @@ profession:
       description: Увеличивает силу физических умений на 10%, шанс нанести критический удар умением на
         4% и силу критического удара умением на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '1'
       name: Апгрейд
       selection_id: ''
@@ -2044,7 +2044,7 @@ profession:
       description: Увеличивает силу физических умений на 12.5%, шанс нанести критический удар умением
         на 7% и силу критического удара умением на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '2'
       name: Апгрейд
       selection_id: ''
@@ -2055,7 +2055,7 @@ profession:
       description: Увеличивает силу физических умений на 15%, шанс нанести критический удар умением на
         9% и силу критического удара умением на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '3'
       name: Апгрейд
       selection_id: ''
@@ -2066,7 +2066,7 @@ profession:
       description: Увеличивает силу физических умений на 17.5%, шанс нанести критический удар умением
         на 12% и силу критического удара умением на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '4'
       name: Апгрейд
       selection_id: ''
@@ -2077,7 +2077,7 @@ profession:
       description: Увеличивает силу физических умений на 20%, шанс нанести критический удар умением на
         15% и силу критического удара умением на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '5'
       name: Апгрейд
       selection_id: ''
@@ -2088,7 +2088,7 @@ profession:
       description: Увеличивает силу физических умений на 22.5%, шанс нанести критический удар умением
         на 17% и силу критического удара умением на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '6'
       name: Апгрейд
       selection_id: ''
@@ -2099,7 +2099,7 @@ profession:
       description: Увеличивает силу физических умений на 25%, шанс нанести критический удар умением на
         20% и силу критического удара умением на 20%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '7'
       name: Апгрейд
       selection_id: ''
@@ -2110,7 +2110,7 @@ profession:
       description: Увеличивает силу физических умений на 10%, шанс нанести критический удар умением на
         3% и силу критического удара умением на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '1'
       name: Апгрейд
       selection_id: ''
@@ -2121,7 +2121,7 @@ profession:
       description: Увеличивает силу физических умений на 12.5%, шанс нанести критический удар умением
         на 5% и силу критического удара умением на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '2'
       name: Апгрейд
       selection_id: ''
@@ -2132,7 +2132,7 @@ profession:
       description: Увеличивает силу физических умений на 15%, шанс нанести критический удар умением на
         7% и силу критического удара умением на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '3'
       name: Апгрейд
       selection_id: ''
@@ -2143,7 +2143,7 @@ profession:
       description: Увеличивает силу физических умений на 17.5%, шанс нанести критический удар умением
         на 9% и силу критического удара умением на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '4'
       name: Апгрейд
       selection_id: ''
@@ -2154,7 +2154,7 @@ profession:
       description: Увеличивает силу физических умений на 20%, шанс нанести критический удар умением на
         11% и силу критического удара умением на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '5'
       name: Апгрейд
       selection_id: ''
@@ -2165,7 +2165,7 @@ profession:
       description: Увеличивает силу физических умений на 22.5%, шанс нанести критический удар умением
         на 13% и силу критического удара умением на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '6'
       name: Апгрейд
       selection_id: ''
@@ -2176,7 +2176,7 @@ profession:
       description: Увеличивает силу физических умений на 25%, шанс нанести критический удар умением на
         15% и силу критического удара умением на 30%.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.aden_rune_high_i03.png
       level: '7'
       name: Апгрейд
       selection_id: ''
@@ -2187,7 +2187,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 4 секунды
         получить защиту от всех проклятий и эффектов контроля. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '1'
       name: Самоконтроль
       selection_id: ''
@@ -2198,7 +2198,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 4 секунды
         получить защиту от всех проклятий и эффектов контроля. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '2'
       name: Самоконтроль
       selection_id: ''
@@ -2209,7 +2209,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 4 секунды
         получить защиту от всех проклятий и эффектов контроля. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '3'
       name: Самоконтроль
       selection_id: ''
@@ -2220,7 +2220,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 4 секунды
         получить защиту от всех проклятий и эффектов контроля. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '4'
       name: Самоконтроль
       selection_id: ''
@@ -2231,7 +2231,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 4 секунды
         получить защиту от всех проклятий и эффектов контроля. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '5'
       name: Самоконтроль
       selection_id: ''
@@ -2242,7 +2242,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 4 секунды
         получить защиту от всех проклятий и эффектов контроля. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '6'
       name: Самоконтроль
       selection_id: ''
@@ -2253,7 +2253,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 4 секунды
         получить защиту от всех проклятий и эффектов контроля. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '7'
       name: Самоконтроль
       selection_id: ''
@@ -2264,7 +2264,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 6 секунд
         получить защиту от всех проклятий и эффектов контроля. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '1'
       name: Самоконтроль
       selection_id: ''
@@ -2275,7 +2275,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 6 секунд
         получить защиту от всех проклятий и эффектов контроля. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '2'
       name: Самоконтроль
       selection_id: ''
@@ -2286,7 +2286,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 6 секунд
         получить защиту от всех проклятий и эффектов контроля. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '3'
       name: Самоконтроль
       selection_id: ''
@@ -2297,7 +2297,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 6 секунд
         получить защиту от всех проклятий и эффектов контроля. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '4'
       name: Самоконтроль
       selection_id: ''
@@ -2308,7 +2308,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 6 секунд
         получить защиту от всех проклятий и эффектов контроля. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '5'
       name: Самоконтроль
       selection_id: ''
@@ -2319,7 +2319,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 6 секунд
         получить защиту от всех проклятий и эффектов контроля. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '6'
       name: Самоконтроль
       selection_id: ''
@@ -2330,7 +2330,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 6 секунд
         получить защиту от всех проклятий и эффектов контроля. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '7'
       name: Самоконтроль
       selection_id: ''
@@ -2341,7 +2341,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 8 секунд
         получить защиту от всех проклятий и эффектов контроля. Долгий откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '1'
       name: Самоконтроль
       selection_id: ''
@@ -2352,7 +2352,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 8 секунд
         получить защиту от всех проклятий и эффектов контроля. Долгий откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '2'
       name: Самоконтроль
       selection_id: ''
@@ -2363,7 +2363,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 8 секунд
         получить защиту от всех проклятий и эффектов контроля. Долгий откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '3'
       name: Самоконтроль
       selection_id: ''
@@ -2374,7 +2374,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 8 секунд
         получить защиту от всех проклятий и эффектов контроля. Долгий откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '4'
       name: Самоконтроль
       selection_id: ''
@@ -2385,7 +2385,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 8 секунд
         получить защиту от всех проклятий и эффектов контроля. Долгий откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '5'
       name: Самоконтроль
       selection_id: ''
@@ -2396,7 +2396,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 8 секунд
         получить защиту от всех проклятий и эффектов контроля. Долгий откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '6'
       name: Самоконтроль
       selection_id: ''
@@ -2407,7 +2407,7 @@ profession:
       description: Когда Вас обездвижили или замедлили Вы можете снять с себя эти эффекты и на 8 секунд
         получить защиту от всех проклятий и эффектов контроля. Долгий откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.forge_attack.png
       level: '7'
       name: Самоконтроль
       selection_id: ''
@@ -2418,7 +2418,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 15%, скорость
         бега на 50 и максимальное значение скорости бега на 50.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '1'
       name: Надзиратель
       selection_id: ''
@@ -2429,7 +2429,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 17.5%,
         скорость бега на 58 и максимальное значение скорости бега на 58.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '2'
       name: Надзиратель
       selection_id: ''
@@ -2440,7 +2440,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 20%, скорость
         бега на 67 и максимальное значение скорости бега на 67.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '3'
       name: Надзиратель
       selection_id: ''
@@ -2451,7 +2451,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 22.5%,
         скорость бега на 75 и максимальное значение скорости бега на 75.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '4'
       name: Надзиратель
       selection_id: ''
@@ -2462,7 +2462,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 25%, скорость
         бега на 83 и максимальное значение скорости бега на 83.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '5'
       name: Надзиратель
       selection_id: ''
@@ -2473,7 +2473,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 27.5%,
         скорость бега на 92 и максимальное значение скорости бега на 92.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '6'
       name: Надзиратель
       selection_id: ''
@@ -2484,7 +2484,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 30%, скорость
         бега на 100 и максимальное значение скорости бега на 100.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '7'
       name: Надзиратель
       selection_id: ''
@@ -2495,7 +2495,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 30%, скорость
         бега на 30 и максимальное значение скорости бега на 30.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '1'
       name: Надзиратель
       selection_id: ''
@@ -2506,7 +2506,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 35%, скорость
         бега на 35 и максимальное значение скорости бега на 35.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '2'
       name: Надзиратель
       selection_id: ''
@@ -2517,7 +2517,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 40%, скорость
         бега на 40 и максимальное значение скорости бега на 40.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '3'
       name: Надзиратель
       selection_id: ''
@@ -2528,7 +2528,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 45%, скорость
         бега на 45 и максимальное значение скорости бега на 45.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '4'
       name: Надзиратель
       selection_id: ''
@@ -2539,7 +2539,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 50%, скорость
         бега на 50 и максимальное значение скорости бега на 50.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '5'
       name: Надзиратель
       selection_id: ''
@@ -2550,7 +2550,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 55%, скорость
         бега на 55 и максимальное значение скорости бега на 55.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '6'
       name: Надзиратель
       selection_id: ''
@@ -2561,7 +2561,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 60%, скорость
         бега на 60 и максимальное значение скорости бега на 60.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '7'
       name: Надзиратель
       selection_id: ''
@@ -2572,7 +2572,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 50%, скорость
         бега на 15 и максимальное значение скорости бега на 15.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '1'
       name: Надзиратель
       selection_id: ''
@@ -2583,7 +2583,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 58.3%,
         скорость бега на 18 и максимальное значение скорости бега на 18.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '2'
       name: Надзиратель
       selection_id: ''
@@ -2594,7 +2594,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 66.7%,
         скорость бега на 20 и максимальное значение скорости бега на 20.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '3'
       name: Надзиратель
       selection_id: ''
@@ -2605,7 +2605,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 75%, скорость
         бега на 23 и максимальное значение скорости бега на 23.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '4'
       name: Надзиратель
       selection_id: ''
@@ -2616,7 +2616,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 83.3%,
         скорость бега на 25 и максимальное значение скорости бега на 25.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '5'
       name: Надзиратель
       selection_id: ''
@@ -2627,7 +2627,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 91.7%,
         скорость бега на 28 и максимальное значение скорости бега на 28.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '6'
       name: Надзиратель
       selection_id: ''
@@ -2638,7 +2638,7 @@ profession:
       description: Когда у Вас ниже 30% жизненных сил, атаки по Вам будут увеличивать защиту на 100%,
         скорость бега на 30 и максимальное значение скорости бега на 30.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.immolation.png
       level: '7'
       name: Надзиратель
       selection_id: ''
@@ -2650,7 +2650,7 @@ profession:
         Вашу защиту увеличит на 4%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел будет
         усилен. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '1'
       name: Разложение брони
       selection_id: ''
@@ -2662,7 +2662,7 @@ profession:
         Вашу защиту увеличит на 5%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел будет
         усилен. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '2'
       name: Разложение брони
       selection_id: ''
@@ -2674,7 +2674,7 @@ profession:
         Вашу защиту увеличит на 6%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел будет
         усилен. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '3'
       name: Разложение брони
       selection_id: ''
@@ -2686,7 +2686,7 @@ profession:
         Вашу защиту увеличит на 7%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел будет
         усилен. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '4'
       name: Разложение брони
       selection_id: ''
@@ -2698,7 +2698,7 @@ profession:
         Вашу защиту увеличит на 8%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел будет
         усилен. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '5'
       name: Разложение брони
       selection_id: ''
@@ -2710,7 +2710,7 @@ profession:
         Вашу защиту увеличит на 9%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел будет
         усилен. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '6'
       name: Разложение брони
       selection_id: ''
@@ -2722,7 +2722,7 @@ profession:
         а Вашу защиту увеличит на 10%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Быстрый откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '7'
       name: Разложение брони
       selection_id: ''
@@ -2734,7 +2734,7 @@ profession:
         Вашу защиту увеличит на 6%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел будет
         усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '1'
       name: Разложение брони
       selection_id: ''
@@ -2746,7 +2746,7 @@ profession:
         а Вашу защиту увеличит на 7.5%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '2'
       name: Разложение брони
       selection_id: ''
@@ -2758,7 +2758,7 @@ profession:
         Вашу защиту увеличит на 9%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел будет
         усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '3'
       name: Разложение брони
       selection_id: ''
@@ -2770,7 +2770,7 @@ profession:
         а Вашу защиту увеличит на 10.5%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '4'
       name: Разложение брони
       selection_id: ''
@@ -2782,7 +2782,7 @@ profession:
         а Вашу защиту увеличит на 12%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '5'
       name: Разложение брони
       selection_id: ''
@@ -2794,7 +2794,7 @@ profession:
         а Вашу защиту увеличит на 13.5%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '6'
       name: Разложение брони
       selection_id: ''
@@ -2806,7 +2806,7 @@ profession:
         а Вашу защиту увеличит на 15%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '7'
       name: Разложение брони
       selection_id: ''
@@ -2818,7 +2818,7 @@ profession:
         Вашу защиту увеличит на 8%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел будет
         усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '1'
       name: Разложение брони
       selection_id: ''
@@ -2830,7 +2830,7 @@ profession:
         а Вашу защиту увеличит на 10%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '2'
       name: Разложение брони
       selection_id: ''
@@ -2842,7 +2842,7 @@ profession:
         а Вашу защиту увеличит на 12%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '3'
       name: Разложение брони
       selection_id: ''
@@ -2854,7 +2854,7 @@ profession:
         а Вашу защиту увеличит на 14%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '4'
       name: Разложение брони
       selection_id: ''
@@ -2866,7 +2866,7 @@ profession:
         а Вашу защиту увеличит на 16%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '5'
       name: Разложение брони
       selection_id: ''
@@ -2878,7 +2878,7 @@ profession:
         а Вашу защиту увеличит на 18%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '6'
       name: Разложение брони
       selection_id: ''
@@ -2890,7 +2890,7 @@ profession:
         а Вашу защиту увеличит на 20%. Если у Вас был эфирный патрон, то Вы его тратите и Ваш выстрел
         будет усилен. Средний откат умения.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.s_shield_throwing_shilen.png
       level: '7'
       name: Разложение брони
       selection_id: ''

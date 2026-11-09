@@ -3805,7 +3805,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '1'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3819,7 +3819,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '2'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3833,7 +3833,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '3'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3847,7 +3847,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '4'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3861,7 +3861,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '5'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3875,7 +3875,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '6'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3889,7 +3889,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '7'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3903,7 +3903,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '8'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3917,7 +3917,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '9'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3931,7 +3931,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '10'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3945,7 +3945,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '11'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3959,7 +3959,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '12'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3973,7 +3973,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '13'
       name: Доблесть Стрелков
       selection_id: ''
@@ -3987,7 +3987,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '14'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4001,7 +4001,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '15'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4015,7 +4015,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '16'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4029,7 +4029,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '17'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4043,7 +4043,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '18'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4057,7 +4057,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '19'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4071,7 +4071,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor14.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor14.png
       level: '20'
       name: Доблесть Стрелков
       selection_id: ''
@@ -4510,7 +4510,7 @@ profession:
         text: 'Физическая атака (Короткий лук, Длинный лук): 10%'
       - kind: value
         text: 'Шанс критического урона: 6%'
-      icon: /icon/Icon4/s_accurate.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_accurate.png
       level: '1'
       name: Опытный снайпер
       selection_id: ''
@@ -4528,7 +4528,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 220'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '1'
       name: Дождь из стрел
       selection_id: '2.1_0'
@@ -4549,7 +4549,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 230'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '1'
       name: Дождь из стрел
       selection_id: '2.1_1'
@@ -4570,7 +4570,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 240'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '1'
       name: Дождь из стрел
       selection_id: '2.1_2'
@@ -4591,7 +4591,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 225'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '2'
       name: Дождь из стрел
       selection_id: '2.1_3'
@@ -4612,7 +4612,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 240'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '2'
       name: Дождь из стрел
       selection_id: '2.1_4'
@@ -4633,7 +4633,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 255'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '2'
       name: Дождь из стрел
       selection_id: '2.1_5'
@@ -4654,7 +4654,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 230'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '3'
       name: Дождь из стрел
       selection_id: '2.1_1'
@@ -4675,7 +4675,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 250'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '3'
       name: Дождь из стрел
       selection_id: '2.1_2'
@@ -4696,7 +4696,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 270'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '3'
       name: Дождь из стрел
       selection_id: '2.1_3'
@@ -4717,7 +4717,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 235'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '4'
       name: Дождь из стрел
       selection_id: '2.1_1'
@@ -4738,7 +4738,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 260'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '4'
       name: Дождь из стрел
       selection_id: '2.1_2'
@@ -4759,7 +4759,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 285'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '4'
       name: Дождь из стрел
       selection_id: '2.1_3'
@@ -4780,7 +4780,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 240'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '5'
       name: Дождь из стрел
       selection_id: '2.1_1'
@@ -4801,7 +4801,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 270'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '5'
       name: Дождь из стрел
       selection_id: '2.1_2'
@@ -4822,7 +4822,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 300'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '5'
       name: Дождь из стрел
       selection_id: '2.1_3'
@@ -4843,7 +4843,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 245'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '6'
       name: Дождь из стрел
       selection_id: '2.1_1'
@@ -4864,7 +4864,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 280'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '6'
       name: Дождь из стрел
       selection_id: '2.1_2'
@@ -4885,7 +4885,7 @@ profession:
       effects:
       - kind: value
         text: 'Сила физического умения: 315'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '6'
       name: Дождь из стрел
       selection_id: '2.1_3'
@@ -4908,7 +4908,7 @@ profession:
         text: 'Сила физического умения: 250'
       - kind: value
         text: 'Фиксированный урон: 1600ед.'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '7'
       name: Дождь из стрел
       selection_id: '2.1_1'
@@ -4931,7 +4931,7 @@ profession:
         text: 'Сила физического умения: 290'
       - kind: value
         text: 'Фиксированный урон: 1600ед.'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '7'
       name: Дождь из стрел
       selection_id: '2.1_2'
@@ -4954,7 +4954,7 @@ profession:
         text: 'Сила физического умения: 330'
       - kind: value
         text: 'Фиксированный урон: 1600ед.'
-      icon: /icon/skill0772.jpg
+      icon: /icon/client-skills/icon.skill0772.png
       level: '7'
       name: Дождь из стрел
       selection_id: '2.1_3'

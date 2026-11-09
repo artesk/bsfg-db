@@ -2889,7 +2889,7 @@ profession:
     - branch: base
       description: Вы принимаете стойку, в которой провоцируете врагов атаковать Вас.
       effects: []
-      icon: /icon/dual_defup.jpg
+      icon: /icon/client-skills/icon.dual_defup.png
       level: '1'
       name: Рев гор
       selection_id: ''
@@ -2905,7 +2905,7 @@ profession:
     - branch: base
       description: Вы принимаете стойку, в которой провоцируете врагов атаковать Вас.
       effects: []
-      icon: /icon/dual_defup.jpg
+      icon: /icon/client-skills/icon.dual_defup.png
       level: '2'
       name: Рев гор
       selection_id: ''
@@ -2921,7 +2921,7 @@ profession:
     - branch: base
       description: Вы принимаете стойку, в которой провоцируете врагов атаковать Вас.
       effects: []
-      icon: /icon/dual_defup.jpg
+      icon: /icon/client-skills/icon.dual_defup.png
       level: '3'
       name: Рев гор
       selection_id: ''
@@ -2937,7 +2937,7 @@ profession:
     - branch: base
       description: Вы принимаете стойку, в которой провоцируете врагов атаковать Вас.
       effects: []
-      icon: /icon/dual_defup.jpg
+      icon: /icon/client-skills/icon.dual_defup.png
       level: '4'
       name: Рев гор
       selection_id: ''
@@ -2953,7 +2953,7 @@ profession:
     - branch: base
       description: Вы принимаете стойку, в которой провоцируете врагов атаковать Вас.
       effects: []
-      icon: /icon/dual_defup.jpg
+      icon: /icon/client-skills/icon.dual_defup.png
       level: '5'
       name: Рев гор
       selection_id: ''
@@ -2969,7 +2969,7 @@ profession:
     - branch: base
       description: Вы принимаете стойку, в которой провоцируете врагов атаковать Вас.
       effects: []
-      icon: /icon/dual_defup.jpg
+      icon: /icon/client-skills/icon.dual_defup.png
       level: '6'
       name: Рев гор
       selection_id: ''
@@ -2985,7 +2985,7 @@ profession:
     - branch: base
       description: Вы принимаете стойку, в которой провоцируете врагов атаковать Вас.
       effects: []
-      icon: /icon/dual_defup.jpg
+      icon: /icon/client-skills/icon.dual_defup.png
       level: '7'
       name: Рев гор
       selection_id: ''
@@ -3008,7 +3008,7 @@ profession:
         text: 'Урон по сооружениям: 1000'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/notargetting.jpg
+      icon: /icon/client-skills/icon.notargetting.png
       level: '1'
       name: Раскол
       selection_id: ''
@@ -3031,7 +3031,7 @@ profession:
         text: 'Урон по сооружениям: 1050'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/notargetting.jpg
+      icon: /icon/client-skills/icon.notargetting.png
       level: '2'
       name: Раскол
       selection_id: ''
@@ -3054,7 +3054,7 @@ profession:
         text: 'Урон по сооружениям: 1100'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/notargetting.jpg
+      icon: /icon/client-skills/icon.notargetting.png
       level: '3'
       name: Раскол
       selection_id: ''
@@ -3077,7 +3077,7 @@ profession:
         text: 'Урон по сооружениям: 1150'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/notargetting.jpg
+      icon: /icon/client-skills/icon.notargetting.png
       level: '4'
       name: Раскол
       selection_id: ''
@@ -3100,7 +3100,7 @@ profession:
         text: 'Урон по сооружениям: 1200'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/notargetting.jpg
+      icon: /icon/client-skills/icon.notargetting.png
       level: '5'
       name: Раскол
       selection_id: ''
@@ -3123,7 +3123,7 @@ profession:
         text: 'Урон по сооружениям: 1250'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/notargetting.jpg
+      icon: /icon/client-skills/icon.notargetting.png
       level: '6'
       name: Раскол
       selection_id: ''
@@ -3146,7 +3146,7 @@ profession:
         text: 'Урон по сооружениям: 1300'
       - kind: value
         text: 'Сбитие с ног: 1 сек.'
-      icon: /icon/notargetting.jpg
+      icon: /icon/client-skills/icon.notargetting.png
       level: '7'
       name: Раскол
       selection_id: ''
@@ -3171,7 +3171,7 @@ profession:
         text: 'Магическая защита (Любая броня): 150000%'
       - kind: value
         text: 'Снижение фиксированного урона: -100%'
-      icon: /icon/skill11876.jpg
+      icon: /icon/client-skills/icon.skill11876.png
       level: '1'
       name: Скала
       selection_id: ''
@@ -3196,7 +3196,7 @@ profession:
         text: 'Магическая защита (Любая броня): 150000%'
       - kind: value
         text: 'Снижение фиксированного урона: -100%'
-      icon: /icon/skill11876.jpg
+      icon: /icon/client-skills/icon.skill11876.png
       level: '2'
       name: Скала
       selection_id: ''
@@ -3221,7 +3221,7 @@ profession:
         text: 'Магическая защита (Любая броня): 150000%'
       - kind: value
         text: 'Снижение фиксированного урона: -100%'
-      icon: /icon/skill11876.jpg
+      icon: /icon/client-skills/icon.skill11876.png
       level: '3'
       name: Скала
       selection_id: ''
@@ -3246,7 +3246,7 @@ profession:
         text: 'Магическая защита (Любая броня): 150000%'
       - kind: value
         text: 'Снижение фиксированного урона: -100%'
-      icon: /icon/skill11876.jpg
+      icon: /icon/client-skills/icon.skill11876.png
       level: '4'
       name: Скала
       selection_id: ''
@@ -3271,7 +3271,7 @@ profession:
         text: 'Магическая защита (Любая броня): 150000%'
       - kind: value
         text: 'Снижение фиксированного урона: -100%'
-      icon: /icon/skill11876.jpg
+      icon: /icon/client-skills/icon.skill11876.png
       level: '5'
       name: Скала
       selection_id: ''
@@ -3296,7 +3296,7 @@ profession:
         text: 'Магическая защита (Любая броня): 150000%'
       - kind: value
         text: 'Снижение фиксированного урона: -100%'
-      icon: /icon/skill11876.jpg
+      icon: /icon/client-skills/icon.skill11876.png
       level: '6'
       name: Скала
       selection_id: ''
@@ -3321,7 +3321,7 @@ profession:
         text: 'Магическая защита (Любая броня): 150000%'
       - kind: value
         text: 'Снижение фиксированного урона: -100%'
-      icon: /icon/skill11876.jpg
+      icon: /icon/client-skills/icon.skill11876.png
       level: '7'
       name: Скала
       selection_id: ''
@@ -4733,7 +4733,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '1'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4755,7 +4755,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '2'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4777,7 +4777,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '3'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4799,7 +4799,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '4'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4821,7 +4821,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '5'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4843,7 +4843,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '6'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4865,7 +4865,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '7'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4887,7 +4887,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '8'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4909,7 +4909,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '9'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4931,7 +4931,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '10'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4953,7 +4953,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '11'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4975,7 +4975,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '12'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4997,7 +4997,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '13'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5019,7 +5019,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '14'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5041,7 +5041,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '15'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5063,7 +5063,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '16'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5085,7 +5085,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '17'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5107,7 +5107,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '18'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5129,7 +5129,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '19'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5151,7 +5151,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '20'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5453,7 +5453,7 @@ profession:
         text: 'Урон по осадным сооружениям: 20%'
       - kind: value
         text: 'Снижение фиксированного урона: -20%'
-      icon: /icon/skill10006.jpg
+      icon: /icon/client-skills/icon.skill10006.png
       level: '1'
       name: Каменный страж
       selection_id: ''
@@ -5475,7 +5475,7 @@ profession:
         text: 'Урон по осадным сооружениям: 25%'
       - kind: value
         text: 'Снижение фиксированного урона: -25%'
-      icon: /icon/skill10006.jpg
+      icon: /icon/client-skills/icon.skill10006.png
       level: '2'
       name: Каменный страж
       selection_id: ''
@@ -5497,7 +5497,7 @@ profession:
         text: 'Урон по осадным сооружениям: 30%'
       - kind: value
         text: 'Снижение фиксированного урона: -30%'
-      icon: /icon/skill10006.jpg
+      icon: /icon/client-skills/icon.skill10006.png
       level: '3'
       name: Каменный страж
       selection_id: ''
@@ -5519,7 +5519,7 @@ profession:
         text: 'Урон по осадным сооружениям: 35%'
       - kind: value
         text: 'Снижение фиксированного урона: -35%'
-      icon: /icon/skill10006.jpg
+      icon: /icon/client-skills/icon.skill10006.png
       level: '4'
       name: Каменный страж
       selection_id: ''
@@ -5540,7 +5540,7 @@ profession:
         text: 'Урон по осадным сооружениям: 40%'
       - kind: value
         text: 'Снижение фиксированного урона: -40%'
-      icon: /icon/skill10006.jpg
+      icon: /icon/client-skills/icon.skill10006.png
       level: '5'
       name: Каменный страж
       selection_id: ''
@@ -5561,7 +5561,7 @@ profession:
         text: 'Урон по осадным сооружениям: 45%'
       - kind: value
         text: 'Снижение фиксированного урона: -45%'
-      icon: /icon/skill10006.jpg
+      icon: /icon/client-skills/icon.skill10006.png
       level: '6'
       name: Каменный страж
       selection_id: ''
@@ -5582,7 +5582,7 @@ profession:
         text: 'Урон по осадным сооружениям: 50%'
       - kind: value
         text: 'Снижение фиксированного урона: -50%'
-      icon: /icon/skill10006.jpg
+      icon: /icon/client-skills/icon.skill10006.png
       level: '7'
       name: Каменный страж
       selection_id: ''
@@ -5609,7 +5609,7 @@ profession:
         text: 'Физическая защита (Любая броня): 300%'
       - kind: value
         text: 'Магическая защита (Любая броня): 300%'
-      icon: /icon/Icon4/khavatari_vitality2.jpg
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality2.png
       level: '1'
       name: Бессмертный кряж
       selection_id: ''
@@ -5634,7 +5634,7 @@ profession:
         text: 'Сила физического умения: 155'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '1'
       name: Каменная пуля
       selection_id: '2.1_0'
@@ -5663,7 +5663,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '1'
       name: Каменная пуля
       selection_id: '2.1_1'
@@ -5692,7 +5692,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '1'
       name: Каменная пуля
       selection_id: '2.1_2'
@@ -5713,7 +5713,7 @@ profession:
         text: 'Сила физического умения: 165'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '2'
       name: Каменная пуля
       selection_id: '2.1_3'
@@ -5742,7 +5742,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '2'
       name: Каменная пуля
       selection_id: '2.1_4'
@@ -5771,7 +5771,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '2'
       name: Каменная пуля
       selection_id: '2.1_5'
@@ -5792,7 +5792,7 @@ profession:
         text: 'Сила физического умения: 175'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '3'
       name: Каменная пуля
       selection_id: '2.1_1'
@@ -5821,7 +5821,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '3'
       name: Каменная пуля
       selection_id: '2.1_2'
@@ -5850,7 +5850,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '3'
       name: Каменная пуля
       selection_id: '2.1_3'
@@ -5871,7 +5871,7 @@ profession:
         text: 'Сила физического умения: 185'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '4'
       name: Каменная пуля
       selection_id: '2.1_1'
@@ -5900,7 +5900,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '4'
       name: Каменная пуля
       selection_id: '2.1_2'
@@ -5929,7 +5929,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '4'
       name: Каменная пуля
       selection_id: '2.1_3'
@@ -5950,7 +5950,7 @@ profession:
         text: 'Сила физического умения: 195'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '5'
       name: Каменная пуля
       selection_id: '2.1_1'
@@ -5979,7 +5979,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '5'
       name: Каменная пуля
       selection_id: '2.1_2'
@@ -6008,7 +6008,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '5'
       name: Каменная пуля
       selection_id: '2.1_3'
@@ -6029,7 +6029,7 @@ profession:
         text: 'Сила физического умения: 205'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '6'
       name: Каменная пуля
       selection_id: '2.1_1'
@@ -6058,7 +6058,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '6'
       name: Каменная пуля
       selection_id: '2.1_2'
@@ -6087,7 +6087,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '6'
       name: Каменная пуля
       selection_id: '2.1_3'
@@ -6108,7 +6108,7 @@ profession:
         text: 'Сила физического умения: 215'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '7'
       name: Каменная пуля
       selection_id: '2.1_1'
@@ -6137,7 +6137,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '7'
       name: Каменная пуля
       selection_id: '2.1_2'
@@ -6166,7 +6166,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1233.jpg
+      icon: /icon/client-skills/icon.skill1233.png
       level: '7'
       name: Каменная пуля
       selection_id: '2.1_3'
@@ -6185,7 +6185,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 4000ед.'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '1'
       name: Высвобождение
       selection_id: '2.2_1'
@@ -6203,7 +6203,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 4000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '1'
       name: Высвобождение
       selection_id: '2.2_2'
@@ -6223,7 +6223,7 @@ profession:
         text: 'Здоровье: 3000ед.'
       - kind: value
         text: 'Боевой дух: 3000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '1'
       name: Высвобождение
       selection_id: '2.2_3'
@@ -6241,7 +6241,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 5000ед.'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '2'
       name: Высвобождение
       selection_id: '2.2_1'
@@ -6259,7 +6259,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 5000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '2'
       name: Высвобождение
       selection_id: '2.2_2'
@@ -6279,7 +6279,7 @@ profession:
         text: 'Здоровье: 3500ед.'
       - kind: value
         text: 'Боевой дух: 3500'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '2'
       name: Высвобождение
       selection_id: '2.2_3'
@@ -6297,7 +6297,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 6000ед.'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '3'
       name: Высвобождение
       selection_id: '2.2_1'
@@ -6315,7 +6315,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 6000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '3'
       name: Высвобождение
       selection_id: '2.2_2'
@@ -6335,7 +6335,7 @@ profession:
         text: 'Здоровье: 4000ед.'
       - kind: value
         text: 'Боевой дух: 4000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '3'
       name: Высвобождение
       selection_id: '2.2_3'
@@ -6353,7 +6353,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 7000ед.'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '4'
       name: Высвобождение
       selection_id: '2.2_1'
@@ -6371,7 +6371,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 7000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '4'
       name: Высвобождение
       selection_id: '2.2_2'
@@ -6391,7 +6391,7 @@ profession:
         text: 'Здоровье: 4500ед.'
       - kind: value
         text: 'Боевой дух: 4500'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '4'
       name: Высвобождение
       selection_id: '2.2_3'
@@ -6409,7 +6409,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 8000ед.'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '5'
       name: Высвобождение
       selection_id: '2.2_1'
@@ -6427,7 +6427,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 8000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '5'
       name: Высвобождение
       selection_id: '2.2_2'
@@ -6447,7 +6447,7 @@ profession:
         text: 'Здоровье: 5000ед.'
       - kind: value
         text: 'Боевой дух: 5000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '5'
       name: Высвобождение
       selection_id: '2.2_3'
@@ -6465,7 +6465,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 9000ед.'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '6'
       name: Высвобождение
       selection_id: '2.2_1'
@@ -6483,7 +6483,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 9000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '6'
       name: Высвобождение
       selection_id: '2.2_2'
@@ -6503,7 +6503,7 @@ profession:
         text: 'Здоровье: 5500ед.'
       - kind: value
         text: 'Боевой дух: 5500'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '6'
       name: Высвобождение
       selection_id: '2.2_3'
@@ -6521,7 +6521,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 10000ед.'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '7'
       name: Высвобождение
       selection_id: '2.2_1'
@@ -6539,7 +6539,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 10000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '7'
       name: Высвобождение
       selection_id: '2.2_2'
@@ -6559,7 +6559,7 @@ profession:
         text: 'Здоровье: 6000ед.'
       - kind: value
         text: 'Боевой дух: 6000'
-      icon: /icon/skill1223.jpg
+      icon: /icon/client-skills/icon.skill1223.png
       level: '7'
       name: Высвобождение
       selection_id: '2.2_3'
@@ -6579,7 +6579,7 @@ profession:
         text: 'Максимум здоровья: 8%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 12%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '1'
       name: Земная твердь
       selection_id: '2.3_1'
@@ -6599,7 +6599,7 @@ profession:
         text: 'Максимум боевого духа: 8%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 12%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '1'
       name: Земная твердь
       selection_id: '2.3_2'
@@ -6621,7 +6621,7 @@ profession:
         text: 'Максимум боевого духа: 5%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 12%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '1'
       name: Земная твердь
       selection_id: '2.3_3'
@@ -6641,7 +6641,7 @@ profession:
         text: 'Максимум здоровья: 10%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 15%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '2'
       name: Земная твердь
       selection_id: '2.3_1'
@@ -6661,7 +6661,7 @@ profession:
         text: 'Максимум боевого духа: 10%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 15%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '2'
       name: Земная твердь
       selection_id: '2.3_2'
@@ -6683,7 +6683,7 @@ profession:
         text: 'Максимум боевого духа: 6%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 15%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '2'
       name: Земная твердь
       selection_id: '2.3_3'
@@ -6703,7 +6703,7 @@ profession:
         text: 'Максимум здоровья: 12%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 18%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '3'
       name: Земная твердь
       selection_id: '2.3_1'
@@ -6723,7 +6723,7 @@ profession:
         text: 'Максимум боевого духа: 12%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 18%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '3'
       name: Земная твердь
       selection_id: '2.3_2'
@@ -6745,7 +6745,7 @@ profession:
         text: 'Максимум боевого духа: 7%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 18%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '3'
       name: Земная твердь
       selection_id: '2.3_3'
@@ -6765,7 +6765,7 @@ profession:
         text: 'Максимум здоровья: 14%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 21%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '4'
       name: Земная твердь
       selection_id: '2.3_1'
@@ -6785,7 +6785,7 @@ profession:
         text: 'Максимум боевого духа: 14%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 21%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '4'
       name: Земная твердь
       selection_id: '2.3_2'
@@ -6807,7 +6807,7 @@ profession:
         text: 'Максимум боевого духа: 8%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 21%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '4'
       name: Земная твердь
       selection_id: '2.3_3'
@@ -6827,7 +6827,7 @@ profession:
         text: 'Максимум здоровья: 16%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 24%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '5'
       name: Земная твердь
       selection_id: '2.3_1'
@@ -6847,7 +6847,7 @@ profession:
         text: 'Максимум боевого духа: 16%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 24%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '5'
       name: Земная твердь
       selection_id: '2.3_2'
@@ -6869,7 +6869,7 @@ profession:
         text: 'Максимум боевого духа: 9%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 24%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '5'
       name: Земная твердь
       selection_id: '2.3_3'
@@ -6889,7 +6889,7 @@ profession:
         text: 'Максимум здоровья: 18%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 27%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '6'
       name: Земная твердь
       selection_id: '2.3_1'
@@ -6909,7 +6909,7 @@ profession:
         text: 'Максимум боевого духа: 18%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 27%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '6'
       name: Земная твердь
       selection_id: '2.3_2'
@@ -6931,7 +6931,7 @@ profession:
         text: 'Максимум боевого духа: 10%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 27%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '6'
       name: Земная твердь
       selection_id: '2.3_3'
@@ -6951,7 +6951,7 @@ profession:
         text: 'Максимум здоровья: 20%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 30%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '7'
       name: Земная твердь
       selection_id: '2.3_1'
@@ -6971,7 +6971,7 @@ profession:
         text: 'Максимум боевого духа: 20%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 30%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '7'
       name: Земная твердь
       selection_id: '2.3_2'
@@ -6993,7 +6993,7 @@ profession:
         text: 'Максимум боевого духа: 11%'
       - kind: value
         text: 'Физическая атака при использовании одноручного оружия (Молот): 30%'
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '7'
       name: Земная твердь
       selection_id: '2.3_3'
@@ -8728,7 +8728,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '1'
       name: Каменный век
       selection_id: '2.7_1'
@@ -8749,7 +8749,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '1'
       name: Каменный век
       selection_id: '2.7_2'
@@ -8770,7 +8770,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '1'
       name: Каменный век
       selection_id: '2.7_3'
@@ -8791,7 +8791,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '2'
       name: Каменный век
       selection_id: '2.7_1'
@@ -8812,7 +8812,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '2'
       name: Каменный век
       selection_id: '2.7_2'
@@ -8833,7 +8833,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '2'
       name: Каменный век
       selection_id: '2.7_3'
@@ -8854,7 +8854,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '3'
       name: Каменный век
       selection_id: '2.7_1'
@@ -8875,7 +8875,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '3'
       name: Каменный век
       selection_id: '2.7_2'
@@ -8896,7 +8896,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '3'
       name: Каменный век
       selection_id: '2.7_3'
@@ -8917,7 +8917,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '4'
       name: Каменный век
       selection_id: '2.7_1'
@@ -8938,7 +8938,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '4'
       name: Каменный век
       selection_id: '2.7_2'
@@ -8959,7 +8959,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '4'
       name: Каменный век
       selection_id: '2.7_3'
@@ -8980,7 +8980,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '5'
       name: Каменный век
       selection_id: '2.7_1'
@@ -9001,7 +9001,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '5'
       name: Каменный век
       selection_id: '2.7_2'
@@ -9022,7 +9022,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '5'
       name: Каменный век
       selection_id: '2.7_3'
@@ -9043,7 +9043,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '6'
       name: Каменный век
       selection_id: '2.7_1'
@@ -9064,7 +9064,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '6'
       name: Каменный век
       selection_id: '2.7_2'
@@ -9085,7 +9085,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '6'
       name: Каменный век
       selection_id: '2.7_3'
@@ -9106,7 +9106,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '7'
       name: Каменный век
       selection_id: '2.7_1'
@@ -9127,7 +9127,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '7'
       name: Каменный век
       selection_id: '2.7_2'
@@ -9148,7 +9148,7 @@ profession:
         text: 'Физическая защита (Любая броня): 40%'
       - kind: value
         text: 'Магическая защита (Любая броня): 40%'
-      icon: /icon/skill4432.jpg
+      icon: /icon/client-skills/icon.skill4432.png
       level: '7'
       name: Каменный век
       selection_id: '2.7_3'

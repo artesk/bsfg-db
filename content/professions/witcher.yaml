@@ -4050,7 +4050,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 8%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '1'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4068,7 +4068,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '2'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4086,7 +4086,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 12%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '3'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4104,7 +4104,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 14%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '4'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4122,7 +4122,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 16%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '5'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4140,7 +4140,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '6'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4158,7 +4158,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '7'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4176,7 +4176,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '8'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4194,7 +4194,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '9'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4212,7 +4212,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '10'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4230,7 +4230,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 26%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '11'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4248,7 +4248,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '12'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4266,7 +4266,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 28%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '13'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4284,7 +4284,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 29%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '14'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4302,7 +4302,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '15'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4320,7 +4320,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 31%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '16'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4338,7 +4338,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 32%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '17'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4356,7 +4356,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '18'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4374,7 +4374,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 34%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '19'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4392,7 +4392,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '20'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4696,7 +4696,7 @@ profession:
       - kind: value
         text: 'Возможность критической атаки физическим умением c оружием (Все) с шансом: 20%, и силой:
           30%'
-      icon: /icon/mob_icon44.jpg
+      icon: /icon/client-skills/bsfg.mob_icon44.png
       level: '1'
       name: Ведьмак
       selection_id: ''
@@ -4720,7 +4720,7 @@ profession:
       - kind: value
         text: 'Возможность критической атаки физическим умением c оружием (Все) с шансом: 20%, и силой:
           30%'
-      icon: /icon/mob_icon44.jpg
+      icon: /icon/client-skills/bsfg.mob_icon44.png
       level: '2'
       name: Ведьмак
       selection_id: ''
@@ -4744,7 +4744,7 @@ profession:
       - kind: value
         text: 'Возможность критической атаки физическим умением c оружием (Все) с шансом: 20%, и силой:
           30%'
-      icon: /icon/mob_icon44.jpg
+      icon: /icon/client-skills/bsfg.mob_icon44.png
       level: '3'
       name: Ведьмак
       selection_id: ''
@@ -4768,7 +4768,7 @@ profession:
       - kind: value
         text: 'Возможность критической атаки физическим умением c оружием (Все) с шансом: 20%, и силой:
           30%'
-      icon: /icon/mob_icon44.jpg
+      icon: /icon/client-skills/bsfg.mob_icon44.png
       level: '4'
       name: Ведьмак
       selection_id: ''
@@ -4792,7 +4792,7 @@ profession:
       - kind: value
         text: 'Возможность критической атаки физическим умением c оружием (Все) с шансом: 20%, и силой:
           30%'
-      icon: /icon/mob_icon44.jpg
+      icon: /icon/client-skills/bsfg.mob_icon44.png
       level: '5'
       name: Ведьмак
       selection_id: ''
@@ -4816,7 +4816,7 @@ profession:
       - kind: value
         text: 'Возможность критической атаки физическим умением c оружием (Все) с шансом: 20%, и силой:
           30%'
-      icon: /icon/mob_icon44.jpg
+      icon: /icon/client-skills/bsfg.mob_icon44.png
       level: '6'
       name: Ведьмак
       selection_id: ''
@@ -4840,7 +4840,7 @@ profession:
       - kind: value
         text: 'Возможность критической атаки физическим умением c оружием (Все) с шансом: 20%, и силой:
           30%'
-      icon: /icon/mob_icon44.jpg
+      icon: /icon/client-skills/bsfg.mob_icon44.png
       level: '7'
       name: Ведьмак
       selection_id: ''
@@ -4854,7 +4854,7 @@ profession:
       description: Заряжает оружие силой теней на 6 ударов. 5 ударов дополнительно нанесут по 2000 фиксированного
         урона, а последний обезоружит врага и снизит его защиту на 10% на 5 секунд.
       effects: []
-      icon: /icon/Icon4/imprison_aka_manaf1.jpg
+      icon: /icon/client-skills/icon4.l2icon.imprison_aka_manaf1.png
       level: '1'
       name: Клинок теней
       selection_id: ''
@@ -4875,7 +4875,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13056.jpg
+      icon: /icon/client-skills/bsfg.s13056.png
       level: '1'
       name: Рывок ведьмака
       selection_id: '2.1_0'
@@ -4894,7 +4894,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13075.jpg
+      icon: /icon/client-skills/bsfg.s13075.png
       level: '1'
       name: Рывок ведьмака
       selection_id: '2.1_1'
@@ -4913,7 +4913,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13098.jpg
+      icon: /icon/client-skills/bsfg.s13098.png
       level: '1'
       name: Рывок ведьмака
       selection_id: '2.1_2'
@@ -4932,7 +4932,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13056.jpg
+      icon: /icon/client-skills/bsfg.s13056.png
       level: '2'
       name: Рывок ведьмака
       selection_id: '2.1_3'
@@ -4951,7 +4951,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13075.jpg
+      icon: /icon/client-skills/bsfg.s13075.png
       level: '2'
       name: Рывок ведьмака
       selection_id: '2.1_4'
@@ -4970,7 +4970,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13098.jpg
+      icon: /icon/client-skills/bsfg.s13098.png
       level: '2'
       name: Рывок ведьмака
       selection_id: '2.1_5'
@@ -4989,7 +4989,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13056.jpg
+      icon: /icon/client-skills/bsfg.s13056.png
       level: '3'
       name: Рывок ведьмака
       selection_id: '2.1_1'
@@ -5008,7 +5008,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13075.jpg
+      icon: /icon/client-skills/bsfg.s13075.png
       level: '3'
       name: Рывок ведьмака
       selection_id: '2.1_2'
@@ -5027,7 +5027,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13098.jpg
+      icon: /icon/client-skills/bsfg.s13098.png
       level: '3'
       name: Рывок ведьмака
       selection_id: '2.1_3'
@@ -5046,7 +5046,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13056.jpg
+      icon: /icon/client-skills/bsfg.s13056.png
       level: '4'
       name: Рывок ведьмака
       selection_id: '2.1_1'
@@ -5065,7 +5065,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13075.jpg
+      icon: /icon/client-skills/bsfg.s13075.png
       level: '4'
       name: Рывок ведьмака
       selection_id: '2.1_2'
@@ -5084,7 +5084,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13098.jpg
+      icon: /icon/client-skills/bsfg.s13098.png
       level: '4'
       name: Рывок ведьмака
       selection_id: '2.1_3'
@@ -5103,7 +5103,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13056.jpg
+      icon: /icon/client-skills/bsfg.s13056.png
       level: '5'
       name: Рывок ведьмака
       selection_id: '2.1_1'
@@ -5122,7 +5122,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13075.jpg
+      icon: /icon/client-skills/bsfg.s13075.png
       level: '5'
       name: Рывок ведьмака
       selection_id: '2.1_2'
@@ -5141,7 +5141,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13098.jpg
+      icon: /icon/client-skills/bsfg.s13098.png
       level: '5'
       name: Рывок ведьмака
       selection_id: '2.1_3'
@@ -5160,7 +5160,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13056.jpg
+      icon: /icon/client-skills/bsfg.s13056.png
       level: '6'
       name: Рывок ведьмака
       selection_id: '2.1_1'
@@ -5179,7 +5179,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13075.jpg
+      icon: /icon/client-skills/bsfg.s13075.png
       level: '6'
       name: Рывок ведьмака
       selection_id: '2.1_2'
@@ -5198,7 +5198,7 @@ profession:
       effects:
       - kind: value
         text: 'Перемещение на: 500'
-      icon: /icon/s13098.jpg
+      icon: /icon/client-skills/bsfg.s13098.png
       level: '6'
       name: Рывок ведьмака
       selection_id: '2.1_3'
@@ -5219,7 +5219,7 @@ profession:
         text: 'Перемещение на: 500'
       - kind: value
         text: 'Паралич: 3 сек.'
-      icon: /icon/s13056.jpg
+      icon: /icon/client-skills/bsfg.s13056.png
       level: '7'
       name: Рывок ведьмака
       selection_id: '2.1_1'
@@ -5240,7 +5240,7 @@ profession:
         text: 'Перемещение на: 500'
       - kind: value
         text: 'Паралич: 3 сек.'
-      icon: /icon/s13075.jpg
+      icon: /icon/client-skills/bsfg.s13075.png
       level: '7'
       name: Рывок ведьмака
       selection_id: '2.1_2'
@@ -5261,7 +5261,7 @@ profession:
         text: 'Перемещение на: 500'
       - kind: value
         text: 'Обездвиживание: 3 сек.'
-      icon: /icon/s13098.jpg
+      icon: /icon/client-skills/bsfg.s13098.png
       level: '7'
       name: Рывок ведьмака
       selection_id: '2.1_3'
@@ -5304,7 +5304,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 100ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 100ед.'
-      icon: /icon/s13078.jpg
+      icon: /icon/client-skills/bsfg.s13078.png
       level: '1'
       name: Доспех тьмы
       selection_id: '2.2_2'
@@ -5330,7 +5330,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 50ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 50ед.'
-      icon: /icon/s13101.jpg
+      icon: /icon/client-skills/bsfg.s13101.png
       level: '1'
       name: Доспех тьмы
       selection_id: '2.2_3'
@@ -5373,7 +5373,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 125ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 125ед.'
-      icon: /icon/s13078.jpg
+      icon: /icon/client-skills/bsfg.s13078.png
       level: '2'
       name: Доспех тьмы
       selection_id: '2.2_2'
@@ -5399,7 +5399,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 100ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 100ед.'
-      icon: /icon/s13101.jpg
+      icon: /icon/client-skills/bsfg.s13101.png
       level: '2'
       name: Доспех тьмы
       selection_id: '2.2_3'
@@ -5442,7 +5442,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 150ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 150ед.'
-      icon: /icon/s13078.jpg
+      icon: /icon/client-skills/bsfg.s13078.png
       level: '3'
       name: Доспех тьмы
       selection_id: '2.2_2'
@@ -5468,7 +5468,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 150ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 150ед.'
-      icon: /icon/s13101.jpg
+      icon: /icon/client-skills/bsfg.s13101.png
       level: '3'
       name: Доспех тьмы
       selection_id: '2.2_3'
@@ -5511,7 +5511,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 175ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 175ед.'
-      icon: /icon/s13078.jpg
+      icon: /icon/client-skills/bsfg.s13078.png
       level: '4'
       name: Доспех тьмы
       selection_id: '2.2_2'
@@ -5537,7 +5537,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 200ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 200ед.'
-      icon: /icon/s13101.jpg
+      icon: /icon/client-skills/bsfg.s13101.png
       level: '4'
       name: Доспех тьмы
       selection_id: '2.2_3'
@@ -5580,7 +5580,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 200ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 200ед.'
-      icon: /icon/s13078.jpg
+      icon: /icon/client-skills/bsfg.s13078.png
       level: '5'
       name: Доспех тьмы
       selection_id: '2.2_2'
@@ -5606,7 +5606,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 250ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 250ед.'
-      icon: /icon/s13101.jpg
+      icon: /icon/client-skills/bsfg.s13101.png
       level: '5'
       name: Доспех тьмы
       selection_id: '2.2_3'
@@ -5649,7 +5649,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 225ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 225ед.'
-      icon: /icon/s13078.jpg
+      icon: /icon/client-skills/bsfg.s13078.png
       level: '6'
       name: Доспех тьмы
       selection_id: '2.2_2'
@@ -5675,7 +5675,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 300ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 300ед.'
-      icon: /icon/s13101.jpg
+      icon: /icon/client-skills/bsfg.s13101.png
       level: '6'
       name: Доспех тьмы
       selection_id: '2.2_3'
@@ -5718,7 +5718,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 250ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 250ед.'
-      icon: /icon/s13078.jpg
+      icon: /icon/client-skills/bsfg.s13078.png
       level: '7'
       name: Доспех тьмы
       selection_id: '2.2_2'
@@ -5744,7 +5744,7 @@ profession:
         text: 'Регенерация здоровья каждые 4 секунды (Любая броня): 350ед.'
       - kind: value
         text: 'Регенерация боевого духа (Любая броня): 350ед.'
-      icon: /icon/s13101.jpg
+      icon: /icon/client-skills/bsfg.s13101.png
       level: '7'
       name: Доспех тьмы
       selection_id: '2.2_3'
@@ -5765,7 +5765,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 4%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 4%'
-      icon: /icon/s13060.jpg
+      icon: /icon/client-skills/bsfg.s13060.png
       level: '1'
       name: Темное искусство
       selection_id: '2.3_1'
@@ -5780,7 +5780,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 4%'
-      icon: /icon/s13079.jpg
+      icon: /icon/client-skills/bsfg.s13079.png
       level: '1'
       name: Темное искусство
       selection_id: '2.3_2'
@@ -5799,7 +5799,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 2.2%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 2.2%'
-      icon: /icon/s13102.jpg
+      icon: /icon/client-skills/bsfg.s13102.png
       level: '1'
       name: Темное искусство
       selection_id: '2.3_3'
@@ -5816,7 +5816,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 4.5%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 4.5%'
-      icon: /icon/s13060.jpg
+      icon: /icon/client-skills/bsfg.s13060.png
       level: '2'
       name: Темное искусство
       selection_id: '2.3_1'
@@ -5831,7 +5831,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 4.5%'
-      icon: /icon/s13079.jpg
+      icon: /icon/client-skills/bsfg.s13079.png
       level: '2'
       name: Темное искусство
       selection_id: '2.3_2'
@@ -5850,7 +5850,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 2.5%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 2.5%'
-      icon: /icon/s13102.jpg
+      icon: /icon/client-skills/bsfg.s13102.png
       level: '2'
       name: Темное искусство
       selection_id: '2.3_3'
@@ -5867,7 +5867,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 5%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 5%'
-      icon: /icon/s13060.jpg
+      icon: /icon/client-skills/bsfg.s13060.png
       level: '3'
       name: Темное искусство
       selection_id: '2.3_1'
@@ -5882,7 +5882,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 5%'
-      icon: /icon/s13079.jpg
+      icon: /icon/client-skills/bsfg.s13079.png
       level: '3'
       name: Темное искусство
       selection_id: '2.3_2'
@@ -5901,7 +5901,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 2.8%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 2.8%'
-      icon: /icon/s13102.jpg
+      icon: /icon/client-skills/bsfg.s13102.png
       level: '3'
       name: Темное искусство
       selection_id: '2.3_3'
@@ -5918,7 +5918,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 5.5%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 5.5%'
-      icon: /icon/s13060.jpg
+      icon: /icon/client-skills/bsfg.s13060.png
       level: '4'
       name: Темное искусство
       selection_id: '2.3_1'
@@ -5933,7 +5933,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 5.5%'
-      icon: /icon/s13079.jpg
+      icon: /icon/client-skills/bsfg.s13079.png
       level: '4'
       name: Темное искусство
       selection_id: '2.3_2'
@@ -5952,7 +5952,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 3.1%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 3.1%'
-      icon: /icon/s13102.jpg
+      icon: /icon/client-skills/bsfg.s13102.png
       level: '4'
       name: Темное искусство
       selection_id: '2.3_3'
@@ -5969,7 +5969,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 6%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 6%'
-      icon: /icon/s13060.jpg
+      icon: /icon/client-skills/bsfg.s13060.png
       level: '5'
       name: Темное искусство
       selection_id: '2.3_1'
@@ -5984,7 +5984,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 6%'
-      icon: /icon/s13079.jpg
+      icon: /icon/client-skills/bsfg.s13079.png
       level: '5'
       name: Темное искусство
       selection_id: '2.3_2'
@@ -6003,7 +6003,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 3.4%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 3.4%'
-      icon: /icon/s13102.jpg
+      icon: /icon/client-skills/bsfg.s13102.png
       level: '5'
       name: Темное искусство
       selection_id: '2.3_3'
@@ -6020,7 +6020,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 6.5%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 6.5%'
-      icon: /icon/s13060.jpg
+      icon: /icon/client-skills/bsfg.s13060.png
       level: '6'
       name: Темное искусство
       selection_id: '2.3_1'
@@ -6035,7 +6035,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 6.5%'
-      icon: /icon/s13079.jpg
+      icon: /icon/client-skills/bsfg.s13079.png
       level: '6'
       name: Темное искусство
       selection_id: '2.3_2'
@@ -6054,7 +6054,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 3.7%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 3.7%'
-      icon: /icon/s13102.jpg
+      icon: /icon/client-skills/bsfg.s13102.png
       level: '6'
       name: Темное искусство
       selection_id: '2.3_3'
@@ -6071,7 +6071,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 7%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 7%'
-      icon: /icon/s13060.jpg
+      icon: /icon/client-skills/bsfg.s13060.png
       level: '7'
       name: Темное искусство
       selection_id: '2.3_1'
@@ -6086,7 +6086,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 7%'
-      icon: /icon/s13079.jpg
+      icon: /icon/client-skills/bsfg.s13079.png
       level: '7'
       name: Темное искусство
       selection_id: '2.3_2'
@@ -6105,7 +6105,7 @@ profession:
         text: 'Физическая защита (Тяжелая броня): 4%'
       - kind: value
         text: 'Магическая защита (Тяжелая броня): 4%'
-      icon: /icon/s13102.jpg
+      icon: /icon/client-skills/bsfg.s13102.png
       level: '7'
       name: Темное искусство
       selection_id: '2.3_3'
@@ -6123,7 +6123,7 @@ profession:
         text: 'Сила физического умения: 310'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13049.jpg
+      icon: /icon/client-skills/bsfg.s13049.png
       level: '1'
       name: Внутреннее зло
       selection_id: '2.4_1'
@@ -6167,7 +6167,7 @@ profession:
         text: 'Сила физического умения: 310'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13087.jpg
+      icon: /icon/client-skills/bsfg.s13087.png
       level: '1'
       name: Внутреннее зло
       selection_id: '2.4_3'
@@ -6189,7 +6189,7 @@ profession:
         text: 'Сила физического умения: 325'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13049.jpg
+      icon: /icon/client-skills/bsfg.s13049.png
       level: '2'
       name: Внутреннее зло
       selection_id: '2.4_1'
@@ -6233,7 +6233,7 @@ profession:
         text: 'Сила физического умения: 325'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13087.jpg
+      icon: /icon/client-skills/bsfg.s13087.png
       level: '2'
       name: Внутреннее зло
       selection_id: '2.4_3'
@@ -6255,7 +6255,7 @@ profession:
         text: 'Сила физического умения: 340'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13049.jpg
+      icon: /icon/client-skills/bsfg.s13049.png
       level: '3'
       name: Внутреннее зло
       selection_id: '2.4_1'
@@ -6299,7 +6299,7 @@ profession:
         text: 'Сила физического умения: 340'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13087.jpg
+      icon: /icon/client-skills/bsfg.s13087.png
       level: '3'
       name: Внутреннее зло
       selection_id: '2.4_3'
@@ -6321,7 +6321,7 @@ profession:
         text: 'Сила физического умения: 355'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13049.jpg
+      icon: /icon/client-skills/bsfg.s13049.png
       level: '4'
       name: Внутреннее зло
       selection_id: '2.4_1'
@@ -6365,7 +6365,7 @@ profession:
         text: 'Сила физического умения: 355'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13087.jpg
+      icon: /icon/client-skills/bsfg.s13087.png
       level: '4'
       name: Внутреннее зло
       selection_id: '2.4_3'
@@ -6387,7 +6387,7 @@ profession:
         text: 'Сила физического умения: 370'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13049.jpg
+      icon: /icon/client-skills/bsfg.s13049.png
       level: '5'
       name: Внутреннее зло
       selection_id: '2.4_1'
@@ -6431,7 +6431,7 @@ profession:
         text: 'Сила физического умения: 370'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13087.jpg
+      icon: /icon/client-skills/bsfg.s13087.png
       level: '5'
       name: Внутреннее зло
       selection_id: '2.4_3'
@@ -6453,7 +6453,7 @@ profession:
         text: 'Сила физического умения: 385'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13049.jpg
+      icon: /icon/client-skills/bsfg.s13049.png
       level: '6'
       name: Внутреннее зло
       selection_id: '2.4_1'
@@ -6497,7 +6497,7 @@ profession:
         text: 'Сила физического умения: 385'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/s13087.jpg
+      icon: /icon/client-skills/bsfg.s13087.png
       level: '6'
       name: Внутреннее зло
       selection_id: '2.4_3'
@@ -6529,7 +6529,7 @@ profession:
         text: 'Скорость атаки с оружием (Меч): 37%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/s13049.jpg
+      icon: /icon/client-skills/bsfg.s13049.png
       level: '7'
       name: Внутреннее зло
       selection_id: '2.4_1'
@@ -6593,7 +6593,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 37ед.'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/s13087.jpg
+      icon: /icon/client-skills/bsfg.s13087.png
       level: '7'
       name: Внутреннее зло
       selection_id: '2.4_3'
@@ -6647,7 +6647,7 @@ profession:
         практически полностью неуязвимы и защищены от проклятий. Если Вы проведет обряд на враге, то время
         от времени ему будет наноситься кратковременное оглушение.
       effects: []
-      icon: /icon/s13092.jpg
+      icon: /icon/client-skills/bsfg.s13092.png
       level: '1'
       name: Языческий обряд
       selection_id: '2.5_3'
@@ -6701,7 +6701,7 @@ profession:
         практически полностью неуязвимы и защищены от проклятий. Если Вы проведет обряд на враге, то время
         от времени ему будет наноситься кратковременное оглушение.
       effects: []
-      icon: /icon/s13092.jpg
+      icon: /icon/client-skills/bsfg.s13092.png
       level: '2'
       name: Языческий обряд
       selection_id: '2.5_3'
@@ -6755,7 +6755,7 @@ profession:
         практически полностью неуязвимы и защищены от проклятий. Если Вы проведет обряд на враге, то время
         от времени ему будет наноситься кратковременное оглушение.
       effects: []
-      icon: /icon/s13092.jpg
+      icon: /icon/client-skills/bsfg.s13092.png
       level: '3'
       name: Языческий обряд
       selection_id: '2.5_3'
@@ -6809,7 +6809,7 @@ profession:
         практически полностью неуязвимы и защищены от проклятий. Если Вы проведет обряд на враге, то время
         от времени ему будет наноситься кратковременное оглушение.
       effects: []
-      icon: /icon/s13092.jpg
+      icon: /icon/client-skills/bsfg.s13092.png
       level: '4'
       name: Языческий обряд
       selection_id: '2.5_3'
@@ -6863,7 +6863,7 @@ profession:
         практически полностью неуязвимы и защищены от проклятий. Если Вы проведет обряд на враге, то время
         от времени ему будет наноситься кратковременное оглушение.
       effects: []
-      icon: /icon/s13092.jpg
+      icon: /icon/client-skills/bsfg.s13092.png
       level: '5'
       name: Языческий обряд
       selection_id: '2.5_3'
@@ -6917,7 +6917,7 @@ profession:
         практически полностью неуязвимы и защищены от проклятий. Если Вы проведет обряд на враге, то время
         от времени ему будет наноситься кратковременное оглушение.
       effects: []
-      icon: /icon/s13092.jpg
+      icon: /icon/client-skills/bsfg.s13092.png
       level: '6'
       name: Языческий обряд
       selection_id: '2.5_3'
@@ -6971,7 +6971,7 @@ profession:
         практически полностью неуязвимы и защищены от проклятий. Если Вы проведет обряд на враге, то время
         от времени ему будет наноситься кратковременное оглушение.
       effects: []
-      icon: /icon/s13092.jpg
+      icon: /icon/client-skills/bsfg.s13092.png
       level: '7'
       name: Языческий обряд
       selection_id: '2.5_3'
@@ -6989,7 +6989,7 @@ profession:
         увеличивает его защиту от 15% до 33%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13065.jpg
+      icon: /icon/client-skills/bsfg.s13065.png
       level: '1'
       name: Оберег умерших
       selection_id: '2.6_1'
@@ -7003,7 +7003,7 @@ profession:
         увеличивает его атаку от 7% до 16% и защиту от 7% до 16%. Со временем духи возвращаются в мир
         усопших, кроме одного, который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13084.jpg
+      icon: /icon/client-skills/bsfg.s13084.png
       level: '1'
       name: Оберег умерших
       selection_id: '2.6_2'
@@ -7017,7 +7017,7 @@ profession:
         увеличивает его атаку от 15% до 24%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13107.jpg
+      icon: /icon/client-skills/bsfg.s13107.png
       level: '1'
       name: Оберег умерших
       selection_id: '2.6_3'
@@ -7031,7 +7031,7 @@ profession:
         увеличивает его защиту от 15% до 33%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13065.jpg
+      icon: /icon/client-skills/bsfg.s13065.png
       level: '2'
       name: Оберег умерших
       selection_id: '2.6_1'
@@ -7045,7 +7045,7 @@ profession:
         увеличивает его атаку от 7% до 16% и защиту от 7% до 16%. Со временем духи возвращаются в мир
         усопших, кроме одного, который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13084.jpg
+      icon: /icon/client-skills/bsfg.s13084.png
       level: '2'
       name: Оберег умерших
       selection_id: '2.6_2'
@@ -7059,7 +7059,7 @@ profession:
         увеличивает его атаку от 15% до 24%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13107.jpg
+      icon: /icon/client-skills/bsfg.s13107.png
       level: '2'
       name: Оберег умерших
       selection_id: '2.6_3'
@@ -7073,7 +7073,7 @@ profession:
         увеличивает его защиту от 15% до 33%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13065.jpg
+      icon: /icon/client-skills/bsfg.s13065.png
       level: '3'
       name: Оберег умерших
       selection_id: '2.6_1'
@@ -7087,7 +7087,7 @@ profession:
         увеличивает его атаку от 7% до 16% и защиту от 7% до 16%. Со временем духи возвращаются в мир
         усопших, кроме одного, который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13084.jpg
+      icon: /icon/client-skills/bsfg.s13084.png
       level: '3'
       name: Оберег умерших
       selection_id: '2.6_2'
@@ -7101,7 +7101,7 @@ profession:
         увеличивает его атаку от 15% до 24%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13107.jpg
+      icon: /icon/client-skills/bsfg.s13107.png
       level: '3'
       name: Оберег умерших
       selection_id: '2.6_3'
@@ -7115,7 +7115,7 @@ profession:
         увеличивает его защиту от 15% до 33%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13065.jpg
+      icon: /icon/client-skills/bsfg.s13065.png
       level: '4'
       name: Оберег умерших
       selection_id: '2.6_1'
@@ -7129,7 +7129,7 @@ profession:
         увеличивает его атаку от 7% до 16% и защиту от 7% до 16%. Со временем духи возвращаются в мир
         усопших, кроме одного, который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13084.jpg
+      icon: /icon/client-skills/bsfg.s13084.png
       level: '4'
       name: Оберег умерших
       selection_id: '2.6_2'
@@ -7143,7 +7143,7 @@ profession:
         увеличивает его атаку от 15% до 24%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13107.jpg
+      icon: /icon/client-skills/bsfg.s13107.png
       level: '4'
       name: Оберег умерших
       selection_id: '2.6_3'
@@ -7157,7 +7157,7 @@ profession:
         увеличивает его защиту от 15% до 33%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13065.jpg
+      icon: /icon/client-skills/bsfg.s13065.png
       level: '5'
       name: Оберег умерших
       selection_id: '2.6_1'
@@ -7171,7 +7171,7 @@ profession:
         увеличивает его атаку от 7% до 16% и защиту от 7% до 16%. Со временем духи возвращаются в мир
         усопших, кроме одного, который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13084.jpg
+      icon: /icon/client-skills/bsfg.s13084.png
       level: '5'
       name: Оберег умерших
       selection_id: '2.6_2'
@@ -7185,7 +7185,7 @@ profession:
         увеличивает его атаку от 15% до 24%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13107.jpg
+      icon: /icon/client-skills/bsfg.s13107.png
       level: '5'
       name: Оберег умерших
       selection_id: '2.6_3'
@@ -7199,7 +7199,7 @@ profession:
         увеличивает его защиту от 15% до 33%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13065.jpg
+      icon: /icon/client-skills/bsfg.s13065.png
       level: '6'
       name: Оберег умерших
       selection_id: '2.6_1'
@@ -7213,7 +7213,7 @@ profession:
         увеличивает его атаку от 7% до 16% и защиту от 7% до 16%. Со временем духи возвращаются в мир
         усопших, кроме одного, который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13084.jpg
+      icon: /icon/client-skills/bsfg.s13084.png
       level: '6'
       name: Оберег умерших
       selection_id: '2.6_2'
@@ -7227,7 +7227,7 @@ profession:
         увеличивает его атаку от 15% до 24%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13107.jpg
+      icon: /icon/client-skills/bsfg.s13107.png
       level: '6'
       name: Оберег умерших
       selection_id: '2.6_3'
@@ -7241,7 +7241,7 @@ profession:
         увеличивает его защиту от 15% до 33%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13065.jpg
+      icon: /icon/client-skills/bsfg.s13065.png
       level: '7'
       name: Оберег умерших
       selection_id: '2.6_1'
@@ -7255,7 +7255,7 @@ profession:
         увеличивает его атаку от 7% до 16% и защиту от 7% до 16%. Со временем духи возвращаются в мир
         усопших, кроме одного, который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13084.jpg
+      icon: /icon/client-skills/bsfg.s13084.png
       level: '7'
       name: Оберег умерших
       selection_id: '2.6_2'
@@ -7269,7 +7269,7 @@ profession:
         увеличивает его атаку от 15% до 24%. Со временем духи возвращаются в мир усопших, кроме одного,
         который находится с Ведьмаком более долгое время.
       effects: []
-      icon: /icon/s13107.jpg
+      icon: /icon/client-skills/bsfg.s13107.png
       level: '7'
       name: Оберег умерших
       selection_id: '2.6_3'
@@ -7296,7 +7296,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13062.jpg
+      icon: /icon/client-skills/bsfg.s13062.png
       level: '1'
       name: Ужасающий удар
       selection_id: '2.7_1'
@@ -7327,7 +7327,7 @@ profession:
         text: 'Магическая атака (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13081.jpg
+      icon: /icon/client-skills/bsfg.s13081.png
       level: '1'
       name: Ужасающий удар
       selection_id: '2.7_2'
@@ -7362,7 +7362,7 @@ profession:
         text: 'Шанс крит. атаки магии: -30ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13104.jpg
+      icon: /icon/client-skills/bsfg.s13104.png
       level: '1'
       name: Ужасающий удар
       selection_id: '2.7_3'
@@ -7393,7 +7393,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13062.jpg
+      icon: /icon/client-skills/bsfg.s13062.png
       level: '2'
       name: Ужасающий удар
       selection_id: '2.7_1'
@@ -7424,7 +7424,7 @@ profession:
         text: 'Магическая атака (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13081.jpg
+      icon: /icon/client-skills/bsfg.s13081.png
       level: '2'
       name: Ужасающий удар
       selection_id: '2.7_2'
@@ -7459,7 +7459,7 @@ profession:
         text: 'Шанс крит. атаки магии: -30ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13104.jpg
+      icon: /icon/client-skills/bsfg.s13104.png
       level: '2'
       name: Ужасающий удар
       selection_id: '2.7_3'
@@ -7490,7 +7490,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13062.jpg
+      icon: /icon/client-skills/bsfg.s13062.png
       level: '3'
       name: Ужасающий удар
       selection_id: '2.7_1'
@@ -7521,7 +7521,7 @@ profession:
         text: 'Магическая атака (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13081.jpg
+      icon: /icon/client-skills/bsfg.s13081.png
       level: '3'
       name: Ужасающий удар
       selection_id: '2.7_2'
@@ -7556,7 +7556,7 @@ profession:
         text: 'Шанс крит. атаки магии: -30ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13104.jpg
+      icon: /icon/client-skills/bsfg.s13104.png
       level: '3'
       name: Ужасающий удар
       selection_id: '2.7_3'
@@ -7587,7 +7587,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13062.jpg
+      icon: /icon/client-skills/bsfg.s13062.png
       level: '4'
       name: Ужасающий удар
       selection_id: '2.7_1'
@@ -7618,7 +7618,7 @@ profession:
         text: 'Магическая атака (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13081.jpg
+      icon: /icon/client-skills/bsfg.s13081.png
       level: '4'
       name: Ужасающий удар
       selection_id: '2.7_2'
@@ -7653,7 +7653,7 @@ profession:
         text: 'Шанс крит. атаки магии: -30ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13104.jpg
+      icon: /icon/client-skills/bsfg.s13104.png
       level: '4'
       name: Ужасающий удар
       selection_id: '2.7_3'
@@ -7684,7 +7684,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13062.jpg
+      icon: /icon/client-skills/bsfg.s13062.png
       level: '5'
       name: Ужасающий удар
       selection_id: '2.7_1'
@@ -7715,7 +7715,7 @@ profession:
         text: 'Магическая атака (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13081.jpg
+      icon: /icon/client-skills/bsfg.s13081.png
       level: '5'
       name: Ужасающий удар
       selection_id: '2.7_2'
@@ -7750,7 +7750,7 @@ profession:
         text: 'Шанс крит. атаки магии: -30ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13104.jpg
+      icon: /icon/client-skills/bsfg.s13104.png
       level: '5'
       name: Ужасающий удар
       selection_id: '2.7_3'
@@ -7781,7 +7781,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13062.jpg
+      icon: /icon/client-skills/bsfg.s13062.png
       level: '6'
       name: Ужасающий удар
       selection_id: '2.7_1'
@@ -7812,7 +7812,7 @@ profession:
         text: 'Магическая атака (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13081.jpg
+      icon: /icon/client-skills/bsfg.s13081.png
       level: '6'
       name: Ужасающий удар
       selection_id: '2.7_2'
@@ -7847,7 +7847,7 @@ profession:
         text: 'Шанс крит. атаки магии: -30ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13104.jpg
+      icon: /icon/client-skills/bsfg.s13104.png
       level: '6'
       name: Ужасающий удар
       selection_id: '2.7_3'
@@ -7878,7 +7878,7 @@ profession:
         text: 'Скорость чтения заклинаний (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13062.jpg
+      icon: /icon/client-skills/bsfg.s13062.png
       level: '7'
       name: Ужасающий удар
       selection_id: '2.7_1'
@@ -7909,7 +7909,7 @@ profession:
         text: 'Магическая атака (Любая броня): -25%'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13081.jpg
+      icon: /icon/client-skills/bsfg.s13081.png
       level: '7'
       name: Ужасающий удар
       selection_id: '2.7_2'
@@ -7944,7 +7944,7 @@ profession:
         text: 'Шанс крит. атаки магии: -30ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/s13104.jpg
+      icon: /icon/client-skills/bsfg.s13104.png
       level: '7'
       name: Ужасающий удар
       selection_id: '2.7_3'

@@ -2835,7 +2835,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 4ед.'
       - kind: value
         text: 'Максимум здоровья: 8%'
-      icon: /icon/skill10336.jpg
+      icon: /icon/client-skills/icon.skill10336.png
       level: '1'
       name: Оплакивание
       selection_id: ''
@@ -2863,7 +2863,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 5ед.'
       - kind: value
         text: 'Максимум здоровья: 10%'
-      icon: /icon/skill10336.jpg
+      icon: /icon/client-skills/icon.skill10336.png
       level: '2'
       name: Оплакивание
       selection_id: ''
@@ -2891,7 +2891,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 6ед.'
       - kind: value
         text: 'Максимум здоровья: 12%'
-      icon: /icon/skill10336.jpg
+      icon: /icon/client-skills/icon.skill10336.png
       level: '3'
       name: Оплакивание
       selection_id: ''
@@ -2919,7 +2919,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 7ед.'
       - kind: value
         text: 'Максимум здоровья: 14%'
-      icon: /icon/skill10336.jpg
+      icon: /icon/client-skills/icon.skill10336.png
       level: '4'
       name: Оплакивание
       selection_id: ''
@@ -2947,7 +2947,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 8ед.'
       - kind: value
         text: 'Максимум здоровья: 16%'
-      icon: /icon/skill10336.jpg
+      icon: /icon/client-skills/icon.skill10336.png
       level: '5'
       name: Оплакивание
       selection_id: ''
@@ -2975,7 +2975,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 9ед.'
       - kind: value
         text: 'Максимум здоровья: 18%'
-      icon: /icon/skill10336.jpg
+      icon: /icon/client-skills/icon.skill10336.png
       level: '6'
       name: Оплакивание
       selection_id: ''
@@ -3003,7 +3003,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): 10ед.'
       - kind: value
         text: 'Максимум здоровья: 20%'
-      icon: /icon/skill10336.jpg
+      icon: /icon/client-skills/icon.skill10336.png
       level: '7'
       name: Оплакивание
       selection_id: ''
@@ -3314,7 +3314,7 @@ profession:
         text: 'Сила физического умения: 290'
       - kind: value
         text: 'Урон по сооружениям: 1000'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '1'
       name: Наказание грешника
       selection_id: ''
@@ -3335,7 +3335,7 @@ profession:
         text: 'Сила физического умения: 300'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '2'
       name: Наказание грешника
       selection_id: ''
@@ -3356,7 +3356,7 @@ profession:
         text: 'Сила физического умения: 310'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '3'
       name: Наказание грешника
       selection_id: ''
@@ -3377,7 +3377,7 @@ profession:
         text: 'Сила физического умения: 320'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '4'
       name: Наказание грешника
       selection_id: ''
@@ -3398,7 +3398,7 @@ profession:
         text: 'Сила физического умения: 330'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '5'
       name: Наказание грешника
       selection_id: ''
@@ -3419,7 +3419,7 @@ profession:
         text: 'Сила физического умения: 340'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '6'
       name: Наказание грешника
       selection_id: ''
@@ -3440,7 +3440,7 @@ profession:
         text: 'Сила физического умения: 350'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill3598.jpg
+      icon: /icon/client-skills/icon.skill3598.png
       level: '7'
       name: Наказание грешника
       selection_id: ''
@@ -4671,7 +4671,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '1'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4689,7 +4689,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '2'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4707,7 +4707,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '3'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4725,7 +4725,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '4'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4743,7 +4743,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '5'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4761,7 +4761,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '6'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4779,7 +4779,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '7'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4797,7 +4797,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '8'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4815,7 +4815,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '9'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4833,7 +4833,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '10'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4851,7 +4851,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '11'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4869,7 +4869,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '12'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4887,7 +4887,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '13'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4905,7 +4905,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '14'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4923,7 +4923,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '15'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4941,7 +4941,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '16'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4959,7 +4959,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '17'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4977,7 +4977,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '18'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4995,7 +4995,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '19'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5013,7 +5013,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '20'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5419,7 +5419,7 @@ profession:
       description: Ваши атаки будут увеличивать Вашу силу лечения на 30% и регенерацию жизненных сил и
         боевого духа по 1000.
       effects: []
-      icon: /icon/Icon4/UI_server_ranking_3.jpg
+      icon: /icon/client-skills/icon4.l2icon.ui_server_ranking_3.png
       level: '1'
       name: Несокрушимая вера
       selection_id: ''
@@ -8046,7 +8046,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 2 секунды,
         быстрый откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '1'
       name: Встань и иди!
       selection_id: '2.7_1'
@@ -8063,7 +8063,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 1 секунда,
         средний откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '1'
       name: Встань и иди!
       selection_id: '2.7_2'
@@ -8079,7 +8079,7 @@ profession:
     - branch: three
       description: Вы подбегаете к мертвому союзнику и мгновенно воскрешаете его. Долгий откат умения.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '1'
       name: Встань и иди!
       selection_id: '2.7_3'
@@ -8096,7 +8096,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 2 секунды,
         быстрый откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '2'
       name: Встань и иди!
       selection_id: '2.7_1'
@@ -8113,7 +8113,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 1 секунда,
         средний откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '2'
       name: Встань и иди!
       selection_id: '2.7_2'
@@ -8129,7 +8129,7 @@ profession:
     - branch: three
       description: Вы подбегаете к мертвому союзнику и мгновенно воскрешаете его. Долгий откат умения.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '2'
       name: Встань и иди!
       selection_id: '2.7_3'
@@ -8146,7 +8146,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 2 секунды,
         быстрый откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '3'
       name: Встань и иди!
       selection_id: '2.7_1'
@@ -8163,7 +8163,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 1 секунда,
         средний откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '3'
       name: Встань и иди!
       selection_id: '2.7_2'
@@ -8179,7 +8179,7 @@ profession:
     - branch: three
       description: Вы подбегаете к мертвому союзнику и мгновенно воскрешаете его. Долгий откат умения.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '3'
       name: Встань и иди!
       selection_id: '2.7_3'
@@ -8196,7 +8196,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 2 секунды,
         быстрый откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '4'
       name: Встань и иди!
       selection_id: '2.7_1'
@@ -8213,7 +8213,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 1 секунда,
         средний откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '4'
       name: Встань и иди!
       selection_id: '2.7_2'
@@ -8229,7 +8229,7 @@ profession:
     - branch: three
       description: Вы подбегаете к мертвому союзнику и мгновенно воскрешаете его. Долгий откат умения.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '4'
       name: Встань и иди!
       selection_id: '2.7_3'
@@ -8246,7 +8246,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 2 секунды,
         быстрый откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '5'
       name: Встань и иди!
       selection_id: '2.7_1'
@@ -8263,7 +8263,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 1 секунда,
         средний откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '5'
       name: Встань и иди!
       selection_id: '2.7_2'
@@ -8279,7 +8279,7 @@ profession:
     - branch: three
       description: Вы подбегаете к мертвому союзнику и мгновенно воскрешаете его. Долгий откат умения.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '5'
       name: Встань и иди!
       selection_id: '2.7_3'
@@ -8296,7 +8296,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 2 секунды,
         быстрый откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '6'
       name: Встань и иди!
       selection_id: '2.7_1'
@@ -8313,7 +8313,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 1 секунда,
         средний откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '6'
       name: Встань и иди!
       selection_id: '2.7_2'
@@ -8329,7 +8329,7 @@ profession:
     - branch: three
       description: Вы подбегаете к мертвому союзнику и мгновенно воскрешаете его. Долгий откат умения.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '6'
       name: Встань и иди!
       selection_id: '2.7_3'
@@ -8346,7 +8346,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 2 секунды,
         быстрый откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '7'
       name: Встань и иди!
       selection_id: '2.7_1'
@@ -8363,7 +8363,7 @@ profession:
       description: Вы подбегаете к мертвому союзнику и воскрешаете его. Время применения умения 1 секунда,
         средний откат.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '7'
       name: Встань и иди!
       selection_id: '2.7_2'
@@ -8379,7 +8379,7 @@ profession:
     - branch: three
       description: Вы подбегаете к мертвому союзнику и мгновенно воскрешаете его. Долгий откат умения.
       effects: []
-      icon: /icon/skiill11288.jpg
+      icon: /icon/client-skills/icon.skiill11288.png
       level: '7'
       name: Встань и иди!
       selection_id: '2.7_3'

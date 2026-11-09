@@ -2505,7 +2505,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1339.jpg
+      icon: /icon/client-skills/icon.skill1339.png
       level: '1'
       name: Руна огня
       selection_id: ''
@@ -2550,7 +2550,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1339.jpg
+      icon: /icon/client-skills/icon.skill1339.png
       level: '2'
       name: Руна огня
       selection_id: ''
@@ -2595,7 +2595,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1339.jpg
+      icon: /icon/client-skills/icon.skill1339.png
       level: '3'
       name: Руна огня
       selection_id: ''
@@ -2640,7 +2640,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1339.jpg
+      icon: /icon/client-skills/icon.skill1339.png
       level: '4'
       name: Руна огня
       selection_id: ''
@@ -2685,7 +2685,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1339.jpg
+      icon: /icon/client-skills/icon.skill1339.png
       level: '5'
       name: Руна огня
       selection_id: ''
@@ -2730,7 +2730,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1339.jpg
+      icon: /icon/client-skills/icon.skill1339.png
       level: '6'
       name: Руна огня
       selection_id: ''
@@ -2775,7 +2775,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1339.jpg
+      icon: /icon/client-skills/icon.skill1339.png
       level: '7'
       name: Руна огня
       selection_id: ''
@@ -3069,7 +3069,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill1342.jpg
+      icon: /icon/client-skills/icon.skill1342.png
       level: '1'
       name: Руна земли
       selection_id: ''
@@ -3111,7 +3111,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill1342.jpg
+      icon: /icon/client-skills/icon.skill1342.png
       level: '2'
       name: Руна земли
       selection_id: ''
@@ -3153,7 +3153,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill1342.jpg
+      icon: /icon/client-skills/icon.skill1342.png
       level: '3'
       name: Руна земли
       selection_id: ''
@@ -3195,7 +3195,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill1342.jpg
+      icon: /icon/client-skills/icon.skill1342.png
       level: '4'
       name: Руна земли
       selection_id: ''
@@ -3237,7 +3237,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill1342.jpg
+      icon: /icon/client-skills/icon.skill1342.png
       level: '5'
       name: Руна земли
       selection_id: ''
@@ -3279,7 +3279,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill1342.jpg
+      icon: /icon/client-skills/icon.skill1342.png
       level: '6'
       name: Руна земли
       selection_id: ''
@@ -3321,7 +3321,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill1342.jpg
+      icon: /icon/client-skills/icon.skill1342.png
       level: '7'
       name: Руна земли
       selection_id: ''
@@ -4860,7 +4860,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 8%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '1'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4878,7 +4878,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '2'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4896,7 +4896,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 12%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '3'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4914,7 +4914,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 14%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '4'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4932,7 +4932,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 16%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '5'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4950,7 +4950,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '6'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4968,7 +4968,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '7'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -4986,7 +4986,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 22%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '8'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5004,7 +5004,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '9'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5022,7 +5022,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 25%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '10'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5040,7 +5040,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 26%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '11'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5058,7 +5058,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '12'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5076,7 +5076,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 28%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '13'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5094,7 +5094,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 29%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '14'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5112,7 +5112,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '15'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5130,7 +5130,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 31%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '16'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5148,7 +5148,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 32%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '17'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5166,7 +5166,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '18'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5184,7 +5184,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 34%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '19'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5202,7 +5202,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 35%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor3.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor3.png
       level: '20'
       name: Доблесть Тяжелых Воинов
       selection_id: ''
@@ -5503,7 +5503,7 @@ profession:
         text: 'Максимум боевого духа: 3%'
       - kind: value
         text: 'Максимум здоровья: 3%'
-      icon: /icon/skill1955.jpg
+      icon: /icon/client-skills/icon.skill1955.png
       level: '1'
       name: Мастер рун
       selection_id: ''
@@ -5523,7 +5523,7 @@ profession:
         text: 'Максимум боевого духа: 5%'
       - kind: value
         text: 'Максимум здоровья: 5%'
-      icon: /icon/skill1955.jpg
+      icon: /icon/client-skills/icon.skill1955.png
       level: '2'
       name: Мастер рун
       selection_id: ''
@@ -5543,7 +5543,7 @@ profession:
         text: 'Максимум боевого духа: 7%'
       - kind: value
         text: 'Максимум здоровья: 7%'
-      icon: /icon/skill1955.jpg
+      icon: /icon/client-skills/icon.skill1955.png
       level: '3'
       name: Мастер рун
       selection_id: ''
@@ -5563,7 +5563,7 @@ profession:
         text: 'Максимум боевого духа: 9%'
       - kind: value
         text: 'Максимум здоровья: 9%'
-      icon: /icon/skill1955.jpg
+      icon: /icon/client-skills/icon.skill1955.png
       level: '4'
       name: Мастер рун
       selection_id: ''
@@ -5583,7 +5583,7 @@ profession:
         text: 'Максимум боевого духа: 11%'
       - kind: value
         text: 'Максимум здоровья: 11%'
-      icon: /icon/skill1955.jpg
+      icon: /icon/client-skills/icon.skill1955.png
       level: '5'
       name: Мастер рун
       selection_id: ''
@@ -5603,7 +5603,7 @@ profession:
         text: 'Максимум боевого духа: 13%'
       - kind: value
         text: 'Максимум здоровья: 13%'
-      icon: /icon/skill1955.jpg
+      icon: /icon/client-skills/icon.skill1955.png
       level: '6'
       name: Мастер рун
       selection_id: ''
@@ -5623,7 +5623,7 @@ profession:
         text: 'Максимум боевого духа: 15%'
       - kind: value
         text: 'Максимум здоровья: 15%'
-      icon: /icon/skill1955.jpg
+      icon: /icon/client-skills/icon.skill1955.png
       level: '7'
       name: Мастер рун
       selection_id: ''
@@ -5638,7 +5638,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): -15%'
-      icon: /icon/Icon4/s_highelf_race_mark.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_highelf_race_mark.png
       level: '1'
       name: Руна Древа
       selection_id: ''
@@ -5664,7 +5664,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 16%'
       - kind: value
         text: 'Шанс критического урона: 40%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '1'
       name: Древнее искусство меча
       selection_id: '2.1_0'
@@ -5681,7 +5681,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 16%'
       - kind: value
         text: 'Шанс критического урона: 40%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '1'
       name: Древнее искусство меча
       selection_id: '2.1_1'
@@ -5698,7 +5698,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 16%'
       - kind: value
         text: 'Шанс критического урона: 40%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '1'
       name: Древнее искусство меча
       selection_id: '2.1_2'
@@ -5715,7 +5715,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 20%'
       - kind: value
         text: 'Шанс критического урона: 45%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '2'
       name: Древнее искусство меча
       selection_id: '2.1_3'
@@ -5732,7 +5732,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 20%'
       - kind: value
         text: 'Шанс критического урона: 45%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '2'
       name: Древнее искусство меча
       selection_id: '2.1_4'
@@ -5749,7 +5749,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 20%'
       - kind: value
         text: 'Шанс критического урона: 45%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '2'
       name: Древнее искусство меча
       selection_id: '2.1_5'
@@ -5766,7 +5766,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 24%'
       - kind: value
         text: 'Шанс критического урона: 50%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '3'
       name: Древнее искусство меча
       selection_id: '2.1_1'
@@ -5783,7 +5783,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 24%'
       - kind: value
         text: 'Шанс критического урона: 50%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '3'
       name: Древнее искусство меча
       selection_id: '2.1_2'
@@ -5800,7 +5800,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 24%'
       - kind: value
         text: 'Шанс критического урона: 50%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '3'
       name: Древнее искусство меча
       selection_id: '2.1_3'
@@ -5817,7 +5817,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 28%'
       - kind: value
         text: 'Шанс критического урона: 55%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '4'
       name: Древнее искусство меча
       selection_id: '2.1_1'
@@ -5834,7 +5834,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 28%'
       - kind: value
         text: 'Шанс критического урона: 55%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '4'
       name: Древнее искусство меча
       selection_id: '2.1_2'
@@ -5851,7 +5851,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 28%'
       - kind: value
         text: 'Шанс критического урона: 55%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '4'
       name: Древнее искусство меча
       selection_id: '2.1_3'
@@ -5868,7 +5868,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 32%'
       - kind: value
         text: 'Шанс критического урона: 60%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '5'
       name: Древнее искусство меча
       selection_id: '2.1_1'
@@ -5885,7 +5885,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 32%'
       - kind: value
         text: 'Шанс критического урона: 60%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '5'
       name: Древнее искусство меча
       selection_id: '2.1_2'
@@ -5902,7 +5902,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 32%'
       - kind: value
         text: 'Шанс критического урона: 60%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '5'
       name: Древнее искусство меча
       selection_id: '2.1_3'
@@ -5919,7 +5919,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 36%'
       - kind: value
         text: 'Шанс критического урона: 65%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '6'
       name: Древнее искусство меча
       selection_id: '2.1_1'
@@ -5936,7 +5936,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 36%'
       - kind: value
         text: 'Шанс критического урона: 65%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '6'
       name: Древнее искусство меча
       selection_id: '2.1_2'
@@ -5953,7 +5953,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 36%'
       - kind: value
         text: 'Шанс критического урона: 65%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '6'
       name: Древнее искусство меча
       selection_id: '2.1_3'
@@ -5970,7 +5970,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 40%'
       - kind: value
         text: 'Шанс критического урона: 70%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '7'
       name: Древнее искусство меча
       selection_id: '2.1_1'
@@ -5987,7 +5987,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 40%'
       - kind: value
         text: 'Шанс критического урона: 70%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '7'
       name: Древнее искусство меча
       selection_id: '2.1_2'
@@ -6004,7 +6004,7 @@ profession:
         text: 'Скорость атаки (Тяжелая броня): 40%'
       - kind: value
         text: 'Шанс критического урона: 70%'
-      icon: /icon/skill0496.jpg
+      icon: /icon/client-skills/icon.skill0496.png
       level: '7'
       name: Древнее искусство меча
       selection_id: '2.1_3'
@@ -6019,7 +6019,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 2000ед.'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '1'
       name: Руна света
       selection_id: '2.2_1'
@@ -6037,7 +6037,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 2000'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '1'
       name: Руна света
       selection_id: '2.2_2'
@@ -6057,7 +6057,7 @@ profession:
         text: 'Здоровье: 1500ед.'
       - kind: value
         text: 'Боевой дух: 1500'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '1'
       name: Руна света
       selection_id: '2.2_3'
@@ -6075,7 +6075,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 2500ед.'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '2'
       name: Руна света
       selection_id: '2.2_1'
@@ -6093,7 +6093,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 2500'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '2'
       name: Руна света
       selection_id: '2.2_2'
@@ -6113,7 +6113,7 @@ profession:
         text: 'Здоровье: 1750ед.'
       - kind: value
         text: 'Боевой дух: 1750'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '2'
       name: Руна света
       selection_id: '2.2_3'
@@ -6131,7 +6131,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 3000ед.'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '3'
       name: Руна света
       selection_id: '2.2_1'
@@ -6149,7 +6149,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 3000'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '3'
       name: Руна света
       selection_id: '2.2_2'
@@ -6169,7 +6169,7 @@ profession:
         text: 'Здоровье: 2000ед.'
       - kind: value
         text: 'Боевой дух: 2000'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '3'
       name: Руна света
       selection_id: '2.2_3'
@@ -6187,7 +6187,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 3500ед.'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '4'
       name: Руна света
       selection_id: '2.2_1'
@@ -6205,7 +6205,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 3500'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '4'
       name: Руна света
       selection_id: '2.2_2'
@@ -6225,7 +6225,7 @@ profession:
         text: 'Здоровье: 2250ед.'
       - kind: value
         text: 'Боевой дух: 2250'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '4'
       name: Руна света
       selection_id: '2.2_3'
@@ -6243,7 +6243,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 4000ед.'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '5'
       name: Руна света
       selection_id: '2.2_1'
@@ -6261,7 +6261,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 4000'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '5'
       name: Руна света
       selection_id: '2.2_2'
@@ -6281,7 +6281,7 @@ profession:
         text: 'Здоровье: 2500ед.'
       - kind: value
         text: 'Боевой дух: 2500'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '5'
       name: Руна света
       selection_id: '2.2_3'
@@ -6299,7 +6299,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 4500ед.'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '6'
       name: Руна света
       selection_id: '2.2_1'
@@ -6317,7 +6317,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 4500'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '6'
       name: Руна света
       selection_id: '2.2_2'
@@ -6337,7 +6337,7 @@ profession:
         text: 'Здоровье: 2750ед.'
       - kind: value
         text: 'Боевой дух: 2750'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '6'
       name: Руна света
       selection_id: '2.2_3'
@@ -6355,7 +6355,7 @@ profession:
       effects:
       - kind: value
         text: 'Здоровье: 5000ед.'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '7'
       name: Руна света
       selection_id: '2.2_1'
@@ -6373,7 +6373,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 5000'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '7'
       name: Руна света
       selection_id: '2.2_2'
@@ -6393,7 +6393,7 @@ profession:
         text: 'Здоровье: 3000ед.'
       - kind: value
         text: 'Боевой дух: 3000'
-      icon: /icon/skill19312.jpg
+      icon: /icon/client-skills/icon.skill19312.png
       level: '7'
       name: Руна света
       selection_id: '2.2_3'
@@ -6408,7 +6408,7 @@ profession:
     - branch: one
       description: Следующие 2 удара Мастера рун будут усиленными на 22%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '1'
       name: Руна силы
       selection_id: '2.3_1'
@@ -6423,7 +6423,7 @@ profession:
     - branch: two
       description: Следующие 3 удара Мастера рун будут усиленными на 18%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '1'
       name: Руна силы
       selection_id: '2.3_2'
@@ -6438,7 +6438,7 @@ profession:
     - branch: three
       description: Следующие 4 удара Мастера рун будут усиленными на 14%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '1'
       name: Руна силы
       selection_id: '2.3_3'
@@ -6453,7 +6453,7 @@ profession:
     - branch: one
       description: Следующие 2 удара Мастера рун будут усиленными на 25%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '2'
       name: Руна силы
       selection_id: '2.3_1'
@@ -6468,7 +6468,7 @@ profession:
     - branch: two
       description: Следующие 3 удара Мастера рун будут усиленными на 20%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '2'
       name: Руна силы
       selection_id: '2.3_2'
@@ -6483,7 +6483,7 @@ profession:
     - branch: three
       description: Следующие 4 удара Мастера рун будут усиленными на 15%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '2'
       name: Руна силы
       selection_id: '2.3_3'
@@ -6498,7 +6498,7 @@ profession:
     - branch: one
       description: Следующие 2 удара Мастера рун будут усиленными на 28%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '3'
       name: Руна силы
       selection_id: '2.3_1'
@@ -6513,7 +6513,7 @@ profession:
     - branch: two
       description: Следующие 3 удара Мастера рун будут усиленными на 22%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '3'
       name: Руна силы
       selection_id: '2.3_2'
@@ -6528,7 +6528,7 @@ profession:
     - branch: three
       description: Следующие 4 удара Мастера рун будут усиленными на 16%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '3'
       name: Руна силы
       selection_id: '2.3_3'
@@ -6543,7 +6543,7 @@ profession:
     - branch: one
       description: Следующие 2 удара Мастера рун будут усиленными на 31%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '4'
       name: Руна силы
       selection_id: '2.3_1'
@@ -6558,7 +6558,7 @@ profession:
     - branch: two
       description: Следующие 3 удара Мастера рун будут усиленными на 24%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '4'
       name: Руна силы
       selection_id: '2.3_2'
@@ -6573,7 +6573,7 @@ profession:
     - branch: three
       description: Следующие 4 удара Мастера рун будут усиленными на 17%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '4'
       name: Руна силы
       selection_id: '2.3_3'
@@ -6588,7 +6588,7 @@ profession:
     - branch: one
       description: Следующие 2 удара Мастера рун будут усиленными на 34%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '5'
       name: Руна силы
       selection_id: '2.3_1'
@@ -6603,7 +6603,7 @@ profession:
     - branch: two
       description: Следующие 3 удара Мастера рун будут усиленными на 26%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '5'
       name: Руна силы
       selection_id: '2.3_2'
@@ -6618,7 +6618,7 @@ profession:
     - branch: three
       description: Следующие 4 удара Мастера рун будут усиленными на 18%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '5'
       name: Руна силы
       selection_id: '2.3_3'
@@ -6633,7 +6633,7 @@ profession:
     - branch: one
       description: Следующие 2 удара Мастера рун будут усиленными на 37%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '6'
       name: Руна силы
       selection_id: '2.3_1'
@@ -6648,7 +6648,7 @@ profession:
     - branch: two
       description: Следующие 3 удара Мастера рун будут усиленными на 28%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '6'
       name: Руна силы
       selection_id: '2.3_2'
@@ -6663,7 +6663,7 @@ profession:
     - branch: three
       description: Следующие 4 удара Мастера рун будут усиленными на 19%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '6'
       name: Руна силы
       selection_id: '2.3_3'
@@ -6678,7 +6678,7 @@ profession:
     - branch: one
       description: Следующие 2 удара Мастера рун будут усиленными на 40%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '7'
       name: Руна силы
       selection_id: '2.3_1'
@@ -6693,7 +6693,7 @@ profession:
     - branch: two
       description: Следующие 3 удара Мастера рун будут усиленными на 30%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '7'
       name: Руна силы
       selection_id: '2.3_2'
@@ -6708,7 +6708,7 @@ profession:
     - branch: three
       description: Следующие 4 удара Мастера рун будут усиленными на 20%.
       effects: []
-      icon: /icon/icon_tir.jpg
+      icon: /icon/client-skills/icon.icon_tir.png
       level: '7'
       name: Руна силы
       selection_id: '2.3_3'
@@ -6726,7 +6726,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 18%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '1'
       name: Знание рун
       selection_id: '2.4_1'
@@ -6745,7 +6745,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Любая броня): 18%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '1'
       name: Знание рун
       selection_id: '2.4_2'
@@ -6766,7 +6766,7 @@ profession:
         text: 'Физическая защита (Любая броня): 11%'
       - kind: value
         text: 'Магическая защита (Любая броня): 11%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '1'
       name: Знание рун
       selection_id: '2.4_3'
@@ -6785,7 +6785,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '2'
       name: Знание рун
       selection_id: '2.4_1'
@@ -6804,7 +6804,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Любая броня): 20%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '2'
       name: Знание рун
       selection_id: '2.4_2'
@@ -6825,7 +6825,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Магическая защита (Любая броня): 12%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '2'
       name: Знание рун
       selection_id: '2.4_3'
@@ -6844,7 +6844,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 22%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '3'
       name: Знание рун
       selection_id: '2.4_1'
@@ -6863,7 +6863,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Любая броня): 22%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '3'
       name: Знание рун
       selection_id: '2.4_2'
@@ -6884,7 +6884,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Магическая защита (Любая броня): 13%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '3'
       name: Знание рун
       selection_id: '2.4_3'
@@ -6903,7 +6903,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 24%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '4'
       name: Знание рун
       selection_id: '2.4_1'
@@ -6922,7 +6922,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Любая броня): 24%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '4'
       name: Знание рун
       selection_id: '2.4_2'
@@ -6943,7 +6943,7 @@ profession:
         text: 'Физическая защита (Любая броня): 14%'
       - kind: value
         text: 'Магическая защита (Любая броня): 14%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '4'
       name: Знание рун
       selection_id: '2.4_3'
@@ -6962,7 +6962,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 26%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '5'
       name: Знание рун
       selection_id: '2.4_1'
@@ -6981,7 +6981,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Любая броня): 26%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '5'
       name: Знание рун
       selection_id: '2.4_2'
@@ -7002,7 +7002,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Магическая защита (Любая броня): 15%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '5'
       name: Знание рун
       selection_id: '2.4_3'
@@ -7021,7 +7021,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 28%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '6'
       name: Знание рун
       selection_id: '2.4_1'
@@ -7040,7 +7040,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Любая броня): 28%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '6'
       name: Знание рун
       selection_id: '2.4_2'
@@ -7061,7 +7061,7 @@ profession:
         text: 'Физическая защита (Любая броня): 16%'
       - kind: value
         text: 'Магическая защита (Любая броня): 16%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '6'
       name: Знание рун
       selection_id: '2.4_3'
@@ -7080,7 +7080,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 30%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '7'
       name: Знание рун
       selection_id: '2.4_1'
@@ -7099,7 +7099,7 @@ profession:
       effects:
       - kind: value
         text: 'Магическая защита (Любая броня): 30%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '7'
       name: Знание рун
       selection_id: '2.4_2'
@@ -7120,7 +7120,7 @@ profession:
         text: 'Физическая защита (Любая броня): 17%'
       - kind: value
         text: 'Магическая защита (Любая броня): 17%'
-      icon: /icon/icon_feoh_01.jpg
+      icon: /icon/client-skills/icon.icon_feoh_01.png
       level: '7'
       name: Знание рун
       selection_id: '2.4_3'
@@ -7141,7 +7141,7 @@ profession:
         text: 'Возвращаемый урон: 20%'
       - kind: value
         text: 'Вампиризм: 8%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '1'
       name: Руна тьмы
       selection_id: '2.5_1'
@@ -7162,7 +7162,7 @@ profession:
         text: 'Возвращаемый урон: 20%'
       - kind: value
         text: 'Вампиризм: 8%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '1'
       name: Руна тьмы
       selection_id: '2.5_2'
@@ -7183,7 +7183,7 @@ profession:
         text: 'Возвращаемый урон: 20%'
       - kind: value
         text: 'Вампиризм: 8%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '1'
       name: Руна тьмы
       selection_id: '2.5_3'
@@ -7204,7 +7204,7 @@ profession:
         text: 'Возвращаемый урон: 25%'
       - kind: value
         text: 'Вампиризм: 10%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '2'
       name: Руна тьмы
       selection_id: '2.5_1'
@@ -7225,7 +7225,7 @@ profession:
         text: 'Возвращаемый урон: 25%'
       - kind: value
         text: 'Вампиризм: 10%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '2'
       name: Руна тьмы
       selection_id: '2.5_2'
@@ -7246,7 +7246,7 @@ profession:
         text: 'Возвращаемый урон: 25%'
       - kind: value
         text: 'Вампиризм: 10%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '2'
       name: Руна тьмы
       selection_id: '2.5_3'
@@ -7267,7 +7267,7 @@ profession:
         text: 'Возвращаемый урон: 30%'
       - kind: value
         text: 'Вампиризм: 12%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '3'
       name: Руна тьмы
       selection_id: '2.5_1'
@@ -7288,7 +7288,7 @@ profession:
         text: 'Возвращаемый урон: 30%'
       - kind: value
         text: 'Вампиризм: 12%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '3'
       name: Руна тьмы
       selection_id: '2.5_2'
@@ -7309,7 +7309,7 @@ profession:
         text: 'Возвращаемый урон: 30%'
       - kind: value
         text: 'Вампиризм: 12%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '3'
       name: Руна тьмы
       selection_id: '2.5_3'
@@ -7330,7 +7330,7 @@ profession:
         text: 'Возвращаемый урон: 35%'
       - kind: value
         text: 'Вампиризм: 14%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '4'
       name: Руна тьмы
       selection_id: '2.5_1'
@@ -7351,7 +7351,7 @@ profession:
         text: 'Возвращаемый урон: 35%'
       - kind: value
         text: 'Вампиризм: 14%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '4'
       name: Руна тьмы
       selection_id: '2.5_2'
@@ -7372,7 +7372,7 @@ profession:
         text: 'Возвращаемый урон: 35%'
       - kind: value
         text: 'Вампиризм: 14%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '4'
       name: Руна тьмы
       selection_id: '2.5_3'
@@ -7393,7 +7393,7 @@ profession:
         text: 'Возвращаемый урон: 40%'
       - kind: value
         text: 'Вампиризм: 16%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '5'
       name: Руна тьмы
       selection_id: '2.5_1'
@@ -7414,7 +7414,7 @@ profession:
         text: 'Возвращаемый урон: 40%'
       - kind: value
         text: 'Вампиризм: 16%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '5'
       name: Руна тьмы
       selection_id: '2.5_2'
@@ -7435,7 +7435,7 @@ profession:
         text: 'Возвращаемый урон: 40%'
       - kind: value
         text: 'Вампиризм: 16%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '5'
       name: Руна тьмы
       selection_id: '2.5_3'
@@ -7456,7 +7456,7 @@ profession:
         text: 'Возвращаемый урон: 45%'
       - kind: value
         text: 'Вампиризм: 18%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '6'
       name: Руна тьмы
       selection_id: '2.5_1'
@@ -7477,7 +7477,7 @@ profession:
         text: 'Возвращаемый урон: 45%'
       - kind: value
         text: 'Вампиризм: 18%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '6'
       name: Руна тьмы
       selection_id: '2.5_2'
@@ -7498,7 +7498,7 @@ profession:
         text: 'Возвращаемый урон: 45%'
       - kind: value
         text: 'Вампиризм: 18%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '6'
       name: Руна тьмы
       selection_id: '2.5_3'
@@ -7519,7 +7519,7 @@ profession:
         text: 'Возвращаемый урон: 50%'
       - kind: value
         text: 'Вампиризм: 20%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '7'
       name: Руна тьмы
       selection_id: '2.5_1'
@@ -7540,7 +7540,7 @@ profession:
         text: 'Возвращаемый урон: 50%'
       - kind: value
         text: 'Вампиризм: 20%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '7'
       name: Руна тьмы
       selection_id: '2.5_2'
@@ -7561,7 +7561,7 @@ profession:
         text: 'Возвращаемый урон: 50%'
       - kind: value
         text: 'Вампиризм: 20%'
-      icon: /icon/skill19313.jpg
+      icon: /icon/client-skills/icon.skill19313.png
       level: '7'
       name: Руна тьмы
       selection_id: '2.5_3'
@@ -7582,7 +7582,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '1'
       name: Рунический сдвиг
       selection_id: '2.6_1'
@@ -7603,7 +7603,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '1'
       name: Рунический сдвиг
       selection_id: '2.6_2'
@@ -7624,7 +7624,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '1'
       name: Рунический сдвиг
       selection_id: '2.6_3'
@@ -7645,7 +7645,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '2'
       name: Рунический сдвиг
       selection_id: '2.6_1'
@@ -7666,7 +7666,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '2'
       name: Рунический сдвиг
       selection_id: '2.6_2'
@@ -7687,7 +7687,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '2'
       name: Рунический сдвиг
       selection_id: '2.6_3'
@@ -7708,7 +7708,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '3'
       name: Рунический сдвиг
       selection_id: '2.6_1'
@@ -7729,7 +7729,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '3'
       name: Рунический сдвиг
       selection_id: '2.6_2'
@@ -7750,7 +7750,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '3'
       name: Рунический сдвиг
       selection_id: '2.6_3'
@@ -7771,7 +7771,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '4'
       name: Рунический сдвиг
       selection_id: '2.6_1'
@@ -7792,7 +7792,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '4'
       name: Рунический сдвиг
       selection_id: '2.6_2'
@@ -7813,7 +7813,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '4'
       name: Рунический сдвиг
       selection_id: '2.6_3'
@@ -7834,7 +7834,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '5'
       name: Рунический сдвиг
       selection_id: '2.6_1'
@@ -7855,7 +7855,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '5'
       name: Рунический сдвиг
       selection_id: '2.6_2'
@@ -7876,7 +7876,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '5'
       name: Рунический сдвиг
       selection_id: '2.6_3'
@@ -7897,7 +7897,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '6'
       name: Рунический сдвиг
       selection_id: '2.6_1'
@@ -7918,7 +7918,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '6'
       name: Рунический сдвиг
       selection_id: '2.6_2'
@@ -7939,7 +7939,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '6'
       name: Рунический сдвиг
       selection_id: '2.6_3'
@@ -7960,7 +7960,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '7'
       name: Рунический сдвиг
       selection_id: '2.6_1'
@@ -7981,7 +7981,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '7'
       name: Рунический сдвиг
       selection_id: '2.6_2'
@@ -8002,7 +8002,7 @@ profession:
         text: 'Перемещение к цели на расстояние до нее: 30'
       - kind: value
         text: 'Оглушение: 3 сек.'
-      icon: /icon/skill19303.jpg
+      icon: /icon/client-skills/icon.skill19303.png
       level: '7'
       name: Рунический сдвиг
       selection_id: '2.6_3'
@@ -8019,7 +8019,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 2 следующих удара по
         Вам. Быстрый откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '1'
       name: Рунический символ
       selection_id: '2.7_1'
@@ -8035,7 +8035,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 3 следующих удара по
         Вам. Средний откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '1'
       name: Рунический символ
       selection_id: '2.7_2'
@@ -8051,7 +8051,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 4 следующих удара по
         Вам. Долгий откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '1'
       name: Рунический символ
       selection_id: '2.7_3'
@@ -8067,7 +8067,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 2 следующих удара по
         Вам. Быстрый откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '2'
       name: Рунический символ
       selection_id: '2.7_1'
@@ -8083,7 +8083,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 3 следующих удара по
         Вам. Средний откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '2'
       name: Рунический символ
       selection_id: '2.7_2'
@@ -8099,7 +8099,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 4 следующих удара по
         Вам. Долгий откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '2'
       name: Рунический символ
       selection_id: '2.7_3'
@@ -8115,7 +8115,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 2 следующих удара по
         Вам. Быстрый откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '3'
       name: Рунический символ
       selection_id: '2.7_1'
@@ -8131,7 +8131,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 3 следующих удара по
         Вам. Средний откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '3'
       name: Рунический символ
       selection_id: '2.7_2'
@@ -8147,7 +8147,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 4 следующих удара по
         Вам. Долгий откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '3'
       name: Рунический символ
       selection_id: '2.7_3'
@@ -8163,7 +8163,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 2 следующих удара по
         Вам. Быстрый откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '4'
       name: Рунический символ
       selection_id: '2.7_1'
@@ -8179,7 +8179,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 3 следующих удара по
         Вам. Средний откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '4'
       name: Рунический символ
       selection_id: '2.7_2'
@@ -8195,7 +8195,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 4 следующих удара по
         Вам. Долгий откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '4'
       name: Рунический символ
       selection_id: '2.7_3'
@@ -8211,7 +8211,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 2 следующих удара по
         Вам. Быстрый откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '5'
       name: Рунический символ
       selection_id: '2.7_1'
@@ -8227,7 +8227,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 3 следующих удара по
         Вам. Средний откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '5'
       name: Рунический символ
       selection_id: '2.7_2'
@@ -8243,7 +8243,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 4 следующих удара по
         Вам. Долгий откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '5'
       name: Рунический символ
       selection_id: '2.7_3'
@@ -8259,7 +8259,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 2 следующих удара по
         Вам. Быстрый откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '6'
       name: Рунический символ
       selection_id: '2.7_1'
@@ -8275,7 +8275,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 3 следующих удара по
         Вам. Средний откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '6'
       name: Рунический символ
       selection_id: '2.7_2'
@@ -8291,7 +8291,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 4 следующих удара по
         Вам. Долгий откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '6'
       name: Рунический символ
       selection_id: '2.7_3'
@@ -8307,7 +8307,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 2 следующих удара по
         Вам. Быстрый откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '7'
       name: Рунический символ
       selection_id: '2.7_1'
@@ -8323,7 +8323,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 3 следующих удара по
         Вам. Средний откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '7'
       name: Рунический символ
       selection_id: '2.7_2'
@@ -8339,7 +8339,7 @@ profession:
       description: Рунический символ позволяет практически полностью заблокировать 4 следующих удара по
         Вам. Долгий откат умения.
       effects: []
-      icon: /icon/icon_lender.jpg
+      icon: /icon/client-skills/icon.icon_lender.png
       level: '7'
       name: Рунический символ
       selection_id: '2.7_3'

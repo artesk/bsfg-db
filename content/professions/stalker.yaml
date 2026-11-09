@@ -4381,7 +4381,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '1'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4399,7 +4399,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '2'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4417,7 +4417,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '3'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4435,7 +4435,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '4'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4453,7 +4453,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '5'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4471,7 +4471,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '6'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4489,7 +4489,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '7'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4507,7 +4507,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '8'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4525,7 +4525,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '9'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4543,7 +4543,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '10'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4561,7 +4561,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '11'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4579,7 +4579,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '12'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4597,7 +4597,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '13'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4615,7 +4615,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '14'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4633,7 +4633,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '15'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4651,7 +4651,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '16'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4669,7 +4669,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '17'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4687,7 +4687,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '18'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4705,7 +4705,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '19'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4723,7 +4723,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '20'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5171,7 +5171,7 @@ profession:
       description: Примерно каждые 23 секунд Вы становитесь на 5 секунды малозаметным, при этом увеличивается
         Ваша сила критических атак на 20% и защиту на 100%.
       effects: []
-      icon: /icon/Icon4/skill1411_a.jpg
+      icon: /icon/client-skills/icon4.l2icon.skill1411_a.png
       level: '1'
       name: Мираж
       selection_id: ''
@@ -5569,7 +5569,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 3 секунды сильно
         отравите врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '1'
       name: Сумеречная защита
       selection_id: '2.2_1'
@@ -5587,7 +5587,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 6 секунд отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '1'
       name: Сумеречная защита
       selection_id: '2.2_2'
@@ -5605,7 +5605,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 10 секунд слабо отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '1'
       name: Сумеречная защита
       selection_id: '2.2_3'
@@ -5623,7 +5623,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 3 секунды сильно
         отравите врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '2'
       name: Сумеречная защита
       selection_id: '2.2_1'
@@ -5641,7 +5641,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 6 секунд отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '2'
       name: Сумеречная защита
       selection_id: '2.2_2'
@@ -5659,7 +5659,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 10 секунд слабо отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '2'
       name: Сумеречная защита
       selection_id: '2.2_3'
@@ -5677,7 +5677,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 3 секунды сильно
         отравите врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '3'
       name: Сумеречная защита
       selection_id: '2.2_1'
@@ -5695,7 +5695,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 6 секунд отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '3'
       name: Сумеречная защита
       selection_id: '2.2_2'
@@ -5713,7 +5713,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 10 секунд слабо отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '3'
       name: Сумеречная защита
       selection_id: '2.2_3'
@@ -5731,7 +5731,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 3 секунды сильно
         отравите врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '4'
       name: Сумеречная защита
       selection_id: '2.2_1'
@@ -5749,7 +5749,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 6 секунд отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '4'
       name: Сумеречная защита
       selection_id: '2.2_2'
@@ -5767,7 +5767,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 10 секунд слабо отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '4'
       name: Сумеречная защита
       selection_id: '2.2_3'
@@ -5785,7 +5785,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 3 секунды сильно
         отравите врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '5'
       name: Сумеречная защита
       selection_id: '2.2_1'
@@ -5803,7 +5803,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 6 секунд отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '5'
       name: Сумеречная защита
       selection_id: '2.2_2'
@@ -5821,7 +5821,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 10 секунд слабо отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '5'
       name: Сумеречная защита
       selection_id: '2.2_3'
@@ -5839,7 +5839,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 3 секунды сильно
         отравите врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '6'
       name: Сумеречная защита
       selection_id: '2.2_1'
@@ -5857,7 +5857,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 6 секунд отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '6'
       name: Сумеречная защита
       selection_id: '2.2_2'
@@ -5875,7 +5875,7 @@ profession:
         парализовать или напугать, то Вы тут же вернете контроль над персонажем и на 10 секунд слабо отравите
         врагов вокруг.
       effects: []
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '6'
       name: Сумеречная защита
       selection_id: '2.2_3'
@@ -5901,7 +5901,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '7'
       name: Сумеречная защита
       selection_id: '2.2_1'
@@ -5927,7 +5927,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '7'
       name: Сумеречная защита
       selection_id: '2.2_2'
@@ -5953,7 +5953,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 10 сек.'
-      icon: /icon/skill1393.jpg
+      icon: /icon/client-skills/icon.skill1393.png
       level: '7'
       name: Сумеречная защита
       selection_id: '2.2_3'
@@ -5973,7 +5973,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '1'
       name: Сделка с дьяволом
       selection_id: '2.3_1'
@@ -5989,7 +5989,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '1'
       name: Сделка с дьяволом
       selection_id: '2.3_2'
@@ -6005,7 +6005,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '1'
       name: Сделка с дьяволом
       selection_id: '2.3_3'
@@ -6021,7 +6021,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '2'
       name: Сделка с дьяволом
       selection_id: '2.3_1'
@@ -6037,7 +6037,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '2'
       name: Сделка с дьяволом
       selection_id: '2.3_2'
@@ -6053,7 +6053,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '2'
       name: Сделка с дьяволом
       selection_id: '2.3_3'
@@ -6069,7 +6069,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '3'
       name: Сделка с дьяволом
       selection_id: '2.3_1'
@@ -6085,7 +6085,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '3'
       name: Сделка с дьяволом
       selection_id: '2.3_2'
@@ -6101,7 +6101,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '3'
       name: Сделка с дьяволом
       selection_id: '2.3_3'
@@ -6117,7 +6117,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '4'
       name: Сделка с дьяволом
       selection_id: '2.3_1'
@@ -6133,7 +6133,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '4'
       name: Сделка с дьяволом
       selection_id: '2.3_2'
@@ -6149,7 +6149,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '4'
       name: Сделка с дьяволом
       selection_id: '2.3_3'
@@ -6165,7 +6165,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '5'
       name: Сделка с дьяволом
       selection_id: '2.3_1'
@@ -6181,7 +6181,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '5'
       name: Сделка с дьяволом
       selection_id: '2.3_2'
@@ -6197,7 +6197,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '5'
       name: Сделка с дьяволом
       selection_id: '2.3_3'
@@ -6213,7 +6213,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '6'
       name: Сделка с дьяволом
       selection_id: '2.3_1'
@@ -6229,7 +6229,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '6'
       name: Сделка с дьяволом
       selection_id: '2.3_2'
@@ -6245,7 +6245,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '6'
       name: Сделка с дьяволом
       selection_id: '2.3_3'
@@ -6261,7 +6261,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '7'
       name: Сделка с дьяволом
       selection_id: '2.3_1'
@@ -6277,7 +6277,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '7'
       name: Сделка с дьяволом
       selection_id: '2.3_2'
@@ -6293,7 +6293,7 @@ profession:
       effects:
       - kind: value
         text: 'Время действия: 3 сек.'
-      icon: /icon/skill0458.jpg
+      icon: /icon/client-skills/icon.skill0458.png
       level: '7'
       name: Сделка с дьяволом
       selection_id: '2.3_3'
@@ -6318,7 +6318,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '1'
       name: Сумеречные клинки
       selection_id: '2.4_1'
@@ -6347,7 +6347,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '1'
       name: Сумеречные клинки
       selection_id: '2.4_2'
@@ -6376,7 +6376,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '1'
       name: Сумеречные клинки
       selection_id: '2.4_3'
@@ -6405,7 +6405,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '2'
       name: Сумеречные клинки
       selection_id: '2.4_1'
@@ -6434,7 +6434,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '2'
       name: Сумеречные клинки
       selection_id: '2.4_2'
@@ -6463,7 +6463,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '2'
       name: Сумеречные клинки
       selection_id: '2.4_3'
@@ -6492,7 +6492,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '3'
       name: Сумеречные клинки
       selection_id: '2.4_1'
@@ -6521,7 +6521,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '3'
       name: Сумеречные клинки
       selection_id: '2.4_2'
@@ -6550,7 +6550,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '3'
       name: Сумеречные клинки
       selection_id: '2.4_3'
@@ -6579,7 +6579,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '4'
       name: Сумеречные клинки
       selection_id: '2.4_1'
@@ -6608,7 +6608,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '4'
       name: Сумеречные клинки
       selection_id: '2.4_2'
@@ -6637,7 +6637,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '4'
       name: Сумеречные клинки
       selection_id: '2.4_3'
@@ -6666,7 +6666,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '5'
       name: Сумеречные клинки
       selection_id: '2.4_1'
@@ -6695,7 +6695,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '5'
       name: Сумеречные клинки
       selection_id: '2.4_2'
@@ -6724,7 +6724,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '5'
       name: Сумеречные клинки
       selection_id: '2.4_3'
@@ -6753,7 +6753,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '6'
       name: Сумеречные клинки
       selection_id: '2.4_1'
@@ -6782,7 +6782,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '6'
       name: Сумеречные клинки
       selection_id: '2.4_2'
@@ -6811,7 +6811,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '6'
       name: Сумеречные клинки
       selection_id: '2.4_3'
@@ -6840,7 +6840,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '7'
       name: Сумеречные клинки
       selection_id: '2.4_1'
@@ -6869,7 +6869,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '7'
       name: Сумеречные клинки
       selection_id: '2.4_2'
@@ -6898,7 +6898,7 @@ profession:
         text: 'Магическая атака (Любая броня): -99%'
       - kind: value
         text: 'Время действия: 4 сек.'
-      icon: /icon/skill0480.jpg
+      icon: /icon/client-skills/icon.skill0480.png
       level: '7'
       name: Сумеречные клинки
       selection_id: '2.4_3'
@@ -6918,7 +6918,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 4%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '1'
       name: Доспех сталкера
       selection_id: '2.5_1'
@@ -6934,7 +6934,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 4%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '1'
       name: Доспех сталкера
       selection_id: '2.5_2'
@@ -6951,7 +6951,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 4%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '1'
       name: Доспех сталкера
       selection_id: '2.5_3'
@@ -6967,7 +6967,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 5%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '2'
       name: Доспех сталкера
       selection_id: '2.5_1'
@@ -6983,7 +6983,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 5%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '2'
       name: Доспех сталкера
       selection_id: '2.5_2'
@@ -7000,7 +7000,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 5%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '2'
       name: Доспех сталкера
       selection_id: '2.5_3'
@@ -7016,7 +7016,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 6%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '3'
       name: Доспех сталкера
       selection_id: '2.5_1'
@@ -7032,7 +7032,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 6%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '3'
       name: Доспех сталкера
       selection_id: '2.5_2'
@@ -7049,7 +7049,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 6%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '3'
       name: Доспех сталкера
       selection_id: '2.5_3'
@@ -7065,7 +7065,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 7%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '4'
       name: Доспех сталкера
       selection_id: '2.5_1'
@@ -7081,7 +7081,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 7%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '4'
       name: Доспех сталкера
       selection_id: '2.5_2'
@@ -7098,7 +7098,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 7%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '4'
       name: Доспех сталкера
       selection_id: '2.5_3'
@@ -7114,7 +7114,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 8%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '5'
       name: Доспех сталкера
       selection_id: '2.5_1'
@@ -7130,7 +7130,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 8%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '5'
       name: Доспех сталкера
       selection_id: '2.5_2'
@@ -7147,7 +7147,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 8%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '5'
       name: Доспех сталкера
       selection_id: '2.5_3'
@@ -7163,7 +7163,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 9%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '6'
       name: Доспех сталкера
       selection_id: '2.5_1'
@@ -7179,7 +7179,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 9%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '6'
       name: Доспех сталкера
       selection_id: '2.5_2'
@@ -7196,7 +7196,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая защита (Любая броня): 9%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '6'
       name: Доспех сталкера
       selection_id: '2.5_3'
@@ -7226,7 +7226,7 @@ profession:
         text: 'Фиксированный урон: 4000ед.'
       - kind: value
         text: 'Физическая защита (Любая броня): 10%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '7'
       name: Доспех сталкера
       selection_id: '2.5_1'
@@ -7256,7 +7256,7 @@ profession:
         text: 'Фиксированный урон: 4000ед.'
       - kind: value
         text: 'Физическая защита (Любая броня): 10%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '7'
       name: Доспех сталкера
       selection_id: '2.5_2'
@@ -7289,7 +7289,7 @@ profession:
         text: 'Фиксированный урон: 4000ед.'
       - kind: value
         text: 'Физическая защита (Любая броня): 10%'
-      icon: /icon/skill19191.jpg
+      icon: /icon/client-skills/icon.skill19191.png
       level: '7'
       name: Доспех сталкера
       selection_id: '2.5_3'
@@ -7719,7 +7719,7 @@ profession:
         text: 'Вампиризм: 9%'
       - kind: value
         text: 'Физическая атака (Меч): 2%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '1'
       name: Жажда плоти
       selection_id: '2.7_1'
@@ -7736,7 +7736,7 @@ profession:
         text: 'Вампиризм: 4%'
       - kind: value
         text: 'Физическая атака (Меч): 4%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '1'
       name: Жажда плоти
       selection_id: '2.7_2'
@@ -7753,7 +7753,7 @@ profession:
         text: 'Вампиризм: 1%'
       - kind: value
         text: 'Физическая атака (Меч): 9%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '1'
       name: Жажда плоти
       selection_id: '2.7_3'
@@ -7770,7 +7770,7 @@ profession:
         text: 'Вампиризм: 10%'
       - kind: value
         text: 'Физическая атака (Меч): 2.5%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '2'
       name: Жажда плоти
       selection_id: '2.7_1'
@@ -7787,7 +7787,7 @@ profession:
         text: 'Вампиризм: 5%'
       - kind: value
         text: 'Физическая атака (Меч): 5%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '2'
       name: Жажда плоти
       selection_id: '2.7_2'
@@ -7804,7 +7804,7 @@ profession:
         text: 'Вампиризм: 2%'
       - kind: value
         text: 'Физическая атака (Меч): 10%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '2'
       name: Жажда плоти
       selection_id: '2.7_3'
@@ -7821,7 +7821,7 @@ profession:
         text: 'Вампиризм: 11%'
       - kind: value
         text: 'Физическая атака (Меч): 3%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '3'
       name: Жажда плоти
       selection_id: '2.7_1'
@@ -7838,7 +7838,7 @@ profession:
         text: 'Вампиризм: 6%'
       - kind: value
         text: 'Физическая атака (Меч): 6%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '3'
       name: Жажда плоти
       selection_id: '2.7_2'
@@ -7855,7 +7855,7 @@ profession:
         text: 'Вампиризм: 2%'
       - kind: value
         text: 'Физическая атака (Меч): 11%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '3'
       name: Жажда плоти
       selection_id: '2.7_3'
@@ -7872,7 +7872,7 @@ profession:
         text: 'Вампиризм: 12%'
       - kind: value
         text: 'Физическая атака (Меч): 3.5%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '4'
       name: Жажда плоти
       selection_id: '2.7_1'
@@ -7889,7 +7889,7 @@ profession:
         text: 'Вампиризм: 7%'
       - kind: value
         text: 'Физическая атака (Меч): 7%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '4'
       name: Жажда плоти
       selection_id: '2.7_2'
@@ -7906,7 +7906,7 @@ profession:
         text: 'Вампиризм: 3%'
       - kind: value
         text: 'Физическая атака (Меч): 12%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '4'
       name: Жажда плоти
       selection_id: '2.7_3'
@@ -7923,7 +7923,7 @@ profession:
         text: 'Вампиризм: 13%'
       - kind: value
         text: 'Физическая атака (Меч): 4%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '5'
       name: Жажда плоти
       selection_id: '2.7_1'
@@ -7940,7 +7940,7 @@ profession:
         text: 'Вампиризм: 8%'
       - kind: value
         text: 'Физическая атака (Меч): 8%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '5'
       name: Жажда плоти
       selection_id: '2.7_2'
@@ -7957,7 +7957,7 @@ profession:
         text: 'Вампиризм: 4%'
       - kind: value
         text: 'Физическая атака (Меч): 13%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '5'
       name: Жажда плоти
       selection_id: '2.7_3'
@@ -7974,7 +7974,7 @@ profession:
         text: 'Вампиризм: 14%'
       - kind: value
         text: 'Физическая атака (Меч): 4.5%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '6'
       name: Жажда плоти
       selection_id: '2.7_1'
@@ -7991,7 +7991,7 @@ profession:
         text: 'Вампиризм: 9%'
       - kind: value
         text: 'Физическая атака (Меч): 9%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '6'
       name: Жажда плоти
       selection_id: '2.7_2'
@@ -8008,7 +8008,7 @@ profession:
         text: 'Вампиризм: 4%'
       - kind: value
         text: 'Физическая атака (Меч): 14%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '6'
       name: Жажда плоти
       selection_id: '2.7_3'
@@ -8025,7 +8025,7 @@ profession:
         text: 'Вампиризм: 15%'
       - kind: value
         text: 'Физическая атака (Меч): 5%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '7'
       name: Жажда плоти
       selection_id: '2.7_1'
@@ -8042,7 +8042,7 @@ profession:
         text: 'Вампиризм: 10%'
       - kind: value
         text: 'Физическая атака (Меч): 10%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '7'
       name: Жажда плоти
       selection_id: '2.7_2'
@@ -8059,7 +8059,7 @@ profession:
         text: 'Вампиризм: 5%'
       - kind: value
         text: 'Физическая атака (Меч): 15%'
-      icon: /icon/skill1163.jpg
+      icon: /icon/client-skills/icon.skill1163.png
       level: '7'
       name: Жажда плоти
       selection_id: '2.7_3'

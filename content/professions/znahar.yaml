@@ -462,7 +462,7 @@ profession:
         text: 'Урон по сооружениям: 13000'
       - kind: value
         text: 'Боевой дух: 1200'
-      icon: /icon/icon1686.jpg
+      icon: /icon/client-skills/bsfg.icon1686.png
       level: '1'
       name: Зелье восстановления
       selection_id: ''
@@ -489,7 +489,7 @@ profession:
         text: 'Урон по сооружениям: 13000'
       - kind: value
         text: 'Боевой дух: 1500'
-      icon: /icon/icon1687.jpg
+      icon: /icon/client-skills/bsfg.icon1687.png
       level: '2'
       name: Зелье восстановления
       selection_id: ''
@@ -516,7 +516,7 @@ profession:
         text: 'Урон по сооружениям: 13000'
       - kind: value
         text: 'Боевой дух: 1800'
-      icon: /icon/icon1694.jpg
+      icon: /icon/client-skills/bsfg.icon1694.png
       level: '3'
       name: Зелье восстановления
       selection_id: ''
@@ -543,7 +543,7 @@ profession:
         text: 'Урон по сооружениям: 13000'
       - kind: value
         text: 'Боевой дух: 2100'
-      icon: /icon/icon1695.jpg
+      icon: /icon/client-skills/bsfg.icon1695.png
       level: '4'
       name: Зелье восстановления
       selection_id: ''
@@ -570,7 +570,7 @@ profession:
         text: 'Урон по сооружениям: 13000'
       - kind: value
         text: 'Боевой дух: 2400'
-      icon: /icon/icon1696.jpg
+      icon: /icon/client-skills/bsfg.icon1696.png
       level: '5'
       name: Зелье восстановления
       selection_id: ''
@@ -597,7 +597,7 @@ profession:
         text: 'Урон по сооружениям: 13000'
       - kind: value
         text: 'Боевой дух: 2700'
-      icon: /icon/icon1697.jpg
+      icon: /icon/client-skills/bsfg.icon1697.png
       level: '6'
       name: Зелье восстановления
       selection_id: ''
@@ -643,7 +643,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 145ед.'
-      icon: /icon/icon1744.jpg
+      icon: /icon/client-skills/bsfg.icon1744.png
       level: '1'
       name: Зелье боевого духа
       selection_id: ''
@@ -663,7 +663,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 172ед.'
-      icon: /icon/icon1745.jpg
+      icon: /icon/client-skills/bsfg.icon1745.png
       level: '2'
       name: Зелье боевого духа
       selection_id: ''
@@ -683,7 +683,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 200ед.'
-      icon: /icon/icon1746.jpg
+      icon: /icon/client-skills/bsfg.icon1746.png
       level: '3'
       name: Зелье боевого духа
       selection_id: ''
@@ -703,7 +703,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 227ед.'
-      icon: /icon/icon1726.jpg
+      icon: /icon/client-skills/bsfg.icon1726.png
       level: '4'
       name: Зелье боевого духа
       selection_id: ''
@@ -723,7 +723,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 241ед.'
-      icon: /icon/icon1728.jpg
+      icon: /icon/client-skills/bsfg.icon1728.png
       level: '5'
       name: Зелье боевого духа
       selection_id: ''
@@ -743,7 +743,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 259ед.'
-      icon: /icon/icon1747.jpg
+      icon: /icon/client-skills/bsfg.icon1747.png
       level: '6'
       name: Зелье боевого духа
       selection_id: ''
@@ -763,7 +763,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 273ед.'
-      icon: /icon/icon1714.jpg
+      icon: /icon/client-skills/bsfg.icon1714.png
       level: '7'
       name: Зелье боевого духа
       selection_id: ''
@@ -801,7 +801,7 @@ profession:
         text: 'Магическая защита (Любая броня): -16%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/icon1757.jpg
+      icon: /icon/client-skills/bsfg.icon1757.png
       level: '1'
       name: Зелье защиты
       selection_id: ''
@@ -839,7 +839,7 @@ profession:
         text: 'Магическая защита (Любая броня): -16%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/icon1758.jpg
+      icon: /icon/client-skills/bsfg.icon1758.png
       level: '2'
       name: Зелье защиты
       selection_id: ''
@@ -877,7 +877,7 @@ profession:
         text: 'Магическая защита (Любая броня): -16%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/icon1735.jpg
+      icon: /icon/client-skills/bsfg.icon1735.png
       level: '3'
       name: Зелье защиты
       selection_id: ''
@@ -915,7 +915,7 @@ profession:
         text: 'Магическая защита (Любая броня): -16%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/icon1759.jpg
+      icon: /icon/client-skills/bsfg.icon1759.png
       level: '4'
       name: Зелье защиты
       selection_id: ''
@@ -953,7 +953,7 @@ profession:
         text: 'Магическая защита (Любая броня): -16%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/icon1760.jpg
+      icon: /icon/client-skills/bsfg.icon1760.png
       level: '5'
       name: Зелье защиты
       selection_id: ''
@@ -991,7 +991,7 @@ profession:
         text: 'Магическая защита (Любая броня): -16%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/icon1703.jpg
+      icon: /icon/client-skills/bsfg.icon1703.png
       level: '6'
       name: Зелье защиты
       selection_id: ''
@@ -1029,7 +1029,7 @@ profession:
         text: 'Магическая защита (Любая броня): -16%'
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/icon1718.jpg
+      icon: /icon/client-skills/bsfg.icon1718.png
       level: '7'
       name: Зелье защиты
       selection_id: ''
@@ -1047,7 +1047,7 @@ profession:
       description: Вводит противников в состояние транса. Противник выйдет из транса если получит любые
         повреждения. Противник в трансе не может получить другие проклятия.
       effects: []
-      icon: /icon/icon1736.jpg
+      icon: /icon/client-skills/bsfg.icon1736.png
       level: '1'
       name: Зелье гипноза
       selection_id: ''
@@ -1065,7 +1065,7 @@ profession:
       description: Вводит противников в состояние транса. Противник выйдет из транса если получит любые
         повреждения. Противник в трансе не может получить другие проклятия.
       effects: []
-      icon: /icon/icon1738.jpg
+      icon: /icon/client-skills/bsfg.icon1738.png
       level: '2'
       name: Зелье гипноза
       selection_id: ''
@@ -1083,7 +1083,7 @@ profession:
       description: Вводит противников в состояние транса. Противник выйдет из транса если получит любые
         повреждения. Противник в трансе не может получить другие проклятия.
       effects: []
-      icon: /icon/icon1739.jpg
+      icon: /icon/client-skills/bsfg.icon1739.png
       level: '3'
       name: Зелье гипноза
       selection_id: ''
@@ -1101,7 +1101,7 @@ profession:
       description: Вводит противников в состояние транса. Противник выйдет из транса если получит любые
         повреждения. Противник в трансе не может получить другие проклятия.
       effects: []
-      icon: /icon/icon1740.jpg
+      icon: /icon/client-skills/bsfg.icon1740.png
       level: '4'
       name: Зелье гипноза
       selection_id: ''
@@ -1137,7 +1137,7 @@ profession:
       description: Вводит противников в состояние транса. Противник выйдет из транса если получит любые
         повреждения. Противник в трансе не может получить другие проклятия.
       effects: []
-      icon: /icon/icon1742.jpg
+      icon: /icon/client-skills/bsfg.icon1742.png
       level: '6'
       name: Зелье гипноза
       selection_id: ''
@@ -1155,7 +1155,7 @@ profession:
       description: Вводит противников в состояние транса. Противник выйдет из транса если получит любые
         повреждения. Противник в трансе не может получить другие проклятия.
       effects: []
-      icon: /icon/icon1743.jpg
+      icon: /icon/client-skills/bsfg.icon1743.png
       level: '7'
       name: Зелье гипноза
       selection_id: ''
@@ -1984,7 +1984,7 @@ profession:
     - branch: base
       description: Вызывает тотем, способный вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/skill1255.jpg
+      icon: /icon/client-skills/icon.skill1255.png
       level: '1'
       name: Тотем отступления
       selection_id: ''
@@ -1997,7 +1997,7 @@ profession:
     - branch: base
       description: Вызывает тотем, способный вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/skill1255.jpg
+      icon: /icon/client-skills/icon.skill1255.png
       level: '2'
       name: Тотем отступления
       selection_id: ''
@@ -2011,7 +2011,7 @@ profession:
     - branch: base
       description: Вызывает тотем, способный вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/skill1255.jpg
+      icon: /icon/client-skills/icon.skill1255.png
       level: '3'
       name: Тотем отступления
       selection_id: ''
@@ -2025,7 +2025,7 @@ profession:
     - branch: base
       description: Вызывает тотем, способный вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/skill1255.jpg
+      icon: /icon/client-skills/icon.skill1255.png
       level: '4'
       name: Тотем отступления
       selection_id: ''
@@ -2039,7 +2039,7 @@ profession:
     - branch: base
       description: Вызывает тотем, способный вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/skill1255.jpg
+      icon: /icon/client-skills/icon.skill1255.png
       level: '5'
       name: Тотем отступления
       selection_id: ''
@@ -2053,7 +2053,7 @@ profession:
     - branch: base
       description: Вызывает тотем, способный вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/skill1255.jpg
+      icon: /icon/client-skills/icon.skill1255.png
       level: '6'
       name: Тотем отступления
       selection_id: ''
@@ -2067,7 +2067,7 @@ profession:
     - branch: base
       description: Вызывает тотем, способный вернуть любого союзника в родной город.
       effects: []
-      icon: /icon/skill1255.jpg
+      icon: /icon/client-skills/icon.skill1255.png
       level: '7'
       name: Тотем отступления
       selection_id: ''
@@ -2404,7 +2404,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill1497.jpg
+      icon: /icon/client-skills/icon.skill1497.png
       level: '1'
       name: Дух зверя
       selection_id: ''
@@ -2428,7 +2428,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill1497.jpg
+      icon: /icon/client-skills/icon.skill1497.png
       level: '2'
       name: Дух зверя
       selection_id: ''
@@ -2452,7 +2452,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill1497.jpg
+      icon: /icon/client-skills/icon.skill1497.png
       level: '3'
       name: Дух зверя
       selection_id: ''
@@ -2476,7 +2476,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill1497.jpg
+      icon: /icon/client-skills/icon.skill1497.png
       level: '4'
       name: Дух зверя
       selection_id: ''
@@ -2500,7 +2500,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill1497.jpg
+      icon: /icon/client-skills/icon.skill1497.png
       level: '5'
       name: Дух зверя
       selection_id: ''
@@ -2524,7 +2524,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill1497.jpg
+      icon: /icon/client-skills/icon.skill1497.png
       level: '6'
       name: Дух зверя
       selection_id: ''
@@ -2548,7 +2548,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill1497.jpg
+      icon: /icon/client-skills/icon.skill1497.png
       level: '7'
       name: Дух зверя
       selection_id: ''
@@ -3083,7 +3083,7 @@ profession:
       description: Устраняет проклятия и эффекты контроля с союзников на расстоянии. Не действует на цели
         под провокацией.
       effects: []
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '1'
       name: Зелье очищения
       selection_id: ''
@@ -3101,7 +3101,7 @@ profession:
       description: Устраняет проклятия и эффекты контроля с союзников на расстоянии. Не действует на цели
         под провокацией.
       effects: []
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '2'
       name: Зелье очищения
       selection_id: ''
@@ -3119,7 +3119,7 @@ profession:
       description: Устраняет проклятия и эффекты контроля с союзников на расстоянии. Не действует на цели
         под провокацией.
       effects: []
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '3'
       name: Зелье очищения
       selection_id: ''
@@ -3137,7 +3137,7 @@ profession:
       description: Устраняет проклятия и эффекты контроля с союзников на расстоянии. Не действует на цели
         под провокацией.
       effects: []
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '4'
       name: Зелье очищения
       selection_id: ''
@@ -3155,7 +3155,7 @@ profession:
       description: Устраняет проклятия и эффекты контроля с союзников на расстоянии. Не действует на цели
         под провокацией.
       effects: []
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '5'
       name: Зелье очищения
       selection_id: ''
@@ -3173,7 +3173,7 @@ profession:
       description: Устраняет проклятия и эффекты контроля с союзников на расстоянии. Не действует на цели
         под провокацией.
       effects: []
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '6'
       name: Зелье очищения
       selection_id: ''
@@ -3191,7 +3191,7 @@ profession:
       description: Устраняет проклятия и эффекты контроля с союзников на расстоянии. Не действует на цели
         под провокацией.
       effects: []
-      icon: /icon/skill1391.jpg
+      icon: /icon/client-skills/icon.skill1391.png
       level: '7'
       name: Зелье очищения
       selection_id: ''
@@ -3605,7 +3605,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '1'
       name: Боевая стойка
       selection_id: ''
@@ -3633,7 +3633,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '2'
       name: Боевая стойка
       selection_id: ''
@@ -3661,7 +3661,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '3'
       name: Боевая стойка
       selection_id: ''
@@ -3689,7 +3689,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '4'
       name: Боевая стойка
       selection_id: ''
@@ -3717,7 +3717,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '5'
       name: Боевая стойка
       selection_id: ''
@@ -3745,7 +3745,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '6'
       name: Боевая стойка
       selection_id: ''
@@ -3773,7 +3773,7 @@ profession:
         text: 'Магическая защита (Любая броня): -20%'
       - kind: value
         text: 'Физическая защита (Любая броня): -20%'
-      icon: /icon/skill19015.jpg
+      icon: /icon/client-skills/icon.skill19015.png
       level: '7'
       name: Боевая стойка
       selection_id: ''
@@ -3796,7 +3796,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '1'
       name: Стойка поддержки
       selection_id: ''
@@ -3820,7 +3820,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '2'
       name: Стойка поддержки
       selection_id: ''
@@ -3844,7 +3844,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '3'
       name: Стойка поддержки
       selection_id: ''
@@ -3868,7 +3868,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '4'
       name: Стойка поддержки
       selection_id: ''
@@ -3892,7 +3892,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '5'
       name: Стойка поддержки
       selection_id: ''
@@ -3916,7 +3916,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '6'
       name: Стойка поддержки
       selection_id: ''
@@ -3940,7 +3940,7 @@ profession:
         text: 'Магическая защита (Любая броня): 20%'
       - kind: value
         text: 'Физическая защита (Любая броня): 20%'
-      icon: /icon/skill30024.jpg
+      icon: /icon/client-skills/icon.skill30024.png
       level: '7'
       name: Стойка поддержки
       selection_id: ''
@@ -4050,7 +4050,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '1'
       name: Туман уклонения
       selection_id: ''
@@ -4069,7 +4069,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '2'
       name: Туман уклонения
       selection_id: ''
@@ -4088,7 +4088,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '3'
       name: Туман уклонения
       selection_id: ''
@@ -4107,7 +4107,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '4'
       name: Туман уклонения
       selection_id: ''
@@ -4126,7 +4126,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '5'
       name: Туман уклонения
       selection_id: ''
@@ -4145,7 +4145,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '6'
       name: Туман уклонения
       selection_id: ''
@@ -4164,7 +4164,7 @@ profession:
       effects:
       - kind: value
         text: 'Уклонения от оружия (Все): 1000'
-      icon: /icon/Icon4/s_perion_worship.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_perion_worship.png
       level: '7'
       name: Туман уклонения
       selection_id: ''
@@ -5017,7 +5017,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '1'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5035,7 +5035,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '2'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5053,7 +5053,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '3'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5071,7 +5071,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '4'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5089,7 +5089,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '5'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5107,7 +5107,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '6'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5125,7 +5125,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '7'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5143,7 +5143,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '8'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5161,7 +5161,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '9'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5179,7 +5179,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '10'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5197,7 +5197,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '11'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5215,7 +5215,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '12'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5233,7 +5233,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '13'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5251,7 +5251,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '14'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5269,7 +5269,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '15'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5287,7 +5287,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '16'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5305,7 +5305,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '17'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5323,7 +5323,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '18'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5341,7 +5341,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '19'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5359,7 +5359,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor13.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor13.png
       level: '20'
       name: Доблесть Менталистов
       selection_id: ''
@@ -5832,7 +5832,7 @@ profession:
         text: 'Сила восстановления боевого духа: 15%'
       - kind: value
         text: 'Дальность магического умения: 100ед.'
-      icon: /icon/Icon4/new_recall_drink.jpg
+      icon: /icon/client-skills/icon4.l2icon.new_recall_drink.png
       level: '1'
       name: Зелье химеры
       selection_id: ''
@@ -5919,7 +5919,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости союзник получит защиту от проклятий и эффектов контроля.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '1'
       name: Зелье стазиса
       selection_id: ''
@@ -5929,7 +5929,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости союзник получит защиту от проклятий и эффектов контроля.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '2'
       name: Зелье стазиса
       selection_id: ''
@@ -5939,7 +5939,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости союзник получит защиту от проклятий и эффектов контроля.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '3'
       name: Зелье стазиса
       selection_id: ''
@@ -5949,7 +5949,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости союзник получит защиту от проклятий и эффектов контроля.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '4'
       name: Зелье стазиса
       selection_id: ''
@@ -5959,7 +5959,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости союзник получит защиту от проклятий и эффектов контроля.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '5'
       name: Зелье стазиса
       selection_id: ''
@@ -5969,7 +5969,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости союзник получит защиту от проклятий и эффектов контроля.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '6'
       name: Зелье стазиса
       selection_id: ''
@@ -5979,7 +5979,7 @@ profession:
       description: Делает союзника на несколько секунд неуязвимым, запрещая ему делать какие-либо действия.
         После окончания неузвимости союзник получит защиту от проклятий и эффектов контроля.
       effects: []
-      icon: ''
+      icon: /icon/client-skills/icon4.l2icon.cursed_defend_talisman_lv1.png
       level: '7'
       name: Зелье стазиса
       selection_id: ''
@@ -6009,7 +6009,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '1'
       name: Знахарское мастерство
       selection_id: '2.1_0'
@@ -6039,7 +6039,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '1'
       name: Знахарское мастерство
       selection_id: '2.1_1'
@@ -6071,7 +6071,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '1'
       name: Знахарское мастерство
       selection_id: '2.1_2'
@@ -6101,7 +6101,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '2'
       name: Знахарское мастерство
       selection_id: '2.1_3'
@@ -6131,7 +6131,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '2'
       name: Знахарское мастерство
       selection_id: '2.1_4'
@@ -6163,7 +6163,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '2'
       name: Знахарское мастерство
       selection_id: '2.1_5'
@@ -6193,7 +6193,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '3'
       name: Знахарское мастерство
       selection_id: '2.1_1'
@@ -6223,7 +6223,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '3'
       name: Знахарское мастерство
       selection_id: '2.1_2'
@@ -6255,7 +6255,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '3'
       name: Знахарское мастерство
       selection_id: '2.1_3'
@@ -6285,7 +6285,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '4'
       name: Знахарское мастерство
       selection_id: '2.1_1'
@@ -6315,7 +6315,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '4'
       name: Знахарское мастерство
       selection_id: '2.1_2'
@@ -6347,7 +6347,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '4'
       name: Знахарское мастерство
       selection_id: '2.1_3'
@@ -6377,7 +6377,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '5'
       name: Знахарское мастерство
       selection_id: '2.1_1'
@@ -6407,7 +6407,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '5'
       name: Знахарское мастерство
       selection_id: '2.1_2'
@@ -6439,7 +6439,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '5'
       name: Знахарское мастерство
       selection_id: '2.1_3'
@@ -6469,7 +6469,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '6'
       name: Знахарское мастерство
       selection_id: '2.1_1'
@@ -6499,7 +6499,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '6'
       name: Знахарское мастерство
       selection_id: '2.1_2'
@@ -6531,7 +6531,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '6'
       name: Знахарское мастерство
       selection_id: '2.1_3'
@@ -6561,7 +6561,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '7'
       name: Знахарское мастерство
       selection_id: '2.1_1'
@@ -6591,7 +6591,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '7'
       name: Знахарское мастерство
       selection_id: '2.1_2'
@@ -6623,7 +6623,7 @@ profession:
         text: 'Скорость передвижения (Роба): 15ед.'
       - kind: value
         text: 'Время действия: 86400 сек.'
-      icon: /icon/skill5086.jpg
+      icon: /icon/client-skills/icon.skill5086.png
       level: '7'
       name: Знахарское мастерство
       selection_id: '2.1_3'
@@ -6636,7 +6636,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 625 боевого духа. Долгий откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '1'
       name: Зелье вепря
       selection_id: '2.2_1'
@@ -6654,7 +6654,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 500 боевого духа. Средний откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '1'
       name: Зелье вепря
       selection_id: '2.2_2'
@@ -6672,7 +6672,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 375 боевого духа. Быстрый откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '1'
       name: Зелье вепря
       selection_id: '2.2_3'
@@ -6690,7 +6690,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 1250 боевого духа. Долгий откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '2'
       name: Зелье вепря
       selection_id: '2.2_1'
@@ -6708,7 +6708,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 1000 боевого духа. Средний откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '2'
       name: Зелье вепря
       selection_id: '2.2_2'
@@ -6726,7 +6726,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 750 боевого духа. Быстрый откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '2'
       name: Зелье вепря
       selection_id: '2.2_3'
@@ -6744,7 +6744,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 1875 боевого духа. Долгий откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '3'
       name: Зелье вепря
       selection_id: '2.2_1'
@@ -6762,7 +6762,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 1500 боевого духа. Средний откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '3'
       name: Зелье вепря
       selection_id: '2.2_2'
@@ -6780,7 +6780,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 1125 боевого духа. Быстрый откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '3'
       name: Зелье вепря
       selection_id: '2.2_3'
@@ -6798,7 +6798,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 2500 боевого духа. Долгий откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '4'
       name: Зелье вепря
       selection_id: '2.2_1'
@@ -6816,7 +6816,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 2000 боевого духа. Средний откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '4'
       name: Зелье вепря
       selection_id: '2.2_2'
@@ -6834,7 +6834,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 1500 боевого духа. Быстрый откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '4'
       name: Зелье вепря
       selection_id: '2.2_3'
@@ -6852,7 +6852,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 3125 боевого духа. Долгий откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '5'
       name: Зелье вепря
       selection_id: '2.2_1'
@@ -6870,7 +6870,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 2500 боевого духа. Средний откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '5'
       name: Зелье вепря
       selection_id: '2.2_2'
@@ -6888,7 +6888,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 1875 боевого духа. Быстрый откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '5'
       name: Зелье вепря
       selection_id: '2.2_3'
@@ -6906,7 +6906,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 3750 боевого духа. Долгий откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '6'
       name: Зелье вепря
       selection_id: '2.2_1'
@@ -6924,7 +6924,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 3000 боевого духа. Средний откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '6'
       name: Зелье вепря
       selection_id: '2.2_2'
@@ -6942,7 +6942,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 2250 боевого духа. Быстрый откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '6'
       name: Зелье вепря
       selection_id: '2.2_3'
@@ -6960,7 +6960,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 4375 боевого духа. Долгий откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '7'
       name: Зелье вепря
       selection_id: '2.2_1'
@@ -6978,7 +6978,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 3500 боевого духа. Средний откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '7'
       name: Зелье вепря
       selection_id: '2.2_2'
@@ -6996,7 +6996,7 @@ profession:
       description: Накладывает на членов группы усиление, во время действия которого нанесенное повреждение
         восстановит им 2625 боевого духа. Быстрый откат умения.
       effects: []
-      icon: /icon/icon559.jpg
+      icon: /icon/client-skills/bsfg.icon559.png
       level: '7'
       name: Зелье вепря
       selection_id: '2.2_3'
@@ -7019,7 +7019,7 @@ profession:
         text: 'Сила магического умения: 400'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '1'
       name: Зелье змеи
       selection_id: '2.3_1'
@@ -7042,7 +7042,7 @@ profession:
         text: 'Сила магического умения: 360'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '1'
       name: Зелье змеи
       selection_id: '2.3_2'
@@ -7065,7 +7065,7 @@ profession:
         text: 'Сила магического умения: 440'
       - kind: value
         text: 'Урон по сооружениям: 1050'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '1'
       name: Зелье змеи
       selection_id: '2.3_3'
@@ -7088,7 +7088,7 @@ profession:
         text: 'Сила магического умения: 440'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '2'
       name: Зелье змеи
       selection_id: '2.3_1'
@@ -7111,7 +7111,7 @@ profession:
         text: 'Сила магического умения: 390'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '2'
       name: Зелье змеи
       selection_id: '2.3_2'
@@ -7134,7 +7134,7 @@ profession:
         text: 'Сила магического умения: 490'
       - kind: value
         text: 'Урон по сооружениям: 1100'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '2'
       name: Зелье змеи
       selection_id: '2.3_3'
@@ -7157,7 +7157,7 @@ profession:
         text: 'Сила магического умения: 480'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '3'
       name: Зелье змеи
       selection_id: '2.3_1'
@@ -7180,7 +7180,7 @@ profession:
         text: 'Сила магического умения: 420'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '3'
       name: Зелье змеи
       selection_id: '2.3_2'
@@ -7203,7 +7203,7 @@ profession:
         text: 'Сила магического умения: 540'
       - kind: value
         text: 'Урон по сооружениям: 1150'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '3'
       name: Зелье змеи
       selection_id: '2.3_3'
@@ -7226,7 +7226,7 @@ profession:
         text: 'Сила магического умения: 560'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '4'
       name: Зелье змеи
       selection_id: '2.3_1'
@@ -7249,7 +7249,7 @@ profession:
         text: 'Сила магического умения: 490'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '4'
       name: Зелье змеи
       selection_id: '2.3_2'
@@ -7272,7 +7272,7 @@ profession:
         text: 'Сила магического умения: 630'
       - kind: value
         text: 'Урон по сооружениям: 1200'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '4'
       name: Зелье змеи
       selection_id: '2.3_3'
@@ -7295,7 +7295,7 @@ profession:
         text: 'Сила магического умения: 640'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '5'
       name: Зелье змеи
       selection_id: '2.3_1'
@@ -7318,7 +7318,7 @@ profession:
         text: 'Сила магического умения: 560'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '5'
       name: Зелье змеи
       selection_id: '2.3_2'
@@ -7341,7 +7341,7 @@ profession:
         text: 'Сила магического умения: 720'
       - kind: value
         text: 'Урон по сооружениям: 1250'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '5'
       name: Зелье змеи
       selection_id: '2.3_3'
@@ -7364,7 +7364,7 @@ profession:
         text: 'Сила магического умения: 720'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '6'
       name: Зелье змеи
       selection_id: '2.3_1'
@@ -7387,7 +7387,7 @@ profession:
         text: 'Сила магического умения: 630'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '6'
       name: Зелье змеи
       selection_id: '2.3_2'
@@ -7410,7 +7410,7 @@ profession:
         text: 'Сила магического умения: 810'
       - kind: value
         text: 'Урон по сооружениям: 1300'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '6'
       name: Зелье змеи
       selection_id: '2.3_3'
@@ -7447,7 +7447,7 @@ profession:
         text: 'Время до повторного использования магических умений: 22%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '7'
       name: Зелье змеи
       selection_id: '2.3_1'
@@ -7484,7 +7484,7 @@ profession:
         text: 'Время до повторного использования магических умений: 22%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '7'
       name: Зелье змеи
       selection_id: '2.3_2'
@@ -7521,7 +7521,7 @@ profession:
         text: 'Время до повторного использования магических умений: 22%'
       - kind: value
         text: 'Время действия: 6 сек.'
-      icon: /icon/skill10027.jpg
+      icon: /icon/client-skills/icon.skill10027.png
       level: '7'
       name: Зелье змеи
       selection_id: '2.3_3'
@@ -7540,7 +7540,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: снижает скорость противника на 60% на 9
         секунд. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '1'
       name: Зелье зверя
       selection_id: '2.4_1'
@@ -7559,7 +7559,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: отравляет противника на 5 секунд, силой
         400. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '1'
       name: Зелье зверя
       selection_id: '2.4_2'
@@ -7578,7 +7578,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: замедляет врага на 20% на 7 секунд и отравляет
         его, силой 280. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '1'
       name: Зелье зверя
       selection_id: '2.4_3'
@@ -7597,7 +7597,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: снижает скорость противника на 65% на 9
         секунд. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '2'
       name: Зелье зверя
       selection_id: '2.4_1'
@@ -7616,7 +7616,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: отравляет противника на 5 секунд, силой
         550. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '2'
       name: Зелье зверя
       selection_id: '2.4_2'
@@ -7635,7 +7635,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: замедляет врага на 25% на 7 секунд и отравляет
         его, силой 350. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '2'
       name: Зелье зверя
       selection_id: '2.4_3'
@@ -7654,7 +7654,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: снижает скорость противника на 70% на 9
         секунд. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '3'
       name: Зелье зверя
       selection_id: '2.4_1'
@@ -7673,7 +7673,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: отравляет противника на 5 секунд, силой
         700. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '3'
       name: Зелье зверя
       selection_id: '2.4_2'
@@ -7692,7 +7692,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: замедляет врага на 30% на 7 секунд и отравляет
         его, силой 420. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '3'
       name: Зелье зверя
       selection_id: '2.4_3'
@@ -7711,7 +7711,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: снижает скорость противника на 75% на 9
         секунд. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '4'
       name: Зелье зверя
       selection_id: '2.4_1'
@@ -7730,7 +7730,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: отравляет противника на 5 секунд, силой
         850. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '4'
       name: Зелье зверя
       selection_id: '2.4_2'
@@ -7749,7 +7749,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: замедляет врага на 35% на 7 секунд и отравляет
         его, силой 490. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '4'
       name: Зелье зверя
       selection_id: '2.4_3'
@@ -7768,7 +7768,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: снижает скорость противника на 80% на 9
         секунд. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '5'
       name: Зелье зверя
       selection_id: '2.4_1'
@@ -7787,7 +7787,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: отравляет противника на 5 секунд, силой
         1000. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '5'
       name: Зелье зверя
       selection_id: '2.4_2'
@@ -7806,7 +7806,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: замедляет врага на 40% на 7 секунд и отравляет
         его, силой 560. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '5'
       name: Зелье зверя
       selection_id: '2.4_3'
@@ -7825,7 +7825,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: снижает скорость противника на 85% на 9
         секунд. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '6'
       name: Зелье зверя
       selection_id: '2.4_1'
@@ -7844,7 +7844,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: отравляет противника на 5 секунд, силой
         1150. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '6'
       name: Зелье зверя
       selection_id: '2.4_2'
@@ -7863,7 +7863,7 @@ profession:
         противник находится на ездовом животном). Зелье зверя: замедляет врага на 45% на 7 секунд и отравляет
         его, силой 630. Приготовление зелья: зелье восстановления (противник), зелье защиты (противник).'
       effects: []
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '6'
       name: Зелье зверя
       selection_id: '2.4_3'
@@ -7888,7 +7888,7 @@ profession:
         text: 'Скорость передвижения (Любая броня): -90%'
       - kind: value
         text: 'Время действия: 9 сек.'
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '7'
       name: Зелье зверя
       selection_id: '2.4_1'
@@ -7917,7 +7917,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 5 сек.'
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '7'
       name: Зелье зверя
       selection_id: '2.4_2'
@@ -7948,7 +7948,7 @@ profession:
         text: Отменяет регенерацию боевого духа
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill1092.jpg
+      icon: /icon/client-skills/icon.skill1092.png
       level: '7'
       name: Зелье зверя
       selection_id: '2.4_3'
@@ -7973,7 +7973,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '1'
       name: Зелья знахаря
       selection_id: '2.5_1'
@@ -8000,7 +8000,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '1'
       name: Зелья знахаря
       selection_id: '2.5_2'
@@ -8027,7 +8027,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '1'
       name: Зелья знахаря
       selection_id: '2.5_3'
@@ -8051,7 +8051,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '2'
       name: Зелья знахаря
       selection_id: '2.5_1'
@@ -8078,7 +8078,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '2'
       name: Зелья знахаря
       selection_id: '2.5_2'
@@ -8105,7 +8105,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '2'
       name: Зелья знахаря
       selection_id: '2.5_3'
@@ -8129,7 +8129,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '3'
       name: Зелья знахаря
       selection_id: '2.5_1'
@@ -8156,7 +8156,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '3'
       name: Зелья знахаря
       selection_id: '2.5_2'
@@ -8183,7 +8183,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '3'
       name: Зелья знахаря
       selection_id: '2.5_3'
@@ -8207,7 +8207,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '4'
       name: Зелья знахаря
       selection_id: '2.5_1'
@@ -8234,7 +8234,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '4'
       name: Зелья знахаря
       selection_id: '2.5_2'
@@ -8261,7 +8261,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '4'
       name: Зелья знахаря
       selection_id: '2.5_3'
@@ -8285,7 +8285,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '5'
       name: Зелья знахаря
       selection_id: '2.5_1'
@@ -8312,7 +8312,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '5'
       name: Зелья знахаря
       selection_id: '2.5_2'
@@ -8339,7 +8339,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '5'
       name: Зелья знахаря
       selection_id: '2.5_3'
@@ -8363,7 +8363,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '6'
       name: Зелья знахаря
       selection_id: '2.5_1'
@@ -8390,7 +8390,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '6'
       name: Зелья знахаря
       selection_id: '2.5_2'
@@ -8417,7 +8417,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '6'
       name: Зелья знахаря
       selection_id: '2.5_3'
@@ -8441,7 +8441,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '7'
       name: Зелья знахаря
       selection_id: '2.5_1'
@@ -8468,7 +8468,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '7'
       name: Зелья знахаря
       selection_id: '2.5_2'
@@ -8495,7 +8495,7 @@ profession:
         text: 'Cмешанное зелье:'
       - kind: value
         text: 'Лечение: 500ед.'
-      icon: /icon/skill11825.jpg
+      icon: /icon/client-skills/icon.skill11825.png
       level: '7'
       name: Зелья знахаря
       selection_id: '2.5_3'
@@ -8517,7 +8517,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '1'
       name: Зелье гиганта
       selection_id: '2.6_1'
@@ -8539,7 +8539,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '1'
       name: Зелье гиганта
       selection_id: '2.6_2'
@@ -8561,7 +8561,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '1'
       name: Зелье гиганта
       selection_id: '2.6_3'
@@ -8583,7 +8583,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '2'
       name: Зелье гиганта
       selection_id: '2.6_1'
@@ -8605,7 +8605,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '2'
       name: Зелье гиганта
       selection_id: '2.6_2'
@@ -8627,7 +8627,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '2'
       name: Зелье гиганта
       selection_id: '2.6_3'
@@ -8649,7 +8649,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '3'
       name: Зелье гиганта
       selection_id: '2.6_1'
@@ -8671,7 +8671,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '3'
       name: Зелье гиганта
       selection_id: '2.6_2'
@@ -8693,7 +8693,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '3'
       name: Зелье гиганта
       selection_id: '2.6_3'
@@ -8715,7 +8715,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '4'
       name: Зелье гиганта
       selection_id: '2.6_1'
@@ -8737,7 +8737,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '4'
       name: Зелье гиганта
       selection_id: '2.6_2'
@@ -8759,7 +8759,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '4'
       name: Зелье гиганта
       selection_id: '2.6_3'
@@ -8781,7 +8781,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '5'
       name: Зелье гиганта
       selection_id: '2.6_1'
@@ -8803,7 +8803,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '5'
       name: Зелье гиганта
       selection_id: '2.6_2'
@@ -8825,7 +8825,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '5'
       name: Зелье гиганта
       selection_id: '2.6_3'
@@ -8847,7 +8847,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '6'
       name: Зелье гиганта
       selection_id: '2.6_1'
@@ -8869,7 +8869,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '6'
       name: Зелье гиганта
       selection_id: '2.6_2'
@@ -8891,7 +8891,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '6'
       name: Зелье гиганта
       selection_id: '2.6_3'
@@ -8921,7 +8921,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '7'
       name: Зелье гиганта
       selection_id: '2.6_1'
@@ -8951,7 +8951,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '7'
       name: Зелье гиганта
       selection_id: '2.6_2'
@@ -8981,7 +8981,7 @@ profession:
         text: 'Магическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Время действия: 7 сек.'
-      icon: /icon/skill0335.jpg
+      icon: /icon/client-skills/icon.skill0335.png
       level: '7'
       name: Зелье гиганта
       selection_id: '2.6_3'
@@ -9001,7 +9001,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 1462ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '1'
       name: Зелье хамелеона
       selection_id: '2.7_1'
@@ -9026,7 +9026,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Магическая защита (Любая броня): 13%'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '1'
       name: Зелье хамелеона
       selection_id: '2.7_2'
@@ -9051,7 +9051,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '1'
       name: Зелье хамелеона
       selection_id: '2.7_3'
@@ -9072,7 +9072,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 1625ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '2'
       name: Зелье хамелеона
       selection_id: '2.7_1'
@@ -9097,7 +9097,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Магическая защита (Любая броня): 15%'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '2'
       name: Зелье хамелеона
       selection_id: '2.7_2'
@@ -9122,7 +9122,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '2'
       name: Зелье хамелеона
       selection_id: '2.7_3'
@@ -9143,7 +9143,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 1787ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '3'
       name: Зелье хамелеона
       selection_id: '2.7_1'
@@ -9168,7 +9168,7 @@ profession:
         text: 'Физическая защита (Любая броня): 17%'
       - kind: value
         text: 'Магическая защита (Любая броня): 17%'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '3'
       name: Зелье хамелеона
       selection_id: '2.7_2'
@@ -9193,7 +9193,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '3'
       name: Зелье хамелеона
       selection_id: '2.7_3'
@@ -9214,7 +9214,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 1950ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '4'
       name: Зелье хамелеона
       selection_id: '2.7_1'
@@ -9239,7 +9239,7 @@ profession:
         text: 'Физическая защита (Любая броня): 19%'
       - kind: value
         text: 'Магическая защита (Любая броня): 19%'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '4'
       name: Зелье хамелеона
       selection_id: '2.7_2'
@@ -9264,7 +9264,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '4'
       name: Зелье хамелеона
       selection_id: '2.7_3'
@@ -9285,7 +9285,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 2112ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '5'
       name: Зелье хамелеона
       selection_id: '2.7_1'
@@ -9310,7 +9310,7 @@ profession:
         text: 'Физическая защита (Любая броня): 21%'
       - kind: value
         text: 'Магическая защита (Любая броня): 21%'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '5'
       name: Зелье хамелеона
       selection_id: '2.7_2'
@@ -9335,7 +9335,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '5'
       name: Зелье хамелеона
       selection_id: '2.7_3'
@@ -9356,7 +9356,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 2275ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '6'
       name: Зелье хамелеона
       selection_id: '2.7_1'
@@ -9381,7 +9381,7 @@ profession:
         text: 'Физическая защита (Любая броня): 23%'
       - kind: value
         text: 'Магическая защита (Любая броня): 23%'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '6'
       name: Зелье хамелеона
       selection_id: '2.7_2'
@@ -9406,7 +9406,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '6'
       name: Зелье хамелеона
       selection_id: '2.7_3'
@@ -9427,7 +9427,7 @@ profession:
       effects:
       - kind: value
         text: 'Боевой дух: 2437ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '7'
       name: Зелье хамелеона
       selection_id: '2.7_1'
@@ -9452,7 +9452,7 @@ profession:
         text: 'Физическая защита (Любая броня): 25%'
       - kind: value
         text: 'Магическая защита (Любая броня): 25%'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '7'
       name: Зелье хамелеона
       selection_id: '2.7_2'
@@ -9477,7 +9477,7 @@ profession:
         text: 'Физическая защита (Любая броня): 100000ед.'
       - kind: value
         text: 'Магическая защита (Любая броня): 100000ед.'
-      icon: /icon/skill0296.jpg
+      icon: /icon/client-skills/icon.skill0296.png
       level: '7'
       name: Зелье хамелеона
       selection_id: '2.7_3'

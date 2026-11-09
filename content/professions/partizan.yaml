@@ -3047,7 +3047,7 @@ profession:
         text: 'Физическая защита (Любая броня): 9%'
       - kind: value
         text: 'Магическая защита (Любая броня): 9%'
-      icon: /icon/skill30019.jpg
+      icon: /icon/client-skills/icon.skill30019.png
       level: '1'
       name: Лазутчик
       selection_id: ''
@@ -3071,7 +3071,7 @@ profession:
         text: 'Физическая защита (Любая броня): 10%'
       - kind: value
         text: 'Магическая защита (Любая броня): 10%'
-      icon: /icon/skill30019.jpg
+      icon: /icon/client-skills/icon.skill30019.png
       level: '2'
       name: Лазутчик
       selection_id: ''
@@ -3095,7 +3095,7 @@ profession:
         text: 'Физическая защита (Любая броня): 11%'
       - kind: value
         text: 'Магическая защита (Любая броня): 11%'
-      icon: /icon/skill30019.jpg
+      icon: /icon/client-skills/icon.skill30019.png
       level: '3'
       name: Лазутчик
       selection_id: ''
@@ -3119,7 +3119,7 @@ profession:
         text: 'Физическая защита (Любая броня): 12%'
       - kind: value
         text: 'Магическая защита (Любая броня): 12%'
-      icon: /icon/skill30019.jpg
+      icon: /icon/client-skills/icon.skill30019.png
       level: '4'
       name: Лазутчик
       selection_id: ''
@@ -3143,7 +3143,7 @@ profession:
         text: 'Физическая защита (Любая броня): 13%'
       - kind: value
         text: 'Магическая защита (Любая броня): 13%'
-      icon: /icon/skill30019.jpg
+      icon: /icon/client-skills/icon.skill30019.png
       level: '5'
       name: Лазутчик
       selection_id: ''
@@ -3167,7 +3167,7 @@ profession:
         text: 'Физическая защита (Любая броня): 14%'
       - kind: value
         text: 'Магическая защита (Любая броня): 14%'
-      icon: /icon/skill30019.jpg
+      icon: /icon/client-skills/icon.skill30019.png
       level: '6'
       name: Лазутчик
       selection_id: ''
@@ -3191,7 +3191,7 @@ profession:
         text: 'Физическая защита (Любая броня): 15%'
       - kind: value
         text: 'Магическая защита (Любая броня): 15%'
-      icon: /icon/skill30019.jpg
+      icon: /icon/client-skills/icon.skill30019.png
       level: '7'
       name: Лазутчик
       selection_id: ''
@@ -4628,7 +4628,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 10%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 10%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '1'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4646,7 +4646,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 15%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 15%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '2'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4664,7 +4664,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 18%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 18%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '3'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4682,7 +4682,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 21%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 21%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '4'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4700,7 +4700,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 24%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 24%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '5'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4718,7 +4718,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 27%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 27%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '6'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4736,7 +4736,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 30%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 30%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '7'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4754,7 +4754,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 33%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 33%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '8'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4772,7 +4772,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 36%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 36%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '9'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4790,7 +4790,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 39%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 39%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '10'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4808,7 +4808,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 42%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 42%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '11'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4826,7 +4826,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 43%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 43%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '12'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4844,7 +4844,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 44%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 44%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '13'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4862,7 +4862,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 45%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 45%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '14'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4880,7 +4880,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 46%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 46%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '15'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4898,7 +4898,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 47%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 47%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '16'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4916,7 +4916,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 48%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 48%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '17'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4934,7 +4934,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 49%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 49%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '18'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4952,7 +4952,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 50%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 50%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '19'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -4970,7 +4970,7 @@ profession:
         text: 'Магическая защита в PVP (Любая броня): 55%'
       - kind: value
         text: 'Физическая защита в PVP (Любая броня): 55%'
-      icon: /icon/icon_mob_armor5.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor5.png
       level: '20'
       name: Доблесть Легких Воинов
       selection_id: ''
@@ -5405,7 +5405,7 @@ profession:
         text: 'Магическая защита (Любая броня): 10%'
       - kind: value
         text: 'Возможность критической атаки физическим умением c оружием (Все) с шансом: 10%'
-      icon: /icon/Icon4/s_formula_of_demolition.jpg
+      icon: /icon/client-skills/icon4.l2icon.s_formula_of_demolition.png
       level: '1'
       name: Отточенные навыки
       selection_id: ''
@@ -5426,7 +5426,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 8%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '1'
       name: Обезвреживание ловушек
       selection_id: '2.1_0'
@@ -5447,7 +5447,7 @@ profession:
         text: 'Магическая защита (Любая броня): 4%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '1'
       name: Обезвреживание ловушек
       selection_id: '2.1_1'
@@ -5471,7 +5471,7 @@ profession:
         text: 'Магическая защита (Любая броня): 2%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '1'
       name: Обезвреживание ловушек
       selection_id: '2.1_2'
@@ -5488,7 +5488,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '2'
       name: Обезвреживание ловушек
       selection_id: '2.1_3'
@@ -5509,7 +5509,7 @@ profession:
         text: 'Магическая защита (Любая броня): 5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '2'
       name: Обезвреживание ловушек
       selection_id: '2.1_4'
@@ -5533,7 +5533,7 @@ profession:
         text: 'Магическая защита (Любая броня): 2.5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '2'
       name: Обезвреживание ловушек
       selection_id: '2.1_5'
@@ -5550,7 +5550,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 12%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '3'
       name: Обезвреживание ловушек
       selection_id: '2.1_1'
@@ -5571,7 +5571,7 @@ profession:
         text: 'Магическая защита (Любая броня): 6%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '3'
       name: Обезвреживание ловушек
       selection_id: '2.1_2'
@@ -5595,7 +5595,7 @@ profession:
         text: 'Магическая защита (Любая броня): 3%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '3'
       name: Обезвреживание ловушек
       selection_id: '2.1_3'
@@ -5612,7 +5612,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 14%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '4'
       name: Обезвреживание ловушек
       selection_id: '2.1_1'
@@ -5633,7 +5633,7 @@ profession:
         text: 'Магическая защита (Любая броня): 7%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '4'
       name: Обезвреживание ловушек
       selection_id: '2.1_2'
@@ -5657,7 +5657,7 @@ profession:
         text: 'Магическая защита (Любая броня): 3.5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '4'
       name: Обезвреживание ловушек
       selection_id: '2.1_3'
@@ -5674,7 +5674,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 16%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '5'
       name: Обезвреживание ловушек
       selection_id: '2.1_1'
@@ -5695,7 +5695,7 @@ profession:
         text: 'Магическая защита (Любая броня): 8%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '5'
       name: Обезвреживание ловушек
       selection_id: '2.1_2'
@@ -5719,7 +5719,7 @@ profession:
         text: 'Магическая защита (Любая броня): 4%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '5'
       name: Обезвреживание ловушек
       selection_id: '2.1_3'
@@ -5736,7 +5736,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 18%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '6'
       name: Обезвреживание ловушек
       selection_id: '2.1_1'
@@ -5757,7 +5757,7 @@ profession:
         text: 'Магическая защита (Любая броня): 9%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '6'
       name: Обезвреживание ловушек
       selection_id: '2.1_2'
@@ -5781,7 +5781,7 @@ profession:
         text: 'Магическая защита (Любая броня): 4.5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '6'
       name: Обезвреживание ловушек
       selection_id: '2.1_3'
@@ -5798,7 +5798,7 @@ profession:
         text: 'Скорость атаки (Любая броня): 20%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '7'
       name: Обезвреживание ловушек
       selection_id: '2.1_1'
@@ -5819,7 +5819,7 @@ profession:
         text: 'Магическая защита (Любая броня): 10%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '7'
       name: Обезвреживание ловушек
       selection_id: '2.1_2'
@@ -5843,7 +5843,7 @@ profession:
         text: 'Магическая защита (Любая броня): 5%'
       - kind: value
         text: 'Время действия: 8 сек.'
-      icon: /icon/skill10270.jpg
+      icon: /icon/client-skills/icon.skill10270.png
       level: '7'
       name: Обезвреживание ловушек
       selection_id: '2.1_3'
@@ -6293,7 +6293,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '1'
       name: Комбо
       selection_id: '2.3_1'
@@ -6316,7 +6316,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '1'
       name: Комбо
       selection_id: '2.3_2'
@@ -6339,7 +6339,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '1'
       name: Комбо
       selection_id: '2.3_3'
@@ -6362,7 +6362,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '2'
       name: Комбо
       selection_id: '2.3_1'
@@ -6385,7 +6385,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '2'
       name: Комбо
       selection_id: '2.3_2'
@@ -6408,7 +6408,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '2'
       name: Комбо
       selection_id: '2.3_3'
@@ -6431,7 +6431,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '3'
       name: Комбо
       selection_id: '2.3_1'
@@ -6454,7 +6454,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '3'
       name: Комбо
       selection_id: '2.3_2'
@@ -6477,7 +6477,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '3'
       name: Комбо
       selection_id: '2.3_3'
@@ -6500,7 +6500,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '4'
       name: Комбо
       selection_id: '2.3_1'
@@ -6523,7 +6523,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '4'
       name: Комбо
       selection_id: '2.3_2'
@@ -6546,7 +6546,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '4'
       name: Комбо
       selection_id: '2.3_3'
@@ -6569,7 +6569,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '5'
       name: Комбо
       selection_id: '2.3_1'
@@ -6592,7 +6592,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '5'
       name: Комбо
       selection_id: '2.3_2'
@@ -6615,7 +6615,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '5'
       name: Комбо
       selection_id: '2.3_3'
@@ -6638,7 +6638,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '6'
       name: Комбо
       selection_id: '2.3_1'
@@ -6661,7 +6661,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '6'
       name: Комбо
       selection_id: '2.3_2'
@@ -6684,7 +6684,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '6'
       name: Комбо
       selection_id: '2.3_3'
@@ -6707,7 +6707,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '7'
       name: Комбо
       selection_id: '2.3_1'
@@ -6730,7 +6730,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '7'
       name: Комбо
       selection_id: '2.3_2'
@@ -6753,7 +6753,7 @@ profession:
         text: 'Сила физических умений: 20%'
       - kind: value
         text: 'Время действия: 30 сек.'
-      icon: /icon/skill30505.jpg
+      icon: /icon/client-skills/icon.skill30505.png
       level: '7'
       name: Комбо
       selection_id: '2.3_3'
@@ -7538,7 +7538,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 45%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '1'
       name: Полевая медицина
       selection_id: '2.6_1'
@@ -7553,7 +7553,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 45%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '1'
       name: Полевая медицина
       selection_id: '2.6_2'
@@ -7569,7 +7569,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 45%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '1'
       name: Полевая медицина
       selection_id: '2.6_3'
@@ -7584,7 +7584,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 50%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '2'
       name: Полевая медицина
       selection_id: '2.6_1'
@@ -7599,7 +7599,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 50%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '2'
       name: Полевая медицина
       selection_id: '2.6_2'
@@ -7615,7 +7615,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 50%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '2'
       name: Полевая медицина
       selection_id: '2.6_3'
@@ -7630,7 +7630,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 55%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '3'
       name: Полевая медицина
       selection_id: '2.6_1'
@@ -7645,7 +7645,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 55%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '3'
       name: Полевая медицина
       selection_id: '2.6_2'
@@ -7661,7 +7661,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 55%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '3'
       name: Полевая медицина
       selection_id: '2.6_3'
@@ -7676,7 +7676,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 60%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '4'
       name: Полевая медицина
       selection_id: '2.6_1'
@@ -7691,7 +7691,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 60%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '4'
       name: Полевая медицина
       selection_id: '2.6_2'
@@ -7707,7 +7707,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 60%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '4'
       name: Полевая медицина
       selection_id: '2.6_3'
@@ -7722,7 +7722,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 65%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '5'
       name: Полевая медицина
       selection_id: '2.6_1'
@@ -7737,7 +7737,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 65%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '5'
       name: Полевая медицина
       selection_id: '2.6_2'
@@ -7753,7 +7753,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 65%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '5'
       name: Полевая медицина
       selection_id: '2.6_3'
@@ -7768,7 +7768,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 70%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '6'
       name: Полевая медицина
       selection_id: '2.6_1'
@@ -7783,7 +7783,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 70%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '6'
       name: Полевая медицина
       selection_id: '2.6_2'
@@ -7799,7 +7799,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 70%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '6'
       name: Полевая медицина
       selection_id: '2.6_3'
@@ -7814,7 +7814,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 75%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '7'
       name: Полевая медицина
       selection_id: '2.6_1'
@@ -7829,7 +7829,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 75%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '7'
       name: Полевая медицина
       selection_id: '2.6_2'
@@ -7845,7 +7845,7 @@ profession:
       effects:
       - kind: value
         text: 'Физическая атака (Меч): 75%'
-      icon: /icon/skill6637.jpg
+      icon: /icon/client-skills/icon.skill6637.png
       level: '7'
       name: Полевая медицина
       selection_id: '2.6_3'

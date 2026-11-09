@@ -4957,7 +4957,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '1'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -4979,7 +4979,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '2'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5001,7 +5001,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '3'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5023,7 +5023,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '4'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5045,7 +5045,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '5'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5067,7 +5067,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '6'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5089,7 +5089,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '7'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5111,7 +5111,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '8'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5133,7 +5133,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '9'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5155,7 +5155,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '10'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5177,7 +5177,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '11'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5199,7 +5199,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '12'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5221,7 +5221,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '13'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5243,7 +5243,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '14'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5265,7 +5265,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '15'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5287,7 +5287,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '16'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5309,7 +5309,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '17'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5331,7 +5331,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '18'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5353,7 +5353,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '19'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -5375,7 +5375,7 @@ profession:
         text: 'Физический урон в PVP: 30%'
       - kind: value
         text: 'Сила физических умений в PVP: 30%'
-      icon: /icon/icon_mob_armor11.jpg
+      icon: /icon/client-skills/bsfg.icon_mob_armor11.png
       level: '20'
       name: Доблесть Рыцарей
       selection_id: ''
@@ -6078,7 +6078,7 @@ profession:
         text: 'Сила физического умения: 350'
       - kind: value
         text: 'Урон по сооружениям: 1500'
-      icon: /icon/Icon4/relieve_zariche1.jpg
+      icon: /icon/client-skills/icon4.l2icon.relieve_zariche1.png
       level: '1'
       name: Оковы!
       selection_id: ''
@@ -8829,7 +8829,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 4%'
       - kind: value
         text: 'Урон по осадным сооружениям: 12%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '1'
       name: Осада!
       selection_id: '2.6_1'
@@ -8850,7 +8850,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 4%'
       - kind: value
         text: 'Урон по осадным сооружениям: 12%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '1'
       name: Осада!
       selection_id: '2.6_2'
@@ -8872,7 +8872,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 4%'
       - kind: value
         text: 'Урон по осадным сооружениям: 12%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '1'
       name: Осада!
       selection_id: '2.6_3'
@@ -8893,7 +8893,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 5%'
       - kind: value
         text: 'Урон по осадным сооружениям: 15%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '2'
       name: Осада!
       selection_id: '2.6_1'
@@ -8914,7 +8914,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 5%'
       - kind: value
         text: 'Урон по осадным сооружениям: 15%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '2'
       name: Осада!
       selection_id: '2.6_2'
@@ -8936,7 +8936,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 5%'
       - kind: value
         text: 'Урон по осадным сооружениям: 15%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '2'
       name: Осада!
       selection_id: '2.6_3'
@@ -8957,7 +8957,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 6%'
       - kind: value
         text: 'Урон по осадным сооружениям: 18%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '3'
       name: Осада!
       selection_id: '2.6_1'
@@ -8978,7 +8978,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 6%'
       - kind: value
         text: 'Урон по осадным сооружениям: 18%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '3'
       name: Осада!
       selection_id: '2.6_2'
@@ -9000,7 +9000,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 6%'
       - kind: value
         text: 'Урон по осадным сооружениям: 18%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '3'
       name: Осада!
       selection_id: '2.6_3'
@@ -9021,7 +9021,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 7%'
       - kind: value
         text: 'Урон по осадным сооружениям: 21%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '4'
       name: Осада!
       selection_id: '2.6_1'
@@ -9042,7 +9042,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 7%'
       - kind: value
         text: 'Урон по осадным сооружениям: 21%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '4'
       name: Осада!
       selection_id: '2.6_2'
@@ -9064,7 +9064,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 7%'
       - kind: value
         text: 'Урон по осадным сооружениям: 21%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '4'
       name: Осада!
       selection_id: '2.6_3'
@@ -9085,7 +9085,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 8%'
       - kind: value
         text: 'Урон по осадным сооружениям: 24%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '5'
       name: Осада!
       selection_id: '2.6_1'
@@ -9106,7 +9106,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 8%'
       - kind: value
         text: 'Урон по осадным сооружениям: 24%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '5'
       name: Осада!
       selection_id: '2.6_2'
@@ -9128,7 +9128,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 8%'
       - kind: value
         text: 'Урон по осадным сооружениям: 24%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '5'
       name: Осада!
       selection_id: '2.6_3'
@@ -9149,7 +9149,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 9%'
       - kind: value
         text: 'Урон по осадным сооружениям: 27%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '6'
       name: Осада!
       selection_id: '2.6_1'
@@ -9170,7 +9170,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 9%'
       - kind: value
         text: 'Урон по осадным сооружениям: 27%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '6'
       name: Осада!
       selection_id: '2.6_2'
@@ -9192,7 +9192,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 9%'
       - kind: value
         text: 'Урон по осадным сооружениям: 27%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '6'
       name: Осада!
       selection_id: '2.6_3'
@@ -9213,7 +9213,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 10%'
       - kind: value
         text: 'Урон по осадным сооружениям: 30%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '7'
       name: Осада!
       selection_id: '2.6_1'
@@ -9234,7 +9234,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 10%'
       - kind: value
         text: 'Урон по осадным сооружениям: 30%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '7'
       name: Осада!
       selection_id: '2.6_2'
@@ -9256,7 +9256,7 @@ profession:
         text: 'Магическая защита на осаде (Любая броня): 10%'
       - kind: value
         text: 'Урон по осадным сооружениям: 30%'
-      icon: /icon/skill11869.jpg
+      icon: /icon/client-skills/icon.skill11869.png
       level: '7'
       name: Осада!
       selection_id: '2.6_3'

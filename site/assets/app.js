@@ -109,6 +109,8 @@ let archiveIndex;
 let worldMap;
 let pitJewelry;
 let routeVersion = 0;
+let disposeStream;
+let hlsScript;
 
 function el(tag, className, value) {
   const node = document.createElement(tag);
@@ -127,6 +129,99 @@ function raceName(classes) {
 
 function cloneTemplate(id) {
   return document.querySelector(id).content.cloneNode(true);
+}
+
+function loadHls() {
+  hlsScript ??= new Promise((resolve, reject) => {
+    const script = el("script");
+    script.src = "https://cdn.jsdelivr.net/npm/hls.js@1.7.4/dist/hls.light.min.js";
+    script.integrity = "sha384-vpNtFjJmrPAaL9LfqByx3MxTVjqrtQ6Ue6UVNnFeghNrhE0uvpydDr3tkTVcBgDz";
+    script.crossOrigin = "anonymous";
+    script.onload = () => resolve(window.Hls);
+    script.onerror = () => {
+      script.remove();
+      hlsScript = undefined;
+      reject(new Error("Не удалось загрузить плеер."));
+    };
+    document.head.append(script);
+  });
+  return hlsScript;
+}
+
+function mountStream(section) {
+  const video = section.querySelector("video");
+  const button = section.querySelector(".stream-play");
+  const status = section.querySelector(".stream-status");
+  let attempt;
+  let hls;
+
+  function stop() {
+    if (!attempt) return;
+    attempt.abort();
+    attempt = undefined;
+    hls?.destroy();
+    hls = undefined;
+    video.pause();
+    video.removeAttribute("src");
+    video.load();
+  }
+
+  button.addEventListener("click", async () => {
+    attempt = new AbortController();
+    const { signal } = attempt;
+    video.controls = true;
+    if (document.activeElement === button) video.focus();
+    button.hidden = true;
+    status.textContent = "Подключение к эфиру…";
+
+    function fail(message = "Не удалось подключиться к эфиру.") {
+      if (signal.aborted) return;
+      const restoreFocus = document.activeElement === video;
+      stop();
+      video.controls = false;
+      status.textContent = message;
+      button.textContent = "Повторить";
+      button.hidden = false;
+      if (restoreFocus) button.focus();
+    }
+
+    async function play() {
+      if (signal.aborted) return;
+      try {
+        await video.play();
+      } catch (error) {
+        if (signal.aborted) return;
+        if (error.name === "NotAllowedError") status.textContent = "Нажмите кнопку воспроизведения в плеере.";
+        else fail();
+      }
+    }
+
+    video.addEventListener("playing", () => { status.textContent = ""; }, { signal });
+    video.addEventListener("error", () => fail(), { signal });
+    try {
+      if (video.canPlayType("application/vnd.apple.mpegurl")) {
+        video.src = video.dataset.src;
+        void play();
+        return;
+      }
+
+      const Hls = await loadHls();
+      if (signal.aborted) return;
+      if (!Hls?.isSupported()) {
+        fail("Этот браузер не поддерживает воспроизведение эфира.");
+        return;
+      }
+      hls = new Hls();
+      hls.on(Hls.Events.ERROR, (_, error) => { if (error.fatal) fail(); });
+      hls.on(Hls.Events.MEDIA_ATTACHED, play);
+      hls.loadSource(video.dataset.src);
+      hls.attachMedia(video);
+    } catch {
+      fail();
+    }
+  });
+
+  return stop;
 }
 
 function localIconUrl(value) {
@@ -921,6 +1016,8 @@ function renderJewelryItem(item) {
 
 async function route() {
   const version = ++routeVersion;
+  disposeStream?.();
+  disposeStream = undefined;
   const path = location.hash.slice(1).replace(/\/+$/, "") || "/";
   const profession = path.match(/^\/(?:profession|professions)\/([^/?#]+)$/);
   const isProfessionSection = path === "/professions" || profession !== null;
@@ -947,6 +1044,7 @@ async function route() {
     if (path === "/") {
       document.title = "База знаний BSFG";
       app.replaceChildren(cloneTemplate("#home-template"));
+      disposeStream = mountStream(app.querySelector(".home-stream"));
     } else if (path === "/specifications") {
       document.title = "Характеристики — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#specifications-template"));

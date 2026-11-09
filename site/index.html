@@ -39,31 +39,43 @@
       <h1>База знаний BSFG</h1>
       <p class="hero-copy">Справочник по профессиям, умениям, характеристикам и экипировке Battles for Glory.</p>
     </section>
-    <div class="directory-grid">
-      <a class="directory-link" href="#/professions">
-        <h2>Профессии</h2>
-        <p>Каталог по фракциям и классам с описаниями, умениями и ветками развития.</p>
-      </a>
-      <a class="directory-link" href="#/specifications">
-        <h2>Характеристики</h2>
-        <p>Заточка, свойства экипировки, знамёна, реликвии и военная служба.</p>
-      </a>
-      <a class="directory-link" href="#/items/equipment">
-        <h2>Экипировка</h2>
-        <p>Комплекты брони, украшения, щиты и другие предметы по рангам.</p>
-      </a>
-      <a class="directory-link" href="#/items/weapons">
-        <h2>Оружие</h2>
-        <p>Характеристики, эффекты и рецепты оружия по типам и рангам.</p>
-      </a>
-      <a class="directory-link" href="#/guides">
-        <h2>Гайды</h2>
-        <p>Руководства по строительству и игровым механикам.</p>
-      </a>
-      <a class="directory-link" href="#/map">
-        <h2>Интерактивная карта</h2>
-        <p>Боссы, города, аванпосты, книги секретов и точки сбора ресурсов.</p>
-      </a>
+    <div class="home-grid">
+      <div class="directory-grid">
+        <a class="directory-link" href="#/professions">
+          <h2>Профессии</h2>
+          <p>Каталог по фракциям и классам с описаниями, умениями и ветками развития.</p>
+        </a>
+        <a class="directory-link" href="#/specifications">
+          <h2>Характеристики</h2>
+          <p>Заточка, свойства экипировки, знамёна, реликвии и военная служба.</p>
+        </a>
+        <a class="directory-link" href="#/items/equipment">
+          <h2>Экипировка</h2>
+          <p>Комплекты брони, украшения, щиты и другие предметы по рангам.</p>
+        </a>
+        <a class="directory-link" href="#/items/weapons">
+          <h2>Оружие</h2>
+          <p>Характеристики, эффекты и рецепты оружия по типам и рангам.</p>
+        </a>
+        <a class="directory-link" href="#/guides">
+          <h2>Гайды</h2>
+          <p>Руководства по строительству и игровым механикам.</p>
+        </a>
+        <a class="directory-link" href="#/map">
+          <h2>Интерактивная карта</h2>
+          <p>Боссы, города, аванпосты, книги секретов и точки сбора ресурсов.</p>
+        </a>
+      </div>
+      <section class="home-stream" aria-labelledby="home-stream-title">
+        <h2 id="home-stream-title">Автострим BSFG</h2>
+        <div class="stream-screen">
+          <video aria-labelledby="home-stream-title" playsinline preload="none"
+            data-src="https://stream.bsfg-public.com/hls/stream/index.m3u8?cookieCheck=1"></video>
+          <button class="stream-play" type="button">Смотреть эфир</button>
+        </div>
+        <p class="stream-status" role="status"></p>
+        <a class="stream-link" href="https://www.bsfg.online/streams/" target="_blank" rel="noopener">Стримы на сайте BSFG ↗</a>
+      </section>
     </div>
   </template>
 

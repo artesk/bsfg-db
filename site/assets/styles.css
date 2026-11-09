@@ -73,6 +73,26 @@ h1 {
   margin: 0; font-family: Georgia, serif; font-size: 28px; font-weight: 500;
 }
 .directory-link p { margin: 9px 0 0; color: var(--muted); line-height: 1.5; }
+.home-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px); gap: 24px; align-items: start; padding-bottom: 60px; }
+.home-grid .directory-grid { padding-bottom: 0; }
+.home-stream {
+  display: grid; gap: 12px; padding: 16px; border: 1px solid var(--line); border-radius: 7px;
+  background-color: var(--surface); background-image: var(--panel-pattern);
+}
+.home-stream h2 { margin: 0; font: 500 24px Georgia, serif; }
+.stream-screen { position: relative; display: grid; place-items: center; border-radius: 5px; background: var(--bg); }
+.stream-screen video { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: inherit; }
+.stream-screen video:not([controls]) { visibility: hidden; }
+.stream-play {
+  position: absolute; padding: 10px 16px; border: 1px solid var(--accent-2); border-radius: 5px;
+  background: var(--surface-2); color: var(--accent-2); font-weight: 600; cursor: pointer;
+}
+.stream-play:hover { background: var(--surface); }
+.stream-play:focus-visible, .stream-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.stream-status, .stream-link { margin: 0; color: var(--muted); font-size: 14px; }
+.stream-status:empty { position: absolute; }
+.stream-link { justify-self: start; }
+.stream-link:hover { color: var(--text); }
 .enchant-page .hero { padding-top: 36px; }
 .enchant-title { margin-bottom: 16px; }
 .enchant-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; align-items: start; }
@@ -370,6 +390,8 @@ footer {
 
 @media (max-width: 960px) {
   .hero { padding-top: 52px; }
+  .home-grid { grid-template-columns: minmax(0, 1fr); }
+  .home-stream { width: min(100%, 560px); }
   .enchant-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .profession-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .toolbar { grid-template-columns: 1fr 200px; }

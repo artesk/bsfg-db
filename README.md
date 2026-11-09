@@ -50,6 +50,10 @@ GitHub Pages: <https://artesk.github.io/bsfg-db/>
 
 После этого сайт доступен по адресу <http://127.0.0.1:8080/>.
 
+Плеер автострима на главной использует встроенную поддержку HLS или hls.js.
+Для hls.js сервер потока должен разрешать в CORS домен базы на плейлистах
+и сегментах. Сейчас сервер разрешает `https://db.bsfg.online`.
+
 Только проверить YAML, не создавая JSON:
 
     .venv/bin/python generate.py --validate-only

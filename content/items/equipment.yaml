@@ -1,4 +1,4 @@
-client_release: 2026.11.10.210508
+client_release: 2026.11.11.172517
 items:
 - id: 22
   name: Рубашка новобранца
@@ -52568,7 +52568,7 @@ items:
   stats:
     mDefense: 59
   effects:
-  - Сила критического удара +6%
+  - Сила критического удара +5%
   icon: /icon/equipment/bsfg.assassin2.png
 - id: 5521
   name: Талисман убийцы
@@ -52578,7 +52578,7 @@ items:
   stats:
     mDefense: 94
   effects:
-  - Сила критического удара +8%
+  - Сила критического удара +6%
   icon: /icon/equipment/bsfg.assassin3.png
 - id: 5522
   name: Талисман орла
@@ -52664,7 +52664,7 @@ items:
   stats:
     mDefense: 59
   effects:
-  - Физическая атака +3%
+  - Физическая атака +4%
   icon: /icon/equipment/bsfg.power2.png
 - id: 5530
   name: Талисман могущества
@@ -52674,7 +52674,7 @@ items:
   stats:
     mDefense: 94
   effects:
-  - Физическая атака +4%
+  - Физическая атака +5%
   icon: /icon/equipment/bsfg.power3.png
 - id: 5531
   name: Талисман усиления
@@ -52866,9 +52866,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +4%
+  - Физическая атака +5%
   - Скорость атаки +4%
   icon: /icon/equipment/bsfg.talisman1.png
 - id: 5557
@@ -52877,9 +52877,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +4%
+  - Физическая атака +6.5%
   - Дальность стрельбы +140
   icon: /icon/equipment/bsfg.talisman2.png
 - id: 5558
@@ -52888,9 +52888,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +3%
+  - Физическая атака +4%
   - Скорость атаки +4.5%
   icon: /icon/equipment/bsfg.talisman3.png
 - id: 5559
@@ -52899,9 +52899,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +4%
+  - Физическая атака +5%
   - Дальность стрельбы +120
   icon: /icon/equipment/bsfg.talisman4.png
 - id: 5560
@@ -52910,10 +52910,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3.5%
-  - Физическая атака +4%
+  - Физическая атака +5%
   icon: /icon/equipment/bsfg.talisman5.png
 - id: 5561
   name: Ледяной талисман
@@ -52921,7 +52921,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3.5%
   - Магическая защита +4.5%
@@ -52932,7 +52932,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум здоровья +6%
   - Физическая защита +3.5%
@@ -52943,10 +52943,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая защита +4.5%
-  - Сила критического удара +8%
+  - Сила критического удара +6%
   icon: /icon/equipment/bsfg.talisman8.png
 - id: 5564
   name: Талисман рассеивания
@@ -52954,7 +52954,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая защита +4%
   - 'Сила лечения +12%
@@ -52967,7 +52967,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +4%
   - Магическая защита +3%
@@ -52978,7 +52978,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Сила критической атаки магией +4%
   - Скорость чтения заклинаний +3%
@@ -52989,7 +52989,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3.5%
   - 'Скорость в тяжелой броне +3
@@ -53002,10 +53002,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +2.5%
-  - Физическая атака +5%
+  - Физическая атака +7%
   icon: /icon/equipment/bsfg.talisman13.png
 - id: 5569
   name: Талисман мудреца
@@ -53013,7 +53013,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость чтения заклинаний +3%
   - 'Сила лечения +12%
@@ -53026,7 +53026,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
@@ -53039,7 +53039,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость чтения заклинаний +2%
   - Сила критической атаки магией +5%
@@ -53050,7 +53050,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3.5%
   - 'Сила лечения +12%
@@ -53063,7 +53063,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критической магии +4%
   - Магическая атака +6%
@@ -53074,10 +53074,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Дальность стрельбы +70
-  - Физическая атака +5%
+  - Физическая атака +7%
   icon: /icon/equipment/bsfg.talisman19.png
 - id: 5576
   name: Талисман усилия
@@ -53085,7 +53085,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
@@ -53098,7 +53098,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3.5%
   - Магическая атака +6%
@@ -53109,7 +53109,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критического удара +15%
   - Дальность стрельбы +120
@@ -53120,7 +53120,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая атака +6%
   - Сила критической атаки магией +4%
@@ -53131,7 +53131,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Сила критической атаки магией +5%
   - Магическая атака +5%
@@ -53142,7 +53142,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум здоровья +6%
   - Регенерация здоровья +200
@@ -53153,7 +53153,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая атака +2%
   - Скорость атаки +5%
@@ -53164,10 +53164,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критического удара +15%
-  - Сила критического удара +8%
+  - Сила критического удара +6%
   icon: /icon/equipment/bsfg.talisman28.png
 - id: 5584
   name: Талисман Варлока
@@ -53175,7 +53175,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая атака +4%
   - Сила критической атаки магией +6%
@@ -53186,10 +53186,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критического удара +15%
-  - Физическая атака +4%
+  - Физическая атака +5%
   icon: /icon/equipment/bsfg.talisman30.png
 - id: 5586
   name: Талисман саламандры
@@ -53197,7 +53197,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3%
   - Магическая защита +5%
@@ -53208,7 +53208,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критической магии +4%
   - Сила критической атаки магией +4%
@@ -53219,7 +53219,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
@@ -53232,7 +53232,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +2
 
@@ -53245,9 +53245,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Сила критического удара +8%
+  - Сила критического удара +6%
   - 'Скорость в тяжелой броне +3
 
     Скорость в легкой броне, робе и форме +5'
@@ -53258,7 +53258,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
@@ -53271,7 +53271,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Регенерация здоровья +200
   - Физическая защита +3.5%
@@ -53282,7 +53282,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
@@ -53295,7 +53295,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критической магии +4%
   - 'Сила лечения +12%
@@ -53308,7 +53308,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Регенерация здоровья +200
   - Магическая защита +4.5%
@@ -53319,7 +53319,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость чтения заклинаний +2%
   - 'Сила лечения +13%
@@ -53332,7 +53332,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +2
 
@@ -53345,7 +53345,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость чтения заклинаний +3%
   - Физическая защита +3.5%
@@ -53356,7 +53356,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость чтения заклинаний +3%
   - Магическая атака +6%
@@ -53367,7 +53367,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс блока щитом +15%
   - Физическая защита +4.5%
@@ -53378,7 +53378,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Дальность стрельбы +140
   - Физическая защита +4.5%
@@ -53389,7 +53389,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум здоровья +6%
   - Магическая защита +4.5%
@@ -53400,7 +53400,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость чтения заклинаний +3%
   - Шанс критической магии +4%
@@ -53411,10 +53411,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Сила критического удара +8%
-  - Физическая атака +4%
+  - Сила критического удара +7%
+  - Физическая атака +5%
   icon: /icon/equipment/bsfg.talisman49.png
 - id: 5605
   name: Талисман направления
@@ -53422,7 +53422,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
@@ -53435,7 +53435,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +2
 
@@ -53448,9 +53448,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Сила критического удара +8%
+  - Сила критического удара +7%
   - Дальность стрельбы +120
   icon: /icon/equipment/bsfg.talisman52.png
 - id: 5608
@@ -53459,7 +53459,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +3%
   - Дальность стрельбы +120
@@ -53470,7 +53470,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая защита +4.5%
   - Дальность стрельбы +120
@@ -53481,7 +53481,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Дальность стрельбы +80
   - 'Скорость в тяжелой броне +4
@@ -53494,7 +53494,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Дальность стрельбы +130
   - Шанс критического удара +14%
@@ -53505,7 +53505,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Защита +2%
   - Максимум здоровья +4.5%
@@ -53517,7 +53517,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Защита +2%
   - Максимум здоровья +4.5%
@@ -53529,11 +53529,11 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +2%
   - Шанс критического удара +14%
-  - Сила критического удара +7%
+  - Сила критического удара +8%
   icon: /icon/equipment/bsfg.talisman59.png
 - id: 5615
   name: Талисман природы
@@ -53541,11 +53541,11 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +4%
+  - Физическая атака +5%
   - Максимум боевого духа +7%
-  - Сила критического удара +7%
+  - Сила критического удара +8%
   icon: /icon/equipment/bsfg.talisman60.png
 - id: 5616
   name: Талисман глаз вечности
@@ -53553,11 +53553,11 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Дальность стрельбы +110
-  - Сила критического удара +7%
-  - Физическая атака +3%
+  - Сила критического удара +8%
+  - Физическая атака +4%
   icon: /icon/equipment/bsfg.talisman61.png
 - id: 5617
   name: Талисман искривления
@@ -53565,12 +53565,12 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
     Скорость в легкой броне, робе и форме +4'
-  - Сила критического удара +7%
+  - Сила критического удара +8%
   - Максимум боевого духа +8.5%
   icon: /icon/equipment/bsfg.talisman62.png
 - id: 5618
@@ -53579,12 +53579,12 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
     Скорость в легкой броне, робе и форме +5'
-  - Физическая атака +4%
+  - Физическая атака +5%
   icon: /icon/equipment/bsfg.talisman63.png
 - id: 5619
   name: Талисман миражей
@@ -53592,10 +53592,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Защита +2%
-  - Физическая атака +3%
+  - Физическая атака +4%
   - Максимум здоровья +5.5%
   icon: /icon/equipment/bsfg.talisman64.png
 - id: 5620
@@ -53604,7 +53604,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум здоровья +5%
   - Защита +2%
@@ -53616,11 +53616,11 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Защита +2%
   - Максимум здоровья +5.5%
-  - Сила критического удара +7%
+  - Сила критического удара +8%
   icon: /icon/equipment/bsfg.talisman66.png
 - id: 5622
   name: Дикий талисман
@@ -53628,7 +53628,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум здоровья +5.5%
   - 'Сила лечения +11%
@@ -53642,10 +53642,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Сила критического удара +6%
-  - Физическая атака +5%
+  - Сила критического удара +5%
+  - Физическая атака +7%
   icon: /icon/equipment/bsfg.talisman68.png
 - id: 5624
   name: Талисман стабильности
@@ -53653,11 +53653,11 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Поглощение здоровья из повреждений +4%
   - Скорость атаки +4.5%
-  - Физическая атака +3%
+  - Физическая атака +4%
   icon: /icon/equipment/bsfg.talisman69.png
 - id: 5625
   name: Талисман власти
@@ -53665,9 +53665,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +4%
+  - Физическая атака +5%
   - Максимум здоровья +6%
   icon: /icon/equipment/bsfg.talisman70.png
 - id: 5626
@@ -53676,11 +53676,11 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +3.5%
-  - Физическая атака +3%
-  - Сила критического удара +7%
+  - Физическая атака +4%
+  - Сила критического удара +8%
   icon: /icon/equipment/bsfg.talisman71.png
 - id: 5627
   name: Талисман безумия
@@ -53688,7 +53688,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +4%
   - Максимум здоровья +6%
@@ -53699,7 +53699,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критической магии +3%
   - Магическая атака +4%
@@ -53711,7 +53711,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Защита +2%
   - 'Сила лечения +11%
@@ -53725,7 +53725,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая атака +4%
   - Скорость чтения заклинаний +3%
@@ -53737,7 +53737,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3.5%
   - Сила критической атаки магией +4%
@@ -53748,7 +53748,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +4.5%
   - Защита +2%
@@ -53760,7 +53760,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3.5%
   - Максимум боевого духа +10%
@@ -53771,7 +53771,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая атака +4%
   - 'Сила лечения +11%
@@ -53785,10 +53785,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Защита +2%
-  - Сила критического удара +7%
+  - Сила критического удара +8%
   - Скорость +5
   icon: /icon/equipment/bsfg.talisman80.png
 - id: 5636
@@ -53797,7 +53797,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая атака +4%
   - Скорость чтения заклинаний +3%
@@ -53809,7 +53809,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум боевого духа +10%
   - Магическая защита +4.5%
@@ -53820,7 +53820,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +4
 
@@ -53832,7 +53832,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +4%
   - Ловкость +4
@@ -53843,9 +53843,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Сила критического удара +8%
+  - Сила критического удара +7%
   - Максимум боевого духа +10%
   icon: /icon/equipment/bsfg.talisman85.png
 - id: 5641
@@ -53854,10 +53854,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум боевого духа +10%
-  - Физическая атака +4%
+  - Физическая атака +5%
   icon: /icon/equipment/bsfg.talisman86.png
 - id: 5642
   name: Талисман увечий
@@ -53865,10 +53865,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +4%
-  - Сила критического удара +8%
+  - Сила критического удара +7%
   icon: /icon/equipment/bsfg.talisman87.png
 - id: 5643
   name: Талисман пустоты
@@ -53876,7 +53876,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +4.5%
   icon: /icon/equipment/bsfg.talisman88.png
@@ -53886,7 +53886,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критического удара +15%
   - Максимум здоровья +6%
@@ -53897,9 +53897,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Сила критического удара +8%
+  - Сила критического удара +7%
   - Максимум здоровья +6%
   icon: /icon/equipment/bsfg.talisman90.png
 - id: 5646
@@ -53908,7 +53908,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Поглощение здоровья из повреждений +7%
   icon: /icon/equipment/bsfg.talisman91.png
@@ -53918,7 +53918,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критического удара +17%
   icon: /icon/equipment/bsfg.talisman92.png
@@ -53928,7 +53928,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +4.5%
   icon: /icon/equipment/bsfg.talisman93.png
@@ -53938,7 +53938,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Сила критического удара +9%
   icon: /icon/equipment/bsfg.talisman94.png
@@ -53948,7 +53948,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Меткость +20
   - Дальность стрельбы +150
@@ -53959,7 +53959,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум здоровья +6.5%
   icon: /icon/equipment/bsfg.talisman96.png
@@ -53969,9 +53969,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +7%
+  - Физическая атака +8%
   icon: /icon/equipment/bsfg.talisman97.png
 - id: 5653
   name: Талисман здоровья
@@ -53979,7 +53979,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум здоровья +6%
   - Максимум боевого духа +10%
@@ -53990,7 +53990,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая атака +7%
   icon: /icon/equipment/bsfg.talisman99.png
@@ -54000,7 +54000,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость чтения заклинаний +3.5%
   icon: /icon/equipment/bsfg.talisman100.png
@@ -54010,7 +54010,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3.5%
   - Регенерация боевого духа +250
@@ -54021,7 +54021,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая защита +5.5%
   icon: /icon/equipment/bsfg.talisman102.png
@@ -54031,9 +54031,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +4%
+  - Физическая атака +5%
   - Поглощение здоровья из повреждений +5%
   icon: /icon/equipment/bsfg.talisman103.png
 - id: 5659
@@ -54042,10 +54042,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +3%
-  - Физическая атака +5%
+  - Физическая атака +7%
   - Защита +2%
   icon: /icon/equipment/bsfg.talisman104.png
 - id: 5660
@@ -54054,7 +54054,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критической магии +6%
   icon: /icon/equipment/bsfg.talisman76.png
@@ -54064,7 +54064,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
@@ -54077,7 +54077,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая защита +4.5%
   - Скорость чтения заклинаний +3%
@@ -54088,9 +54088,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +4%
+  - Физическая атака +5%
   - Максимум здоровья +6%
   icon: /icon/equipment/bsfg.talisman108.png
 - id: 5664
@@ -54099,7 +54099,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Магическая защита +4%
   - 'Сила лечения +10%
@@ -54112,10 +54112,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +3%
-  - Сила критического удара +4%
+  - Физическая атака +4%
+  - Сила критического удара +7%
   icon: /icon/equipment/bsfg.talisman110.png
 - id: 5666
   name: Талисман шамана
@@ -54123,9 +54123,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +4%
+  - Физическая атака +6%
   - Магическая защита +4%
   icon: /icon/equipment/bsfg.talisman111.png
 - id: 5667
@@ -54134,7 +54134,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критической магии +4%
   - Сила критической атаки магией +4%
@@ -54145,7 +54145,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критического удара +15%
   - Магическая защита +4.5%
@@ -54156,7 +54156,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критического удара +15%
   - Скорость атаки +4%
@@ -54167,10 +54167,10 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +1%
-  - Физическая атака +6%
+  - Физическая атака +9%
   icon: /icon/equipment/bsfg.talisman161.png
 - id: 5671
   name: Сумеречный талисман
@@ -54178,7 +54178,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Шанс критической магии +4%
   - Физическая защита +3.5%
@@ -54189,7 +54189,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +1%
   - Шанс критического удара +16%
@@ -54200,9 +54200,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Сила критического удара +4%
+  - Сила критического удара +7%
   - Дальность стрельбы +100
   icon: /icon/equipment/bsfg.talisman164.png
 - id: 5674
@@ -54211,9 +54211,9 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
-  - Физическая атака +5%
+  - Физическая атака +7%
   - Магическая защита +4%
   icon: /icon/equipment/bsfg.talisman165.png
 - id: 5675
@@ -54222,7 +54222,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Сила критической атаки магией +4%
   - 'Скорость в тяжелой броне +3
@@ -54235,7 +54235,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +4%
   - Регенерация здоровья +200
@@ -54246,7 +54246,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум боевого духа +10%
   - Регенерация боевого духа +250
@@ -54257,7 +54257,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
@@ -54270,12 +54270,12 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +4
 
     Скорость в легкой броне, робе и форме +5'
-  - Сила критического удара +8%
+  - Сила критического удара +7%
   icon: /icon/equipment/bsfg.talisman170.png
 - id: 5680
   name: Ментальный талисман
@@ -54283,7 +54283,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +4
 
@@ -54296,7 +54296,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - 'Скорость в тяжелой броне +3
 
@@ -54309,7 +54309,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Максимум здоровья +7.5%
   - 'Скорость в тяжелой броне +3
@@ -54322,7 +54322,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Физическая защита +3.5%
   - Шанс критического удара +15%
@@ -54333,7 +54333,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Регенерация здоровья +200
   - Регенерация боевого духа +250
@@ -56405,7 +56405,7 @@ items:
   category: talismans
   slot: Талисман
   stats:
-    mDefense: 102
+    mDefense: 142
   effects:
   - Скорость атаки +1%
   - Время до повторного использования умений -20%
@@ -56419,7 +56419,7 @@ items:
     mDefense: 104
   effects:
   - Скорость атаки +5.5%
-  - Физическая атака +7%
+  - Физическая атака +8%
   - Защита +4.5%
   icon: /icon/equipment/bsfg.talisman_5947.png
 - id: 5948
@@ -56467,7 +56467,7 @@ items:
     mDefense: 104
   effects:
   - Сила критического удара +9%
-  - Физическая атака +7%
+  - Физическая атака +8%
   - Максимум боевого духа +11%
   icon: /icon/equipment/bsfg.talisman_5951.png
 - id: 5952
@@ -56479,7 +56479,7 @@ items:
     mDefense: 104
   effects:
   - Дальность стрельбы +140
-  - Физическая атака +7%
+  - Физическая атака +8%
   - Сила критического удара +9%
   icon: /icon/equipment/bsfg.talisman_5952.png
 - id: 5953
@@ -56505,7 +56505,7 @@ items:
     mDefense: 104
   effects:
   - Максимум здоровья +6.5%
-  - Физическая атака +7%
+  - Физическая атака +8%
   - Защита +4.5%
   icon: /icon/equipment/bsfg.talisman_5954.png
 - id: 5955
@@ -56555,7 +56555,7 @@ items:
     mDefense: 104
   effects:
   - Скорость атаки +5.5%
-  - Физическая атака +7%
+  - Физическая атака +8%
   - Поглощение здоровья из повреждений +6%
   icon: /icon/equipment/bsfg.talisman_5958.png
 - id: 5959
@@ -56567,7 +56567,7 @@ items:
     mDefense: 104
   effects:
   - Скорость атаки +5.5%
-  - Физическая атака +7%
+  - Физическая атака +8%
   - Сила критического удара +9%
   icon: /icon/equipment/bsfg.talisman_5959.png
 - id: 5960
@@ -70610,7 +70610,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -70633,7 +70633,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -70656,7 +70656,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Скорость атаки +7%
 
@@ -70679,7 +70679,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -70702,7 +70702,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -70725,7 +70725,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -70748,7 +70748,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -70771,7 +70771,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Шанс нанести критический удар умением +10%
 
@@ -70878,7 +70878,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Сила критических атак класса Убийц +10%
 
@@ -70922,7 +70922,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Магическая атака +15%
 
@@ -70966,7 +70966,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Магическая атака +15%
 
@@ -71010,7 +71010,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Магическая атака +15%
 
@@ -71117,7 +71117,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Магическая атака +15%
 
@@ -71140,7 +71140,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Сила критической атаки магией +10%
 
@@ -71184,7 +71184,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Сила лечения +15%
 
@@ -74437,7 +74437,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Физическая атака +8%
 
@@ -74460,7 +74460,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Физическая атака +8%
 
@@ -74483,7 +74483,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Скорость атаки +5%
 
@@ -74506,7 +74506,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Физическая атака +8%
 
@@ -74529,7 +74529,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Физическая атака +8%
 
@@ -74552,7 +74552,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Физическая атака +8%
 
@@ -74575,7 +74575,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Физическая атака +8%
 
@@ -74598,7 +74598,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Шанс нанести критический удар умением +6%
 
@@ -74621,7 +74621,7 @@ items:
   label: Эпический
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Сила критических атак класса Убийц +6%
 
@@ -74644,7 +74644,7 @@ items:
   label: Эпический
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Магическая атака +9%
 
@@ -74667,7 +74667,7 @@ items:
   label: Эпический
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Магическая атака +9%
 
@@ -74690,7 +74690,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Магическая атака +9%
 
@@ -74713,7 +74713,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Магическая атака +9%
 
@@ -74736,7 +74736,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Сила критической атаки магией +6%
 
@@ -74759,7 +74759,7 @@ items:
   label: Эпическое
   slot: Талисман
   stats:
-    mDefense: 104
+    mDefense: 162
   effects:
   - 'Сила лечения +11%
 
@@ -74784,7 +74784,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Физическая атака +9%
 
@@ -74807,7 +74807,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Физическая атака +9%
 
@@ -74830,7 +74830,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Скорость атаки +6%
 
@@ -74853,7 +74853,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Физическая атака +9%
 
@@ -74876,7 +74876,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Физическая атака +9%
 
@@ -74899,7 +74899,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Физическая атака +9%
 
@@ -74922,7 +74922,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Физическая атака +9%
 
@@ -74945,7 +74945,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Шанс нанести критический удар умением +8%
 
@@ -74968,7 +74968,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Сила критических атак класса Убийц +8%
 
@@ -74991,7 +74991,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Магическая атака +12%
 
@@ -75014,7 +75014,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Магическая атака +12%
 
@@ -75037,7 +75037,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Магическая атака +12%
 
@@ -75060,7 +75060,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Магическая атака +12%
 
@@ -75083,7 +75083,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Сила критической атаки магией +8%
 
@@ -75106,7 +75106,7 @@ items:
   label: Реликтовое
   slot: Талисман
   stats:
-    mDefense: 106
+    mDefense: 172
   effects:
   - 'Сила лечения +13%
 
@@ -76152,7 +76152,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -76176,7 +76176,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -76200,7 +76200,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Скорость атаки +7%
 
@@ -76224,7 +76224,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -76248,7 +76248,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -76272,7 +76272,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -76296,7 +76296,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Физическая атака +10%
 
@@ -76320,7 +76320,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Шанс нанести критический удар умением +10%
 
@@ -76344,7 +76344,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Сила критических атак класса Убийц +10%
 
@@ -76368,7 +76368,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Магическая атака +15%
 
@@ -76392,7 +76392,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Магическая атака +15%
 
@@ -76416,7 +76416,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Магическая атака +15%
 
@@ -76440,7 +76440,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Магическая атака +15%
 
@@ -76464,7 +76464,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Сила критической атаки магией +10%
 
@@ -76488,7 +76488,7 @@ items:
   label: Мифическое
   slot: Талисман
   stats:
-    mDefense: 108
+    mDefense: 182
   effects:
   - 'Сила лечения +15%
 

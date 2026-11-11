@@ -823,6 +823,10 @@ function equipmentParameters(item) {
       parameters.add("Атака по вражеским игрокам");
       parameters.add("Защита от вражеских игроков");
     }
+    if (/^Увеличивает физическую защиту на [\d.,]+% и магическую защиту на [\d.,]+%\.$/.test(effect)) {
+      parameters.add("Физическая защита");
+      parameters.add("Магическая защита");
+    }
   }
   return parameters;
 }
@@ -1415,17 +1419,26 @@ function renderPitJewelry(data) {
   const search = document.querySelector("#jewelry-search");
   const results = document.querySelector("#jewelry-results");
   const empty = document.querySelector("#empty-jewelry");
+  const counter = el("p", "equipment-count");
+  counter.setAttribute("role", "status");
+  results.before(counter);
+  const selectedParameters = new Set();
+  const parameters = new Map(data.ranks.flatMap(rank => rank.bosses.flatMap(boss =>
+    boss.items.map(item => [item, equipmentParameters({...item, stats: {mDefense: item.magic_defense}})]))));
   let activeRank = data.ranks[0];
   let activeVariant;
 
   const refresh = () => {
     const query = normalize(search.value.trim());
     const groups = document.createDocumentFragment();
+    let count = 0;
     for (const boss of activeRank.bosses) {
       const bossMatches = normalize(boss.name).includes(query);
       const items = boss.items.filter((item) => item.variant === activeVariant
-        && (bossMatches || normalize(item.name).includes(query) || query === String(item.item_id)));
+        && (bossMatches || normalize(item.name).includes(query) || query === String(item.item_id))
+        && (!selectedParameters.size || [...selectedParameters].some(parameter => parameters.get(item).has(parameter))));
       if (items.length === 0) continue;
+      count += items.length;
       const section = el("section", "jewelry-boss");
       const grid = el("div", "enchant-grid jewelry-grid");
       grid.append(...items.map(renderJewelryItem));
@@ -1434,6 +1447,7 @@ function renderPitJewelry(data) {
     }
     empty.hidden = groups.childElementCount > 0;
     results.replaceChildren(groups);
+    counter.textContent = count ? "Показано " + count : "Совпадений нет.";
   };
 
   const renderVariants = () => {
@@ -1468,6 +1482,7 @@ function renderPitJewelry(data) {
     ranks.append(button);
   }
   search.addEventListener("input", refresh);
+  document.querySelector(".jewelry-toolbar").after(renderEquipmentParameterFilter(parameters, selectedParameters, refresh));
   renderVariants();
   refresh();
 }

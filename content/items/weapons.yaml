@@ -1,4 +1,4 @@
-client_release: 2026.11.06.171000
+client_release: 2026.11.10.210508
 items:
 - id: 5880
   name: Миротворец - Гвард
@@ -10811,8 +10811,8 @@ items:
   category: stick
   label: Реликтовое
   stats:
-    pAttack: 12
-    mAttack: 204
+    pAttack: 14
+    mAttack: 245
     pAttackSpeed: 283
     pHit: -50.0
     pCritical: 4.0
@@ -10826,8 +10826,8 @@ items:
   category: stick
   label: Реликтовое
   stats:
-    pAttack: 12
-    mAttack: 408
+    pAttack: 14
+    mAttack: 490
     pAttackSpeed: 283
     pHit: -50.0
     pCritical: 4.0
@@ -10873,8 +10873,8 @@ items:
   category: rod
   label: Реликтовое
   stats:
-    pAttack: 12
-    mAttack: 168
+    pAttack: 14
+    mAttack: 202
     pAttackSpeed: 319
     pHit: -50.0
     pCritical: 4.0
@@ -10888,8 +10888,8 @@ items:
   category: rod
   label: Реликтовое
   stats:
-    pAttack: 12
-    mAttack: 324
+    pAttack: 14
+    mAttack: 389
     pAttackSpeed: 319
     pHit: -50.0
     pCritical: 4.0
@@ -10933,8 +10933,8 @@ items:
   category: one-handed-hammers
   label: Реликтовое
   stats:
-    pAttack: 156
-    mAttack: 6
+    pAttack: 187
+    mAttack: 7
     pAttackSpeed: 319
     pHit: 10.0
     pCritical: 7.0
@@ -10946,8 +10946,8 @@ items:
   category: one-handed-hammers
   label: Реликтовое
   stats:
-    pAttack: 240
-    mAttack: 6
+    pAttack: 288
+    mAttack: 7
     pAttackSpeed: 319
     pHit: 10.0
     pCritical: 7.0
@@ -10988,8 +10988,8 @@ items:
   category: two-handed-hammers
   label: Реликтовое
   stats:
-    pAttack: 288
-    mAttack: 6
+    pAttack: 346
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 7.0
   enchant_effect: Увеличивает силу и точность атак.
@@ -11000,8 +11000,8 @@ items:
   category: two-handed-hammers
   label: Реликтовое
   stats:
-    pAttack: 492
-    mAttack: 6
+    pAttack: 590
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 7.0
   effects:
@@ -11041,8 +11041,8 @@ items:
   category: one-handed-swords
   label: Реликтовое
   stats:
-    pAttack: 144
-    mAttack: 72
+    pAttack: 173
+    mAttack: 86
     pAttackSpeed: 319
     pCritical: 8.0
   enchant_effect: Увеличивает шанс критической атаки и шанс нанести критический удар магией.
@@ -11053,8 +11053,8 @@ items:
   category: one-handed-swords
   label: Реликтовое
   stats:
-    pAttack: 240
-    mAttack: 168
+    pAttack: 288
+    mAttack: 202
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -11094,8 +11094,8 @@ items:
   category: two-handed-swords
   label: Реликтовое
   stats:
-    pAttack: 300
-    mAttack: 6
+    pAttack: 360
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   enchant_effect: Увеличивает силу атаки и шанс критических попаданий.
@@ -11106,8 +11106,8 @@ items:
   category: two-handed-swords
   label: Реликтовое
   stats:
-    pAttack: 516
-    mAttack: 6
+    pAttack: 619
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -11147,8 +11147,8 @@ items:
   category: halberds
   label: Реликтовое
   stats:
-    pAttack: 288
-    mAttack: 6
+    pAttack: 346
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   enchant_effect: Увеличивает силу и радиус атаки.
@@ -11159,8 +11159,8 @@ items:
   category: halberds
   label: Реликтовое
   stats:
-    pAttack: 480
-    mAttack: 6
+    pAttack: 576
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -11202,8 +11202,8 @@ items:
   category: daggers
   label: Реликтовое
   stats:
-    pAttack: 132
-    mAttack: 6
+    pAttack: 158
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -11216,8 +11216,8 @@ items:
   category: daggers
   label: Реликтовое
   stats:
-    pAttack: 288
-    mAttack: 7
+    pAttack: 346
+    mAttack: 8
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -11260,8 +11260,8 @@ items:
   category: claw
   label: Реликтовое
   stats:
-    pAttack: 132
-    mAttack: 6
+    pAttack: 158
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -11274,8 +11274,8 @@ items:
   category: claw
   label: Реликтовое
   stats:
-    pAttack: 240
-    mAttack: 6
+    pAttack: 288
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -11318,8 +11318,8 @@ items:
   category: sharp-axes
   label: Реликтовое
   stats:
-    pAttack: 132
-    mAttack: 6
+    pAttack: 158
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -11332,8 +11332,8 @@ items:
   category: sharp-axes
   label: Реликтовое
   stats:
-    pAttack: 240
-    mAttack: 6
+    pAttack: 288
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -11376,8 +11376,8 @@ items:
   category: short-bows
   label: Реликтовое
   stats:
-    pAttack: 306
-    mAttack: 72
+    pAttack: 367
+    mAttack: 86
     pAttackSpeed: 252
     pHit: 5.0
     pCritical: 8.0
@@ -11389,8 +11389,8 @@ items:
   category: short-bows
   label: Реликтовое
   stats:
-    pAttack: 522
-    mAttack: 180
+    pAttack: 626
+    mAttack: 216
     pAttackSpeed: 252
     pHit: 5.0
     pCritical: 8.0
@@ -11431,8 +11431,8 @@ items:
   category: long-bows
   label: Реликтовое
   stats:
-    pAttack: 436
-    mAttack: 106
+    pAttack: 523
+    mAttack: 127
     pAttackSpeed: 199
     pCritical: 8.0
   enchant_effect: Увеличивает силу стрельбы и магическую атаку.
@@ -11443,8 +11443,8 @@ items:
   category: long-bows
   label: Реликтовое
   stats:
-    pAttack: 752
-    mAttack: 238
+    pAttack: 902
+    mAttack: 286
     pAttackSpeed: 199
     pCritical: 8.0
   effects:
@@ -11484,8 +11484,8 @@ items:
   category: knuckles
   label: Реликтовое
   stats:
-    pAttack: 228
-    mAttack: 6
+    pAttack: 274
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   enchant_effect: Увеличивает силу атаки.
@@ -11496,8 +11496,8 @@ items:
   category: knuckles
   label: Реликтовое
   stats:
-    pAttack: 384
-    mAttack: 6
+    pAttack: 461
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -11537,8 +11537,8 @@ items:
   category: twin-swords
   label: Реликтовое
   stats:
-    pAttack: 216
-    mAttack: 6
+    pAttack: 259
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   enchant_effect: Увеличивает скорость атаки и шанс критических попаданий.
@@ -11549,8 +11549,8 @@ items:
   category: twin-swords
   label: Реликтовое
   stats:
-    pAttack: 384
-    mAttack: 6
+    pAttack: 461
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -11590,8 +11590,8 @@ items:
   category: paired-daggers
   label: Реликтовое
   stats:
-    pAttack: 234
-    mAttack: 6
+    pAttack: 281
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   enchant_effect: Увеличивает скорость атаки.
@@ -11602,8 +11602,8 @@ items:
   category: paired-daggers
   label: Реликтовое
   stats:
-    pAttack: 384
-    mAttack: 6
+    pAttack: 461
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -11644,8 +11644,8 @@ items:
   category: steam-hammers
   label: Реликтовое
   stats:
-    pAttack: 216
-    mAttack: 6
+    pAttack: 259
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   enchant_effect: Увеличивает силу и точность атаки.
@@ -11656,8 +11656,8 @@ items:
   category: steam-hammers
   label: Реликтовое
   stats:
-    pAttack: 384
-    mAttack: 6
+    pAttack: 461
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -11699,8 +11699,8 @@ items:
   category: rapier
   label: Реликтовое
   stats:
-    pAttack: 180
-    mAttack: 6
+    pAttack: 216
+    mAttack: 7
     pAttackSpeed: 221
     pCritical: 12.0
     random_damage: 40
@@ -11712,8 +11712,8 @@ items:
   category: rapier
   label: Реликтовое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 221
     pCritical: 12.0
     random_damage: 40
@@ -11756,8 +11756,8 @@ items:
   category: ancient-swords
   label: Реликтовое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 199
     pCritical: 8.0
     random_damage: 15
@@ -11769,8 +11769,8 @@ items:
   category: ancient-swords
   label: Реликтовое
   stats:
-    pAttack: 504
-    mAttack: 6
+    pAttack: 605
+    mAttack: 7
     pAttackSpeed: 199
     pCritical: 8.0
     random_damage: 15
@@ -11815,8 +11815,8 @@ items:
   category: crossbows
   label: Реликтовое
   stats:
-    pAttack: 356
-    mAttack: 6
+    pAttack: 427
+    mAttack: 7
     pAttackSpeed: 177
     pHit: 5.0
     pCritical: 8.0
@@ -11829,8 +11829,8 @@ items:
   category: crossbows
   label: Реликтовое
   stats:
-    pAttack: 634
-    mAttack: 6
+    pAttack: 761
+    mAttack: 7
     pAttackSpeed: 177
     pHit: 5.0
     pCritical: 8.0
@@ -11872,8 +11872,8 @@ items:
   category: paired-rapiers
   label: Реликтовое
   stats:
-    pAttack: 324
-    mAttack: 6
+    pAttack: 389
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   enchant_effect: Увеличивает скорость атаки и шанс критических попаданий.
@@ -11884,8 +11884,8 @@ items:
   category: paired-rapiers
   label: Реликтовое
   stats:
-    pAttack: 492
-    mAttack: 6
+    pAttack: 590
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -11929,8 +11929,8 @@ items:
   category: rapier-with-symbol
   label: Реликтовое
   stats:
-    pAttack: 144
-    mAttack: 6
+    pAttack: 173
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -11944,8 +11944,8 @@ items:
   category: rapier-with-symbol
   label: Реликтовое
   stats:
-    pAttack: 252
-    mAttack: 6
+    pAttack: 302
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -11993,8 +11993,8 @@ items:
   category: warp-crossbows
   label: Реликтовое
   stats:
-    pAttack: 108
-    mAttack: 180
+    pAttack: 130
+    mAttack: 216
     pAttackSpeed: 177
     pHit: 30.0
     pCritical: 6.0
@@ -12009,8 +12009,8 @@ items:
   category: warp-crossbows
   label: Реликтовое
   stats:
-    pAttack: 204
-    mAttack: 372
+    pAttack: 245
+    mAttack: 446
     pAttackSpeed: 177
     pHit: 30.0
     pCritical: 6.0
@@ -24063,8 +24063,8 @@ items:
   category: shotguns
   label: Реликтовое
   stats:
-    pAttack: 356
-    mAttack: 79
+    pAttack: 427
+    mAttack: 95
     pAttackSpeed: 151
     pHit: 45.0
     pCritical: 8.0
@@ -24179,8 +24179,8 @@ items:
   category: shotguns
   label: Реликтовое
   stats:
-    pAttack: 634
-    mAttack: 180
+    pAttack: 761
+    mAttack: 216
     pAttackSpeed: 151
     pHit: 45.0
     pCritical: 8.0
@@ -26591,8 +26591,8 @@ items:
   category: stick
   label: Эпическое
   stats:
-    pAttack: 12
-    mAttack: 312
+    pAttack: 14
+    mAttack: 374
     pAttackSpeed: 283
     pHit: -50.0
     pCritical: 4.0
@@ -26606,8 +26606,8 @@ items:
   category: rod
   label: Эпическое
   stats:
-    pAttack: 6
-    mAttack: 240
+    pAttack: 7
+    mAttack: 288
     pAttackSpeed: 319
     pHit: -50.0
     pCritical: 4.0
@@ -26621,8 +26621,8 @@ items:
   category: one-handed-hammers
   label: Эпическое
   stats:
-    pAttack: 180
-    mAttack: 6
+    pAttack: 216
+    mAttack: 7
     pAttackSpeed: 319
     pHit: 10.0
     pCritical: 7.0
@@ -26634,8 +26634,8 @@ items:
   category: two-handed-hammers
   label: Эпическое
   stats:
-    pAttack: 384
-    mAttack: 6
+    pAttack: 461
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 7.0
   enchant_effect: Увеличивает силу и точность атак.
@@ -26646,8 +26646,8 @@ items:
   category: one-handed-swords
   label: Эпическое
   stats:
-    pAttack: 180
-    mAttack: 120
+    pAttack: 216
+    mAttack: 144
     pAttackSpeed: 319
     pCritical: 8.0
   enchant_effect: Увеличивает шанс критической атаки и шанс нанести критический удар магией.
@@ -26658,8 +26658,8 @@ items:
   category: two-handed-swords
   label: Эпическое
   stats:
-    pAttack: 384
-    mAttack: 6
+    pAttack: 461
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   enchant_effect: Увеличивает силу атаки и шанс критических попаданий.
@@ -26670,8 +26670,8 @@ items:
   category: halberds
   label: Эпическое
   stats:
-    pAttack: 384
-    mAttack: 6
+    pAttack: 461
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   enchant_effect: Увеличивает силу и радиус атаки.
@@ -26682,8 +26682,8 @@ items:
   category: daggers
   label: Эпическое
   stats:
-    pAttack: 180
-    mAttack: 6
+    pAttack: 216
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -26696,8 +26696,8 @@ items:
   category: claw
   label: Эпическое
   stats:
-    pAttack: 180
-    mAttack: 6
+    pAttack: 216
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -26710,8 +26710,8 @@ items:
   category: sharp-axes
   label: Эпическое
   stats:
-    pAttack: 180
-    mAttack: 6
+    pAttack: 216
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -26724,8 +26724,8 @@ items:
   category: short-bows
   label: Эпическое
   stats:
-    pAttack: 396
-    mAttack: 120
+    pAttack: 475
+    mAttack: 144
     pAttackSpeed: 252
     pHit: 5.0
     pCritical: 8.0
@@ -26737,8 +26737,8 @@ items:
   category: long-bows
   label: Эпическое
   stats:
-    pAttack: 594
-    mAttack: 178
+    pAttack: 713
+    mAttack: 214
     pAttackSpeed: 199
     pCritical: 8.0
   enchant_effect: Увеличивает силу стрельбы и магическую атаку.
@@ -26749,8 +26749,8 @@ items:
   category: knuckles
   label: Эпическое
   stats:
-    pAttack: 300
-    mAttack: 6
+    pAttack: 360
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   enchant_effect: Увеличивает силу атаки.
@@ -26761,8 +26761,8 @@ items:
   category: twin-swords
   label: Эпическое
   stats:
-    pAttack: 288
-    mAttack: 6
+    pAttack: 346
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   enchant_effect: Увеличивает скорость атаки и шанс критических попаданий.
@@ -26773,8 +26773,8 @@ items:
   category: paired-daggers
   label: Эпическое
   stats:
-    pAttack: 288
-    mAttack: 6
+    pAttack: 346
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -26786,8 +26786,8 @@ items:
   category: steam-hammers
   label: Эпическое
   stats:
-    pAttack: 288
-    mAttack: 6
+    pAttack: 346
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   enchant_effect: Увеличивает силу и точность атаки.
@@ -26798,8 +26798,8 @@ items:
   category: rapier
   label: Эпическое
   stats:
-    pAttack: 240
-    mAttack: 6
+    pAttack: 288
+    mAttack: 7
     pAttackSpeed: 221
     pCritical: 12.0
     random_damage: 40
@@ -26811,8 +26811,8 @@ items:
   category: ancient-swords
   label: Эпическое
   stats:
-    pAttack: 396
-    mAttack: 6
+    pAttack: 475
+    mAttack: 7
     pAttackSpeed: 199
     pCritical: 8.0
     random_damage: 15
@@ -26824,8 +26824,8 @@ items:
   category: crossbows
   label: Эпическое
   stats:
-    pAttack: 495
-    mAttack: 6
+    pAttack: 594
+    mAttack: 7
     pAttackSpeed: 177
     pHit: 5.0
     pCritical: 8.0
@@ -26838,8 +26838,8 @@ items:
   category: paired-rapiers
   label: Эпическое
   stats:
-    pAttack: 396
-    mAttack: 6
+    pAttack: 475
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   enchant_effect: Увеличивает скорость атаки и шанс критических попаданий.
@@ -26850,8 +26850,8 @@ items:
   category: rapier-with-symbol
   label: Эпическое
   stats:
-    pAttack: 192
-    mAttack: 6
+    pAttack: 230
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -26865,8 +26865,8 @@ items:
   category: warp-crossbows
   label: Эпическое
   stats:
-    pAttack: 144
-    mAttack: 264
+    pAttack: 173
+    mAttack: 317
     pAttackSpeed: 177
     pHit: 30.0
     pCritical: 6.0
@@ -26881,8 +26881,8 @@ items:
   category: shotguns
   label: Эпическое
   stats:
-    pAttack: 495
-    mAttack: 132
+    pAttack: 594
+    mAttack: 158
     pAttackSpeed: 151
     pHit: 45.0
     pCritical: 8.0
@@ -26896,8 +26896,8 @@ items:
   category: stick
   label: Мифическое
   stats:
-    pAttack: 12
-    mAttack: 360
+    pAttack: 14
+    mAttack: 432
     pAttackSpeed: 283
     pHit: -50.0
     pCritical: 4.0
@@ -26913,8 +26913,8 @@ items:
   category: stick
   label: Мифическое
   stats:
-    pAttack: 12
-    mAttack: 360
+    pAttack: 14
+    mAttack: 432
     pAttackSpeed: 283
     pHit: -50.0
     pCritical: 4.0
@@ -26930,8 +26930,8 @@ items:
   category: rod
   label: Мифическое
   stats:
-    pAttack: 6
-    mAttack: 276
+    pAttack: 7
+    mAttack: 331
     pAttackSpeed: 319
     pHit: -50.0
     pCritical: 4.0
@@ -26947,8 +26947,8 @@ items:
   category: rod
   label: Мифическое
   stats:
-    pAttack: 6
-    mAttack: 276
+    pAttack: 7
+    mAttack: 331
     pAttackSpeed: 319
     pHit: -50.0
     pCritical: 4.0
@@ -26964,8 +26964,8 @@ items:
   category: one-handed-hammers
   label: Мифическое
   stats:
-    pAttack: 192
-    mAttack: 6
+    pAttack: 230
+    mAttack: 7
     pAttackSpeed: 319
     pHit: 10.0
     pCritical: 7.0
@@ -26980,8 +26980,8 @@ items:
   category: two-handed-hammers
   label: Мифическое
   stats:
-    pAttack: 408
-    mAttack: 6
+    pAttack: 490
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 7.0
   effects:
@@ -26995,8 +26995,8 @@ items:
   category: two-handed-hammers
   label: Мифическое
   stats:
-    pAttack: 408
-    mAttack: 6
+    pAttack: 490
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 7.0
   effects:
@@ -27010,8 +27010,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 192
-    mAttack: 132
+    pAttack: 230
+    mAttack: 158
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -27025,8 +27025,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 192
-    mAttack: 132
+    pAttack: 230
+    mAttack: 158
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -27040,8 +27040,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 192
-    mAttack: 132
+    pAttack: 230
+    mAttack: 158
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -27055,8 +27055,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 192
-    mAttack: 132
+    pAttack: 230
+    mAttack: 158
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -27070,8 +27070,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 192
-    mAttack: 132
+    pAttack: 230
+    mAttack: 158
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -27085,8 +27085,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 192
-    mAttack: 132
+    pAttack: 230
+    mAttack: 158
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -27100,8 +27100,8 @@ items:
   category: two-handed-swords
   label: Мифическое
   stats:
-    pAttack: 432
-    mAttack: 6
+    pAttack: 518
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -27115,8 +27115,8 @@ items:
   category: two-handed-swords
   label: Мифическое
   stats:
-    pAttack: 432
-    mAttack: 6
+    pAttack: 518
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -27130,8 +27130,8 @@ items:
   category: halberds
   label: Мифическое
   stats:
-    pAttack: 408
-    mAttack: 6
+    pAttack: 490
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -27145,8 +27145,8 @@ items:
   category: halberds
   label: Мифическое
   stats:
-    pAttack: 408
-    mAttack: 6
+    pAttack: 490
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -27160,8 +27160,8 @@ items:
   category: halberds
   label: Мифическое
   stats:
-    pAttack: 408
-    mAttack: 6
+    pAttack: 490
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -27175,8 +27175,8 @@ items:
   category: daggers
   label: Мифическое
   stats:
-    pAttack: 204
-    mAttack: 6
+    pAttack: 245
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27191,8 +27191,8 @@ items:
   category: daggers
   label: Мифическое
   stats:
-    pAttack: 204
-    mAttack: 6
+    pAttack: 245
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27207,8 +27207,8 @@ items:
   category: claw
   label: Мифическое
   stats:
-    pAttack: 204
-    mAttack: 6
+    pAttack: 245
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27223,8 +27223,8 @@ items:
   category: claw
   label: Мифическое
   stats:
-    pAttack: 204
-    mAttack: 6
+    pAttack: 245
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27239,8 +27239,8 @@ items:
   category: sharp-axes
   label: Мифическое
   stats:
-    pAttack: 204
-    mAttack: 6
+    pAttack: 245
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27255,8 +27255,8 @@ items:
   category: short-bows
   label: Мифическое
   stats:
-    pAttack: 414
-    mAttack: 144
+    pAttack: 497
+    mAttack: 173
     pAttackSpeed: 252
     pHit: 5.0
     pCritical: 8.0
@@ -27271,8 +27271,8 @@ items:
   category: long-bows
   label: Мифическое
   stats:
-    pAttack: 614
-    mAttack: 185
+    pAttack: 737
+    mAttack: 222
     pAttackSpeed: 199
     pCritical: 8.0
   effects:
@@ -27286,8 +27286,8 @@ items:
   category: knuckles
   label: Мифическое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27301,8 +27301,8 @@ items:
   category: knuckles
   label: Мифическое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27316,8 +27316,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27331,8 +27331,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27346,8 +27346,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27361,8 +27361,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27376,8 +27376,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27391,8 +27391,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27406,8 +27406,8 @@ items:
   category: paired-daggers
   label: Мифическое
   stats:
-    pAttack: 324
-    mAttack: 6
+    pAttack: 389
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27422,8 +27422,8 @@ items:
   category: paired-daggers
   label: Мифическое
   stats:
-    pAttack: 324
-    mAttack: 6
+    pAttack: 389
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27438,8 +27438,8 @@ items:
   category: steam-hammers
   label: Мифическое
   stats:
-    pAttack: 312
-    mAttack: 6
+    pAttack: 374
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27453,8 +27453,8 @@ items:
   category: rapier
   label: Мифическое
   stats:
-    pAttack: 264
-    mAttack: 6
+    pAttack: 317
+    mAttack: 7
     pAttackSpeed: 221
     pCritical: 12.0
     random_damage: 40
@@ -27469,8 +27469,8 @@ items:
   category: ancient-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 199
     pCritical: 8.0
     random_damage: 15
@@ -27485,8 +27485,8 @@ items:
   category: crossbows
   label: Мифическое
   stats:
-    pAttack: 515
-    mAttack: 6
+    pAttack: 618
+    mAttack: 7
     pAttackSpeed: 177
     pHit: 5.0
     pCritical: 8.0
@@ -27502,8 +27502,8 @@ items:
   category: paired-rapiers
   label: Мифическое
   stats:
-    pAttack: 408
-    mAttack: 6
+    pAttack: 490
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27517,8 +27517,8 @@ items:
   category: rapier-with-symbol
   label: Мифическое
   stats:
-    pAttack: 204
-    mAttack: 6
+    pAttack: 245
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -27552,8 +27552,8 @@ items:
   category: shotguns
   label: Мифическое
   stats:
-    pAttack: 515
-    mAttack: 132
+    pAttack: 618
+    mAttack: 158
     pAttackSpeed: 151
     pHit: 45.0
     pCritical: 8.0
@@ -27569,8 +27569,8 @@ items:
   category: ancient-swords
   label: Мифическое
   stats:
-    pAttack: 576
-    mAttack: 6
+    pAttack: 691
+    mAttack: 7
     pAttackSpeed: 199
     pCritical: 8.0
   effects:
@@ -27584,8 +27584,8 @@ items:
   category: ancient-swords
   label: Мифическое
   stats:
-    pAttack: 576
-    mAttack: 6
+    pAttack: 691
+    mAttack: 7
     pAttackSpeed: 199
     pCritical: 8.0
   effects:
@@ -27599,8 +27599,8 @@ items:
   category: sharp-axes
   label: Мифическое
   stats:
-    pAttack: 276
-    mAttack: 6
+    pAttack: 331
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27615,8 +27615,8 @@ items:
   category: sharp-axes
   label: Мифическое
   stats:
-    pAttack: 276
-    mAttack: 6
+    pAttack: 331
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27631,8 +27631,8 @@ items:
   category: one-handed-hammers
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 6
+    pAttack: 346
+    mAttack: 7
     pAttackSpeed: 319
     pHit: 10.0
     pCritical: 4.0
@@ -27647,8 +27647,8 @@ items:
   category: one-handed-hammers
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 6
+    pAttack: 346
+    mAttack: 7
     pAttackSpeed: 319
     pHit: 10.0
     pCritical: 4.0
@@ -27663,8 +27663,8 @@ items:
   category: short-bows
   label: Мифическое
   stats:
-    pAttack: 612
-    mAttack: 216
+    pAttack: 734
+    mAttack: 259
     pAttackSpeed: 252
     pHit: 5.0
     pCritical: 8.0
@@ -27679,8 +27679,8 @@ items:
   category: short-bows
   label: Мифическое
   stats:
-    pAttack: 612
-    mAttack: 216
+    pAttack: 734
+    mAttack: 259
     pAttackSpeed: 252
     pHit: 5.0
     pCritical: 8.0
@@ -27695,8 +27695,8 @@ items:
   category: long-bows
   label: Мифическое
   stats:
-    pAttack: 851
-    mAttack: 277
+    pAttack: 1021
+    mAttack: 332
     pAttackSpeed: 199
     pCritical: 8.0
   effects:
@@ -27710,8 +27710,8 @@ items:
   category: long-bows
   label: Мифическое
   stats:
-    pAttack: 851
-    mAttack: 277
+    pAttack: 1021
+    mAttack: 332
     pAttackSpeed: 199
     pCritical: 8.0
   effects:
@@ -27725,8 +27725,8 @@ items:
   category: crossbows
   label: Мифическое
   stats:
-    pAttack: 733
-    mAttack: 6
+    pAttack: 880
+    mAttack: 7
     pAttackSpeed: 177
     pHit: 5.0
     pCritical: 8.0
@@ -27741,8 +27741,8 @@ items:
   category: crossbows
   label: Мифическое
   stats:
-    pAttack: 733
-    mAttack: 6
+    pAttack: 880
+    mAttack: 7
     pAttackSpeed: 177
     pHit: 5.0
     pCritical: 8.0
@@ -27757,8 +27757,8 @@ items:
   category: warp-crossbows
   label: Мифическое
   stats:
-    pAttack: 252
-    mAttack: 420
+    pAttack: 302
+    mAttack: 504
     pAttackSpeed: 177
     pHit: 30.0
     pCritical: 8.0
@@ -27774,8 +27774,8 @@ items:
   category: warp-crossbows
   label: Мифическое
   stats:
-    pAttack: 252
-    mAttack: 420
+    pAttack: 302
+    mAttack: 504
     pAttackSpeed: 177
     pHit: 30.0
     pCritical: 8.0
@@ -27791,8 +27791,8 @@ items:
   category: daggers
   label: Мифическое
   stats:
-    pAttack: 276
-    mAttack: 6
+    pAttack: 331
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27807,8 +27807,8 @@ items:
   category: daggers
   label: Мифическое
   stats:
-    pAttack: 276
-    mAttack: 6
+    pAttack: 331
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27823,8 +27823,8 @@ items:
   category: daggers
   label: Мифическое
   stats:
-    pAttack: 276
-    mAttack: 6
+    pAttack: 331
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27839,8 +27839,8 @@ items:
   category: daggers
   label: Мифическое
   stats:
-    pAttack: 276
-    mAttack: 6
+    pAttack: 331
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27855,8 +27855,8 @@ items:
   category: daggers
   label: Мифическое
   stats:
-    pAttack: 276
-    mAttack: 6
+    pAttack: 331
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27871,8 +27871,8 @@ items:
   category: claw
   label: Мифическое
   stats:
-    pAttack: 276
-    mAttack: 6
+    pAttack: 331
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 12.0
   effects:
@@ -27887,8 +27887,8 @@ items:
   category: knuckles
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27902,8 +27902,8 @@ items:
   category: knuckles
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27917,8 +27917,8 @@ items:
   category: knuckles
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27932,8 +27932,8 @@ items:
   category: knuckles
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -27947,8 +27947,8 @@ items:
   category: rod
   label: Мифическое
   stats:
-    pAttack: 6
-    mAttack: 360
+    pAttack: 7
+    mAttack: 432
     pAttackSpeed: 319
     pHit: -50.0
     pCritical: 4.0
@@ -27964,8 +27964,8 @@ items:
   category: rod
   label: Мифическое
   stats:
-    pAttack: 6
-    mAttack: 360
+    pAttack: 7
+    mAttack: 432
     pAttackSpeed: 319
     pHit: -50.0
     pCritical: 4.0
@@ -27981,8 +27981,8 @@ items:
   category: rod
   label: Мифическое
   stats:
-    pAttack: 6
-    mAttack: 360
+    pAttack: 7
+    mAttack: 432
     pAttackSpeed: 319
     pHit: -50.0
     pCritical: 4.0
@@ -27998,8 +27998,8 @@ items:
   category: halberds
   label: Мифическое
   stats:
-    pAttack: 552
-    mAttack: 6
+    pAttack: 662
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -28013,8 +28013,8 @@ items:
   category: halberds
   label: Мифическое
   stats:
-    pAttack: 552
-    mAttack: 6
+    pAttack: 662
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -28028,8 +28028,8 @@ items:
   category: halberds
   label: Мифическое
   stats:
-    pAttack: 552
-    mAttack: 6
+    pAttack: 662
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -28043,8 +28043,8 @@ items:
   category: halberds
   label: Мифическое
   stats:
-    pAttack: 552
-    mAttack: 6
+    pAttack: 662
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -28058,8 +28058,8 @@ items:
   category: stick
   label: Мифическое
   stats:
-    pAttack: 12
-    mAttack: 456
+    pAttack: 14
+    mAttack: 547
     pAttackSpeed: 283
     pHit: -50.0
     pCritical: 4.0
@@ -28075,8 +28075,8 @@ items:
   category: stick
   label: Мифическое
   stats:
-    pAttack: 12
-    mAttack: 456
+    pAttack: 14
+    mAttack: 547
     pAttackSpeed: 283
     pHit: -50.0
     pCritical: 4.0
@@ -28092,8 +28092,8 @@ items:
   category: stick
   label: Мифическое
   stats:
-    pAttack: 12
-    mAttack: 456
+    pAttack: 14
+    mAttack: 547
     pAttackSpeed: 283
     pHit: -50.0
     pCritical: 4.0
@@ -28109,8 +28109,8 @@ items:
   category: rapier
   label: Мифическое
   stats:
-    pAttack: 360
-    mAttack: 6
+    pAttack: 432
+    mAttack: 7
     pAttackSpeed: 221
     pCritical: 12.0
   effects:
@@ -28124,8 +28124,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28139,8 +28139,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28154,8 +28154,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28169,8 +28169,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28184,8 +28184,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28199,8 +28199,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28214,8 +28214,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28229,8 +28229,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28272,8 +28272,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28287,8 +28287,8 @@ items:
   category: one-handed-swords
   label: Мифическое
   stats:
-    pAttack: 288
-    mAttack: 192
+    pAttack: 346
+    mAttack: 230
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28362,8 +28362,8 @@ items:
   category: two-handed-swords
   label: Мифическое
   stats:
-    pAttack: 564
-    mAttack: 6
+    pAttack: 677
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -28377,8 +28377,8 @@ items:
   category: two-handed-swords
   label: Мифическое
   stats:
-    pAttack: 564
-    mAttack: 6
+    pAttack: 677
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -28392,8 +28392,8 @@ items:
   category: two-handed-swords
   label: Мифическое
   stats:
-    pAttack: 564
-    mAttack: 6
+    pAttack: 677
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -28407,8 +28407,8 @@ items:
   category: two-handed-swords
   label: Мифическое
   stats:
-    pAttack: 564
-    mAttack: 6
+    pAttack: 677
+    mAttack: 7
     pAttackSpeed: 226
     pCritical: 8.0
   effects:
@@ -28422,8 +28422,8 @@ items:
   category: paired-rapiers
   label: Мифическое
   stats:
-    pAttack: 460
-    mAttack: 5
+    pAttack: 552
+    mAttack: 6
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28437,8 +28437,8 @@ items:
   category: paired-rapiers
   label: Мифическое
   stats:
-    pAttack: 460
-    mAttack: 5
+    pAttack: 552
+    mAttack: 6
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28452,8 +28452,8 @@ items:
   category: rapier
   label: Мифическое
   stats:
-    pAttack: 360
-    mAttack: 6
+    pAttack: 432
+    mAttack: 7
     pAttackSpeed: 221
     pCritical: 12.0
   effects:
@@ -28467,8 +28467,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28482,8 +28482,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28497,8 +28497,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28512,8 +28512,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28527,8 +28527,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28542,8 +28542,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28557,8 +28557,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28572,8 +28572,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28587,8 +28587,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28602,8 +28602,8 @@ items:
   category: twin-swords
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28617,8 +28617,8 @@ items:
   category: paired-daggers
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28633,8 +28633,8 @@ items:
   category: paired-daggers
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28649,8 +28649,8 @@ items:
   category: paired-daggers
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28665,8 +28665,8 @@ items:
   category: paired-daggers
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28681,8 +28681,8 @@ items:
   category: paired-daggers
   label: Мифическое
   stats:
-    pAttack: 444
-    mAttack: 6
+    pAttack: 533
+    mAttack: 7
     pAttackSpeed: 283
     pCritical: 8.0
   effects:
@@ -28727,8 +28727,8 @@ items:
   category: rapier-with-symbol
   label: Мифическое
   stats:
-    pAttack: 300
-    mAttack: 6
+    pAttack: 360
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28744,8 +28744,8 @@ items:
   category: rapier-with-symbol
   label: Мифическое
   stats:
-    pAttack: 300
-    mAttack: 6
+    pAttack: 360
+    mAttack: 7
     pAttackSpeed: 319
     pCritical: 8.0
   effects:
@@ -28761,8 +28761,8 @@ items:
   category: shotguns
   label: Мифическое
   stats:
-    pAttack: 733
-    mAttack: 216
+    pAttack: 880
+    mAttack: 259
     pAttackSpeed: 151
     pHit: 45.0
     pCritical: 8.0

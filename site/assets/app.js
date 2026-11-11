@@ -781,13 +781,19 @@ function renderEquipment(path, catalog, category, data) {
 
   const results = document.querySelector("#equipment-results");
   const counter = document.querySelector("#equipment-count");
+  const selectedParameters = new Set();
+  const parameters = category === "talismans"
+    ? new Map(entries.flatMap(variants => variants.flatMap(variant =>
+      variant.items.map(item => [item.id, talismanParameters(item)]))))
+    : null;
   const refresh = () => {
     const query = normalize(search.value.trim());
     const matches = [];
     for (const variants of entries) {
       if (rank.value !== "all" && variants[0].items[0].rank !== rank.value) continue;
       const match = variants.find(variant => variant.items.some(item =>
-        normalize(item.name + " " + (item.label || "")).includes(query) || String(item.id) === query));
+        (normalize(item.name + " " + (item.label || "")).includes(query) || String(item.id) === query)
+        && (!selectedParameters.size || [...selectedParameters].some(parameter => parameters.get(item.id).has(parameter)))));
       if (match) matches.push(renderEquipmentPreview(variants, match, dialog, catalog.previewStats));
     }
     results.replaceChildren(...matches);
@@ -795,7 +801,70 @@ function renderEquipment(path, catalog, category, data) {
   };
   search.addEventListener("input", refresh);
   rank.addEventListener("change", refresh);
+  if (parameters) {
+    const filter = renderTalismanFilter(parameters, selectedParameters, refresh);
+    document.querySelector(".equipment-toolbar").after(filter);
+  }
   refresh();
+}
+
+function talismanParameters(item) {
+  const parameters = new Set(Object.keys(item.stats || {}).map(key =>
+    key === "mDefense" ? "Магическая защита" : (key === "pDefense" ? "Физическая защита" : EQUIPMENT_STATS[key])));
+  for (const effect of item.effects || []) {
+    for (const line of effect.split("\n")) {
+      const match = line.trim().match(/^(.+?)\s+[+−-]\d/);
+      if (match) parameters.add(match[1]);
+    }
+    // This description lists three bonuses in prose instead of separate numeric lines.
+    if (effect.includes("Увеличивает урон по монстрам на")) {
+      parameters.add("Повреждения по монстрам");
+      parameters.add("Атака по вражеским игрокам");
+      parameters.add("Защита от вражеских игроков");
+    }
+  }
+  return parameters;
+}
+
+function renderTalismanFilter(parameters, selected, onChange) {
+  const details = el("details", "talisman-filter");
+  const summary = el("summary", "", "Параметры: все");
+  const fields = el("fieldset");
+  fields.append(el("legend", "visually-hidden", "Параметры талисманов"));
+  const hint = el("p", "talisman-filter-hint", "Показаны талисманы, у которых есть хотя бы один из выбранных параметров.");
+  hint.id = "talisman-filter-hint";
+  fields.setAttribute("aria-describedby", hint.id);
+  const options = el("div", "talisman-filter-options");
+  const reset = el("button", "class-option", "Сбросить параметры");
+  reset.type = "button";
+  reset.disabled = true;
+  const update = () => {
+    summary.textContent = selected.size ? "Параметры: выбрано " + selected.size : "Параметры: все";
+    reset.disabled = !selected.size;
+    onChange();
+  };
+  const labels = [...new Set([...parameters.values()].flatMap(values => [...values]))].sort((a, b) => a.localeCompare(b, "ru"));
+  for (const label of labels) {
+    const field = el("label", "talisman-filter-option");
+    const input = el("input");
+    input.type = "checkbox";
+    input.value = label;
+    input.addEventListener("change", () => {
+      if (input.checked) selected.add(label);
+      else selected.delete(label);
+      update();
+    });
+    field.append(input, el("span", "", label));
+    options.append(field);
+  }
+  reset.addEventListener("click", () => {
+    selected.clear();
+    for (const input of options.querySelectorAll("input")) input.checked = false;
+    update();
+  });
+  fields.append(hint, options, reset);
+  details.append(summary, fields);
+  return details;
 }
 
 function renderEquipmentNavigation(navigation, path, catalog, category, items) {
@@ -879,6 +948,7 @@ function groupEquipmentSets(sets, itemsById) {
 
 function renderEquipmentPreview(variants, entry, dialog, statKeys) {
   const [first] = entry.items;
+  if (first.category === "talismans") return renderTalismanPreview(first);
   const card = el("article", "enchant-card equipment-preview");
   const header = el("header");
   const identity = el("div");
@@ -947,6 +1017,30 @@ function renderEquipmentPreview(variants, entry, dialog, statKeys) {
     card.append(actions);
   }
   updatePreview(entry);
+  return card;
+}
+
+function renderTalismanPreview(item) {
+  const card = el("article", "enchant-card equipment-preview talisman-preview");
+  card.dataset.itemId = item.id;
+  const header = el("header");
+  const identity = el("div");
+  const heading = el("div", "equipment-preview-heading");
+  heading.append(el("h3", "", item.name), el("span", "equipment-rank", item.rank || "Без ранга"));
+  identity.append(heading, el("p", "equipment-preview-meta", [item.label, "ID " + item.id].filter(Boolean).join(" · ")));
+  header.append(renderIcon(localIconUrl(item.icon), item.name, "branch-icon equipment-preview-icon"), identity);
+  const stats = el("dl", "jewelry-stats talisman-stats");
+  for (const [key, value] of Object.entries(item.stats || {})) {
+    const label = key === "mDefense" ? "Магическая защита" : (key === "pDefense" ? "Физическая защита" : EQUIPMENT_STATS[key]);
+    stats.append(el("dt", "", label), el("dd", "", EQUIPMENT_STAT_FORMAT.format(value)));
+  }
+  card.append(header);
+  if (stats.childElementCount) card.append(stats);
+  if (item.effects?.length) {
+    const effects = el("div", "talisman-effects");
+    for (const effect of item.effects) effects.append(el("p", "progression-effect", effect));
+    card.append(effects);
+  }
   return card;
 }
 

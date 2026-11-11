@@ -782,9 +782,9 @@ function renderEquipment(path, catalog, category, data) {
   const results = document.querySelector("#equipment-results");
   const counter = document.querySelector("#equipment-count");
   const selectedParameters = new Set();
-  const parameters = category === "talismans"
+  const parameters = ["talismans", "jewelry"].includes(category)
     ? new Map(entries.flatMap(variants => variants.flatMap(variant =>
-      variant.items.map(item => [item.id, talismanParameters(item)]))))
+      variant.items.map(item => [item.id, equipmentParameters(item)]))))
     : null;
   const refresh = () => {
     const query = normalize(search.value.trim());
@@ -802,19 +802,20 @@ function renderEquipment(path, catalog, category, data) {
   search.addEventListener("input", refresh);
   rank.addEventListener("change", refresh);
   if (parameters) {
-    const filter = renderTalismanFilter(parameters, selectedParameters, refresh);
+    const filter = renderEquipmentParameterFilter(parameters, selectedParameters, refresh);
     document.querySelector(".equipment-toolbar").after(filter);
   }
   refresh();
 }
 
-function talismanParameters(item) {
+function equipmentParameters(item) {
   const parameters = new Set(Object.keys(item.stats || {}).map(key =>
-    key === "mDefense" ? "Магическая защита" : (key === "pDefense" ? "Физическая защита" : EQUIPMENT_STATS[key])));
+    equipmentParameterLabel(key)));
   for (const effect of item.effects || []) {
     for (const line of effect.split("\n")) {
-      const match = line.trim().match(/^(.+?)\s+[+−-]\d/);
-      if (match) parameters.add(match[1]);
+      const match = line.trim().match(/^(.+?)(?:\s+[+−-]|:\s*)\d/);
+      if (match) parameters.add(match[1] === "Увеличивает сопротивление фиксированным повреждениям на"
+        ? "Сопротивление фиксированным повреждениям" : match[1]);
     }
     // This description lists three bonuses in prose instead of separate numeric lines.
     if (effect.includes("Увеличивает урон по монстрам на")) {
@@ -826,15 +827,19 @@ function talismanParameters(item) {
   return parameters;
 }
 
-function renderTalismanFilter(parameters, selected, onChange) {
-  const details = el("details", "talisman-filter");
+function equipmentParameterLabel(key) {
+  return key === "mDefense" ? "Магическая защита" : (key === "pDefense" ? "Физическая защита" : EQUIPMENT_STATS[key]);
+}
+
+function renderEquipmentParameterFilter(parameters, selected, onChange) {
+  const details = el("details", "equipment-parameter-filter");
   const summary = el("summary", "", "Параметры: все");
   const fields = el("fieldset");
-  fields.append(el("legend", "visually-hidden", "Параметры талисманов"));
-  const hint = el("p", "talisman-filter-hint", "Показаны талисманы, у которых есть хотя бы один из выбранных параметров.");
-  hint.id = "talisman-filter-hint";
+  fields.append(el("legend", "visually-hidden", "Параметры предметов"));
+  const hint = el("p", "equipment-parameter-filter-hint", "Показаны предметы, у которых есть хотя бы один из выбранных параметров.");
+  hint.id = "equipment-parameter-filter-hint";
   fields.setAttribute("aria-describedby", hint.id);
-  const options = el("div", "talisman-filter-options");
+  const options = el("div", "equipment-parameter-filter-options");
   const reset = el("button", "class-option", "Сбросить параметры");
   reset.type = "button";
   reset.disabled = true;
@@ -845,7 +850,7 @@ function renderTalismanFilter(parameters, selected, onChange) {
   };
   const labels = [...new Set([...parameters.values()].flatMap(values => [...values]))].sort((a, b) => a.localeCompare(b, "ru"));
   for (const label of labels) {
-    const field = el("label", "talisman-filter-option");
+    const field = el("label", "equipment-parameter-filter-option");
     const input = el("input");
     input.type = "checkbox";
     input.value = label;
@@ -922,10 +927,8 @@ function renderEquipmentNavigation(navigation, path, catalog, category, items) {
     select.add(new Option(label, relatedPath));
   }
   if (extra.childElementCount) {
-    const more = el("details", "equipment-more-categories");
-    more.open = links.has(category);
-    more.append(el("summary", "", "Другие категории"), extra);
-    navigation.append(more);
+    if (catalog.categoryGroups) navigation.append(extra);
+    else navigation.querySelector(".equipment-category-links").append(...extra.children);
   }
   select.value = path + "/" + category;
   select.addEventListener("change", () => { location.hash = select.value; });
@@ -948,7 +951,7 @@ function groupEquipmentSets(sets, itemsById) {
 
 function renderEquipmentPreview(variants, entry, dialog, statKeys) {
   const [first] = entry.items;
-  if (first.category === "talismans") return renderTalismanPreview(first);
+  if (["talismans", "jewelry", "bracelets", "hunter-bracelets"].includes(first.category)) return renderAccessoryPreview(first);
   const card = el("article", "enchant-card equipment-preview");
   const header = el("header");
   const identity = el("div");
@@ -1020,27 +1023,28 @@ function renderEquipmentPreview(variants, entry, dialog, statKeys) {
   return card;
 }
 
-function renderTalismanPreview(item) {
-  const card = el("article", "enchant-card equipment-preview talisman-preview");
+function renderAccessoryPreview(item) {
+  const card = el("article", "enchant-card equipment-preview accessory-preview");
   card.dataset.itemId = item.id;
   const header = el("header");
   const identity = el("div");
   const heading = el("div", "equipment-preview-heading");
   heading.append(el("h3", "", item.name), el("span", "equipment-rank", item.rank || "Без ранга"));
-  identity.append(heading, el("p", "equipment-preview-meta", [item.label, "ID " + item.id].filter(Boolean).join(" · ")));
+  identity.append(heading, el("p", "equipment-preview-meta", [item.slot, item.label, "ID " + item.id].filter(Boolean).join(" · ")));
   header.append(renderIcon(localIconUrl(item.icon), item.name, "branch-icon equipment-preview-icon"), identity);
-  const stats = el("dl", "jewelry-stats talisman-stats");
+  const stats = el("dl", "jewelry-stats accessory-stats");
   for (const [key, value] of Object.entries(item.stats || {})) {
-    const label = key === "mDefense" ? "Магическая защита" : (key === "pDefense" ? "Физическая защита" : EQUIPMENT_STATS[key]);
-    stats.append(el("dt", "", label), el("dd", "", EQUIPMENT_STAT_FORMAT.format(value)));
+    stats.append(el("dt", "", equipmentParameterLabel(key)), el("dd", "", EQUIPMENT_STAT_FORMAT.format(value)));
   }
   card.append(header);
   if (stats.childElementCount) card.append(stats);
-  if (item.effects?.length) {
-    const effects = el("div", "talisman-effects");
-    for (const effect of item.effects) effects.append(el("p", "progression-effect", effect));
+  if (item.effects?.length || item.enchant_effect) {
+    const effects = el("div", "accessory-effects");
+    for (const effect of item.effects || []) effects.append(el("p", "progression-effect", effect));
+    if (item.enchant_effect) effects.append(el("p", "progression-effect", "Эффект заточки · " + item.enchant_effect));
     card.append(effects);
   }
+  if (item.recipes?.length) card.append(renderEquipmentRecipes(item));
   return card;
 }
 
@@ -1113,21 +1117,23 @@ function renderEquipmentItem(item, showRecipes = false) {
     }
     card.append(effects);
   }
-  if (item.recipes?.length) {
-    const details = el("details", "equipment-details");
-    details.open = showRecipes;
-    details.append(el("summary", "", "Рецепты"));
-    for (const recipe of item.recipes) {
-      details.append(el("p", "", "Рецепт " + recipe.id + " · уровень " + recipe.level
-        + " · результат ×" + recipe.quantity + " · шанс " + recipe.success + "%"
-        + (recipe.mana === undefined ? "" : " · мана " + recipe.mana.toLocaleString("ru-RU"))));
-      const materials = el("ul");
-      for (const [name, quantity] of recipe.materials) materials.append(el("li", "", name + " × " + quantity.toLocaleString("ru-RU")));
-      details.append(materials);
-    }
-    card.append(details);
-  }
+  if (item.recipes?.length) card.append(renderEquipmentRecipes(item, showRecipes));
   return card;
+}
+
+function renderEquipmentRecipes(item, open = false) {
+  const details = el("details", "equipment-details");
+  details.open = open;
+  details.append(el("summary", "", "Рецепты"));
+  for (const recipe of item.recipes) {
+    details.append(el("p", "", "Рецепт " + recipe.id + " · уровень " + recipe.level
+      + " · результат ×" + recipe.quantity + " · шанс " + recipe.success + "%"
+      + (recipe.mana === undefined ? "" : " · мана " + recipe.mana.toLocaleString("ru-RU"))));
+    const materials = el("ul");
+    for (const [name, quantity] of recipe.materials) materials.append(el("li", "", name + " × " + quantity.toLocaleString("ru-RU")));
+    details.append(materials);
+  }
+  return details;
 }
 
 function renderProgressionPage(path, page, data) {

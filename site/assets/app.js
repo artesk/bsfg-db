@@ -1545,6 +1545,9 @@ async function route() {
     } else if (path === "/guides") {
       document.title = "Гайды — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#guides-template"));
+    } else if (path === "/map-v2") {
+      document.title = "Интерактивная карта 2.0 — База знаний BSFG";
+      app.replaceChildren(cloneTemplate("#embedded-map-template"));
     } else if (path === "/map") {
       if (!worldMap) {
         app.replaceChildren(cloneTemplate("#loading-template"));

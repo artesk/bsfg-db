@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=specifications-icons">
+  <link rel="stylesheet" href="assets/styles.css?v=map-v2">
 </head>
 <body>
   <header class="site-header">
@@ -21,6 +21,7 @@
       <a href="#/items/pit-boss-jewelry">Бижутерия Пит-боссов</a>
       <a href="#/guides">Гайды</a>
       <a href="#/map">Карта</a>
+      <a href="#/map-v2">Интерактивная карта 2.0</a>
     </nav>
   </header>
 
@@ -85,6 +86,12 @@
                 <p>Руководства по строительству и игровым механикам.</p>
               </div>
             </a>
+            <a class="directory-link home-link" href="#/map-v2">
+              <div>
+                <h3>Интерактивная карта 2.0</h3>
+                <p>Новая интерактивная карта мира BSFG.</p>
+              </div>
+            </a>
           </div>
         </nav>
         <section class="home-stream" aria-labelledby="home-stream-title">
@@ -97,6 +104,17 @@
         </section>
       </div>
     </article>
+  </template>
+
+  <template id="embedded-map-template">
+    <section class="embedded-map" aria-labelledby="embedded-map-title">
+      <header class="embedded-map-heading">
+        <h1 id="embedded-map-title">Интерактивная карта 2.0</h1>
+        <a href="https://84.252.128.167/" target="_blank" rel="noopener noreferrer">Открыть в новой вкладке ↗</a>
+      </header>
+      <iframe class="embedded-map-frame" src="https://84.252.128.167/"
+        title="Интерактивная карта 2.0 — BSFG" allowfullscreen></iframe>
+    </section>
   </template>
 
   <template id="world-map-template">
@@ -454,6 +472,6 @@
   </template>
 
   <script src="assets/map.js?v=map-expedition" defer></script>
-  <script src="assets/app.js?v=artifacts" defer></script>
+  <script src="assets/app.js?v=map-v2" defer></script>
 </body>
 </html>

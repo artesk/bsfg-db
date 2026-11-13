@@ -258,6 +258,19 @@ main:has(> .home-page) { width: 100%; }
   overflow-wrap: anywhere;
 }
 .enchant-source { margin: 24px 0 48px; color: var(--muted); font-size: 13px; }
+main:has(> .embedded-map) { width: 100%; min-height: 0; }
+.embedded-map { padding: 24px clamp(14px, 3vw, 48px); }
+.embedded-map-heading {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 16px; margin-bottom: 20px;
+}
+.embedded-map-heading h1 { font-size: clamp(30px, 4vw, 48px); line-height: 1.1; }
+.embedded-map-heading a { color: var(--accent-2); font-size: 14px; }
+.embedded-map-heading a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.embedded-map-frame {
+  display: block; width: 100%; height: calc(100vh - 220px); height: calc(100dvh - 220px);
+  min-height: 520px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface);
+}
 body:has(.world-map) {
   --map-bg: #171810;
   --map-surface: #22231a;

@@ -73,6 +73,19 @@ h1 {
   margin: 0; font-family: Georgia, serif; font-size: 28px; font-weight: 500;
 }
 .directory-link p { margin: 9px 0 0; color: var(--muted); line-height: 1.5; }
+.guide-page { max-width: 1080px; margin-inline: auto; padding-bottom: 48px; }
+.guide-page .breadcrumbs { flex-wrap: wrap; }
+.guide-page .hero { padding: 36px 0 28px; }
+.guide-page h1 { font-size: clamp(36px, 5.6vw, 68px); }
+.guide-map { margin: 0; }
+.guide-map-image { display: block; border-radius: 7px; }
+.guide-map-image img { display: block; width: 100%; height: auto; border-radius: inherit; }
+.guide-map figcaption {
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px 24px;
+  margin-top: 14px; color: var(--muted); font-size: 14px; line-height: 1.6;
+}
+.guide-map figcaption a { color: var(--accent); }
+.guide-map a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .specifications-page { padding-bottom: 48px; }
 .specifications-page .specifications-hero { padding: clamp(30px, 5vw, 60px) 0 30px; }
 .specifications-hero h1 { font-size: clamp(34px, 5.6vw, 68px); }

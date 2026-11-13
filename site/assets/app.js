@@ -1527,6 +1527,7 @@ async function route() {
   if (isProfessionSection) activeSection = "/professions";
   else if (isSpecifications) activeSection = "/specifications";
   else if (isGear) activeSection = gearPath;
+  else if (path === "/guides/minotaur-labyrinth") activeSection = "/guides";
   for (const link of siteLinks) {
     const linkPath = link.hash.slice(1);
     if (linkPath === activeSection) link.setAttribute("aria-current", path === linkPath ? "page" : "location");
@@ -1545,6 +1546,9 @@ async function route() {
     } else if (path === "/guides") {
       document.title = "Гайды — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#guides-template"));
+    } else if (path === "/guides/minotaur-labyrinth") {
+      document.title = "Лабиринт Минотавра — База знаний BSFG";
+      app.replaceChildren(cloneTemplate("#minotaur-guide-template"));
     } else if (path === "/map-v2") {
       document.title = "Интерактивная карта 2.0 — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#embedded-map-template"));

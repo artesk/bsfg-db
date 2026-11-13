@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=map-v2">
+  <link rel="stylesheet" href="assets/styles.css?v=minotaur-guide">
 </head>
 <body>
   <header class="site-header">
@@ -83,7 +83,7 @@
             <a class="directory-link home-link" href="#/guides">
               <div>
                 <h3>Гайды</h3>
-                <p>Руководства по строительству и игровым механикам.</p>
+                <p>Руководства по строительству, игровым механикам и подземельям.</p>
               </div>
             </a>
             <a class="directory-link home-link" href="#/map-v2">
@@ -206,9 +206,13 @@
   <template id="guides-template">
     <section class="hero">
       <h1>Гайды</h1>
-      <p class="hero-copy">Руководства по Battles for Glory в Google Документах.</p>
+      <p class="hero-copy">Руководства и карты подземелий Battles for Glory.</p>
     </section>
     <div class="directory-grid">
+      <a class="directory-link" href="#/guides/minotaur-labyrinth">
+        <h2>Лабиринт Минотавра</h2>
+        <p>Карта пещеры с маршрутом от входа к дальнему спуску.</p>
+      </a>
       <a class="directory-link" href="https://docs.google.com/document/d/1qi_X7XW1xMKW1lPrjKJ94wJB7509lHSP5-ZV52TzYbE/edit?tab=t.0" target="_blank" rel="noreferrer">
         <h2>Строения гайд (для игроков) ↗</h2>
         <p>Как построить личный дом и какие бонусы он даёт.</p>
@@ -218,6 +222,27 @@
         <p>Аспекты оружия и брони, манускрипты, маунты, Ловец и профессии.</p>
       </a>
     </div>
+  </template>
+
+  <template id="minotaur-guide-template">
+    <article class="guide-page" aria-labelledby="minotaur-guide-title">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <a href="#/guides">Гайды</a><span>/</span><span aria-current="page">Лабиринт Минотавра</span>
+      </nav>
+      <header class="hero">
+        <h1 id="minotaur-guide-title">Лабиринт Минотавра</h1>
+        <p class="hero-copy">Карта пещеры с маршрутом от входа к дальнему спуску.</p>
+      </header>
+      <figure class="guide-map">
+        <a class="guide-map-image" href="assets/guides/minotaur-labyrinth.png" target="_blank" rel="noopener noreferrer" aria-label="Открыть карту лабиринта Минотавра в полном размере в новой вкладке">
+          <img src="assets/guides/minotaur-labyrinth.png" width="1080" height="1200" alt="Карта пещеры Минотавра: вход вверху слева, красный маршрут через лабиринт к дальнему спуску внизу справа; нижний зал показан отдельно." decoding="async">
+        </a>
+        <figcaption>
+          <span>Красная линия — путь от входа (1) к дальнему спуску (2).</span>
+          <a href="assets/guides/minotaur-labyrinth.png" target="_blank" rel="noopener noreferrer">Открыть карту в полном размере ↗</a>
+        </figcaption>
+      </figure>
+    </article>
   </template>
 
   <template id="specifications-template">
@@ -472,6 +497,6 @@
   </template>
 
   <script src="assets/map.js?v=map-expedition" defer></script>
-  <script src="assets/app.js?v=map-v2" defer></script>
+  <script src="assets/app.js?v=minotaur-guide" defer></script>
 </body>
 </html>

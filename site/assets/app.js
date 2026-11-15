@@ -48,7 +48,7 @@ const PROGRESSION_PAGES = new Map([
   }],
   ["/specifications/sibyl-cards", {
     title: "Карты Сивиллы", label: "Карта",
-    intro: "Требования к уровню персонажа, затраты на улучшение, пассивные бонусы и условия срабатывания карт. Числовые параметры эффектов приведены в объёме клиентских подсказок.",
+    intro: "Требования к уровню персонажа, затраты на улучшение, пассивные бонусы и условия срабатывания карт.",
     catalog: {heading: "Каталог карт", all: "Все карты"},
   }],
   ["/specifications/artifacts", {
@@ -1286,7 +1286,11 @@ function renderProgressionPage(path, page, data) {
   if (military) renderMilitaryCalculator(data);
   if (data.upgrade_costs) {
     document.querySelector("#progression-calculator").after(renderSibylUpgradeCosts(data.upgrade_costs));
-    document.querySelector("#progression-release").parentElement.prepend("Описания и эффекты карт. ");
+    document.querySelector("#progression-release").parentElement.prepend("Общие описания карт. ");
+    if (data.groups.some(group => group.parameters?.verification === "required")) {
+      document.querySelector("#progression-table-heading").after(el("p", "sibyl-verification-note",
+        "Данные в таблицах характеристик требуют верификации."));
+    }
   }
   const search = document.querySelector("#progression-search");
   const kind = document.querySelector("#progression-kind");
@@ -1329,7 +1333,7 @@ function renderProgressionPage(path, page, data) {
       }
     }
     if (select.value === "all") {
-      results.replaceChildren(...matches.map(({group}) => renderProgressionCatalogCard(group)));
+      results.replaceChildren(...matches.map(({group}) => renderProgressionCatalogCard(group, matches.length === 1)));
       return;
     }
     const entry = matches.find(({index}) => index === select.value);
@@ -1339,7 +1343,7 @@ function renderProgressionPage(path, page, data) {
     }
     const {group, label} = entry;
     if (catalog) {
-      results.replaceChildren(renderProgressionCatalogCard(group));
+      results.replaceChildren(renderProgressionCatalogCard(group, true));
       return;
     }
     const idKey = group.levels[0].item_id ? "item_id" : "effect_id";
@@ -1391,6 +1395,7 @@ function renderProgressionPage(path, page, data) {
     matches = groups.filter(({group, label}) => (!page.kinds || group.kind === kind.value)
       && (normalize(label).includes(query) || normalize(group.active?.effect).includes(query)
         || normalize(group.description).includes(query)
+        || group.parameters?.columns.some(label => normalize(label).includes(query))
         || String(group.closed_item_id ?? "").includes(query)
         || group.levels.some(row => normalize(row.effect).includes(query)
           || String(row.item_id ?? "").includes(query))));
@@ -1454,8 +1459,9 @@ function renderSibylUpgradeCosts(costs) {
   return section;
 }
 
-function renderProgressionCatalogCard(group) {
+function renderProgressionCatalogCard(group, expandParameters = false) {
   const card = el("article", "enchant-card progression-card progression-catalog-card");
+  if (group.closed_item_id) card.dataset.cardId = group.closed_item_id;
   const heading = el("header", "progression-card-heading");
   const [first] = group.levels;
   const title = el("div");
@@ -1479,7 +1485,44 @@ function renderProgressionCatalogCard(group) {
     }
     card.append(effects);
   }
+  if (group.parameters) {
+    card.classList.add("sibyl-parameters-card");
+    card.append(renderSibylParameters(group, expandParameters));
+  }
   return card;
+}
+
+function renderSibylParameters(group, expanded) {
+  const section = el("section", "sibyl-parameters");
+  const note = el("p", "sibyl-verification-note", "Данные требуют верификации");
+  note.id = "sibyl-verification-" + group.skill_id;
+  const details = el("details");
+  details.open = expanded;
+  const summary = el("summary", "", "Характеристики по уровням 1–15");
+  summary.id = "sibyl-parameters-" + group.skill_id;
+  details.append(summary);
+  const wrapper = el("div", "sibyl-parameters-scroll");
+  wrapper.tabIndex = 0;
+  wrapper.setAttribute("role", "region");
+  wrapper.setAttribute("aria-labelledby", summary.id);
+  wrapper.setAttribute("aria-describedby", note.id);
+  const table = createEnchantTable(group.name + ": характеристики требуют верификации",
+    ["Уровень", ...group.parameters.columns]);
+  table.style.minWidth = Math.max(560, (group.parameters.columns.length + 1) * 128) + "px";
+  const body = table.createTBody();
+  for (const row of group.parameters.levels) {
+    const tr = body.insertRow();
+    const level = el("th", "", row.level);
+    level.scope = "row";
+    tr.append(level);
+    for (const value of row.values) {
+      tr.append(el("td", value === null ? "sibyl-unknown" : "", value === null ? "Неизвестно" : value));
+    }
+  }
+  wrapper.append(table);
+  details.append(wrapper);
+  section.append(note, details);
+  return section;
 }
 
 function renderMilitaryCalculator(data) {

@@ -571,6 +571,16 @@ main:has(> .world-map) { width: 100%; min-height: 0; }
 .sibyl-card-levels dt { color: var(--accent-2); font-weight: 600; }
 .sibyl-card-levels dd { margin: 0 0 10px; }
 .sibyl-card-levels dd:last-child { margin-bottom: 0; }
+.sibyl-verification-note { margin: 0 0 16px; padding: 10px 14px; border-left: 3px solid var(--accent-2); background: var(--surface-2); color: var(--accent-2); font-size: 13px; line-height: 1.5; }
+.sibyl-parameters { min-width: 0; border-top: 1px solid var(--line); }
+.sibyl-parameters .sibyl-verification-note { margin: 12px 14px 0; }
+.sibyl-parameters summary { padding: 12px 14px; color: var(--accent-2); cursor: pointer; font-size: 14px; line-height: 1.5; }
+.sibyl-parameters-card:has(details[open]) { grid-column: 1 / -1; max-width: none; }
+.sibyl-parameters-scroll { max-width: 100%; overflow-x: auto; }
+.sibyl-parameters-scroll th, .sibyl-parameters-scroll td { font-variant-numeric: tabular-nums; }
+.sibyl-parameters-scroll th:first-child { position: sticky; left: 0; background: var(--surface-2); }
+.sibyl-unknown { color: var(--muted); }
+.sibyl-parameters :is(summary, .sibyl-parameters-scroll):focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .equipment-categories a { text-decoration: none; }
 .equipment-count { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
 .equipment-results, .equipment-pieces {

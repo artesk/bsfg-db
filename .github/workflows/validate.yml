@@ -27,7 +27,7 @@ jobs:
       - name: Validate editable content
         run: python generate.py --validate-only
 
-      - name: Test collection content validation
+      - name: Test content validation
         run: python -m unittest discover -s tests
 
       - name: Build browser data

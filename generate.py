@@ -388,6 +388,29 @@ def load_pit_jewelry(content: Path) -> dict[str, Any] | None:
     return data
 
 
+def validate_sibyl_parameters(group: dict[str, Any], path: Path, location: str) -> None:
+    location = f"{location}.parameters"
+    parameters = require_mapping(group["parameters"], path, location)
+    if parameters.get("verification") != "required":
+        fail(path, f"{location}.verification", "нужна пометка required: данные требуют верификации")
+    columns = require_string_list(parameters, "columns", path, location)
+    if not columns or any(not value.strip() for value in columns) or len(set(columns)) != len(columns):
+        fail(path, f"{location}.columns", "нужны непустые уникальные названия характеристик")
+    levels = require_list(parameters.get("levels"), path, f"{location}.levels")
+    if len(levels) != len(group["levels"]):
+        fail(path, f"{location}.levels", "нужны характеристики для всех уровней карты")
+    for index, value in enumerate(levels):
+        row_path = f"{location}.levels[{index}]"
+        row = require_mapping(value, path, row_path)
+        if type(row.get("level")) is not int or row["level"] != index + 1:
+            fail(path, f"{row_path}.level", "ожидались уровни от 1 без пропусков")
+        values = require_list(row.get("values"), path, f"{row_path}.values")
+        if len(values) != len(columns):
+            fail(path, f"{row_path}.values", "число значений должно совпадать с числом характеристик")
+        if any(value is not None and (not isinstance(value, str) or not value.strip()) for value in values):
+            fail(path, f"{row_path}.values", "укажите текст со знаком и единицами или null для неизвестного значения")
+
+
 def load_progression(content: Path, page: str) -> dict[str, Any]:
     path = content / "specifications" / f"{page}.yaml"
     data = require_mapping(load_yaml(path), path, page)
@@ -485,6 +508,8 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
         levels = require_list(group.get("levels"), path, f"{location}.levels")
         if not levels:
             fail(path, f"{location}.levels", "нужен хотя бы один уровень")
+        if sibyl_cards and "parameters" in group:
+            validate_sibyl_parameters(group, path, location)
         if artifacts and len(levels) != 1:
             fail(path, f"{location}.levels", "ожидался один эффект артефакта")
         for level, value in enumerate(levels, start=1):

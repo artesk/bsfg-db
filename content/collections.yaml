@@ -1,0 +1,7960 @@
+client_release: 2026.11.11.220300
+source:
+  files:
+  - name: ExCollectionData-ru.dat
+    sha256: 219e56b2ca9bdfb5178e8a7bbcdbf91d32dd676f951fd2b3387dbd71cd965c90
+  - name: ExCollectionEffect-ru.dat
+    sha256: 6be7a8d6389a8a8b3bd81182971fdf03f470bcf6f3c236e19b04db08bf2f4419
+  - name: ExCollectionEffectCategory-ru.dat
+    sha256: 8695a821997db5797ac80173c0088e27f7fea2d8fad07df31998b07966af702d
+  - name: ItemName-ru.dat
+    sha256: 9eccd5cac22e445cf0671b76deb0c2f1ce8d4789eac0e643e7c600cd48cc4318
+  - name: Interface.u
+    sha256: d4ee2d927bd97caf7085acf900a05ffcf16a15870b655ac79d0238bd15caf1ff
+  - name: SysString-ru.dat
+    sha256: 84aef5b79772233ecc64d3beaae71a9ca5e432ade50745af6cd7debbb935490b
+  - name: smackw32.dll
+    sha256: 0c3f968ccab3ab836b3f3354cb2d5176e103dfde2b82f7c78eecc17a34f2df8b
+  effect_units: 'Interface.u: BsfgMainCollectionWnd.CalculateCollectionStats; 0/1 — проценты, 2/3 — единицы; 0/2 — плюс, 1/3
+    — минус.'
+  icons:
+    files:
+    - name: SystemLegacy/l2gamedataname.dat
+      sha256: 1c115339ca46f9714e2fec0d443987725c65748db656ae1eeea0bd76156fa3d5
+    - name: SystemLegacy/EtcItemgrp.dat
+      sha256: 152899afd1e434f87cf725feaad6f1eec3c9ab8a664647f272830e71ef85912e
+    - name: SystemLegacy/Armorgrp.dat
+      sha256: 3fce81ae7afd583188360fc851c26332d9ebb2e86fc8cdc321b9d54931a71ed7
+    - name: SystemLegacy/Weapongrp.dat
+      sha256: f96b17e9d47c859921731670f0f5c250bc5bf7e4e12b8a0c57067e4ad031201d
+    - name: LegacyResource/br_cashtex.utx
+      sha256: 0eed5e14ca28d92732de7221c2a9886aeb41e7c0059006ac10d17f3c149921b5
+    - name: LegacyResource/BranchIcon.utx
+      sha256: a561e325bc0fce4c03df026c573420e0a944748669e7e3ff9a92d9dc5dafeb87
+    - name: LegacyResource/BranchSys2.utx
+      sha256: b47c89d117e5b3dfcefcffc70e5dc9f61f85a87e8eb969a83d9dad3e8070d8ea
+    - name: LegacyResource/BranchSys3.utx
+      sha256: c818fab0d271ba7b1efdfeeeadf9a2cf56d0fa9ad2c68e3256d103e464cb387c
+    - name: LegacyResource/bsfg.utx
+      sha256: 7353f63e116c5818de0ccf8969b442a8df7ed7b787e2fadcc47fea018aed1f5c
+    - name: LegacyResource/BsfgIcon.utx
+      sha256: 73fdd5242e24585b08114c86aaae9f65e21603ee9f32758332523e0543f48c16
+    - name: LegacyResource/Icon.utx
+      sha256: 9673e21e3c86bdb2cb06aed3bfc37dbde5507464a8ab7479a4904ac337d00ba0
+    - name: LegacyResource/Icon4.utx
+      sha256: 2e39faea0a95f82c157fac63d61c547ef848dd5e8570146dab15c60698252418
+    note: Недостающие иконки сопоставлены по object_id и icon1, извлечены из проверенных пакетов клиента. Существующие PNG
+      переиспользованы при совпадении пикселей.
+  purchase_prices: 'ExCollectionData-ru.dat: два uint32 после имени и минимального уровня. Загрузчик smackw32.dll 0x21019411/0x2101941a
+    → поля записи +0x10c/+0x110; преобразование 0x2100f6f8/0x2100f701 → UIExCollectionData +4/+8 (m_Price/m_RelictPrice).
+    Interface.u: OnClickButtonWithHandle, UpdateOrCreateCollectionDisplayRow; SysString 8300/8301 — покупка реликтовой/обычной
+    коллекции, 8303 — золота. Нулевое поле реликтовой цены не импортируется. Реликтовая цена импортируется только при m_bCanBeRelict
+    (flag2=1); у ID 51 поле равно 50000000, но реликтовый вариант отключён и не публикуется.'
+characteristics:
+- id: 2
+  name: Физическая атака
+- id: 3
+  name: Скорость атаки
+- id: 4
+  name: Физическая защита
+- id: 5
+  name: Физическая точность
+- id: 6
+  name: Шанс физ. крит. удара
+- id: 7
+  name: Магическая атака
+- id: 9
+  name: Шанс маг. критического удара
+  source_name: Шанс маг. критчиеского удара
+- id: 10
+  name: Регенерация боевого духа
+- id: 11
+  name: Скорость чтения заклинаний
+  aliases:
+  - скорость каста
+- id: 12
+  name: Скорость
+- id: 13
+  name: Дальность выстрела
+- id: 14
+  name: Физический вампиризм
+- id: 15
+  name: Магический вампиризм
+- id: 16
+  name: Сила маг. критического удара
+  source_name: Сила маг. критчиеского удара
+- id: 17
+  name: Регенерация жизненных сил
+- id: 19
+  name: Эффект лечения жизненных сил
+- id: 22
+  name: Сила физ. критического удара
+- id: 24
+  name: Эффект восстановления боевого духа
+  source_name: Эффект вос. боевого духа
+- id: 25
+  name: Дополнительный опыт
+  aliases:
+  - опыт
+  - exp
+- id: 26
+  name: PvE урон
+  aliases:
+  - урон по монстрам
+  - пве
+- id: 27
+  name: Физ. урон в PvP
+- id: 28
+  name: Физ. защита в PvP
+- id: 29
+  name: Физ. урон умений в PvP
+- id: 30
+  name: Маг. защита в PvP
+- id: 31
+  name: Маг. урон умений в PvP
+- id: 33
+  name: Шанс дропа при охоте на монстров
+- id: 35
+  name: Осадный урон
+- id: 36
+  name: Максимальный запас маны
+  aliases:
+  - мана
+  - mp
+- id: 37
+  name: Опыт при сборе сундучка с поста
+- id: 38
+  name: Магическая защита
+- id: 39
+  name: PvE защита
+  aliases:
+  - защита от монстров
+  - пве
+- id: 40
+  name: Вампиризм для стрелков
+  source_name: Вампиризм для Стрелков
+- id: 41
+  name: Максимальный запас боевого духа
+  aliases:
+  - боевой дух
+  - cp
+- id: 42
+  name: Максимальный запас жизненных сил
+  aliases:
+  - здоровье
+  - hp
+- id: 44
+  name: Скорость каста сверх предела
+- id: 46
+  name: Скорость атаки сверх предела
+- id: 54
+  name: Бонус опыта за перья
+- id: 55
+  name: Доп. золото "Семя войны"
+- id: 56
+  name: Доп. золото "Дух и плоть титана"
+- id: 57
+  name: Сила умений класса "Убийц"
+- id: 58
+  name: Доп. опыт до 30 ур.
+items:
+- id: 1
+  name: Книга рецептов
+  icon: /icon/collections/icon.etc_add_buffslot_i00.png
+- id: 2
+  name: Книга рецептов
+  icon: /icon/collections/icon.etc_add_buffslot_i00.png
+- id: 49
+  name: Осколок камня портала
+  icon: /icon/collections/bsfg.s49.png
+- id: 57
+  name: Золото
+  icon: /icon/collections/bsfg.s57.png
+- id: 75
+  name: 'Свойство: Легкость'
+  label: Обычное
+  icon: /icon/collections/bsfg.s75b.png
+- id: 145
+  name: Редкий камень
+  icon: /icon/collections/bsfg.s130bs.png
+- id: 146
+  name: Камень вспышки
+  icon: /icon/collections/bsfg.s131bs.png
+- id: 147
+  name: Камень стабильности
+  icon: /icon/collections/bsfg.s132bs.png
+- id: 148
+  name: Камень доблести
+  icon: /icon/collections/bsfg.s133bs.png
+- id: 149
+  name: Метеоритный камень
+  icon: /icon/collections/bsfg.s134bs.png
+- id: 150
+  name: Камень миражей
+  icon: /icon/collections/bsfg.s135bs.png
+- id: 151
+  name: Призрачный камень
+  icon: /icon/collections/bsfg.s136bs.png
+- id: 152
+  name: Камень нечисти
+  icon: /icon/collections/bsfg.s137bs.png
+- id: 153
+  name: Камень иллюзий
+  icon: /icon/collections/bsfg.s138bs.png
+- id: 154
+  name: Ментальный камень
+  icon: /icon/collections/bsfg.s139bs.png
+- id: 155
+  name: Камень возмездия
+  icon: /icon/collections/bsfg.s140bs.png
+- id: 156
+  name: Сумеречный камень
+  icon: /icon/collections/bsfg.s141bs.png
+- id: 263
+  name: Голова разбитой статуи
+  icon: /icon/collections/bsfg.s263.png
+- id: 264
+  name: Руки разбитой статуи
+  icon: /icon/collections/bsfg.s264.png
+- id: 265
+  name: Левая нога разбитой статуи
+  icon: /icon/collections/bsfg.s265.png
+- id: 266
+  name: Правая нога разбитой статуи
+  icon: /icon/collections/bsfg.s266.png
+- id: 267
+  name: Часть разбитой статуи
+  icon: /icon/collections/bsfg.s267.png
+- id: 268
+  name: Торс разбитой статуи
+  icon: /icon/collections/bsfg.s268.png
+- id: 269
+  name: 'Музыкальный кристалл: одиночество'
+  icon: /icon/collections/bsfg.s269.png
+- id: 270
+  name: 'Музыкальный кристалл: путешествие'
+  icon: /icon/collections/bsfg.s270.png
+- id: 271
+  name: 'Музыкальный кристалл: битва'
+  icon: /icon/collections/bsfg.s271.png
+- id: 272
+  name: 'Музыкальный кристалл: любовь'
+  icon: /icon/collections/bsfg.s272.png
+- id: 273
+  name: 'Музыкальный кристалл: празднование'
+  icon: /icon/collections/bsfg.s273.png
+- id: 274
+  name: 'Музыкальный кристалл: комедия'
+  icon: /icon/collections/bsfg.s274.png
+- id: 275
+  name: Красная эссенция
+  icon: /icon/collections/icon.etc_dragons_blood_i00.png
+- id: 276
+  name: Белая эссенция
+  icon: /icon/collections/icon.etc_dragons_blood_i01.png
+- id: 277
+  name: Черная эссенция
+  icon: /icon/collections/icon.etc_dragons_blood_i02.png
+- id: 278
+  name: Желтая эссенция
+  icon: /icon/collections/icon.etc_dragons_blood_i03.png
+- id: 279
+  name: Синяя эссенция
+  icon: /icon/collections/icon.etc_dragons_blood_i04.png
+- id: 280
+  name: Зеленая эссенция
+  icon: /icon/collections/icon.etc_dragons_blood_i05.png
+- id: 281
+  name: Руна воды
+  icon: /icon/trophies/icon.etc_water_rune_i00.png
+- id: 282
+  name: Мантра воды
+  icon: /icon/collections/icon.etc_water_mantra_i00.png
+- id: 283
+  name: Руна ветра
+  icon: /icon/collections/icon.etc_wind_rune_i00.png
+- id: 284
+  name: Мантра ветра
+  icon: /icon/collections/icon.etc_wind_mantra_i00.png
+- id: 285
+  name: Руна огня
+  icon: /icon/collections/icon.etc_fire_rune_i00.png
+- id: 286
+  name: Мантра огня
+  icon: /icon/collections/icon.etc_fire_mantra_i00.png
+- id: 287
+  name: Секретный механизм
+  icon: /icon/collections/icon.etc_instrument_i00.png
+- id: 288
+  name: Фонарь
+  icon: /icon/collections/icon.etc_lantern_i00.png
+- id: 289
+  name: Коробка с механизмом
+  icon: /icon/collections/icon.etc_mechanic_box_i00.png
+- id: 290
+  name: Первая часть секретного чертежа
+  icon: /icon/collections/icon.etc_letter_red_i00.png
+- id: 291
+  name: Вторая часть секретного чертежа
+  icon: /icon/collections/icon.etc_letter_white_i00.png
+- id: 292
+  name: Третья часть секретного чертежа
+  icon: /icon/collections/icon.etc_letter_blue_i00.png
+- id: 293
+  name: Имперский флаг
+  icon: /icon/collections/bsfg.s293.png
+- id: 294
+  name: Флаг альянса
+  icon: /icon/collections/bsfg.s294.png
+- id: 295
+  name: Флаг доминиона
+  icon: /icon/collections/bsfg.s295.png
+- id: 296
+  name: Флаг Орды
+  icon: /icon/collections/bsfg.s296.png
+- id: 297
+  name: Флаг союза
+  icon: /icon/collections/bsfg.s297.png
+- id: 307
+  name: Простой камень возврата
+  icon: /icon/collections/bsfg.s307.png
+- id: 381
+  name: Тухлая рыба
+  icon: /icon/collections/icon.etc_bream_i05.png
+- id: 382
+  name: Гнилое яйцо василиска
+  icon: /icon/collections/icon.etc_dragon_egg_i02.png
+- id: 383
+  name: Какаха дикого страйдера
+  icon: /icon/collections/icon.etc_debris_i00.png
+- id: 384
+  name: Что-то мелкое и вонючее
+  icon: /icon/collections/icon.etc_gourd_i01.png
+- id: 399
+  name: Материал Кригосса
+  icon: /icon/collections/bsfg.s399.png
+- id: 487
+  name: Сфера ненависти
+  icon: /icon/collections/icon.etc_wise_man_stone_i05.png
+- id: 490
+  name: Пиво
+  icon: /icon/collections/bsfg.s490.png
+- id: 491
+  name: Энергетик
+  icon: /icon/collections/bsfg.s491.png
+- id: 501
+  name: Праздничный носок
+  icon: /icon/collections/branchicon.icon32.br_xmas_present_i00.png
+- id: 703
+  name: Строительный блок
+  icon: /icon/collections/bsfg.i_kirpich01.png
+- id: 704
+  name: Кирпич поселенцев
+  icon: /icon/collections/bsfg.i_kirpich09.png
+- id: 705
+  name: Изумрудный кирпич
+  icon: /icon/collections/bsfg.i_kirpich08.png
+- id: 706
+  name: Рубиновый кирпич
+  icon: /icon/collections/bsfg.i_kirpich04.png
+- id: 721
+  name: 'Свиток возвращения: личный дом'
+  icon: /icon/collections/icon.etc_scroll_of_return_i00.png
+- id: 768
+  name: Глорис
+  icon: /icon/collections/icon.ensoul_big_p.png
+- id: 872
+  name: Основа
+  icon: /icon/collections/bsfg.g_beerfestival_yeast_2.png
+- id: 941
+  name: 'Ресурс: Полотно'
+  icon: /icon/collections/bsfg.s941.png
+- id: 947
+  name: 'Ресурс: Клей'
+  icon: /icon/collections/bsfg.s947.png
+- id: 950
+  name: 'Ресурс: Нить'
+  icon: /icon/collections/bsfg.s950.png
+- id: 969
+  name: 'Ресурс: Сырая кожа'
+  icon: /icon/collections/icon.etc_piece_of_report_i00.png
+- id: 976
+  name: 'Ресурс: Тряпье'
+  icon: /icon/collections/bsfg.s976.png
+- id: 990
+  name: Флаг легиона
+  icon: /icon/collections/bsfg.s990.png
+- id: 1000
+  name: Бутыль
+  label: Уровень 1
+  icon: /icon/collections/bsfg.s1000.png
+- id: 1012
+  name: Бутыль
+  label: Уровень 2
+  icon: /icon/collections/bsfg.s1012.png
+- id: 1013
+  name: Бутыль
+  label: Уровень 3
+  icon: /icon/collections/bsfg.s1013.png
+- id: 1014
+  name: Бутыль
+  label: Уровень 4
+  icon: /icon/collections/bsfg.s1014.png
+- id: 1015
+  name: Бутыль
+  label: Уровень 5
+  icon: /icon/collections/bsfg.s1015.png
+- id: 1016
+  name: Бутыль
+  label: Уровень 6
+  icon: /icon/collections/bsfg.s1016.png
+- id: 1025
+  name: Инструмент Кригосса
+  icon: /icon/collections/bsfg.s1025.png
+- id: 1058
+  name: Значок защитника
+  icon: /icon/collections/icon.etc_silver_dragon_i00.png
+- id: 1101
+  name: Значок славного воина
+  icon: /icon/collections/icon.skill11544.png
+- id: 1151
+  name: Чернила ведьмы
+  icon: /icon/collections/icon.grima_poison.png
+- id: 1197
+  name: Инструмент сборщика
+  icon: /icon/weapons/icon.weapon_sickle_i00.png
+- id: 1924
+  name: 'Письмена легиона: Часть 1'
+  icon: /icon/collections/icon.etc_charm_of_courage_i00.png
+- id: 1925
+  name: 'Письмена легиона: Часть 2'
+  icon: /icon/collections/icon.etc_charm_of_courage_i01.png
+- id: 1926
+  name: 'Письмена легиона: Часть 3'
+  icon: /icon/collections/icon.etc_charm_of_courage_i02.png
+- id: 1927
+  name: 'Письмена легиона: Часть 4'
+  icon: /icon/collections/icon.etc_charm_of_courage_i03.png
+- id: 1928
+  name: 'Письмена легиона: Часть 5'
+  icon: /icon/collections/icon.etc_charm_of_courage_i04.png
+- id: 1929
+  name: 'Письмена легиона: Часть 6'
+  icon: /icon/collections/icon.etc_charm_of_courage_i05.png
+- id: 1983
+  name: 'Алхимический ресурс: Порох'
+  icon: /icon/collections/bsfg.s1983.png
+- id: 1997
+  name: Серп
+  icon: /icon/collections/bsfg.i_serp03.png
+- id: 2060
+  name: Прочный тяжелый доспех
+  label: Империя
+  icon: /icon/equipment/icon.armor_compound_scale_mail_i00.png
+- id: 2061
+  name: Бронзовые латы
+  label: Империя
+  icon: /icon/equipment/icon.armor_t34_u_i00.png
+- id: 2063
+  name: Пластинчатая кольчуга
+  label: Империя
+  icon: /icon/equipment/icon.armor_t08_u_i00.png
+- id: 2065
+  name: Стальной доспех
+  label: Империя
+  icon: /icon/equipment/icon.armor_t20_u_i00.png
+- id: 2066
+  name: Мифриловый доспех
+  label: Империя
+  icon: /icon/equipment/icon.armor_t15_u_i00.png
+- id: 2067
+  name: Адамантиновый доспех
+  label: Империя
+  icon: /icon/equipment/icon.armor_t43_u_i00.png
+- id: 2068
+  name: Пластинчатый доспех
+  label: Империя
+  icon: /icon/equipment/icon.armor_t46_u_i00.png
+- id: 2083
+  name: Прочные тяжелые поножи
+  label: Империя
+  icon: /icon/equipment/icon.armor_compound_scale_gaiters_i00.png
+- id: 2084
+  name: Бронзовые латные поножи
+  label: Империя
+  icon: /icon/equipment/icon.armor_t34_l_i00.png
+- id: 2086
+  name: Пластинчатые кольчужные поножи
+  label: Империя
+  icon: /icon/equipment/icon.armor_t08_l_i00.png
+- id: 2089
+  name: Мифриловые поножи
+  label: Империя
+  icon: /icon/equipment/icon.armor_t15_l_i00.png
+- id: 2090
+  name: Адамантиновые поножи
+  label: Империя
+  icon: /icon/equipment/icon.armor_t43_l_i00.png
+- id: 2091
+  name: Пластинчатые поножи
+  label: Империя
+  icon: /icon/equipment/icon.armor_t46_l_i00.png
+- id: 2094
+  name: Прочные тяжелые перчатки
+  label: Империя
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 2095
+  name: Бронзовые латные перчатки
+  label: Империя
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 2097
+  name: Пластинчатые кольчужные перчатки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t40_g_i00.png
+- id: 2099
+  name: Стальные перчатки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t47_g_i00.png
+- id: 2100
+  name: Мифриловые перчатки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 2101
+  name: Адамантиновые перчатки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t43_g_i00.png
+- id: 2102
+  name: Пластинчатые перчатки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 2117
+  name: Прочные тяжелые сапоги
+  label: Империя
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2118
+  name: Бронзовые латные сапоги
+  label: Империя
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 2120
+  name: Пластинчатые кольчужные сапоги
+  label: Империя
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2122
+  name: Стальные сапоги
+  label: Империя
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2123
+  name: Мифриловые сапоги
+  label: Империя
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 2124
+  name: Адамантиновые сапоги
+  label: Империя
+  icon: /icon/equipment/icon.armor_t43_b_i00.png
+- id: 2125
+  name: Пластинчатые сапоги
+  label: Империя
+  icon: /icon/equipment/icon.armor_t46_b_i00.png
+- id: 2141
+  name: Доспех из кожи
+  label: Империя
+  icon: /icon/equipment/icon.armor_t07_u_i00.png
+- id: 2150
+  name: Легкая стальная кольчуга
+  label: Империя
+  icon: /icon/equipment/icon.armor_t49_u_i00.png
+- id: 2160
+  name: Легкие доспехи волка
+  label: Империя
+  icon: /icon/equipment/icon.armor_t69_ul_i00.png
+- id: 2191
+  name: Стальные кольчужные перчатки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t49_g_i00.png
+- id: 2201
+  name: Легкие перчатки волка
+  label: Империя
+  icon: /icon/equipment/icon.armor_t69_g_i00.png
+- id: 2218
+  name: Стальные кольчужные сапоги
+  label: Империя
+  icon: /icon/equipment/icon.armor_t49_b_i00.png
+- id: 2228
+  name: Легкие сапоги волка
+  label: Империя
+  icon: /icon/equipment/icon.armor_t69_b_i00.png
+- id: 2234
+  name: Рубашка ученика
+  label: Империя
+  icon: /icon/equipment/icon.armor_t03_u_i00.png
+- id: 2235
+  name: Рубашка знаний
+  label: Империя
+  icon: /icon/equipment/icon.armor_t52_u_i00.png
+- id: 2236
+  name: Хлопковая рубашка
+  label: Империя
+  icon: /icon/equipment/icon.armor_t50_u_i00.png
+- id: 2238
+  name: Туника мистика
+  label: Империя
+  icon: /icon/equipment/icon.armor_t55_u_i00.png
+- id: 2239
+  name: Туника магии
+  label: Империя
+  icon: /icon/equipment/icon.armor_t58_u_i00.png
+- id: 2240
+  name: Темная туника
+  label: Империя
+  icon: /icon/equipment/icon.armor_t14_u_i00.png
+- id: 2241
+  name: Имперская туника
+  label: Империя
+  icon: /icon/equipment/icon.armor_t11_u_i00.png
+- id: 2243
+  name: Туника подмастерья
+  label: Империя
+  icon: /icon/equipment/icon.armor_t17_u_i00.png
+- id: 2244
+  name: Туника мудрости
+  label: Империя
+  icon: /icon/equipment/icon.armor_t41_u_i00.png
+- id: 2245
+  name: Мифриловая туника
+  label: Империя
+  icon: /icon/equipment/icon.armor_t51_u_i00.png
+- id: 2246
+  name: Изумрудная туника
+  label: Империя
+  icon: /icon/equipment/icon.armor_t53_u_i00.png
+- id: 2247
+  name: Туника Кригосса
+  label: Империя
+  icon: /icon/equipment/icon.armor_t54_u_i00.png
+- id: 2252
+  name: Роба огня
+  label: Империя
+  icon: /icon/equipment/icon.armor_t56_u_i00.png
+- id: 2262
+  name: Штаны знаний
+  label: Империя
+  icon: /icon/equipment/icon.armor_t52_l_i00.png
+- id: 2263
+  name: Хлопковые штаны
+  label: Империя
+  icon: /icon/equipment/icon.armor_t50_l_i00.png
+- id: 2265
+  name: Штаны мистика
+  label: Империя
+  icon: /icon/equipment/icon.armor_t55_l_i00.png
+- id: 2266
+  name: Штаны магии
+  label: Империя
+  icon: /icon/equipment/icon.armor_t58_l_i00.png
+- id: 2267
+  name: Темные штаны
+  label: Империя
+  icon: /icon/equipment/icon.armor_t14_l_i00.png
+- id: 2268
+  name: Имперские штаны
+  label: Империя
+  icon: /icon/equipment/icon.armor_t11_l_i00.png
+- id: 2270
+  name: Штаны подмастерья
+  label: Империя
+  icon: /icon/equipment/icon.armor_t17_l_i00.png
+- id: 2271
+  name: Штаны мудрости
+  label: Империя
+  icon: /icon/equipment/icon.armor_t41_l_i00.png
+- id: 2272
+  name: Мифриловые штаны
+  label: Империя
+  icon: /icon/equipment/icon.armor_t51_l_i00.png
+- id: 2273
+  name: Изумрудные штаны
+  label: Империя
+  icon: /icon/equipment/icon.armor_t53_l_i00.png
+- id: 2274
+  name: Штаны Кригосса
+  label: Империя
+  icon: /icon/equipment/icon.armor_t54_l_i00.png
+- id: 2276
+  name: Рукавицы знаний
+  label: Империя
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 2277
+  name: Хлопковые рукавицы
+  label: Империя
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 2279
+  name: Рукавицы мистика
+  label: Империя
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 2280
+  name: Рукавицы магии
+  label: Империя
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 2281
+  name: Темные рукавицы
+  label: Империя
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 2282
+  name: Имперские рукавицы
+  label: Империя
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 2284
+  name: Рукавицы подмастерья
+  label: Империя
+  icon: /icon/equipment/icon.armor_t09_g_i00.png
+- id: 2285
+  name: Рукавицы мудрости
+  label: Империя
+  icon: /icon/equipment/icon.armor_t41_g_i00.png
+- id: 2286
+  name: Мифриловые рукавицы
+  label: Империя
+  icon: /icon/equipment/icon.armor_t51_g_i00.png
+- id: 2287
+  name: Изумрудные рукавицы
+  label: Империя
+  icon: /icon/equipment/icon.armor_t53_g_i00.png
+- id: 2288
+  name: Рукавицы Кригосса
+  label: Империя
+  icon: /icon/equipment/icon.armor_t54_g_i00.png
+- id: 2293
+  name: Рукавицы огня
+  label: Империя
+  icon: /icon/equipment/icon.armor_t56_g_i00.png
+- id: 2303
+  name: Сандали знаний
+  label: Империя
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 2304
+  name: Хлопковые ботинки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t50_b_i00.png
+- id: 2306
+  name: Ботинки мистика
+  label: Империя
+  icon: /icon/equipment/icon.armor_t13_b_i00.png
+- id: 2307
+  name: Сандали магии
+  label: Империя
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 2308
+  name: Темные ботинки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t09_b_i00.png
+- id: 2309
+  name: Имперские ботинки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t02_b_i00.png
+- id: 2311
+  name: Ботинки подмастерья
+  label: Империя
+  icon: /icon/equipment/icon.armor_t57_b_i00.png
+- id: 2312
+  name: Ботинки мудрости
+  label: Империя
+  icon: /icon/equipment/icon.armor_t41_b_i00.png
+- id: 2313
+  name: Мифриловые ботинки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t51_b_i00.png
+- id: 2314
+  name: Изумрудные ботинки
+  label: Империя
+  icon: /icon/equipment/icon.armor_t53_b_i00.png
+- id: 2315
+  name: Ботинки Кригосса
+  label: Империя
+  icon: /icon/equipment/icon.armor_t54_b_i00.png
+- id: 2320
+  name: Ботинки огня
+  label: Империя
+  icon: /icon/equipment/icon.armor_t56_b_i00.png
+- id: 2330
+  name: Прочный тяжелый доспех
+  label: Альянс
+  icon: /icon/equipment/icon.armor_compound_scale_mail_i00.png
+- id: 2331
+  name: Бронзовые латы
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t34_u_i00.png
+- id: 2333
+  name: Пластинчатая кольчуга
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t08_u_i00.png
+- id: 2335
+  name: Стальной доспех
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t20_u_i00.png
+- id: 2336
+  name: Мифриловый доспех
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t15_u_i00.png
+- id: 2337
+  name: Адамантиновый доспех
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t43_u_i00.png
+- id: 2338
+  name: Пластинчатый доспех
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t46_u_i00.png
+- id: 2353
+  name: Прочные тяжелые поножи
+  label: Альянс
+  icon: /icon/equipment/icon.armor_compound_scale_gaiters_i00.png
+- id: 2354
+  name: Бронзовые латные поножи
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t34_l_i00.png
+- id: 2356
+  name: Пластинчатые кольчужные поножи
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t08_l_i00.png
+- id: 2359
+  name: Мифриловые поножи
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t15_l_i00.png
+- id: 2360
+  name: Адамантиновые поножи
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t43_l_i00.png
+- id: 2361
+  name: Пластинчатые поножи
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t46_l_i00.png
+- id: 2364
+  name: Прочные тяжелые перчатки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 2365
+  name: Бронзовые латные перчатки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 2367
+  name: Пластинчатые кольчужные перчатки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t40_g_i00.png
+- id: 2369
+  name: Стальные перчатки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t47_g_i00.png
+- id: 2370
+  name: Мифриловые перчатки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 2371
+  name: Адамантиновые перчатки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t43_g_i00.png
+- id: 2372
+  name: Пластинчатые перчатки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 2387
+  name: Прочные тяжелые сапоги
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2388
+  name: Бронзовые латные сапоги
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 2390
+  name: Пластинчатые кольчужные сапоги
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2392
+  name: Стальные сапоги
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2393
+  name: Мифриловые сапоги
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 2394
+  name: Адамантиновые сапоги
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t43_b_i00.png
+- id: 2395
+  name: Пластинчатые сапоги
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t46_b_i00.png
+- id: 2411
+  name: Доспех из кожи
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t07_u_i00.png
+- id: 2420
+  name: Легкая стальная кольчуга
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t49_u_i00.png
+- id: 2430
+  name: Легкие доспехи волка
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t69_ul_i00.png
+- id: 2461
+  name: Стальные кольчужные перчатки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t49_g_i00.png
+- id: 2471
+  name: Легкие перчатки волка
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t69_g_i00.png
+- id: 2488
+  name: Стальные кольчужные сапоги
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t49_b_i00.png
+- id: 2498
+  name: Легкие сапоги волка
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t69_b_i00.png
+- id: 2504
+  name: Рубашка ученика
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t03_u_i00.png
+- id: 2505
+  name: Рубашка знаний
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t52_u_i00.png
+- id: 2506
+  name: Хлопковая рубашка
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t50_u_i00.png
+- id: 2508
+  name: Туника мистика
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t55_u_i00.png
+- id: 2509
+  name: Туника магии
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t58_u_i00.png
+- id: 2510
+  name: Темная туника
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t14_u_i00.png
+- id: 2511
+  name: Имперская туника
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t11_u_i00.png
+- id: 2513
+  name: Туника подмастерья
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t17_u_i00.png
+- id: 2514
+  name: Туника мудрости
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t41_u_i00.png
+- id: 2515
+  name: Мифриловая туника
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t51_u_i00.png
+- id: 2516
+  name: Изумрудная туника
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t53_u_i00.png
+- id: 2517
+  name: Туника Кригосса
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t54_u_i00.png
+- id: 2522
+  name: Роба огня
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t56_u_i00.png
+- id: 2532
+  name: Штаны знаний
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t52_l_i00.png
+- id: 2533
+  name: Хлопковые штаны
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t50_l_i00.png
+- id: 2535
+  name: Штаны мистика
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t55_l_i00.png
+- id: 2536
+  name: Штаны магии
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t58_l_i00.png
+- id: 2537
+  name: Темные штаны
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t14_l_i00.png
+- id: 2538
+  name: Имперские штаны
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t11_l_i00.png
+- id: 2540
+  name: Штаны подмастерья
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t17_l_i00.png
+- id: 2541
+  name: Штаны мудрости
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t41_l_i00.png
+- id: 2542
+  name: Мифриловые штаны
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t51_l_i00.png
+- id: 2543
+  name: Изумрудные штаны
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t53_l_i00.png
+- id: 2544
+  name: Штаны Кригосса
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t54_l_i00.png
+- id: 2546
+  name: Рукавицы знаний
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 2547
+  name: Хлопковые рукавицы
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 2549
+  name: Рукавицы мистика
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 2550
+  name: Рукавицы магии
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 2551
+  name: Темные рукавицы
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 2552
+  name: Имперские рукавицы
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 2554
+  name: Рукавицы подмастерья
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t09_g_i00.png
+- id: 2555
+  name: Рукавицы мудрости
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t41_g_i00.png
+- id: 2556
+  name: Мифриловые рукавицы
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t51_g_i00.png
+- id: 2557
+  name: Изумрудные рукавицы
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t53_g_i00.png
+- id: 2558
+  name: Рукавицы Кригосса
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t54_g_i00.png
+- id: 2563
+  name: Рукавицы огня
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t56_g_i00.png
+- id: 2573
+  name: Сандали знаний
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 2574
+  name: Хлопковые ботинки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t50_b_i00.png
+- id: 2576
+  name: Ботинки мистика
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t13_b_i00.png
+- id: 2577
+  name: Сандали магии
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 2578
+  name: Темные ботинки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t09_b_i00.png
+- id: 2579
+  name: Имперские ботинки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t02_b_i00.png
+- id: 2581
+  name: Ботинки подмастерья
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t57_b_i00.png
+- id: 2582
+  name: Ботинки мудрости
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t41_b_i00.png
+- id: 2583
+  name: Мифриловые ботинки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t51_b_i00.png
+- id: 2584
+  name: Изумрудные ботинки
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t53_b_i00.png
+- id: 2585
+  name: Ботинки Кригосса
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t54_b_i00.png
+- id: 2590
+  name: Ботинки огня
+  label: Альянс
+  icon: /icon/equipment/icon.armor_t56_b_i00.png
+- id: 2600
+  name: Прочный тяжелый доспех
+  label: Доминион
+  icon: /icon/equipment/icon.armor_compound_scale_mail_i00.png
+- id: 2601
+  name: Бронзовые латы
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t34_u_i00.png
+- id: 2603
+  name: Пластинчатая кольчуга
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t08_u_i00.png
+- id: 2605
+  name: Стальной доспех
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t20_u_i00.png
+- id: 2606
+  name: Мифриловый доспех
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t15_u_i00.png
+- id: 2607
+  name: Адамантиновый доспех
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t43_u_i00.png
+- id: 2608
+  name: Пластинчатый доспех
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t46_u_i00.png
+- id: 2623
+  name: Прочные тяжелые поножи
+  label: Доминион
+  icon: /icon/equipment/icon.armor_compound_scale_gaiters_i00.png
+- id: 2624
+  name: Бронзовые латные поножи
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t34_l_i00.png
+- id: 2626
+  name: Пластинчатые кольчужные поножи
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t08_l_i00.png
+- id: 2629
+  name: Мифриловые поножи
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t15_l_i00.png
+- id: 2630
+  name: Адамантиновые поножи
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t43_l_i00.png
+- id: 2631
+  name: Пластинчатые поножи
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t46_l_i00.png
+- id: 2634
+  name: Прочные тяжелые перчатки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 2635
+  name: Бронзовые латные перчатки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 2637
+  name: Пластинчатые кольчужные перчатки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t40_g_i00.png
+- id: 2639
+  name: Стальные перчатки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t47_g_i00.png
+- id: 2640
+  name: Мифриловые перчатки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 2641
+  name: Адамантиновые перчатки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t43_g_i00.png
+- id: 2642
+  name: Пластинчатые перчатки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 2657
+  name: Прочные тяжелые сапоги
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2658
+  name: Бронзовые латные сапоги
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 2660
+  name: Пластинчатые кольчужные сапоги
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2662
+  name: Стальные сапоги
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2663
+  name: Мифриловые сапоги
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 2664
+  name: Адамантиновые сапоги
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t43_b_i00.png
+- id: 2665
+  name: Пластинчатые сапоги
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t46_b_i00.png
+- id: 2681
+  name: Доспех из кожи
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t07_u_i00.png
+- id: 2690
+  name: Легкая стальная кольчуга
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t49_u_i00.png
+- id: 2700
+  name: Легкие доспехи волка
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t69_ul_i00.png
+- id: 2731
+  name: Стальные кольчужные перчатки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t49_g_i00.png
+- id: 2741
+  name: Легкие перчатки волка
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t69_g_i00.png
+- id: 2758
+  name: Стальные кольчужные сапоги
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t49_b_i00.png
+- id: 2768
+  name: Легкие сапоги волка
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t69_b_i00.png
+- id: 2774
+  name: Рубашка ученика
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t03_u_i00.png
+- id: 2775
+  name: Рубашка знаний
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t52_u_i00.png
+- id: 2776
+  name: Хлопковая рубашка
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t50_u_i00.png
+- id: 2778
+  name: Туника мистика
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t55_u_i00.png
+- id: 2779
+  name: Туника магии
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t58_u_i00.png
+- id: 2780
+  name: Темная туника
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t14_u_i00.png
+- id: 2781
+  name: Имперская туника
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t11_u_i00.png
+- id: 2783
+  name: Туника подмастерья
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t17_u_i00.png
+- id: 2784
+  name: Туника мудрости
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t41_u_i00.png
+- id: 2785
+  name: Мифриловая туника
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t51_u_i00.png
+- id: 2786
+  name: Изумрудная туника
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t53_u_i00.png
+- id: 2787
+  name: Туника Кригосса
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t54_u_i00.png
+- id: 2792
+  name: Роба огня
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t56_u_i00.png
+- id: 2802
+  name: Штаны знаний
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t52_l_i00.png
+- id: 2803
+  name: Хлопковые штаны
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t50_l_i00.png
+- id: 2805
+  name: Штаны мистика
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t55_l_i00.png
+- id: 2806
+  name: Штаны магии
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t58_l_i00.png
+- id: 2807
+  name: Темные штаны
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t14_l_i00.png
+- id: 2808
+  name: Имперские штаны
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t11_l_i00.png
+- id: 2810
+  name: Штаны подмастерья
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t17_l_i00.png
+- id: 2811
+  name: Штаны мудрости
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t41_l_i00.png
+- id: 2812
+  name: Мифриловые штаны
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t51_l_i00.png
+- id: 2813
+  name: Изумрудные штаны
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t53_l_i00.png
+- id: 2814
+  name: Штаны Кригосса
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t54_l_i00.png
+- id: 2816
+  name: Рукавицы знаний
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 2817
+  name: Хлопковые рукавицы
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 2819
+  name: Рукавицы мистика
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 2820
+  name: Рукавицы магии
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 2821
+  name: Темные рукавицы
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 2822
+  name: Имперские рукавицы
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 2824
+  name: Рукавицы подмастерья
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t09_g_i00.png
+- id: 2825
+  name: Рукавицы мудрости
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t41_g_i00.png
+- id: 2826
+  name: Мифриловые рукавицы
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t51_g_i00.png
+- id: 2827
+  name: Изумрудные рукавицы
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t53_g_i00.png
+- id: 2828
+  name: Рукавицы Кригосса
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t54_g_i00.png
+- id: 2833
+  name: Рукавицы огня
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t56_g_i00.png
+- id: 2843
+  name: Сандали знаний
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 2844
+  name: Хлопковые ботинки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t50_b_i00.png
+- id: 2846
+  name: Ботинки мистика
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t13_b_i00.png
+- id: 2847
+  name: Сандали магии
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 2848
+  name: Темные ботинки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t09_b_i00.png
+- id: 2849
+  name: Имперские ботинки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t02_b_i00.png
+- id: 2851
+  name: Ботинки подмастерья
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t57_b_i00.png
+- id: 2852
+  name: Ботинки мудрости
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t41_b_i00.png
+- id: 2853
+  name: Мифриловые ботинки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t51_b_i00.png
+- id: 2854
+  name: Изумрудные ботинки
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t53_b_i00.png
+- id: 2855
+  name: Ботинки Кригосса
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t54_b_i00.png
+- id: 2860
+  name: Ботинки огня
+  label: Доминион
+  icon: /icon/equipment/icon.armor_t56_b_i00.png
+- id: 2870
+  name: Прочный тяжелый доспех
+  label: Орда
+  icon: /icon/equipment/icon.armor_compound_scale_mail_i00.png
+- id: 2871
+  name: Бронзовые латы
+  label: Орда
+  icon: /icon/equipment/icon.armor_t34_u_i00.png
+- id: 2873
+  name: Пластинчатая кольчуга
+  label: Орда
+  icon: /icon/equipment/icon.armor_t08_u_i00.png
+- id: 2875
+  name: Стальной доспех
+  label: Орда
+  icon: /icon/equipment/icon.armor_t20_u_i00.png
+- id: 2876
+  name: Мифриловый доспех
+  label: Орда
+  icon: /icon/equipment/icon.armor_t15_u_i00.png
+- id: 2877
+  name: Адамантиновый доспех
+  label: Орда
+  icon: /icon/equipment/icon.armor_t43_u_i00.png
+- id: 2878
+  name: Пластинчатый доспех
+  label: Орда
+  icon: /icon/equipment/icon.armor_t46_u_i00.png
+- id: 2893
+  name: Прочные тяжелые поножи
+  label: Орда
+  icon: /icon/equipment/icon.armor_compound_scale_gaiters_i00.png
+- id: 2894
+  name: Бронзовые латные поножи
+  label: Орда
+  icon: /icon/equipment/icon.armor_t34_l_i00.png
+- id: 2896
+  name: Пластинчатые кольчужные поножи
+  label: Орда
+  icon: /icon/equipment/icon.armor_t08_l_i00.png
+- id: 2899
+  name: Мифриловые поножи
+  label: Орда
+  icon: /icon/equipment/icon.armor_t15_l_i00.png
+- id: 2900
+  name: Адамантиновые поножи
+  label: Орда
+  icon: /icon/equipment/icon.armor_t43_l_i00.png
+- id: 2901
+  name: Пластинчатые поножи
+  label: Орда
+  icon: /icon/equipment/icon.armor_t46_l_i00.png
+- id: 2904
+  name: Прочные тяжелые перчатки
+  label: Орда
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 2905
+  name: Бронзовые латные перчатки
+  label: Орда
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 2907
+  name: Пластинчатые кольчужные перчатки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t40_g_i00.png
+- id: 2909
+  name: Стальные перчатки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t47_g_i00.png
+- id: 2910
+  name: Мифриловые перчатки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 2911
+  name: Адамантиновые перчатки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t43_g_i00.png
+- id: 2912
+  name: Пластинчатые перчатки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 2927
+  name: Прочные тяжелые сапоги
+  label: Орда
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2928
+  name: Бронзовые латные сапоги
+  label: Орда
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 2930
+  name: Пластинчатые кольчужные сапоги
+  label: Орда
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2932
+  name: Стальные сапоги
+  label: Орда
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 2933
+  name: Мифриловые сапоги
+  label: Орда
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 2934
+  name: Адамантиновые сапоги
+  label: Орда
+  icon: /icon/equipment/icon.armor_t43_b_i00.png
+- id: 2935
+  name: Пластинчатые сапоги
+  label: Орда
+  icon: /icon/equipment/icon.armor_t46_b_i00.png
+- id: 2951
+  name: Доспех из кожи
+  label: Орда
+  icon: /icon/equipment/icon.armor_t07_u_i00.png
+- id: 2960
+  name: Легкая стальная кольчуга
+  label: Орда
+  icon: /icon/equipment/icon.armor_t49_u_i00.png
+- id: 2970
+  name: Легкие доспехи волка
+  label: Орда
+  icon: /icon/equipment/icon.armor_t69_ul_i00.png
+- id: 3001
+  name: Стальные кольчужные перчатки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t49_g_i00.png
+- id: 3011
+  name: Легкие перчатки волка
+  label: Орда
+  icon: /icon/equipment/icon.armor_t69_g_i00.png
+- id: 3028
+  name: Стальные кольчужные сапоги
+  label: Орда
+  icon: /icon/equipment/icon.armor_t49_b_i00.png
+- id: 3038
+  name: Легкие сапоги волка
+  label: Орда
+  icon: /icon/equipment/icon.armor_t69_b_i00.png
+- id: 3044
+  name: Рубашка ученика
+  label: Орда
+  icon: /icon/equipment/icon.armor_t03_u_i00.png
+- id: 3045
+  name: Рубашка знаний
+  label: Орда
+  icon: /icon/equipment/icon.armor_t52_u_i00.png
+- id: 3046
+  name: Хлопковая рубашка
+  label: Орда
+  icon: /icon/equipment/icon.armor_t50_u_i00.png
+- id: 3048
+  name: Туника мистика
+  label: Орда
+  icon: /icon/equipment/icon.armor_t55_u_i00.png
+- id: 3049
+  name: Туника магии
+  label: Орда
+  icon: /icon/equipment/icon.armor_t58_u_i00.png
+- id: 3050
+  name: Темная туника
+  label: Орда
+  icon: /icon/equipment/icon.armor_t14_u_i00.png
+- id: 3051
+  name: Имперская туника
+  label: Орда
+  icon: /icon/equipment/icon.armor_t11_u_i00.png
+- id: 3054
+  name: Туника мудрости
+  label: Орда
+  icon: /icon/equipment/icon.armor_t41_u_i00.png
+- id: 3055
+  name: Мифриловая туника
+  label: Орда
+  icon: /icon/equipment/icon.armor_t51_u_i00.png
+- id: 3056
+  name: Изумрудная туника
+  label: Орда
+  icon: /icon/equipment/icon.armor_t53_u_i00.png
+- id: 3057
+  name: Туника Кригосса
+  label: Орда
+  icon: /icon/equipment/icon.armor_t54_u_i00.png
+- id: 3062
+  name: Роба огня
+  label: Орда
+  icon: /icon/equipment/icon.armor_t56_u_i00.png
+- id: 3072
+  name: Штаны знаний
+  label: Орда
+  icon: /icon/equipment/icon.armor_t52_l_i00.png
+- id: 3075
+  name: Штаны мистика
+  label: Орда
+  icon: /icon/equipment/icon.armor_t55_l_i00.png
+- id: 3076
+  name: Штаны магии
+  label: Орда
+  icon: /icon/equipment/icon.armor_t58_l_i00.png
+- id: 3077
+  name: Темные штаны
+  label: Орда
+  icon: /icon/equipment/icon.armor_t14_l_i00.png
+- id: 3078
+  name: Имперские штаны
+  label: Орда
+  icon: /icon/equipment/icon.armor_t11_l_i00.png
+- id: 3080
+  name: Штаны подмастерья
+  label: Орда
+  icon: /icon/equipment/icon.armor_t17_l_i00.png
+- id: 3081
+  name: Штаны мудрости
+  label: Орда
+  icon: /icon/equipment/icon.armor_t41_l_i00.png
+- id: 3082
+  name: Мифриловые штаны
+  label: Орда
+  icon: /icon/equipment/icon.armor_t51_l_i00.png
+- id: 3083
+  name: Изумрудные штаны
+  label: Орда
+  icon: /icon/equipment/icon.armor_t53_l_i00.png
+- id: 3084
+  name: Штаны Кригосса
+  label: Орда
+  icon: /icon/equipment/icon.armor_t54_l_i00.png
+- id: 3086
+  name: Рукавицы знаний
+  label: Орда
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 3087
+  name: Хлопковые рукавицы
+  label: Орда
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 3089
+  name: Рукавицы мистика
+  label: Орда
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 3090
+  name: Рукавицы магии
+  label: Орда
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 3091
+  name: Темные рукавицы
+  label: Орда
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 3092
+  name: Имперские рукавицы
+  label: Орда
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 3094
+  name: Рукавицы подмастерья
+  label: Орда
+  icon: /icon/equipment/icon.armor_t09_g_i00.png
+- id: 3095
+  name: Рукавицы мудрости
+  label: Орда
+  icon: /icon/equipment/icon.armor_t41_g_i00.png
+- id: 3096
+  name: Мифриловые рукавицы
+  label: Орда
+  icon: /icon/equipment/icon.armor_t51_g_i00.png
+- id: 3097
+  name: Изумрудные рукавицы
+  label: Орда
+  icon: /icon/equipment/icon.armor_t53_g_i00.png
+- id: 3098
+  name: Рукавицы Кригосса
+  label: Орда
+  icon: /icon/equipment/icon.armor_t54_g_i00.png
+- id: 3103
+  name: Рукавицы огня
+  label: Орда
+  icon: /icon/equipment/icon.armor_t56_g_i00.png
+- id: 3113
+  name: Сандали знаний
+  label: Орда
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 3114
+  name: Хлопковые ботинки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t50_b_i00.png
+- id: 3116
+  name: Ботинки мистика
+  label: Орда
+  icon: /icon/equipment/icon.armor_t13_b_i00.png
+- id: 3117
+  name: Сандали магии
+  label: Орда
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 3118
+  name: Темные ботинки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t09_b_i00.png
+- id: 3119
+  name: Имперские ботинки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t02_b_i00.png
+- id: 3121
+  name: Ботинки подмастерья
+  label: Орда
+  icon: /icon/equipment/icon.armor_t57_b_i00.png
+- id: 3122
+  name: Ботинки мудрости
+  label: Орда
+  icon: /icon/equipment/icon.armor_t41_b_i00.png
+- id: 3123
+  name: Мифриловые ботинки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t51_b_i00.png
+- id: 3124
+  name: Изумрудные ботинки
+  label: Орда
+  icon: /icon/equipment/icon.armor_t53_b_i00.png
+- id: 3125
+  name: Ботинки Кригосса
+  label: Орда
+  icon: /icon/equipment/icon.armor_t54_b_i00.png
+- id: 3130
+  name: Ботинки огня
+  label: Орда
+  icon: /icon/equipment/icon.armor_t56_b_i00.png
+- id: 3140
+  name: Прочный тяжелый доспех
+  label: Союз
+  icon: /icon/equipment/icon.armor_compound_scale_mail_i00.png
+- id: 3141
+  name: Бронзовые латы
+  label: Союз
+  icon: /icon/equipment/icon.armor_t34_u_i00.png
+- id: 3143
+  name: Пластинчатая кольчуга
+  label: Союз
+  icon: /icon/equipment/icon.armor_t08_u_i00.png
+- id: 3145
+  name: Стальной доспех
+  label: Союз
+  icon: /icon/equipment/icon.armor_t20_u_i00.png
+- id: 3146
+  name: Мифриловый доспех
+  label: Союз
+  icon: /icon/equipment/icon.armor_t15_u_i00.png
+- id: 3147
+  name: Адамантиновый доспех
+  label: Союз
+  icon: /icon/equipment/icon.armor_t43_u_i00.png
+- id: 3148
+  name: Пластинчатый доспех
+  label: Союз
+  icon: /icon/equipment/icon.armor_t46_u_i00.png
+- id: 3163
+  name: Прочные тяжелые поножи
+  label: Союз
+  icon: /icon/equipment/icon.armor_compound_scale_gaiters_i00.png
+- id: 3164
+  name: Бронзовые латные поножи
+  label: Союз
+  icon: /icon/equipment/icon.armor_t34_l_i00.png
+- id: 3166
+  name: Пластинчатые кольчужные поножи
+  label: Союз
+  icon: /icon/equipment/icon.armor_t08_l_i00.png
+- id: 3169
+  name: Мифриловые поножи
+  label: Союз
+  icon: /icon/equipment/icon.armor_t15_l_i00.png
+- id: 3170
+  name: Адамантиновые поножи
+  label: Союз
+  icon: /icon/equipment/icon.armor_t43_l_i00.png
+- id: 3171
+  name: Пластинчатые поножи
+  label: Союз
+  icon: /icon/equipment/icon.armor_t46_l_i00.png
+- id: 3174
+  name: Прочные тяжелые перчатки
+  label: Союз
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 3175
+  name: Бронзовые латные перчатки
+  label: Союз
+  icon: /icon/equipment/icon.armor_manticor_skin_gloves_i00.png
+- id: 3177
+  name: Пластинчатые кольчужные перчатки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t40_g_i00.png
+- id: 3179
+  name: Стальные перчатки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t47_g_i00.png
+- id: 3180
+  name: Мифриловые перчатки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 3181
+  name: Адамантиновые перчатки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t43_g_i00.png
+- id: 3182
+  name: Пластинчатые перчатки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t46_g_i00.png
+- id: 3197
+  name: Прочные тяжелые сапоги
+  label: Союз
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 3198
+  name: Бронзовые латные сапоги
+  label: Союз
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 3200
+  name: Пластинчатые кольчужные сапоги
+  label: Союз
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 3202
+  name: Стальные сапоги
+  label: Союз
+  icon: /icon/equipment/icon.armor_t40_b_i00.png
+- id: 3203
+  name: Мифриловые сапоги
+  label: Союз
+  icon: /icon/equipment/icon.armor_t10_b_i00.png
+- id: 3204
+  name: Адамантиновые сапоги
+  label: Союз
+  icon: /icon/equipment/icon.armor_t43_b_i00.png
+- id: 3205
+  name: Пластинчатые сапоги
+  label: Союз
+  icon: /icon/equipment/icon.armor_t46_b_i00.png
+- id: 3221
+  name: Доспех из кожи
+  label: Союз
+  icon: /icon/equipment/icon.armor_t07_u_i00.png
+- id: 3230
+  name: Легкая стальная кольчуга
+  label: Союз
+  icon: /icon/equipment/icon.armor_t49_u_i00.png
+- id: 3240
+  name: Легкие доспехи волка
+  label: Союз
+  icon: /icon/equipment/icon.armor_t69_ul_i00.png
+- id: 3271
+  name: Стальные кольчужные перчатки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t49_g_i00.png
+- id: 3281
+  name: Легкие перчатки волка
+  label: Союз
+  icon: /icon/equipment/icon.armor_t69_g_i00.png
+- id: 3298
+  name: Стальные кольчужные сапоги
+  label: Союз
+  icon: /icon/equipment/icon.armor_t49_b_i00.png
+- id: 3308
+  name: Легкие сапоги волка
+  label: Союз
+  icon: /icon/equipment/icon.armor_t69_b_i00.png
+- id: 3314
+  name: Рубашка ученика
+  label: Союз
+  icon: /icon/equipment/icon.armor_t03_u_i00.png
+- id: 3315
+  name: Рубашка знаний
+  label: Союз
+  icon: /icon/equipment/icon.armor_t52_u_i00.png
+- id: 3316
+  name: Хлопковая рубашка
+  label: Союз
+  icon: /icon/equipment/icon.armor_t50_u_i00.png
+- id: 3318
+  name: Туника мистика
+  label: Союз
+  icon: /icon/equipment/icon.armor_t55_u_i00.png
+- id: 3319
+  name: Туника магии
+  label: Союз
+  icon: /icon/equipment/icon.armor_t58_u_i00.png
+- id: 3320
+  name: Темная туника
+  label: Союз
+  icon: /icon/equipment/icon.armor_t14_u_i00.png
+- id: 3321
+  name: Имперская туника
+  label: Союз
+  icon: /icon/equipment/icon.armor_t11_u_i00.png
+- id: 3323
+  name: Туника подмастерья
+  label: Союз
+  icon: /icon/equipment/icon.armor_t17_u_i00.png
+- id: 3324
+  name: Туника мудрости
+  label: Союз
+  icon: /icon/equipment/icon.armor_t41_u_i00.png
+- id: 3325
+  name: Мифриловая туника
+  label: Союз
+  icon: /icon/equipment/icon.armor_t51_u_i00.png
+- id: 3326
+  name: Изумрудная туника
+  label: Союз
+  icon: /icon/equipment/icon.armor_t53_u_i00.png
+- id: 3327
+  name: Туника Кригосса
+  label: Союз
+  icon: /icon/equipment/icon.armor_t54_u_i00.png
+- id: 3332
+  name: Роба огня
+  label: Союз
+  icon: /icon/equipment/icon.armor_t56_u_i00.png
+- id: 3342
+  name: Штаны знаний
+  label: Союз
+  icon: /icon/equipment/icon.armor_t52_l_i00.png
+- id: 3343
+  name: Хлопковые штаны
+  label: Союз
+  icon: /icon/equipment/icon.armor_t50_l_i00.png
+- id: 3345
+  name: Штаны мистика
+  label: Союз
+  icon: /icon/equipment/icon.armor_t55_l_i00.png
+- id: 3346
+  name: Штаны магии
+  label: Союз
+  icon: /icon/equipment/icon.armor_t58_l_i00.png
+- id: 3347
+  name: Темные штаны
+  label: Союз
+  icon: /icon/equipment/icon.armor_t14_l_i00.png
+- id: 3348
+  name: Имперские штаны
+  label: Союз
+  icon: /icon/equipment/icon.armor_t11_l_i00.png
+- id: 3350
+  name: Штаны подмастерья
+  label: Союз
+  icon: /icon/equipment/icon.armor_t17_l_i00.png
+- id: 3351
+  name: Штаны мудрости
+  label: Союз
+  icon: /icon/equipment/icon.armor_t41_l_i00.png
+- id: 3352
+  name: Мифриловые штаны
+  label: Союз
+  icon: /icon/equipment/icon.armor_t51_l_i00.png
+- id: 3353
+  name: Изумрудные штаны
+  label: Союз
+  icon: /icon/equipment/icon.armor_t53_l_i00.png
+- id: 3354
+  name: Штаны Кригосса
+  label: Союз
+  icon: /icon/equipment/icon.armor_t54_l_i00.png
+- id: 3356
+  name: Рукавицы знаний
+  label: Союз
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 3357
+  name: Хлопковые рукавицы
+  label: Союз
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 3359
+  name: Рукавицы мистика
+  label: Союз
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 3360
+  name: Рукавицы магии
+  label: Союз
+  icon: /icon/equipment/icon.armor_t04_g_i00.png
+- id: 3361
+  name: Темные рукавицы
+  label: Союз
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 3362
+  name: Имперские рукавицы
+  label: Союз
+  icon: /icon/equipment/icon.armor_t30_g_i00.png
+- id: 3364
+  name: Рукавицы подмастерья
+  label: Союз
+  icon: /icon/equipment/icon.armor_t09_g_i00.png
+- id: 3365
+  name: Рукавицы мудрости
+  label: Союз
+  icon: /icon/equipment/icon.armor_t41_g_i00.png
+- id: 3366
+  name: Мифриловые рукавицы
+  label: Союз
+  icon: /icon/equipment/icon.armor_t51_g_i00.png
+- id: 3367
+  name: Изумрудные рукавицы
+  label: Союз
+  icon: /icon/equipment/icon.armor_t53_g_i00.png
+- id: 3368
+  name: Рукавицы Кригосса
+  label: Союз
+  icon: /icon/equipment/icon.armor_t54_g_i00.png
+- id: 3373
+  name: Рукавицы огня
+  label: Союз
+  icon: /icon/equipment/icon.armor_t56_g_i00.png
+- id: 3383
+  name: Сандали знаний
+  label: Союз
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 3384
+  name: Хлопковые ботинки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t50_b_i00.png
+- id: 3386
+  name: Ботинки мистика
+  label: Союз
+  icon: /icon/equipment/icon.armor_t13_b_i00.png
+- id: 3387
+  name: Сандали магии
+  label: Союз
+  icon: /icon/equipment/icon.armor_t03_b_i00.png
+- id: 3388
+  name: Темные ботинки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t09_b_i00.png
+- id: 3389
+  name: Имперские ботинки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t02_b_i00.png
+- id: 3391
+  name: Ботинки подмастерья
+  label: Союз
+  icon: /icon/equipment/icon.armor_t57_b_i00.png
+- id: 3392
+  name: Ботинки мудрости
+  label: Союз
+  icon: /icon/equipment/icon.armor_t41_b_i00.png
+- id: 3393
+  name: Мифриловые ботинки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t51_b_i00.png
+- id: 3394
+  name: Изумрудные ботинки
+  label: Союз
+  icon: /icon/equipment/icon.armor_t53_b_i00.png
+- id: 3395
+  name: Ботинки Кригосса
+  label: Союз
+  icon: /icon/equipment/icon.armor_t54_b_i00.png
+- id: 3400
+  name: Ботинки огня
+  label: Союз
+  icon: /icon/equipment/icon.armor_t56_b_i00.png
+- id: 3409
+  name: Потрепанная рубашка
+  label: Империя
+  icon: /icon/equipment/bsfg.undearwear_d.png
+- id: 3413
+  name: Потрепанная рубашка
+  label: Альянс
+  icon: /icon/equipment/bsfg.undearwear_d.png
+- id: 3417
+  name: Потрепанная рубашка
+  label: Доминион
+  icon: /icon/equipment/bsfg.undearwear_d.png
+- id: 3421
+  name: Потрепанная рубашка
+  label: Орда
+  icon: /icon/equipment/bsfg.undearwear_d.png
+- id: 3425
+  name: Потрепанная рубашка
+  label: Союз
+  icon: /icon/equipment/bsfg.undearwear_d.png
+- id: 3467
+  name: Рваная броня из кожи дрейка
+  icon: /icon/equipment/icon.armor_t21_ul_i00.png
+- id: 3468
+  name: Рваная броня огня
+  icon: /icon/equipment/icon.armor_t65_u_i00.png
+- id: 3469
+  name: Рваная броня земли
+  icon: /icon/equipment/icon.armor_t72_ul_i00.png
+- id: 3470
+  name: Рваная броня ветра
+  icon: /icon/equipment/icon.armor_t67_ul_i00.png
+- id: 3471
+  name: Рваная броня волка
+  icon: /icon/equipment/icon.armor_t69_ul_i00.png
+- id: 3509
+  name: Истрепанная роба адепта
+  icon: /icon/equipment/icon.armor_t90_ul_i00.png
+- id: 3575
+  name: Дешевая броня из кожи дрейка
+  icon: /icon/equipment/icon.armor_t21_ul_i00.png
+- id: 3587
+  name: Дешевые перчатки из кожи дрейка
+  icon: /icon/equipment/icon.armor_t21_g_i00.png
+- id: 3599
+  name: Дешевые сапоги из кожи дрейка
+  icon: /icon/equipment/icon.armor_t21_b_i00.png
+- id: 3648
+  name: Элитное белье мага
+  icon: /icon/equipment/icon.etc_shirts_c_i02.png
+- id: 3650
+  name: Элитное белье мудреца
+  icon: /icon/equipment/icon.etc_shirts_a_i04.png
+- id: 3653
+  name: Элитное белье стрелка
+  icon: /icon/equipment/icon.etc_shirts_none_i00.png
+- id: 3656
+  name: Элитное белье мастера
+  icon: /icon/equipment/icon.etc_shirts_b_i03.png
+- id: 3657
+  name: Элитное белье убийцы
+  icon: /icon/equipment/icon.etc_shirts_a_i04.png
+- id: 3658
+  name: Элитное белье чародея
+  icon: /icon/equipment/icon.etc_shirts_s_i05.png
+- id: 3666
+  name: Элитное белье вампира
+  icon: /icon/equipment/bsfg.undearwear_b.png
+- id: 3682
+  name: Белье мага аристократа
+  icon: /icon/equipment/icon.etc_stripe_shirts_c_i02.png
+- id: 3687
+  name: Белье стрелка аристократа
+  icon: /icon/equipment/icon.etc_stripe_shirts_none_i00.png
+- id: 3689
+  name: Белье акробата аристократа
+  icon: /icon/equipment/icon.etc_stripe_shirts_c_i02.png
+- id: 3691
+  name: Белье убийцы аристократа
+  icon: /icon/equipment/icon.etc_stripe_shirts_a_i04.png
+- id: 3692
+  name: Белье чародея аристократа
+  icon: /icon/equipment/icon.etc_stripe_shirts_s_i05.png
+- id: 3918
+  name: Роба новобранца
+  label: Легион
+  icon: /icon/equipment/icon.armor_t04_u_i00.png
+- id: 3919
+  name: Роба патрульного
+  label: Легион
+  icon: /icon/equipment/icon.armor_t07_u_i00.png
+- id: 3920
+  name: Роба солдата
+  label: Легион
+  icon: /icon/equipment/icon.armor_t10_u_i00.png
+- id: 3921
+  name: Роба наемника
+  label: Легион
+  icon: /icon/equipment/icon.armor_t15_u_i00.png
+- id: 3922
+  name: Роба из кожи дрейка
+  label: Легион
+  icon: /icon/equipment/icon.armor_t42_u_i00.png
+- id: 3923
+  name: Роба из дубленой кожи
+  label: Легион
+  icon: /icon/equipment/icon.armor_t45_ul_i00.png
+- id: 3924
+  name: Роба гвардейца
+  label: Легион
+  icon: /icon/equipment/icon.armor_t47_u_i00.png
+- id: 3925
+  name: Роба арбалетчика
+  label: Легион
+  icon: /icon/equipment/icon.armor_t49_u_i00.png
+- id: 3926
+  name: Роба сержанта
+  label: Легион
+  icon: /icon/equipment/icon.armor_t63_u_i00.png
+- id: 3929
+  name: Роба кавалера
+  label: Легион
+  icon: /icon/equipment/icon.armor_t65_u_i00.png
+- id: 3935
+  name: Рукавица патрульного
+  label: Легион
+  icon: /icon/equipment/icon.armor_t02_g_i00.png
+- id: 3936
+  name: Рукавица солдата
+  label: Легион
+  icon: /icon/equipment/icon.armor_t10_g_i00.png
+- id: 3937
+  name: Рукавица наемника
+  label: Легион
+  icon: /icon/equipment/icon.armor_t10_g_i00.png
+- id: 3938
+  name: Рукавица из кожи дрейка
+  label: Легион
+  icon: /icon/equipment/icon.armor_t42_g_i00.png
+- id: 3939
+  name: Рукавица из дубленой кожи
+  label: Легион
+  icon: /icon/equipment/icon.armor_t45_g_i00.png
+- id: 3940
+  name: Рукавица гвардейца
+  label: Легион
+  icon: /icon/equipment/icon.armor_t61_g_i00.png
+- id: 3941
+  name: Рукавица арбалетчика
+  label: Легион
+  icon: /icon/equipment/icon.armor_t49_g_i00.png
+- id: 3942
+  name: Рукавица сержанта
+  label: Легион
+  icon: /icon/equipment/icon.armor_t63_g_i00.png
+- id: 3945
+  name: Рукавица кавалера
+  label: Легион
+  icon: /icon/equipment/icon.armor_t65_g_i00.png
+- id: 3951
+  name: Ботинки патрульного
+  label: Легион
+  icon: /icon/equipment/icon.armor_t50_b_i00.png
+- id: 3952
+  name: Ботинки солдата
+  label: Легион
+  icon: /icon/equipment/icon.armor_t44_b_i00.png
+- id: 3953
+  name: Ботинки наемника
+  label: Легион
+  icon: /icon/equipment/icon.armor_t01_b_i00.png
+- id: 3954
+  name: Ботинки из кожи дрейка
+  label: Легион
+  icon: /icon/equipment/icon.armor_t42_b_i00.png
+- id: 3955
+  name: Ботинки из дубленой кожи
+  label: Легион
+  icon: /icon/equipment/icon.armor_t45_b_i00.png
+- id: 3956
+  name: Ботинки гвардейца
+  label: Легион
+  icon: /icon/equipment/icon.armor_t47_b_i00.png
+- id: 3957
+  name: Ботинки арбалетчика
+  label: Легион
+  icon: /icon/equipment/icon.armor_t49_b_i00.png
+- id: 3958
+  name: Ботинки сержанта
+  label: Легион
+  icon: /icon/equipment/icon.armor_t63_b_i00.png
+- id: 3961
+  name: Ботинки кавалера
+  label: Легион
+  icon: /icon/equipment/icon.armor_t65_b_i00.png
+- id: 3989
+  name: Форма патрульного
+  label: Легион
+  icon: /icon/equipment/icon.armor_t07_u_i00.png
+- id: 3990
+  name: Форма солдата
+  label: Легион
+  icon: /icon/equipment/icon.armor_t10_u_i00.png
+- id: 3991
+  name: Форма наемника
+  label: Легион
+  icon: /icon/equipment/icon.armor_t15_u_i00.png
+- id: 3992
+  name: Форма из кожи дрейка
+  label: Легион
+  icon: /icon/equipment/icon.armor_t42_u_i00.png
+- id: 3994
+  name: Форма гвардейца
+  label: Легион
+  icon: /icon/equipment/icon.armor_t47_u_i00.png
+- id: 3995
+  name: Форма арбалетчика
+  label: Легион
+  icon: /icon/equipment/icon.armor_t49_u_i00.png
+- id: 3996
+  name: Форма сержанта
+  label: Легион
+  icon: /icon/equipment/icon.armor_t63_u_i00.png
+- id: 4000
+  name: Форма капитана
+  label: Легион
+  icon: /icon/equipment/icon.armor_t69_ul_i00.png
+- id: 4014
+  name: Перчатка патрульного
+  label: Легион
+  icon: /icon/equipment/icon.armor_t02_g_i00.png
+- id: 4025
+  name: Перчатка капитана
+  label: Легион
+  icon: /icon/equipment/icon.armor_t69_g_i00.png
+- id: 4039
+  name: Ботфорты патрульного
+  label: Легион
+  icon: /icon/equipment/icon.armor_t50_b_i00.png
+- id: 4050
+  name: Ботфорты капитана
+  label: Легион
+  icon: /icon/equipment/icon.armor_t69_b_i00.png
+- id: 4055
+  name: Броня патрульного
+  label: Легион
+  icon: /icon/equipment/icon.armor_t07_u_i00.png
+- id: 4057
+  name: Броня наемника
+  label: Легион
+  icon: /icon/equipment/icon.armor_t15_u_i00.png
+- id: 4058
+  name: Броня из кожи дрейка
+  label: Легион
+  icon: /icon/equipment/icon.armor_t42_u_i00.png
+- id: 4059
+  name: Броня из дубленой кожи
+  label: Легион
+  icon: /icon/equipment/icon.armor_t45_ul_i00.png
+- id: 4060
+  name: Броня гвардейца
+  label: Легион
+  icon: /icon/equipment/icon.armor_t47_u_i00.png
+- id: 4061
+  name: Броня арбалетчика
+  label: Легион
+  icon: /icon/equipment/icon.armor_t49_u_i00.png
+- id: 4062
+  name: Броня сержанта
+  label: Легион
+  icon: /icon/equipment/icon.armor_t63_u_i00.png
+- id: 4071
+  name: Наруч патрульного
+  label: Легион
+  icon: /icon/equipment/icon.armor_t02_g_i00.png
+- id: 4073
+  name: Наруч наемника
+  label: Легион
+  icon: /icon/equipment/icon.armor_t10_g_i00.png
+- id: 4074
+  name: Наруч из кожи дрейка
+  label: Легион
+  icon: /icon/equipment/icon.armor_t42_g_i00.png
+- id: 4076
+  name: Наруч гвардейца
+  label: Легион
+  icon: /icon/equipment/icon.armor_t61_g_i00.png
+- id: 4077
+  name: Наруч арбалетчика
+  label: Легион
+  icon: /icon/equipment/icon.armor_t49_g_i00.png
+- id: 4078
+  name: Наруч сержанта
+  label: Легион
+  icon: /icon/equipment/icon.armor_t63_g_i00.png
+- id: 4087
+  name: Сапоги патрульного
+  label: Легион
+  icon: /icon/equipment/icon.armor_t50_b_i00.png
+- id: 4089
+  name: Сапоги наемника
+  label: Легион
+  icon: /icon/equipment/icon.armor_t01_b_i00.png
+- id: 4090
+  name: Сапоги из кожи дрейка
+  label: Легион
+  icon: /icon/equipment/icon.armor_t42_b_i00.png
+- id: 4092
+  name: Сапоги гвардейца
+  label: Легион
+  icon: /icon/equipment/icon.armor_t47_b_i00.png
+- id: 4093
+  name: Сапоги арбалетчика
+  label: Легион
+  icon: /icon/equipment/icon.armor_t49_b_i00.png
+- id: 4094
+  name: Сапоги сержанта
+  label: Легион
+  icon: /icon/equipment/icon.armor_t63_b_i00.png
+- id: 4105
+  name: Потрепанная рубашка
+  label: Легион
+  icon: /icon/equipment/bsfg.undearwear_d.png
+- id: 4383
+  name: Простой ремень
+  icon: /icon/collections/icon.armor_belt_i00.png
+- id: 5004
+  name: Серьга мудрости
+  icon: /icon/equipment/icon.accessary_earing_of_wisdom_i00.png
+- id: 5022
+  name: Кровавая серьга
+  icon: /icon/equipment/bsfg.earing_b_08.png
+- id: 5025
+  name: Серьга титанов
+  icon: /icon/equipment/bsfg.earing_b_07.png
+- id: 5033
+  name: Зачарованная серьга
+  icon: /icon/equipment/icon.accessary_enchanted_earing_i00.png
+- id: 5043
+  name: Кольцо мудрости
+  icon: /icon/equipment/icon.accessary_ring_of_wisdom_i00.png
+- id: 5047
+  name: Кольцо пантеры
+  icon: /icon/equipment/bsfg.ring_a_01.png
+- id: 5056
+  name: Зачарованное кольцо
+  icon: /icon/equipment/icon.accessary_enchanted_ring_i00.png
+- id: 5057
+  name: Кольцо вампира
+  icon: /icon/equipment/bsfg.ring_b_09.png
+- id: 5059
+  name: Кольцо титанов
+  icon: /icon/equipment/bsfg.ring_b_07.png
+- id: 5060
+  name: Кольцо доблести
+  icon: /icon/equipment/bsfg.ring_b_06.png
+- id: 5063
+  name: Кольцо чести
+  icon: /icon/equipment/bsfg.ring_b_03.png
+- id: 5068
+  name: Кольцо защитника
+  icon: /icon/equipment/bsfg.ring_a_10.png
+- id: 5079
+  name: Ожерелье мастера
+  icon: /icon/equipment/bsfg.necklace_a_06.png
+- id: 5083
+  name: Ожерелье убийцы
+  icon: /icon/equipment/bsfg.necklace_a_03.png
+- id: 5084
+  name: Ожерелье мудрости
+  icon: /icon/equipment/icon.accessary_necklace_of_wisdom_i00.png
+- id: 5085
+  name: Ожерелье солнечного пламени
+  icon: /icon/equipment/bsfg.necklace_a_02.png
+- id: 5091
+  name: Зачарованное ожерелье
+  icon: /icon/equipment/icon.accessary_enchanted_necklace_i00.png
+- id: 5094
+  name: Ожерелье титанов
+  icon: /icon/equipment/bsfg.necklace_b_08.png
+- id: 5103
+  name: Ожерелье защитника
+  icon: /icon/equipment/bsfg.necklace_a_10.png
+- id: 5104
+  name: Ожерелье стрелка
+  icon: /icon/equipment/bsfg.necklace_a_09.png
+- id: 5112
+  name: Серьга солнечного затмения
+  icon: /icon/equipment/icon.accessary_earing_of_sola_eclipse_i00.png
+- id: 5115
+  name: Серьга из лунного камня
+  icon: /icon/equipment/icon.accessary_moonstone_earing_i00.png
+- id: 5132
+  name: Кольцо солнечного затмения
+  icon: /icon/equipment/icon.accessary_ring_of_sola_eclipse_i00.png
+- id: 5159
+  name: 'Шкатулка лута: эксперт'
+  icon: /icon/collections/bsfg.s8498.png
+- id: 5160
+  name: 'Шкатулка лута: элита'
+  icon: /icon/collections/bsfg.s8498.png
+- id: 5161
+  name: 'Шкатулка лута: мастер'
+  icon: /icon/collections/bsfg.s8498.png
+- id: 5162
+  name: 'Шкатулка лута: грандмастер'
+  icon: /icon/collections/bsfg.s8498.png
+- id: 5295
+  name: Серьга ученика
+  icon: /icon/equipment/bsfg.s5295.png
+- id: 5296
+  name: Серьга мага
+  icon: /icon/equipment/icon.accessary_mage_earing_i00.png
+- id: 5298
+  name: Серьга знаний
+  icon: /icon/equipment/icon.accessary_earing_of_wisdom_i00.png
+- id: 5300
+  name: Серьга из тусклого коралла
+  icon: /icon/equipment/icon.accessary_coral_earing_i00.png
+- id: 5309
+  name: Серьга тьмы
+  icon: /icon/equipment/icon.accessary_cerberuss_earing_i00.png
+- id: 5313
+  name: Серьга из лунного серебра
+  icon: /icon/equipment/icon.accessory_earring_of_antaras_i00.png
+- id: 5318
+  name: Кольцо лисы
+  icon: /icon/equipment/icon.accessary_ring_of_raccoon_i00.png
+- id: 5319
+  name: Кольцо стрекозы
+  icon: /icon/equipment/icon.accessary_ring_of_firefly_i00.png
+- id: 5321
+  name: Кольцо из голубых кораллов
+  icon: /icon/equipment/icon.accessary_blue_coral_ring_i00.png
+- id: 5329
+  name: Кольцо тьмы
+  icon: /icon/equipment/icon.accessary_cerberuss_ring_i00.png
+- id: 5331
+  name: Кольцо из лунного камня
+  icon: /icon/equipment/icon.accessory_ring_of_queen_ant_i00.png
+- id: 5335
+  name: Ожерелье отваги
+  icon: /icon/equipment/bsfg.s5335.png
+- id: 5337
+  name: Ожерелье познания
+  icon: /icon/equipment/bsfg.s5337.png
+- id: 5341
+  name: Ожерелье с тусклым алмазом
+  icon: /icon/equipment/icon.accessary_blue_diamond_necklace_i00.png
+- id: 5349
+  name: Ожерелье тьмы
+  icon: /icon/equipment/icon.accessary_cerberuss_necklace_i00.png
+- id: 5500
+  name: Талисман новичка
+  icon: /icon/equipment/bsfg.s5500.png
+- id: 5501
+  name: Талисман скорости
+  icon: /icon/equipment/icon.magic32.png
+- id: 5511
+  name: Талисман вампира
+  icon: /icon/equipment/bsfg.vampire2.png
+- id: 5519
+  name: Талисман убийцы
+  icon: /icon/equipment/icon.magic15.png
+- id: 5520
+  name: Талисман убийцы
+  icon: /icon/equipment/bsfg.assassin2.png
+- id: 5522
+  name: Талисман орла
+  icon: /icon/equipment/icon.magic13.png
+- id: 5523
+  name: Талисман орла
+  icon: /icon/equipment/bsfg.eagle2.png
+- id: 5525
+  name: Талисман медведя
+  icon: /icon/equipment/icon.magic57.png
+- id: 5526
+  name: Талисман тигра
+  icon: /icon/equipment/bsfg.tiger.png
+- id: 5540
+  name: Талисман духа
+  icon: /icon/equipment/icon.magic48.png
+- id: 5559
+  name: Талисман стрелка
+  icon: /icon/equipment/bsfg.talisman4.png
+- id: 5563
+  name: Талисман стоика
+  icon: /icon/equipment/bsfg.talisman8.png
+- id: 5585
+  name: Талисман истинного выстрела
+  icon: /icon/equipment/bsfg.talisman30.png
+- id: 5655
+  name: Талисман боли
+  icon: /icon/equipment/bsfg.talisman100.png
+- id: 5658
+  name: Талисман жажды крови
+  icon: /icon/equipment/bsfg.talisman103.png
+- id: 5660
+  name: Талисман первородной магии
+  icon: /icon/equipment/bsfg.talisman76.png
+- id: 5663
+  name: Талисман титанов
+  icon: /icon/equipment/bsfg.talisman108.png
+- id: 5706
+  name: Браслет вампира
+  icon: /icon/equipment/icon.etc_rbracelet_c_i00.png
+- id: 5737
+  name: Браслет мага
+  icon: /icon/equipment/icon.etc_rbracelet_a_i02.png
+- id: 5793
+  name: Кольцо Черной пантеры
+  icon: /icon/equipment/icon.accessary_sages_ring_i00.png
+- id: 5962
+  name: Рунический талисман Солнце
+  icon: /icon/equipment/bsfg.talisman_5962.png
+- id: 6026
+  name: Посох мага
+  icon: /icon/weapons/icon.weapon_apprentices_staff_i00.png
+- id: 6028
+  name: Посох тьмы
+  icon: /icon/weapons/icon.weapon_goathead_staff_i00.png
+- id: 6029
+  name: Посох магии
+  icon: /icon/weapons/icon.weapon_staff_of_magicpower_i00.png
+- id: 6030
+  name: Посох маны
+  icon: /icon/weapons/icon.weapon_staff_of_mana_i00.png
+- id: 6031
+  name: Посох мистика
+  icon: /icon/weapons/icon.weapon_mystic_staff_i00.png
+- id: 6034
+  name: Кристальный посох
+  icon: /icon/weapons/icon.weapon_crystal_staff_i00.png
+- id: 6035
+  name: Посох мудрости
+  icon: /icon/weapons/icon.weapon_sages_staff_i00.png
+- id: 6037
+  name: Посох крови
+  icon: /icon/weapons/icon.weapon_inferno_staff_i00.png
+- id: 6040
+  name: Демонический посох
+  icon: /icon/weapons/icon.weapon_demons_staff_i00.png
+- id: 6041
+  name: Посох смерти
+  icon: /icon/weapons/icon.weapon_deadmans_staff_i00.png
+- id: 6046
+  name: Посох богов
+  icon: /icon/weapons/icon.weapon_imperial_staff_i00.png
+- id: 6048
+  name: Жезл новичка
+  icon: /icon/weapons/icon.weapon_apprentices_rod_i00.png
+- id: 6052
+  name: Святое Наследие
+  icon: /icon/weapons/icon.weapon_apprentices_spellbook_i00.png
+- id: 6053
+  name: Крест благословления
+  icon: /icon/weapons/icon.weapon_crucifix_of_blessing_i00.png
+- id: 6055
+  name: Символ мести
+  icon: /icon/weapons/icon.weapon_proof_of_revenge_i00.png
+- id: 6061
+  name: Крест веры
+  icon: /icon/weapons/icon.weapon_stick_of_faith_i00.png
+- id: 6067
+  name: Скипетр жизни
+  icon: /icon/weapons/icon.weapon_life_stick_i00.png
+- id: 6081
+  name: Сокрушитель
+  icon: /icon/weapons/icon.weapon_bonebreaker_i00.png
+- id: 6083
+  name: Большой молот
+  icon: /icon/weapons/icon.weapon_big_hammer_i00.png
+- id: 6084
+  name: Стальная булава
+  icon: /icon/weapons/icon.weapon_war_pick_i00.png
+- id: 6087
+  name: Золотая булава
+  icon: /icon/weapons/icon.weapon_yaksa_mace_i00.png
+- id: 6089
+  name: Кристальный топор
+  icon: /icon/weapons/icon.weapon_art_of_battle_axe_i00.png
+- id: 6090
+  name: Топор смерти
+  icon: /icon/weapons/icon.weapon_heavy_war_axe_i00.png
+- id: 6103
+  name: Демоническая секира
+  icon: /icon/weapons/icon.weapon_paagrio_axe_i00.png
+- id: 6104
+  name: Секира хаоса
+  icon: /icon/weapons/icon.weapon_heavy_doom_axe_i00.png
+- id: 6126
+  name: Серебряный меч
+  icon: /icon/weapons/icon.weapon_sword_of_magic_fog_i00.png
+- id: 6130
+  name: Меч хаоса
+  icon: /icon/weapons/icon.weapon_raid_sword_i00.png
+- id: 6132
+  name: Меч смерти
+  icon: /icon/weapons/icon.weapon_deathbreath_sword_i00.png
+- id: 6133
+  name: Демонический меч
+  icon: /icon/weapons/icon.weapon_homunkuluss_sword_i00.png
+- id: 6145
+  name: Меч из лунного серебра
+  icon: /icon/weapons/icon.weapon_mystery_sword_i00.png
+- id: 6163
+  name: Тяжелый меч
+  icon: /icon/weapons/icon.weapon_heavy_sword_i00.png
+- id: 6165
+  name: Стальной меч
+  icon: /icon/weapons/icon.weapon_iron_sword_i00.png
+- id: 6168
+  name: Стальной секач
+  icon: /icon/weapons/icon.weapon_iron_sword_i00.png
+- id: 6173
+  name: Двуручный меч смерти
+  icon: /icon/weapons/icon.weapon_inferno_master_i00.png
+- id: 6187
+  name: Трезубец
+  icon: /icon/weapons/icon.weapon_trident_i00.png
+- id: 6193
+  name: Боевая коса
+  icon: /icon/weapons/icon.weapon_scythe_i00.png
+- id: 6210
+  name: Кинжал убийцы
+  icon: /icon/weapons/icon.weapon_assassin_knife_i00.png
+- id: 6211
+  name: Мифриловый кинжал
+  icon: /icon/weapons/icon.weapon_handiwork_dagger_i00.png
+- id: 6216
+  name: Нож убийцы
+  icon: /icon/weapons/icon.weapon_assassin_knife_i00.png
+- id: 6240
+  name: Кровавый коготь
+  icon: /icon/weapons/icon.weapon_bloody_orchid_i00.png
+- id: 6250
+  name: Кривой нож
+  icon: /icon/weapons/icon.weapon_conjure_knife_i00.png
+- id: 6261
+  name: Охотничий лук
+  icon: /icon/weapons/icon.weapon_hunting_bow_i00.png
+- id: 6264
+  name: Лук из поющего дерева
+  icon: /icon/weapons/icon.weapon_gastraphetes_i00.png
+- id: 6266
+  name: Лук из темного дерева
+  icon: /icon/weapons/icon.weapon_eminence_bow_i00.png
+- id: 6268
+  name: Кристальный лук
+  icon: /icon/weapons/icon.weapon_crystallized_ice_bow_i00.png
+- id: 6269
+  name: Мифрильный лук
+  icon: /icon/weapons/icon.weapon_hazard_bow_i00.png
+- id: 6278
+  name: Эльфийский лук
+  icon: /icon/weapons/icon.weapon_elven_bow_i00.png
+- id: 6281
+  name: Лук из железного дерева
+  icon: /icon/weapons/icon.weapon_akat_long_bow_i00.png
+- id: 6283
+  name: Лук тьмы
+  icon: /icon/weapons/icon.weapon_dark_elven_long_bow_i00.png
+- id: 6294
+  name: Когти волка
+  icon: /icon/weapons/icon.weapon_baghnakh_i00.png
+- id: 6295
+  name: Когти пумы
+  icon: /icon/weapons/icon.weapon_bichhwa_i00.png
+- id: 6296
+  name: Стальные когти
+  icon: /icon/weapons/icon.weapon_great_pata_i00.png
+- id: 6363
+  name: Пара ножей убийцы
+  icon: /icon/weapons/icon.dual_dagger_i00.png
+- id: 6456
+  name: Лезвие святой боли
+  icon: /icon/weapons/icon.weapon_pain_of_godness_i00.png
+- id: 6468
+  name: Роковой арбалет
+  icon: /icon/weapons/icon.weapon_doom_singer_i00.png
+- id: 6469
+  name: Стрелок
+  icon: /icon/weapons/icon.weapon_soul_shooter_i00.png
+- id: 6470
+  name: Санжа
+  icon: /icon/weapons/icon.weapon_sarnga_i00.png
+- id: 6476
+  name: Пара коротких шпаг
+  icon: /icon/weapons/bsfg.dual_rapier_i00.png
+- id: 6479
+  name: Пара клинков вторжения
+  icon: /icon/weapons/bsfg.dual_rapier_i00.png
+- id: 6491
+  name: Клинок вторжения с символом
+  icon: /icon/weapons/icon.weapon_colichemarde_i00.png
+- id: 6504
+  name: Роковой варп-арбалет
+  icon: /icon/weapons/icon.weapon_doom_singer_i00.png
+- id: 6505
+  name: Варп стрелок
+  icon: /icon/weapons/icon.weapon_soul_shooter_i00.png
+- id: 6506
+  name: Варп санжа
+  icon: /icon/weapons/icon.weapon_sarnga_i00.png
+- id: 6891
+  name: Меч апокалипсиса
+  icon: /icon/weapons/icon.weapon_veniplant_sword_i00.png
+- id: 7002
+  name: Кожаный щит
+  icon: /icon/equipment/bsfg.s9915.png
+- id: 7003
+  name: Деревянный щит
+  icon: /icon/equipment/icon.shield_small_shield_i00.png
+- id: 7005
+  name: Щит нежити
+  icon: /icon/equipment/bsfg.s9916.png
+- id: 7007
+  name: Бронзовый щит
+  icon: /icon/equipment/icon.shield_bone_shield_i00.png
+- id: 7008
+  name: Имперский щит
+  icon: /icon/equipment/icon.shield_bronze_shield_i00.png
+- id: 7009
+  name: Аспис
+  icon: /icon/equipment/icon.shield_aspis_i00.png
+- id: 7014
+  name: Мифриловый щит
+  icon: /icon/equipment/icon.shield_dwarven_chain_shield_i00.png
+- id: 7015
+  name: Адамантиновый щит
+  icon: /icon/equipment/icon.shield_brigandine_shield_i00.png
+- id: 7020
+  name: Стальной щит
+  icon: /icon/equipment/icon.shield_shield_of_grace_i00.png
+- id: 7021
+  name: Усиленный стальной щит
+  icon: /icon/equipment/icon.shield_dwarven_chain_shield_i00.png
+- id: 7022
+  name: Мифрильный башенный щит
+  icon: /icon/equipment/icon.shield_tower_shield_i00.png
+- id: 7024
+  name: Мифрильный щит
+  icon: /icon/equipment/icon.shield_shield_of_assistance_i00.png
+- id: 7027
+  name: Кристальный щит
+  icon: /icon/equipment/icon.shield_masterpiece_shield_i00.png
+- id: 7029
+  name: Щит огня
+  icon: /icon/equipment/icon.shield_shrnoens_shield_i00.png
+- id: 7030
+  name: Щит земли
+  icon: /icon/equipment/icon.shield_doom_shield_i00.png
+- id: 7031
+  name: Щит ветра
+  icon: /icon/equipment/icon.shield_avadon_shield_i00.png
+- id: 7034
+  name: Зачарованный щит
+  icon: /icon/equipment/icon.shield_imperial_crusader_shield_i00.png
+- id: 7504
+  name: Эксклюзивная сумка
+  icon: /icon/collections/bsfg.s7500_5.png
+- id: 7508
+  name: Кремовый пирожок
+  label: 'Уровень: 1'
+  icon: /icon/collections/branchicon.icon32.br_herb_of_cream_i00.png
+- id: 7513
+  name: Вареная тыква
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon.etc_twin_coba_i00.png
+- id: 7518
+  name: Кусочки тыквы
+  label: 'Уровень: 1'
+  icon: /icon/collections/branchicon.icon32.br_xmas_orange_basket_i00.png
+- id: 7523
+  name: Простая трубка бодрости
+  label: 'Уровень: 1'
+  icon: /icon/collections/branchsys2.br_worldcup_stick_i00.png
+- id: 7528
+  name: Простая трубка здоровья
+  label: 'Уровень: 1'
+  icon: /icon/collections/branchsys2.br_worldcup_stick_i04.png
+- id: 7533
+  name: Простая трубка энергии
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon.pin_i00.png
+- id: 7538
+  name: Слабое некро-зелье силы
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon4.l2icon.br_bless_of_hadin_i00.png
+- id: 7543
+  name: Слабое некро-зелье защиты
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon.etc_super_potion_i00.png
+- id: 7548
+  name: Слабое некро-зелье ярости
+  label: 'Уровень: 1'
+  icon: /icon/collections/branchsys2.br_hero_potion_i00.png
+- id: 7553
+  name: Похлебка
+  label: 'Уровень: 1'
+  icon: /icon/collections/branchicon.icon32.br_taiwan_newyear_food_d_i00.png
+- id: 7558
+  name: Мясо с гарниром
+  label: 'Уровень: 1'
+  icon: /icon/collections/branchicon.icon32.br_thai_desert_i00.png
+- id: 7563
+  name: Отбивная
+  label: 'Уровень: 1'
+  icon: /icon/collections/bsfg.icon1391.png
+- id: 7568
+  name: Простой механизм атаки
+  label: 'Уровень: 1'
+  icon: /icon/collections/branchicon.icon32.br_headphone_a_i00.png
+- id: 7573
+  name: Простой механизм защиты
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon.pouch_i00.png
+- id: 7578
+  name: Простой механизм скорости
+  label: 'Уровень: 1'
+  icon: /icon/collections/bsfg.icon1197.png
+- id: 7583
+  name: Слабая парящая пыль силы
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon.low_energy_condense_i00.png
+- id: 7588
+  name: Слабая парящая защитная пыль
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon.high_energy_condense_i00.png
+- id: 7593
+  name: Слабая парящая пыль ярости
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon.general_energy_condense_i00.png
+- id: 7645
+  name: Ингибитор единства
+  icon: /icon/collections/icon4.l2icon.ensoul_stone_tersi.png
+- id: 7795
+  name: Зелье боевого духа
+  label: 'Сила: 1, Примесей нет'
+  icon: /icon/collections/bsfg.bottle1_yel_i00.png
+- id: 7809
+  name: Зелье боевого духа
+  label: 'Сила: 3, Примесей нет'
+  icon: /icon/collections/bsfg.bottle3_yel_i00.png
+- id: 7823
+  name: Зелье боевого духа
+  label: 'Сила: 5, Примесей нет'
+  icon: /icon/collections/icon.etc_fruit_juice_glass_bottle_i07.png
+- id: 7844
+  name: Зелье скорости
+  label: 'Сила: 1, Примесей нет'
+  icon: /icon/collections/bsfg.bottle1_white_i00.png
+- id: 7858
+  name: Зелье скорости
+  label: 'Сила: 3, Примесей нет'
+  icon: /icon/collections/bsfg.bottle3_white_i00.png
+- id: 7865
+  name: Зелье скорости
+  label: 'Сила: 4, Примесей нет'
+  icon: /icon/collections/bsfg.bottle4_white_i00.png
+- id: 7886
+  name: Зелье скорости
+  label: 'Сила: 7, Примесей нет'
+  icon: /icon/collections/bsfg.bottle7_white_i00.png
+- id: 7990
+  name: Руна Апокалипсиса
+  icon: /icon/collections/branchicon.g_rune_eolh_lv03.png
+- id: 8071
+  name: Зелье победы
+  icon: /icon/collections/bsfg.s8071.png
+- id: 8072
+  name: Маленькое зелье битвы
+  icon: /icon/collections/bsfg.s8072.png
+- id: 8073
+  name: Зелье битвы
+  icon: /icon/collections/bsfg.s8072.png
+- id: 8117
+  name: Зелье адреналина
+  label: 'Сила: 2, Примесей нет'
+  icon: /icon/collections/bsfg.bottle2_violet_i00.png
+- id: 8131
+  name: Зелье адреналина
+  label: 'Сила: 4, Примесей нет'
+  icon: /icon/collections/bsfg.bottle4_violet_i00.png
+- id: 8152
+  name: Зелье адреналина
+  label: 'Сила: 7, Примесей нет'
+  icon: /icon/collections/bsfg.bottle7_violet_i00.png
+- id: 8166
+  name: Зелье магической силы
+  label: 'Сила: 2, Примесей нет'
+  icon: /icon/collections/bsfg.bottle2_blue_i00.png
+- id: 8180
+  name: Зелье магической силы
+  label: 'Сила: 4, Примесей нет'
+  icon: /icon/collections/bsfg.bottle4_blue_i00.png
+- id: 8201
+  name: Зелье магической силы
+  label: 'Сила: 7, Примесей нет'
+  icon: /icon/collections/bsfg.bottle7_blue_i00.png
+- id: 8208
+  name: Зелье защиты
+  label: 'Сила: 1, Примесей нет'
+  icon: /icon/collections/bsfg.bottle1_green_i00.png
+- id: 8222
+  name: Зелье защиты
+  label: 'Сила: 3, Примесей нет'
+  icon: /icon/collections/bsfg.bottle3_green_i00.png
+- id: 8236
+  name: Зелье защиты
+  label: 'Сила: 5, Примесей нет'
+  icon: /icon/collections/icon.etc_fruit_juice_glass_bottle_i02.png
+- id: 8264
+  name: Зелье ярости
+  label: 'Сила: 2, Примесей нет'
+  icon: /icon/collections/bsfg.bottle2_red_i00.png
+- id: 8278
+  name: Зелье ярости
+  label: 'Сила: 4, Примесей нет'
+  icon: /icon/collections/bsfg.bottle4_red_i00.png
+- id: 8299
+  name: Зелье ярости
+  label: 'Сила: 7, Примесей нет'
+  icon: /icon/collections/bsfg.bottle7_red_i00.png
+- id: 8306
+  name: Зелье точности
+  label: 'Сила: 1, Примесей нет'
+  icon: /icon/collections/bsfg.bottle1_orng_i00.png
+- id: 8320
+  name: Зелье точности
+  label: 'Сила: 3, Примесей нет'
+  icon: /icon/collections/bsfg.bottle3_orng_i00.png
+- id: 8334
+  name: Зелье точности
+  label: 'Сила: 5, Примесей нет'
+  icon: /icon/collections/icon.etc_fruit_juice_glass_bottle_i11.png
+- id: 8355
+  name: Зелье здоровья
+  label: 'Сила: 1, Примесей нет'
+  icon: /icon/collections/bsfg.bottle1_salat_i00.png
+- id: 8369
+  name: Зелье здоровья
+  label: 'Сила: 3, Примесей нет'
+  icon: /icon/collections/bsfg.bottle3_salat_i00.png
+- id: 8411
+  name: Зелье заклинаний
+  label: 'Сила: 2, Примесей нет'
+  icon: /icon/collections/bsfg.bottle2_pink_i00.png
+- id: 8425
+  name: Зелье заклинаний
+  label: 'Сила: 4, Примесей нет'
+  icon: /icon/collections/bsfg.bottle4_pink_i00.png
+- id: 8446
+  name: Зелье заклинаний
+  label: 'Сила: 7, Примесей нет'
+  icon: /icon/collections/bsfg.bottle7_pink_i00.png
+- id: 8460
+  name: Зелье разума
+  label: 'Сила: 2, Примесей нет'
+  icon: /icon/collections/bsfg.bottle2_skyblue_i00.png
+- id: 8474
+  name: Зелье разума
+  label: 'Сила: 4, Примесей нет'
+  icon: /icon/collections/bsfg.bottle4_skyblue_i00.png
+- id: 8495
+  name: Зелье разума
+  label: 'Сила: 7, Примесей нет'
+  icon: /icon/collections/bsfg.bottle7_skyblue_i00.png
+- id: 8661
+  name: Яйцо Вирма
+  icon: /icon/collections/icon.etc_dragon_egg_i00.png
+- id: 8662
+  name: Яйцо горного дракона
+  icon: /icon/collections/icon.etc_dragon_egg_i05.png
+- id: 8663
+  name: Яйцо молодого василиска
+  icon: /icon/collections/icon.etc_basilisk_egg_i00.png
+- id: 9500
+  name: Сфера познания
+  icon: /icon/collections/icon.etc_warding_orb_black_i00.png
+- id: 10001
+  name: Камень портала
+  icon: /icon/collections/bsfg.s_i10001.png
+- id: 11205
+  name: Зелье защиты ангелов
+  icon: /icon/collections/bsfg.s11205.png
+- id: 11325
+  name: Череп первого трупа
+  icon: /icon/trophies/icon.etc_skull_white_i00.png
+- id: 11326
+  name: Кости первого трупа
+  icon: /icon/collections/icon.etc_piece_bone_white_i00.png
+- id: 11327
+  name: Ребра первого трупа
+  icon: /icon/collections/icon.etc_rib_white_i00.png
+- id: 11328
+  name: Мозги первого трупа
+  icon: /icon/collections/icon.etc_inf_ore_medium_i00.png
+- id: 11329
+  name: Плоть первого трупа
+  icon: /icon/collections/icon.etc_meat_i00.png
+- id: 11330
+  name: Сухожилия первого трупа
+  icon: /icon/collections/icon.etc_bark_gold_i00.png
+- id: 11472
+  name: Довольствие рядового
+  icon: /icon/collections/icon.etc_gold_knight_i00.png
+- id: 11732
+  name: Композитное ружье
+  icon: /icon/weapons/bsfg.gun6_i00.png
+- id: 11810
+  name: Херб охотника
+  icon: /icon/collections/icon.etc_critical_herb_i00.png
+- id: 11811
+  name: Херб опыта
+  icon: /icon/collections/icon.etc_super_mp_potion_i00.png
+- id: 11812
+  name: Херб лута
+  icon: /icon/collections/branchsys2.icon.etc_attack_sp_herb_i01.png
+- id: 11823
+  name: Боевая книга новичка
+  icon: /icon/equipment/icon.codex_of_incuse.png
+- id: 11848
+  name: Лист боевой книги
+  icon: /icon/collections/icon.etc_cave_page_i00.png
+- id: 12822
+  name: Мешок с добычей
+  icon: /icon/collections/icon.etc_lucky_pocket_i00.png
+- id: 12823
+  name: Оболочка души
+  icon: /icon/collections/bsfg.icon77.png
+- id: 12885
+  name: Череп посланника тьмы
+  icon: /icon/trophies/bsfg.mob_icon1.png
+- id: 12895
+  name: Браслет сокрушителя
+  icon: /icon/trophies/icon.etc_piece_bracelet_i00.png
+- id: 12915
+  name: Крыло Ангела мести
+  icon: /icon/trophies/icon.etc_stranger_talisman.png
+- id: 12925
+  name: Кристалл Королевы ужаса
+  icon: /icon/trophies/icon.etc_bm_jewel_aquamarine_i00.png
+- id: 14748
+  name: 'Рецепт: Браслет фортуны'
+  label: Эксперт
+  icon: /icon/equipment/icon.etc_rbracelet_a_i02.png
+- id: 14754
+  name: 'Рецепт: Браслет саламандры'
+  label: Эксперт
+  icon: /icon/equipment/icon.etc_rbracelet_a_i02.png
+- id: 15839
+  name: Сушеная рыба
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon.etc_angler_i00.png
+- id: 15844
+  name: Светлый Эль
+  label: 'Уровень: 1'
+  icon: /icon/collections/branchsys3.g_beerfestival_octoberfest_beer.png
+- id: 15849
+  name: Фрукт
+  label: 'Уровень: 1'
+  icon: /icon/collections/icon.etc_codran_i07.png
+- id: 15856
+  name: Треуголка старого пирата
+  icon: /icon/collections/branchsys2.zaken_hair_accessary.png
+- id: 15857
+  name: Оковы старого пирата
+  icon: /icon/trophies/icon.etc_chain_i00.png
+- id: 15858
+  name: Сапоги старого пирата
+  icon: /icon/collections/branchsys3.g_co_military_b.png
+- id: 15859
+  name: Шпага старого пирата
+  icon: /icon/collections/icon.weapon_bastard_sword_i00.png
+- id: 15860
+  name: Ремень старого пирата
+  icon: /icon/collections/icon.etc_piece_belt_i00.png
+- id: 15861
+  name: Мундир старого пирата
+  icon: /icon/collections/branchsys3.g_co_captain_i00.png
+- id: 16240
+  name: Отголосок души
+  icon: /icon/collections/bsfg.icon259.png
+- id: 16241
+  name: Отголосок характера
+  icon: /icon/collections/bsfg.icon282.png
+- id: 16627
+  name: Тотем убийцы
+  icon: /icon/collections/branchsys3.s_g_ring_of_uthanka.png
+- id: 16872
+  name: Драконит
+  icon: /icon/collections/branchicon.g_therich_i03.png
+- id: 16874
+  name: Банка с маной
+  icon: /icon/collections/icon.etc_fruit_juice_glass_bottle_i04.png
+- id: 16942
+  name: Жетон Олимпиады
+  icon: /icon/collections/branchicon.etc_vip_coin_i00.png
+- id: 17520
+  name: Фортуна
+  label: 'Качество: Дешевое'
+  icon: /icon/equipment/icon.etc_pet_armor_i06.png
+- id: 19538
+  name: Монета вечности
+  icon: /icon/collections/branchicon.etc_g_field_special_coin_i00.png
+- id: 19563
+  name: 'Скрижаль: Знакомство с алхимией'
+  label: Eternal
+  icon: /icon/collections/icon.etc_lesser_potion_clear_i00.png
+- id: 19564
+  name: 'Скрижаль: Познания в алхимии'
+  label: Eternal
+  icon: /icon/collections/icon.super_elixir_potion.png
+- id: 19565
+  name: 'Скрижаль: Достойный алхимик'
+  label: Eternal
+  icon: /icon/collections/icon.five_vairy_potion.png
+- id: 19566
+  name: 'Скрижаль: Разящий'
+  label: Eternal
+  icon: /icon/collections/bsfg.aura_flare.png
+- id: 19567
+  name: 'Скрижаль: Кто здесь главный'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon687.png
+- id: 19568
+  name: 'Скрижаль: Дух стаи'
+  label: Eternal
+  icon: /icon/guild-skills/bsfg.guild_blessing.png
+- id: 19569
+  name: 'Скрижаль: Огненная царица'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon462.png
+- id: 19570
+  name: 'Скрижаль: Темная личность'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon322.png
+- id: 19571
+  name: 'Скрижаль: Рядовой'
+  label: Eternal
+  icon: /icon/collections/bsfg.newskill6.png
+- id: 19572
+  name: 'Скрижаль: Луноликий '
+  label: Eternal
+  icon: /icon/collections/bsfg.newskill54.png
+- id: 19573
+  name: 'Скрижаль: Легкая рвань'
+  label: Eternal
+  icon: /icon/collections/bsfg.s7500_3.png
+- id: 19574
+  name: 'Скрижаль: Ученика'
+  label: Eternal
+  icon: /icon/collections/bsfg.s10005_resist.png
+- id: 19575
+  name: 'Скрижаль: Новичка'
+  label: Eternal
+  icon: /icon/collections/bsfg.s10005_battle_spirit.png
+- id: 19576
+  name: 'Скрижаль: Хранителя бездны'
+  label: Eternal
+  icon: /icon/collections/bsfg.newskill50.png
+- id: 19577
+  name: 'Скрижаль: Лунной воли'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon500.png
+- id: 19578
+  name: 'Скрижаль: Лунного знания'
+  label: Eternal
+  icon: /icon/collections/bsfg.newskill65.png
+- id: 19579
+  name: 'Скрижаль: Обучения'
+  label: Eternal
+  icon: /icon/collections/bsfg.s11534.png
+- id: 19580
+  name: 'Скрижаль: Сила минералов'
+  label: Eternal
+  icon: /icon/collections/bsfg.s11538.png
+- id: 19581
+  name: 'Скрижаль: Крафтера'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon1495.png
+- id: 19582
+  name: 'Скрижаль: Ничто не вечно'
+  label: Eternal
+  icon: /icon/collections/bsfg.newskill58.png
+- id: 19583
+  name: Орб вечности
+  icon: /icon/collections/icon.iconskill30001.png
+- id: 19738
+  name: Камень воли
+  icon: /icon/collections/bsfg.s142bs.png
+- id: 19739
+  name: Камень испытания
+  icon: /icon/collections/bsfg.s143bs.png
+- id: 19740
+  name: Камень страха
+  icon: /icon/collections/bsfg.s144bs.png
+- id: 19907
+  name: Ожерелье Черной пантеры
+  icon: /icon/pit-jewelry/icon.r991_necklace_i00.png
+- id: 20157
+  name: Жилы монстра
+  icon: /icon/collections/bsfg.item_normal17.png
+- id: 20323
+  name: Свиток защиты
+  icon: /icon/collections/icon.bless_scroll_r99_armor.png
+- id: 20475
+  name: Вставка охоты
+  icon: /icon/collections/branchsys3.g_bless_shape_shifting_hair2_stone.png
+- id: 20477
+  name: Вставка охоты
+  icon: /icon/collections/branchsys3.g_bless_shape_shifting__wp_stone_c.png
+- id: 20481
+  name: Вставка охоты
+  icon: /icon/collections/branchsys3.g_bless_shape_shifting__wp_stone_d.png
+- id: 20485
+  name: Вставка охоты
+  icon: /icon/collections/branchsys3.g_bless_shape_shifting__wp_stone_b.png
+- id: 22914
+  name: 'Скрижаль: Кожанщик'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon822.png
+- id: 22915
+  name: 'Скрижаль: Коралловые бусы'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon1120.png
+- id: 22939
+  name: 'Скрижаль: Дешевых талисманов'
+  label: Eternal
+  icon: /icon/equipment/bsfg.talisman_5966.png
+- id: 22940
+  name: 'Скрижаль: Швея'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon104.png
+- id: 22941
+  name: 'Скрижаль: Знакомство с ювелиром'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon806.png
+- id: 22942
+  name: 'Скрижаль: Обучение ювелирному делу'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon1114.png
+- id: 22943
+  name: 'Скрижаль: Поделки Гаста'
+  label: Eternal
+  icon: /icon/collections/bsfg.icon682.png
+- id: 23280
+  name: 'Уникальный ресурс: Тенит'
+  icon: /icon/collections/bsfg.stas.br_spirit_skill_i00.png
+- id: 23281
+  name: 'Уникальный ресурс: Лазар'
+  icon: /icon/collections/branchsys2.g_campfire_flint.png
+- id: 23317
+  name: Охотничий колчан
+  label: Базовый
+  icon: /icon/collections/icon.etc_steel_quiver_i00.png
+- id: 23318
+  name: Тугой колчан
+  label: Базовый
+  icon: /icon/collections/icon.etc_bone_quiver_i00.png
+- id: 23319
+  name: Полный колчан
+  label: Экспертный
+  icon: /icon/collections/br_cashtex.br_cash_fine_steel_arrow_i00.png
+- id: 23320
+  name: Червонный колчан
+  label: Экспертный
+  icon: /icon/collections/icon.etc_fine_steel_quiver_i00.png
+- id: 24443
+  name: Желтый кристалл Пещеры демонов
+  icon: /icon/collections/bsfgicon.etc_new_crystal_yellow_i00.png
+collections:
+- id: 1
+  name: Ученика
+  purchase_gold: 20000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 1
+    characteristic_id: 26
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 6052
+      count: 1
+    - item_id: 2234
+      count: 1
+    - item_id: 5295
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 6052
+      count: 1
+    - item_id: 2504
+      count: 1
+    - item_id: 5295
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 6052
+      count: 1
+    - item_id: 2774
+      count: 1
+    - item_id: 5295
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 6052
+      count: 1
+    - item_id: 3044
+      count: 1
+    - item_id: 5295
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 6052
+      count: 1
+    - item_id: 3314
+      count: 1
+    - item_id: 5295
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 6052
+      count: 1
+    - item_id: 3918
+      count: 1
+    - item_id: 5295
+      count: 1
+  relic_items:
+  - item_id: 19574
+    count: 1
+- id: 2
+  name: Новичка
+  purchase_gold: 5000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 2
+    characteristic_id: 25
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 5500
+      count: 1
+    - item_id: 3409
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 5500
+      count: 1
+    - item_id: 3413
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 5500
+      count: 1
+    - item_id: 3417
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 5500
+      count: 1
+    - item_id: 3421
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 5500
+      count: 1
+    - item_id: 3425
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 5500
+      count: 1
+    - item_id: 4105
+      count: 1
+    - item_id: 6048
+      count: 1
+  relic_items:
+  - item_id: 19575
+    count: 1
+- id: 3
+  name: Кожанщик
+  purchase_gold: 10000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 3
+    characteristic_id: 12
+    value: 1
+    unit: flat
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 4383
+      count: 1
+    - item_id: 2141
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 4383
+      count: 1
+    - item_id: 2411
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 4383
+      count: 1
+    - item_id: 2681
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 4383
+      count: 1
+    - item_id: 2951
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 4383
+      count: 1
+    - item_id: 3221
+      count: 1
+    - item_id: 6048
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4383
+      count: 1
+    - item_id: 3992
+      count: 1
+    - item_id: 6048
+      count: 1
+  relic_items:
+  - item_id: 22914
+    count: 1
+- id: 4
+  name: Начинающего стрелка
+  purchase_gold: 20000
+  effects:
+  - id: 4
+    characteristic_id: 5
+    value: 5
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23317
+      count: 1
+    - item_id: 6261
+      count: 1
+    - item_id: 5522
+      count: 1
+- id: 5
+  name: Дешевых талисманов
+  purchase_gold: 10000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 5
+    characteristic_id: 2
+    value: 0.5
+    unit: percent
+  - id: 6
+    characteristic_id: 7
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5501
+      count: 1
+    - item_id: 5525
+      count: 1
+    - item_id: 5540
+      count: 1
+  relic_items:
+  - item_id: 22939
+    count: 1
+- id: 6
+  name: Драгоценных камней
+  purchase_gold: 100000
+  effects:
+  - id: 7
+    characteristic_id: 38
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 19738
+      count: 1
+    - item_id: 7645
+      count: 1
+    - item_id: 19739
+      count: 1
+    - item_id: 19740
+      count: 1
+- id: 7
+  name: Рядовой
+  purchase_gold: 50000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 8
+    characteristic_id: 30
+    value: 1
+    unit: percent
+  - id: 9
+    characteristic_id: 28
+    value: 1
+    unit: percent
+  - id: 10
+    characteristic_id: 35
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 11472
+      count: 500000
+    - item_id: 8072
+      count: 100
+    - item_id: 8071
+      count: 300
+  relic_items:
+  - item_id: 19571
+    count: 1
+- id: 8
+  name: Крафтера
+  purchase_gold: 250000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 11
+    characteristic_id: 39
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 1197
+      count: 1
+    - item_id: 7504
+      count: 1
+    - item_id: 872
+      count: 50000
+    - item_id: 1
+      count: 1
+  relic_items:
+  - item_id: 19581
+    count: 1
+- id: 9
+  name: Хаоса
+  purchase_gold: 1500000
+  effects:
+  - id: 12
+    characteristic_id: 11
+    value: 0.2
+    unit: percent
+  - id: 13
+    characteristic_id: 3
+    value: 0.2
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 154
+      count: 10
+    - item_id: 6104
+      count: 1
+    - item_id: 6130
+      count: 1
+    - item_id: 7645
+      count: 1
+- id: 10
+  name: Вампира
+  purchase_gold: 500000
+  effects:
+  - id: 14
+    characteristic_id: 14
+    value: 1
+    unit: percent
+  - id: 15
+    characteristic_id: 15
+    value: 1
+    unit: percent
+  - id: 16
+    characteristic_id: 40
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5511
+      count: 1
+    - item_id: 5706
+      count: 1
+    - item_id: 5057
+      count: 1
+    - item_id: 3666
+      count: 1
+- id: 11
+  name: Маны
+  purchase_gold: 2000000
+  effects:
+  - id: 17
+    characteristic_id: 36
+    value: 2000
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 16874
+      count: 3
+    - item_id: 6030
+      count: 1
+    - item_id: 5063
+      count: 1
+- id: 12
+  name: Внутренняя тьма
+  purchase_gold: 5000000
+  effects:
+  - id: 18
+    characteristic_id: 22
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5349
+      count: 1
+    - item_id: 6283
+      count: 1
+    - item_id: 12885
+      count: 1
+    - item_id: 153
+      count: 10
+    - item_id: 5329
+      count: 1
+- id: 13
+  name: Дух стаи
+  purchase_gold: 5000000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 19
+    characteristic_id: 2
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 6294
+      count: 1
+    - item_id: 2160
+      count: 1
+    - item_id: 2201
+      count: 1
+    - item_id: 2228
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 6294
+      count: 1
+    - item_id: 2430
+      count: 1
+    - item_id: 2471
+      count: 1
+    - item_id: 2498
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 6294
+      count: 1
+    - item_id: 2700
+      count: 1
+    - item_id: 2741
+      count: 1
+    - item_id: 2768
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 6294
+      count: 1
+    - item_id: 2970
+      count: 1
+    - item_id: 3011
+      count: 1
+    - item_id: 3038
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 6294
+      count: 1
+    - item_id: 3240
+      count: 1
+    - item_id: 3281
+      count: 1
+    - item_id: 3308
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 6294
+      count: 1
+    - item_id: 4000
+      count: 1
+    - item_id: 4025
+      count: 1
+    - item_id: 4050
+      count: 1
+  relic_items:
+  - item_id: 19568
+    count: 1
+- id: 14
+  name: Любитель кошек
+  purchase_gold: 5000000
+  effects:
+  - id: 20
+    characteristic_id: 6
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6295
+      count: 1
+    - item_id: 5793
+      count: 1
+    - item_id: 5526
+      count: 1
+- id: 15
+  name: Огненная царица
+  purchase_gold: 5000000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 21
+    characteristic_id: 7
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2252
+      count: 1
+    - item_id: 2293
+      count: 1
+    - item_id: 2320
+      count: 1
+    - item_id: 7029
+      count: 1
+    - item_id: 6067
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2522
+      count: 1
+    - item_id: 2563
+      count: 1
+    - item_id: 2590
+      count: 1
+    - item_id: 7029
+      count: 1
+    - item_id: 6067
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2792
+      count: 1
+    - item_id: 2833
+      count: 1
+    - item_id: 2860
+      count: 1
+    - item_id: 7029
+      count: 1
+    - item_id: 6067
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3062
+      count: 1
+    - item_id: 3103
+      count: 1
+    - item_id: 3130
+      count: 1
+    - item_id: 7029
+      count: 1
+    - item_id: 6067
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3332
+      count: 1
+    - item_id: 3373
+      count: 1
+    - item_id: 3400
+      count: 1
+    - item_id: 7029
+      count: 1
+    - item_id: 6067
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3929
+      count: 1
+    - item_id: 3945
+      count: 1
+    - item_id: 3961
+      count: 1
+    - item_id: 7029
+      count: 1
+    - item_id: 6067
+      count: 1
+  relic_items:
+  - item_id: 19569
+    count: 1
+- id: 16
+  name: Коллекционер
+  purchase_gold: 5000000
+  effects:
+  - id: 22
+    characteristic_id: 10
+    value: 15
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6089
+      count: 1
+    - item_id: 6268
+      count: 1
+    - item_id: 12925
+      count: 1
+    - item_id: 6034
+      count: 1
+    - item_id: 7027
+      count: 1
+- id: 17
+  name: Сокрушитель
+  purchase_gold: 1000000
+  effects:
+  - id: 23
+    characteristic_id: 2
+    value: 0.5
+    unit: percent
+  - id: 24
+    characteristic_id: 7
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6081
+      count: 1
+    - item_id: 12895
+      count: 1
+- id: 18
+  name: Демоническая сущность
+  purchase_gold: 15000000
+  effects:
+  - id: 25
+    characteristic_id: 22
+    value: 0.5
+    unit: percent
+  - id: 26
+    characteristic_id: 16
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6103
+      count: 1
+    - item_id: 6040
+      count: 1
+    - item_id: 6133
+      count: 1
+- id: 19
+  name: Каменьщик
+  purchase_gold: 1000000
+  effects:
+  - id: 27
+    characteristic_id: 4
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 703
+      count: 100
+    - item_id: 704
+      count: 100
+    - item_id: 705
+      count: 50
+    - item_id: 706
+      count: 50
+- id: 20
+  name: Достал нож - режь
+  purchase_gold: 2000000
+  effects:
+  - id: 28
+    characteristic_id: 22
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6250
+      count: 1
+    - item_id: 6363
+      count: 1
+- id: 21
+  name: Кто здесь главный?
+  purchase_gold: 50000000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 29
+    characteristic_id: 42
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 1025
+      count: 10
+    - item_id: 399
+      count: 100
+    - item_id: 487
+      count: 1000
+  relic_items:
+  - item_id: 19567
+    count: 1
+- id: 22
+  name: Предвестник смерти
+  purchase_gold: 20000000
+  effects:
+  - id: 30
+    characteristic_id: 22
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6041
+      count: 1
+    - item_id: 6132
+      count: 1
+    - item_id: 6173
+      count: 1
+    - item_id: 6090
+      count: 1
+- id: 23
+  name: Стремление стать лучшим стрелком
+  purchase_gold: 10000000
+  effects:
+  - id: 31
+    characteristic_id: 6
+    value: 2
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5585
+      count: 1
+    - item_id: 6269
+      count: 1
+- id: 24
+  name: Эрудированный читатель
+  purchase_gold: 5000000
+  effects:
+  - id: 32
+    characteristic_id: 11
+    value: 0.2
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 11848
+      count: 100
+    - item_id: 3650
+      count: 1
+- id: 25
+  name: Заядлый читатель
+  purchase_gold: 5000000
+  effects:
+  - id: 33
+    characteristic_id: 7
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 11848
+      count: 100
+    - item_id: 2
+      count: 1
+- id: 26
+  name: Философия жизни
+  purchase_gold: 10000000
+  effects:
+  - id: 34
+    characteristic_id: 42
+    value: 1
+    unit: percent
+  - id: 35
+    characteristic_id: 41
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 11848
+      count: 100
+    - item_id: 6067
+      count: 1
+- id: 27
+  name: Искусство боли
+  purchase_gold: 7000000
+  effects:
+  - id: 36
+    characteristic_id: 16
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 11848
+      count: 100
+    - item_id: 5655
+      count: 1
+- id: 28
+  name: Знание защиты
+  purchase_gold: 5000000
+  effects:
+  - id: 37
+    characteristic_id: 4
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 11848
+      count: 100
+    - item_id: 20323
+      count: 100
+- id: 29
+  name: Библиотекарь
+  purchase_gold: 5000000
+  effects:
+  - id: 38
+    characteristic_id: 31
+    value: 1
+    unit: percent
+  - id: 39
+    characteristic_id: 27
+    value: 1
+    unit: percent
+  - id: 40
+    characteristic_id: 29
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 11848
+      count: 100
+    - item_id: 9500
+      count: 5
+- id: 30
+  name: Очень дешевые аксессуары
+  purchase_gold: 500000
+  effects:
+  - id: 41
+    characteristic_id: 10
+    value: 15
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5309
+      count: 1
+    - item_id: 5329
+      count: 1
+    - item_id: 5349
+      count: 1
+- id: 31
+  name: Коллекционер арбалетов
+  purchase_gold: 2000000
+  effects:
+  - id: 42
+    characteristic_id: 12
+    value: 1
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6468
+      count: 1
+    - item_id: 6469
+      count: 1
+    - item_id: 6470
+      count: 1
+- id: 32
+  name: Коллекционер варп-арбалетов
+  purchase_gold: 2000000
+  effects:
+  - id: 43
+    characteristic_id: 3
+    value: 0.2
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6504
+      count: 1
+    - item_id: 6505
+      count: 1
+    - item_id: 6506
+      count: 1
+- id: 33
+  name: Стремление быть мудрым
+  purchase_gold: 1000000
+  effects:
+  - id: 44
+    characteristic_id: 9
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5043
+      count: 1
+    - item_id: 5004
+      count: 1
+    - item_id: 5084
+      count: 1
+    - item_id: 155
+      count: 2
+    - item_id: 7645
+      count: 1
+    - item_id: 6035
+      count: 1
+- id: 34
+  name: Ничто не вечно
+  purchase_gold: 50000000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 45
+    characteristic_id: 54
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 7990
+      count: 3000
+    - item_id: 6891
+      count: 1
+  relic_items:
+  - item_id: 19582
+    count: 1
+- id: 35
+  name: Запасливый
+  purchase_gold: 10000000
+  effects:
+  - id: 46
+    characteristic_id: 55
+    value: 3
+    unit: percent
+  - id: 47
+    characteristic_id: 56
+    value: 3
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 12823
+      count: 1000
+    - item_id: 12822
+      count: 100
+- id: 36
+  name: Самый крепкий
+  purchase_gold: 20000000
+  effects:
+  - id: 48
+    characteristic_id: 42
+    value: 5000
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5059
+      count: 1
+    - item_id: 5094
+      count: 1
+    - item_id: 5025
+      count: 1
+    - item_id: 5663
+      count: 1
+- id: 38
+  name: Гэфуса
+  purchase_gold: 100000000
+  effects:
+  - id: 49
+    characteristic_id: 2
+    value: 1
+    unit: percent
+  - id: 50
+    characteristic_id: 7
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6046
+      count: 1
+    - item_id: 3509
+      count: 1
+    - item_id: 3689
+      count: 1
+    - item_id: 7645
+      count: 1
+    - item_id: 5563
+      count: 1
+- id: 39
+  name: Все шкатулки
+  purchase_gold: 3000000
+  effects:
+  - id: 51
+    characteristic_id: 33
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5159
+      count: 1000
+    - item_id: 5160
+      count: 1000
+    - item_id: 5161
+      count: 1000
+    - item_id: 5162
+      count: 1000
+- id: 40
+  name: Эко активист
+  purchase_gold: 3000000
+  effects:
+  - id: 52
+    characteristic_id: 26
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 1000
+      count: 1000
+    - item_id: 1012
+      count: 1000
+    - item_id: 1013
+      count: 1000
+    - item_id: 1014
+      count: 1000
+    - item_id: 1015
+      count: 1000
+    - item_id: 1016
+      count: 1000
+- id: 41
+  name: Швея
+  purchase_gold: 250000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 53
+    characteristic_id: 4
+    value: 0.2
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 976
+      count: 1000
+    - item_id: 969
+      count: 10000
+    - item_id: 941
+      count: 10000
+    - item_id: 950
+      count: 10000
+    - item_id: 947
+      count: 1000
+  relic_items:
+  - item_id: 22940
+    count: 1
+- id: 42
+  name: Флагоносец
+  purchase_gold: 10000000
+  effects:
+  - id: 54
+    characteristic_id: 35
+    value: 5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 293
+      count: 5
+    - item_id: 294
+      count: 5
+    - item_id: 295
+      count: 5
+    - item_id: 296
+      count: 5
+    - item_id: 990
+      count: 5
+    - item_id: 297
+      count: 5
+- id: 43
+  name: Знакомство с ювелиром
+  purchase_gold: 100000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 55
+    characteristic_id: 42
+    value: 300
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 19738
+      count: 1
+    - item_id: 19739
+      count: 1
+    - item_id: 19740
+      count: 1
+  relic_items:
+  - item_id: 22941
+    count: 1
+- id: 44
+  name: Обучение ювелирному делу
+  purchase_gold: 200000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 56
+    characteristic_id: 39
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 154
+      count: 2
+    - item_id: 155
+      count: 2
+    - item_id: 156
+      count: 2
+  relic_items:
+  - item_id: 22942
+    count: 1
+- id: 45
+  name: Понимающий Ювелир
+  purchase_gold: 2000000
+  effects:
+  - id: 57
+    characteristic_id: 39
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 151
+      count: 2
+    - item_id: 152
+      count: 2
+    - item_id: 153
+      count: 2
+- id: 46
+  name: Мастер Ювелиров
+  purchase_gold: 10000000
+  effects:
+  - id: 58
+    characteristic_id: 39
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 148
+      count: 2
+    - item_id: 149
+      count: 2
+    - item_id: 150
+      count: 2
+- id: 47
+  name: Мастер в ювелирном деле
+  purchase_gold: 100000000
+  effects:
+  - id: 59
+    characteristic_id: 39
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 145
+      count: 2
+    - item_id: 146
+      count: 2
+    - item_id: 147
+      count: 2
+- id: 48
+  name: Знакомство с алхимией
+  purchase_gold: 200000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 60
+    characteristic_id: 36
+    value: 500
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 8208
+      count: 10
+    - item_id: 8355
+      count: 10
+    - item_id: 8306
+      count: 10
+    - item_id: 7795
+      count: 10
+    - item_id: 7844
+      count: 10
+  relic_items:
+  - item_id: 19563
+    count: 1
+- id: 49
+  name: Познания в алхимии
+  purchase_gold: 300000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 61
+    characteristic_id: 36
+    value: 500
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 8166
+      count: 50
+    - item_id: 8411
+      count: 50
+    - item_id: 8460
+      count: 50
+    - item_id: 8117
+      count: 50
+    - item_id: 8264
+      count: 50
+  relic_items:
+  - item_id: 19564
+    count: 1
+- id: 50
+  name: Достойный алхимик
+  purchase_gold: 400000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 62
+    characteristic_id: 36
+    value: 500
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 8222
+      count: 75
+    - item_id: 8369
+      count: 75
+    - item_id: 8320
+      count: 75
+    - item_id: 7809
+      count: 75
+    - item_id: 7858
+      count: 75
+  relic_items:
+  - item_id: 19565
+    count: 1
+- id: 51
+  name: Глубокие познания алхимии
+  purchase_gold: 500000
+  effects:
+  - id: 63
+    characteristic_id: 36
+    value: 500
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 8131
+      count: 100
+    - item_id: 8278
+      count: 100
+    - item_id: 8180
+      count: 100
+    - item_id: 8425
+      count: 100
+    - item_id: 8474
+      count: 100
+    - item_id: 7865
+      count: 100
+- id: 52
+  name: Мастер алхимии
+  purchase_gold: 1000000
+  effects:
+  - id: 64
+    characteristic_id: 36
+    value: 500
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 7823
+      count: 25
+    - item_id: 8236
+      count: 25
+    - item_id: 8334
+      count: 25
+- id: 53
+  name: Бог Алхимии
+  purchase_gold: 5000000
+  effects:
+  - id: 65
+    characteristic_id: 36
+    value: 500
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 7886
+      count: 10
+    - item_id: 8495
+      count: 10
+    - item_id: 8446
+      count: 10
+    - item_id: 8299
+      count: 10
+    - item_id: 8201
+      count: 10
+    - item_id: 8152
+      count: 10
+- id: 54
+  name: Защитник
+  purchase_gold: 1000000
+  effects:
+  - id: 66
+    characteristic_id: 4
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 1058
+      count: 100
+    - item_id: 5068
+      count: 1
+    - item_id: 5103
+      count: 1
+- id: 55
+  name: Стрелок
+  purchase_gold: 3000000
+  effects:
+  - id: 67
+    characteristic_id: 13
+    value: 10
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5104
+      count: 1
+    - item_id: 3653
+      count: 1
+    - item_id: 3687
+      count: 1
+    - item_id: 5559
+      count: 1
+- id: 56
+  name: Пантера
+  purchase_gold: 5000000
+  effects:
+  - id: 68
+    characteristic_id: 12
+    value: 1
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 19907
+      count: 1
+    - item_id: 5047
+      count: 1
+    - item_id: 5793
+      count: 1
+- id: 57
+  name: Убийца
+  purchase_gold: 2000000
+  effects:
+  - id: 69
+    characteristic_id: 57
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 3657
+      count: 1
+    - item_id: 3691
+      count: 1
+    - item_id: 5083
+      count: 1
+    - item_id: 5520
+      count: 1
+    - item_id: 6210
+      count: 1
+    - item_id: 6216
+      count: 1
+- id: 58
+  name: Чародей
+  purchase_gold: 10000000
+  effects:
+  - id: 70
+    characteristic_id: 11
+    value: 0.1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 3658
+      count: 1
+    - item_id: 3692
+      count: 1
+    - item_id: 5033
+      count: 1
+    - item_id: 5056
+      count: 1
+    - item_id: 7034
+      count: 1
+    - item_id: 5091
+      count: 1
+- id: 59
+  name: Маг
+  purchase_gold: 35000000
+  effects:
+  - id: 71
+    characteristic_id: 7
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6026
+      count: 1
+    - item_id: 5737
+      count: 1
+    - item_id: 5296
+      count: 1
+    - item_id: 3648
+      count: 1
+    - item_id: 3682
+      count: 1
+- id: 60
+  name: Непоколебимости
+  purchase_gold: 50000
+  effects:
+  - id: 72
+    characteristic_id: 4
+    value: 0.1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2060
+      count: 1
+    - item_id: 2083
+      count: 1
+    - item_id: 2094
+      count: 1
+    - item_id: 2117
+      count: 1
+    - item_id: 7009
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2330
+      count: 1
+    - item_id: 2353
+      count: 1
+    - item_id: 2364
+      count: 1
+    - item_id: 2387
+      count: 1
+    - item_id: 7009
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2600
+      count: 1
+    - item_id: 2623
+      count: 1
+    - item_id: 2634
+      count: 1
+    - item_id: 2657
+      count: 1
+    - item_id: 7009
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2870
+      count: 1
+    - item_id: 2893
+      count: 1
+    - item_id: 2904
+      count: 1
+    - item_id: 2927
+      count: 1
+    - item_id: 7009
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3140
+      count: 1
+    - item_id: 3163
+      count: 1
+    - item_id: 3174
+      count: 1
+    - item_id: 3197
+      count: 1
+    - item_id: 7009
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4055
+      count: 1
+    - item_id: 57
+      count: 1000
+    - item_id: 4071
+      count: 1
+    - item_id: 4087
+      count: 1
+    - item_id: 7009
+      count: 1
+- id: 61
+  name: Поющей чаши
+  purchase_gold: 100000
+  effects:
+  - id: 73
+    characteristic_id: 3
+    value: 0.1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2061
+      count: 1
+    - item_id: 2084
+      count: 1
+    - item_id: 2095
+      count: 1
+    - item_id: 2118
+      count: 1
+    - item_id: 7007
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2331
+      count: 1
+    - item_id: 2354
+      count: 1
+    - item_id: 2365
+      count: 1
+    - item_id: 2388
+      count: 1
+    - item_id: 7007
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2601
+      count: 1
+    - item_id: 2624
+      count: 1
+    - item_id: 2635
+      count: 1
+    - item_id: 2658
+      count: 1
+    - item_id: 7007
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2871
+      count: 1
+    - item_id: 2894
+      count: 1
+    - item_id: 2905
+      count: 1
+    - item_id: 2928
+      count: 1
+    - item_id: 7007
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3141
+      count: 1
+    - item_id: 3164
+      count: 1
+    - item_id: 3175
+      count: 1
+    - item_id: 3198
+      count: 1
+    - item_id: 7007
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4057
+      count: 1
+    - item_id: 4055
+      count: 1
+    - item_id: 4073
+      count: 1
+    - item_id: 4089
+      count: 1
+    - item_id: 7007
+      count: 1
+- id: 62
+  name: Хранителя Бездны
+  purchase_gold: 150000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 74
+    characteristic_id: 39
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2063
+      count: 1
+    - item_id: 2086
+      count: 1
+    - item_id: 2097
+      count: 1
+    - item_id: 2120
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2333
+      count: 1
+    - item_id: 2356
+      count: 1
+    - item_id: 2367
+      count: 1
+    - item_id: 2390
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2603
+      count: 1
+    - item_id: 2626
+      count: 1
+    - item_id: 2637
+      count: 1
+    - item_id: 2660
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2873
+      count: 1
+    - item_id: 2896
+      count: 1
+    - item_id: 2907
+      count: 1
+    - item_id: 2930
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3143
+      count: 1
+    - item_id: 3166
+      count: 1
+    - item_id: 3177
+      count: 1
+    - item_id: 3200
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4058
+      count: 1
+    - item_id: 3991
+      count: 1
+    - item_id: 4074
+      count: 1
+    - item_id: 4090
+      count: 1
+    - item_id: 6163
+      count: 1
+  relic_items:
+  - item_id: 19576
+    count: 1
+- id: 63
+  name: Луковичного рыцаря
+  purchase_gold: 200000
+  effects:
+  - id: 75
+    characteristic_id: 4
+    value: 0.3
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2068
+      count: 1
+    - item_id: 2091
+      count: 1
+    - item_id: 2102
+      count: 1
+    - item_id: 2125
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2338
+      count: 1
+    - item_id: 2361
+      count: 1
+    - item_id: 2372
+      count: 1
+    - item_id: 2395
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2608
+      count: 1
+    - item_id: 2631
+      count: 1
+    - item_id: 2642
+      count: 1
+    - item_id: 2665
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2878
+      count: 1
+    - item_id: 2901
+      count: 1
+    - item_id: 2912
+      count: 1
+    - item_id: 2935
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3148
+      count: 1
+    - item_id: 3171
+      count: 1
+    - item_id: 3182
+      count: 1
+    - item_id: 3205
+      count: 1
+    - item_id: 6163
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4060
+      count: 1
+    - item_id: 3994
+      count: 1
+    - item_id: 4076
+      count: 1
+    - item_id: 4092
+      count: 1
+    - item_id: 6163
+      count: 1
+- id: 64
+  name: Бессмертного
+  purchase_gold: 200000
+  effects:
+  - id: 76
+    characteristic_id: 17
+    value: 40
+    unit: flat
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2067
+      count: 1
+    - item_id: 2090
+      count: 1
+    - item_id: 2101
+      count: 1
+    - item_id: 2124
+      count: 1
+    - item_id: 6294
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2337
+      count: 1
+    - item_id: 2360
+      count: 1
+    - item_id: 2371
+      count: 1
+    - item_id: 2394
+      count: 1
+    - item_id: 6294
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2607
+      count: 1
+    - item_id: 2630
+      count: 1
+    - item_id: 2641
+      count: 1
+    - item_id: 2664
+      count: 1
+    - item_id: 6294
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2877
+      count: 1
+    - item_id: 2900
+      count: 1
+    - item_id: 2911
+      count: 1
+    - item_id: 2934
+      count: 1
+    - item_id: 6294
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3147
+      count: 1
+    - item_id: 3170
+      count: 1
+    - item_id: 3181
+      count: 1
+    - item_id: 3204
+      count: 1
+    - item_id: 6294
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4061
+      count: 1
+    - item_id: 3995
+      count: 1
+    - item_id: 4077
+      count: 1
+    - item_id: 4093
+      count: 1
+    - item_id: 6294
+      count: 1
+- id: 65
+  name: Лунной воли
+  purchase_gold: 250000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 77
+    characteristic_id: 26
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2066
+      count: 1
+    - item_id: 2089
+      count: 1
+    - item_id: 2100
+      count: 1
+    - item_id: 2123
+      count: 1
+    - item_id: 7014
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2336
+      count: 1
+    - item_id: 2359
+      count: 1
+    - item_id: 2370
+      count: 1
+    - item_id: 2393
+      count: 1
+    - item_id: 7014
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2606
+      count: 1
+    - item_id: 2629
+      count: 1
+    - item_id: 2640
+      count: 1
+    - item_id: 2663
+      count: 1
+    - item_id: 7014
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2876
+      count: 1
+    - item_id: 2899
+      count: 1
+    - item_id: 2910
+      count: 1
+    - item_id: 2933
+      count: 1
+    - item_id: 7014
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3146
+      count: 1
+    - item_id: 3169
+      count: 1
+    - item_id: 3180
+      count: 1
+    - item_id: 3203
+      count: 1
+    - item_id: 7014
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4062
+      count: 1
+    - item_id: 4059
+      count: 1
+    - item_id: 4078
+      count: 1
+    - item_id: 4094
+      count: 1
+    - item_id: 7014
+      count: 1
+  relic_items:
+  - item_id: 19577
+    count: 1
+- id: 66
+  name: Жажда крови
+  purchase_gold: 20000000
+  effects:
+  - id: 78
+    characteristic_id: 14
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6037
+      count: 1
+    - item_id: 5022
+      count: 1
+    - item_id: 5658
+      count: 1
+    - item_id: 6240
+      count: 1
+- id: 67
+  name: Луноликий
+  purchase_gold: 20000000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 79
+    characteristic_id: 26
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5331
+      count: 1
+    - item_id: 5115
+      count: 1
+    - item_id: 5313
+      count: 1
+    - item_id: 6145
+      count: 1
+  relic_items:
+  - item_id: 19572
+    count: 1
+- id: 68
+  name: Солнцеподобного
+  purchase_gold: 50000000
+  effects:
+  - id: 80
+    characteristic_id: 38
+    value: 0.4
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5132
+      count: 1
+    - item_id: 5112
+      count: 1
+    - item_id: 5085
+      count: 1
+    - item_id: 5962
+      count: 1
+- id: 69
+  name: Мастер на все руки
+  purchase_gold: 2000000
+  effects:
+  - id: 81
+    characteristic_id: 33
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 1997
+      count: 1
+    - item_id: 6193
+      count: 1
+    - item_id: 6187
+      count: 1
+    - item_id: 6083
+      count: 1
+- id: 71
+  name: Набор Джека Воробья
+  purchase_gold: 10000000
+  effects:
+  - id: 82
+    characteristic_id: 2
+    value: 0.3
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 15856
+      count: 1
+    - item_id: 15857
+      count: 1
+    - item_id: 15858
+      count: 1
+    - item_id: 15859
+      count: 1
+    - item_id: 15860
+      count: 1
+    - item_id: 15861
+      count: 1
+- id: 72
+  name: Начинающего скульптора
+  purchase_gold: 10000000
+  effects:
+  - id: 83
+    characteristic_id: 4
+    value: 0.3
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 263
+      count: 1
+    - item_id: 264
+      count: 1
+    - item_id: 265
+      count: 1
+    - item_id: 266
+      count: 1
+    - item_id: 267
+      count: 1
+    - item_id: 268
+      count: 1
+- id: 73
+  name: Ретро винил
+  purchase_gold: 10000000
+  effects:
+  - id: 84
+    characteristic_id: 38
+    value: 0.3
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 269
+      count: 1
+    - item_id: 270
+      count: 1
+    - item_id: 271
+      count: 1
+    - item_id: 272
+      count: 1
+    - item_id: 273
+      count: 1
+    - item_id: 274
+      count: 1
+- id: 74
+  name: Кровавая палитра
+  purchase_gold: 10000000
+  effects:
+  - id: 85
+    characteristic_id: 42
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 275
+      count: 1
+    - item_id: 276
+      count: 1
+    - item_id: 277
+      count: 1
+    - item_id: 278
+      count: 1
+    - item_id: 279
+      count: 1
+    - item_id: 280
+      count: 1
+- id: 75
+  name: Основы стихий
+  purchase_gold: 10000000
+  effects:
+  - id: 86
+    characteristic_id: 41
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 281
+      count: 1
+    - item_id: 282
+      count: 1
+    - item_id: 283
+      count: 1
+    - item_id: 284
+      count: 1
+    - item_id: 285
+      count: 1
+    - item_id: 286
+      count: 1
+- id: 76
+  name: Мастер забоя
+  purchase_gold: 10000000
+  effects:
+  - id: 87
+    characteristic_id: 24
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 287
+      count: 1
+    - item_id: 288
+      count: 1
+    - item_id: 289
+      count: 1
+    - item_id: 290
+      count: 1
+    - item_id: 291
+      count: 1
+    - item_id: 292
+      count: 1
+- id: 77
+  name: Птичьи права
+  purchase_gold: 10000000
+  effects:
+  - id: 88
+    characteristic_id: 12
+    value: 1
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 1924
+      count: 1
+    - item_id: 1925
+      count: 1
+    - item_id: 1926
+      count: 1
+    - item_id: 1927
+      count: 1
+    - item_id: 1928
+      count: 1
+    - item_id: 1929
+      count: 1
+- id: 78
+  name: Всезнайка
+  purchase_gold: 50000
+  effects:
+  - id: 89
+    characteristic_id: 25
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2235
+      count: 1
+    - item_id: 2262
+      count: 1
+    - item_id: 2276
+      count: 1
+    - item_id: 2303
+      count: 1
+    - item_id: 5298
+      count: 1
+    - item_id: 5337
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2505
+      count: 1
+    - item_id: 2532
+      count: 1
+    - item_id: 2546
+      count: 1
+    - item_id: 2573
+      count: 1
+    - item_id: 5298
+      count: 1
+    - item_id: 5337
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2775
+      count: 1
+    - item_id: 2802
+      count: 1
+    - item_id: 2816
+      count: 1
+    - item_id: 2843
+      count: 1
+    - item_id: 5298
+      count: 1
+    - item_id: 5337
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3045
+      count: 1
+    - item_id: 3072
+      count: 1
+    - item_id: 3086
+      count: 1
+    - item_id: 3113
+      count: 1
+    - item_id: 5298
+      count: 1
+    - item_id: 5337
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3315
+      count: 1
+    - item_id: 3342
+      count: 1
+    - item_id: 3356
+      count: 1
+    - item_id: 3383
+      count: 1
+    - item_id: 5298
+      count: 1
+    - item_id: 5337
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3920
+      count: 1
+    - item_id: 3919
+      count: 1
+    - item_id: 3936
+      count: 1
+    - item_id: 3952
+      count: 1
+    - item_id: 5298
+      count: 1
+    - item_id: 5337
+      count: 1
+- id: 79
+  name: Пушинка
+  purchase_gold: 500000
+  effects:
+  - id: 90
+    characteristic_id: 3
+    value: 0.1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2236
+      count: 1
+    - item_id: 2263
+      count: 1
+    - item_id: 2277
+      count: 1
+    - item_id: 2304
+      count: 1
+    - item_id: 5501
+      count: 1
+    - item_id: 75
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2506
+      count: 1
+    - item_id: 2533
+      count: 1
+    - item_id: 2547
+      count: 1
+    - item_id: 2574
+      count: 1
+    - item_id: 5501
+      count: 1
+    - item_id: 75
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2776
+      count: 1
+    - item_id: 2803
+      count: 1
+    - item_id: 2817
+      count: 1
+    - item_id: 2844
+      count: 1
+    - item_id: 5501
+      count: 1
+    - item_id: 75
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3046
+      count: 1
+    - item_id: 3076
+      count: 1
+    - item_id: 3087
+      count: 1
+    - item_id: 3114
+      count: 1
+    - item_id: 5501
+      count: 1
+    - item_id: 75
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3316
+      count: 1
+    - item_id: 3343
+      count: 1
+    - item_id: 3357
+      count: 1
+    - item_id: 3384
+      count: 1
+    - item_id: 5501
+      count: 1
+    - item_id: 75
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3921
+      count: 1
+    - item_id: 3992
+      count: 1
+    - item_id: 3937
+      count: 1
+    - item_id: 3953
+      count: 1
+    - item_id: 5501
+      count: 1
+    - item_id: 75
+      count: 1
+- id: 80
+  name: Мистицизм
+  purchase_gold: 100000
+  effects:
+  - id: 91
+    characteristic_id: 38
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2238
+      count: 1
+    - item_id: 2265
+      count: 1
+    - item_id: 2279
+      count: 1
+    - item_id: 2306
+      count: 1
+    - item_id: 6031
+      count: 1
+    - item_id: 6055
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2508
+      count: 1
+    - item_id: 2535
+      count: 1
+    - item_id: 2549
+      count: 1
+    - item_id: 2576
+      count: 1
+    - item_id: 6031
+      count: 1
+    - item_id: 6055
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2778
+      count: 1
+    - item_id: 2805
+      count: 1
+    - item_id: 2819
+      count: 1
+    - item_id: 2846
+      count: 1
+    - item_id: 6031
+      count: 1
+    - item_id: 6055
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3048
+      count: 1
+    - item_id: 3075
+      count: 1
+    - item_id: 3089
+      count: 1
+    - item_id: 3116
+      count: 1
+    - item_id: 6031
+      count: 1
+    - item_id: 6055
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3318
+      count: 1
+    - item_id: 3345
+      count: 1
+    - item_id: 3359
+      count: 1
+    - item_id: 3386
+      count: 1
+    - item_id: 6031
+      count: 1
+    - item_id: 6055
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3922
+      count: 1
+    - item_id: 3990
+      count: 1
+    - item_id: 3938
+      count: 1
+    - item_id: 3954
+      count: 1
+    - item_id: 6031
+      count: 1
+    - item_id: 6055
+      count: 1
+- id: 81
+  name: Эксперт в магии
+  purchase_gold: 2000000
+  effects:
+  - id: 92
+    characteristic_id: 7
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2239
+      count: 1
+    - item_id: 2266
+      count: 1
+    - item_id: 2280
+      count: 1
+    - item_id: 2307
+      count: 1
+    - item_id: 6029
+      count: 1
+    - item_id: 5660
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2509
+      count: 1
+    - item_id: 2536
+      count: 1
+    - item_id: 2550
+      count: 1
+    - item_id: 2577
+      count: 1
+    - item_id: 6029
+      count: 1
+    - item_id: 5660
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2779
+      count: 1
+    - item_id: 2806
+      count: 1
+    - item_id: 2820
+      count: 1
+    - item_id: 2847
+      count: 1
+    - item_id: 6029
+      count: 1
+    - item_id: 5660
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3049
+      count: 1
+    - item_id: 3076
+      count: 1
+    - item_id: 3090
+      count: 1
+    - item_id: 3117
+      count: 1
+    - item_id: 6029
+      count: 1
+    - item_id: 5660
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3319
+      count: 1
+    - item_id: 3346
+      count: 1
+    - item_id: 3360
+      count: 1
+    - item_id: 3387
+      count: 1
+    - item_id: 6029
+      count: 1
+    - item_id: 5660
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3919
+      count: 1
+    - item_id: 3920
+      count: 1
+    - item_id: 3935
+      count: 1
+    - item_id: 3951
+      count: 1
+    - item_id: 6029
+      count: 1
+    - item_id: 5660
+      count: 1
+- id: 82
+  name: Темная личность
+  purchase_gold: 100000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 93
+    characteristic_id: 16
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2240
+      count: 1
+    - item_id: 2267
+      count: 1
+    - item_id: 2281
+      count: 1
+    - item_id: 2308
+      count: 1
+    - item_id: 6028
+      count: 1
+    - item_id: 1151
+      count: 300
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2510
+      count: 1
+    - item_id: 2537
+      count: 1
+    - item_id: 2551
+      count: 1
+    - item_id: 2578
+      count: 1
+    - item_id: 6028
+      count: 1
+    - item_id: 1151
+      count: 300
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2780
+      count: 1
+    - item_id: 2807
+      count: 1
+    - item_id: 2821
+      count: 1
+    - item_id: 2848
+      count: 1
+    - item_id: 6028
+      count: 1
+    - item_id: 1151
+      count: 300
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3050
+      count: 1
+    - item_id: 3077
+      count: 1
+    - item_id: 3091
+      count: 1
+    - item_id: 3118
+      count: 1
+    - item_id: 6028
+      count: 1
+    - item_id: 1151
+      count: 300
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3320
+      count: 1
+    - item_id: 3347
+      count: 1
+    - item_id: 3361
+      count: 1
+    - item_id: 3388
+      count: 1
+    - item_id: 6028
+      count: 1
+    - item_id: 1151
+      count: 300
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3989
+      count: 1
+    - item_id: 57
+      count: 1000
+    - item_id: 4014
+      count: 1
+    - item_id: 4039
+      count: 1
+    - item_id: 6028
+      count: 1
+    - item_id: 1151
+      count: 300
+  relic_items:
+  - item_id: 19570
+    count: 1
+- id: 83
+  name: Имперские амбиции
+  purchase_gold: 100000
+  effects:
+  - id: 94
+    characteristic_id: 37
+    value: 6
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2241
+      count: 1
+    - item_id: 2268
+      count: 1
+    - item_id: 2282
+      count: 1
+    - item_id: 2309
+      count: 1
+    - item_id: 293
+      count: 1
+    - item_id: 7008
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2511
+      count: 1
+    - item_id: 2538
+      count: 1
+    - item_id: 2552
+      count: 1
+    - item_id: 2579
+      count: 1
+    - item_id: 293
+      count: 1
+    - item_id: 7008
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2781
+      count: 1
+    - item_id: 2808
+      count: 1
+    - item_id: 2822
+      count: 1
+    - item_id: 2849
+      count: 1
+    - item_id: 293
+      count: 1
+    - item_id: 7008
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3051
+      count: 1
+    - item_id: 3078
+      count: 1
+    - item_id: 3092
+      count: 1
+    - item_id: 3119
+      count: 1
+    - item_id: 293
+      count: 1
+    - item_id: 7008
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3321
+      count: 1
+    - item_id: 3348
+      count: 1
+    - item_id: 3362
+      count: 1
+    - item_id: 3389
+      count: 1
+    - item_id: 293
+      count: 1
+    - item_id: 7008
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3922
+      count: 1
+    - item_id: 3990
+      count: 1
+    - item_id: 3938
+      count: 1
+    - item_id: 3954
+      count: 1
+    - item_id: 293
+      count: 1
+    - item_id: 7008
+      count: 1
+- id: 84
+  name: Обучения
+  purchase_gold: 1000000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 95
+    characteristic_id: 39
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2243
+      count: 1
+    - item_id: 2270
+      count: 1
+    - item_id: 2284
+      count: 1
+    - item_id: 2311
+      count: 1
+    - item_id: 5079
+      count: 1
+    - item_id: 3656
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2513
+      count: 1
+    - item_id: 2540
+      count: 1
+    - item_id: 2554
+      count: 1
+    - item_id: 2581
+      count: 1
+    - item_id: 5079
+      count: 1
+    - item_id: 3656
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2783
+      count: 1
+    - item_id: 2810
+      count: 1
+    - item_id: 2824
+      count: 1
+    - item_id: 2851
+      count: 1
+    - item_id: 5079
+      count: 1
+    - item_id: 3656
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3056
+      count: 1
+    - item_id: 3080
+      count: 1
+    - item_id: 3094
+      count: 1
+    - item_id: 3121
+      count: 1
+    - item_id: 5079
+      count: 1
+    - item_id: 3656
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3323
+      count: 1
+    - item_id: 3350
+      count: 1
+    - item_id: 3364
+      count: 1
+    - item_id: 3391
+      count: 1
+    - item_id: 5079
+      count: 1
+    - item_id: 3656
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3924
+      count: 1
+    - item_id: 3994
+      count: 1
+    - item_id: 3940
+      count: 1
+    - item_id: 3956
+      count: 1
+    - item_id: 5079
+      count: 1
+    - item_id: 3656
+      count: 1
+  relic_items:
+  - item_id: 19579
+    count: 1
+- id: 85
+  name: Мудрый
+  purchase_gold: 2000000
+  effects:
+  - id: 96
+    characteristic_id: 38
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2244
+      count: 1
+    - item_id: 2271
+      count: 1
+    - item_id: 2285
+      count: 1
+    - item_id: 2312
+      count: 1
+    - item_id: 7645
+      count: 1
+    - item_id: 6035
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2514
+      count: 1
+    - item_id: 2541
+      count: 1
+    - item_id: 2555
+      count: 1
+    - item_id: 2582
+      count: 1
+    - item_id: 7645
+      count: 1
+    - item_id: 6035
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2784
+      count: 1
+    - item_id: 2811
+      count: 1
+    - item_id: 2825
+      count: 1
+    - item_id: 2852
+      count: 1
+    - item_id: 7645
+      count: 1
+    - item_id: 6035
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3054
+      count: 1
+    - item_id: 3081
+      count: 1
+    - item_id: 3095
+      count: 1
+    - item_id: 3122
+      count: 1
+    - item_id: 7645
+      count: 1
+    - item_id: 6035
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3324
+      count: 1
+    - item_id: 3351
+      count: 1
+    - item_id: 3365
+      count: 1
+    - item_id: 3392
+      count: 1
+    - item_id: 7645
+      count: 1
+    - item_id: 6035
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3925
+      count: 1
+    - item_id: 3995
+      count: 1
+    - item_id: 3941
+      count: 1
+    - item_id: 3957
+      count: 1
+    - item_id: 7645
+      count: 1
+    - item_id: 6035
+      count: 1
+- id: 86
+  name: Лунного знания
+  purchase_gold: 500000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 97
+    characteristic_id: 26
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2245
+      count: 1
+    - item_id: 2272
+      count: 1
+    - item_id: 2286
+      count: 1
+    - item_id: 2313
+      count: 1
+    - item_id: 7022
+      count: 1
+    - item_id: 6211
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2515
+      count: 1
+    - item_id: 2542
+      count: 1
+    - item_id: 2556
+      count: 1
+    - item_id: 2583
+      count: 1
+    - item_id: 7022
+      count: 1
+    - item_id: 6211
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2785
+      count: 1
+    - item_id: 2812
+      count: 1
+    - item_id: 2826
+      count: 1
+    - item_id: 2853
+      count: 1
+    - item_id: 7022
+      count: 1
+    - item_id: 6211
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3055
+      count: 1
+    - item_id: 3082
+      count: 1
+    - item_id: 3096
+      count: 1
+    - item_id: 3123
+      count: 1
+    - item_id: 7022
+      count: 1
+    - item_id: 6211
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3325
+      count: 1
+    - item_id: 3352
+      count: 1
+    - item_id: 3366
+      count: 1
+    - item_id: 3393
+      count: 1
+    - item_id: 7022
+      count: 1
+    - item_id: 6211
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3923
+      count: 1
+    - item_id: 3996
+      count: 1
+    - item_id: 3939
+      count: 1
+    - item_id: 3955
+      count: 1
+    - item_id: 7022
+      count: 1
+    - item_id: 6211
+      count: 1
+  relic_items:
+  - item_id: 19578
+    count: 1
+- id: 87
+  name: Сила минералов
+  purchase_gold: 2500000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 98
+    characteristic_id: 39
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2246
+      count: 1
+    - item_id: 2273
+      count: 1
+    - item_id: 2287
+      count: 1
+    - item_id: 2314
+      count: 1
+    - item_id: 7027
+      count: 1
+    - item_id: 6089
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2516
+      count: 1
+    - item_id: 2543
+      count: 1
+    - item_id: 2557
+      count: 1
+    - item_id: 2584
+      count: 1
+    - item_id: 7027
+      count: 1
+    - item_id: 6089
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2786
+      count: 1
+    - item_id: 2813
+      count: 1
+    - item_id: 2827
+      count: 1
+    - item_id: 2854
+      count: 1
+    - item_id: 7027
+      count: 1
+    - item_id: 6089
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3056
+      count: 1
+    - item_id: 3083
+      count: 1
+    - item_id: 3097
+      count: 1
+    - item_id: 3124
+      count: 1
+    - item_id: 7027
+      count: 1
+    - item_id: 6089
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3326
+      count: 1
+    - item_id: 3353
+      count: 1
+    - item_id: 3367
+      count: 1
+    - item_id: 3394
+      count: 1
+    - item_id: 7027
+      count: 1
+    - item_id: 6089
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3924
+      count: 1
+    - item_id: 4060
+      count: 1
+    - item_id: 3940
+      count: 1
+    - item_id: 3956
+      count: 1
+    - item_id: 7027
+      count: 1
+    - item_id: 6089
+      count: 1
+  relic_items:
+  - item_id: 19580
+    count: 1
+- id: 88
+  name: Нечестивый
+  purchase_gold: 5000000
+  effects:
+  - id: 99
+    characteristic_id: 28
+    value: 1
+    unit: percent
+  - id: 100
+    characteristic_id: 30
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2247
+      count: 1
+    - item_id: 2274
+      count: 1
+    - item_id: 2288
+      count: 1
+    - item_id: 2315
+      count: 1
+    - item_id: 6103
+      count: 1
+    - item_id: 6040
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2517
+      count: 1
+    - item_id: 2544
+      count: 1
+    - item_id: 2558
+      count: 1
+    - item_id: 2585
+      count: 1
+    - item_id: 6103
+      count: 1
+    - item_id: 6040
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2787
+      count: 1
+    - item_id: 2814
+      count: 1
+    - item_id: 2828
+      count: 1
+    - item_id: 2855
+      count: 1
+    - item_id: 6103
+      count: 1
+    - item_id: 6040
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 3057
+      count: 1
+    - item_id: 3084
+      count: 1
+    - item_id: 3098
+      count: 1
+    - item_id: 3125
+      count: 1
+    - item_id: 6103
+      count: 1
+    - item_id: 6040
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3327
+      count: 1
+    - item_id: 3354
+      count: 1
+    - item_id: 3368
+      count: 1
+    - item_id: 3395
+      count: 1
+    - item_id: 6103
+      count: 1
+    - item_id: 6040
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 3926
+      count: 1
+    - item_id: 4062
+      count: 1
+    - item_id: 3942
+      count: 1
+    - item_id: 3958
+      count: 1
+    - item_id: 6103
+      count: 1
+    - item_id: 6040
+      count: 1
+- id: 89
+  name: Нулевой пациент
+  purchase_gold: 10000000
+  effects:
+  - id: 101
+    characteristic_id: 26
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 11325
+      count: 1
+    - item_id: 11326
+      count: 1
+    - item_id: 11327
+      count: 1
+    - item_id: 11328
+      count: 1
+    - item_id: 11329
+      count: 1
+    - item_id: 11330
+      count: 1
+- id: 90
+  name: Гурман
+  purchase_gold: 100000
+  effects:
+  - id: 102
+    characteristic_id: 42
+    value: 500
+    unit: flat
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 7508
+      count: 1
+    - item_id: 7513
+      count: 1
+    - item_id: 7518
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 7523
+      count: 1
+    - item_id: 7528
+      count: 1
+    - item_id: 7533
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 7538
+      count: 1
+    - item_id: 7543
+      count: 1
+    - item_id: 7548
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 7553
+      count: 1
+    - item_id: 7558
+      count: 1
+    - item_id: 7563
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 7568
+      count: 1
+    - item_id: 7573
+      count: 1
+    - item_id: 7578
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 7583
+      count: 1
+    - item_id: 7588
+      count: 1
+    - item_id: 7593
+      count: 1
+  - id: 7
+    label: Рыба, эль и фрукт
+    items:
+    - item_id: 15839
+      count: 1
+    - item_id: 15844
+      count: 1
+    - item_id: 15849
+      count: 1
+- id: 91
+  name: Повелитель пространства
+  purchase_gold: 10000000
+  effects:
+  - id: 103
+    characteristic_id: 46
+    value: 50
+    unit: flat
+  - id: 104
+    characteristic_id: 44
+    value: 80
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 307
+      count: 50
+    - item_id: 721
+      count: 50
+    - item_id: 49
+      count: 10
+    - item_id: 10001
+      count: 50
+- id: 92
+  name: Пятничный марафон
+  purchase_gold: 1000000
+  effects:
+  - id: 105
+    characteristic_id: 22
+    value: 1
+    unit: percent
+  - id: 106
+    characteristic_id: 5
+    value: -5
+    unit: flat
+  - id: 107
+    characteristic_id: 16
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 490
+      count: 1
+    - item_id: 15839
+      count: 1
+    - item_id: 491
+      count: 1
+- id: 93
+  name: Директор по свежести
+  purchase_gold: 2000000
+  effects:
+  - id: 108
+    characteristic_id: 41
+    value: 500
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 381
+      count: 1
+    - item_id: 382
+      count: 1
+    - item_id: 384
+      count: 1
+    - item_id: 383
+      count: 1
+- id: 94
+  name: Абсолютная Защита
+  purchase_gold: 5000000
+  effects:
+  - id: 109
+    characteristic_id: 4
+    value: 0.1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 7002
+      count: 1
+    - item_id: 7003
+      count: 1
+    - item_id: 7005
+      count: 1
+    - item_id: 7031
+      count: 1
+    - item_id: 7029
+      count: 1
+    - item_id: 7030
+      count: 1
+- id: 95
+  name: Срочная
+  purchase_gold: 50000
+  effects:
+  - id: 110
+    characteristic_id: 39
+    value: 1
+    unit: percent
+  - id: 111
+    characteristic_id: 4
+    value: 0.5
+    unit: percent
+  - id: 112
+    characteristic_id: 38
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2060
+      count: 1
+    - item_id: 2094
+      count: 1
+    - item_id: 2117
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2330
+      count: 1
+    - item_id: 2364
+      count: 1
+    - item_id: 2387
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2600
+      count: 1
+    - item_id: 2634
+      count: 1
+    - item_id: 2657
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2870
+      count: 1
+    - item_id: 2904
+      count: 1
+    - item_id: 2927
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3140
+      count: 1
+    - item_id: 3174
+      count: 1
+    - item_id: 3197
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4057
+      count: 1
+    - item_id: 4073
+      count: 1
+    - item_id: 4089
+      count: 1
+- id: 96
+  name: Наемная
+  purchase_gold: 50000
+  effects:
+  - id: 113
+    characteristic_id: 3
+    value: 0.2
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2061
+      count: 1
+    - item_id: 2095
+      count: 1
+    - item_id: 2118
+      count: 1
+    - item_id: 6476
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2331
+      count: 1
+    - item_id: 2365
+      count: 1
+    - item_id: 2388
+      count: 1
+    - item_id: 6476
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2601
+      count: 1
+    - item_id: 2635
+      count: 1
+    - item_id: 2658
+      count: 1
+    - item_id: 6476
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2871
+      count: 1
+    - item_id: 2905
+      count: 1
+    - item_id: 2928
+      count: 1
+    - item_id: 6476
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3141
+      count: 1
+    - item_id: 3175
+      count: 1
+    - item_id: 3198
+      count: 1
+    - item_id: 6476
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4057
+      count: 1
+    - item_id: 4073
+      count: 1
+    - item_id: 4089
+      count: 1
+    - item_id: 6476
+      count: 1
+- id: 97
+  name: Разящий
+  purchase_gold: 50000
+  relic_purchase_gold: 50000000
+  effects:
+  - id: 114
+    characteristic_id: 2
+    value: 0.1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2063
+      count: 1
+    - item_id: 2097
+      count: 1
+    - item_id: 2120
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2333
+      count: 1
+    - item_id: 2367
+      count: 1
+    - item_id: 2390
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2603
+      count: 1
+    - item_id: 2637
+      count: 1
+    - item_id: 2660
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2873
+      count: 1
+    - item_id: 2907
+      count: 1
+    - item_id: 2930
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3143
+      count: 1
+    - item_id: 3177
+      count: 1
+    - item_id: 3200
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4058
+      count: 1
+    - item_id: 4074
+      count: 1
+    - item_id: 4090
+      count: 1
+  relic_items:
+  - item_id: 19566
+    count: 1
+- id: 98
+  name: Гвардия её величества
+  purchase_gold: 100000
+  effects:
+  - id: 115
+    characteristic_id: 4
+    value: 0.2
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2065
+      count: 1
+    - item_id: 2099
+      count: 1
+    - item_id: 2122
+      count: 1
+    - item_id: 6491
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2335
+      count: 1
+    - item_id: 2369
+      count: 1
+    - item_id: 2392
+      count: 1
+    - item_id: 6491
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2605
+      count: 1
+    - item_id: 2639
+      count: 1
+    - item_id: 2662
+      count: 1
+    - item_id: 6491
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2875
+      count: 1
+    - item_id: 2909
+      count: 1
+    - item_id: 2932
+      count: 1
+    - item_id: 6491
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3145
+      count: 1
+    - item_id: 3179
+      count: 1
+    - item_id: 3202
+      count: 1
+    - item_id: 6491
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4060
+      count: 1
+    - item_id: 4076
+      count: 1
+    - item_id: 4092
+      count: 1
+    - item_id: 6491
+      count: 1
+- id: 99
+  name: Упивающийся стрелок
+  purchase_gold: 50000
+  effects:
+  - id: 116
+    characteristic_id: 5
+    value: 20
+    unit: flat
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2150
+      count: 1
+    - item_id: 2191
+      count: 1
+    - item_id: 2218
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2420
+      count: 1
+    - item_id: 2461
+      count: 1
+    - item_id: 2488
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2690
+      count: 1
+    - item_id: 2731
+      count: 1
+    - item_id: 2758
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2960
+      count: 1
+    - item_id: 3001
+      count: 1
+    - item_id: 3028
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3230
+      count: 1
+    - item_id: 3271
+      count: 1
+    - item_id: 3298
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4061
+      count: 1
+    - item_id: 4077
+      count: 1
+    - item_id: 4093
+      count: 1
+- id: 100
+  name: Сверхсрочная
+  purchase_gold: 100000
+  effects:
+  - id: 117
+    characteristic_id: 6
+    value: 1
+    unit: percent
+  variants:
+  - id: 0
+    label: Империя
+    items:
+    - item_id: 2067
+      count: 1
+    - item_id: 2101
+      count: 1
+    - item_id: 2124
+      count: 1
+    - item_id: 6479
+      count: 1
+  - id: 1
+    label: Альянс
+    items:
+    - item_id: 2337
+      count: 1
+    - item_id: 2371
+      count: 1
+    - item_id: 2394
+      count: 1
+    - item_id: 6479
+      count: 1
+  - id: 2
+    label: Доминион
+    items:
+    - item_id: 2607
+      count: 1
+    - item_id: 2641
+      count: 1
+    - item_id: 2664
+      count: 1
+    - item_id: 6479
+      count: 1
+  - id: 3
+    label: Орда
+    items:
+    - item_id: 2877
+      count: 1
+    - item_id: 2911
+      count: 1
+    - item_id: 2934
+      count: 1
+    - item_id: 6479
+      count: 1
+  - id: 4
+    label: Союз
+    items:
+    - item_id: 3147
+      count: 1
+    - item_id: 3181
+      count: 1
+    - item_id: 3204
+      count: 1
+    - item_id: 6479
+      count: 1
+  - id: 5
+    label: Легион
+    items:
+    - item_id: 4062
+      count: 1
+    - item_id: 4078
+      count: 1
+    - item_id: 4094
+      count: 1
+    - item_id: 6479
+      count: 1
+- id: 101
+  name: Удача охотника
+  purchase_gold: 100000000
+  effects:
+  - id: 118
+    characteristic_id: 26
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 20475
+      count: 1
+    - item_id: 20477
+      count: 1
+    - item_id: 20481
+      count: 1
+    - item_id: 20485
+      count: 1
+- id: 102
+  name: Жажда силы
+  purchase_gold: 200000
+  effects:
+  - id: 119
+    characteristic_id: 2
+    value: 0.3
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23280
+      count: 2
+    - item_id: 19738
+      count: 4
+    - item_id: 768
+      count: 2
+- id: 103
+  name: Боязнь боли
+  purchase_gold: 100000
+  effects:
+  - id: 120
+    characteristic_id: 4
+    value: 0.3
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23281
+      count: 2
+    - item_id: 19739
+      count: 4
+    - item_id: 768
+      count: 2
+- id: 104
+  name: Искатель сокровищ
+  purchase_gold: 100000
+  effects:
+  - id: 121
+    characteristic_id: 7
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23281
+      count: 2
+    - item_id: 19740
+      count: 4
+    - item_id: 768
+      count: 2
+- id: 105
+  name: Жажда великой силы
+  purchase_gold: 500000
+  effects:
+  - id: 122
+    characteristic_id: 2
+    value: 0.4
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23281
+      count: 5
+    - item_id: 154
+      count: 10
+    - item_id: 768
+      count: 5
+- id: 106
+  name: Боязнь сильной боли
+  purchase_gold: 250000
+  effects:
+  - id: 123
+    characteristic_id: 38
+    value: 0.4
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23281
+      count: 5
+    - item_id: 155
+      count: 10
+    - item_id: 768
+      count: 5
+- id: 107
+  name: Искушённый искатель сокровищ
+  purchase_gold: 250000
+  effects:
+  - id: 124
+    characteristic_id: 7
+    value: 0.6
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23280
+      count: 5
+    - item_id: 156
+      count: 10
+    - item_id: 768
+      count: 5
+- id: 108
+  name: Великая сила
+  purchase_gold: 20000000
+  effects:
+  - id: 125
+    characteristic_id: 2
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23280
+      count: 10
+    - item_id: 151
+      count: 20
+    - item_id: 768
+      count: 10
+- id: 109
+  name: Принятие боли
+  purchase_gold: 10000000
+  effects:
+  - id: 126
+    characteristic_id: 42
+    value: 600
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23281
+      count: 10
+    - item_id: 152
+      count: 20
+    - item_id: 768
+      count: 10
+- id: 110
+  name: Сокровища
+  purchase_gold: 10000000
+  effects:
+  - id: 127
+    characteristic_id: 7
+    value: 0.9
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23280
+      count: 10
+    - item_id: 153
+      count: 20
+    - item_id: 768
+      count: 10
+- id: 111
+  name: Олимпиец
+  purchase_gold: 10000000
+  effects:
+  - id: 128
+    characteristic_id: 31
+    value: 1
+    unit: percent
+  - id: 129
+    characteristic_id: 27
+    value: 1
+    unit: percent
+  - id: 130
+    characteristic_id: 29
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 16942
+      count: 5000
+    - item_id: 1101
+      count: 1
+- id: 112
+  name: Олимпийский призер
+  purchase_gold: 25000000
+  effects:
+  - id: 131
+    characteristic_id: 31
+    value: 1
+    unit: percent
+  - id: 132
+    characteristic_id: 27
+    value: 1
+    unit: percent
+  - id: 133
+    characteristic_id: 29
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 16942
+      count: 15000
+    - item_id: 1101
+      count: 3
+- id: 113
+  name: Легкая рвань
+  purchase_gold: 2000000
+  relic_purchase_gold: 2000000000
+  effects:
+  - id: 134
+    characteristic_id: 2
+    value: 1
+    unit: percent
+  - id: 135
+    characteristic_id: 7
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 3467
+      count: 1
+    - item_id: 3468
+      count: 1
+    - item_id: 3469
+      count: 1
+    - item_id: 3470
+      count: 1
+    - item_id: 3471
+      count: 1
+  relic_items:
+  - item_id: 19573
+    count: 1
+- id: 114
+  name: Ярость Дракса
+  purchase_gold: 500000
+  effects:
+  - id: 136
+    characteristic_id: 22
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5519
+      count: 1
+    - item_id: 14748
+      count: 1
+    - item_id: 16627
+      count: 1
+    - item_id: 17520
+      count: 1
+- id: 115
+  name: Поделки Гаста
+  purchase_gold: 100000
+  relic_purchase_gold: 2000000000
+  effects:
+  - id: 137
+    characteristic_id: 2
+    value: 0.4
+    unit: percent
+  - id: 138
+    characteristic_id: 7
+    value: 0.7
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5318
+      count: 1
+    - item_id: 5319
+      count: 1
+    - item_id: 5523
+      count: 1
+    - item_id: 20475
+      count: 1
+  relic_items:
+  - item_id: 22943
+    count: 1
+- id: 116
+  name: Воля Стрелка
+  purchase_gold: 50000
+  effects:
+  - id: 139
+    characteristic_id: 2
+    value: 0.4
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 1983
+      count: 100
+    - item_id: 8073
+      count: 1
+    - item_id: 11732
+      count: 1
+- id: 117
+  name: Рыцарь Дэвиан
+  purchase_gold: 250000
+  effects:
+  - id: 140
+    characteristic_id: 38
+    value: 0.8
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 3575
+      count: 1
+    - item_id: 3587
+      count: 1
+    - item_id: 3599
+      count: 1
+    - item_id: 14754
+      count: 1
+    - item_id: 16872
+      count: 1000
+- id: 118
+  name: Фаберже
+  purchase_gold: 100000
+  effects:
+  - id: 141
+    characteristic_id: 42
+    value: 400
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 8661
+      count: 1
+    - item_id: 8662
+      count: 1
+    - item_id: 8663
+      count: 1
+- id: 119
+  name: Стального
+  purchase_gold: 2500000
+  effects:
+  - id: 142
+    characteristic_id: 4
+    value: 0.3
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 7021
+      count: 1
+    - item_id: 6084
+      count: 1
+    - item_id: 6165
+      count: 1
+    - item_id: 6168
+      count: 1
+    - item_id: 6296
+      count: 1
+    - item_id: 7020
+      count: 1
+- id: 120
+  name: Сокровища Лорака
+  purchase_gold: 1500000
+  effects:
+  - id: 143
+    characteristic_id: 4
+    value: 0.2
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6087
+      count: 1
+    - item_id: 6126
+      count: 1
+    - item_id: 7015
+      count: 1
+    - item_id: 7024
+      count: 1
+- id: 121
+  name: Вестник Тиарэ
+  purchase_gold: 2000000
+  effects:
+  - id: 144
+    characteristic_id: 19
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6053
+      count: 1
+    - item_id: 6061
+      count: 1
+    - item_id: 6456
+      count: 1
+    - item_id: 11205
+      count: 1
+    - item_id: 11823
+      count: 1
+    - item_id: 12915
+      count: 1
+- id: 122
+  name: Каменной Элегии
+  purchase_gold: 500000
+  effects:
+  - id: 145
+    characteristic_id: 11
+    value: 0.1
+    unit: percent
+  - id: 146
+    characteristic_id: 3
+    value: 0.1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 20157
+      count: 1
+    - item_id: 16240
+      count: 50
+    - item_id: 16241
+      count: 50
+- id: 123
+  name: Гербалист
+  purchase_gold: 1000000
+  effects:
+  - id: 147
+    characteristic_id: 25
+    value: 2
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 11810
+      count: 50
+    - item_id: 11811
+      count: 50
+    - item_id: 11812
+      count: 50
+- id: 124
+  name: Отважный
+  purchase_gold: 2000000
+  effects:
+  - id: 148
+    characteristic_id: 7
+    value: 0.5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5060
+      count: 1
+    - item_id: 5063
+      count: 1
+    - item_id: 5335
+      count: 1
+- id: 125
+  name: Коралловые бусы
+  purchase_gold: 50000
+  relic_purchase_gold: 2000000000
+  effects:
+  - id: 149
+    characteristic_id: 25
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 5300
+      count: 1
+    - item_id: 5321
+      count: 1
+    - item_id: 5341
+      count: 1
+  relic_items:
+  - item_id: 22915
+    count: 1
+- id: 126
+  name: Робин гуд
+  purchase_gold: 100000
+  effects:
+  - id: 150
+    characteristic_id: 13
+    value: 10
+    unit: flat
+  - id: 151
+    characteristic_id: 5
+    value: 5
+    unit: flat
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 23317
+      count: 1
+    - item_id: 23318
+      count: 1
+    - item_id: 23319
+      count: 1
+    - item_id: 23320
+      count: 1
+    - item_id: 6278
+      count: 1
+- id: 127
+  name: Мастер на все луки
+  purchase_gold: 2000000
+  effects:
+  - id: 152
+    characteristic_id: 26
+    value: 1
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 6264
+      count: 1
+    - item_id: 6266
+      count: 1
+    - item_id: 6281
+      count: 1
+- id: 128
+  name: Орб вечности
+  purchase_gold: 100
+  relic_purchase_gold: 2000000000
+  effects:
+  - id: 153
+    characteristic_id: 58
+    value: 25
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 24443
+      count: 10000
+    - item_id: 19538
+      count: 1000
+    - item_id: 57
+      count: 100000
+  relic_items:
+  - item_id: 19583
+    count: 1
+- id: 129
+  name: Новогодний переполох
+  purchase_gold: 5000000
+  relic_purchase_gold: 2000000000
+  effects:
+  - id: 154
+    characteristic_id: 36
+    value: 500
+    unit: flat
+  - id: 155
+    characteristic_id: 33
+    value: 1
+    unit: percent
+  - id: 156
+    characteristic_id: 25
+    value: 5
+    unit: percent
+  variants:
+  - id: 8
+    label: Общий состав
+    items:
+    - item_id: 501
+      count: 40000
+    - item_id: 490
+      count: 12
+  relic_items:
+  - item_id: 490
+    count: 24

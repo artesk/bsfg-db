@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=equipment-cards">
+  <link rel="stylesheet" href="assets/styles.css?v=collections">
 </head>
 <body>
   <header class="site-header">
@@ -17,6 +17,7 @@
       <a href="#/news">Что нового</a>
       <a href="#/professions">Профессии</a>
       <a href="#/specifications">Характеристики</a>
+      <a href="#/collections">Коллекции</a>
       <a href="#/items/equipment">Экипировка</a>
       <a href="#/items/weapons">Оружие</a>
       <a href="#/items/pit-boss-jewelry">Бижутерия Пит-боссов</a>
@@ -73,6 +74,12 @@
               <div>
                 <h3>Экипировка</h3>
                 <p>Комплекты брони, украшения, щиты и другие предметы по рангам.</p>
+              </div>
+            </a>
+            <a class="directory-link home-link" href="#/collections">
+              <div>
+                <h3>Коллекции</h3>
+                <p>Состав, бонусы и поиск коллекций по нужной характеристике.</p>
               </div>
             </a>
             <a class="directory-link home-link" href="#/items/weapons">
@@ -186,6 +193,51 @@
         </div>
       </div>
       <div class="map-source"><span>BSFG · База знаний сообщества</span><a id="map-source" target="_blank" rel="noreferrer">Архивная карта BSFG ↗</a></div>
+    </section>
+  </template>
+
+  <template id="collections-template">
+    <section class="collections-page" aria-labelledby="collections-heading">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <a href="#/">Главная</a><span>/</span><span aria-current="page">Коллекции</span>
+      </nav>
+      <header class="hero">
+        <p class="eyebrow">Справочник BSFG</p>
+        <h1 id="collections-heading">Коллекции</h1>
+        <p class="hero-copy">Найдите нужный бонус, посмотрите состав для своей расы и стоимость покупки коллекции за золото.</p>
+      </header>
+      <div class="collections-toolbar">
+        <label class="collection-search-field">
+          <span>Поиск</span>
+          <input id="collection-search" type="search" placeholder="Название, предмет или характеристика" autocomplete="off" aria-controls="collection-results">
+        </label>
+        <label>
+          <span>Характеристика</span>
+          <select id="collection-characteristic" aria-controls="collection-results"><option value="">Все характеристики</option></select>
+        </label>
+        <label class="collection-race-field">
+          <span>Раса</span>
+          <select id="collection-race" aria-controls="collection-results">
+            <option value="0">Империя</option>
+            <option value="1">Альянс</option>
+            <option value="2">Доминион</option>
+            <option value="3">Орда</option>
+            <option value="4">Союз</option>
+            <option value="5">Легион</option>
+          </select>
+        </label>
+        <button id="collection-reset" class="class-option" type="button" disabled>Сбросить</button>
+      </div>
+      <div class="collections-result-heading">
+        <p id="collection-count" role="status" aria-live="polite" aria-atomic="true"></p>
+        <p>Показаны базовые бонусы коллекций.</p>
+      </div>
+      <div id="collection-results" class="collection-grid"></div>
+      <div id="collection-empty" class="empty-state" hidden>
+        <h2>Коллекции не найдены</h2>
+        <p>Попробуйте другое название, выберите другую расу или сбросьте фильтры.</p>
+      </div>
+      <p class="collection-source">По данным клиента <span id="collection-release"></span>. Доступность отдельных коллекций может зависеть от игрового события.</p>
     </section>
   </template>
 
@@ -324,6 +376,11 @@
         <section class="specifications-group" aria-labelledby="specifications-collectibles">
           <h2 id="specifications-collectibles">Артефакты, карты, трофеи и реликвии</h2>
           <div class="specifications-grid">
+            <a class="directory-link specifications-link" href="#/collections">
+              <span class="collection-directory-icon" aria-hidden="true">✦</span>
+              <h3>Коллекции</h3>
+              <p>Бонусы, состав и поиск по характеристике.</p>
+            </a>
             <a class="directory-link specifications-link" href="#/specifications/sibyl-cards">
               <img src="assets/icons/specifications/sibyl-cards.webp" width="44" height="44" alt="">
               <h3>Карты Сивиллы</h3>
@@ -545,6 +602,6 @@
   </template>
 
   <script src="assets/map.js?v=map-expedition" defer></script>
-  <script src="assets/app.js?v=equipment-cards" defer></script>
+  <script src="assets/app.js?v=collections" defer></script>
 </body>
 </html>

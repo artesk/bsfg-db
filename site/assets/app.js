@@ -132,6 +132,7 @@ const gearData = new Map();
 let archiveIndex;
 let worldMap;
 let pitJewelry;
+let collectionData;
 let routeVersion = 0;
 let disposeStream;
 let disposeMap;
@@ -748,6 +749,134 @@ async function loadJson(path) {
   const response = await fetch(path);
   if (!response.ok) throw new Error("HTTP " + response.status);
   return response.json();
+}
+
+function renderCollections(data) {
+  document.title = "Коллекции — База знаний BSFG";
+  app.replaceChildren(cloneTemplate("#collections-template"));
+  document.querySelector("#collection-release").textContent = data.client_release;
+  const items = new Map(data.items.map(item => [item.id, item]));
+  const characteristics = new Map(data.characteristics.map(row => [row.id, row]));
+  const search = document.querySelector("#collection-search");
+  const filter = document.querySelector("#collection-characteristic");
+  const race = document.querySelector("#collection-race");
+  const reset = document.querySelector("#collection-reset");
+  const results = document.querySelector("#collection-results");
+  const count = document.querySelector("#collection-count");
+  const empty = document.querySelector("#collection-empty");
+  const itemText = list => list.map(({item_id}) => {
+    const item = items.get(item_id);
+    return item.name + " " + (item.label || "");
+  }).join(" ");
+  const entries = data.collections.map(row => {
+    const common = [row.name, ...row.effects.flatMap(effect => {
+      const characteristic = characteristics.get(effect.characteristic_id);
+      return [characteristic.name, ...(characteristic.aliases || [])];
+    })].join(" ");
+    const relicText = normalize(itemText(row.relic_items || []));
+    return {row, relicText, variants: row.variants.map(variant => ({
+      ...variant, searchText: normalize([common, variant.label, itemText(variant.items), relicText].join(" ")),
+    }))};
+  });
+  for (const characteristic of [...characteristics.values()].sort((a, b) => a.name.localeCompare(b.name, "ru"))) {
+    const total = data.collections.filter(row => row.effects.some(effect => effect.characteristic_id === characteristic.id)).length;
+    if (total) filter.append(new Option(characteristic.name + " (" + total + ")", characteristic.id));
+  }
+  function refresh() {
+    const tokens = normalize(search.value.trim()).split(/\s+/).filter(Boolean);
+    const selected = Number(filter.value);
+    const cards = [];
+    for (const entry of entries) {
+      if (selected && !entry.row.effects.some(effect => effect.characteristic_id === selected)) continue;
+      const variant = entry.variants.find(variant => variant.id === Number(race.value))
+        || entry.variants.find(variant => variant.id === 8);
+      const alternatives = entry.variants.filter(variant => variant.id > 5 && variant.id !== 8);
+      if (!variant || ![variant, ...alternatives].some(variant => tokens.every(token => variant.searchText.includes(token)))) continue;
+      cards.push(renderCollectionCard(entry.row, variant, alternatives, items, characteristics, selected,
+        tokens.some(token => entry.relicText.includes(token)), tokens.length > 0));
+    }
+    results.replaceChildren(...cards);
+    count.textContent = "Найдено " + cards.length + " из " + data.collections.length;
+    empty.hidden = cards.length > 0;
+    reset.disabled = !search.value && !filter.value && race.value === "0";
+  }
+  search.addEventListener("input", refresh);
+  filter.addEventListener("change", refresh);
+  race.addEventListener("change", refresh);
+  reset.addEventListener("click", () => {
+    search.value = "";
+    filter.value = "";
+    race.value = "0";
+    refresh();
+    search.focus();
+  });
+  refresh();
+}
+
+function renderCollectionItems(ingredients, items) {
+  const list = el("ul", "collection-items");
+  for (const ingredient of ingredients) {
+    const item = items.get(ingredient.item_id);
+    const row = el("li", "collection-item");
+    row.dataset.itemId = item.id;
+    const name = el("span", "collection-item-name", item.name);
+    if (item.label) name.append(el("small", "", item.label));
+    const quantity = el("span", "collection-item-count", "×" + ingredient.count.toLocaleString("ru-RU"));
+    quantity.setAttribute("aria-label", "Количество: " + ingredient.count.toLocaleString("ru-RU"));
+    row.append(renderIcon(localIconUrl(item.icon), item.name, "branch-icon"), name, quantity);
+    list.append(row);
+  }
+  return list;
+}
+
+function renderCollectionCard(collection, variant, alternatives, items, characteristics, selectedCharacteristic, showRelic, searching) {
+  const card = el("article", "collection-card");
+  card.dataset.collectionId = collection.id;
+  const title = el("h2", "", collection.name);
+  title.id = "collection-" + collection.id;
+  card.setAttribute("aria-labelledby", title.id);
+  const effects = el("dl", "collection-effects");
+  effects.setAttribute("aria-label", "Бонусы коллекции");
+  for (const effect of collection.effects) {
+    const row = el("div", effect.characteristic_id === selectedCharacteristic ? "is-selected" : "");
+    const label = el("dt", "", characteristics.get(effect.characteristic_id).name);
+    const value = (effect.value < 0 ? "−" : "+")
+      + Math.abs(effect.value).toLocaleString("ru-RU", {maximumFractionDigits: 6})
+      + (effect.unit === "percent" ? "%" : "");
+    row.append(label, el("dd", effect.value < 0 ? "negative-effect" : "", value));
+    effects.append(row);
+  }
+  const heading = el("div", "collection-composition-heading");
+  heading.append(el("h3", "", "Состав"));
+  if (variant.id !== 8) heading.append(el("span", "collection-race-label", variant.label));
+  const composition = el("div", "collection-composition");
+  composition.append(renderCollectionItems(variant.items, items));
+  card.append(title, effects, heading, composition);
+  const purchase = el("p", "collection-purchase");
+  purchase.append(el("span", "", "Покупка вместо сбора"),
+    el("strong", "", collection.purchase_gold.toLocaleString("ru-RU") + " золота"));
+  card.append(purchase);
+  for (const alternative of alternatives) {
+    const details = el("details", "collection-alternative");
+    details.open = searching;
+    details.append(el("summary", "", "Другой вариант: " + alternative.label),
+      renderCollectionItems(alternative.items, items));
+    card.append(details);
+  }
+  if (collection.relic_items?.length) {
+    const details = el("details", "collection-relic");
+    details.open = showRelic;
+    details.append(el("summary", "", "Для реликтовой коллекции"),
+      renderCollectionItems(collection.relic_items, items));
+    if (collection.relic_purchase_gold) {
+      const price = el("p", "collection-purchase");
+      price.append(el("span", "", "Покупка реликтовой коллекции"),
+        el("strong", "", collection.relic_purchase_gold.toLocaleString("ru-RU") + " золота"));
+      details.append(price);
+    }
+    card.append(details);
+  }
+  return card;
 }
 
 function renderEquipment(path, catalog, category, data) {
@@ -1682,6 +1811,13 @@ async function route() {
     } else if (path === "/specifications") {
       document.title = "Характеристики — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#specifications-template"));
+    } else if (path === "/collections") {
+      if (!collectionData) {
+        app.replaceChildren(cloneTemplate("#loading-template"));
+        collectionData = await loadJson("data/collections.json");
+      }
+      if (version !== routeVersion) return;
+      renderCollections(collectionData);
     } else if (path === "/guides") {
       document.title = "Гайды — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#guides-template"));

@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import math
 import re
 from datetime import date
 from pathlib import Path
@@ -576,6 +577,87 @@ def load_gear(content: Path, page: str) -> dict[str, Any]:
     return data
 
 
+def load_collections(content: Path) -> dict[str, Any]:
+    path = content / "collections.yaml"
+    data = require_mapping(load_yaml(path), path, "collections")
+    if not CLIENT_RELEASE_PATTERN.fullmatch(require_string(data, "client_release", path, "collections")):
+        fail(path, "client_release", "ожидался номер релиза клиента")
+
+    def records(value: Any, location: str, *, minimum_id: int = 1) -> list[dict[str, Any]]:
+        rows = require_list(value, path, location)
+        if not rows:
+            fail(path, location, "список не должен быть пустым")
+        ids = set()
+        for index, value in enumerate(rows):
+            row_path = f"{location}[{index}]"
+            row = require_mapping(value, path, row_path)
+            if type(row.get("id")) is not int or row["id"] < minimum_id or row["id"] in ids:
+                fail(path, f"{row_path}.id", "ожидался уникальный допустимый ID")
+            ids.add(row["id"])
+        return rows
+
+    characteristics = records(data.get("characteristics"), "characteristics")
+    characteristic_ids = {row["id"] for row in characteristics}
+    for index, row in enumerate(characteristics):
+        location = f"characteristics[{index}]"
+        require_string(row, "name", path, location)
+        if "aliases" in row:
+            require_string_list(row, "aliases", path, location)
+    items = records(data.get("items"), "items")
+    item_ids = {row["id"] for row in items}
+    for index, row in enumerate(items):
+        location = f"items[{index}]"
+        require_string(row, "name", path, location)
+        if "label" in row:
+            require_string(row, "label", path, location)
+        icon = require_string(row, "icon", path, location)
+        if not icon.startswith("/icon/") or ".." in icon or "\\" in icon:
+            fail(path, f"{location}.icon", "ожидался локальный путь /icon/…")
+
+    def ingredients(value: Any, location: str) -> None:
+        rows = require_list(value, path, location)
+        if not rows:
+            fail(path, location, "состав не должен быть пустым")
+        seen = set()
+        for index, value in enumerate(rows):
+            item_path = f"{location}[{index}]"
+            row = require_mapping(value, path, item_path)
+            item_id = row.get("item_id")
+            if type(item_id) is not int or item_id not in item_ids or item_id in seen:
+                fail(path, f"{item_path}.item_id", "предмет должен существовать и не повторяться в составе")
+            if type(row.get("count")) is not int or row["count"] < 1:
+                fail(path, f"{item_path}.count", "количество должно быть положительным целым числом")
+            seen.add(item_id)
+
+    for index, row in enumerate(records(data.get("collections"), "collections")):
+        location = f"collections[{index}]"
+        require_string(row, "name", path, location)
+        for field in ("purchase_gold", "relic_purchase_gold"):
+            if field == "purchase_gold" or field in row:
+                if type(row.get(field)) is not int or row[field] < 1:
+                    fail(path, f"{location}.{field}", "цена должна быть положительным целым числом в золоте")
+        for effect_index, effect in enumerate(records(row.get("effects"), f"{location}.effects")):
+            effect_path = f"{location}.effects[{effect_index}]"
+            if type(effect.get("characteristic_id")) is not int or effect["characteristic_id"] not in characteristic_ids:
+                fail(path, f"{effect_path}.characteristic_id", "характеристика не найдена")
+            value = effect.get("value")
+            if type(value) not in (int, float) or not math.isfinite(value):
+                fail(path, f"{effect_path}.value", "ожидалось конечное число со знаком эффекта")
+            if effect.get("unit") not in {"percent", "flat"}:
+                fail(path, f"{effect_path}.unit", "ожидалась единица percent или flat")
+            if effect["unit"] == "flat" and value != int(value):
+                fail(path, f"{effect_path}.value", "эффект в единицах должен быть целым числом")
+        for variant_index, variant in enumerate(records(row.get("variants"), f"{location}.variants", minimum_id=0)):
+            variant_path = f"{location}.variants[{variant_index}]"
+            require_string(variant, "label", path, variant_path)
+            ingredients(variant.get("items"), f"{variant_path}.items")
+        if "relic_items" in row:
+            ingredients(row["relic_items"], f"{location}.relic_items")
+        elif "relic_purchase_gold" in row:
+            fail(path, f"{location}.relic_purchase_gold", "цена требует подтверждённого реликтового варианта")
+    return data
+
+
 def load_world_map(content: Path) -> dict[str, Any] | None:
     path = content / "map" / "world.json"
     if not path.is_file():
@@ -725,6 +807,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
     news = load_news(content)
     guides = {slug: load_guide(content, slug) for slug in TEXT_GUIDES}
     gear = {page: load_gear(content, page) for page in GEAR_CATALOGS}
+    collections = load_collections(content)
     icons = {
         path.stem: f"assets/profession-icons/{path.name}"
         for path in sorted(PROFESSION_ICON_DIR.glob("*"))
@@ -818,6 +901,10 @@ def build(content: Path, output: Path) -> tuple[int, int]:
             if "icon" in item and item["icon"] not in available_icons:
                 fail(content / "items" / f"{page}.yaml", str(item["id"]), "файл иконки не найден")
         write_json(output / "items" / f"{page}.json", data)
+    for item in collections["items"]:
+        if "icon" in item and item["icon"] not in available_icons:
+            fail(content / "collections.yaml", str(item["id"]), "файл иконки не найден")
+    write_json(output / "collections.json", collections)
     jewelry_output = output / "items" / "pit-boss-jewelry.json"
     if pit_jewelry is not None:
         for rank in pit_jewelry["ranks"]:
@@ -861,6 +948,7 @@ def main() -> int:
             load_pit_jewelry(args.content.resolve())
             load_world_map(args.content.resolve())
             load_news(args.content.resolve())
+            load_collections(args.content.resolve())
             for slug in TEXT_GUIDES:
                 load_guide(args.content.resolve(), slug)
             for page in GEAR_CATALOGS:

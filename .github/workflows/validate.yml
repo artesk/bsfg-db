@@ -27,6 +27,9 @@ jobs:
       - name: Validate editable content
         run: python generate.py --validate-only
 
+      - name: Test collection content validation
+        run: python -m unittest discover -s tests
+
       - name: Build browser data
         run: python generate.py --output "$RUNNER_TEMP/bsfg-data"
 

@@ -1,80 +1,95 @@
 client_release: 2026.11.06.171000
 upgrade_costs:
-  source: Вручную по данным из игры, 15.11.2026.
-  note: Затраты на получение указанного уровня, без суммирования предыдущих улучшений. Уровни выше 9 пока недоступны для просмотра в игре.
+  source: По данным из игры и сведениям сообщества, 15.11.2026.
+  note: Указан минимальный уровень персонажа для каждой карты. Затраты приведены на получение указанного уровня карты, без суммирования предыдущих улучшений. Стоимость улучшения до уровней 10–15 пока неизвестна.
   # 0 — ресурс не требуется; null — количество пока неизвестно.
   levels:
   - level: 1
+    character_level: 50
     closed_cards: 1
     gold: 0
     knack: 6500
     book_fragments: 0
   - level: 2
+    character_level: 55
     closed_cards: 1
     gold: 100000
     knack: 50000
     book_fragments: 0
   - level: 3
+    character_level: 60
     closed_cards: 2
     gold: 200000
     knack: 125000
     book_fragments: 0
   - level: 4
+    character_level: 65
     closed_cards: 2
     gold: 400000
     knack: 250000
     book_fragments: 0
   - level: 5
+    character_level: 70
     closed_cards: 3
     gold: 800000
     knack: 1000000
     book_fragments: 0
   - level: 6
+    character_level: 75
     closed_cards: 3
     gold: 1200000
     knack: 5000000
     book_fragments: 0
   - level: 7
+    character_level: 80
     closed_cards: 5
     gold: 1600000
     knack: 10000000
     book_fragments: 400
   - level: 8
+    character_level: 83
     closed_cards: 7
     gold: 2000000
     knack: 13000000
     book_fragments: 800
   - level: 9
+    character_level: 85
     closed_cards: 9
     gold: 2500000
     knack: 16000000
     book_fragments: 1200
   - level: 10
+    character_level: 87
     closed_cards: null
     gold: null
     knack: null
     book_fragments: null
   - level: 11
+    character_level: 90
     closed_cards: null
     gold: null
     knack: null
     book_fragments: null
   - level: 12
+    character_level: 93
     closed_cards: null
     gold: null
     knack: null
     book_fragments: null
   - level: 13
+    character_level: 96
     closed_cards: null
     gold: null
     knack: null
     book_fragments: null
   - level: 14
+    character_level: 98
     closed_cards: null
     gold: null
     knack: null
     book_fragments: null
   - level: 15
+    character_level: 100
     closed_cards: null
     gold: null
     knack: null

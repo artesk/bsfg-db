@@ -468,7 +468,7 @@ main:has(> .world-map) { width: 100%; min-height: 0; }
 .sibyl-upgrade-costs { max-width: 900px; margin-bottom: 28px; }
 .sibyl-upgrade-note { color: var(--muted); font-size: 13px; line-height: 1.55; }
 .sibyl-upgrade-table-wrap { overflow-x: auto; }
-.sibyl-upgrade-table-wrap table { min-width: 520px; }
+.sibyl-upgrade-table-wrap table { min-width: 640px; }
 .sibyl-upgrade-table-wrap td { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .progression-catalog-effect {
   margin: 0;

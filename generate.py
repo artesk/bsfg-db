@@ -414,6 +414,9 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
             row = require_mapping(value, path, row_path)
             if type(row.get("level")) is not int or row["level"] != level:
                 fail(path, f"{row_path}.level", "ожидались уровни от 1 без пропусков")
+            character_level = row.get("character_level")
+            if type(character_level) is not int or character_level < 1:
+                fail(path, f"{row_path}.character_level", "ожидался положительный целый уровень персонажа")
             for field in ("closed_cards", "gold", "knack", "book_fragments"):
                 if field not in row:
                     fail(path, f"{row_path}.{field}", "укажите количество или null, если оно неизвестно")

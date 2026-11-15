@@ -48,7 +48,7 @@ const PROGRESSION_PAGES = new Map([
   }],
   ["/specifications/sibyl-cards", {
     title: "Карты Сивиллы", label: "Карта",
-    intro: "Затраты на улучшение, пассивные бонусы и условия срабатывания карт. Числовые параметры эффектов приведены в объёме клиентских подсказок.",
+    intro: "Требования к уровню персонажа, затраты на улучшение, пассивные бонусы и условия срабатывания карт. Числовые параметры эффектов приведены в объёме клиентских подсказок.",
     catalog: {heading: "Каталог карт", all: "Все карты"},
   }],
   ["/specifications/artifacts", {
@@ -1289,7 +1289,7 @@ function renderProgressionPage(path, page, data) {
 function renderSibylUpgradeCosts(costs) {
   const section = el("section", "sibyl-upgrade-costs");
   section.setAttribute("aria-labelledby", "sibyl-upgrade-heading");
-  const heading = el("h2", "enchant-title", "Стоимость улучшения карт");
+  const heading = el("h2", "enchant-title", "Улучшение карт: требования и стоимость");
   heading.id = "sibyl-upgrade-heading";
   const note = el("p", "sibyl-upgrade-note", costs.note + " «—» — не требуется; «?» — пока неизвестно.");
   const wrapper = el("div", "enchant-card sibyl-upgrade-table-wrap");
@@ -1297,10 +1297,11 @@ function renderSibylUpgradeCosts(costs) {
   wrapper.setAttribute("role", "region");
   wrapper.setAttribute("aria-labelledby", heading.id);
   const columns = [
+    ["character_level", "Уровень персонажа"],
     ["closed_cards", "Закрытая карта"], ["gold", "Золото"],
     ["knack", "Сноровка"], ["book_fragments", "Обрывки утерянных книг"],
   ];
-  const table = createEnchantTable("Затраты на получение уровня карты", ["Уровень", ...columns.map(([, label]) => label)]);
+  const table = createEnchantTable("Требования к уровню персонажа и затраты на улучшение карты", ["Уровень карты", ...columns.map(([, label]) => label)]);
   const body = table.createTBody();
   for (const row of costs.levels) {
     const entry = body.insertRow();

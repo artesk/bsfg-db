@@ -778,6 +778,7 @@ function renderEquipment(path, catalog, category, data) {
   for (const value of ranks) {
     if (present.has(value)) rank.append(new Option(value || "Без ранга", value));
   }
+  if (present.has("BA")) rank.value = "BA";
 
   const results = document.querySelector("#equipment-results");
   const counter = document.querySelector("#equipment-count");
@@ -955,7 +956,7 @@ function groupEquipmentSets(sets, itemsById) {
 
 function renderEquipmentPreview(variants, entry, dialog, statKeys) {
   const [first] = entry.items;
-  if (["talismans", "jewelry", "bracelets", "hunter-bracelets"].includes(first.category)) return renderAccessoryPreview(first);
+  if (["talismans", "jewelry", "bracelets", "hunter-bracelets", "shields", "books", "linen", "pet"].includes(first.category)) return renderInlineEquipmentPreview(first);
   const card = el("article", "enchant-card equipment-preview");
   const header = el("header");
   const identity = el("div");
@@ -1027,8 +1028,10 @@ function renderEquipmentPreview(variants, entry, dialog, statKeys) {
   return card;
 }
 
-function renderAccessoryPreview(item) {
+function renderInlineEquipmentPreview(item) {
   const card = el("article", "enchant-card equipment-preview accessory-preview");
+  const hasCraftButton = ["shields", "books", "linen", "pet"].includes(item.category);
+  if (hasCraftButton) card.classList.add("craft-preview");
   card.dataset.itemId = item.id;
   const header = el("header");
   const identity = el("div");
@@ -1048,7 +1051,7 @@ function renderAccessoryPreview(item) {
     if (item.enchant_effect) effects.append(el("p", "progression-effect", "Эффект заточки · " + item.enchant_effect));
     card.append(effects);
   }
-  if (item.recipes?.length) card.append(renderEquipmentRecipes(item));
+  if (item.recipes?.length) card.append(renderEquipmentRecipes(item, false, hasCraftButton ? "Крафт" : "Рецепты"));
   return card;
 }
 
@@ -1125,10 +1128,12 @@ function renderEquipmentItem(item, showRecipes = false) {
   return card;
 }
 
-function renderEquipmentRecipes(item, open = false) {
+function renderEquipmentRecipes(item, open = false, label = "Рецепты") {
   const details = el("details", "equipment-details");
   details.open = open;
-  details.append(el("summary", "", "Рецепты"));
+  const summary = el("summary", "", label);
+  summary.setAttribute("aria-label", label + " — " + item.name);
+  details.append(summary);
   for (const recipe of item.recipes) {
     details.append(el("p", "", "Рецепт " + recipe.id + " · уровень " + recipe.level
       + " · результат ×" + recipe.quantity + " · шанс " + recipe.success + "%"

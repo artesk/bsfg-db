@@ -625,6 +625,19 @@ main:has(> .world-map) { width: 100%; min-height: 0; }
 .accessory-effects p { margin: 0; white-space: pre-line; }
 .accessory-effects p + p { margin-top: 8px; }
 .accessory-preview > .equipment-details { margin-top: 14px; padding: 12px 0 0; }
+.craft-preview > .equipment-details { margin-top: auto; padding-top: 18px; border-top: 0; }
+.craft-preview > .equipment-details summary {
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid #9a8151;
+  border-radius: 5px;
+  background: #251f16;
+  font-size: 13px;
+  font-weight: 650;
+  text-align: center;
+  list-style-position: inside;
+}
+.craft-preview > .equipment-details summary:hover { border-color: var(--accent-2); background: #34291a; }
 .equipment-catalog .equipment-category-heading {
   display: flex;
   align-items: baseline;

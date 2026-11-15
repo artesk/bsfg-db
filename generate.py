@@ -7,6 +7,7 @@ import argparse
 import copy
 import json
 import re
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -631,12 +632,47 @@ def load_world_map(content: Path) -> dict[str, Any] | None:
     return data
 
 
+def load_news(content: Path) -> dict[str, Any]:
+    path = content / "news.yaml"
+    data = require_mapping(load_yaml(path), path, "news")
+    entries = require_list(data.get("entries"), path, "entries")
+    seen_ids: set[str] = set()
+    for index, value in enumerate(entries):
+        location = f"entries[{index}]"
+        entry = require_mapping(value, path, location)
+        entry_id = require_string(entry, "id", path, location)
+        if not SLUG_PATTERN.fullmatch(entry_id) or entry_id in seen_ids:
+            fail(path, f"{location}.id", "ожидался уникальный идентификатор записи")
+        seen_ids.add(entry_id)
+        published = require_string(entry, "date", path, location)
+        try:
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", published):
+                raise ValueError
+            date.fromisoformat(published)
+        except ValueError:
+            fail(path, f"{location}.date", "ожидалась дата в формате YYYY-MM-DD")
+        require_string(entry, "title", path, location)
+        changes = require_string_list(entry, "changes", path, location)
+        if not changes or any(not text.strip() for text in changes):
+            fail(path, f"{location}.changes", "нужен хотя бы один непустой пункт обновления")
+        for link_index, link_value in enumerate(require_list(entry.get("links", []), path, f"{location}.links")):
+            link_path = f"{location}.links[{link_index}]"
+            link = require_mapping(link_value, path, link_path)
+            require_string(link, "label", path, link_path)
+            href = require_string(link, "href", path, link_path)
+            if not re.fullmatch(r"#/[a-z0-9/-]+", href):
+                fail(path, f"{link_path}.href", "ожидалась ссылка на раздел сайта, например #/specifications/sibyl-cards")
+    entries.sort(key=lambda entry: entry["date"], reverse=True)
+    return data
+
+
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
     enchantments = {page: load_enchantments(content, page) for page in ENCHANTMENT_PAGES}
     progression = {page: load_progression(content, page) for page in PROGRESSION_PAGES}
     pit_jewelry = load_pit_jewelry(content)
     world_map = load_world_map(content)
+    news = load_news(content)
     gear = {page: load_gear(content, page) for page in GEAR_CATALOGS}
     icons = {
         path.stem: f"assets/profession-icons/{path.name}"
@@ -746,6 +782,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
         write_json(map_output, world_map)
     else:
         map_output.unlink(missing_ok=True)
+    write_json(output / "news.json", news)
     return len(catalog), total_records
 
 def parse_args() -> argparse.Namespace:
@@ -770,6 +807,7 @@ def main() -> int:
                 load_progression(args.content.resolve(), page)
             load_pit_jewelry(args.content.resolve())
             load_world_map(args.content.resolve())
+            load_news(args.content.resolve())
             for page in GEAR_CATALOGS:
                 load_gear(args.content.resolve(), page)
             print(f"VALID professions={len(documents)} content={args.content.resolve()}")

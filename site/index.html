@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=sibyl-levels">
+  <link rel="stylesheet" href="assets/styles.css?v=whats-new">
 </head>
 <body>
   <header class="site-header">
@@ -14,6 +14,7 @@
       <span><strong>BSFG</strong><small>база знаний</small></span>
     </a>
     <nav class="site-nav" aria-label="Разделы сайта">
+      <a href="#/news">Что нового</a>
       <a href="#/professions">Профессии</a>
       <a href="#/specifications">Характеристики</a>
       <a href="#/items/equipment">Экипировка</a>
@@ -98,6 +99,12 @@
                 <p>Новая интерактивная карта мира BSFG.</p>
               </div>
             </a>
+            <a class="directory-link home-link" href="#/news">
+              <div>
+                <h3>Что нового</h3>
+                <p>Обновления базы и значимые изменения функциональности сайта.</p>
+              </div>
+            </a>
           </div>
         </nav>
         <section class="home-stream" aria-labelledby="home-stream-title">
@@ -110,6 +117,19 @@
         </section>
       </div>
     </article>
+  </template>
+
+  <template id="news-template">
+    <section class="news-page" aria-labelledby="news-heading">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <a href="#/">Главная</a><span>/</span><span aria-current="page">Что нового</span>
+      </nav>
+      <header class="hero">
+        <h1 id="news-heading">Что нового</h1>
+        <p class="hero-copy">Обновления базы и значимые изменения функциональности сайта.</p>
+      </header>
+      <ol id="news-list" class="news-list" aria-label="История обновлений"></ol>
+    </section>
   </template>
 
   <template id="embedded-map-template">
@@ -503,6 +523,6 @@
   </template>
 
   <script src="assets/map.js?v=map-expedition" defer></script>
-  <script src="assets/app.js?v=sibyl-levels" defer></script>
+  <script src="assets/app.js?v=whats-new" defer></script>
 </body>
 </html>

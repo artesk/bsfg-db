@@ -1544,6 +1544,39 @@ function renderJewelryItem(item) {
   return card;
 }
 
+function renderNews(data) {
+  document.title = "Что нового — База знаний BSFG";
+  app.replaceChildren(cloneTemplate("#news-template"));
+  const list = document.querySelector("#news-list");
+  const dateFormat = new Intl.DateTimeFormat("ru-RU", {
+    day: "numeric", month: "long", year: "numeric", timeZone: "UTC",
+  });
+  for (const entry of data.entries) {
+    const item = el("li");
+    const article = el("article", "enchant-card news-entry");
+    const heading = el("h2", "", entry.title);
+    heading.id = "news-" + entry.id;
+    article.setAttribute("aria-labelledby", heading.id);
+    const published = el("time", "news-date", dateFormat.format(new Date(entry.date + "T00:00:00Z")));
+    published.dateTime = entry.date;
+    const changes = el("ul", "news-changes");
+    changes.append(...entry.changes.map(text => el("li", "", text)));
+    article.append(published, heading, changes);
+    if (entry.links?.length) {
+      const links = el("div", "news-links");
+      for (const link of entry.links) {
+        const anchor = el("a", "", link.label);
+        anchor.href = link.href;
+        links.append(anchor);
+      }
+      article.append(links);
+    }
+    item.append(article);
+    list.append(item);
+  }
+  if (!data.entries.length) list.after(el("p", "empty-state", "Скоро здесь появятся новости базы."));
+}
+
 async function route() {
   const version = ++routeVersion;
   disposeStream?.();
@@ -1578,6 +1611,11 @@ async function route() {
       document.title = "База знаний BSFG";
       app.replaceChildren(cloneTemplate("#home-template"));
       disposeStream = mountStream(app.querySelector(".home-stream"));
+    } else if (path === "/news") {
+      app.replaceChildren(cloneTemplate("#loading-template"));
+      const data = await loadJson("data/news.json");
+      if (version !== routeVersion) return;
+      renderNews(data);
     } else if (path === "/specifications") {
       document.title = "Характеристики — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#specifications-template"));

@@ -1,7 +1,7 @@
 client_release: 2026.11.06.171000
 upgrade_costs:
   source: Вручную по данным из игры, 15.11.2026.
-  note: Затраты на получение указанного уровня, без суммирования предыдущих улучшений. Уровень 4 и уровни выше 9 пока недоступны для просмотра в игре.
+  note: Затраты на получение указанного уровня, без суммирования предыдущих улучшений. Уровни выше 9 пока недоступны для просмотра в игре.
   # 0 — ресурс не требуется; null — количество пока неизвестно.
   levels:
   - level: 1
@@ -20,10 +20,10 @@ upgrade_costs:
     knack: 125000
     book_fragments: 0
   - level: 4
-    closed_cards: null
-    gold: null
-    knack: null
-    book_fragments: null
+    closed_cards: 2
+    gold: 400000
+    knack: 250000
+    book_fragments: 0
   - level: 5
     closed_cards: 3
     gold: 800000

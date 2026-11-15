@@ -48,7 +48,7 @@ const PROGRESSION_PAGES = new Map([
   }],
   ["/specifications/sibyl-cards", {
     title: "Карты Сивиллы", label: "Карта",
-    intro: "Пассивные бонусы и условия срабатывания карт. Числовые параметры приведены в объёме клиентских подсказок.",
+    intro: "Затраты на улучшение, пассивные бонусы и условия срабатывания карт. Числовые параметры эффектов приведены в объёме клиентских подсказок.",
     catalog: {heading: "Каталог карт", all: "Все карты"},
   }],
   ["/specifications/artifacts", {
@@ -1150,6 +1150,10 @@ function renderProgressionPage(path, page, data) {
   document.querySelector("#progression-group-label").textContent = page.label;
   const military = path === MILITARY_PATH;
   if (military) renderMilitaryCalculator(data);
+  if (data.upgrade_costs) {
+    document.querySelector("#progression-calculator").after(renderSibylUpgradeCosts(data.upgrade_costs));
+    document.querySelector("#progression-release").parentElement.prepend("Описания и эффекты карт. ");
+  }
   const search = document.querySelector("#progression-search");
   const kind = document.querySelector("#progression-kind");
   const select = document.querySelector("#progression-group");
@@ -1280,6 +1284,39 @@ function renderProgressionPage(path, page, data) {
   kind.addEventListener("change", filterGroups);
   select.addEventListener("change", showGroup);
   filterGroups();
+}
+
+function renderSibylUpgradeCosts(costs) {
+  const section = el("section", "sibyl-upgrade-costs");
+  section.setAttribute("aria-labelledby", "sibyl-upgrade-heading");
+  const heading = el("h2", "enchant-title", "Стоимость улучшения карт");
+  heading.id = "sibyl-upgrade-heading";
+  const note = el("p", "sibyl-upgrade-note", costs.note + " «—» — не требуется; «?» — пока неизвестно.");
+  const wrapper = el("div", "enchant-card sibyl-upgrade-table-wrap");
+  wrapper.tabIndex = 0;
+  wrapper.setAttribute("role", "region");
+  wrapper.setAttribute("aria-labelledby", heading.id);
+  const columns = [
+    ["closed_cards", "Закрытая карта"], ["gold", "Золото"],
+    ["knack", "Сноровка"], ["book_fragments", "Обрывки утерянных книг"],
+  ];
+  const table = createEnchantTable("Затраты на получение уровня карты", ["Уровень", ...columns.map(([, label]) => label)]);
+  const body = table.createTBody();
+  for (const row of costs.levels) {
+    const entry = body.insertRow();
+    const level = el("th", "", row.level);
+    level.scope = "row";
+    entry.append(level);
+    for (const [field] of columns) {
+      const amount = row[field];
+      const cell = el("td", "", amount == null ? "?" : amount === 0 ? "—" : amount.toLocaleString("ru-RU"));
+      if (amount == null || amount === 0) cell.setAttribute("aria-label", amount == null ? "Пока неизвестно" : "Не требуется");
+      entry.append(cell);
+    }
+  }
+  wrapper.append(table);
+  section.append(heading, note, wrapper, el("p", "sibyl-upgrade-note", "Источник: " + costs.source));
+  return section;
 }
 
 function renderProgressionCatalogCard(group) {

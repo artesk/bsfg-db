@@ -404,6 +404,22 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
     group_keys: set[str | int] = set()
     record_ids: set[int] = set()
     id_key = PROGRESSION_PAGES[page]
+    if sibyl_cards:
+        costs = require_mapping(data.get("upgrade_costs"), path, "upgrade_costs")
+        require_string(costs, "source", path, "upgrade_costs")
+        require_string(costs, "note", path, "upgrade_costs")
+        cost_levels = require_list(costs.get("levels"), path, "upgrade_costs.levels")
+        for level, value in enumerate(cost_levels, start=1):
+            row_path = f"upgrade_costs.levels[{level - 1}]"
+            row = require_mapping(value, path, row_path)
+            if type(row.get("level")) is not int or row["level"] != level:
+                fail(path, f"{row_path}.level", "ожидались уровни от 1 без пропусков")
+            for field in ("closed_cards", "gold", "knack", "book_fragments"):
+                if field not in row:
+                    fail(path, f"{row_path}.{field}", "укажите количество или null, если оно неизвестно")
+                amount = row[field]
+                if amount is not None and (type(amount) is not int or amount < 0):
+                    fail(path, f"{row_path}.{field}", "ожидалось целое неотрицательное число или null")
     if guild_skills:
         require_string(data, "study_buildings", path, page)
     if military and (type(data.get("rank_limit")) is not int or data["rank_limit"] < 1):
@@ -484,6 +500,8 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
         fail(path, "groups", "для обоих типов нужны четыре ветки калькулятора")
     if trophies and trophy_kinds != TROPHY_KINDS:
         fail(path, "groups", "нужны базовые, объединённые и реликтовые трофеи")
+    if sibyl_cards and len(cost_levels) != max(len(group["levels"]) for group in groups):
+        fail(path, "upgrade_costs.levels", "нужны затраты для всех уровней карт; неизвестные количества — null")
     return data
 
 

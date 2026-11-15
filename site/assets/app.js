@@ -1684,6 +1684,14 @@ function renderTextGuide(data) {
   document.querySelector("#text-guide-title").textContent = data.title;
   document.querySelector("#text-guide-crumb").textContent = data.title;
   document.querySelector("#text-guide-intro").textContent = data.intro;
+  if (data.image) {
+    const image = el("img", "guide-illustration");
+    image.src = data.image.src;
+    image.alt = data.image.alt;
+    image.width = data.image.width;
+    image.height = data.image.height;
+    document.querySelector(".text-guide .hero").after(image);
+  }
   const facts = document.querySelector("#text-guide-facts");
   for (const fact of data.facts) {
     const item = el("div", "enchant-card");
@@ -1786,11 +1794,12 @@ async function route() {
   const category = catalog && (gearMatch[2] || Object.keys(catalog.categories)[0]);
   const isGear = catalog && Object.hasOwn(catalog.categories, category);
   const isSpecifications = path === "/specifications" || enchantPage !== undefined || progressionPage !== undefined;
+  const textGuide = path.match(/^\/guides\/(forpost|dream-amulet)$/)?.[1];
   let activeSection = path;
   if (isProfessionSection) activeSection = "/professions";
   else if (isSpecifications) activeSection = "/specifications";
   else if (isGear) activeSection = gearPath;
-  else if (path === "/guides/minotaur-labyrinth" || path === "/guides/forpost") activeSection = "/guides";
+  else if (path === "/guides/minotaur-labyrinth" || textGuide) activeSection = "/guides";
   for (const link of siteLinks) {
     const linkPath = link.hash.slice(1);
     if (linkPath === activeSection) link.setAttribute("aria-current", path === linkPath ? "page" : "location");
@@ -1824,9 +1833,9 @@ async function route() {
     } else if (path === "/guides/minotaur-labyrinth") {
       document.title = "Лабиринт Минотавра — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#minotaur-guide-template"));
-    } else if (path === "/guides/forpost") {
+    } else if (textGuide) {
       app.replaceChildren(cloneTemplate("#loading-template"));
-      const data = await loadJson("data/guides/forpost.json");
+      const data = await loadJson("data/guides/" + textGuide + ".json");
       if (version !== routeVersion) return;
       renderTextGuide(data);
     } else if (path === "/map-v2") {

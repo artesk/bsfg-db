@@ -99,6 +99,7 @@ h1 {
 .guide-map figcaption a { color: var(--accent); }
 .guide-map a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .text-guide { max-width: 960px; }
+.guide-illustration { display: block; max-width: 100%; height: auto; margin: 0 auto 32px; border-radius: 7px; }
 .guide-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 12px; margin: 0 0 32px; }
 .guide-facts > div { padding: 18px; }
 .guide-facts dt { margin-bottom: 8px; color: var(--muted); font-size: 13px; }

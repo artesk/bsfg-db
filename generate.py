@@ -23,7 +23,7 @@ SLUG_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 KNOWN_BRANCHES = {"base", "one", "two", "three"}
 CLIENT_RELEASE_PATTERN = re.compile(r"\d{4}\.\d{2}\.\d{2}\.\d{6}")
 ENCHANTMENT_PAGES = ("enchant-skills", "enchant-weapon")
-TEXT_GUIDES = ("forpost",)
+TEXT_GUIDES = ("forpost", "dream-amulet")
 PROGRESSION_PAGES = {
     "banners": "item_id",
     "dragon-relics": "item_id",
@@ -720,6 +720,17 @@ def load_guide(content: Path, slug: str) -> dict[str, Any]:
     data = require_mapping(load_yaml(path), path, slug)
     for field in ("title", "intro"):
         require_string(data, field, path, slug)
+    if "image" in data:
+        image = require_mapping(data["image"], path, "image")
+        src = require_string(image, "src", path, "image")
+        if not re.fullmatch(r"assets/guides/[a-z0-9][a-z0-9._-]*\.(?:png|jpe?g|webp)", src):
+            fail(path, "image.src", "ожидался локальный файл изображения в assets/guides/")
+        if not (ROOT / "site" / src).is_file():
+            fail(path, "image.src", "файл изображения не найден")
+        require_string(image, "alt", path, "image")
+        for dimension in ("width", "height"):
+            if type(image.get(dimension)) is not int or image[dimension] < 1:
+                fail(path, f"image.{dimension}", "ожидался положительный размер изображения")
     for index, value in enumerate(require_list(data.get("facts"), path, "facts")):
         location = f"facts[{index}]"
         fact = require_mapping(value, path, location)

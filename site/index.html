@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=whats-new">
+  <link rel="stylesheet" href="assets/styles.css?v=forpost-guide">
 </head>
 <body>
   <header class="site-header">
@@ -232,9 +232,13 @@
   <template id="guides-template">
     <section class="hero">
       <h1>Гайды</h1>
-      <p class="hero-copy">Руководства и карты подземелий Battles for Glory.</p>
+      <p class="hero-copy">Руководства по активностям, игровым механикам и подземельям Battles for Glory.</p>
     </section>
     <div class="directory-grid">
+      <a class="directory-link" href="#/guides/forpost">
+        <h2>Форпост</h2>
+        <p>Осада «Терра Инкогнита»: расписание, защита, объекты поддержки и награды.</p>
+      </a>
       <a class="directory-link" href="#/guides/minotaur-labyrinth">
         <h2>Лабиринт Минотавра</h2>
         <p>Карта пещеры с маршрутом от входа к дальнему спуску.</p>
@@ -248,6 +252,24 @@
         <p>Аспекты оружия и брони, манускрипты, маунты, Ловец и профессии.</p>
       </a>
     </div>
+  </template>
+
+  <template id="text-guide-template">
+    <article class="guide-page text-guide" aria-labelledby="text-guide-title">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <a href="#/guides">Гайды</a><span>/</span><span id="text-guide-crumb" aria-current="page"></span>
+      </nav>
+      <header class="hero">
+        <h1 id="text-guide-title"></h1>
+        <p id="text-guide-intro" class="hero-copy"></p>
+      </header>
+      <dl id="text-guide-facts" class="guide-facts"></dl>
+      <div id="text-guide-sections" class="guide-sections"></div>
+      <aside class="guide-sources" aria-labelledby="text-guide-sources-title">
+        <h2 id="text-guide-sources-title">Источники и уточнения</h2>
+        <ul id="text-guide-sources"></ul>
+      </aside>
+    </article>
   </template>
 
   <template id="minotaur-guide-template">
@@ -523,6 +545,6 @@
   </template>
 
   <script src="assets/map.js?v=map-expedition" defer></script>
-  <script src="assets/app.js?v=whats-new" defer></script>
+  <script src="assets/app.js?v=forpost-guide" defer></script>
 </body>
 </html>

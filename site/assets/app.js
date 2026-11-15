@@ -1544,6 +1544,64 @@ function renderJewelryItem(item) {
   return card;
 }
 
+function renderTextGuide(data) {
+  document.title = data.title + " — База знаний BSFG";
+  app.replaceChildren(cloneTemplate("#text-guide-template"));
+  document.querySelector("#text-guide-title").textContent = data.title;
+  document.querySelector("#text-guide-crumb").textContent = data.title;
+  document.querySelector("#text-guide-intro").textContent = data.intro;
+  const facts = document.querySelector("#text-guide-facts");
+  for (const fact of data.facts) {
+    const item = el("div", "enchant-card");
+    item.append(el("dt", "", fact.label), el("dd", "", fact.text));
+    facts.append(item);
+  }
+  const sections = document.querySelector("#text-guide-sections");
+  for (const [index, entry] of data.sections.entries()) {
+    const section = el("section", "guide-section");
+    const heading = el("h2", "", entry.heading);
+    heading.id = "guide-section-" + index;
+    section.setAttribute("aria-labelledby", heading.id);
+    section.append(heading);
+    for (const text of entry.paragraphs || []) section.append(el("p", "", text));
+    if (entry.bullets?.length) {
+      const list = el("ul");
+      list.append(...entry.bullets.map(text => el("li", "", text)));
+      section.append(list);
+    }
+    if (entry.table) {
+      const wrapper = el("div", "enchant-card guide-table-wrap");
+      wrapper.tabIndex = 0;
+      wrapper.setAttribute("role", "region");
+      wrapper.setAttribute("aria-labelledby", heading.id);
+      const table = createEnchantTable(entry.heading, entry.table.columns);
+      const body = table.createTBody();
+      for (const row of entry.table.rows) {
+        const tr = body.insertRow();
+        const label = el("th", "", row[0]);
+        label.scope = "row";
+        tr.append(label, ...row.slice(1).map(text => el("td", "", text)));
+      }
+      wrapper.append(table);
+      section.append(wrapper);
+    }
+    if (entry.note) section.append(el("p", "guide-note", entry.note));
+    sections.append(section);
+  }
+  const sources = document.querySelector("#text-guide-sources");
+  for (const source of data.sources) {
+    const item = el("li");
+    if (source.url) {
+      const link = el("a", "", source.label);
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      item.append(link);
+    } else item.textContent = source.label;
+    sources.append(item);
+  }
+}
+
 function renderNews(data) {
   document.title = "Что нового — База знаний BSFG";
   app.replaceChildren(cloneTemplate("#news-template"));
@@ -1598,7 +1656,7 @@ async function route() {
   if (isProfessionSection) activeSection = "/professions";
   else if (isSpecifications) activeSection = "/specifications";
   else if (isGear) activeSection = gearPath;
-  else if (path === "/guides/minotaur-labyrinth") activeSection = "/guides";
+  else if (path === "/guides/minotaur-labyrinth" || path === "/guides/forpost") activeSection = "/guides";
   for (const link of siteLinks) {
     const linkPath = link.hash.slice(1);
     if (linkPath === activeSection) link.setAttribute("aria-current", path === linkPath ? "page" : "location");
@@ -1625,6 +1683,11 @@ async function route() {
     } else if (path === "/guides/minotaur-labyrinth") {
       document.title = "Лабиринт Минотавра — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#minotaur-guide-template"));
+    } else if (path === "/guides/forpost") {
+      app.replaceChildren(cloneTemplate("#loading-template"));
+      const data = await loadJson("data/guides/forpost.json");
+      if (version !== routeVersion) return;
+      renderTextGuide(data);
     } else if (path === "/map-v2") {
       document.title = "Интерактивная карта 2.0 — База знаний BSFG";
       app.replaceChildren(cloneTemplate("#embedded-map-template"));

@@ -22,6 +22,7 @@ SLUG_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 KNOWN_BRANCHES = {"base", "one", "two", "three"}
 CLIENT_RELEASE_PATTERN = re.compile(r"\d{4}\.\d{2}\.\d{2}\.\d{6}")
 ENCHANTMENT_PAGES = ("enchant-skills", "enchant-weapon")
+TEXT_GUIDES = ("forpost",)
 PROGRESSION_PAGES = {
     "banners": "item_id",
     "dragon-relics": "item_id",
@@ -632,6 +633,55 @@ def load_world_map(content: Path) -> dict[str, Any] | None:
     return data
 
 
+def load_guide(content: Path, slug: str) -> dict[str, Any]:
+    path = content / "guides" / f"{slug}.yaml"
+    data = require_mapping(load_yaml(path), path, slug)
+    for field in ("title", "intro"):
+        require_string(data, field, path, slug)
+    for index, value in enumerate(require_list(data.get("facts"), path, "facts")):
+        location = f"facts[{index}]"
+        fact = require_mapping(value, path, location)
+        for field in ("label", "text"):
+            require_string(fact, field, path, location)
+    sections = require_list(data.get("sections"), path, "sections")
+    if not sections:
+        fail(path, "sections", "нужен хотя бы один раздел гайда")
+    for index, value in enumerate(sections):
+        location = f"sections[{index}]"
+        section = require_mapping(value, path, location)
+        require_string(section, "heading", path, location)
+        if not any(section.get(field) for field in ("paragraphs", "bullets", "table")):
+            fail(path, location, "нужен текст, список или таблица")
+        for field in ("paragraphs", "bullets"):
+            if field in section:
+                texts = require_string_list(section, field, path, location)
+                if any(not text.strip() for text in texts):
+                    fail(path, f"{location}.{field}", "пункты не должны быть пустыми")
+        if "note" in section:
+            require_string(section, "note", path, location)
+        if "table" in section:
+            table_path = f"{location}.table"
+            table = require_mapping(section["table"], path, table_path)
+            columns = require_string_list(table, "columns", path, table_path)
+            rows = require_list(table.get("rows"), path, f"{table_path}.rows")
+            if not columns or any(not text.strip() for text in columns) or not rows:
+                fail(path, table_path, "нужны непустые заголовки и строки таблицы")
+            for row in rows:
+                if (not isinstance(row, list) or len(row) != len(columns)
+                        or any(not isinstance(cell, str) or not cell.strip() for cell in row)):
+                    fail(path, f"{table_path}.rows", "нужны непустые текстовые ячейки по числу колонок")
+    sources = require_list(data.get("sources"), path, "sources")
+    if not sources:
+        fail(path, "sources", "укажите источники сведений")
+    for index, value in enumerate(sources):
+        location = f"sources[{index}]"
+        source = require_mapping(value, path, location)
+        require_string(source, "label", path, location)
+        if "url" in source and not require_string(source, "url", path, location).startswith("https://"):
+            fail(path, f"{location}.url", "ожидалась ссылка HTTPS")
+    return data
+
+
 def load_news(content: Path) -> dict[str, Any]:
     path = content / "news.yaml"
     data = require_mapping(load_yaml(path), path, "news")
@@ -673,6 +723,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
     pit_jewelry = load_pit_jewelry(content)
     world_map = load_world_map(content)
     news = load_news(content)
+    guides = {slug: load_guide(content, slug) for slug in TEXT_GUIDES}
     gear = {page: load_gear(content, page) for page in GEAR_CATALOGS}
     icons = {
         path.stem: f"assets/profession-icons/{path.name}"
@@ -783,6 +834,8 @@ def build(content: Path, output: Path) -> tuple[int, int]:
     else:
         map_output.unlink(missing_ok=True)
     write_json(output / "news.json", news)
+    for slug, guide in guides.items():
+        write_json(output / "guides" / f"{slug}.json", guide)
     return len(catalog), total_records
 
 def parse_args() -> argparse.Namespace:
@@ -808,6 +861,8 @@ def main() -> int:
             load_pit_jewelry(args.content.resolve())
             load_world_map(args.content.resolve())
             load_news(args.content.resolve())
+            for slug in TEXT_GUIDES:
+                load_guide(args.content.resolve(), slug)
             for page in GEAR_CATALOGS:
                 load_gear(args.content.resolve(), page)
             print(f"VALID professions={len(documents)} content={args.content.resolve()}")

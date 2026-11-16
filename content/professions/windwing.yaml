@@ -5068,6 +5068,54 @@ profession:
       - 'Время до повторного использования: 25 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23724
+    - branch: base
+      description: Наносит сильный урон противнику и обезоруживает его на 5 секунд, игнорируя иммунитет к
+        молчанию.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_tempest.png
+      level: '2'
+      name: Власть ветра
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23724
+    - branch: base
+      description: Наносит сильный урон противнику и обезоруживает его на 5 секунд, игнорируя иммунитет к
+        молчанию.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_tempest.png
+      level: '3'
+      name: Власть ветра
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23724
+    - branch: base
+      description: Наносит сильный урон противнику и обезоруживает его на 5 секунд, игнорируя иммунитет к
+        молчанию.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_tempest.png
+      level: '4'
+      name: Власть ветра
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23724
+    - branch: base
+      description: Наносит сильный урон противнику и обезоруживает его на 5 секунд, игнорируя иммунитет к
+        молчанию.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_lightning_tempest.png
+      level: '5'
+      name: Власть ветра
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23724
     id: skill20
     title: Простые умения
   - entries:

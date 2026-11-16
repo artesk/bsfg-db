@@ -5161,6 +5161,54 @@ profession:
       - 'Класс умения: Физический'
       skill_id: 23712
     - branch: base
+      description: Получая смертельный урон Вы не умираете и на 3 секунды становитесь неуязвимым и восстанавливаете
+        себе 40000 жизненных сил. Вы не сможете избегать смерти постоянно.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_bone_prison.png
+      level: '2'
+      name: Ритуал бессмертия
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23712
+    - branch: base
+      description: Получая смертельный урон Вы не умираете и на 3 секунды становитесь неуязвимым и восстанавливаете
+        себе 50000 жизненных сил. Вы не сможете избегать смерти постоянно.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_bone_prison.png
+      level: '3'
+      name: Ритуал бессмертия
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23712
+    - branch: base
+      description: Получая смертельный урон Вы не умираете и на 3 секунды становитесь неуязвимым и восстанавливаете
+        себе 55000 жизненных сил. Вы не сможете избегать смерти постоянно.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_bone_prison.png
+      level: '4'
+      name: Ритуал бессмертия
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23712
+    - branch: base
+      description: Получая смертельный урон Вы не умираете и на 3 секунды становитесь неуязвимым и восстанавливаете
+        себе 60000 жизненных сил. Вы не сможете избегать смерти постоянно.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_bone_prison.png
+      level: '5'
+      name: Ритуал бессмертия
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23712
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

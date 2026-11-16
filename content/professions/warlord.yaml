@@ -6093,6 +6093,50 @@ profession:
       - 'Длительность эффекта: 2 сек.'
       skill_id: 23874
       effects_from_archive: true
+    - branch: base
+      description: Вы наносите урон, притягиваете врагов вокруг к себе и обездвиживаете их на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_brandish.png
+      level: '2'
+      name: Багор
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23874
+    - branch: base
+      description: Вы наносите урон, притягиваете врагов вокруг к себе и обездвиживаете их на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_brandish.png
+      level: '3'
+      name: Багор
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23874
+    - branch: base
+      description: Вы наносите урон, притягиваете врагов вокруг к себе и обездвиживаете их на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_brandish.png
+      level: '4'
+      name: Багор
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23874
+    - branch: base
+      description: Вы наносите урон, притягиваете врагов вокруг к себе и обездвиживаете их на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_brandish.png
+      level: '5'
+      name: Багор
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23874
     id: skill20
     title: Простые умения
   - entries:

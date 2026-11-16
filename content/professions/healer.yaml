@@ -5266,6 +5266,54 @@ profession:
       skill_id: 23915
       effects_from_archive: true
     - branch: base
+      description: Восстанавливает 90000 жизненных сил членам группы. Во время использования Вы становитесь
+        практически неуязвимым и защищенным от проклятий и эффектов контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio1.png
+      level: '2'
+      name: Мантра броненосца
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23915
+    - branch: base
+      description: Восстанавливает 120000 жизненных сил членам группы. Во время использования Вы становитесь
+        практически неуязвимым и защищенным от проклятий и эффектов контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio1.png
+      level: '3'
+      name: Мантра броненосца
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23915
+    - branch: base
+      description: Восстанавливает 135000 жизненных сил членам группы. Во время использования Вы становитесь
+        практически неуязвимым и защищенным от проклятий и эффектов контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio1.png
+      level: '4'
+      name: Мантра броненосца
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23915
+    - branch: base
+      description: Восстанавливает 150000 жизненных сил членам группы. Во время использования Вы становитесь
+        практически неуязвимым и защищенным от проклятий и эффектов контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.touch_of_paagrio1.png
+      level: '5'
+      name: Мантра броненосца
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23915
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

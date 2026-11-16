@@ -4471,6 +4471,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23695
+    - branch: base
+      description: Критические атаки магией будут воровать у противника 10% силы критических атак.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_wake_strengthen02.png
+      level: '2'
+      name: Поглощение силы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23695
+    - branch: base
+      description: Критические атаки магией будут воровать у противника 15% силы критических атак.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_wake_strengthen02.png
+      level: '3'
+      name: Поглощение силы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23695
+    - branch: base
+      description: Критические атаки магией будут воровать у противника 17.5% силы критических атак.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_wake_strengthen02.png
+      level: '4'
+      name: Поглощение силы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23695
+    - branch: base
+      description: Критические атаки магией будут воровать у противника 20% силы критических атак.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_wake_strengthen02.png
+      level: '5'
+      name: Поглощение силы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23695
     id: skill20
     title: Простые умения
   - entries:

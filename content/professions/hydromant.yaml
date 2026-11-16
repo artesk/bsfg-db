@@ -4784,6 +4784,54 @@ profession:
       - 'Время до повторного использования: 25 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23716
+    - branch: base
+      description: Наносит сильный урон противнику и запрещает ему использовать умения и магию на 6 секунд,
+        игнорируя иммунитет к молчанию.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_aquatic_oath.png
+      level: '2'
+      name: Власть воды
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23716
+    - branch: base
+      description: Наносит сильный урон противнику и запрещает ему использовать умения и магию на 6 секунд,
+        игнорируя иммунитет к молчанию.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_aquatic_oath.png
+      level: '3'
+      name: Власть воды
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23716
+    - branch: base
+      description: Наносит сильный урон противнику и запрещает ему использовать умения и магию на 6 секунд,
+        игнорируя иммунитет к молчанию.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_aquatic_oath.png
+      level: '4'
+      name: Власть воды
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23716
+    - branch: base
+      description: Наносит сильный урон противнику и запрещает ему использовать умения и магию на 6 секунд,
+        игнорируя иммунитет к молчанию.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_aquatic_oath.png
+      level: '5'
+      name: Власть воды
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23716
     id: skill20
     title: Простые умения
   - entries:

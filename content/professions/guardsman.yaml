@@ -5156,6 +5156,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23665
+    - branch: base
+      description: Увеличивает защиту на 7.5%, шанс нанести критический удар умением на 8% и силу критического
+        удара умением на 15%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.dye_dex_step_00.png
+      level: '2'
+      name: Медаль за отвагу
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23665
+    - branch: base
+      description: Увеличивает защиту на 10%, шанс нанести критический удар умением на 10% и силу критического
+        удара умением на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.dye_dex_step_00.png
+      level: '3'
+      name: Медаль за отвагу
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23665
+    - branch: base
+      description: Увеличивает защиту на 11.25%, шанс нанести критический удар умением на 11% и силу критического
+        удара умением на 22%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.dye_dex_step_00.png
+      level: '4'
+      name: Медаль за отвагу
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23665
+    - branch: base
+      description: Увеличивает защиту на 12.5%, шанс нанести критический удар умением на 12% и силу критического
+        удара умением на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.dye_dex_step_00.png
+      level: '5'
+      name: Медаль за отвагу
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23665
     id: skill20
     title: Простые умения
   - entries:

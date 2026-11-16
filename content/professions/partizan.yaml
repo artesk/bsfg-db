@@ -5375,6 +5375,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23660
+    - branch: base
+      description: Увеличивает защиту на 7.5%, силу физических умений на 10% и шанс нанести критический удар
+        умением на 8%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_formula_of_demolition.png
+      level: '2'
+      name: Отточенные навыки
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23660
+    - branch: base
+      description: Увеличивает защиту на 10%, силу физических умений на 15% и шанс нанести критический удар
+        умением на 10%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_formula_of_demolition.png
+      level: '3'
+      name: Отточенные навыки
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23660
+    - branch: base
+      description: Увеличивает защиту на 11.25%, силу физических умений на 17.5% и шанс нанести критический
+        удар умением на 11%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_formula_of_demolition.png
+      level: '4'
+      name: Отточенные навыки
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23660
+    - branch: base
+      description: Увеличивает защиту на 12.5%, силу физических умений на 20% и шанс нанести критический удар
+        умением на 12%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_formula_of_demolition.png
+      level: '5'
+      name: Отточенные навыки
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23660
     id: skill20
     title: Простые умения
   - entries:

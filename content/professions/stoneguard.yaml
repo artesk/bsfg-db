@@ -5623,6 +5623,54 @@ profession:
       - 'Длительность эффекта: 5 сек.'
       skill_id: 23684
       effects_from_archive: true
+    - branch: base
+      description: На 5 секунд Вы превращаетесь в камень и становитесь неуязвимым, при этом полностью восстанавливая
+        свое здоровье и боевой дух.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality2.png
+      level: '2'
+      name: Бессмертный кряж
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23684
+    - branch: base
+      description: На 5 секунд Вы превращаетесь в камень и становитесь неуязвимым, при этом полностью восстанавливая
+        свое здоровье и боевой дух.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality2.png
+      level: '3'
+      name: Бессмертный кряж
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23684
+    - branch: base
+      description: На 5 секунд Вы превращаетесь в камень и становитесь неуязвимым, при этом полностью восстанавливая
+        свое здоровье и боевой дух.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality2.png
+      level: '4'
+      name: Бессмертный кряж
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23684
+    - branch: base
+      description: На 5 секунд Вы превращаетесь в камень и становитесь неуязвимым, при этом полностью восстанавливая
+        свое здоровье и боевой дух.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality2.png
+      level: '5'
+      name: Бессмертный кряж
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23684
     id: skill20
     title: Простые умения
   - entries:

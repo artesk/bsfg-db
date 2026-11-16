@@ -5184,6 +5184,51 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23754
+    - branch: base
+      description: Увеличивает регенерацию боевого духа на 2%. Вне боя этот показатель увеличивается до 6%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_debuff1.png
+      level: '2'
+      name: Дитя луны
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23754
+    - branch: base
+      description: Увеличивает регенерацию боевого духа на 3%. Вне боя этот показатель увеличивается до 8%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_debuff1.png
+      level: '3'
+      name: Дитя луны
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23754
+    - branch: base
+      description: Увеличивает регенерацию боевого духа на 3.5%. Вне боя этот показатель увеличивается до
+        9%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_debuff1.png
+      level: '4'
+      name: Дитя луны
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23754
+    - branch: base
+      description: Увеличивает регенерацию боевого духа на 4%. Вне боя этот показатель увеличивается до 10%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_chaos_debuff1.png
+      level: '5'
+      name: Дитя луны
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23754
     id: skill20
     title: Простые умения
   - entries:

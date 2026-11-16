@@ -4961,6 +4961,54 @@ profession:
       - 'Минимальное время до повторного использования: 40 сек.'
       - 'Длительность эффекта: 5 сек.'
       skill_id: 23797
+    - branch: base
+      description: Вы парализуете врагов вокруг себя на 4 секунд, снижаете их эффективность лечения и восстановления
+        боевого духа на 100% и отменяет регенерацию здоровья и боевого духа.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.citadel_of_kelbim.png
+      level: '2'
+      name: Остановка времени
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23797
+    - branch: base
+      description: Вы парализуете врагов вокруг себя на 5 секунд, снижаете их эффективность лечения и восстановления
+        боевого духа на 100% и отменяет регенерацию здоровья и боевого духа.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.citadel_of_kelbim.png
+      level: '3'
+      name: Остановка времени
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23797
+    - branch: base
+      description: Вы парализуете врагов вокруг себя на 6 секунд, снижаете их эффективность лечения и восстановления
+        боевого духа на 100% и отменяет регенерацию здоровья и боевого духа.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.citadel_of_kelbim.png
+      level: '4'
+      name: Остановка времени
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23797
+    - branch: base
+      description: Вы парализуете врагов вокруг себя на 7 секунд, снижаете их эффективность лечения и восстановления
+        боевого духа на 100% и отменяет регенерацию здоровья и боевого духа.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.citadel_of_kelbim.png
+      level: '5'
+      name: Остановка времени
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23797
     id: skill20
     title: Простые умения
   - entries:

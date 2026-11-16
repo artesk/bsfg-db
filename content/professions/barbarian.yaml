@@ -5135,6 +5135,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23966
+    - branch: base
+      description: Когда Ваши жизненные силу отпускаются ниже 50% Вы получаете усиление защиты на 40% и урон
+        по вражеским игрокам на 40%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fist_of_fury_human_new.png
+      level: '2'
+      name: Исступление
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23966
+    - branch: base
+      description: Когда Ваши жизненные силу отпускаются ниже 50% Вы получаете усиление защиты на 60% и урон
+        по вражеским игрокам на 60%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fist_of_fury_human_new.png
+      level: '3'
+      name: Исступление
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23966
+    - branch: base
+      description: Когда Ваши жизненные силу отпускаются ниже 50% Вы получаете усиление защиты на 70% и урон
+        по вражеским игрокам на 70%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fist_of_fury_human_new.png
+      level: '4'
+      name: Исступление
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23966
+    - branch: base
+      description: Когда Ваши жизненные силу отпускаются ниже 50% Вы получаете усиление защиты на 80% и урон
+        по вражеским игрокам на 80%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fist_of_fury_human_new.png
+      level: '5'
+      name: Исступление
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23966
     id: skill20
     title: Простые умения
   - entries:

@@ -5070,6 +5070,54 @@ profession:
       - 'Минимальное время до повторного использования: 20 сек.'
       skill_id: 23815
       effects_from_archive: true
+    - branch: base
+      description: Вы совершаете рывок перед собой, уворачиваясь от всех атак в течении 3 секунд, увеличиваете
+        свою скорость бега на 50 и физическую атаку на 15% на 6 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_rush_attack.png
+      level: '2'
+      name: За горизонт
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23815
+    - branch: base
+      description: Вы совершаете рывок перед собой, уворачиваясь от всех атак в течении 3 секунд, увеличиваете
+        свою скорость бега на 50 и физическую атаку на 20% на 6 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_rush_attack.png
+      level: '3'
+      name: За горизонт
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23815
+    - branch: base
+      description: Вы совершаете рывок перед собой, уворачиваясь от всех атак в течении 3 секунд, увеличиваете
+        свою скорость бега на 50 и физическую атаку на 22.5% на 6 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_rush_attack.png
+      level: '4'
+      name: За горизонт
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23815
+    - branch: base
+      description: Вы совершаете рывок перед собой, уворачиваясь от всех атак в течении 3 секунд, увеличиваете
+        свою скорость бега на 50 и физическую атаку на 25% на 6 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_rush_attack.png
+      level: '5'
+      name: За горизонт
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23815
     id: skill20
     title: Простые умения
   - entries:

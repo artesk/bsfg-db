@@ -5140,6 +5140,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23985
+    - branch: base
+      description: Примерно каждые 21 секунд Вы становитесь на 5 секунды малозаметным, при этом увеличивается
+        Ваша сила критических атак на 20% и защиту на 120%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill1411_a.png
+      level: '2'
+      name: Мираж
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23985
+    - branch: base
+      description: Примерно каждые 19 секунд Вы становитесь на 5 секунды малозаметным, при этом увеличивается
+        Ваша сила критических атак на 20% и защиту на 140%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill1411_a.png
+      level: '3'
+      name: Мираж
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23985
+    - branch: base
+      description: Примерно каждые 18 секунд Вы становитесь на 5 секунды малозаметным, при этом увеличивается
+        Ваша сила критических атак на 20% и защиту на 150%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill1411_a.png
+      level: '4'
+      name: Мираж
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23985
+    - branch: base
+      description: Примерно каждые 17 секунд Вы становитесь на 5 секунды малозаметным, при этом увеличивается
+        Ваша сила критических атак на 20% и защиту на 160%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill1411_a.png
+      level: '5'
+      name: Мираж
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23985
     id: skill20
     title: Простые умения
   - entries:

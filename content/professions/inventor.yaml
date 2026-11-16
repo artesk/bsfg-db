@@ -4711,6 +4711,50 @@ profession:
       - 'Время до повторного использования: 35 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23882
+    - branch: base
+      description: Наносит урон противнику и привязвает его к небольшой области на 8 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_force_buff.png
+      level: '2'
+      name: Магнитная граната
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23882
+    - branch: base
+      description: Наносит урон противнику и привязвает его к небольшой области на 8 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_force_buff.png
+      level: '3'
+      name: Магнитная граната
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23882
+    - branch: base
+      description: Наносит урон противнику и привязвает его к небольшой области на 8 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_force_buff.png
+      level: '4'
+      name: Магнитная граната
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23882
+    - branch: base
+      description: Наносит урон противнику и привязвает его к небольшой области на 8 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_force_buff.png
+      level: '5'
+      name: Магнитная граната
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23882
     id: skill20
     title: Простые умения
   - entries:

@@ -5308,6 +5308,54 @@ profession:
       - 'Время до повторного использования: 82 сек.'
       - 'Минимальное время до повторного использования: 50 сек.'
       skill_id: 23836
+    - branch: base
+      description: Быстрый протыкающий удар по противнику, который парализует его на 6 секунд и развернет
+        его спиной к Вам.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_extreme_tempo1.png
+      level: '2'
+      name: Подлый выпад
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23836
+    - branch: base
+      description: Быстрый протыкающий удар по противнику, который парализует его на 6 секунд и развернет
+        его спиной к Вам.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_extreme_tempo1.png
+      level: '3'
+      name: Подлый выпад
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23836
+    - branch: base
+      description: Быстрый протыкающий удар по противнику, который парализует его на 6 секунд и развернет
+        его спиной к Вам.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_extreme_tempo1.png
+      level: '4'
+      name: Подлый выпад
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23836
+    - branch: base
+      description: Быстрый протыкающий удар по противнику, который парализует его на 6 секунд и развернет
+        его спиной к Вам.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_extreme_tempo1.png
+      level: '5'
+      name: Подлый выпад
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23836
     id: skill20
     title: Простые умения
   - entries:

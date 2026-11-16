@@ -4519,6 +4519,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23656
+    - branch: base
+      description: Увеличивает дальность атак на 40, шанс нанести критический удар на 8% и физическую атаку
+        на 15%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_accurate.png
+      level: '2'
+      name: Опытный снайпер
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23656
+    - branch: base
+      description: Увеличивает дальность атак на 50, шанс нанести критический удар на 10% и физическую атаку
+        на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_accurate.png
+      level: '3'
+      name: Опытный снайпер
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23656
+    - branch: base
+      description: Увеличивает дальность атак на 55, шанс нанести критический удар на 11% и физическую атаку
+        на 22.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_accurate.png
+      level: '4'
+      name: Опытный снайпер
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23656
+    - branch: base
+      description: Увеличивает дальность атак на 60, шанс нанести критический удар на 12% и физическую атаку
+        на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_accurate.png
+      level: '5'
+      name: Опытный снайпер
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23656
     id: skill20
     title: Простые умения
   - entries:

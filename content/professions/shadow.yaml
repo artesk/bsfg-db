@@ -4579,6 +4579,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23654
+    - branch: base
+      description: Увеличивает силу критических атак на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_abyss_ray2.png
+      level: '2'
+      name: Мрак
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23654
+    - branch: base
+      description: Увеличивает силу критических атак на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_abyss_ray2.png
+      level: '3'
+      name: Мрак
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23654
+    - branch: base
+      description: Увеличивает силу критических атак на 28%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_abyss_ray2.png
+      level: '4'
+      name: Мрак
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23654
+    - branch: base
+      description: Увеличивает силу критических атак на 31%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_abyss_ray2.png
+      level: '5'
+      name: Мрак
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23654
     id: skill20
     title: Простые умения
   - entries:

@@ -5362,6 +5362,54 @@ profession:
       - 'Минимальное время до повторного использования: Фикс.'
       - 'Длительность эффекта: 30 сек.'
       skill_id: 23740
+    - branch: base
+      description: Вы обнуляете откат умений *Обморожение*, *Ледяной кинжал* и *Нифльхейм* и увеличиваете
+        силу следующего атакующего физического умения на 10%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_freezing_grip.png
+      level: '2'
+      name: Ниже нуля
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23740
+    - branch: base
+      description: Вы обнуляете откат умений *Обморожение*, *Ледяной кинжал* и *Нифльхейм* и увеличиваете
+        силу следующего атакующего физического умения на 15%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_freezing_grip.png
+      level: '3'
+      name: Ниже нуля
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23740
+    - branch: base
+      description: Вы обнуляете откат умений *Обморожение*, *Ледяной кинжал* и *Нифльхейм* и увеличиваете
+        силу следующего атакующего физического умения на 17.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_freezing_grip.png
+      level: '4'
+      name: Ниже нуля
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23740
+    - branch: base
+      description: Вы обнуляете откат умений *Обморожение*, *Ледяной кинжал* и *Нифльхейм* и увеличиваете
+        силу следующего атакующего физического умения на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_freezing_grip.png
+      level: '5'
+      name: Ниже нуля
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23740
     id: skill20
     title: Простые умения
   - entries:

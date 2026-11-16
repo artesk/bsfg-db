@@ -5043,6 +5043,54 @@ profession:
       - 'Минимальное время до повторного использования: 1 сек.'
       skill_id: 23749
       effects_from_archive: true
+    - branch: base
+      description: Вы совершаете рывок к противнику на среднюю дистанцию и снижаете его скорость бега на 100,
+        скорость атаки и чтения заклинаний на 40%. Вы можете совершить 2 рывка без задержки.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_wide_sweep.png
+      level: '2'
+      name: Полет
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23749
+    - branch: base
+      description: Вы совершаете рывок к противнику на среднюю дистанцию и снижаете его скорость бега на 110,
+        скорость атаки и чтения заклинаний на 50%. Вы можете совершить 2 рывка без задержки.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_wide_sweep.png
+      level: '3'
+      name: Полет
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23749
+    - branch: base
+      description: Вы совершаете рывок к противнику на среднюю дистанцию и снижаете его скорость бега на 115,
+        скорость атаки и чтения заклинаний на 55%. Вы можете совершить 2 рывка без задержки.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_wide_sweep.png
+      level: '4'
+      name: Полет
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23749
+    - branch: base
+      description: Вы совершаете рывок к противнику на среднюю дистанцию и снижаете его скорость бега на 120,
+        скорость атаки и чтения заклинаний на 60%. Вы можете совершить 2 рывка без задержки.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_wide_sweep.png
+      level: '5'
+      name: Полет
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23749
     id: skill20
     title: Простые умения
   - entries:

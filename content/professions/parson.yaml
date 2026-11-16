@@ -5381,6 +5381,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23693
+    - branch: base
+      description: Ваши атаки будут увеличивать Вашу силу лечения на 40% и регенерацию жизненных сил и боевого
+        духа по 2000.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.ui_server_ranking_3.png
+      level: '2'
+      name: Несокрушимая вера
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23693
+    - branch: base
+      description: Ваши атаки будут увеличивать Вашу силу лечения на 50% и регенерацию жизненных сил и боевого
+        духа по 3000.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.ui_server_ranking_3.png
+      level: '3'
+      name: Несокрушимая вера
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23693
+    - branch: base
+      description: Ваши атаки будут увеличивать Вашу силу лечения на 55% и регенерацию жизненных сил и боевого
+        духа по 3500.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.ui_server_ranking_3.png
+      level: '4'
+      name: Несокрушимая вера
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23693
+    - branch: base
+      description: Ваши атаки будут увеличивать Вашу силу лечения на 60% и регенерацию жизненных сил и боевого
+        духа по 4000.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.ui_server_ranking_3.png
+      level: '5'
+      name: Несокрушимая вера
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23693
     id: skill20
     title: Простые умения
   - entries:

@@ -4874,6 +4874,50 @@ profession:
       - 'Время до повторного использования: 25 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23722
+    - branch: base
+      description: Наносит сильный урон противнику и снижает его защиту на 15% на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_force_hate.png
+      level: '2'
+      name: Власть грома
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23722
+    - branch: base
+      description: Наносит сильный урон противнику и снижает его защиту на 20% на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_force_hate.png
+      level: '3'
+      name: Власть грома
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23722
+    - branch: base
+      description: Наносит сильный урон противнику и снижает его защиту на 22.5% на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_force_hate.png
+      level: '4'
+      name: Власть грома
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23722
+    - branch: base
+      description: Наносит сильный урон противнику и снижает его защиту на 25% на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_force_hate.png
+      level: '5'
+      name: Власть грома
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23722
     id: skill20
     title: Простые умения
   - entries:

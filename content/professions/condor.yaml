@@ -4962,6 +4962,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23666
+    - branch: base
+      description: Увеличивает физическую атаку на 15% и скорость атаки на 7.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_glory_decrease_resurrection_cost.png
+      level: '2'
+      name: Оперение кондора
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23666
+    - branch: base
+      description: Увеличивает физическую атаку на 20% и скорость атаки на 10%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_glory_decrease_resurrection_cost.png
+      level: '3'
+      name: Оперение кондора
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23666
+    - branch: base
+      description: Увеличивает физическую атаку на 22.5% и скорость атаки на 11.25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_glory_decrease_resurrection_cost.png
+      level: '4'
+      name: Оперение кондора
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23666
+    - branch: base
+      description: Увеличивает физическую атаку на 25% и скорость атаки на 13%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_glory_decrease_resurrection_cost.png
+      level: '5'
+      name: Оперение кондора
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23666
     id: skill20
     title: Простые умения
   - entries:

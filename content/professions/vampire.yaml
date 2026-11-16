@@ -5127,6 +5127,54 @@ profession:
       - 'Минимальное время до повторного использования: 20 сек.'
       skill_id: 23902
       effects_from_archive: true
+    - branch: base
+      description: Удар по противнику, если у противника не полное здоровье, то Вы на 6 секунд получаете дополнительно
+        25% физической атаки и 15% вампиризма, к тому же Вы будете защищены от проклятий и эффектов контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
+      level: '2'
+      name: Жажда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23902
+    - branch: base
+      description: Удар по противнику, если у противника не полное здоровье, то Вы на 6 секунд получаете дополнительно
+        30% физической атаки и 20% вампиризма, к тому же Вы будете защищены от проклятий и эффектов контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
+      level: '3'
+      name: Жажда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23902
+    - branch: base
+      description: Удар по противнику, если у противника не полное здоровье, то Вы на 6 секунд получаете дополнительно
+        32.5% физической атаки и 22.5% вампиризма, к тому же Вы будете защищены от проклятий и эффектов контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
+      level: '4'
+      name: Жажда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23902
+    - branch: base
+      description: Удар по противнику, если у противника не полное здоровье, то Вы на 6 секунд получаете дополнительно
+        35% физической атаки и 25% вампиризма, к тому же Вы будете защищены от проклятий и эффектов контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.khavatari_vitality1.png
+      level: '5'
+      name: Жажда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23902
     id: skill20
     title: Простые умения
   - entries:

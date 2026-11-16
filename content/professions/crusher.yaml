@@ -5686,6 +5686,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23700
+    - branch: base
+      description: Увеличивает шанс нанести критический удар на 30% и силу критических атак на 10%. Ваши критические
+        атаки будут замедлять врага на 30.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_power_up.png
+      level: '2'
+      name: Безудержная ярость
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23700
+    - branch: base
+      description: Увеличивает шанс нанести критический удар на 40% и силу критических атак на 15%. Ваши критические
+        атаки будут замедлять врага на 40.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_power_up.png
+      level: '3'
+      name: Безудержная ярость
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23700
+    - branch: base
+      description: Увеличивает шанс нанести критический удар на 45% и силу критических атак на 17.5%. Ваши
+        критические атаки будут замедлять врага на 45.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_power_up.png
+      level: '4'
+      name: Безудержная ярость
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23700
+    - branch: base
+      description: Увеличивает шанс нанести критический удар на 50% и силу критических атак на 20%. Ваши критические
+        атаки будут замедлять врага на 50.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_power_up.png
+      level: '5'
+      name: Безудержная ярость
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23700
     id: skill20
     title: Простые умения
   - entries:

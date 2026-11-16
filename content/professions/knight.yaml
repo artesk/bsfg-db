@@ -5790,6 +5790,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23653
+    - branch: base
+      description: Увеличивает защиту на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.guardian_skill_book_blue.png
+      level: '2'
+      name: Рыцарский кодекс
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23653
+    - branch: base
+      description: Увеличивает защиту на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.guardian_skill_book_blue.png
+      level: '3'
+      name: Рыцарский кодекс
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23653
+    - branch: base
+      description: Увеличивает защиту на 27.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.guardian_skill_book_blue.png
+      level: '4'
+      name: Рыцарский кодекс
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23653
+    - branch: base
+      description: Увеличивает защиту на 30%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.guardian_skill_book_blue.png
+      level: '5'
+      name: Рыцарский кодекс
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23653
     id: skill20
     title: Простые умения
   - entries:

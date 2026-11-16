@@ -5636,6 +5636,54 @@ profession:
       - 'Время до повторного использования: 72 сек.'
       - 'Минимальное время до повторного использования: 35 сек.'
       skill_id: 23760
+    - branch: base
+      description: Наносит сильный урон врагу, обезоруживает его и замедляет на 130 на 6 секунд, игнорируя
+        иммунитет к замедлениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
+      level: '2'
+      name: Мир и порядок
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23760
+    - branch: base
+      description: Наносит сильный урон врагу, обезоруживает его и замедляет на 140 на 6 секунд, игнорируя
+        иммунитет к замедлениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
+      level: '3'
+      name: Мир и порядок
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23760
+    - branch: base
+      description: Наносит сильный урон врагу, обезоруживает его и замедляет на 145 на 6 секунд, игнорируя
+        иммунитет к замедлениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
+      level: '4'
+      name: Мир и порядок
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23760
+    - branch: base
+      description: Наносит сильный урон врагу, обезоруживает его и замедляет на 150 на 6 секунд, игнорируя
+        иммунитет к замедлениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill11511_2.png
+      level: '5'
+      name: Мир и порядок
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23760
     id: skill20
     title: Простые умения
   - entries:

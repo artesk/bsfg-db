@@ -6091,6 +6091,54 @@ profession:
       - 'Время до повторного использования: 90 сек.'
       - 'Минимальное время до повторного использования: 23 сек.'
       skill_id: 23728
+    - branch: base
+      description: Вы наносите сильный урон врагу и обездвиживаете его на 10 секунд, игнорируя иммунитет к
+        обездвиживаниям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.relieve_zariche1.png
+      level: '2'
+      name: Оковы!
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23728
+    - branch: base
+      description: Вы наносите сильный урон врагу и обездвиживаете его на 10 секунд, игнорируя иммунитет к
+        обездвиживаниям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.relieve_zariche1.png
+      level: '3'
+      name: Оковы!
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23728
+    - branch: base
+      description: Вы наносите сильный урон врагу и обездвиживаете его на 10 секунд, игнорируя иммунитет к
+        обездвиживаниям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.relieve_zariche1.png
+      level: '4'
+      name: Оковы!
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23728
+    - branch: base
+      description: Вы наносите сильный урон врагу и обездвиживаете его на 10 секунд, игнорируя иммунитет к
+        обездвиживаниям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.relieve_zariche1.png
+      level: '5'
+      name: Оковы!
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23728
     id: skill20
     title: Простые умения
   - entries:

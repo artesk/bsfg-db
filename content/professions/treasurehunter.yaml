@@ -5372,6 +5372,51 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23657
+    - branch: base
+      description: Увеличивает силу критических атак на 10% и шанс получить предмет с монстра на 2%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_assassin_armor_change.png
+      level: '2'
+      name: Опытный искатель
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23657
+    - branch: base
+      description: Увеличивает силу критических атак на 15% и шанс получить предмет с монстра на 2%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_assassin_armor_change.png
+      level: '3'
+      name: Опытный искатель
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23657
+    - branch: base
+      description: Увеличивает силу критических атак на 17.5% и шанс получить предмет с монстра на 2%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_assassin_armor_change.png
+      level: '4'
+      name: Опытный искатель
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23657
+    - branch: base
+      description: Увеличивает силу критических атак на 20% и шанс получить предмет с монстра на 2%. Позволяет
+        сдавать предметы в магазин выгоднее, за исключением поставок крепости.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_assassin_armor_change.png
+      level: '5'
+      name: Опытный искатель
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23657
     id: skill20
     title: Простые умения
   - entries:

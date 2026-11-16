@@ -5415,6 +5415,50 @@ profession:
       - 'Время до повторного использования: 52 сек.'
       - 'Минимальное время до повторного использования: 16 сек.'
       skill_id: 23834
+    - branch: base
+      description: Быстрый протыкающий удар по противнику, который обезоружит врага на 5 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_magic_dagger_mastery.png
+      level: '2'
+      name: Потрошение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23834
+    - branch: base
+      description: Быстрый протыкающий удар по противнику, который обезоружит врага на 5 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_magic_dagger_mastery.png
+      level: '3'
+      name: Потрошение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23834
+    - branch: base
+      description: Быстрый протыкающий удар по противнику, который обезоружит врага на 5 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_magic_dagger_mastery.png
+      level: '4'
+      name: Потрошение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23834
+    - branch: base
+      description: Быстрый протыкающий удар по противнику, который обезоружит врага на 5 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_magic_dagger_mastery.png
+      level: '5'
+      name: Потрошение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23834
     id: skill20
     title: Простые умения
   - entries:

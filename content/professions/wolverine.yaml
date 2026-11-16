@@ -5783,6 +5783,54 @@ profession:
       - 'Время до повторного использования: 40 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23956
+    - branch: base
+      description: Вы наносите мощный удар по противнику и получаете усиление. В течении 6 секунд Ваши атаки
+        будут на мгновение оглушать врага.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.toughness.png
+      level: '2'
+      name: Сила носорога
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23956
+    - branch: base
+      description: Вы наносите мощный удар по противнику и получаете усиление. В течении 6 секунд Ваши атаки
+        будут на мгновение оглушать врага.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.toughness.png
+      level: '3'
+      name: Сила носорога
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23956
+    - branch: base
+      description: Вы наносите мощный удар по противнику и получаете усиление. В течении 6 секунд Ваши атаки
+        будут на мгновение оглушать врага.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.toughness.png
+      level: '4'
+      name: Сила носорога
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23956
+    - branch: base
+      description: Вы наносите мощный удар по противнику и получаете усиление. В течении 6 секунд Ваши атаки
+        будут на мгновение оглушать врага.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.toughness.png
+      level: '5'
+      name: Сила носорога
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23956
     id: skill20
     title: Простые умения
   - entries:

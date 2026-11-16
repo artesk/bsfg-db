@@ -4812,6 +4812,50 @@ profession:
       - 'Время до повторного использования: 25 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23720
+    - branch: base
+      description: Наносит сильный урон противнику и оглушает цель на 4 секунды, игнорируя иммунитет к оглушениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_burning_field_new.png
+      level: '2'
+      name: Власть земли
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23720
+    - branch: base
+      description: Наносит сильный урон противнику и оглушает цель на 4 секунды, игнорируя иммунитет к оглушениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_burning_field_new.png
+      level: '3'
+      name: Власть земли
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23720
+    - branch: base
+      description: Наносит сильный урон противнику и оглушает цель на 4 секунды, игнорируя иммунитет к оглушениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_burning_field_new.png
+      level: '4'
+      name: Власть земли
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23720
+    - branch: base
+      description: Наносит сильный урон противнику и оглушает цель на 4 секунды, игнорируя иммунитет к оглушениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_burning_field_new.png
+      level: '5'
+      name: Власть земли
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23720
     id: skill20
     title: Простые умения
   - entries:

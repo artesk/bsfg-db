@@ -5586,6 +5586,50 @@ profession:
       - 'Класс умения: Физический'
       skill_id: 23747
     - branch: base
+      description: Каждая 6 атака будет наносить усиленный на 40% массовый удар.
+      effects: []
+      icon: /icon/client-skills/icon.skill0496.png
+      level: '2'
+      name: Молот рока
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23747
+    - branch: base
+      description: Каждая 6 атака будет наносить усиленный на 60% массовый удар.
+      effects: []
+      icon: /icon/client-skills/icon.skill0496.png
+      level: '3'
+      name: Молот рока
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23747
+    - branch: base
+      description: Каждая 6 атака будет наносить усиленный на 70% массовый удар.
+      effects: []
+      icon: /icon/client-skills/icon.skill0496.png
+      level: '4'
+      name: Молот рока
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23747
+    - branch: base
+      description: Каждая 6 атака будет наносить усиленный на 80% массовый удар.
+      effects: []
+      icon: /icon/client-skills/icon.skill0496.png
+      level: '5'
+      name: Молот рока
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23747
+    - branch: base
       description: Позволяет получить бонусы при ношении легкой брони. Увеличивает защиту, физическую
         атаку и меткость.
       effects: []

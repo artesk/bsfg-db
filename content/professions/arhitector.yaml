@@ -5626,6 +5626,54 @@ profession:
       - 'Минимальное время до повторного использования: 50 сек.'
       skill_id: 23795
     - branch: base
+      description: Вы наносите сильный удар перед собой и сбиваете врагов с ног на 5 секунд, снижая их физическую
+        защиту на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fist_of_fury_darkelf.png
+      level: '2'
+      name: Электрический разряд
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23795
+    - branch: base
+      description: Вы наносите сильный удар перед собой и сбиваете врагов с ног на 5 секунд, снижая их физическую
+        защиту на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fist_of_fury_darkelf.png
+      level: '3'
+      name: Электрический разряд
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23795
+    - branch: base
+      description: Вы наносите сильный удар перед собой и сбиваете врагов с ног на 5 секунд, снижая их физическую
+        защиту на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fist_of_fury_darkelf.png
+      level: '4'
+      name: Электрический разряд
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23795
+    - branch: base
+      description: Вы наносите сильный удар перед собой и сбиваете врагов с ног на 5 секунд, снижая их физическую
+        защиту на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fist_of_fury_darkelf.png
+      level: '5'
+      name: Электрический разряд
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23795
+    - branch: base
       description: На короткий промежуток времени сильно увеличивает скорость бега, защищает от всех проклятий
         и эффектов контроля и очень сильно снижает урон по Вам. При этом Вы не можете атаковать и использовать
         умения и магию.

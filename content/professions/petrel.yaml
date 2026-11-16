@@ -4499,6 +4499,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23668
+    - branch: base
+      description: Увеличивает магическую атаку на 20%. Позволяет использовать умение *Заряженный выстрел*
+        без перезарядки.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
+      level: '2'
+      name: Контроль варпа
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23668
+    - branch: base
+      description: Увеличивает магическую атаку на 30%. Позволяет использовать умение *Заряженный выстрел*
+        без перезарядки.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
+      level: '3'
+      name: Контроль варпа
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23668
+    - branch: base
+      description: Увеличивает магическую атаку на 35%. Позволяет использовать умение *Заряженный выстрел*
+        без перезарядки.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
+      level: '4'
+      name: Контроль варпа
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23668
+    - branch: base
+      description: Увеличивает магическую атаку на 40%. Позволяет использовать умение *Заряженный выстрел*
+        без перезарядки.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_skill_debuff.png
+      level: '5'
+      name: Контроль варпа
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23668
     id: skill20
     title: Простые умения
   - entries:

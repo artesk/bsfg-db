@@ -4395,6 +4395,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23817
+    - branch: base
+      description: Увеличивает физическую атаку на 15% и сокращает задержку между выстрелами на 10%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_wind.png
+      level: '2'
+      name: Пристрелка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23817
+    - branch: base
+      description: Увеличивает физическую атаку на 20% и сокращает задержку между выстрелами на 14%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_wind.png
+      level: '3'
+      name: Пристрелка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23817
+    - branch: base
+      description: Увеличивает физическую атаку на 23% и сокращает задержку между выстрелами на 16%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_wind.png
+      level: '4'
+      name: Пристрелка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23817
+    - branch: base
+      description: Увеличивает физическую атаку на 26% и сокращает задержку между выстрелами на 18%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_wind.png
+      level: '5'
+      name: Пристрелка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23817
     id: skill20
     title: Простые умения
   - entries:

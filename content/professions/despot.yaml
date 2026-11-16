@@ -5061,6 +5061,54 @@ profession:
       - 'Длительность эффекта: 2 сек.'
       skill_id: 23793
       effects_from_archive: true
+    - branch: base
+      description: Наносит повреждения противникам вокруг себя на большом расстоянии и притягивает их к себе,
+        замедляя их на 150 на 4 секунды, игнорируя иммунитет к замедлениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.little_big_attack.png
+      level: '2'
+      name: Магнитный удар
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23793
+    - branch: base
+      description: Наносит повреждения противникам вокруг себя на большом расстоянии и притягивает их к себе,
+        замедляя их на 150 на 4 секунды, игнорируя иммунитет к замедлениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.little_big_attack.png
+      level: '3'
+      name: Магнитный удар
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23793
+    - branch: base
+      description: Наносит повреждения противникам вокруг себя на большом расстоянии и притягивает их к себе,
+        замедляя их на 150 на 4 секунды, игнорируя иммунитет к замедлениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.little_big_attack.png
+      level: '4'
+      name: Магнитный удар
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23793
+    - branch: base
+      description: Наносит повреждения противникам вокруг себя на большом расстоянии и притягивает их к себе,
+        замедляя их на 150 на 4 секунды, игнорируя иммунитет к замедлениям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.little_big_attack.png
+      level: '5'
+      name: Магнитный удар
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23793
     id: skill20
     title: Простые умения
   - entries:

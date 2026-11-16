@@ -5153,6 +5153,54 @@ profession:
       - 'Время до повторного использования: 40 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23745
+    - branch: base
+      description: Наносит большой урон вокруг себя и провоцирует противников на атаку, игнорируя иммунитет
+        к провокациям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spear_stump.png
+      level: '2'
+      name: Агрессия хирда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23745
+    - branch: base
+      description: Наносит большой урон вокруг себя и провоцирует противников на атаку, игнорируя иммунитет
+        к провокациям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spear_stump.png
+      level: '3'
+      name: Агрессия хирда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23745
+    - branch: base
+      description: Наносит большой урон вокруг себя и провоцирует противников на атаку, игнорируя иммунитет
+        к провокациям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spear_stump.png
+      level: '4'
+      name: Агрессия хирда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23745
+    - branch: base
+      description: Наносит большой урон вокруг себя и провоцирует противников на атаку, игнорируя иммунитет
+        к провокациям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spear_stump.png
+      level: '5'
+      name: Агрессия хирда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23745
     id: skill20
     title: Простые умения
   - entries:

@@ -5279,6 +5279,54 @@ profession:
       - 'Длительность эффекта: 7 сек.'
       skill_id: 23946
       effects_from_archive: true
+    - branch: base
+      description: Вы ставите метку на врага. В течение 7 секунд он будет обезоружен и замедлен на 110, игнорируя
+        иммунитет к молчанию и замедлению.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.hero_book_mineral.png
+      level: '2'
+      name: Контракт на убийство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23946
+    - branch: base
+      description: Вы ставите метку на врага. В течение 7 секунд он будет обезоружен и замедлен на 130, игнорируя
+        иммунитет к молчанию и замедлению.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.hero_book_mineral.png
+      level: '3'
+      name: Контракт на убийство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23946
+    - branch: base
+      description: Вы ставите метку на врага. В течение 7 секунд он будет обезоружен и замедлен на 140, игнорируя
+        иммунитет к молчанию и замедлению.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.hero_book_mineral.png
+      level: '4'
+      name: Контракт на убийство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23946
+    - branch: base
+      description: Вы ставите метку на врага. В течение 7 секунд он будет обезоружен и замедлен на 150, игнорируя
+        иммунитет к молчанию и замедлению.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.hero_book_mineral.png
+      level: '5'
+      name: Контракт на убийство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23946
     id: skill20
     title: Простые умения
   - entries:

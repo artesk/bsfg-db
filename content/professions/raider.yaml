@@ -5197,6 +5197,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23664
+    - branch: base
+      description: Увеличивает силу критических атак на 15%, скорость бега на 16 и максимальное значение скорости
+        бега на 50.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_speed_up.png
+      level: '2'
+      name: Раш
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23664
+    - branch: base
+      description: Увеличивает силу критических атак на 20%, скорость бега на 22 и максимальное значение скорости
+        бега на 50.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_speed_up.png
+      level: '3'
+      name: Раш
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23664
+    - branch: base
+      description: Увеличивает силу критических атак на 22.5%, скорость бега на 25 и максимальное значение
+        скорости бега на 50.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_speed_up.png
+      level: '4'
+      name: Раш
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23664
+    - branch: base
+      description: Увеличивает силу критических атак на 25%, скорость бега на 28 и максимальное значение скорости
+        бега на 50.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_tricker_speed_up.png
+      level: '5'
+      name: Раш
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23664
     id: skill20
     title: Простые умения
   - entries:

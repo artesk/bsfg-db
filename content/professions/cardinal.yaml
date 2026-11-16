@@ -4495,6 +4495,54 @@ profession:
       - 'Минимальное время до повторного использования: Фикс.'
       - 'Длительность эффекта: 7 сек.'
       skill_id: 23953
+    - branch: base
+      description: Вы проклинаете врагов вокруг цели и они начинают терять здоровье, силой 2%. После кровотечения
+        они получат 6000 фиксированного урона и будут оглушены на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_essential_holy_buster.png
+      level: '2'
+      name: Гнев небес
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23953
+    - branch: base
+      description: Вы проклинаете врагов вокруг цели и они начинают терять здоровье, силой 3%. После кровотечения
+        они получат 8000 фиксированного урона и будут оглушены на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_essential_holy_buster.png
+      level: '3'
+      name: Гнев небес
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23953
+    - branch: base
+      description: Вы проклинаете врагов вокруг цели и они начинают терять здоровье, силой 3.5%. После кровотечения
+        они получат 9000 фиксированного урона и будут оглушены на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_essential_holy_buster.png
+      level: '4'
+      name: Гнев небес
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23953
+    - branch: base
+      description: Вы проклинаете врагов вокруг цели и они начинают терять здоровье, силой 4%. После кровотечения
+        они получат 10000 фиксированного урона и будут оглушены на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_essential_holy_buster.png
+      level: '5'
+      name: Гнев небес
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23953
     id: skill20
     title: Простые умения
   - entries:

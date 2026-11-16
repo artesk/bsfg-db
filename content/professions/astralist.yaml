@@ -5727,6 +5727,54 @@ profession:
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23920
     - branch: base
+      description: Вы быстро перемещаете союзника к себе с большого расстояния и восстанавливаете ему боевой
+        дух. При использовании на врага Вы наносите ему большой урон и откидываете его от себя.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.trigger_priest_heirophant_buff1.png
+      level: '2'
+      name: Астральное смещение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23920
+    - branch: base
+      description: Вы быстро перемещаете союзника к себе с большого расстояния и восстанавливаете ему боевой
+        дух. При использовании на врага Вы наносите ему большой урон и откидываете его от себя.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.trigger_priest_heirophant_buff1.png
+      level: '3'
+      name: Астральное смещение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23920
+    - branch: base
+      description: Вы быстро перемещаете союзника к себе с большого расстояния и восстанавливаете ему боевой
+        дух. При использовании на врага Вы наносите ему большой урон и откидываете его от себя.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.trigger_priest_heirophant_buff1.png
+      level: '4'
+      name: Астральное смещение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23920
+    - branch: base
+      description: Вы быстро перемещаете союзника к себе с большого расстояния и восстанавливаете ему боевой
+        дух. При использовании на врага Вы наносите ему большой урон и откидываете его от себя.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.trigger_priest_heirophant_buff1.png
+      level: '5'
+      name: Астральное смещение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23920
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

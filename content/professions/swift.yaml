@@ -5569,6 +5569,50 @@ profession:
       - 'Время до повторного использования: 72 сек.'
       - 'Минимальное время до повторного использования: 40 сек.'
       skill_id: 23864
+    - branch: base
+      description: Наносит удар по противникам вокруг цели, который снизит их защиту на 25% на 6 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fafurion_dual_dagger_i01.png
+      level: '2'
+      name: Разброс перьев
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23864
+    - branch: base
+      description: Наносит удар по противникам вокруг цели, который снизит их защиту на 25% на 6 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fafurion_dual_dagger_i01.png
+      level: '3'
+      name: Разброс перьев
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23864
+    - branch: base
+      description: Наносит удар по противникам вокруг цели, который снизит их защиту на 25% на 6 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fafurion_dual_dagger_i01.png
+      level: '4'
+      name: Разброс перьев
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23864
+    - branch: base
+      description: Наносит удар по противникам вокруг цели, который снизит их защиту на 25% на 6 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.fafurion_dual_dagger_i01.png
+      level: '5'
+      name: Разброс перьев
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23864
     id: skill20
     title: Простые умения
   - entries:

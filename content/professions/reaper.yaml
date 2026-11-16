@@ -5077,6 +5077,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23663
+    - branch: base
+      description: Увеличивает силу критических атак на 15%, шанс нанести критический удар на 15% и максимальное
+        значение шанса критической атаки на 60.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill31140.png
+      level: '2'
+      name: Дары смерти
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23663
+    - branch: base
+      description: Увеличивает силу критических атак на 20%, шанс нанести критический удар на 20% и максимальное
+        значение шанса критической атаки на 80.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill31140.png
+      level: '3'
+      name: Дары смерти
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23663
+    - branch: base
+      description: Увеличивает силу критических атак на 22.5%, шанс нанести критический удар на 22.5% и максимальное
+        значение шанса критической атаки на 90.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill31140.png
+      level: '4'
+      name: Дары смерти
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23663
+    - branch: base
+      description: Увеличивает силу критических атак на 25%, шанс нанести критический удар на 25% и максимальное
+        значение шанса критической атаки на 100.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill31140.png
+      level: '5'
+      name: Дары смерти
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23663
     id: skill20
     title: Простые умения
   - entries:

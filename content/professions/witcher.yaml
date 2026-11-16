@@ -4819,6 +4819,54 @@ profession:
       - 'Время до повторного использования: 65 сек.'
       - 'Минимальное время до повторного использования: 30 сек.'
       skill_id: 23772
+    - branch: base
+      description: Заряжает оружие силой теней на 6 ударов. 5 ударов дополнительно нанесут по 4000 фиксированного
+        урона, а последний обезоружит врага и снизит его защиту на 15% на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.imprison_aka_manaf1.png
+      level: '2'
+      name: Клинок теней
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23772
+    - branch: base
+      description: Заряжает оружие силой теней на 6 ударов. 5 ударов дополнительно нанесут по 6000 фиксированного
+        урона, а последний обезоружит врага и снизит его защиту на 20% на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.imprison_aka_manaf1.png
+      level: '3'
+      name: Клинок теней
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23772
+    - branch: base
+      description: Заряжает оружие силой теней на 6 ударов. 5 ударов дополнительно нанесут по 10000 фиксированного
+        урона, а последний обезоружит врага и снизит его защиту на 22.5% на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.imprison_aka_manaf1.png
+      level: '4'
+      name: Клинок теней
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23772
+    - branch: base
+      description: Заряжает оружие силой теней на 6 ударов. 5 ударов дополнительно нанесут по 14000 фиксированного
+        урона, а последний обезоружит врага и снизит его защиту на 25% на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.imprison_aka_manaf1.png
+      level: '5'
+      name: Клинок теней
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23772
     id: skill20
     title: Простые умения
   - entries:

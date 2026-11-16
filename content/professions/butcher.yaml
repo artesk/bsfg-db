@@ -5611,6 +5611,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23702
+    - branch: base
+      description: Ваши критические атаки будут наносить врагу 3000 фиксированного урона и восстанваливать
+        себе 3000 жизненных сил или боевого духа.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_titan_weapon_mastery.png
+      level: '2'
+      name: Нож мясника
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23702
+    - branch: base
+      description: Ваши критические атаки будут наносить врагу 4000 фиксированного урона и восстанваливать
+        себе 4000 жизненных сил или боевого духа.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_titan_weapon_mastery.png
+      level: '3'
+      name: Нож мясника
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23702
+    - branch: base
+      description: Ваши критические атаки будут наносить врагу 4500 фиксированного урона и восстанваливать
+        себе 4500 жизненных сил или боевого духа.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_titan_weapon_mastery.png
+      level: '4'
+      name: Нож мясника
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23702
+    - branch: base
+      description: Ваши критические атаки будут наносить врагу 5000 фиксированного урона и восстанваливать
+        себе 5000 жизненных сил или боевого духа.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_titan_weapon_mastery.png
+      level: '5'
+      name: Нож мясника
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23702
     id: skill20
     title: Простые умения
   - entries:

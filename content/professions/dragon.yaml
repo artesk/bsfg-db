@@ -6007,6 +6007,54 @@ profession:
       - 'Время до повторного использования: 65 сек.'
       - 'Минимальное время до повторного использования: 30 сек.'
       skill_id: 23730
+    - branch: base
+      description: Вы наносите сильный урон врагу и поджигаете его на 6 секунд, силой 2%, игнорируя иммунитет
+        к ожогам.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_dragon_weapon_earth.png
+      level: '2'
+      name: Пепельное дыхание
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23730
+    - branch: base
+      description: Вы наносите сильный урон врагу и поджигаете его на 6 секунд, силой 3%, игнорируя иммунитет
+        к ожогам.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_dragon_weapon_earth.png
+      level: '3'
+      name: Пепельное дыхание
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23730
+    - branch: base
+      description: Вы наносите сильный урон врагу и поджигаете его на 6 секунд, силой 3.5%, игнорируя иммунитет
+        к ожогам.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_dragon_weapon_earth.png
+      level: '4'
+      name: Пепельное дыхание
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23730
+    - branch: base
+      description: Вы наносите сильный урон врагу и поджигаете его на 6 секунд, силой 4%, игнорируя иммунитет
+        к ожогам.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_dragon_weapon_earth.png
+      level: '5'
+      name: Пепельное дыхание
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23730
     id: skill20
     title: Простые умения
   - entries:

@@ -5475,6 +5475,54 @@ profession:
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23917
     - branch: base
+      description: Длань господня позволяет практически полностью заблокировать 3 следующих удара по членам
+        Вашей группы.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tz_holy_cage1.png
+      level: '2'
+      name: Длань господня
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23917
+    - branch: base
+      description: Длань господня позволяет практически полностью заблокировать 3 следующих удара по членам
+        Вашей группы.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tz_holy_cage1.png
+      level: '3'
+      name: Длань господня
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23917
+    - branch: base
+      description: Длань господня позволяет практически полностью заблокировать 3 следующих удара по членам
+        Вашей группы.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tz_holy_cage1.png
+      level: '4'
+      name: Длань господня
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23917
+    - branch: base
+      description: Длань господня позволяет практически полностью заблокировать 3 следующих удара по членам
+        Вашей группы.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tz_holy_cage1.png
+      level: '5'
+      name: Длань господня
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23917
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

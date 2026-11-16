@@ -5058,6 +5058,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23952
+    - branch: base
+      description: Увеличивает физическую атаку на 25% и восстановление жизненных сил на 3000.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.pet_fox_field.png
+      level: '2'
+      name: Дух зверя
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23952
+    - branch: base
+      description: Увеличивает физическую атаку на 30% и восстановление жизненных сил на 4000.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.pet_fox_field.png
+      level: '3'
+      name: Дух зверя
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23952
+    - branch: base
+      description: Увеличивает физическую атаку на 32.5% и восстановление жизненных сил на 4500.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.pet_fox_field.png
+      level: '4'
+      name: Дух зверя
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23952
+    - branch: base
+      description: Увеличивает физическую атаку на 35% и восстановление жизненных сил на 5000.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.pet_fox_field.png
+      level: '5'
+      name: Дух зверя
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23952
     id: skill20
     title: Простые умения
   - entries:

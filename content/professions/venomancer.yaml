@@ -4876,6 +4876,50 @@ profession:
       - 'Минимальное время до повторного использования: Фикс.'
       - 'Длительность эффекта: 20 сек.'
       skill_id: 23770
+    - branch: base
+      description: Вы отравляете врага особым ядом, под котором если он умрет, то его нельзя будет воскресить.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tof_area_buff.png
+      level: '2'
+      name: Гемотоксин
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23770
+    - branch: base
+      description: Вы отравляете врага особым ядом, под котором если он умрет, то его нельзя будет воскресить.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tof_area_buff.png
+      level: '3'
+      name: Гемотоксин
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23770
+    - branch: base
+      description: Вы отравляете врага особым ядом, под котором если он умрет, то его нельзя будет воскресить.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tof_area_buff.png
+      level: '4'
+      name: Гемотоксин
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23770
+    - branch: base
+      description: Вы отравляете врага особым ядом, под котором если он умрет, то его нельзя будет воскресить.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tof_area_buff.png
+      level: '5'
+      name: Гемотоксин
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23770
     id: skill20
     title: Простые умения
   - entries:

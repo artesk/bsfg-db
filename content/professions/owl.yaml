@@ -5940,6 +5940,50 @@ profession:
       - 'Длительность эффекта: 5 сек.'
       skill_id: 23908
     - branch: base
+      description: На 5 секунд снижает входящий урон союзника на 90%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_benediction_new.png
+      level: '2'
+      name: Укрыть крылом
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23908
+    - branch: base
+      description: На 5 секунд снижает входящий урон союзника на 90%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_benediction_new.png
+      level: '3'
+      name: Укрыть крылом
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23908
+    - branch: base
+      description: На 5 секунд снижает входящий урон союзника на 90%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_benediction_new.png
+      level: '4'
+      name: Укрыть крылом
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23908
+    - branch: base
+      description: На 5 секунд снижает входящий урон союзника на 90%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_benediction_new.png
+      level: '5'
+      name: Укрыть крылом
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23908
+    - branch: base
       description: На короткое время защищает от негативных заклинаний союзника, а также увеличивает его
         скорость бега.
       effects: []

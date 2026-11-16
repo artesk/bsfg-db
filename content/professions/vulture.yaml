@@ -5599,6 +5599,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23675
+    - branch: base
+      description: Увеличивает физическую атаку на 4% и силу физических умений на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.sayha2017_blink.png
+      level: '2'
+      name: Покорение ветра
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23675
+    - branch: base
+      description: Увеличивает физическую атаку на 5% и силу физических умений на 35%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.sayha2017_blink.png
+      level: '3'
+      name: Покорение ветра
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23675
+    - branch: base
+      description: Увеличивает физическую атаку на 5.5% и силу физических умений на 40%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.sayha2017_blink.png
+      level: '4'
+      name: Покорение ветра
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23675
+    - branch: base
+      description: Увеличивает физическую атаку на 6% и силу физических умений на 45%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.sayha2017_blink.png
+      level: '5'
+      name: Покорение ветра
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23675
     id: skill20
     title: Простые умения
   - entries:

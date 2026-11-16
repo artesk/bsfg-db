@@ -5427,6 +5427,50 @@ profession:
       - 'Время до повторного использования: 20 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23959
+    - branch: base
+      description: Вы кидаете во врага гранату, нанося большой урон и выбиваете его оружие из рук на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/bsfg.s12349.png
+      level: '2'
+      name: Тактическая уловка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23959
+    - branch: base
+      description: Вы кидаете во врага гранату, нанося большой урон и выбиваете его оружие из рук на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/bsfg.s12349.png
+      level: '3'
+      name: Тактическая уловка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23959
+    - branch: base
+      description: Вы кидаете во врага гранату, нанося большой урон и выбиваете его оружие из рук на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/bsfg.s12349.png
+      level: '4'
+      name: Тактическая уловка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23959
+    - branch: base
+      description: Вы кидаете во врага гранату, нанося большой урон и выбиваете его оружие из рук на 5 секунд.
+      effects: []
+      icon: /icon/client-skills/bsfg.s12349.png
+      level: '5'
+      name: Тактическая уловка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23959
     id: skill20
     title: Простые умения
   - entries:

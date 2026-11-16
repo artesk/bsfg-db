@@ -4356,6 +4356,54 @@ profession:
       - 'Время до повторного использования: 18 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23879
+    - branch: base
+      description: Наносит урон противнику магией огня и проклинает его на 6 секунд. Ваше умение *Наказание
+        огнем* будет наносить дополнительный урон по проклятому врагу.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_blast.png
+      level: '2'
+      name: Праведное пламя
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23879
+    - branch: base
+      description: Наносит урон противнику магией огня и проклинает его на 6 секунд. Ваше умение *Наказание
+        огнем* будет наносить дополнительный урон по проклятому врагу.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_blast.png
+      level: '3'
+      name: Праведное пламя
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23879
+    - branch: base
+      description: Наносит урон противнику магией огня и проклинает его на 6 секунд. Ваше умение *Наказание
+        огнем* будет наносить дополнительный урон по проклятому врагу.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_blast.png
+      level: '4'
+      name: Праведное пламя
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23879
+    - branch: base
+      description: Наносит урон противнику магией огня и проклинает его на 6 секунд. Ваше умение *Наказание
+        огнем* будет наносить дополнительный урон по проклятому врагу.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_blast.png
+      level: '5'
+      name: Праведное пламя
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23879
     id: skill20
     title: Простые умения
   - entries:

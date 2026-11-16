@@ -5613,6 +5613,54 @@ profession:
       - 'Минимальное время до повторного использования: 30 сек.'
       - 'Длительность эффекта: 8 сек.'
       skill_id: 23751
+    - branch: base
+      description: Вы обездвиживаете врагов вокруг цели на 8 секунд и снижаете их физическую защиту на 11%.
+        Игнорирует иммунитет к обездвиживаниям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_highelf_race_mark.png
+      level: '2'
+      name: Руна Древа
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23751
+    - branch: base
+      description: Вы обездвиживаете врагов вокруг цели на 8 секунд и снижаете их физическую защиту на 15%.
+        Игнорирует иммунитет к обездвиживаниям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_highelf_race_mark.png
+      level: '3'
+      name: Руна Древа
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23751
+    - branch: base
+      description: Вы обездвиживаете врагов вокруг цели на 8 секунд и снижаете их физическую защиту на 17%.
+        Игнорирует иммунитет к обездвиживаниям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_highelf_race_mark.png
+      level: '4'
+      name: Руна Древа
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23751
+    - branch: base
+      description: Вы обездвиживаете врагов вокруг цели на 8 секунд и снижаете их физическую защиту на 19%.
+        Игнорирует иммунитет к обездвиживаниям.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_highelf_race_mark.png
+      level: '5'
+      name: Руна Древа
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23751
     id: skill20
     title: Простые умения
   - entries:

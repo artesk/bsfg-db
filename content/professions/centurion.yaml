@@ -5212,6 +5212,54 @@ profession:
       - 'Время до повторного использования: 24 сек.'
       - 'Минимальное время до повторного использования: 5 сек.'
       skill_id: 23780
+    - branch: base
+      description: 'Двуручный топор: Наносит удар по врагу и снижает его скорость бега на 60. Копье: Наносит
+        удар по врагу и увеличивает Вашу скорость бега на 60.'
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spear_stump.png
+      level: '2'
+      name: Наступление
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23780
+    - branch: base
+      description: 'Двуручный топор: Наносит удар по врагу и снижает его скорость бега на 60. Копье: Наносит
+        удар по врагу и увеличивает Вашу скорость бега на 60.'
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spear_stump.png
+      level: '3'
+      name: Наступление
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23780
+    - branch: base
+      description: 'Двуручный топор: Наносит удар по врагу и снижает его скорость бега на 60. Копье: Наносит
+        удар по врагу и увеличивает Вашу скорость бега на 60.'
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spear_stump.png
+      level: '4'
+      name: Наступление
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23780
+    - branch: base
+      description: 'Двуручный топор: Наносит удар по врагу и снижает его скорость бега на 60. Копье: Наносит
+        удар по врагу и увеличивает Вашу скорость бега на 60.'
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spear_stump.png
+      level: '5'
+      name: Наступление
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23780
     id: skill20
     title: Простые умения
   - entries:

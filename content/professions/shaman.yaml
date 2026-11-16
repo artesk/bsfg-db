@@ -4517,6 +4517,50 @@ profession:
       - 'Минимальное время до повторного использования: 30 сек.'
       skill_id: 23802
       effects_from_archive: true
+    - branch: base
+      description: Наносит сильный урон по противнику.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_raid_antaras_summon_stalactite1.png
+      level: '2'
+      name: Скалистый вал
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23802
+    - branch: base
+      description: Наносит сильный урон по противнику.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_raid_antaras_summon_stalactite1.png
+      level: '3'
+      name: Скалистый вал
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23802
+    - branch: base
+      description: Наносит сильный урон по противнику.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_raid_antaras_summon_stalactite1.png
+      level: '4'
+      name: Скалистый вал
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23802
+    - branch: base
+      description: Наносит сильный урон по противнику.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_raid_antaras_summon_stalactite1.png
+      level: '5'
+      name: Скалистый вал
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23802
     id: skill20
     title: Простые умения
   - entries:

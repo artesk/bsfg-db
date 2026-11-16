@@ -5312,6 +5312,54 @@ profession:
       - 'Минимальное время до повторного использования: Фикс.'
       - 'Длительность эффекта: 300 сек.'
       skill_id: 23942
+    - branch: base
+      description: Увеличивает защиту на 10% и защиту при осаде на 10%. При использовании увеличивает Вам
+        и членам Вашей группы защиту на 10%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.gold_stone.png
+      level: '2'
+      name: Главнокомандующий
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23942
+    - branch: base
+      description: Увеличивает защиту на 15% и защиту при осаде на 15%. При использовании увеличивает Вам
+        и членам Вашей группы защиту на 15%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.gold_stone.png
+      level: '3'
+      name: Главнокомандующий
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23942
+    - branch: base
+      description: Увеличивает защиту на 17.5% и защиту при осаде на 17.5%. При использовании увеличивает
+        Вам и членам Вашей группы защиту на 17.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.gold_stone.png
+      level: '4'
+      name: Главнокомандующий
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23942
+    - branch: base
+      description: Увеличивает защиту на 20% и защиту при осаде на 20%. При использовании увеличивает Вам
+        и членам Вашей группы защиту на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.gold_stone.png
+      level: '5'
+      name: Главнокомандующий
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23942
     id: skill20
     title: Простые умения
   - entries:

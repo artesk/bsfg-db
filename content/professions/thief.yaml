@@ -5831,6 +5831,54 @@ profession:
       - 'Время до повторного использования: 68 сек.'
       - 'Минимальное время до повторного использования: 30 сек.'
       skill_id: 23947
+    - branch: base
+      description: 'Вы моментально перемещаетесь к противнику с большого расстояния. Левая рука: на 5 секунд
+        у врага снижается физическая защита на 20%. Правая рука: на 5 секунд обездвиживает врага.'
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_assassin_charge_attack.png
+      level: '2'
+      name: Проворство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23947
+    - branch: base
+      description: 'Вы моментально перемещаетесь к противнику с большого расстояния. Левая рука: на 5 секунд
+        у врага снижается физическая защита на 20%. Правая рука: на 5 секунд обездвиживает врага.'
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_assassin_charge_attack.png
+      level: '3'
+      name: Проворство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23947
+    - branch: base
+      description: 'Вы моментально перемещаетесь к противнику с большого расстояния. Левая рука: на 5 секунд
+        у врага снижается физическая защита на 20%. Правая рука: на 5 секунд обездвиживает врага.'
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_assassin_charge_attack.png
+      level: '4'
+      name: Проворство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23947
+    - branch: base
+      description: 'Вы моментально перемещаетесь к противнику с большого расстояния. Левая рука: на 5 секунд
+        у врага снижается физическая защита на 20%. Правая рука: на 5 секунд обездвиживает врага.'
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_assassin_charge_attack.png
+      level: '5'
+      name: Проворство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23947
     id: skill20
     title: Простые умения
   - entries:

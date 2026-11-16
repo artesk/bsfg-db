@@ -4931,6 +4931,54 @@ profession:
       - 'Время применения: Фикс 0.6 сек.'
       - 'Время до повторного использования: 1 сек.'
       skill_id: 23961
+    - branch: base
+      description: Вы выбираете себе жертву, связывая себя с ней. При повторном использовании Вы перемещаетесь
+        к врагу и наносите ему урон.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_bone_prison.png
+      level: '2'
+      name: Выбор жертвы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23961
+    - branch: base
+      description: Вы выбираете себе жертву, связывая себя с ней. При повторном использовании Вы перемещаетесь
+        к врагу и наносите ему урон.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_bone_prison.png
+      level: '3'
+      name: Выбор жертвы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23961
+    - branch: base
+      description: Вы выбираете себе жертву, связывая себя с ней. При повторном использовании Вы перемещаетесь
+        к врагу и наносите ему урон.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_bone_prison.png
+      level: '4'
+      name: Выбор жертвы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23961
+    - branch: base
+      description: Вы выбираете себе жертву, связывая себя с ней. При повторном использовании Вы перемещаетесь
+        к врагу и наносите ему урон.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_bone_prison.png
+      level: '5'
+      name: Выбор жертвы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23961
     id: skill20
     title: Простые умения
   - entries:

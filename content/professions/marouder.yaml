@@ -5549,6 +5549,54 @@ profession:
       - 'Минимальное время до повторного использования: Фикс.'
       - 'Длительность эффекта: 6 сек.'
       skill_id: 23900
+    - branch: base
+      description: На 6 секунд увеличивает урон по вражеским игрокам на 15%, к тому же Ваши критические атаки
+        по врагу будут накапливать *Злобу*.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
+      level: '2'
+      name: Абсолютная ярость
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23900
+    - branch: base
+      description: На 6 секунд увеличивает урон по вражеским игрокам на 20%, к тому же Ваши критические атаки
+        по врагу будут накапливать *Злобу*.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
+      level: '3'
+      name: Абсолютная ярость
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23900
+    - branch: base
+      description: На 6 секунд увеличивает урон по вражеским игрокам на 22.5%, к тому же Ваши критические
+        атаки по врагу будут накапливать *Злобу*.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
+      level: '4'
+      name: Абсолютная ярость
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23900
+    - branch: base
+      description: На 6 секунд увеличивает урон по вражеским игрокам на 25%, к тому же Ваши критические атаки
+        по врагу будут накапливать *Злобу*.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.war_roar_master.png
+      level: '5'
+      name: Абсолютная ярость
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23900
     id: skill20
     title: Простые умения
   - entries:

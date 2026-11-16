@@ -5362,6 +5362,54 @@ profession:
       - 'Время до повторного использования: 92 сек.'
       - 'Минимальное время до повторного использования: 60 сек.'
       skill_id: 23813
+    - branch: base
+      description: Сильный протыкающий удар по противнику, который парализует врага на 5 секунд, игнорируя
+        иммунитет к параличу. Если здоровье цели меньше 30%, то удар будет летальным.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_formula_of_demolition.png
+      level: '2'
+      name: Фатальный прокол
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23813
+    - branch: base
+      description: Сильный протыкающий удар по противнику, который парализует врага на 5 секунд, игнорируя
+        иммунитет к параличу. Если здоровье цели меньше 30%, то удар будет летальным.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_formula_of_demolition.png
+      level: '3'
+      name: Фатальный прокол
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23813
+    - branch: base
+      description: Сильный протыкающий удар по противнику, который парализует врага на 5 секунд, игнорируя
+        иммунитет к параличу. Если здоровье цели меньше 30%, то удар будет летальным.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_formula_of_demolition.png
+      level: '4'
+      name: Фатальный прокол
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23813
+    - branch: base
+      description: Сильный протыкающий удар по противнику, который парализует врага на 5 секунд, игнорируя
+        иммунитет к параличу. Если здоровье цели меньше 30%, то удар будет летальным.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_formula_of_demolition.png
+      level: '5'
+      name: Фатальный прокол
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23813
     id: skill20
     title: Простые умения
   - entries:

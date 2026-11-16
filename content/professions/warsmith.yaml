@@ -6060,6 +6060,54 @@ profession:
       - 'Время до повторного использования: 1 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23866
+    - branch: base
+      description: Наносит массовый урон вокруг себя. Можно использовать 3 раза подряд. Каждый удар на мгновение
+        оглушает врагов.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.hero_attack.png
+      level: '2'
+      name: Тяжелая кувалда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23866
+    - branch: base
+      description: Наносит массовый урон вокруг себя. Можно использовать 3 раза подряд. Каждый удар на мгновение
+        оглушает врагов.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.hero_attack.png
+      level: '3'
+      name: Тяжелая кувалда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23866
+    - branch: base
+      description: Наносит массовый урон вокруг себя. Можно использовать 3 раза подряд. Каждый удар на мгновение
+        оглушает врагов.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.hero_attack.png
+      level: '4'
+      name: Тяжелая кувалда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23866
+    - branch: base
+      description: Наносит массовый урон вокруг себя. Можно использовать 3 раза подряд. Каждый удар на мгновение
+        оглушает врагов.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.hero_attack.png
+      level: '5'
+      name: Тяжелая кувалда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23866
     id: skill20
     title: Простые умения
   - entries:

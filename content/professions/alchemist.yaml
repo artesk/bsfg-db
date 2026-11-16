@@ -4410,6 +4410,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23808
+    - branch: base
+      description: Все кто будет Вас атаковать будут получать химический ожог, силой 2%, к тому же их магическая
+        защита будет снижена на 15%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_blazing_tempest_stigma.png
+      level: '2'
+      name: Химический ожог
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23808
+    - branch: base
+      description: Все кто будет Вас атаковать будут получать химический ожог, силой 3%, к тому же их магическая
+        защита будет снижена на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_blazing_tempest_stigma.png
+      level: '3'
+      name: Химический ожог
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23808
+    - branch: base
+      description: Все кто будет Вас атаковать будут получать химический ожог, силой 3.5%, к тому же их магическая
+        защита будет снижена на 22.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_blazing_tempest_stigma.png
+      level: '4'
+      name: Химический ожог
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23808
+    - branch: base
+      description: Все кто будет Вас атаковать будут получать химический ожог, силой 4%, к тому же их магическая
+        защита будет снижена на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_blazing_tempest_stigma.png
+      level: '5'
+      name: Химический ожог
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23808
     id: skill20
     title: Простые умения
   - entries:

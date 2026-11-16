@@ -6175,6 +6175,54 @@ profession:
       skill_id: 23905
       effects_from_archive: true
     - branch: base
+      description: На 6 секунд увеличивает защиту союзника на 250% + 80000 и делает его невосприимчивым к
+        эффекту молчания.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.prophets_of_tobald_i00.png
+      level: '2'
+      name: 'Тайное знание '
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23905
+    - branch: base
+      description: На 6 секунд увеличивает защиту союзника на 300% + 100000 и делает его невосприимчивым к
+        эффекту молчания.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.prophets_of_tobald_i00.png
+      level: '3'
+      name: 'Тайное знание '
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23905
+    - branch: base
+      description: На 6 секунд увеличивает защиту союзника на 325% + 110000 и делает его невосприимчивым к
+        эффекту молчания.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.prophets_of_tobald_i00.png
+      level: '4'
+      name: 'Тайное знание '
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23905
+    - branch: base
+      description: На 6 секунд увеличивает защиту союзника на 350% + 120000 и делает его невосприимчивым к
+        эффекту молчания.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.prophets_of_tobald_i00.png
+      level: '5'
+      name: 'Тайное знание '
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23905
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

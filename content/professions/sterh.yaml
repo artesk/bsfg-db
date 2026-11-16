@@ -4554,6 +4554,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23819
+    - branch: base
+      description: Увеличивает силу критических атак на 15%. Примерно раз в 28 секунд Вы будете получать защиту
+        от одного следующего эффекта контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_spinning_piercing.png
+      level: '2'
+      name: Боевая подготовка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23819
+    - branch: base
+      description: Увеличивает силу критических атак на 20%. Примерно раз в 26 секунд Вы будете получать защиту
+        от одного следующего эффекта контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_spinning_piercing.png
+      level: '3'
+      name: Боевая подготовка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23819
+    - branch: base
+      description: Увеличивает силу критических атак на 23%. Примерно раз в 25 секунд Вы будете получать защиту
+        от одного следующего эффекта контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_spinning_piercing.png
+      level: '4'
+      name: Боевая подготовка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23819
+    - branch: base
+      description: Увеличивает силу критических атак на 26%. Примерно раз в 24 секунд Вы будете получать защиту
+        от одного следующего эффекта контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_spinning_piercing.png
+      level: '5'
+      name: Боевая подготовка
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23819
     id: skill20
     title: Простые умения
   - entries:

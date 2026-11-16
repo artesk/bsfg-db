@@ -4558,6 +4558,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23655
+    - branch: base
+      description: Увеличивает скорость атаки на 15% и максимальное значение скорости атаки на 70.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_flame.png
+      level: '2'
+      name: Продвинутая стрельба
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23655
+    - branch: base
+      description: Увеличивает скорость атаки на 20% и максимальное значение скорости атаки на 100.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_flame.png
+      level: '3'
+      name: Продвинутая стрельба
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23655
+    - branch: base
+      description: Увеличивает скорость атаки на 23% и максимальное значение скорости атаки на 115.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_flame.png
+      level: '4'
+      name: Продвинутая стрельба
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23655
+    - branch: base
+      description: Увеличивает скорость атаки на 26% и максимальное значение скорости атаки на 130.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_archer_flame.png
+      level: '5'
+      name: Продвинутая стрельба
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23655
     id: skill20
     title: Простые умения
   - entries:

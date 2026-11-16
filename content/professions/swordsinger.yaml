@@ -6010,6 +6010,54 @@ profession:
       - 'Время до повторного использования: 66 сек.'
       - 'Минимальное время до повторного использования: 30 сек.'
       skill_id: 23838
+    - branch: base
+      description: Вы наносите сильный массовый удар и ослепляете врагов, они в течении 5 секунд будут промахиваться
+        своими атаками.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_blade_cutter_engage.png
+      level: '2'
+      name: Песнь света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23838
+    - branch: base
+      description: Вы наносите сильный массовый удар и ослепляете врагов, они в течении 5 секунд будут промахиваться
+        своими атаками.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_blade_cutter_engage.png
+      level: '3'
+      name: Песнь света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23838
+    - branch: base
+      description: Вы наносите сильный массовый удар и ослепляете врагов, они в течении 5 секунд будут промахиваться
+        своими атаками.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_blade_cutter_engage.png
+      level: '4'
+      name: Песнь света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23838
+    - branch: base
+      description: Вы наносите сильный массовый удар и ослепляете врагов, они в течении 5 секунд будут промахиваться
+        своими атаками.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_blade_cutter_engage.png
+      level: '5'
+      name: Песнь света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23838
     id: skill20
     title: Простые умения
   - entries:

@@ -5749,6 +5749,54 @@ profession:
       - 'Длительность эффекта: 8 сек.'
       skill_id: 23798
       effects_from_archive: true
+    - branch: base
+      description: Вы проклинаете врагов вокруг себя, снижая их атаку на 75% на 8 секунд и уменьшая их скорость
+        передвижения на 70.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.debuff_master.png
+      level: '2'
+      name: Превосходство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23798
+    - branch: base
+      description: Вы проклинаете врагов вокруг себя, снижая их атаку на 75% на 8 секунд и уменьшая их скорость
+        передвижения на 80.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.debuff_master.png
+      level: '3'
+      name: Превосходство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23798
+    - branch: base
+      description: Вы проклинаете врагов вокруг себя, снижая их атаку на 75% на 8 секунд и уменьшая их скорость
+        передвижения на 100.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.debuff_master.png
+      level: '4'
+      name: Превосходство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23798
+    - branch: base
+      description: Вы проклинаете врагов вокруг себя, снижая их атаку на 75% на 8 секунд и уменьшая их скорость
+        передвижения на 120.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.debuff_master.png
+      level: '5'
+      name: Превосходство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23798
     id: skill20
     title: Простые умения
   - entries:

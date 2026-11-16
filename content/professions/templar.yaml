@@ -4939,6 +4939,53 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23686
+    - branch: base
+      description: Ваши критические атаки будут замедлять врага на 75 и наносить ему 4000 фиксированного урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_purge.png
+      level: '2'
+      name: Клинок света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23686
+    - branch: base
+      description: Ваши критические атаки будут замедлять врага на 100 и наносить ему 6000 фиксированного
+        урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_purge.png
+      level: '3'
+      name: Клинок света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23686
+    - branch: base
+      description: Ваши критические атаки будут замедлять врага на 125 и наносить ему 7000 фиксированного
+        урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_purge.png
+      level: '4'
+      name: Клинок света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23686
+    - branch: base
+      description: Ваши критические атаки будут замедлять врага на 150 и наносить ему 8000 фиксированного
+        урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_purge.png
+      level: '5'
+      name: Клинок света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23686
     id: skill20
     title: Простые умения
   - entries:

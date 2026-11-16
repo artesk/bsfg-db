@@ -5468,6 +5468,54 @@ profession:
       - 'Время до повторного использования: 35 сек.'
       - 'Минимальное время до повторного использования: 15 сек.'
       skill_id: 23736
+    - branch: base
+      description: Вы наносите массовый урон на расстоянии большому количеству врагов и на мгновение замедляете
+        их на 90%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_light_authority_attack.png
+      level: '2'
+      name: Праведный гнев
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23736
+    - branch: base
+      description: Вы наносите массовый урон на расстоянии большому количеству врагов и на мгновение замедляете
+        их на 90%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_light_authority_attack.png
+      level: '3'
+      name: Праведный гнев
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23736
+    - branch: base
+      description: Вы наносите массовый урон на расстоянии большому количеству врагов и на мгновение замедляете
+        их на 90%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_light_authority_attack.png
+      level: '4'
+      name: Праведный гнев
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23736
+    - branch: base
+      description: Вы наносите массовый урон на расстоянии большому количеству врагов и на мгновение замедляете
+        их на 90%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_light_authority_attack.png
+      level: '5'
+      name: Праведный гнев
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23736
     id: skill20
     title: Простые умения
   - entries:

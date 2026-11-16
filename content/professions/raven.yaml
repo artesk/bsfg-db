@@ -5246,6 +5246,54 @@ profession:
       - 'Время до повторного использования: 68 сек.'
       - 'Минимальное время до повторного использования: 30 сек.'
       skill_id: 23800
+    - branch: base
+      description: Мощный удар по противнику. Ворон получает усиление, которое дает все такие же бонусы, как
+        от умения *Искусство войны*, но в одном.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.gigantic_crush.png
+      level: '2'
+      name: Неистовство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23800
+    - branch: base
+      description: Мощный удар по противнику. Ворон получает усиление, которое дает все такие же бонусы, как
+        от умения *Искусство войны*, но в одном.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.gigantic_crush.png
+      level: '3'
+      name: Неистовство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23800
+    - branch: base
+      description: Мощный удар по противнику. Ворон получает усиление, которое дает все такие же бонусы, как
+        от умения *Искусство войны*, но в одном.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.gigantic_crush.png
+      level: '4'
+      name: Неистовство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23800
+    - branch: base
+      description: Мощный удар по противнику. Ворон получает усиление, которое дает все такие же бонусы, как
+        от умения *Искусство войны*, но в одном.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.gigantic_crush.png
+      level: '5'
+      name: Неистовство
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23800
     id: skill20
     title: Простые умения
   - entries:

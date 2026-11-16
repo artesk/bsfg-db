@@ -4348,6 +4348,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23670
+    - branch: base
+      description: Увеличивает силу критических атак магией на 10%. Умение *Магия колибри* будет наносить
+        массовый урон независимо от расстояния до цели.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.guard_giantscrl_of_ench_ag.png
+      level: '2'
+      name: Сущность магии
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23670
+    - branch: base
+      description: Увеличивает силу критических атак магией на 15%. Умение *Магия колибри* будет наносить
+        массовый урон независимо от расстояния до цели.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.guard_giantscrl_of_ench_ag.png
+      level: '3'
+      name: Сущность магии
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23670
+    - branch: base
+      description: Увеличивает силу критических атак магией на 17.5%. Умение *Магия колибри* будет наносить
+        массовый урон независимо от расстояния до цели.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.guard_giantscrl_of_ench_ag.png
+      level: '4'
+      name: Сущность магии
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23670
+    - branch: base
+      description: Увеличивает силу критических атак магией на 20%. Умение *Магия колибри* будет наносить
+        массовый урон независимо от расстояния до цели.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.guard_giantscrl_of_ench_ag.png
+      level: '5'
+      name: Сущность магии
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23670
     id: skill20
     title: Простые умения
   - entries:

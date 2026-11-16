@@ -5110,6 +5110,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23667
+    - branch: base
+      description: Увеличивает физическую атаку на 40%, но снижает скорость бега на 40.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_ride_golem.png
+      level: '2'
+      name: Совершенное оружие
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23667
+    - branch: base
+      description: Увеличивает физическую атаку на 50%, но снижает скорость бега на 40.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_ride_golem.png
+      level: '3'
+      name: Совершенное оружие
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23667
+    - branch: base
+      description: Увеличивает физическую атаку на 55%, но снижает скорость бега на 40.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_ride_golem.png
+      level: '4'
+      name: Совершенное оружие
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23667
+    - branch: base
+      description: Увеличивает физическую атаку на 60%, но снижает скорость бега на 40.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.maker_ride_golem.png
+      level: '5'
+      name: Совершенное оружие
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23667
     id: skill20
     title: Простые умения
   - entries:

@@ -5223,6 +5223,54 @@ profession:
       - 'Длительность эффекта: 6 сек.'
       skill_id: 23826
     - branch: base
+      description: Вы выпускаете в союзника на большом расстоянии сферу света, которая делает его на 6 секунд
+        неуязвимым.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_light_discharge.png
+      level: '2'
+      name: Сфера света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23826
+    - branch: base
+      description: Вы выпускаете в союзника на большом расстоянии сферу света, которая делает его на 6 секунд
+        неуязвимым.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_light_discharge.png
+      level: '3'
+      name: Сфера света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23826
+    - branch: base
+      description: Вы выпускаете в союзника на большом расстоянии сферу света, которая делает его на 6 секунд
+        неуязвимым.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_light_discharge.png
+      level: '4'
+      name: Сфера света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23826
+    - branch: base
+      description: Вы выпускаете в союзника на большом расстоянии сферу света, которая делает его на 6 секунд
+        неуязвимым.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_light_discharge.png
+      level: '5'
+      name: Сфера света
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23826
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

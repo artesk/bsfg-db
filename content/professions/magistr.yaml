@@ -4467,6 +4467,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23658
+    - branch: base
+      description: Увеличивает магическую атаку на 15%, скорость бега на 20 и максимальное значение скорости
+        бега на 10.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_flame_heart.png
+      level: '2'
+      name: Стихия воды
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23658
+    - branch: base
+      description: Увеличивает магическую атаку на 20%, скорость бега на 30 и максимальное значение скорости
+        бега на 10.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_flame_heart.png
+      level: '3'
+      name: Стихия воды
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23658
+    - branch: base
+      description: Увеличивает магическую атаку на 22.5%, скорость бега на 35 и максимальное значение скорости
+        бега на 10.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_flame_heart.png
+      level: '4'
+      name: Стихия воды
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23658
+    - branch: base
+      description: Увеличивает магическую атаку на 25%, скорость бега на 40 и максимальное значение скорости
+        бега на 10.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_flame_heart.png
+      level: '5'
+      name: Стихия воды
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23658
     id: skill20
     title: Простые умения
   - entries:

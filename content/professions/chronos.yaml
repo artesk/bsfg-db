@@ -5420,6 +5420,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23691
+    - branch: base
+      description: Атакуя врагов умениями Вы дополнительно будете отнимать врагу 3% жизненных сил.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tm_garden_of_power.png
+      level: '2'
+      name: Неотвратимость времени
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23691
+    - branch: base
+      description: Атакуя врагов умениями Вы дополнительно будете отнимать врагу 4% жизненных сил.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tm_garden_of_power.png
+      level: '3'
+      name: Неотвратимость времени
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23691
+    - branch: base
+      description: Атакуя врагов умениями Вы дополнительно будете отнимать врагу 4.5% жизненных сил.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tm_garden_of_power.png
+      level: '4'
+      name: Неотвратимость времени
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23691
+    - branch: base
+      description: Атакуя врагов умениями Вы дополнительно будете отнимать врагу 5% жизненных сил.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.tm_garden_of_power.png
+      level: '5'
+      name: Неотвратимость времени
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23691
     id: skill20
     title: Простые умения
   - entries:

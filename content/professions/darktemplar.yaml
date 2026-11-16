@@ -4789,6 +4789,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23688
+    - branch: base
+      description: Ваши критические атаки будут наносить врагу 4000 фиксированного урона и на 2 секунды снижать
+        его физическую защиту на 8%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill31144.png
+      level: '2'
+      name: Клинок тьмы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23688
+    - branch: base
+      description: Ваши критические атаки будут наносить врагу 6000 фиксированного урона и на 2 секунды снижать
+        его физическую защиту на 12%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill31144.png
+      level: '3'
+      name: Клинок тьмы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23688
+    - branch: base
+      description: Ваши критические атаки будут наносить врагу 7000 фиксированного урона и на 2 секунды снижать
+        его физическую защиту на 14%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill31144.png
+      level: '4'
+      name: Клинок тьмы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23688
+    - branch: base
+      description: Ваши критические атаки будут наносить врагу 8000 фиксированного урона и на 2 секунды снижать
+        его физическую защиту на 16%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill31144.png
+      level: '5'
+      name: Клинок тьмы
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23688
     id: skill20
     title: Простые умения
   - entries:

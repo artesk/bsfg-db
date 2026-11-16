@@ -5319,6 +5319,54 @@ profession:
       - 'Минимальное время до повторного использования: 30 сек.'
       - 'Длительность эффекта: 5 сек.'
       skill_id: 23744
+    - branch: base
+      description: Прикрепляет к врагу магнитную мину, которая будет притягивать противника, если он попытается
+        убежать. Пассивно увеличивает защиту на 7.5% и силу критических атак на 7.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_source_1.png
+      level: '2'
+      name: Магнитная мина
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23744
+    - branch: base
+      description: Прикрепляет к врагу магнитную мину, которая будет притягивать противника, если он попытается
+        убежать. Пассивно увеличивает защиту на 10% и силу критических атак на 10%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_source_1.png
+      level: '3'
+      name: Магнитная мина
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23744
+    - branch: base
+      description: Прикрепляет к врагу магнитную мину, которая будет притягивать противника, если он попытается
+        убежать. Пассивно увеличивает защиту на 11.25% и силу критических атак на 11.25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_source_1.png
+      level: '4'
+      name: Магнитная мина
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23744
+    - branch: base
+      description: Прикрепляет к врагу магнитную мину, которая будет притягивать противника, если он попытается
+        убежать. Пассивно увеличивает защиту на 12.5% и силу критических атак на 12.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_dethrone_fire_source_1.png
+      level: '5'
+      name: Магнитная мина
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23744
     id: skill20
     title: Простые умения
   - entries:

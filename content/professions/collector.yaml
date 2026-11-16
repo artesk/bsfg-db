@@ -6157,6 +6157,55 @@ profession:
       - 'Время до повторного использования: 62 сек.'
       - 'Минимальное время до повторного использования: 25 сек.'
       skill_id: 23869
+    - branch: base
+      description: Наносит удар по противникам вокруг цели и обезоруживает их на 5 секунд, увеличивая при
+        этом свою физическую атаку на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_weapon_mastery.png
+      level: '2'
+      name: Закалдованная гарда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23869
+    - branch: base
+      description: Наносит удар по противникам вокруг цели и обезоруживает их на 5 секунд, увеличивая при
+        этом свою физическую атаку на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_weapon_mastery.png
+      level: '3'
+      name: Закалдованная гарда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23869
+    - branch: base
+      description: Наносит удар по противникам вокруг цели и обезоруживает их на 5 секунд, увеличивая при
+        этом свою физическую атаку на 27.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_weapon_mastery.png
+      level: '4'
+      name: Закалдованная гарда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23869
+    - branch: base
+      description: Наносит удар по противникам вокруг цели и обезоруживает их на 5 секунд, увеличивая при
+        этом свою физическую атаку на 30%. Позволяет сдавать предметы в магазин выгоднее, за исключением поставок
+        крепости.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_st_weapon_mastery.png
+      level: '5'
+      name: Закалдованная гарда
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23869
     id: skill20
     title: Простые умения
   - entries:

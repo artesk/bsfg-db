@@ -4714,6 +4714,54 @@ profession:
       - 'Время до повторного использования: 25 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23714
+    - branch: base
+      description: Наносит сильный урон противнику и поджигает противника уникальным огнем на 5 секунд, который
+        игнорирует любую защиту от ожогов. Сила ожога 4%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_blast2.png
+      level: '2'
+      name: Власть огня
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23714
+    - branch: base
+      description: Наносит сильный урон противнику и поджигает противника уникальным огнем на 5 секунд, который
+        игнорирует любую защиту от ожогов. Сила ожога 5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_blast2.png
+      level: '3'
+      name: Власть огня
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23714
+    - branch: base
+      description: Наносит сильный урон противнику и поджигает противника уникальным огнем на 5 секунд, который
+        игнорирует любую защиту от ожогов. Сила ожога 5.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_blast2.png
+      level: '4'
+      name: Власть огня
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23714
+    - branch: base
+      description: Наносит сильный урон противнику и поджигает противника уникальным огнем на 5 секунд, который
+        игнорирует любую защиту от ожогов. Сила ожога 6%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_blast2.png
+      level: '5'
+      name: Власть огня
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23714
     id: skill20
     title: Простые умения
   - entries:

@@ -5578,6 +5578,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23705
+    - branch: base
+      description: Атакуя врагов умениями Вы дополнительно будете наносить 8000 фиксированного урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spearhead.png
+      level: '2'
+      name: Бритва
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23705
+    - branch: base
+      description: Атакуя врагов умениями Вы дополнительно будете наносить 12000 фиксированного урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spearhead.png
+      level: '3'
+      name: Бритва
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23705
+    - branch: base
+      description: Атакуя врагов умениями Вы дополнительно будете наносить 14000 фиксированного урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spearhead.png
+      level: '4'
+      name: Бритва
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23705
+    - branch: base
+      description: Атакуя врагов умениями Вы дополнительно будете наносить 16000 фиксированного урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_spearhead.png
+      level: '5'
+      name: Бритва
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23705
     id: skill20
     title: Простые умения
   - entries:

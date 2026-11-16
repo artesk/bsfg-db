@@ -4649,6 +4649,54 @@ profession:
       - 'Время до повторного использования: 68 сек.'
       - 'Минимальное время до повторного использования: 25 сек.'
       skill_id: 23805
+    - branch: base
+      description: Вы пугаете врагов вокруг, игнорируя иммунитет к страху, после чего наносите сильный урон.
+        Классы Рыцарей и Тяжелых воинов дополнительно получат 5000 фиксированного урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_raid_baium_thunder_field1.png
+      level: '2'
+      name: Астрафобия
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23805
+    - branch: base
+      description: Вы пугаете врагов вокруг, игнорируя иммунитет к страху, после чего наносите сильный урон.
+        Классы Рыцарей и Тяжелых воинов дополнительно получат 5000 фиксированного урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_raid_baium_thunder_field1.png
+      level: '3'
+      name: Астрафобия
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23805
+    - branch: base
+      description: Вы пугаете врагов вокруг, игнорируя иммунитет к страху, после чего наносите сильный урон.
+        Классы Рыцарей и Тяжелых воинов дополнительно получат 5000 фиксированного урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_raid_baium_thunder_field1.png
+      level: '4'
+      name: Астрафобия
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23805
+    - branch: base
+      description: Вы пугаете врагов вокруг, игнорируя иммунитет к страху, после чего наносите сильный урон.
+        Классы Рыцарей и Тяжелых воинов дополнительно получат 5000 фиксированного урона.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_raid_baium_thunder_field1.png
+      level: '5'
+      name: Астрафобия
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23805
     id: skill20
     title: Простые умения
   - entries:

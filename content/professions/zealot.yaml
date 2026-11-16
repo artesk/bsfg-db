@@ -5714,6 +5714,54 @@ profession:
       - 'Длительность эффекта: 30 сек.'
       skill_id: 23909
     - branch: base
+      description: На 30 секунд увеличивает урон союзника по вражеским игрокам на 10%, если он погибнет в
+        бою, то сможет воскреснуть.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_buff_boost_archangel2.png
+      level: '2'
+      name: Ритуал вечной жизни
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23909
+    - branch: base
+      description: На 30 секунд увеличивает урон союзника по вражеским игрокам на 15%, если он погибнет в
+        бою, то сможет воскреснуть.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_buff_boost_archangel2.png
+      level: '3'
+      name: Ритуал вечной жизни
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23909
+    - branch: base
+      description: На 30 секунд увеличивает урон союзника по вражеским игрокам на 17%, если он погибнет в
+        бою, то сможет воскреснуть.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_buff_boost_archangel2.png
+      level: '4'
+      name: Ритуал вечной жизни
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23909
+    - branch: base
+      description: На 30 секунд увеличивает урон союзника по вражеским игрокам на 20%, если он погибнет в
+        бою, то сможет воскреснуть.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_buff_boost_archangel2.png
+      level: '5'
+      name: Ритуал вечной жизни
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23909
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

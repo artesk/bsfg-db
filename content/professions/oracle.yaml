@@ -5296,6 +5296,54 @@ profession:
       - 'Класс умения: Физический'
       skill_id: 23911
     - branch: base
+      description: Увеличивает защиту на 4%, скорость чтения заклинаний на 8% и скорость бега на 8. Противник,
+        атакующий Вас может быть обездвижен и его атака снизится на 50% на 4 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_bless_of_world_tree.png
+      level: '2'
+      name: Корни Иггдрасиля
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23911
+    - branch: base
+      description: Увеличивает защиту на 5%, скорость чтения заклинаний на 10% и скорость бега на 10. Противник,
+        атакующий Вас может быть обездвижен и его атака снизится на 50% на 4 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_bless_of_world_tree.png
+      level: '3'
+      name: Корни Иггдрасиля
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23911
+    - branch: base
+      description: Увеличивает защиту на 5.5%, скорость чтения заклинаний на 11% и скорость бега на 11. Противник,
+        атакующий Вас может быть обездвижен и его атака снизится на 50% на 4 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_bless_of_world_tree.png
+      level: '4'
+      name: Корни Иггдрасиля
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23911
+    - branch: base
+      description: Увеличивает защиту на 6%, скорость чтения заклинаний на 12% и скорость бега на 12. Противник,
+        атакующий Вас может быть обездвижен и его атака снизится на 50% на 4 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_sp_bless_of_world_tree.png
+      level: '5'
+      name: Корни Иггдрасиля
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23911
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

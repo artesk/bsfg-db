@@ -5618,6 +5618,50 @@ profession:
       - 'Минимальное время до повторного использования: Фикс.'
       - 'Длительность эффекта: 10 сек.'
       skill_id: 23679
+    - branch: base
+      description: На 8 секунд Вы становитесь неуязвимым.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.knight_weapon_mastery.png
+      level: '2'
+      name: Рев стали
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23679
+    - branch: base
+      description: На 10 секунд Вы становитесь неуязвимым.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.knight_weapon_mastery.png
+      level: '3'
+      name: Рев стали
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23679
+    - branch: base
+      description: На 11 секунд Вы становитесь неуязвимым.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.knight_weapon_mastery.png
+      level: '4'
+      name: Рев стали
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23679
+    - branch: base
+      description: На 12 секунд Вы становитесь неуязвимым.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.knight_weapon_mastery.png
+      level: '5'
+      name: Рев стали
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23679
     id: skill20
     title: Простые умения
   - entries:

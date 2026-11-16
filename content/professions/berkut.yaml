@@ -5378,6 +5378,54 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23680
+    - branch: base
+      description: Увеличивает скорость атаки на 7% и силу критических атак на 7%. Ваши критические атаки
+        будут замедлять врага на 70.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.pet_fast_dive.png
+      level: '2'
+      name: Оперение беркута
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23680
+    - branch: base
+      description: Увеличивает скорость атаки на 10% и силу критических атак на 10%. Ваши критические атаки
+        будут замедлять врага на 90.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.pet_fast_dive.png
+      level: '3'
+      name: Оперение беркута
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23680
+    - branch: base
+      description: Увеличивает скорость атаки на 11.5% и силу критических атак на 11.5%. Ваши критические
+        атаки будут замедлять врага на 100.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.pet_fast_dive.png
+      level: '4'
+      name: Оперение беркута
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23680
+    - branch: base
+      description: Увеличивает скорость атаки на 13% и силу критических атак на 13%. Ваши критические атаки
+        будут замедлять врага на 110.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.pet_fast_dive.png
+      level: '5'
+      name: Оперение беркута
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23680
     id: skill20
     title: Простые умения
   - entries:

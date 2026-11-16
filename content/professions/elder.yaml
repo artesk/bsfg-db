@@ -4563,6 +4563,50 @@ profession:
       - 'Время до повторного использования: 18 сек.'
       - 'Минимальное время до повторного использования: Фикс.'
       skill_id: 23862
+    - branch: base
+      description: Наносит повреждения противникам вокруг и сбивает их с ног на 4 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_burst.png
+      level: '2'
+      name: Тектонический сдвиг
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23862
+    - branch: base
+      description: Наносит повреждения противникам вокруг и сбивает их с ног на 4 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_burst.png
+      level: '3'
+      name: Тектонический сдвиг
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23862
+    - branch: base
+      description: Наносит повреждения противникам вокруг и сбивает их с ног на 4 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_burst.png
+      level: '4'
+      name: Тектонический сдвиг
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23862
+    - branch: base
+      description: Наносит повреждения противникам вокруг и сбивает их с ног на 4 секунды.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.flame_burst.png
+      level: '5'
+      name: Тектонический сдвиг
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23862
     id: skill20
     title: Простые умения
   - entries:

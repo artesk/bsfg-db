@@ -5200,6 +5200,50 @@ profession:
       skill_id: 23824
       effects_from_archive: true
     - branch: base
+      description: Восстанавливает жизненные силы членов группы и устраняет проклятия и эффекты контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.elemental_protection.png
+      level: '2'
+      name: Природное очищение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23824
+    - branch: base
+      description: Восстанавливает жизненные силы членов группы и устраняет проклятия и эффекты контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.elemental_protection.png
+      level: '3'
+      name: Природное очищение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23824
+    - branch: base
+      description: Восстанавливает жизненные силы членов группы и устраняет проклятия и эффекты контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.elemental_protection.png
+      level: '4'
+      name: Природное очищение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23824
+    - branch: base
+      description: Восстанавливает жизненные силы членов группы и устраняет проклятия и эффекты контроля.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.elemental_protection.png
+      level: '5'
+      name: Природное очищение
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23824
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

@@ -6049,6 +6049,54 @@ profession:
       - 'Время до повторного использования: 66 сек.'
       - 'Минимальное время до повторного использования: 30 сек.'
       skill_id: 23840
+    - branch: base
+      description: Вы наносите сильный массовый удар и обездвиживаете врагов на 5 секунд, игнорируя иммунитет
+        к обездвиживаниям, к тому же их атака снижается на 50%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_blade_engage_buff.png
+      level: '2'
+      name: Танец полной темноты
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23840
+    - branch: base
+      description: Вы наносите сильный массовый удар и обездвиживаете врагов на 5 секунд, игнорируя иммунитет
+        к обездвиживаниям, к тому же их атака снижается на 50%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_blade_engage_buff.png
+      level: '3'
+      name: Танец полной темноты
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23840
+    - branch: base
+      description: Вы наносите сильный массовый удар и обездвиживаете врагов на 5 секунд, игнорируя иммунитет
+        к обездвиживаниям, к тому же их атака снижается на 50%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_blade_engage_buff.png
+      level: '4'
+      name: Танец полной темноты
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23840
+    - branch: base
+      description: Вы наносите сильный массовый удар и обездвиживаете врагов на 5 секунд, игнорируя иммунитет
+        к обездвиживаниям, к тому же их атака снижается на 50%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_blade_engage_buff.png
+      level: '5'
+      name: Танец полной темноты
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Физический'
+      skill_id: 23840
     id: skill20
     title: Простые умения
   - entries:

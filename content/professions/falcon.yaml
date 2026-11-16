@@ -5069,6 +5069,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23674
+    - branch: base
+      description: Увеличивает физическую атаку на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill30951.png
+      level: '2'
+      name: Стальные когти
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23674
+    - branch: base
+      description: Увеличивает физическую атаку на 25%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill30951.png
+      level: '3'
+      name: Стальные когти
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23674
+    - branch: base
+      description: Увеличивает физическую атаку на 28%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill30951.png
+      level: '4'
+      name: Стальные когти
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23674
+    - branch: base
+      description: Увеличивает физическую атаку на 31%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill30951.png
+      level: '5'
+      name: Стальные когти
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23674
     id: skill20
     title: Простые умения
   - entries:

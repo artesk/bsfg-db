@@ -5211,6 +5211,54 @@ profession:
       skill_id: 23906
       effects_from_archive: true
     - branch: base
+      description: На 6 секунд увеличивает защиту союзника на 200% + 150000 и восстанавливает ему жизненные
+        силы. Используется на ближнем расстоянии.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_highelf_lv_reward3.png
+      level: '2'
+      name: Реанимация
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23906
+    - branch: base
+      description: На 6 секунд увеличивает защиту союзника на 250% + 150000 и восстанавливает ему жизненные
+        силы. Используется на ближнем расстоянии.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_highelf_lv_reward3.png
+      level: '3'
+      name: Реанимация
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23906
+    - branch: base
+      description: На 6 секунд увеличивает защиту союзника на 275% + 150000 и восстанавливает ему жизненные
+        силы. Используется на ближнем расстоянии.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_highelf_lv_reward3.png
+      level: '4'
+      name: Реанимация
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23906
+    - branch: base
+      description: На 6 секунд увеличивает защиту союзника на 300% + 150000 и восстанавливает ему жизненные
+        силы. Используется на ближнем расстоянии.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_highelf_lv_reward3.png
+      level: '5'
+      name: Реанимация
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23906
+    - branch: base
       description: Вы быстро перемещаетесь вперед. Если Вашей целью является враг, то Вы совершите отскок
         от него.
       effects: []

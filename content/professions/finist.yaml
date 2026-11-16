@@ -4733,6 +4733,50 @@ profession:
       - 'Время до повторного использования: 72 сек.'
       - 'Минимальное время до повторного использования: 30 сек.'
       skill_id: 23803
+    - branch: base
+      description: Наносит сильный урон по противнику. Во время использования очень сильно возрастает защита.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
+      level: '2'
+      name: Циклон
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23803
+    - branch: base
+      description: Наносит сильный урон по противнику. Во время использования очень сильно возрастает защита.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
+      level: '3'
+      name: Циклон
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23803
+    - branch: base
+      description: Наносит сильный урон по противнику. Во время использования очень сильно возрастает защита.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
+      level: '4'
+      name: Циклон
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23803
+    - branch: base
+      description: Наносит сильный урон по противнику. Во время использования очень сильно возрастает защита.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.s_saint_recovery.png
+      level: '5'
+      name: Циклон
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Активный'
+      - 'Класс умения: Магический'
+      skill_id: 23803
     id: skill20
     title: Простые умения
   - entries:

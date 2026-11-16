@@ -5253,6 +5253,50 @@ profession:
       - 'Тип умения: Пассивный'
       - 'Класс умения: Физический'
       skill_id: 23661
+    - branch: base
+      description: Увеличивает силу физических умений на 15% и силу критических атак на 10%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill39917.png
+      level: '2'
+      name: Совместный опыт
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23661
+    - branch: base
+      description: Увеличивает силу физических умений на 20% и силу критических атак на 15%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill39917.png
+      level: '3'
+      name: Совместный опыт
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23661
+    - branch: base
+      description: Увеличивает силу физических умений на 22.5% и силу критических атак на 17.5%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill39917.png
+      level: '4'
+      name: Совместный опыт
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23661
+    - branch: base
+      description: Увеличивает силу физических умений на 25% и силу критических атак на 20%.
+      effects: []
+      icon: /icon/client-skills/icon4.l2icon.skill39917.png
+      level: '5'
+      name: Совместный опыт
+      selection_id: ''
+      specifications:
+      - 'Тип умения: Пассивный'
+      - 'Класс умения: Физический'
+      skill_id: 23661
     id: skill20
     title: Простые умения
   - entries:

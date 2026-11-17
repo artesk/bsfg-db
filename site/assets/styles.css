@@ -112,6 +112,8 @@ h1 {
 .guide-section ul { display: grid; gap: 10px; margin: 0; padding-left: 22px; }
 .guide-table-wrap { overflow-x: auto; margin: 18px 0 12px; }
 .guide-table-wrap table { min-width: 620px; font-size: 14px; line-height: 1.6; }
+.guide-table-wrap table:has(th:nth-child(7)) { min-width: 900px; }
+.guide-table-wrap table:has(th:nth-child(7)) td { white-space: nowrap; }
 .guide-table-wrap th:first-child { width: 20%; text-align: left; }
 .guide-table-wrap th:last-child { width: 23%; }
 .guide-section .guide-note { color: var(--muted); font-size: 13px; }

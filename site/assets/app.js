@@ -1837,7 +1837,7 @@ async function route() {
   const category = catalog && (gearMatch[2] || Object.keys(catalog.categories)[0]);
   const isGear = catalog && Object.hasOwn(catalog.categories, category);
   const isSpecifications = path === "/specifications" || enchantPage !== undefined || progressionPage !== undefined;
-  const textGuide = path.match(/^\/guides\/(forpost|dream-amulet|condemned-island)$/)?.[1];
+  const textGuide = path.match(/^\/guides\/(forpost|dream-amulet|condemned-island|daily-quests)$/)?.[1];
   let activeSection = path;
   if (isProfessionSection) activeSection = "/professions";
   else if (isSpecifications) activeSection = "/specifications";

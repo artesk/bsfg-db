@@ -23,7 +23,7 @@ SLUG_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 KNOWN_BRANCHES = {"base", "one", "two", "three"}
 CLIENT_RELEASE_PATTERN = re.compile(r"\d{4}\.\d{2}\.\d{2}\.\d{6}")
 ENCHANTMENT_PAGES = ("enchant-skills", "enchant-weapon")
-TEXT_GUIDES = ("forpost", "dream-amulet", "condemned-island")
+TEXT_GUIDES = ("forpost", "dream-amulet", "condemned-island", "daily-quests")
 PROGRESSION_PAGES = {
     "banners": "item_id",
     "dragon-relics": "item_id",

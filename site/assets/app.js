@@ -137,6 +137,83 @@ let routeVersion = 0;
 let disposeStream;
 let disposeMap;
 let hlsScript;
+const viewStates = new Map();
+let renderedPath;
+let scrollTimer;
+const navigation = document.querySelector(".site-nav");
+const navToggle = document.querySelector("#nav-toggle");
+const headerSearch = document.querySelector("#header-search");
+const navMaps = document.querySelector(".nav-maps");
+const mobileNavigation = matchMedia("(max-width: 1100px)");
+const PAGE_SEARCH = 'input[type="search"]';
+
+function viewState(key) {
+  if (!viewStates.has(key)) {
+    let saved;
+    try { saved = JSON.parse(sessionStorage.getItem("bsfg-view:" + key)); } catch { /* Use memory when storage is unavailable. */ }
+    viewStates.set(key, saved && typeof saved === "object" && !Array.isArray(saved) ? saved : {});
+  }
+  return viewStates.get(key);
+}
+
+function rememberView(key, values) {
+  const state = Object.assign(viewState(key), values);
+  try { sessionStorage.setItem("bsfg-view:" + key, JSON.stringify(state)); } catch { /* Navigation also works without storage. */ }
+}
+
+function rememberScroll() {
+  if (renderedPath) rememberView(renderedPath, {
+    scrollY: window.scrollY,
+    disclosures: [...app.querySelectorAll("details")].map(details => details.open),
+  });
+}
+
+function closeNavigation(returnFocus = false) {
+  const wasOpen = navToggle.getAttribute("aria-expanded") === "true";
+  navToggle.setAttribute("aria-expanded", "false");
+  navigation.classList.remove("is-open");
+  navMaps.open = false;
+  if (returnFocus && wasOpen) navToggle.focus();
+}
+
+navToggle.addEventListener("click", () => {
+  const open = navToggle.getAttribute("aria-expanded") !== "true";
+  navToggle.setAttribute("aria-expanded", String(open));
+  navigation.classList.toggle("is-open", open);
+  if (!open) navMaps.open = false;
+});
+navigation.addEventListener("click", (event) => {
+  const link = event.target.closest("a");
+  if (link) closeNavigation(mobileNavigation.matches && link.hash === location.hash);
+});
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".site-header")) closeNavigation();
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape") return;
+  if (navToggle.getAttribute("aria-expanded") === "true") closeNavigation(true);
+  else if (navMaps.open) {
+    navMaps.open = false;
+    navMaps.querySelector("summary").focus();
+  }
+});
+mobileNavigation.addEventListener("change", () => {
+  const focusedLink = navigation.contains(document.activeElement);
+  closeNavigation(focusedLink && mobileNavigation.matches);
+  if (focusedLink && mobileNavigation.matches) navToggle.focus();
+});
+headerSearch.addEventListener("click", () => {
+  closeNavigation();
+  const search = app.querySelector(PAGE_SEARCH);
+  search?.focus({preventScroll: true});
+  search?.scrollIntoView({block: "center"});
+});
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+addEventListener("scroll", () => {
+  clearTimeout(scrollTimer);
+  scrollTimer = setTimeout(rememberScroll, 120);
+}, {passive: true});
+addEventListener("pagehide", rememberScroll);
 
 function el(tag, className, value) {
   const node = document.createElement(tag);
@@ -287,6 +364,7 @@ function renderCatalog() {
 
   const search = document.querySelector("#profession-search");
   const factionFilter = document.querySelector("#faction-filter");
+  const saved = viewState("/professions");
   const factions = [...new Set(archiveIndex.professions.flatMap((item) => item.classes))]
     .sort((a, b) => raceName([a]).localeCompare(raceName([b]), "ru"));
   for (const faction of factions) {
@@ -295,7 +373,10 @@ function renderCatalog() {
     factionFilter.append(option);
   }
 
-  const selectedCategories = new Set();
+  search.value = saved.query || "";
+  if (factions.includes(saved.faction)) factionFilter.value = saved.faction;
+  const categories = archiveIndex.categories ?? [];
+  const selectedCategories = new Set((saved.categories || []).filter(category => categories.includes(category)));
   const refresh = () => {
     const query = normalize(search.value.trim());
     const selectedFaction = factionFilter.value;
@@ -307,8 +388,9 @@ function renderCatalog() {
         && (!selectedCategories.size || categories.some((category) => selectedCategories.has(category)));
     });
     renderProfessionGroups(matches, selectedFaction);
+    rememberView("/professions", {query: search.value, faction: selectedFaction, categories: [...selectedCategories]});
   };
-  renderClassFilters(archiveIndex.categories ?? [], selectedCategories, refresh);
+  renderClassFilters(categories, selectedCategories, refresh);
   search.addEventListener("input", refresh);
   factionFilter.addEventListener("change", refresh);
   refresh();
@@ -317,23 +399,40 @@ function renderCatalog() {
 function renderClassFilters(categories, selectedCategories, refresh) {
   if (!categories.length) return;
   const options = document.querySelector("#class-options");
+  const filters = document.querySelector("#class-filters");
+  const toggle = document.querySelector("#class-filter-toggle");
+  const updateLabel = () => {
+    const label = selectedCategories.size === 1 ? [...selectedCategories][0]
+      : selectedCategories.size ? "выбрано " + selectedCategories.size : "Все";
+    toggle.replaceChildren(document.createTextNode("Классы · " + label + " "), el("span", "", "⌄"));
+    toggle.lastChild.setAttribute("aria-hidden", "true");
+  };
+  const setOpen = (open) => {
+    filters.classList.toggle("is-open", open);
+    toggle.setAttribute("aria-expanded", String(open));
+    rememberView("/professions", {classesOpen: open});
+  };
+  toggle.addEventListener("click", () => setOpen(toggle.getAttribute("aria-expanded") !== "true"));
+  setOpen(Boolean(viewState("/professions").classesOpen));
   const buttons = new Map();
   for (const category of ["", ...categories]) {
     const button = el("button", "class-option", category || "Все классы");
     button.type = "button";
-    button.setAttribute("aria-pressed", String(!category));
+    button.setAttribute("aria-pressed", String(category ? selectedCategories.has(category) : !selectedCategories.size));
     button.addEventListener("click", () => {
       if (!category) selectedCategories.clear();
       else if (!selectedCategories.delete(category)) selectedCategories.add(category);
       for (const [label, option] of buttons) {
         option.setAttribute("aria-pressed", String(label ? selectedCategories.has(label) : !selectedCategories.size));
       }
+      updateLabel();
       refresh();
     });
     buttons.set(category, button);
     options.append(button);
   }
-  document.querySelector("#class-filters").hidden = false;
+  updateLabel();
+  filters.hidden = false;
 }
 
 function renderProfessionGroups(items, selectedFaction) {
@@ -388,14 +487,17 @@ function renderProfession(catalogItem, exported) {
   for (const paragraph of profession.descriptions) descriptions.append(el("p", "", paragraph));
   descriptions.parentElement.hidden = !profession.descriptions.length;
 
-  renderSectionTabs(profession.sections);
+  renderSectionTabs(profession.sections, catalogItem.slug);
 }
 
-function renderSectionTabs(sections) {
+function renderSectionTabs(sections, slug) {
   const tabs = document.querySelector("#section-tabs");
   const search = document.querySelector("#skill-search");
   const activeTitle = document.querySelector("#active-section-title");
   const skillLevel = document.querySelector("#profession-skill-level");
+  const stateKey = "/professions/" + encodeURIComponent(slug);
+  const saved = viewState(stateKey);
+  const count = document.querySelector("#skill-result-count");
   const levels = new Set(sections.flatMap(({ entries }) => entries.map(({ level }) => level)));
   let savedLevel = "";
   try {
@@ -407,31 +509,87 @@ function renderSectionTabs(sections) {
     skillLevel.add(new Option(level, level));
   }
   skillLevel.value = savedLevel;
-  let activeSection = 0;
+  let activeSection = Math.min(Math.max(Number(saved.section) || 0, 0), sections.length - 1);
+  let searchScope = Number.isInteger(saved.scope) && saved.scope >= 0 && saved.scope < sections.length ? saved.scope : -1;
+  search.value = saved.query || "";
   let applyLevel;
+  const tabButtons = [];
+  const allResults = el("button", "section-tab");
+  allResults.type = "button";
+  allResults.id = "skill-tab-all";
+  allResults.setAttribute("role", "tab");
+  allResults.setAttribute("aria-controls", "skills-list");
+  allResults.addEventListener("click", () => {
+    searchScope = -1;
+    refresh();
+  });
+  tabs.append(allResults);
 
   sections.forEach((section, index) => {
     const button = el("button", "section-tab", section.title);
     button.type = "button";
     button.setAttribute("role", "tab");
-    button.setAttribute("aria-selected", String(index === 0));
+    button.id = "skill-tab-" + index;
+    button.setAttribute("aria-controls", "skills-list");
+    button.setAttribute("aria-selected", String(index === activeSection));
+    button.tabIndex = index === activeSection ? 0 : -1;
     button.addEventListener("click", () => {
       activeSection = index;
-      for (const tab of tabs.children) {
-        tab.setAttribute("aria-selected", String(tab === button));
-      }
+      searchScope = index;
       refresh();
     });
+    tabButtons.push(button);
     tabs.append(button);
+  });
+  tabs.addEventListener("keydown", (event) => {
+    const buttons = [allResults, ...tabButtons].filter(button => !button.hidden);
+    const index = buttons.indexOf(event.target);
+    if (index < 0) return;
+    let next;
+    if (event.key === "ArrowRight") next = (index + 1) % buttons.length;
+    else if (event.key === "ArrowLeft") next = (index + buttons.length - 1) % buttons.length;
+    else if (event.key === "Home") next = 0;
+    else if (event.key === "End") next = buttons.length - 1;
+    else return;
+    event.preventDefault();
+    buttons[next].click();
+    buttons[next].focus();
   });
 
   const refresh = () => {
     const section = sections[activeSection];
-    activeTitle.textContent = section.title;
-    applyLevel = renderSkills(section, search.value);
+    const query = normalize(search.value.trim());
+    const grouped = sections.map(section => groupSkills(section.entries)
+      .filter(({rows}) => !query || rows.some(row => normalize(row.name).includes(query))));
+    allResults.hidden = !query;
+    allResults.textContent = "Все разделы (" + grouped.reduce((sum, groups) => sum + groups.length, 0) + ")";
+    allResults.setAttribute("aria-selected", String(Boolean(query) && searchScope === -1));
+    allResults.tabIndex = query && searchScope === -1 ? 0 : -1;
+    for (const [index, button] of tabButtons.entries()) {
+      button.textContent = sections[index].title + (query ? " (" + grouped[index].length + ")" : "");
+      const selected = index === (query ? searchScope : activeSection);
+      button.setAttribute("aria-selected", String(selected));
+      button.tabIndex = selected ? 0 : -1;
+    }
+    const list = document.querySelector("#skills-list");
+    list.setAttribute("role", "tabpanel");
+    list.setAttribute("aria-labelledby", "skill-tab-" + (query && searchScope === -1 ? "all" : activeSection));
+    activeTitle.textContent = query ? "Результаты поиска" : section.title;
+    const matches = query
+      ? grouped.flatMap((groups, index) => searchScope === -1 || index === searchScope
+        ? groups.map(group => ({...group, sectionTitle: sections[index].title})) : [])
+      : grouped[activeSection];
+    count.hidden = !query;
+    count.textContent = query ? "Найдено умений: " + matches.length + ". "
+      + (searchScope === -1 ? "Поиск по всем разделам профессии." : "Раздел: " + section.title + ".") : "";
+    applyLevel = renderSkills(matches, query);
     applyLevel(skillLevel.value);
+    rememberView(stateKey, {query: search.value, section: activeSection, scope: searchScope});
   };
-  search.addEventListener("input", refresh);
+  search.addEventListener("input", () => {
+    searchScope = -1;
+    refresh();
+  });
   skillLevel.addEventListener("change", () => {
     applyLevel(skillLevel.value);
     try {
@@ -469,23 +627,23 @@ function groupSkills(entries) {
   return groups;
 }
 
-function renderSkills(section, queryValue) {
+function renderSkills(grouped, query) {
   const list = document.querySelector("#skills-list");
   const empty = document.querySelector("#empty-skills");
-  const query = normalize(queryValue.trim());
   const levelSwitchers = [];
   list.replaceChildren();
-  const grouped = groupSkills(section.entries)
-    .filter(({ rows }) => !query || rows.some((row) => normalize(row.name).includes(query)));
   empty.hidden = grouped.length > 0;
 
-  grouped.forEach(({ name, rows }, index) => {
+  grouped.forEach(({ name, rows, sectionTitle }, index) => {
     const details = el("details", "skill-card");
     details.open = Boolean(query) || index === 0;
     const summary = el("summary", "skill-summary");
     const iconValue = rows.find((row) => row.icon)?.icon || "";
     const icon = renderIcon(localIconUrl(iconValue), name, "skill-icon");
-    summary.append(icon, el("strong", "skill-heading", name), el("span", "disclosure", "+"));
+    const heading = el("span", "skill-summary-heading");
+    heading.append(el("strong", "skill-heading", name));
+    if (sectionTitle) heading.append(el("small", "skill-section-label", sectionTitle));
+    summary.append(icon, heading, el("span", "disclosure", "+"));
     details.append(summary);
 
     const content = el("div", "skill-content");
@@ -662,6 +820,9 @@ function renderEnchantPage(page, data) {
   const title = document.querySelector("#enchant-title");
   const results = document.querySelector("#enchant-results");
   document.querySelector("#enchant-source").href = data.source;
+  const stateKey = location.hash.slice(1).replace(/\/+$/, "");
+  let selectedCategory = Number(viewState(stateKey).category) || 0;
+  if (!data.categories[selectedCategory]) selectedCategory = 0;
   const showCategory = (category) => {
     title.textContent = category.title;
     results.replaceChildren(page.renderCategory(category));
@@ -669,16 +830,17 @@ function renderEnchantPage(page, data) {
   for (const [index, category] of data.categories.entries()) {
     const button = el("button", "class-option", category.title);
     button.type = "button";
-    button.setAttribute("aria-pressed", String(index === 0));
+    button.setAttribute("aria-pressed", String(index === selectedCategory));
     button.addEventListener("click", () => {
       for (const option of options.children) {
         option.setAttribute("aria-pressed", String(option === button));
       }
       showCategory(category);
+      rememberView(stateKey, {category: index});
     });
     options.append(button);
   }
-  showCategory(data.categories[0]);
+  showCategory(data.categories[selectedCategory]);
 }
 
 function createEnchantTable(title, columns) {
@@ -782,6 +944,10 @@ function renderCollections(data) {
     const total = data.collections.filter(row => row.effects.some(effect => effect.characteristic_id === characteristic.id)).length;
     if (total) filter.append(new Option(characteristic.name + " (" + total + ")", characteristic.id));
   }
+  const saved = viewState("/collections");
+  search.value = saved.query || "";
+  if ([...filter.options].some(option => option.value === saved.characteristic)) filter.value = saved.characteristic;
+  if ([...race.options].some(option => option.value === saved.race)) race.value = saved.race;
   function refresh() {
     const tokens = normalize(search.value.trim()).split(/\s+/).filter(Boolean);
     const selected = Number(filter.value);
@@ -799,6 +965,7 @@ function renderCollections(data) {
     count.textContent = "Найдено " + cards.length + " из " + data.collections.length;
     empty.hidden = cards.length > 0;
     reset.disabled = !search.value && !filter.value && race.value === "0";
+    rememberView("/collections", {query: search.value, characteristic: filter.value, race: race.value});
   }
   search.addEventListener("input", refresh);
   filter.addEventListener("change", refresh);
@@ -907,11 +1074,16 @@ function renderEquipment(path, catalog, category, data) {
   for (const value of ranks) {
     if (present.has(value)) rank.append(new Option(value || "Без ранга", value));
   }
-  if (present.has("BA")) rank.value = "BA";
+  const saved = viewState(path);
+  search.value = saved.query || "";
+  if (saved.rank !== undefined) rank.value = present.has(saved.rank) ? saved.rank : "all";
+  else if (present.has("BA")) rank.value = "BA";
+  let preferredRank = saved.rank ?? rank.value;
 
   const results = document.querySelector("#equipment-results");
   const counter = document.querySelector("#equipment-count");
-  const selectedParameters = new Set();
+  const categoryKey = path + "/" + category;
+  const selectedParameters = new Set(viewState(categoryKey).parameters || []);
   const parameters = ["talismans", "jewelry"].includes(category)
     ? new Map(entries.flatMap(variants => variants.flatMap(variant =>
       variant.items.map(item => [item.id, equipmentParameters(item)]))))
@@ -928,9 +1100,14 @@ function renderEquipment(path, catalog, category, data) {
     }
     results.replaceChildren(...matches);
     counter.textContent = matches.length ? "Показано " + matches.length : "Совпадений нет.";
+    rememberView(path, {query: search.value, rank: preferredRank});
+    rememberView(categoryKey, {parameters: [...selectedParameters]});
   };
   search.addEventListener("input", refresh);
-  rank.addEventListener("change", refresh);
+  rank.addEventListener("change", () => {
+    preferredRank = rank.value;
+    refresh();
+  });
   if (parameters) {
     const filter = renderEquipmentParameterFilter(parameters, selectedParameters, refresh);
     document.querySelector(".equipment-toolbar").after(filter);
@@ -976,18 +1153,22 @@ function renderEquipmentParameterFilter(parameters, selected, onChange) {
   const options = el("div", "equipment-parameter-filter-options");
   const reset = el("button", "class-option", "Сбросить параметры");
   reset.type = "button";
-  reset.disabled = true;
+  reset.disabled = !selected.size;
   const update = () => {
     summary.textContent = selected.size ? "Параметры: выбрано " + selected.size : "Параметры: все";
     reset.disabled = !selected.size;
     onChange();
   };
   const labels = [...new Set([...parameters.values()].flatMap(values => [...values]))].sort((a, b) => a.localeCompare(b, "ru"));
+  for (const label of selected) if (!labels.includes(label)) selected.delete(label);
+  summary.textContent = selected.size ? "Параметры: выбрано " + selected.size : "Параметры: все";
+  reset.disabled = !selected.size;
   for (const label of labels) {
     const field = el("label", "equipment-parameter-filter-option");
     const input = el("input");
     input.type = "checkbox";
     input.value = label;
+    input.checked = selected.has(label);
     input.addEventListener("change", () => {
       if (input.checked) selected.add(label);
       else selected.delete(label);
@@ -1296,6 +1477,8 @@ function renderProgressionPage(path, page, data) {
   const kind = document.querySelector("#progression-kind");
   const select = document.querySelector("#progression-group");
   const results = document.querySelector("#progression-results");
+  const saved = viewState(path);
+  search.value = saved.query || "";
   const iconPicker = page.iconPicker ? el("div", "guild-skill-picker") : null;
   if (iconPicker) {
     iconPicker.setAttribute("role", "group");
@@ -1317,6 +1500,7 @@ function renderProgressionPage(path, page, data) {
   if (page.kinds) {
     document.querySelector("#progression-kind-field").hidden = false;
     kind.replaceChildren(...Object.entries(page.kinds).map(([value, title]) => new Option(title, value)));
+    if (Object.hasOwn(page.kinds, saved.kind)) kind.value = saved.kind;
   }
   const groups = data.groups.map((group, index) => ({
     group, index: String(index),
@@ -1327,6 +1511,7 @@ function renderProgressionPage(path, page, data) {
   let matches = groups;
 
   const showGroup = () => {
+    rememberView(path, {query: search.value, kind: kind.value, group: select.value});
     if (iconPicker) {
       for (const button of iconPicker.children) {
         button.setAttribute("aria-pressed", String(button.value === select.value));
@@ -1389,9 +1574,9 @@ function renderProgressionPage(path, page, data) {
     results.replaceChildren(card);
   };
 
-  const filterGroups = () => {
+  const filterGroups = (initial = false) => {
     const query = normalize(search.value.trim());
-    const selected = select.value;
+    const selected = initial === true ? saved.group : select.value;
     matches = groups.filter(({group, label}) => (!page.kinds || group.kind === kind.value)
       && (normalize(label).includes(query) || normalize(group.active?.effect).includes(query)
         || normalize(group.description).includes(query)
@@ -1422,7 +1607,7 @@ function renderProgressionPage(path, page, data) {
   search.addEventListener("input", filterGroups);
   kind.addEventListener("change", filterGroups);
   select.addEventListener("change", showGroup);
-  filterGroups();
+  filterGroups(true);
 }
 
 function renderSibylUpgradeCosts(costs) {
@@ -1637,11 +1822,14 @@ function renderPitJewelry(data) {
   const counter = el("p", "equipment-count");
   counter.setAttribute("role", "status");
   results.before(counter);
-  const selectedParameters = new Set();
+  const stateKey = "/items/pit-boss-jewelry";
+  const saved = viewState(stateKey);
+  search.value = saved.query || "";
+  const selectedParameters = new Set(saved.parameters || []);
   const parameters = new Map(data.ranks.flatMap(rank => rank.bosses.flatMap(boss =>
     boss.items.map(item => [item, equipmentParameters({...item, stats: {mDefense: item.magic_defense}})]))));
-  let activeRank = data.ranks[0];
-  let activeVariant;
+  let activeRank = data.ranks.find(rank => rank.rank === saved.rank) || data.ranks[0];
+  let activeVariant = saved.variant;
 
   const refresh = () => {
     const query = normalize(search.value.trim());
@@ -1663,6 +1851,7 @@ function renderPitJewelry(data) {
     empty.hidden = groups.childElementCount > 0;
     results.replaceChildren(groups);
     counter.textContent = count ? "Показано " + count : "Совпадений нет.";
+    rememberView(stateKey, {query: search.value, rank: activeRank.rank, variant: activeVariant, parameters: [...selectedParameters]});
   };
 
   const renderVariants = () => {
@@ -1822,11 +2011,17 @@ function renderNews(data) {
 
 async function route() {
   const version = ++routeVersion;
+  rememberScroll();
+  clearTimeout(scrollTimer);
+  renderedPath = undefined;
+  closeNavigation();
+  headerSearch.hidden = true;
   disposeStream?.();
   disposeStream = undefined;
   disposeMap?.();
   disposeMap = undefined;
   const path = location.hash.slice(1).replace(/\/+$/, "") || "/";
+  const savedScroll = Math.max(0, Number(viewState(path).scrollY) || 0);
   const profession = path.match(/^\/(?:profession|professions)\/([^/?#]+)$/);
   const isProfessionSection = path === "/professions" || profession !== null;
   const enchantPage = ENCHANT_PAGES.get(path);
@@ -1944,6 +2139,16 @@ async function route() {
     showError("Данные страницы не загрузились: " + error.message);
   }
   app.focus({ preventScroll: true });
+  headerSearch.hidden = !app.querySelector(PAGE_SEARCH);
+  const disclosures = viewState(path).disclosures;
+  const details = [...app.querySelectorAll("details")];
+  if (Array.isArray(disclosures) && disclosures.length === details.length) {
+    details.forEach((details, index) => { details.open = Boolean(disclosures[index]); });
+  }
+  renderedPath = path;
+  requestAnimationFrame(() => {
+    if (version === routeVersion) window.scrollTo({top: savedScroll, behavior: "instant"});
+  });
 }
 
 addEventListener("hashchange", route);

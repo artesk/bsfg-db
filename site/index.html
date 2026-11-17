@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="База знаний BSFG о профессиях, умениях, характеристиках и бижутерии пит-боссов. Гайды по игре.">
   <title>База знаний BSFG</title>
-  <link rel="stylesheet" href="assets/styles.css?v=food-guide">
+  <link rel="stylesheet" href="assets/styles.css?v=catalog-ux">
 </head>
 <body>
   <header class="site-header">
@@ -13,7 +13,13 @@
       <span class="brand-mark">B</span>
       <span><strong>BSFG</strong><small>база знаний</small></span>
     </a>
-    <nav class="site-nav" aria-label="Разделы сайта">
+    <div class="header-actions">
+      <button id="header-search" class="header-search" type="button" aria-label="Перейти к поиску на странице" hidden>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg>
+      </button>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Разделы <span aria-hidden="true">☰</span></button>
+    </div>
+    <nav id="site-nav" class="site-nav" aria-label="Разделы сайта">
       <a href="#/news">Что нового</a>
       <a href="#/professions">Профессии</a>
       <a href="#/specifications">Характеристики</a>
@@ -22,8 +28,13 @@
       <a href="#/items/weapons">Оружие</a>
       <a href="#/items/pit-boss-jewelry">Бижутерия Пит-боссов</a>
       <a href="#/guides">Гайды</a>
-      <a href="#/map">Карта</a>
-      <a href="#/map-v2">Интерактивная карта 2.0</a>
+      <details class="nav-maps">
+        <summary>Карта <span aria-hidden="true">⌄</span></summary>
+        <div class="nav-map-links">
+          <a href="#/map">Карта мира<small>Боссы, города и ресурсы</small></a>
+          <a href="#/map-v2">Карта 2.0<small>Открыть новую версию</small></a>
+        </div>
+      </details>
     </nav>
   </header>
 
@@ -550,7 +561,7 @@
   </template>
 
   <template id="catalog-template">
-    <section class="hero">
+    <section class="hero catalog-hero">
       <p class="eyebrow">База знаний</p>
       <h1>Профессии BSFG</h1>
       <p class="hero-copy">Описания профессий, умения и ветки развития.</p>
@@ -565,8 +576,9 @@
         <label class="filter-box"><span>Фракция</span><select id="faction-filter"><option value="">Все</option></select></label>
         <p id="result-count" class="result-count" role="status"></p>
       </div>
-      <fieldset id="class-filters" class="class-filters" hidden>
+      <fieldset id="class-filters" class="class-filters catalog-class-filters" hidden>
         <legend>Классы</legend>
+        <button id="class-filter-toggle" class="class-filter-toggle" type="button" aria-expanded="false" aria-controls="class-options">Классы · Все <span aria-hidden="true">⌄</span></button>
         <div id="class-options" class="class-options"></div>
       </fieldset>
       <div id="profession-groups" class="profession-groups"></div>
@@ -610,6 +622,7 @@
               <input id="skill-search" type="search" placeholder="Найти умение…" autocomplete="off">
             </label>
           </div>
+          <p id="skill-result-count" class="skill-result-count" role="status" aria-live="polite" hidden></p>
           <div id="skills-list" class="skills-list"></div>
           <div id="empty-skills" class="empty-state" hidden><p>Умений с таким названием нет.</p></div>
         </section>
@@ -618,6 +631,6 @@
   </template>
 
   <script src="assets/map.js?v=map-expedition" defer></script>
-  <script src="assets/app.js?v=food-guide" defer></script>
+  <script src="assets/app.js?v=catalog-ux" defer></script>
 </body>
 </html>

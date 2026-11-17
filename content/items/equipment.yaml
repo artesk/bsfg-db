@@ -1,4 +1,4 @@
-client_release: 2026.11.11.172517
+client_release: 2026.11.17.164204
 items:
 - id: 22
   name: Рубашка новобранца
@@ -35020,7 +35020,7 @@ items:
   label: Империя
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   icon: /icon/equipment/bsfg.undearwear_a.png
 - id: 3413
   name: Потрепанная рубашка
@@ -35056,7 +35056,7 @@ items:
   label: Альянс
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   icon: /icon/equipment/bsfg.undearwear_a.png
 - id: 3417
   name: Потрепанная рубашка
@@ -35092,7 +35092,7 @@ items:
   label: Доминион
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   icon: /icon/equipment/bsfg.undearwear_a.png
 - id: 3421
   name: Потрепанная рубашка
@@ -35128,7 +35128,7 @@ items:
   label: Орда
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   icon: /icon/equipment/bsfg.undearwear_a.png
 - id: 3425
   name: Потрепанная рубашка
@@ -35164,7 +35164,7 @@ items:
   label: Союз
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   icon: /icon/equipment/bsfg.undearwear_a.png
 - id: 3429
   name: Ветхий композитный доспех
@@ -37534,7 +37534,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Физическая защита +3%
   icon: /icon/equipment/bsfg.undearwear_a.png
@@ -37544,7 +37544,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Защита от магии +4%
   icon: /icon/equipment/icon.etc_stripe_shirts_none_i00.png
@@ -37554,7 +37554,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Сила физической атаки +6%
   icon: /icon/equipment/icon.etc_stripe_shirts_d_i01.png
@@ -37564,7 +37564,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Сила атаки магией +6%
   icon: /icon/equipment/icon.etc_stripe_shirts_c_i02.png
@@ -37574,7 +37574,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Скорость атаки +4.5%
   icon: /icon/equipment/icon.etc_stripe_shirts_b_i03.png
@@ -37584,7 +37584,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Скорость чтения заклинаний +3.75%
   icon: /icon/equipment/icon.etc_stripe_shirts_a_i04.png
@@ -37594,7 +37594,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - 'Сила физической атаки +2%
 
@@ -37606,7 +37606,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - 'Сила атаки магией +2%
 
@@ -37618,7 +37618,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - 'Меткость +15
 
@@ -37642,7 +37642,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Скорость +3
   icon: /icon/equipment/icon.etc_stripe_shirts_c_i02.png
@@ -37652,7 +37652,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Шанс критического удара +15%
   icon: /icon/equipment/icon.etc_stripe_shirts_b_i03.png
@@ -37662,7 +37662,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Сила критического удара +6%
   icon: /icon/equipment/icon.etc_stripe_shirts_a_i04.png
@@ -37672,7 +37672,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Шанс критической атаки магией +4%
   icon: /icon/equipment/icon.etc_stripe_shirts_s_i05.png
@@ -37752,7 +37752,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Поглощение жизни +4%
   icon: /icon/equipment/bsfg.undearwear_a.png
@@ -37762,7 +37762,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - 'Сила лечения +11%
 
@@ -37774,7 +37774,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Запас здоровья +5%
   icon: /icon/equipment/icon.etc_stripe_shirts_d_i01.png
@@ -37784,7 +37784,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Боевой дух +7%
   icon: /icon/equipment/icon.etc_stripe_shirts_c_i02.png
@@ -37804,7 +37804,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Регенерация здоровья +130
   icon: /icon/equipment/icon.etc_stripe_shirts_a_i04.png
@@ -37814,7 +37814,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Восстановление боевого духа +200
   icon: /icon/equipment/icon.etc_stripe_shirts_s_i05.png
@@ -37824,7 +37824,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Запас здоровья +5%
   icon: /icon/equipment/bsfg.undearwear_a.png
@@ -37834,7 +37834,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Сила критической атаки магией +2%
   icon: /icon/equipment/icon.etc_stripe_shirts_none_i00.png
@@ -37864,7 +37864,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Физическая и магическая защита вызванного существа +45%
   icon: /icon/equipment/icon.etc_stripe_shirts_b_i03.png
@@ -37874,7 +37874,7 @@ items:
   category: linen
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   effects:
   - Физическая и магическая атака вызванного существа +40%
   icon: /icon/equipment/icon.etc_stripe_shirts_a_i04.png
@@ -42961,7 +42961,7 @@ items:
   label: Легион
   slot: Бельё
   stats:
-    pDefense: 144
+    pDefense: 164
   icon: /icon/equipment/bsfg.undearwear_a.png
 - id: 4109
   name: Кираса верпеса
@@ -59027,7 +59027,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59040,7 +59040,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59053,7 +59053,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59066,7 +59066,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59079,7 +59079,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59092,7 +59092,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59107,7 +59107,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59120,7 +59120,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59133,7 +59133,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59148,7 +59148,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +7%
 
@@ -59161,7 +59161,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +7%
 
@@ -59174,7 +59174,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +7%
 
@@ -59187,7 +59187,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +7%
 
@@ -59200,7 +59200,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +7%
 
@@ -59215,7 +59215,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +7%
 
@@ -59228,7 +59228,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +7%
 
@@ -59241,7 +59241,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +7%
 
@@ -59256,7 +59256,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59269,7 +59269,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59282,7 +59282,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59295,7 +59295,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59308,7 +59308,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59321,7 +59321,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59336,7 +59336,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59349,7 +59349,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59362,7 +59362,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59377,7 +59377,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +5%
 
@@ -59390,7 +59390,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +5%
 
@@ -59403,7 +59403,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +5%
 
@@ -59416,7 +59416,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +5%
 
@@ -59429,7 +59429,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +5%
 
@@ -59444,7 +59444,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +5%
 
@@ -59457,7 +59457,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +5%
 
@@ -59470,7 +59470,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +5%
 
@@ -59485,7 +59485,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +3.5%
 
@@ -59498,7 +59498,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +3.5%
 
@@ -59511,7 +59511,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +3.5%
 
@@ -59524,7 +59524,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +3.5%
 
@@ -59539,7 +59539,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +3.5%
 
@@ -59552,7 +59552,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +3.5%
 
@@ -59565,7 +59565,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +3.5%
 
@@ -59580,7 +59580,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Защита от магии +4.5%
 
@@ -59593,7 +59593,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Защита от магии +4.5%
 
@@ -59606,7 +59606,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Защита от магии +4.5%
 
@@ -59621,7 +59621,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Защита от магии +4.5%
 
@@ -59634,7 +59634,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Защита от магии +4.5%
 
@@ -59647,7 +59647,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Защита от магии +4.5%
 
@@ -59662,7 +59662,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +2%
 
@@ -59677,7 +59677,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +2%
 
@@ -59692,7 +59692,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +2%
 
@@ -59707,7 +59707,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +2%
 
@@ -59722,7 +59722,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Физическая защита +2%
 
@@ -59739,7 +59739,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Скорость чтения заклинаний +4%
 
@@ -59752,7 +59752,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Скорость чтения заклинаний +4%
 
@@ -59765,7 +59765,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Скорость чтения заклинаний +4%
 
@@ -59780,7 +59780,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -59795,7 +59795,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -59810,7 +59810,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -59827,7 +59827,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -59842,7 +59842,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -59857,7 +59857,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -59874,7 +59874,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -59889,7 +59889,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -59904,7 +59904,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -59921,7 +59921,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59934,7 +59934,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Скорость атаки +4%
 
@@ -59947,7 +59947,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Скорость чтения заклинаний +4%
 
@@ -59960,7 +59960,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -59973,7 +59973,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +7%
 
@@ -59986,7 +59986,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +7%
 
@@ -59999,7 +59999,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Скорость +4
 
@@ -60012,7 +60012,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +11%
 
@@ -60025,7 +60025,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Физическая атака +7%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60036,7 +60036,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Магическая атака +11%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60047,7 +60047,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Физическая защита +3.5%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60058,7 +60058,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Магическая защита +4.5%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60069,7 +60069,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Скорость атаки +4%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60080,7 +60080,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Скорость чтения заклинаний +4%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60091,7 +60091,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Скорость +4
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60102,7 +60102,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Шанс критического удара +25%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60113,7 +60113,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Сила критического удара +7%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60124,7 +60124,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Сила критической атаки магией +5%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60135,7 +60135,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Шанс критической магии +6%
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -60146,7 +60146,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +14%
 
@@ -60163,7 +60163,7 @@ items:
   label: Реликт
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - Регенерация здоровья +350
   icon: /icon/equipment/icon.dual_shirt1.png
@@ -72965,7 +72965,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -72982,7 +72982,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -72999,7 +72999,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -73057,7 +73057,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -73074,7 +73074,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -73091,7 +73091,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -73110,7 +73110,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +9%
 
@@ -73127,7 +73127,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +9%
 
@@ -73185,7 +73185,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +9%
 
@@ -73202,7 +73202,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +9%
 
@@ -73219,7 +73219,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +9%
 
@@ -73238,7 +73238,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -73255,7 +73255,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -73272,7 +73272,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -73330,7 +73330,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -73347,7 +73347,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -73364,7 +73364,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -73383,7 +73383,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -73400,7 +73400,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -73458,7 +73458,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -73475,7 +73475,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -73492,7 +73492,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -73883,7 +73883,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +18%
 
@@ -73904,7 +73904,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +18%
 
@@ -73923,7 +73923,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +18%
 
@@ -73942,7 +73942,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила лечения +18%
 
@@ -73963,7 +73963,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -73980,7 +73980,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Скорость атаки +5%
 
@@ -73997,7 +73997,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Скорость чтения заклинаний +5%
 
@@ -74014,7 +74014,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -74031,7 +74031,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -74048,7 +74048,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +9%
 
@@ -74065,7 +74065,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Скорость +5
 
@@ -74082,7 +74082,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -74248,7 +74248,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -74265,7 +74265,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -74282,7 +74282,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критического удара +9%
 
@@ -74299,7 +74299,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -74316,7 +74316,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Шанс критического удара физическим умением +20%
 
@@ -74333,7 +74333,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила физической атаки +9%
 
@@ -74350,7 +74350,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 180
+    pDefense: 200
   effects:
   - 'Сила атаки магией +15%
 
@@ -75324,7 +75324,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -75342,7 +75342,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -75360,7 +75360,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -75378,7 +75378,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -75396,7 +75396,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -75414,7 +75414,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -75434,7 +75434,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критического удара +9%
 
@@ -75452,7 +75452,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критического удара +9%
 
@@ -75470,7 +75470,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критического удара +9%
 
@@ -75488,7 +75488,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критического удара +9%
 
@@ -75506,7 +75506,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критического удара +9%
 
@@ -75526,7 +75526,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 
@@ -75544,7 +75544,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 
@@ -75562,7 +75562,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 
@@ -75580,7 +75580,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 
@@ -75598,7 +75598,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 
@@ -75616,7 +75616,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 
@@ -75636,7 +75636,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -75654,7 +75654,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -75672,7 +75672,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -75690,7 +75690,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -75708,7 +75708,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -75728,7 +75728,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила лечения +18%
 
@@ -75750,7 +75750,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила лечения +18%
 
@@ -75770,7 +75770,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила лечения +18%
 
@@ -75790,7 +75790,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила лечения +18%
 
@@ -75812,7 +75812,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -75830,7 +75830,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Скорость атаки +5%
 
@@ -75848,7 +75848,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Скорость чтения заклинаний +5%
 
@@ -75866,7 +75866,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 
@@ -75884,7 +75884,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -75902,7 +75902,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критического удара +9%
 
@@ -75920,7 +75920,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Скорость +5
 
@@ -75938,7 +75938,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 
@@ -75956,7 +75956,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -75974,7 +75974,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 
@@ -75992,7 +75992,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критического удара +9%
 
@@ -76010,7 +76010,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила критической атаки магией +7%
 
@@ -76028,7 +76028,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Шанс критического удара физическим умением +20%
 
@@ -76046,7 +76046,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила физической атаки +9%
 
@@ -76064,7 +76064,7 @@ items:
   label: Мифический
   slot: Бельё
   stats:
-    pDefense: 150
+    pDefense: 170
   effects:
   - 'Сила атаки магией +15%
 

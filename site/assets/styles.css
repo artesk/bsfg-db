@@ -354,29 +354,6 @@ main:has(> .home-page) { width: 100%; }
 }
 .home-link:is(:hover, :focus-visible)::after { color: var(--accent); }
 .home-map-action::after { color: currentColor; }
-.home-stream {
-  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center;
-  gap: 12px 20px; margin-top: 24px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 7px;
-  background-color: var(--surface); background-image: var(--panel-pattern);
-}
-.home-stream h2 { margin: 0; font: 500 24px Georgia, serif; }
-.home-stream video { grid-column: 1 / -1; width: min(100%, 800px); justify-self: center; aspect-ratio: 16 / 9; border-radius: 5px; background: var(--bg); }
-.home-stream video:not([controls]) { display: none; }
-.stream-play {
-  min-height: 44px; padding: 10px 16px; border: 1px solid var(--accent-2); border-radius: 5px;
-  background: var(--surface-2); color: var(--accent-2); font-weight: 600; cursor: pointer;
-}
-.stream-play::before {
-  content: ""; display: inline-block; margin-right: 8px;
-  border: 5px solid transparent; border-left: 8px solid currentColor; border-right: 0;
-}
-.stream-play:hover { background: var(--surface); }
-.stream-play:focus-visible, .stream-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-.stream-status, .stream-link { margin: 0; color: var(--muted); font-size: 14px; }
-.stream-status { grid-column: 1 / -1; }
-.stream-status:empty { position: absolute; }
-.stream-link { justify-self: start; }
-.stream-link:hover { color: var(--text); }
 @media (max-width: 620px) {
   .home-page { --home-width: calc(100% - 28px); }
   .home-hero { min-height: 0; padding: 26px 0 0; }
@@ -385,8 +362,6 @@ main:has(> .home-page) { width: 100%; }
     object-position: 50% 44%; mask-image: linear-gradient(to bottom, transparent, #000 30%);
   }
   .home-link { gap: 10px; padding: 13px; }
-  .home-stream { grid-template-columns: minmax(0, 1fr); }
-  .stream-play { justify-self: start; }
 }
 .enchant-page .hero { padding-top: 36px; }
 .enchant-title { margin-bottom: 16px; }

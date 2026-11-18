@@ -2,7 +2,7 @@ client_release: 2026.11.11.220300
 source:
   files:
   - name: ExCollectionData-ru.dat
-    sha256: 219e56b2ca9bdfb5178e8a7bbcdbf91d32dd676f951fd2b3387dbd71cd965c90
+    sha256: cb7fe72d059ba4f888eeed155eeee4a58fe34b6100e02c8444d15b53df38305b
   - name: ExCollectionEffect-ru.dat
     sha256: 6be7a8d6389a8a8b3bd81182971fdf03f470bcf6f3c236e19b04db08bf2f4419
   - name: ExCollectionEffectCategory-ru.dat
@@ -7803,8 +7803,6 @@ collections:
     - item_id: 20157
       count: 1
     - item_id: 16240
-      count: 50
-    - item_id: 16241
       count: 50
 - id: 123
   name: Гербалист

@@ -1659,8 +1659,7 @@ profession:
       specifications: []
       skill_id: 24617
     - branch: base
-      description: Увеличивает силу критических атак на 4%, шанс нанести критический удар на 6.4% и силу
-        физических умений на 1%.
+      description: Увеличивает силу критических атак на 4%, шанс нанести критический удар на 6.4%.
       effects: []
       icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '1'
@@ -1669,8 +1668,7 @@ profession:
       specifications: []
       skill_id: 24618
     - branch: base
-      description: Увеличивает силу критических атак на 5%, шанс нанести критический удар на 8% и силу
-        физических умений на 2%.
+      description: Увеличивает силу критических атак на 5%, шанс нанести критический удар на 8%.
       effects: []
       icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '2'
@@ -1679,8 +1677,7 @@ profession:
       specifications: []
       skill_id: 24618
     - branch: base
-      description: Увеличивает силу критических атак на 6%, шанс нанести критический удар на 9.6% и силу
-        физических умений на 3%.
+      description: Увеличивает силу критических атак на 6%, шанс нанести критический удар на 9.6%.
       effects: []
       icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '3'
@@ -1689,8 +1686,7 @@ profession:
       specifications: []
       skill_id: 24618
     - branch: base
-      description: Увеличивает силу критических атак на 7%, шанс нанести критический удар на 11.2% и силу
-        физических умений на 4%.
+      description: Увеличивает силу критических атак на 7%, шанс нанести критический удар на 11.2%.
       effects: []
       icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '4'
@@ -1699,8 +1695,7 @@ profession:
       specifications: []
       skill_id: 24618
     - branch: base
-      description: Увеличивает силу критических атак на 8%, шанс нанести критический удар на 12.8% и силу
-        физических умений на 6%.
+      description: Увеличивает силу критических атак на 8%, шанс нанести критический удар на 12.8%.
       effects: []
       icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '5'
@@ -1709,8 +1704,7 @@ profession:
       specifications: []
       skill_id: 24618
     - branch: base
-      description: Увеличивает силу критических атак на 9%, шанс нанести критический удар на 14.4% и силу
-        физических умений на 8%.
+      description: Увеличивает силу критических атак на 9%, шанс нанести критический удар на 14.4%.
       effects: []
       icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '6'
@@ -1719,8 +1713,7 @@ profession:
       specifications: []
       skill_id: 24618
     - branch: base
-      description: Увеличивает силу критических атак на 10%, шанс нанести критический удар на 16% и силу
-        физических умений на 10%.
+      description: Увеличивает силу критических атак на 10%, шанс нанести критический удар на 16%.
       effects: []
       icon: /icon/client-skills/icon4.l2icon.skill31385.png
       level: '7'

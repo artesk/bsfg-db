@@ -574,6 +574,44 @@ main:has(> .world-map) { width: 100%; min-height: 0; }
 .progression-card-heading { display: flex; align-items: center; gap: 10px; padding: 14px; }
 .progression-card-heading h3 { margin: 0; font-size: 18px; }
 .progression-effect { white-space: pre-line; overflow-wrap: anywhere; }
+.armor-enchant-manuscripts { margin-bottom: 28px; }
+.armor-enchant-manuscripts ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 134px), 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.armor-enchant-manuscripts li { display: grid; gap: 4px; padding: 10px 12px; }
+.armor-enchant-manuscripts span, .armor-enchant-slots, .armor-enchant-note { color: var(--muted); font-size: 14px; }
+.armor-enchant-note { max-width: 76ch; margin: 0 0 16px; }
+.armor-enchant-toolbar > label:last-child { flex: 1 1 210px; max-width: 340px; }
+.armor-enchant-toolbar :is(select, input) { min-height: 44px; }
+.armor-enchant-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 10px;
+  align-items: start;
+}
+.armor-enchant-variant summary { cursor: pointer; padding: 12px 14px; }
+.armor-enchant-variant summary::marker { color: var(--accent-2); }
+.armor-enchant-summary { display: inline-grid; max-width: calc(100% - 1.4em); gap: 3px; vertical-align: top; }
+.armor-enchant-position {
+  justify-self: start;
+  padding: 2px 7px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+.armor-enchant-position[data-position="upper"] { color: #efd28b; background: #332819; border-color: #6e5328; }
+.armor-enchant-position[data-position="lower"] { color: #b8e4db; background: #192e2d; border-color: #3d6260; }
+.armor-enchant-summary .progression-effect { color: var(--accent-2); font-size: 14px; }
+.armor-enchant-variant table { font-size: 14px; }
+.armor-enchant-variant th:first-child { width: 1%; }
+.armor-enchant-variant .armor-enchant-selected-level > * { background: var(--surface-2); color: var(--accent-2); }
 .progression-unleveled th:first-child { width: auto; text-align: left; }
 .progression-id { width: 1%; color: var(--muted); font-variant-numeric: tabular-nums; }
 .progression-active { padding: 14px; border-top: 1px solid var(--line); }

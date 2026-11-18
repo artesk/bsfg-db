@@ -536,6 +536,63 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
     return data
 
 
+def load_armor_enchantments(content: Path) -> dict[str, Any]:
+    path = content / "specifications" / "enchant-armor.yaml"
+    data = require_mapping(load_yaml(path), path, "enchant-armor")
+    release = require_string(data, "client_release", path, "enchant-armor")
+    if not CLIENT_RELEASE_PATTERN.fullmatch(release):
+        fail(path, "client_release", "ожидался номер релиза клиента")
+    slots = require_mapping(data.get("slots"), path, "slots")
+    for key, slot in slots.items():
+        require_string(slots, key, path, "slots")
+    manuscripts = require_list(data.get("manuscripts"), path, "manuscripts")
+    item_ids: set[int] = set()
+    for index, value in enumerate(manuscripts):
+        location = f"manuscripts[{index}]"
+        manuscript = require_mapping(value, path, location)
+        require_string(manuscript, "quality", path, location)
+        item_id = manuscript.get("item_id")
+        if type(item_id) is not int or item_id < 1 or item_id in item_ids:
+            fail(path, f"{location}.item_id", "ожидался уникальный положительный ID предмета")
+        item_ids.add(item_id)
+        if type(manuscript.get("limit")) is not int or manuscript["limit"] != 3 * (index + 1):
+            fail(path, f"{location}.limit", "ожидался следующий предел уровней манускрипта")
+    if len(manuscripts) != 5:
+        fail(path, "manuscripts", "ожидалось пять качеств манускрипта")
+
+    variants = require_list(data.get("variants"), path, "variants")
+    if not variants:
+        fail(path, "variants", "нужен хотя бы один вариант зачарования")
+    option_ids: set[int] = set()
+    for index, value in enumerate(variants):
+        location = f"variants[{index}]"
+        variant = require_mapping(value, path, location)
+        require_string(variant, "name", path, location)
+        variant_slots = require_string_list(variant, "slots", path, location)
+        if not variant_slots or len(set(variant_slots)) != len(variant_slots) or any(slot not in slots for slot in variant_slots):
+            fail(path, f"{location}.slots", "ожидался непустой список уникальных слотов из slots")
+        if variant.get("position") not in ("upper", "lower"):
+            fail(path, f"{location}.position", "ожидалась верхняя или нижняя позиция")
+        levels = require_list(variant.get("levels"), path, f"{location}.levels")
+        if not levels:
+            fail(path, f"{location}.levels", "нужна хотя бы одна запись уровня")
+        previous_level = 0
+        for row_index, row in enumerate(levels):
+            row_path = f"{location}.levels[{row_index}]"
+            if not isinstance(row, list) or len(row) != 3:
+                fail(path, row_path, "ожидались уровень, ID и описание эффекта")
+            level, option_id, effect = row
+            if type(level) is not int or not previous_level < level <= 15:
+                fail(path, row_path, "ожидались уникальные уровни от 1 до 15 по возрастанию")
+            if type(option_id) is not int or option_id < 1 or option_id in option_ids:
+                fail(path, row_path, "ожидался уникальный положительный ID эффекта")
+            if not isinstance(effect, str) or not effect.strip():
+                fail(path, row_path, "ожидалось непустое описание эффекта")
+            previous_level = level
+            option_ids.add(option_id)
+    return data
+
+
 def load_gear(content: Path, page: str) -> dict[str, Any]:
     path = content / "items" / f"{page}.yaml"
     data = require_mapping(load_yaml(path), path, page)
@@ -837,6 +894,7 @@ def load_news(content: Path) -> dict[str, Any]:
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
     enchantments = {page: load_enchantments(content, page) for page in ENCHANTMENT_PAGES}
+    armor_enchantments = load_armor_enchantments(content)
     progression = {page: load_progression(content, page) for page in PROGRESSION_PAGES}
     pit_jewelry = load_pit_jewelry(content)
     world_map = load_world_map(content)
@@ -925,6 +983,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
             write_json(enchant_output, data)
         else:
             enchant_output.unlink(missing_ok=True)
+    write_json(output / "specifications" / "enchant-armor.json", armor_enchantments)
     for page, data in progression.items():
         for group in data["groups"]:
             if group.get("icon") not in available_icons:
@@ -979,6 +1038,7 @@ def main() -> int:
             _, documents = load_content(args.content.resolve())
             for page in ENCHANTMENT_PAGES:
                 load_enchantments(args.content.resolve(), page)
+            load_armor_enchantments(args.content.resolve())
             for page in PROGRESSION_PAGES:
                 load_progression(args.content.resolve(), page)
             load_pit_jewelry(args.content.resolve())

@@ -393,6 +393,11 @@
               <h3>Улучшения оружия</h3>
               <p>Пассивные свойства оружия и щитов при улучшении до +4 по рангам BA–GM.</p>
             </a>
+            <a class="directory-link specifications-link" href="#/specifications/enchant-armor">
+              <img src="assets/icons/specifications/equipment-properties.webp" width="44" height="44" alt="">
+              <h3>Зачарование брони и бижутерии</h3>
+              <p>Чарки с манускриптов, бонусы по уровням и слоты снаряжения.</p>
+            </a>
             <a class="directory-link specifications-link" href="#/specifications/equipment-properties">
               <img src="assets/icons/specifications/equipment-properties.webp" width="44" height="44" alt="">
               <h3>Свойства экипировки</h3>
@@ -451,6 +456,52 @@
           </div>
         </section>
       </nav>
+    </article>
+  </template>
+
+  <template id="armor-enchant-template">
+    <article class="enchant-page armor-enchant-page">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <a href="#/specifications">Характеристики</a><span>/</span><span aria-current="page">Зачарование брони и бижутерии</span>
+      </nav>
+      <header class="hero">
+        <h1 id="armor-enchant-heading">Зачарование брони и бижутерии</h1>
+        <p class="hero-copy">Используйте «Зачарованный манускрипт» на «Аспекте брони» или «Аспекте бижутерии». Затем вставьте аспект в подходящий предмет. Качество манускрипта определяет предел уровня свойства.</p>
+      </header>
+      <section class="armor-enchant-manuscripts" aria-labelledby="armor-manuscript-heading">
+        <h2 class="enchant-title" id="armor-manuscript-heading">Зачарованные манускрипты</h2>
+        <ul id="armor-enchant-manuscripts"></ul>
+      </section>
+      <section aria-labelledby="armor-enchant-effects-heading">
+        <h2 class="enchant-title" id="armor-enchant-effects-heading">Бонусы зачарования</h2>
+        <p class="armor-enchant-note"><strong>Верхнее и нижнее свойство.</strong> Метки на карточках показывают строку в подсказке предмета. Одно свойство может давать несколько бонусов.</p>
+        <p class="armor-enchant-note">Значения взяты из подсказок клиента. Слоты сопоставлены с официальными описаниями. В анонсе «Порядка Хаоса» у ожерелья и нагрудной брони общий набор свойств.</p>
+        <div class="progression-toolbar armor-enchant-toolbar">
+          <label class="progression-field">
+            <span>Слот</span>
+            <select id="armor-enchant-slot"></select>
+          </label>
+          <label class="progression-field">
+            <span>Уровень</span>
+            <select id="armor-enchant-level"></select>
+          </label>
+          <label class="progression-field">
+            <span>Строка в подсказке</span>
+            <select id="armor-enchant-position"></select>
+          </label>
+          <label class="progression-field">
+            <span>Поиск по свойству или ID</span>
+            <input id="armor-enchant-search" type="search" autocomplete="off">
+          </label>
+        </div>
+        <p id="armor-enchant-count" class="equipment-count" role="status"></p>
+        <div id="armor-enchant-results" class="armor-enchant-results"></div>
+      </section>
+      <footer class="enchant-source">
+        <p>Подсказки клиента BSFG <span id="armor-enchant-release"></span>.</p>
+        <p>В «Хрониках» зачарования на фиксированную физическую и магическую атаку заменили силой умений класса Убийц. Бонусы скорости у брони и перчаток снизили. <a href="https://db.bsfg.online/announce/anons-servera-hroniki">Анонс «Хроник»</a></p>
+        <p>Позиции в подсказке уточнены по сведениям игроков. <a href="https://www.bsfg.online/news/9968/">Описание зачарования брони</a> · <a href="https://db.bsfg.online/announce/porjadok-haosa">Описание аспекта бижутерии</a></p>
+      </footer>
     </article>
   </template>
 

@@ -34,6 +34,11 @@ const ENCHANT_PAGES = new Map([
   }],
 ]);
 
+const ARMOR_ENCHANT_PATH = "/specifications/enchant-armor";
+const ARMOR_ENCHANT_POSITIONS = {
+  upper: "Верхнее свойство",
+  lower: "Нижнее свойство",
+};
 const PROGRESSION_PAGES = new Map([
   ["/specifications/banners", {
     title: "Знамёна", intro: "Сравните бонусы знамён по рангам.", label: "Знамя", level: "Ранг",
@@ -90,7 +95,8 @@ const GEAR_CATALOGS = new Map([
     title: "Экипировка", navigationLabel: "Виды экипировки", categories: EQUIPMENT_CATEGORIES,
     intro: "Комплекты, базовые характеристики, эффекты и рецепты из клиента BSFG.",
     featuredCategories: ["heavy", "light", "robe", "robe-legion", "form", "shields", "jewelry", "bracelets", "talismans"],
-    related: [["/items/pit-boss-jewelry", "Бижутерия Пит-боссов"], ["/specifications/boss-trophies", "Трофеи боссов"]],
+    related: [["/items/pit-boss-jewelry", "Бижутерия Пит-боссов"], ["/specifications/boss-trophies", "Трофеи боссов"],
+      [ARMOR_ENCHANT_PATH, "Зачарование брони и бижутерии"]],
   }],
   ["/items/weapons", {
     title: "Оружие", navigationLabel: "Типы оружия", categories: WEAPON_CATEGORIES,
@@ -1455,6 +1461,90 @@ function renderEquipmentRecipes(item, open = false, label = "Рецепты") {
   return details;
 }
 
+function renderArmorEnchantments(data) {
+  app.replaceChildren(cloneTemplate("#armor-enchant-template"));
+  document.title = document.querySelector("#armor-enchant-heading").textContent + " — База знаний BSFG";
+  document.querySelector("#armor-enchant-release").textContent = data.client_release;
+  const manuscripts = document.querySelector("#armor-enchant-manuscripts");
+  for (const {quality, limit} of data.manuscripts) {
+    const item = el("li", "enchant-card");
+    item.append(el("strong", "", quality), el("span", "", "Уровни 1–" + limit));
+    manuscripts.append(item);
+  }
+
+  const slot = document.querySelector("#armor-enchant-slot");
+  const level = document.querySelector("#armor-enchant-level");
+  const position = document.querySelector("#armor-enchant-position");
+  const search = document.querySelector("#armor-enchant-search");
+  const count = document.querySelector("#armor-enchant-count");
+  const results = document.querySelector("#armor-enchant-results");
+  slot.append(new Option("Все слоты", "all"),
+    ...Object.entries(data.slots).map(([key, label]) => new Option(label, key)));
+  const levelLimit = data.manuscripts.at(-1).limit;
+  for (let value = 1; value <= levelLimit; value++) level.append(new Option(value, value));
+  const positionOrder = Object.keys(ARMOR_ENCHANT_POSITIONS);
+  position.append(new Option("Все позиции", "all"),
+    ...positionOrder.map(key => new Option(ARMOR_ENCHANT_POSITIONS[key], key)));
+  const saved = viewState(ARMOR_ENCHANT_PATH);
+  slot.value = Object.hasOwn(data.slots, saved.slot) ? saved.slot : "all";
+  level.value = saved.level || String(levelLimit);
+  position.value = Object.hasOwn(ARMOR_ENCHANT_POSITIONS, saved.position) ? saved.position : "all";
+  search.value = saved.query || "";
+
+  const variants = data.variants.map(variant => ({
+    ...variant,
+    searchText: normalize([variant.name, ...variant.levels.flatMap(([, id, effect]) => [id, effect])].join(" ")),
+  })).sort((left, right) => positionOrder.indexOf(left.position) - positionOrder.indexOf(right.position));
+  function refresh() {
+    const query = normalize(search.value.trim());
+    const chosenLevel = Number(level.value);
+    rememberView(ARMOR_ENCHANT_PATH, {query: search.value, slot: slot.value, level: level.value, position: position.value});
+    const matches = variants.filter(variant => {
+      const matchesSlot = slot.value === "all" || variant.slots.includes(slot.value);
+      const matchesPosition = position.value === "all" || position.value === variant.position;
+      return matchesSlot && matchesPosition && variant.searchText.includes(query);
+    });
+    count.textContent = "Найдено вариантов — " + matches.length;
+    results.replaceChildren(...(matches.length
+      ? matches.map(variant => renderArmorEnchantVariant(variant, chosenLevel, data.slots))
+      : [el("p", "empty-state", "Совпадений нет.")]));
+  }
+  search.addEventListener("input", refresh);
+  slot.addEventListener("change", refresh);
+  level.addEventListener("change", refresh);
+  position.addEventListener("change", refresh);
+  refresh();
+}
+
+function renderArmorEnchantVariant(variant, selectedLevel, slots) {
+  const card = el("details", "enchant-card armor-enchant-variant");
+  const summary = el("summary");
+  const summaryBody = el("span", "armor-enchant-summary");
+  const current = variant.levels.find(([level]) => level === selectedLevel);
+  const position = el("span", "armor-enchant-position", ARMOR_ENCHANT_POSITIONS[variant.position]);
+  position.dataset.position = variant.position;
+  summaryBody.append(el("strong", "", variant.name),
+    el("span", "armor-enchant-slots", variant.slots.map(key => slots[key]).join(" · ")),
+    position,
+    el("span", "progression-effect", current?.[2] ?? "В клиенте нет записи для этого уровня."));
+  summary.append(summaryBody);
+  card.append(summary);
+  card.addEventListener("toggle", () => {
+    if (!card.open || card.querySelector("table")) return;
+    const table = createEnchantTable(variant.name, ["Уровень", "Эффект", "ID"]);
+    const body = table.createTBody();
+    for (const [level, id, effect] of variant.levels) {
+      const row = body.insertRow();
+      if (level === selectedLevel) row.classList.add("armor-enchant-selected-level");
+      const label = el("th", "", level);
+      label.scope = "row";
+      row.append(label, el("td", "progression-effect", effect), el("td", "progression-id", id));
+    }
+    card.append(table);
+  });
+  return card;
+}
+
 function renderProgressionPage(path, page, data) {
   document.title = page.title + " — База знаний BSFG";
   app.replaceChildren(cloneTemplate("#progression-template"));
@@ -2031,7 +2121,8 @@ async function route() {
   const catalog = GEAR_CATALOGS.get(gearPath);
   const category = catalog && (gearMatch[2] || Object.keys(catalog.categories)[0]);
   const isGear = catalog && Object.hasOwn(catalog.categories, category);
-  const isSpecifications = path === "/specifications" || enchantPage !== undefined || progressionPage !== undefined;
+  const isSpecifications = path === "/specifications" || path === ARMOR_ENCHANT_PATH
+    || enchantPage !== undefined || progressionPage !== undefined;
   const textGuide = path.match(/^\/guides\/(forpost|dream-amulet|condemned-island|daily-quests|food)$/)?.[1];
   let activeSection = path;
   if (isProfessionSection) activeSection = "/professions";
@@ -2102,6 +2193,11 @@ async function route() {
       }
       if (version !== routeVersion) return;
       renderPitJewelry(pitJewelry);
+    } else if (path === ARMOR_ENCHANT_PATH) {
+      app.replaceChildren(cloneTemplate("#loading-template"));
+      const data = await loadJson("data" + path + ".json");
+      if (version !== routeVersion) return;
+      renderArmorEnchantments(data);
     } else if (enchantPage) {
       if (!enchantData.has(path)) {
         app.replaceChildren(cloneTemplate("#loading-template"));

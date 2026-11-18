@@ -574,6 +574,65 @@ main:has(> .world-map) { width: 100%; min-height: 0; }
 .progression-card-heading { display: flex; align-items: center; gap: 10px; padding: 14px; }
 .progression-card-heading h3 { margin: 0; font-size: 18px; }
 .progression-effect { white-space: pre-line; overflow-wrap: anywhere; }
+.talents-page { padding-bottom: 38px; }
+.talent-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 136px), 1fr));
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.talent-options .talent-option {
+  display: grid;
+  gap: 3px;
+  align-content: center;
+  min-height: 62px;
+  padding: 10px 12px;
+  text-align: left;
+}
+.talent-option strong { font-size: 15px; }
+.talent-option span { color: var(--muted); font-size: 12px; }
+.talent-options .talent-option[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 -2px var(--accent); }
+.talent-sheet { padding: clamp(14px, 2.5vw, 26px); }
+.talent-sheet-heading { display: flex; justify-content: space-between; gap: 14px; align-items: end; }
+.talent-sheet-heading h2 { margin: 0; font: 500 clamp(28px, 4.4vw, 44px)/1.1 Georgia, serif; }
+.talent-sheet-heading p { margin: 0 0 4px; color: var(--muted); font-size: 13px; }
+.talent-level-field input { min-height: 40px; font-variant-numeric: tabular-nums; }
+#talent-range { display: block; width: 100%; height: 30px; margin: 14px 0 2px; accent-color: var(--accent); color-scheme: dark; }
+.talent-milestones { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.talent-milestones .class-option { min-height: 38px; padding: 4px; font-variant-numeric: tabular-nums; }
+.talent-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 205px), 1fr));
+  gap: 8px;
+  margin: 18px 0 0;
+}
+.talent-stat { padding: 10px 12px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface-2); }
+.talent-stat dt { font-size: 14px; }
+.talent-stat-scope { display: block; margin-top: 2px; color: var(--muted); font-size: 12px; font-weight: 400; }
+.talent-stat dd { margin: 4px 0 0; color: var(--accent-2); font-size: 19px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.talent-abilities { margin: 26px 0 18px; }
+.talent-ability-tiers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; align-items: start; }
+.talent-ability-tier { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.talent-ability-tier h3 { margin: 0; padding: 9px 12px; border-bottom: 1px solid var(--line); color: var(--accent-2); font-size: 14px; }
+.talent-ability { padding: 12px; }
+.talent-ability + .talent-ability { border-top: 1px solid var(--line); }
+.talent-ability h4 { margin: 0; font-size: 16px; }
+.talent-ability p { margin: 6px 0 0; font-size: 14px; }
+.talent-ability .talent-ability-audience { margin-top: 2px; color: var(--muted); font-size: 12px; }
+.talent-ability-effects { margin: 8px 0 0; font-size: 13px; }
+.talent-ability-effects div { display: flex; justify-content: space-between; gap: 8px; padding: 3px 0; }
+.talent-ability-effects dd { margin: 0; color: var(--accent-2); white-space: nowrap; }
+.talent-levels > summary { padding: 13px 14px; cursor: pointer; font-weight: 600; }
+.talent-table-scroll { max-width: 100%; overflow-x: auto; }
+.talent-table-scroll table { width: max-content; min-width: 100%; }
+.talent-table-scroll th { max-width: 240px; text-align: left; }
+.talent-table-scroll th:first-child { position: sticky; left: 0; background: var(--surface); }
+.talent-table-scroll td { font-variant-numeric: tabular-nums; }
+@media (max-width: 650px) {
+  .talent-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .talent-ability-tiers { grid-template-columns: 1fr; }
+  .talent-level-field { width: 112px; flex: none; }
+}
 .armor-enchant-manuscripts { margin-bottom: 28px; }
 .armor-enchant-manuscripts ul {
   display: grid;

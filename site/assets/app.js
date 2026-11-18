@@ -35,6 +35,7 @@ const ENCHANT_PAGES = new Map([
 ]);
 
 const ARMOR_ENCHANT_PATH = "/specifications/enchant-armor";
+const TALENTS_PATH = "/specifications/talents";
 const ARMOR_ENCHANT_POSITIONS = {
   upper: "Верхнее свойство",
   lower: "Нижнее свойство",
@@ -1461,6 +1462,120 @@ function renderEquipmentRecipes(item, open = false, label = "Рецепты") {
   return details;
 }
 
+function renderTalents(data) {
+  document.title = "Таланты — База знаний BSFG";
+  app.replaceChildren(cloneTemplate("#talents-template"));
+  const options = document.querySelector("#talent-options");
+  const role = document.querySelector("#talent-role");
+  const name = document.querySelector("#talent-name");
+  const number = document.querySelector("#talent-level");
+  const range = document.querySelector("#talent-range");
+  const milestones = document.querySelector("#talent-milestones");
+  const stats = document.querySelector("#talent-stats");
+  const abilities = document.querySelector("#talent-abilities");
+  const details = document.querySelector("#talent-levels");
+  const tableScroll = document.querySelector("#talent-table-scroll");
+  const source = document.querySelector("#talent-source");
+  const saved = viewState(TALENTS_PATH);
+  let talent = data.talents.find(entry => entry.slug === saved.talent) ?? data.talents[0];
+  let level = saved.level || 1;
+
+  function selectLevel(value) {
+    const requested = Number.parseInt(value, 10);
+    if (Number.isFinite(requested)) level = Math.max(1, Math.min(talent.levels.length, requested));
+    number.value = range.value = level;
+    for (const button of milestones.children) {
+      button.setAttribute("aria-pressed", String(Number(button.value) === level));
+    }
+    stats.replaceChildren(...talent.metrics.map((metric, index) => {
+      const item = el("div", "talent-stat");
+      const label = el("dt", "", metric.name);
+      if (metric.scope) label.append(el("span", "talent-stat-scope", metric.scope));
+      item.append(label, el("dd", "", talent.levels[level - 1][index + 1]));
+      return item;
+    }));
+    rememberView(TALENTS_PATH, {talent: talent.slug, level});
+  }
+
+  function showTable() {
+    if (details.open && !tableScroll.firstChild) tableScroll.append(renderTalentTable(talent));
+  }
+
+  function selectTalent(entry) {
+    talent = entry;
+    for (const button of options.children) {
+      button.setAttribute("aria-pressed", String(button.value === talent.slug));
+    }
+    name.textContent = talent.name;
+    role.textContent = talent.role;
+    source.href = talent.source;
+    abilities.replaceChildren(...renderTalentAbilities(talent));
+    tableScroll.replaceChildren();
+    showTable();
+    selectLevel(level);
+  }
+
+  for (const entry of data.talents) {
+    const button = el("button", "class-option talent-option");
+    button.type = "button";
+    button.value = entry.slug;
+    button.setAttribute("aria-controls", "talent-panel");
+    button.append(el("strong", "", entry.name), el("span", "", entry.role));
+    button.addEventListener("click", () => selectTalent(entry));
+    options.append(button);
+  }
+  for (const value of [1, 50, 100, 150, 200]) {
+    const button = el("button", "class-option", value);
+    button.type = "button";
+    button.value = value;
+    button.addEventListener("click", () => selectLevel(value));
+    milestones.append(button);
+  }
+  number.addEventListener("change", () => selectLevel(number.value));
+  range.addEventListener("input", () => selectLevel(range.value));
+  details.addEventListener("toggle", showTable);
+  selectTalent(talent);
+}
+
+function renderTalentAbilities(talent) {
+  return [50, 100, 150].map(level => {
+    const tier = el("section", "talent-ability-tier");
+    tier.append(el("h3", "", level + "-й уровень"));
+    for (const ability of talent.abilities.filter(entry => entry.level === level)) {
+      const card = el("article", "talent-ability");
+      card.append(el("h4", "", ability.name));
+      if (ability.audience) card.append(el("p", "talent-ability-audience", ability.audience));
+      card.append(el("p", "", ability.description));
+      if (ability.effects.length) {
+        const effects = el("dl", "talent-ability-effects");
+        for (const [label, value] of ability.effects) {
+          const effect = el("div");
+          effect.append(el("dt", "", label), el("dd", "", value));
+          effects.append(effect);
+        }
+        card.append(effects);
+      }
+      tier.append(card);
+    }
+    return tier;
+  });
+}
+
+function renderTalentTable(talent) {
+  const table = createEnchantTable(talent.name + " по уровням", ["Уровень", ...talent.metrics.map(metric => metric.name)]);
+  for (const [index, metric] of talent.metrics.entries()) {
+    if (metric.scope) table.tHead.rows[0].cells[index + 1].append(el("span", "talent-stat-scope", metric.scope));
+  }
+  const body = table.createTBody();
+  for (const [level, ...values] of talent.levels) {
+    const row = body.insertRow();
+    const label = el("th", "", level);
+    label.scope = "row";
+    row.append(label, ...values.map(value => el("td", "", value)));
+  }
+  return table;
+}
+
 function renderArmorEnchantments(data) {
   app.replaceChildren(cloneTemplate("#armor-enchant-template"));
   document.title = document.querySelector("#armor-enchant-heading").textContent + " — База знаний BSFG";
@@ -2121,7 +2236,7 @@ async function route() {
   const catalog = GEAR_CATALOGS.get(gearPath);
   const category = catalog && (gearMatch[2] || Object.keys(catalog.categories)[0]);
   const isGear = catalog && Object.hasOwn(catalog.categories, category);
-  const isSpecifications = path === "/specifications" || path === ARMOR_ENCHANT_PATH
+  const isSpecifications = path === "/specifications" || path === ARMOR_ENCHANT_PATH || path === TALENTS_PATH
     || enchantPage !== undefined || progressionPage !== undefined;
   const textGuide = path.match(/^\/guides\/(forpost|dream-amulet|condemned-island|daily-quests|food)$/)?.[1];
   let activeSection = path;
@@ -2193,6 +2308,11 @@ async function route() {
       }
       if (version !== routeVersion) return;
       renderPitJewelry(pitJewelry);
+    } else if (path === TALENTS_PATH) {
+      app.replaceChildren(cloneTemplate("#loading-template"));
+      const data = await loadJson("data" + path + ".json");
+      if (version !== routeVersion) return;
+      renderTalents(data);
     } else if (path === ARMOR_ENCHANT_PATH) {
       app.replaceChildren(cloneTemplate("#loading-template"));
       const data = await loadJson("data" + path + ".json");

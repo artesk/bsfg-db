@@ -381,8 +381,13 @@
       </header>
       <nav class="specifications-directory" aria-label="Разделы характеристик">
         <section class="specifications-group" aria-labelledby="specifications-upgrades">
-          <h2 id="specifications-upgrades">Заточка и свойства</h2>
+          <h2 id="specifications-upgrades">Таланты, заточка и свойства</h2>
           <div class="specifications-grid">
+            <a class="directory-link specifications-link" href="#/specifications/talents">
+              <img src="assets/icons/specifications/enchant-skills.webp" width="44" height="44" alt="">
+              <h3>Таланты</h3>
+              <p>Шесть талантов, бонусы с 1-го по 200-й уровень и умения, которые они открывают.</p>
+            </a>
             <a class="directory-link specifications-link" href="#/specifications/enchant-skills">
               <img src="assets/icons/specifications/enchant-skills.webp" width="44" height="44" alt="">
               <h3>Заточка скиллов</h3>
@@ -456,6 +461,45 @@
           </div>
         </section>
       </nav>
+    </article>
+  </template>
+
+  <template id="talents-template">
+    <article class="enchant-page talents-page">
+      <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+        <a href="#/specifications">Характеристики</a><span>/</span><span aria-current="page">Таланты</span>
+      </nav>
+      <header class="hero">
+        <h1>Таланты</h1>
+        <p class="hero-copy">Бонусы прокачки с 1-го по 200-й уровень и умения, которые открываются на 50-м, 100-м и 150-м.</p>
+      </header>
+      <div id="talent-options" class="talent-options" role="group" aria-label="Талант"></div>
+      <section id="talent-panel" aria-labelledby="talent-name">
+        <div class="enchant-card talent-sheet">
+          <header class="talent-sheet-heading">
+            <div>
+              <p id="talent-role"></p>
+              <h2 id="talent-name"></h2>
+            </div>
+            <label class="progression-field talent-level-field">
+              <span>Уровень таланта</span>
+              <input id="talent-level" type="number" min="1" max="200" step="1" inputmode="numeric">
+            </label>
+          </header>
+          <input id="talent-range" type="range" min="1" max="200" aria-label="Уровень таланта">
+          <div id="talent-milestones" class="talent-milestones" role="group" aria-label="Быстрый выбор уровня"></div>
+          <dl id="talent-stats" class="talent-stats"></dl>
+        </div>
+        <section aria-labelledby="talent-abilities-heading" class="talent-abilities">
+          <h2 class="enchant-title" id="talent-abilities-heading">Умения таланта</h2>
+          <div id="talent-abilities" class="talent-ability-tiers"></div>
+        </section>
+        <details class="enchant-card talent-levels" id="talent-levels">
+          <summary id="talent-table-heading">Таблица уровней 1–200</summary>
+          <div id="talent-table-scroll" class="talent-table-scroll" role="region" aria-labelledby="talent-table-heading" tabindex="0"></div>
+        </details>
+        <p class="enchant-source"><a id="talent-source">Официальная база знаний BSFG</a></p>
+      </section>
     </article>
   </template>
 

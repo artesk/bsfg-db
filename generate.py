@@ -23,6 +23,7 @@ SLUG_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 KNOWN_BRANCHES = {"base", "one", "two", "three"}
 CLIENT_RELEASE_PATTERN = re.compile(r"\d{4}\.\d{2}\.\d{2}\.\d{6}")
 ENCHANTMENT_PAGES = ("enchant-skills", "enchant-weapon")
+TALENT_SLUGS = {"strength", "dexterity", "durability", "intellect", "wisdom", "spirit"}
 TEXT_GUIDES = ("forpost", "dream-amulet", "condemned-island", "daily-quests", "food")
 PROGRESSION_PAGES = {
     "banners": "item_id",
@@ -536,6 +537,66 @@ def load_progression(content: Path, page: str) -> dict[str, Any]:
     return data
 
 
+def load_talents(content: Path) -> dict[str, Any]:
+    path = content / "specifications" / "talents.yaml"
+    data = require_mapping(load_yaml(path), path, "talents")
+    talents = require_list(data.get("talents"), path, "talents")
+    slugs: set[str] = set()
+    for index, value in enumerate(talents):
+        location = f"talents[{index}]"
+        talent = require_mapping(value, path, location)
+        slug = require_string(talent, "slug", path, location)
+        if slug not in TALENT_SLUGS or slug in slugs:
+            fail(path, f"{location}.slug", "неизвестный или повторяющийся талант")
+        slugs.add(slug)
+        require_string(talent, "name", path, location)
+        require_string(talent, "role", path, location)
+        if talent.get("source") != f"https://db.bsfg.online/spec/talent_{slug}":
+            fail(path, f"{location}.source", "ожидалась ссылка на официальную страницу таланта")
+
+        metrics = require_list(talent.get("metrics"), path, f"{location}.metrics")
+        if not metrics:
+            fail(path, f"{location}.metrics", "ожидалась хотя бы одна характеристика")
+        for metric_index, value in enumerate(metrics):
+            metric_path = f"{location}.metrics[{metric_index}]"
+            metric = require_mapping(value, path, metric_path)
+            require_string(metric, "name", path, metric_path)
+            if "scope" in metric:
+                require_string(metric, "scope", path, metric_path)
+        levels = require_list(talent.get("levels"), path, f"{location}.levels")
+        if len(levels) != 200:
+            fail(path, f"{location}.levels", "ожидались все 200 уровней")
+        for level, entry in enumerate(levels, start=1):
+            level_path = f"{location}.levels[{level - 1}]"
+            row = require_list(entry, path, level_path)
+            if len(row) != len(metrics) + 1 or type(row[0]) is not int or row[0] != level:
+                fail(path, level_path, "ожидались номер уровня и значение для каждой характеристики")
+            if any(not isinstance(value, str) or not value.strip() for value in row[1:]):
+                fail(path, level_path, "значения характеристик должны быть непустыми строками")
+
+        abilities = require_list(talent.get("abilities"), path, f"{location}.abilities")
+        unlock_levels = []
+        for ability_index, value in enumerate(abilities):
+            ability_path = f"{location}.abilities[{ability_index}]"
+            ability = require_mapping(value, path, ability_path)
+            require_string(ability, "name", path, ability_path)
+            require_string(ability, "description", path, ability_path)
+            if "audience" in ability:
+                require_string(ability, "audience", path, ability_path)
+            unlock_levels.append(ability.get("level"))
+            effects = require_list(ability.get("effects"), path, f"{ability_path}.effects")
+            for effect_index, effect in enumerate(effects):
+                if not isinstance(effect, list) or len(effect) != 2 or any(
+                    not isinstance(value, str) or not value.strip() for value in effect
+                ):
+                    fail(path, f"{ability_path}.effects[{effect_index}]", "ожидались название и значение эффекта")
+        if unlock_levels != [50, 50, 100, 150] or any(type(level) is not int for level in unlock_levels):
+            fail(path, f"{location}.abilities", "ожидались четыре записи для уровней 50, 50, 100 и 150")
+    if slugs != TALENT_SLUGS:
+        fail(path, "talents", "ожидались все шесть талантов")
+    return data
+
+
 def load_armor_enchantments(content: Path) -> dict[str, Any]:
     path = content / "specifications" / "enchant-armor.yaml"
     data = require_mapping(load_yaml(path), path, "enchant-armor")
@@ -894,6 +955,7 @@ def load_news(content: Path) -> dict[str, Any]:
 def build(content: Path, output: Path) -> tuple[int, int]:
     metadata, documents = load_content(content)
     enchantments = {page: load_enchantments(content, page) for page in ENCHANTMENT_PAGES}
+    talents = load_talents(content)
     armor_enchantments = load_armor_enchantments(content)
     progression = {page: load_progression(content, page) for page in PROGRESSION_PAGES}
     pit_jewelry = load_pit_jewelry(content)
@@ -984,6 +1046,7 @@ def build(content: Path, output: Path) -> tuple[int, int]:
         else:
             enchant_output.unlink(missing_ok=True)
     write_json(output / "specifications" / "enchant-armor.json", armor_enchantments)
+    write_json(output / "specifications" / "talents.json", talents)
     for page, data in progression.items():
         for group in data["groups"]:
             if group.get("icon") not in available_icons:
@@ -1038,6 +1101,7 @@ def main() -> int:
             _, documents = load_content(args.content.resolve())
             for page in ENCHANTMENT_PAGES:
                 load_enchantments(args.content.resolve(), page)
+            load_talents(args.content.resolve())
             load_armor_enchantments(args.content.resolve())
             for page in PROGRESSION_PAGES:
                 load_progression(args.content.resolve(), page)

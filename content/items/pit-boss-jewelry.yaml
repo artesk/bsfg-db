@@ -177,38 +177,38 @@ ranks:
       variant: normal
       magic_defense: 113
       effects:
-      - Магическая атака +6%
-      - Сила критической атаки магией +4%
+      - Магическая атака +7%
+      - Сила критической атаки магией +4.5%
     - item_id: 25393
       name: Ожерелье Атарокса
       icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: normal
       magic_defense: 113
       effects:
-      - Сила критической атаки +7%
+      - Сила критической атаки +8%
     - item_id: 25394
       name: Ожерелье Атарокса
       icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: normal
       magic_defense: 113
       effects:
-      - Физическая атака +7%
+      - Физическая атака +8%
     - item_id: 25395
       name: Ожерелье Атарокса
       icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: normal
       magic_defense: 113
       effects:
-      - Сила лечения +11%
-      - Сила восстановления боевого духа +11%
+      - Сила лечения +13%
+      - Сила восстановления боевого духа +13%
     - item_id: 25396
       name: Ожерелье Атарокса
       icon: /icon/pit-jewelry/bsfgicon.item.dragon_accessary_necklace_lilac_i00.png
       variant: epic
       magic_defense: 119
       effects:
-      - Магическая атака +6%
-      - Сила критической атаки магией +4%
+      - Магическая атака +7%
+      - Сила критической атаки магией +4.5%
       - Физическая защита +0.95%
       - Магическая защита +0.85%
     - item_id: 25397
@@ -217,7 +217,7 @@ ranks:
       variant: epic
       magic_defense: 119
       effects:
-      - Сила критической атаки +7%
+      - Сила критической атаки +8%
       - Физическая защита +0.95%
       - Магическая защита +0.85%
     - item_id: 25398
@@ -226,7 +226,7 @@ ranks:
       variant: epic
       magic_defense: 119
       effects:
-      - Физическая атака +7%
+      - Физическая атака +8%
       - Физическая защита +0.95%
       - Магическая защита +0.85%
     - item_id: 25399
@@ -235,8 +235,8 @@ ranks:
       variant: epic
       magic_defense: 119
       effects:
-      - Сила лечения +11%
-      - Сила восстановления боевого духа +11%
+      - Сила лечения +13%
+      - Сила восстановления боевого духа +13%
       - Физическая защита +0.95%
       - Магическая защита +0.85%
     - item_id: 25400
@@ -245,8 +245,8 @@ ranks:
       variant: relic
       magic_defense: 185
       effects:
-      - Магическая атака +6%
-      - Сила критической атаки магией +4%
+      - Магическая атака +7%
+      - Сила критической атаки магией +4.5%
       - Физическая защита +1.9%
       - Магическая защита +1.75%
     - item_id: 25401
@@ -255,7 +255,7 @@ ranks:
       variant: relic
       magic_defense: 185
       effects:
-      - Сила критической атаки +7%
+      - Сила критической атаки +8%
       - Физическая защита +1.9%
       - Магическая защита +1.75%
     - item_id: 25402
@@ -264,7 +264,7 @@ ranks:
       variant: relic
       magic_defense: 185
       effects:
-      - Физическая атака +7%
+      - Физическая атака +8%
       - Физическая защита +1.9%
       - Магическая защита +1.75%
     - item_id: 25403
@@ -273,8 +273,8 @@ ranks:
       variant: relic
       magic_defense: 185
       effects:
-      - Сила лечения +11%
-      - Сила восстановления боевого духа +11%
+      - Сила лечения +13%
+      - Сила восстановления боевого духа +13%
       - Физическая защита +1.9%
       - Магическая защита +1.75%
   - name: Бетта-сусцептор
@@ -362,38 +362,38 @@ ranks:
       variant: normal
       magic_defense: 86
       effects:
-      - Магическая атака +5%
-      - Сила критической атаки магией +3.5%
+      - Магическая атака +6%
+      - Сила критической атаки магией +4%
     - item_id: 25016
       name: Серьга благословления бастиона
       icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: normal
       magic_defense: 86
       effects:
-      - Сила лечения +9%
-      - Сила восстановления боевого духа +9%
+      - Сила лечения +11%
+      - Сила восстановления боевого духа +11%
     - item_id: 25017
       name: Серьга боли бастиона
       icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: normal
       magic_defense: 86
       effects:
-      - Сила критической атаки +6%
+      - Сила критической атаки +7%
     - item_id: 25018
       name: Серьга силы бастиона
       icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: normal
       magic_defense: 86
       effects:
-      - Физическая атака +6%
+      - Физическая атака +7%
     - item_id: 25019
       name: Серьга интенсивности бастиона
       icon: /icon/pit-jewelry/icon.accessory_earring_of_orfen_i03.png
       variant: epic
       magic_defense: 90
       effects:
-      - Магическая атака +5%
-      - Сила критической атаки магией +3.5%
+      - Магическая атака +6%
+      - Сила критической атаки магией +4%
       - Физическая защита +0.95%
       - Магическая защита +0.85%
     - item_id: 25020
@@ -402,8 +402,8 @@ ranks:
       variant: epic
       magic_defense: 90
       effects:
-      - Сила лечения +9%
-      - Сила восстановления боевого духа +9%
+      - Сила лечения +11%
+      - Сила восстановления боевого духа +11%
       - Физическая защита +0.95%
       - Магическая защита +0.85%
     - item_id: 25021
@@ -412,7 +412,7 @@ ranks:
       variant: epic
       magic_defense: 90
       effects:
-      - Сила критической атаки +6%
+      - Сила критической атаки +7%
       - Физическая защита +0.95%
       - Магическая защита +0.85%
     - item_id: 25022
@@ -421,7 +421,7 @@ ranks:
       variant: epic
       magic_defense: 90
       effects:
-      - Физическая атака +6%
+      - Физическая атака +7%
       - Физическая защита +0.95%
       - Магическая защита +0.85%
     - item_id: 25023
@@ -430,8 +430,8 @@ ranks:
       variant: relic
       magic_defense: 134
       effects:
-      - Магическая атака +5%
-      - Сила критической атаки магией +3.5%
+      - Магическая атака +6%
+      - Сила критической атаки магией +4%
       - Физическая защита +1.9%
       - Магическая защита +1.75%
     - item_id: 25024
@@ -440,8 +440,8 @@ ranks:
       variant: relic
       magic_defense: 134
       effects:
-      - Сила лечения +9%
-      - Сила восстановления боевого духа +9%
+      - Сила лечения +11%
+      - Сила восстановления боевого духа +11%
       - Физическая защита +1.9%
       - Магическая защита +1.75%
     - item_id: 25025
@@ -450,7 +450,7 @@ ranks:
       variant: relic
       magic_defense: 134
       effects:
-      - Сила критической атаки +6%
+      - Сила критической атаки +7%
       - Физическая защита +1.9%
       - Магическая защита +1.75%
     - item_id: 25026
@@ -459,7 +459,7 @@ ranks:
       variant: relic
       magic_defense: 134
       effects:
-      - Физическая атака +6%
+      - Физическая атака +7%
       - Физическая защита +1.9%
       - Магическая защита +1.75%
   - name: Бурекрылая
@@ -1407,7 +1407,7 @@ ranks:
       variant: normal
       magic_defense: 108
       effects:
-      - Сила критической атаки +6%
+      - Сила критической атаки +7%
     - item_id: 24985
       name: Ожерелье Зефира
       icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace02.png
@@ -1416,7 +1416,7 @@ ranks:
       effects:
       - Физическая защита +0.95%
       - Магическая защита +0.85%
-      - Сила критической атаки +6%
+      - Сила критической атаки +7%
     - item_id: 24993
       name: Ожерелье Зефира
       icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace02.png
@@ -1425,7 +1425,7 @@ ranks:
       effects:
       - Физическая защита +1.9%
       - Магическая защита +1.75%
-      - Сила критической атаки +6%
+      - Сила критической атаки +7%
   - name: Инко
     items:
     - item_id: 19901
@@ -1600,30 +1600,30 @@ ranks:
       variant: normal
       magic_defense: 60
       effects:
-      - Магическая атака +5%
-      - Сила критической атаки магией +3.5%
+      - Магическая атака +6%
+      - Сила критической атаки магией +4%
     - item_id: 24980
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: normal
       magic_defense: 60
       effects:
-      - Сила лечения +9%
-      - Сила восстановления боевого духа +9%
+      - Сила лечения +11%
+      - Сила восстановления боевого духа +11%
     - item_id: 24981
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: normal
       magic_defense: 60
       effects:
-      - Сила критической атаки +6%
+      - Сила критической атаки +7%
     - item_id: 24982
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
       variant: normal
       magic_defense: 60
       effects:
-      - Физическая атака +6%
+      - Физическая атака +7%
     - item_id: 24987
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
@@ -1632,8 +1632,8 @@ ranks:
       effects:
       - Физическая защита +0.95%
       - Магическая защита +0.85%
-      - Магическая атака +5%
-      - Сила критической атаки магией +3.5%
+      - Магическая атака +6%
+      - Сила критической атаки магией +4%
     - item_id: 24988
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
@@ -1642,8 +1642,8 @@ ranks:
       effects:
       - Физическая защита +0.95%
       - Магическая защита +0.85%
-      - Сила лечения +9%
-      - Сила восстановления боевого духа +9%
+      - Сила лечения +11%
+      - Сила восстановления боевого духа +11%
     - item_id: 24989
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
@@ -1652,7 +1652,7 @@ ranks:
       effects:
       - Физическая защита +0.95%
       - Магическая защита +0.85%
-      - Сила критической атаки +6%
+      - Сила критической атаки +7%
     - item_id: 24990
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
@@ -1661,7 +1661,7 @@ ranks:
       effects:
       - Физическая защита +0.95%
       - Магическая защита +0.85%
-      - Физическая атака +6%
+      - Физическая атака +7%
     - item_id: 24995
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
@@ -1670,8 +1670,8 @@ ranks:
       effects:
       - Физическая защита +1.9%
       - Магическая защита +1.75%
-      - Магическая атака +5%
-      - Сила критической атаки магией +3.5%
+      - Магическая атака +6%
+      - Сила критической атаки магией +4%
     - item_id: 24996
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
@@ -1680,8 +1680,8 @@ ranks:
       effects:
       - Физическая защита +1.9%
       - Магическая защита +1.75%
-      - Сила лечения +9%
-      - Сила восстановления боевого духа +9%
+      - Сила лечения +11%
+      - Сила восстановления боевого духа +11%
     - item_id: 24997
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
@@ -1690,7 +1690,7 @@ ranks:
       effects:
       - Физическая защита +1.9%
       - Магическая защита +1.75%
-      - Сила критической атаки +6%
+      - Сила критической атаки +7%
     - item_id: 24998
       name: Кольцо Королевы муравьев
       icon: /icon/pit-jewelry/icon.accessory_ring_of_queen_ant_i00.png
@@ -1699,7 +1699,7 @@ ranks:
       effects:
       - Физическая защита +1.9%
       - Магическая защита +1.75%
-      - Физическая атака +6%
+      - Физическая атака +7%
   - name: Королева насекомых
     items:
     - item_id: 24594
@@ -2052,8 +2052,8 @@ ranks:
       variant: normal
       magic_defense: 108
       effects:
-      - Сила лечения +9%
-      - Сила восстановления боевого духа +9%
+      - Сила лечения +11%
+      - Сила восстановления боевого духа +11%
     - item_id: 24984
       name: Ожерелье Моа
       icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace04.png
@@ -2062,8 +2062,8 @@ ranks:
       effects:
       - Физическая защита +0.95%
       - Магическая защита +0.85%
-      - Сила лечения +9%
-      - Сила восстановления боевого духа +9%
+      - Сила лечения +11%
+      - Сила восстановления боевого духа +11%
     - item_id: 24992
       name: Ожерелье Моа
       icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace04.png
@@ -2072,8 +2072,8 @@ ranks:
       effects:
       - Физическая защита +1.9%
       - Магическая защита +1.75%
-      - Сила лечения +9%
-      - Сила восстановления боевого духа +9%
+      - Сила лечения +11%
+      - Сила восстановления боевого духа +11%
   - name: Нага
     items:
     - item_id: 5838
@@ -2168,8 +2168,8 @@ ranks:
       variant: normal
       magic_defense: 108
       effects:
-      - Магическая атака +5%
-      - Сила критической атаки магией +3.5%
+      - Магическая атака +6%
+      - Сила критической атаки магией +4%
     - item_id: 24983
       name: Ожерелье Никши
       icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace01.png
@@ -2178,8 +2178,8 @@ ranks:
       effects:
       - Физическая защита +0.95%
       - Магическая защита +0.85%
-      - Магическая атака +5%
-      - Сила критической атаки магией +3.5%
+      - Магическая атака +6%
+      - Сила критической атаки магией +4%
     - item_id: 24991
       name: Ожерелье Никши
       icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace01.png
@@ -2188,8 +2188,8 @@ ranks:
       effects:
       - Физическая защита +1.9%
       - Магическая защита +1.75%
-      - Магическая атака +5%
-      - Сила критической атаки магией +3.5%
+      - Магическая атака +6%
+      - Сила критической атаки магией +4%
   - name: Носферату
     items:
     - item_id: 24597
@@ -3298,7 +3298,7 @@ ranks:
       variant: normal
       magic_defense: 108
       effects:
-      - Физическая атака +6%
+      - Физическая атака +7%
     - item_id: 24986
       name: Ожерелье Тэроса
       icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace03.png
@@ -3307,7 +3307,7 @@ ranks:
       effects:
       - Физическая защита +0.95%
       - Магическая защита +0.85%
-      - Физическая атака +6%
+      - Физическая атака +7%
     - item_id: 24994
       name: Ожерелье Тэроса
       icon: /icon/pit-jewelry/bsfgicon.l2icon.dragon_accessary_necklace03.png
@@ -3316,7 +3316,7 @@ ranks:
       effects:
       - Физическая защита +1.9%
       - Магическая защита +1.75%
-      - Физическая атака +6%
+      - Физическая атака +7%
   - name: Черная пантера
     items:
     - item_id: 19907
